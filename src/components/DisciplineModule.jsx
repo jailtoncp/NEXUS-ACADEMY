@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { ArrowLeft, ArrowRight, BookOpen, Check, ChevronDown, CircleHelp, Clock3, ListChecks, RotateCcw } from 'lucide-react';
+import { ArrowLeft, ArrowRight, ArrowUpRight, BookOpen, Check, ChevronDown, CircleHelp, Clock3, ListChecks, RotateCcw } from 'lucide-react';
 import './discipline-module.css';
 
 const HISTORY_KEY = 'nexus-academy:answer-history:v1';
@@ -32,8 +32,8 @@ export default function DisciplineModule({ subject, defaultSection = 'content' }
 
   useEffect(() => {
     setSection(defaultSection);
-    if (defaultSection === 'questions') setTopicId('');
-  }, [defaultSection]);
+    setTopicId(defaultSection === 'questions' ? '' : subject.topics[0]?.id);
+  }, [defaultSection, subject.id]);
 
   const questions = useMemo(
     () => subject.questions.filter((question) => !topicId || question.topicId === topicId),
@@ -91,7 +91,16 @@ export default function DisciplineModule({ subject, defaultSection = 'content' }
             {topic.subtopics.map((subtopic) => (
               <article className="lesson-card" key={subtopic.id}>
                 <div className="lesson-number">{String(topic.order).padStart(2, '0')}.{String(subtopic.order).padStart(2, '0')}</div>
-                <div><h3>{subtopic.title}</h3>{subtopic.content.split('\n\n').map((paragraph, index) => <p key={index}>{paragraph}</p>)}</div>
+                <div>
+                  <h3>{subtopic.title}</h3>
+                  {subtopic.content.split('\n\n').map((paragraph, index) => <p key={index}>{paragraph}</p>)}
+                  {subtopic.references?.length > 0 && (
+                    <div className="lesson-references">
+                      <strong>Fontes oficiais e documentação</strong>
+                      <ul>{subtopic.references.map((reference) => <li key={reference.url}><a href={reference.url} target="_blank" rel="noreferrer">{reference.label}<ArrowUpRight /></a></li>)}</ul>
+                    </div>
+                  )}
+                </div>
               </article>
             ))}
             <div className="lesson-footer"><span>Próximo assunto</span><button onClick={() => setTopicId(subject.topics[(topic.order) % subject.topics.length].id)}>{subject.topics[(topic.order) % subject.topics.length].title}<ArrowRight /></button></div>
@@ -104,17 +113,17 @@ export default function DisciplineModule({ subject, defaultSection = 'content' }
           <aside className="question-filters">
             <label htmlFor="question-topic">Filtrar por assunto</label>
             <div className="select-wrap"><select id="question-topic" value={topicId} onChange={(event) => setTopicId(event.target.value)}><option value="">Todos os assuntos</option>{subject.topics.map((item) => <option value={item.id} key={item.id}>{item.title}</option>)}</select><ChevronDown /></div>
-            <div className="filter-note"><CircleHelp /><span>Questões estruturadas a partir dos materiais do acervo. A origem e o ano, quando identificados, acompanham cada item.{subject.reviewCount > 0 && <> {subject.reviewCount} questão(ões) foram preservadas no inventário de auditoria para revisão por OCR ou gabarito e não entram no treino interativo.</>}</span></div>
+            <div className="filter-note"><CircleHelp /><span>{subject.questionNotice || 'Questões estruturadas a partir dos materiais do acervo. A origem e o ano, quando identificados, acompanham cada item.'}{subject.reviewCount > 0 && <> {subject.reviewCount} questão(ões) foram preservadas no inventário de auditoria para revisão por OCR ou gabarito e não entram no treino interativo.</>}</span></div>
             <button className="text-action" onClick={() => setSection('content')}><ArrowLeft /> Voltar ao conteúdo</button>
           </aside>
-          <QuestionRunner key={topicId || 'all'} questions={questions} topic={topicId ? topic : null} topics={subject.topics} onAnswer={recordAnswer} />
+          <QuestionRunner key={topicId || 'all'} questions={questions} topic={topicId ? topic : null} topics={subject.topics} subjectName={subject.name} onAnswer={recordAnswer} />
         </div>
       )}
 
       {section === 'history' && (
         <section className="history-panel">
           <div className="history-heading"><div><span>REGISTROS LOCAIS</span><h2>Seu histórico de respostas</h2></div><button className="small-action" onClick={() => setHistory(readHistory())}><RotateCcw /> Atualizar</button></div>
-          {history.filter((item) => item.discipline === subject.id).length === 0 ? <div className="history-empty"><Clock3 /><h3>Nenhuma resposta registrada ainda</h3><p>Responda a uma questão para começar seu histórico de Raciocínio Lógico.</p><button className="primary-action" onClick={() => setSection('questions')}>Ir para questões</button></div> : (
+          {history.filter((item) => item.discipline === subject.id).length === 0 ? <div className="history-empty"><Clock3 /><h3>Nenhuma resposta registrada ainda</h3><p>Responda a uma questão para começar seu histórico de {subject.name}.</p><button className="primary-action" onClick={() => setSection('questions')}>Ir para questões</button></div> : (
             <div className="history-table-wrap"><table className="history-table"><thead><tr><th>Data e hora</th><th>Assunto</th><th>Escolhida</th><th>Gabarito</th><th>Resultado</th><th>Tempo</th></tr></thead><tbody>{history.filter((item) => item.discipline === subject.id).slice().reverse().map((item, index) => { const st = getSubtopic(subject, item.topicId, item.subtopicId); return <tr key={`${item.answeredAt}-${index}`}><td>{new Date(item.answeredAt).toLocaleString('pt-BR')}</td><td>{st?.title || item.topicId}</td><td>{item.chosenOption}</td><td>{item.correctOption}</td><td><span className={item.isCorrect ? 'result-good' : 'result-bad'}>{item.isCorrect ? 'Acerto' : 'Erro'}</span></td><td>{item.responseTimeMs ? `${Math.round(item.responseTimeMs / 1000)} s` : '—'}</td></tr>; })}</tbody></table></div>
           )}
         </section>
@@ -123,7 +132,14 @@ export default function DisciplineModule({ subject, defaultSection = 'content' }
   );
 }
 
-function QuestionRunner({ questions, topic, topics, onAnswer }) {
+function imageSrc(image) {
+  const src = image?.src || image?.path;
+  if (!src) return '';
+  if (/^(https?:|data:|blob:)/i.test(src) || src.startsWith('/')) return src;
+  return `${import.meta.env.BASE_URL}${src.replace(/^\/+/, '')}`;
+}
+
+function QuestionRunner({ questions, topic, topics, subjectName, onAnswer }) {
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState('');
   const [submitted, setSubmitted] = useState(false);
@@ -133,6 +149,8 @@ function QuestionRunner({ questions, topic, topics, onAnswer }) {
   useEffect(() => { setIndex(0); setSelected(''); setSubmitted(false); setStartedAt(Date.now()); }, [questions.length]);
 
   if (!question) return <section className="question-card empty-questions"><CircleHelp /><h2>Não há questões neste assunto</h2><p>Escolha outro assunto no filtro para continuar.</p></section>;
+
+  const promptImages = (question.images || []).filter((image) => image.location !== 'option' && imageSrc(image));
 
   function submit() {
     if (!selected || submitted) return;
@@ -147,15 +165,18 @@ function QuestionRunner({ questions, topic, topics, onAnswer }) {
 
   return (
     <section className="question-card">
-      <div className="question-meta"><span>QUESTÃO {index + 1} DE {questions.length}</span><span>{question.year || 'Ano não informado'}{question.difficulty ? ` · ${question.difficulty === 'easy' ? 'Fácil' : question.difficulty === 'medium' ? 'Média' : 'Difícil'}` : ''}</span></div>
+      <div className="question-meta"><span>QUESTÃO {index + 1} DE {questions.length}</span><span>{question.origin === 'authorial' ? 'Questão autoral · NEXUS ACADEMY' : question.year || 'Ano não informado'}{question.difficulty ? ` · ${question.difficulty === 'easy' ? 'Fácil' : question.difficulty === 'medium' ? 'Média' : 'Difícil'}` : ''}</span></div>
       <div className="question-progress"><i style={{ width: `${((index + 1) / questions.length) * 100}%` }} /></div>
-      <div className="question-topic">{topics.find((item) => item.id === question.topicId)?.title || topic?.title || 'Raciocínio Lógico'}</div>
+      <div className="question-topic">{topics.find((item) => item.id === question.topicId)?.title || topic?.title || subjectName}</div>
       <h2>{question.prompt}</h2>
+      {promptImages.length > 0 && <div className="question-figures" aria-label="Figuras e diagramas da questão">{promptImages.map((image, imageIndex) => <figure className="question-figure" key={`${image.src || image.imageIndex || imageIndex}-${imageIndex}`}><img src={imageSrc(image)} alt={image.alt || `Imagem ${imageIndex + 1} da questão`} loading="lazy" decoding="async" />{image.caption && <figcaption>{image.caption}</figcaption>}</figure>)}</div>}
       <div className="answer-options" role="radiogroup" aria-label="Alternativas">
         {Object.entries(question.options).map(([key, text]) => {
           const isCorrect = submitted && key === question.answer;
           const isWrong = submitted && key === selected && key !== question.answer;
-          return <button key={key} disabled={submitted} className={`answer-option ${selected === key ? 'chosen' : ''} ${isCorrect ? 'correct' : ''} ${isWrong ? 'wrong' : ''}`} role="radio" aria-checked={selected === key} onClick={() => setSelected(key)}><span>{key}</span><span>{text}</span>{isCorrect && <Check />}</button>;
+          const optionImages = (question.images || []).filter((image) => image.location === 'option' && image.optionKey === key && imageSrc(image));
+          const optionText = typeof text === 'string' ? text : text?.text || '';
+          return <button key={key} disabled={submitted} className={`answer-option ${optionImages.length ? 'has-image' : ''} ${selected === key ? 'chosen' : ''} ${isCorrect ? 'correct' : ''} ${isWrong ? 'wrong' : ''}`} role="radio" aria-checked={selected === key} onClick={() => setSelected(key)}><span>{key}</span><span>{optionText}</span>{optionImages.length > 0 && <span className="answer-option-images">{optionImages.map((image, imageIndex) => <img key={`${image.src || image.imageIndex || imageIndex}-${imageIndex}`} src={imageSrc(image)} alt={image.alt || `Figura da alternativa ${key}`} loading="lazy" decoding="async" />)}</span>}{isCorrect && <Check />}</button>;
         })}
       </div>
       {!submitted ? <button className="primary-action confirm-answer" disabled={!selected} onClick={submit}>Confirmar resposta</button> : (

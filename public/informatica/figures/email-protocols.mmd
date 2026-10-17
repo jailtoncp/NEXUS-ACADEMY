@@ -1,0 +1,14 @@
+flowchart TB
+    A["Cliente remetente"] -->|"submete a mensagem"| SMTP["SMTP — envio"]
+    SMTP --> S["Servidor de correio"]
+    S -->|"entrega entre servidores"| M["Caixa postal do destinatário"]
+    M -->|"sincroniza mensagens e pastas"| IMAP["IMAP"]
+    IMAP --> B["Cliente destinatário"]
+    M -->|"baixa mensagens"| POP["POP3"]
+    POP --> B
+    classDef client fill:#172a42,stroke:#7186ff,color:#edf2ff
+    classDef send fill:#102a27,stroke:#39a787,color:#e5fff6
+    classDef store fill:#302719,stroke:#d49a4c,color:#fff4df
+    class A,B client
+    class SMTP,S send
+    class M,IMAP,POP store

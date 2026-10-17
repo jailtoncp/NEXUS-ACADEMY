@@ -1,0 +1,771 @@
+{
+  "metrics": {
+    "candidateSourceDocuments": 44,
+    "sourceDocumentsUsedForTopicPlanning": 38,
+    "sourceQuestionAuditCompleted": 1,
+    "sourceQuestionAuditPending": 43,
+    "sourceQuestionsReproduced": 0,
+    "authorQuestionCount": 34,
+    "questionsFoundIncludingDuplicates": 34,
+    "duplicateQuestionsRemoved": 0,
+    "uniqueQuestions": 34,
+    "interactiveReadyQuestions": 34,
+    "needsReviewQuestions": 0,
+    "duplicateGroups": 0,
+    "answerKeyDistribution": {
+      "E": 6,
+      "A": 7,
+      "C": 7,
+      "B": 7,
+      "D": 7
+    }
+  },
+  "sourceInventory": [
+    {
+      "sourceId": "nexus-authorial-informatica-v1",
+      "sourceName": "Questões autorais — NEXUS ACADEMY",
+      "file": "src/data/subjects/informatica-question-bank.json",
+      "questionsFound": 34,
+      "readyInSource": 34,
+      "needsReviewInSource": 0,
+      "notes": "Itens novos, não oficiais, redigidos para estudo. Não transcrevem nem reproduzem figuras dos materiais protegidos."
+    }
+  ],
+  "questions": [
+    {
+      "id": "INFO-AUTH-001",
+      "origin": "authorial",
+      "prompt": "Uma estação recebe um programa, interpreta suas instruções e executa operações aritméticas e lógicas. Qual componente é responsável principalmente por esse processamento?",
+      "options": {
+        "A": "O monitor",
+        "B": "A fonte de alimentação",
+        "C": "O gabinete",
+        "D": "O teclado",
+        "E": "A unidade central de processamento (CPU)"
+      },
+      "answer": "E",
+      "comment": "A CPU executa instruções e coordena operações de processamento. Ela trabalha com dados e instruções armazenados na memória; monitor e teclado são periféricos, enquanto fonte e gabinete não executam o processamento lógico do programa.",
+      "topicId": "fundamentos",
+      "subtopicId": "hardware-software",
+      "difficulty": "easy",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "INFO-AUTH-002",
+      "origin": "authorial",
+      "prompt": "Durante uma queda de energia, um documento ainda aberto e não salvo desaparece da sessão. Qual característica da memória explica esse comportamento?",
+      "options": {
+        "A": "A RAM é volátil e perde seu conteúdo sem alimentação elétrica",
+        "B": "A memória cache substitui o armazenamento do computador",
+        "C": "A RAM é um dispositivo óptico de leitura permanente",
+        "D": "A ROM apaga os dados do usuário ao desligar",
+        "E": "A CPU mantém todos os arquivos em armazenamento magnético"
+      },
+      "answer": "A",
+      "comment": "A memória RAM mantém temporariamente dados de programas em execução e é volátil. Arquivos salvos ficam em armazenamento não volátil, como SSD ou disco rígido; por isso, salvar o documento é diferente de apenas mantê-lo aberto.",
+      "topicId": "fundamentos",
+      "subtopicId": "hardware-software",
+      "difficulty": "easy",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "INFO-AUTH-003",
+      "origin": "authorial",
+      "prompt": "Um equipamento exibe informações e também aceita comandos por toque sobre a própria tela. Como ele se classifica nessa interação?",
+      "options": {
+        "A": "Unidade exclusiva de armazenamento",
+        "B": "Componente interno de processamento",
+        "C": "Dispositivo de entrada e de saída",
+        "D": "Somente dispositivo de entrada",
+        "E": "Somente dispositivo de saída"
+      },
+      "answer": "C",
+      "comment": "A tela sensível ao toque apresenta informação ao usuário e recebe entradas por toque. A classificação depende da função exercida, não apenas do formato físico do dispositivo.",
+      "topicId": "fundamentos",
+      "subtopicId": "hardware-software",
+      "difficulty": "easy",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "INFO-AUTH-004",
+      "origin": "authorial",
+      "prompt": "Em uma questão que adota unidades binárias, considere 1 KiB = 1.024 bytes. Quantos bytes correspondem a 2 KiB?",
+      "options": {
+        "A": "2.048",
+        "B": "2.000",
+        "C": "1.024",
+        "D": "16.384",
+        "E": "512"
+      },
+      "answer": "A",
+      "comment": "Duas unidades de 1.024 bytes correspondem a 2.048 bytes. O bit (b) e o byte (B) não são a mesma unidade; um byte contém oito bits. Em contextos comerciais também aparecem unidades decimais, por isso o enunciado deve ser observado.",
+      "topicId": "fundamentos",
+      "subtopicId": "unidades-dados",
+      "difficulty": "easy",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "INFO-AUTH-005",
+      "origin": "authorial",
+      "prompt": "Uma equipe precisa executar aplicativos, organizar arquivos, controlar processos e permitir que programas usem os dispositivos do computador. Qual software fornece esse conjunto de serviços básicos?",
+      "options": {
+        "A": "Um aplicativo de videoconferência",
+        "B": "O sistema operacional",
+        "C": "Um editor de imagens",
+        "D": "Um navegador web",
+        "E": "Um compactador de arquivos"
+      },
+      "answer": "B",
+      "comment": "O sistema operacional administra recursos como processador, memória, arquivos e dispositivos, além de oferecer serviços para os aplicativos. Um aplicativo realiza tarefas específicas e depende do sistema operacional para várias operações.",
+      "topicId": "sistemas-operacionais",
+      "subtopicId": "sistema-operacional",
+      "difficulty": "easy",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "INFO-AUTH-006",
+      "origin": "authorial",
+      "prompt": "Em um sistema Linux, uma pessoa usa comandos digitados para iniciar programas e consultar arquivos. Qual componente interpreta essa interface textual e encaminha operações ao sistema?",
+      "options": {
+        "A": "A planilha eletrônica",
+        "B": "O firmware do monitor",
+        "C": "O protocolo SMTP",
+        "D": "O sistema de arquivos óptico",
+        "E": "O shell"
+      },
+      "answer": "E",
+      "comment": "O shell é uma interface que recebe comandos e solicita ao sistema operacional as operações correspondentes. Ele pode ser textual ou integrado a ambientes gráficos; não é, por si só, o núcleo do sistema nem um aplicativo de escritório.",
+      "topicId": "sistemas-operacionais",
+      "subtopicId": "sistema-operacional",
+      "difficulty": "medium",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "INFO-AUTH-007",
+      "origin": "authorial",
+      "prompt": "Uma pessoa renomeia `relatorio.odt` para `relatorio.docx` sem abrir o arquivo em um processador de texto. O que se pode concluir com segurança?",
+      "options": {
+        "A": "O sistema operacional criou uma cópia de segurança criptografada",
+        "B": "A extensão passou a indicar, com certeza, que o arquivo está livre de malware",
+        "C": "O arquivo se tornou uma planilha",
+        "D": "A alteração do nome não garante que a estrutura interna do arquivo tenha sido convertida",
+        "E": "O conteúdo foi convertido automaticamente para o formato DOCX"
+      },
+      "answer": "D",
+      "comment": "A extensão ajuda o sistema e o usuário a identificar o formato esperado, mas trocar apenas o sufixo do nome não transforma os dados internos. A conversão deve ser feita por um aplicativo compatível, usando uma opção de salvar ou exportar para outro formato.",
+      "topicId": "sistemas-operacionais",
+      "subtopicId": "arquivos-formatos",
+      "difficulty": "medium",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "INFO-AUTH-008",
+      "origin": "authorial",
+      "prompt": "Em um relatório longo, os títulos precisam manter formatação coerente e alimentar um sumário que possa ser atualizado. Qual recurso é a escolha mais adequada?",
+      "options": {
+        "A": "Inserir espaços até o título parecer alinhado",
+        "B": "Usar uma imagem para cada cabeçalho",
+        "C": "Digitar manualmente os números de página no início",
+        "D": "Aplicar estilos de título aos cabeçalhos",
+        "E": "Aplicar o mesmo rodapé a todas as páginas"
+      },
+      "answer": "D",
+      "comment": "Estilos semânticos de título associam estrutura e apresentação. Com essa hierarquia, o sumário automático pode localizar cabeçalhos e ser atualizado depois de alterações no documento. Espaços e formatação manual não criam a mesma estrutura.",
+      "topicId": "processamento-texto",
+      "subtopicId": "word-estrutura",
+      "difficulty": "medium",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "INFO-AUTH-009",
+      "origin": "authorial",
+      "prompt": "Um manual precisa ter uma página em paisagem no meio de páginas em retrato, sem mudar a orientação do restante do arquivo. Qual recurso estrutural deve ser usado?",
+      "options": {
+        "A": "Uma quebra de linha simples",
+        "B": "Uma quebra de seção que permita configuração independente",
+        "C": "Uma nota de rodapé",
+        "D": "Uma marca d'água",
+        "E": "O modo de leitura"
+      },
+      "answer": "B",
+      "comment": "A quebra de seção permite aplicar configurações de página diferentes a partes distintas do documento, como orientação, margens ou cabeçalhos. Uma quebra de página apenas inicia conteúdo em outra página e não cria uma seção independente.",
+      "topicId": "processamento-texto",
+      "subtopicId": "word-estrutura",
+      "difficulty": "medium",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "INFO-AUTH-010",
+      "origin": "authorial",
+      "prompt": "Durante a revisão de um contrato, a equipe quer que cada inserção e exclusão fique registrada para posterior aceitação ou rejeição. Qual recurso atende diretamente a esse objetivo?",
+      "options": {
+        "A": "Alterar o zoom",
+        "B": "Inserir uma quebra de página",
+        "C": "Exibir duas páginas por tela",
+        "D": "Ativar a régua",
+        "E": "Controlar alterações"
+      },
+      "answer": "E",
+      "comment": "O controle de alterações registra modificações como inserções e exclusões, que podem ser aceitas ou rejeitadas durante a revisão. Comentários registram observações, mas não substituem o histórico formal das mudanças no texto.",
+      "topicId": "processamento-texto",
+      "subtopicId": "word-revisao",
+      "difficulty": "easy",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "INFO-AUTH-011",
+      "origin": "authorial",
+      "prompt": "A fórmula de uma planilha usa a taxa armazenada em `C4`. Ao copiar a fórmula para outras células, a referência deve continuar apontando exatamente para `C4`. Qual escrita fixa linha e coluna?",
+      "options": {
+        "A": "C4",
+        "B": "$C$4",
+        "C": "C$",
+        "D": "C:4",
+        "E": "$4C"
+      },
+      "answer": "B",
+      "comment": "O cifrão antes da letra fixa a coluna e o cifrão antes do número fixa a linha. Assim, `$C$4` é uma referência absoluta. Sem os cifrões, a referência é relativa e pode mudar quando a fórmula é copiada.",
+      "topicId": "planilhas",
+      "subtopicId": "referencias-formulas",
+      "difficulty": "medium",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "INFO-AUTH-012",
+      "origin": "authorial",
+      "prompt": "Na célula D5 há a fórmula `=B5+C5`. Ao copiá-la para D6 em um aplicativo de planilhas que usa referências relativas, qual fórmula resulta normalmente?",
+      "options": {
+        "A": "=$B$5+$C$5",
+        "B": "=B6+C6",
+        "C": "=B4+C4",
+        "D": "=B5+C5",
+        "E": "=D5+D6"
+      },
+      "answer": "B",
+      "comment": "Referências relativas acompanham o deslocamento da fórmula. Ao descer uma linha, B5 e C5 passam a B6 e C6. Cifrões seriam necessários para impedir a alteração de partes específicas da referência.",
+      "topicId": "planilhas",
+      "subtopicId": "referencias-formulas",
+      "difficulty": "medium",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "INFO-AUTH-013",
+      "origin": "authorial",
+      "prompt": "Uma planilha contém a pontuação de cada candidato na célula E2. Qual resultado a fórmula `=IF(E2>=70,\"Apto\",\"Revisar\")` apresenta quando E2 vale 68?",
+      "options": {
+        "A": "Revisar",
+        "B": "70",
+        "C": "Um erro de referência",
+        "D": "Apto",
+        "E": "68%"
+      },
+      "answer": "A",
+      "comment": "A função IF testa uma condição e devolve o segundo argumento quando a condição é falsa. Como 68 não é maior ou igual a 70, o resultado é `Revisar`. Em instalações localizadas, o nome da função e o separador de argumentos podem variar.",
+      "topicId": "planilhas",
+      "subtopicId": "funcoes-dados",
+      "difficulty": "medium",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "INFO-AUTH-014",
+      "origin": "authorial",
+      "prompt": "Uma fórmula tenta dividir o valor da célula A2 pelo valor da célula B2, mas B2 contém zero. Qual tipo de problema é esperado em uma planilha convencional?",
+      "options": {
+        "A": "Erro de nome de domínio",
+        "B": "Erro de autenticação",
+        "C": "Erro de impressão",
+        "D": "Erro de arquivo corrompido",
+        "E": "Erro de divisão por zero"
+      },
+      "answer": "E",
+      "comment": "A divisão por zero não é definida na aritmética usual e planilhas sinalizam essa condição com um erro correspondente, frequentemente exibido como `#DIV/0!`. A fórmula pode tratar a condição com uma verificação antes de dividir.",
+      "topicId": "planilhas",
+      "subtopicId": "funcoes-dados",
+      "difficulty": "easy",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "INFO-AUTH-015",
+      "origin": "authorial",
+      "prompt": "Uma equipe aplica um filtro para visualizar apenas registros com situação `Pendente`. Qual afirmação descreve corretamente o efeito usual do filtro?",
+      "options": {
+        "A": "Apaga permanentemente todos os demais registros",
+        "B": "Substitui as fórmulas por valores",
+        "C": "Converte a tabela em uma apresentação",
+        "D": "Oculta temporariamente linhas que não atendem ao critério",
+        "E": "Criptografa o arquivo inteiro"
+      },
+      "answer": "D",
+      "comment": "Um filtro restringe a visualização aos registros que atendem às condições definidas; normalmente, as outras linhas permanecem na tabela, apenas não são exibidas naquele momento. Excluir dados exige uma operação diferente.",
+      "topicId": "planilhas",
+      "subtopicId": "funcoes-dados",
+      "difficulty": "easy",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "INFO-AUTH-016",
+      "origin": "authorial",
+      "prompt": "Em uma apresentação, um efeito aparece quando o apresentador passa de um slide para o seguinte. Em qual categoria esse efeito se enquadra?",
+      "options": {
+        "A": "Quebra de seção",
+        "B": "Animação de objeto",
+        "C": "Transição entre slides",
+        "D": "Validação de dados",
+        "E": "Filtro de exibição"
+      },
+      "answer": "C",
+      "comment": "A transição controla a passagem de um slide para outro. Animações afetam elementos dentro do próprio slide, como texto ou imagens. A distinção é conceitual e os nomes visíveis podem variar entre versões do aplicativo.",
+      "topicId": "apresentacoes",
+      "subtopicId": "transicoes-animacoes",
+      "difficulty": "easy",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "INFO-AUTH-017",
+      "origin": "authorial",
+      "prompt": "Uma instituição precisa padronizar o logotipo, as cores e a posição do rodapé em dezenas de slides. Qual recurso reduz o trabalho de editar cada slide separadamente?",
+      "options": {
+        "A": "Slide mestre ou recurso equivalente de tema",
+        "B": "Notas do apresentador",
+        "C": "Classificação de comentários",
+        "D": "Histórico do navegador",
+        "E": "Formato de célula"
+      },
+      "answer": "A",
+      "comment": "O slide mestre concentra elementos e estilos comuns que podem ser aplicados a vários slides. Alterar o mestre ou o tema permite manter consistência visual sem repetir a mesma edição manualmente em cada página da apresentação.",
+      "topicId": "apresentacoes",
+      "subtopicId": "mestre-layouts",
+      "difficulty": "medium",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "INFO-AUTH-018",
+      "origin": "authorial",
+      "prompt": "Uma pessoa digita `portal.exemplo` no navegador. Observe o esquema. Qual etapa localiza o endereço IP associado ao nome antes da conexão com o servidor web?",
+      "options": {
+        "A": "A criptografia TLS do conteúdo",
+        "B": "A entrega de e-mail por SMTP",
+        "C": "A consulta ao resolvedor DNS",
+        "D": "A transferência de arquivos por POP3",
+        "E": "A filtragem de linhas de uma planilha"
+      },
+      "answer": "C",
+      "comment": "O DNS permite consultar informações associadas a nomes de domínio, incluindo endereços IP. A resposta pode vir de cache ou de consultas a servidores DNS. HTTP/HTTPS atua na comunicação com o serviço web; SMTP e POP3 pertencem ao correio eletrônico.",
+      "topicId": "internet-redes",
+      "subtopicId": "dns-web",
+      "difficulty": "medium",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY",
+      "images": [
+        {
+          "src": "informatica/figures/dns-resolution.png",
+          "alt": "Fluxo autoral: computador consulta um resolvedor DNS, que consulta a hierarquia de nomes e retorna um endereço IP antes do acesso ao servidor web.",
+          "caption": "Diagrama didático criado para esta questão; não é captura de tela de software."
+        }
+      ]
+    },
+    {
+      "id": "INFO-AUTH-019",
+      "origin": "authorial",
+      "prompt": "Uma conexão usa HTTPS. Qual interpretação é tecnicamente mais cuidadosa?",
+      "options": {
+        "A": "O site está automaticamente livre de golpes",
+        "B": "HTTPS é um protocolo de envio de e-mail",
+        "C": "O navegador não envia dados ao servidor",
+        "D": "A conexão usa HTTP protegido por TLS, mas isso não prova que o conteúdo do site seja verdadeiro ou confiável",
+        "E": "A página não pode usar cookies"
+      },
+      "answer": "D",
+      "comment": "TLS pode oferecer confidencialidade, integridade e autenticação do servidor na conexão. Isso não valida as afirmações publicadas pelo site nem garante que a organização seja legítima; ainda é necessário avaliar domínio, contexto e conteúdo.",
+      "topicId": "internet-redes",
+      "subtopicId": "dns-web",
+      "difficulty": "medium",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "INFO-AUTH-020",
+      "origin": "authorial",
+      "prompt": "Um aplicativo de voz prioriza baixa latência e aceita que alguns pacotes não cheguem, enquanto outro sistema exige entrega ordenada e confiável dos dados. Qual comparação geral entre UDP e TCP é correta?",
+      "options": {
+        "A": "TCP oferece mecanismos de entrega confiável e ordenada; UDP não fornece a mesma garantia no próprio protocolo",
+        "B": "TCP é exclusivo de redes locais sem roteadores",
+        "C": "UDP garante entrega ordenada e retransmissão; TCP não",
+        "D": "Os dois protocolos são formatos de planilha",
+        "E": "UDP resolve nomes de domínio e TCP envia e-mail"
+      },
+      "answer": "A",
+      "comment": "TCP oferece mecanismos de controle que permitem uma entrega confiável e ordenada. UDP tem menor complexidade e não garante, por si só, entrega ou ordenação; aplicações em tempo real podem preferi-lo e tratar perdas conforme suas necessidades.",
+      "topicId": "internet-redes",
+      "subtopicId": "protocolos-redes",
+      "difficulty": "medium",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "INFO-AUTH-021",
+      "origin": "authorial",
+      "prompt": "Uma universidade permite que parceiros externos consultem uma área restrita de um portal, com contas autorizadas, sem tornar todo o conteúdo público. Como essa extensão de acesso costuma ser classificada?",
+      "options": {
+        "A": "Sistema de arquivos temporário",
+        "B": "Rede isolada sem conexão",
+        "C": "Planilha local",
+        "D": "Área de memória cache",
+        "E": "Extranet"
+      },
+      "answer": "E",
+      "comment": "Uma extranet oferece a usuários externos autorizados acesso controlado a parte dos recursos de uma organização. Uma intranet é voltada principalmente ao público interno; a Internet é uma rede pública global, embora serviços nela possam exigir autenticação.",
+      "topicId": "internet-redes",
+      "subtopicId": "redes-organizacionais",
+      "difficulty": "medium",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "INFO-AUTH-022",
+      "origin": "authorial",
+      "prompt": "Um servidor recebeu uma mensagem enviada por outra organização. O destinatário quer acompanhar a mesma caixa postal em um computador e em um celular, mantendo mensagens e pastas sincronizadas. Observe o diagrama e identifique o protocolo apropriado para esse acesso.",
+      "options": {
+        "A": "POP3",
+        "B": "SMTP",
+        "C": "DNS",
+        "D": "IMAP",
+        "E": "TLS"
+      },
+      "answer": "D",
+      "comment": "IMAP permite acessar e organizar mensagens mantidas no servidor, favorecendo sincronização entre clientes. SMTP é usado para transporte/envio de correio. POP3 é um protocolo de recuperação de mensagens e, conforme a configuração do cliente, pode envolver descarregamento para o dispositivo.",
+      "topicId": "correio-eletronico",
+      "subtopicId": "protocolos-email",
+      "difficulty": "medium",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY",
+      "images": [
+        {
+          "src": "informatica/figures/email-protocols.png",
+          "alt": "Diagrama autoral de correio eletrônico: SMTP participa do envio; IMAP sincroniza o acesso à caixa postal; POP3 recupera mensagens.",
+          "caption": "Esquema didático criado para esta questão, com os papéis gerais dos protocolos."
+        }
+      ]
+    },
+    {
+      "id": "INFO-AUTH-023",
+      "origin": "authorial",
+      "prompt": "Ao enviar um aviso a muitas pessoas, a responsável quer que os destinatários não vejam os endereços uns dos outros. Qual campo de e-mail é apropriado para esses destinatários?",
+      "options": {
+        "A": "Cc",
+        "B": "Cco/Bcc",
+        "C": "Responder a",
+        "D": "Assunto",
+        "E": "Para"
+      },
+      "answer": "B",
+      "comment": "Cco (cópia oculta, Bcc em interfaces em inglês) evita que os demais destinatários vejam esses endereços na lista usual de destinatários da mensagem. Isso não substitui cuidado com o conteúdo, anexos e destinatários efetivamente selecionados.",
+      "topicId": "correio-eletronico",
+      "subtopicId": "campos-mensagem",
+      "difficulty": "easy",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "INFO-AUTH-024",
+      "origin": "authorial",
+      "prompt": "Uma equipe conversa por áudio usando a conexão de dados de seus computadores, sem uma linha telefônica tradicional como meio principal. Qual conceito descreve essa comunicação?",
+      "options": {
+        "A": "POP3",
+        "B": "DNSSEC",
+        "C": "VoIP",
+        "D": "OCR",
+        "E": "BIOS"
+      },
+      "answer": "C",
+      "comment": "VoIP (voz sobre IP) transporta comunicação de voz por redes que usam o protocolo IP. O desempenho percebido depende, entre outros fatores, de latência, variação de atraso, perda de pacotes e capacidade da rede.",
+      "topicId": "correio-eletronico",
+      "subtopicId": "campos-mensagem",
+      "difficulty": "easy",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "INFO-AUTH-025",
+      "origin": "authorial",
+      "prompt": "Uma servidora precisa guardar rascunhos próprios e também compartilhar documentos de uma equipe com permissões comuns. Qual associação entre serviços Microsoft 365 é mais adequada, em termos gerais?",
+      "options": {
+        "A": "SharePoint para executar o processador; OneDrive para filtrar pacotes",
+        "B": "OneDrive e SharePoint são nomes alternativos para o mesmo sistema operacional",
+        "C": "OneDrive para arquivos individuais de trabalho; SharePoint para bibliotecas e colaboração de equipes",
+        "D": "Os dois serviços são exclusivamente aplicativos locais sem armazenamento remoto",
+        "E": "OneDrive como protocolo de envio de e-mail; SharePoint como navegador"
+      },
+      "answer": "C",
+      "comment": "OneDrive oferece armazenamento de arquivos associado ao usuário, enquanto SharePoint sustenta bibliotecas e espaços colaborativos de equipes. Na prática, os dois serviços se integram; localização e permissões dependem da forma de compartilhamento e da configuração da organização.",
+      "topicId": "nuvem-colaboracao",
+      "subtopicId": "onedrive-sharepoint",
+      "difficulty": "medium",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "INFO-AUTH-026",
+      "origin": "authorial",
+      "prompt": "Uma reunião recorrente foi criada em um canal do Teams, e uma participante inicia a gravação. Segundo a documentação atual da Microsoft, em que local a gravação de uma reunião de canal é armazenada?",
+      "options": {
+        "A": "Na pasta de downloads de todos os participantes",
+        "B": "No computador de cada convidado, automaticamente",
+        "C": "Exclusivamente em um servidor público de vídeo",
+        "D": "No site SharePoint associado à equipe/canal",
+        "E": "Na caixa de saída do Outlook"
+      },
+      "answer": "D",
+      "comment": "A documentação atual indica que gravações de reuniões de canal são armazenadas no site SharePoint associado ao canal, na biblioteca de documentos. Para reuniões que não são de canal, a gravação costuma ser salva no OneDrive do organizador. Permissões e retenção podem variar conforme políticas da organização.",
+      "topicId": "nuvem-colaboracao",
+      "subtopicId": "teams-gravacoes",
+      "difficulty": "medium",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY; fato de produto conferido em documentação Microsoft atual"
+    },
+    {
+      "id": "INFO-AUTH-027",
+      "origin": "authorial",
+      "prompt": "Uma equipe precisa que várias pessoas editem páginas de anotações compartilhadas, com alterações sincronizadas e acesso controlado. Qual uso combina melhor com um bloco de anotações colaborativo do OneNote?",
+      "options": {
+        "A": "Manter anotações organizadas em seções e páginas, compartilhadas em armazenamento compatível",
+        "B": "Substituir a função de um antivírus",
+        "C": "Executar cálculos de processador sem sistema operacional",
+        "D": "Atribuir endereços IP a roteadores",
+        "E": "Encaminhar e-mail entre servidores usando SMTP"
+      },
+      "answer": "A",
+      "comment": "O OneNote organiza anotações em blocos, seções e páginas. Quando o bloco está em armazenamento em nuvem compatível e as pessoas têm permissão, o conteúdo pode ser compartilhado e sincronizado. O recurso não substitui controles de segurança nem protocolos de rede.",
+      "topicId": "nuvem-colaboracao",
+      "subtopicId": "onenote",
+      "difficulty": "easy",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "INFO-AUTH-028",
+      "origin": "authorial",
+      "prompt": "Uma mensagem inesperada afirma que a conta será bloqueada e pede que a pessoa acesse um endereço encurtado para informar sua senha. Qual conduta reduz melhor o risco de phishing?",
+      "options": {
+        "A": "Não usar o link recebido; verificar a solicitação por um canal oficial conhecido e reportar a mensagem",
+        "B": "Responder à mensagem com a senha para confirmar a identidade",
+        "C": "Desativar as atualizações do navegador",
+        "D": "Abrir o link imediatamente para evitar o bloqueio",
+        "E": "Encaminhar o link a colegas para testarem"
+      },
+      "answer": "A",
+      "comment": "Mensagens de phishing costumam pressionar a vítima a agir e direcioná-la a links ou anexos perigosos. Em vez de usar o endereço recebido, confirme a solicitação por um canal oficial independente e reporte a mensagem conforme o procedimento da organização.",
+      "topicId": "seguranca-digital",
+      "subtopicId": "phishing",
+      "difficulty": "easy",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "INFO-AUTH-029",
+      "origin": "authorial",
+      "prompt": "Um serviço exige senha e, além dela, um código produzido por um aplicativo autenticador. Qual propriedade de segurança essa combinação procura acrescentar?",
+      "options": {
+        "A": "Resolução de nomes DNS",
+        "B": "Compressão sem perda",
+        "C": "Autenticação multifator, combinando fatores de categorias diferentes",
+        "D": "Sincronização de planilhas",
+        "E": "Desfragmentação de arquivos"
+      },
+      "answer": "C",
+      "comment": "A autenticação multifator exige evidências de mais de uma categoria, como algo que a pessoa sabe (senha) e algo que possui (um dispositivo ou autenticador). Dois códigos ou duas senhas não se tornam automaticamente fatores distintos só por serem diferentes.",
+      "topicId": "seguranca-digital",
+      "subtopicId": "autenticacao",
+      "difficulty": "medium",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "INFO-AUTH-030",
+      "origin": "authorial",
+      "prompt": "Um administrador cria regras para permitir conexões de saída aprovadas e bloquear conexões de entrada não solicitadas. Qual ferramenta de rede pode aplicar esse tipo de política?",
+      "options": {
+        "A": "Serviço de diretório de imagens",
+        "B": "Firewall",
+        "C": "Compactador de arquivos",
+        "D": "Processador de texto",
+        "E": "Leitor de PDF"
+      },
+      "answer": "B",
+      "comment": "Um firewall aplica regras ao tráfego de rede, permitindo ou bloqueando comunicações conforme critérios configurados. Ele não substitui antivírus, correções de segurança, autenticação ou análise do conteúdo de todos os arquivos.",
+      "topicId": "seguranca-digital",
+      "subtopicId": "controles-defesa",
+      "difficulty": "easy",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "INFO-AUTH-031",
+      "origin": "authorial",
+      "prompt": "Após abrir um anexo malicioso, uma organização encontra vários arquivos inacessíveis e uma exigência de pagamento para recuperar o acesso. Qual ameaça é mais compatível com essa situação?",
+      "options": {
+        "A": "Atualização cumulativa",
+        "B": "Cookie de sessão",
+        "C": "Ransomware",
+        "D": "Cliente IMAP",
+        "E": "Filtro antispam"
+      },
+      "answer": "C",
+      "comment": "Ransomware é uma categoria de malware que pode criptografar ou bloquear dados e exigir pagamento. A resposta deve seguir o plano de incidentes: isolar sistemas afetados quando indicado, acionar a equipe responsável, preservar evidências e recuperar a partir de cópias confiáveis; pagar não garante recuperação.",
+      "topicId": "seguranca-digital",
+      "subtopicId": "controles-defesa",
+      "difficulty": "medium",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "INFO-AUTH-032",
+      "origin": "authorial",
+      "prompt": "Um sistema armazena um resumo criptográfico de um arquivo para detectar se os dados foram alterados. Qual afirmação distingue corretamente esse resumo de uma criptografia reversível?",
+      "options": {
+        "A": "O hash envia mensagens entre servidores de correio",
+        "B": "A criptografia reversível não usa chaves",
+        "C": "Hash e compressão significam necessariamente a mesma coisa",
+        "D": "Um hash criptográfico é projetado como transformação de mão única; não é uma chave para reconstruir o arquivo original",
+        "E": "Um hash sempre permite recuperar o texto original com uma senha"
+      },
+      "answer": "D",
+      "comment": "Uma função hash produz um resumo de tamanho definido e é projetada para ser impraticável inverter. Ela pode ajudar a detectar alterações, mas não cifra o arquivo para recuperação posterior. Criptografia reversível usa chaves para cifrar e decifrar dados.",
+      "topicId": "seguranca-digital",
+      "subtopicId": "criptografia-integridade",
+      "difficulty": "hard",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "INFO-AUTH-033",
+      "origin": "authorial",
+      "prompt": "Uma unidade aplica a regra 3-2-1: manter três cópias dos dados, em dois tipos de mídia, com uma cópia fora do local principal. No esquema, qual cópia atende ao requisito de localização externa?",
+      "options": {
+        "A": "Todas as cópias estão no mesmo disco",
+        "B": "Cópia 1, no disco de trabalho",
+        "C": "A cópia que não foi gravada",
+        "D": "Cópia 2, em mídia local independente",
+        "E": "Cópia 3, em repositório remoto"
+      },
+      "answer": "E",
+      "comment": "A cópia remota está fora do local principal e satisfaz o componente externo do exemplo. A estratégia 3-2-1 é uma regra prática, não uma garantia isolada: acesso controlado, testes de restauração, versões e proteção contra alterações maliciosas também importam.",
+      "topicId": "backup-recuperacao",
+      "subtopicId": "estrategia-321",
+      "difficulty": "medium",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY",
+      "images": [
+        {
+          "src": "informatica/figures/backup-321.png",
+          "alt": "Esquema autoral com dados de produção e três cópias: disco de trabalho, mídia local independente e repositório remoto; a cópia remota cumpre o requisito fora do local.",
+          "caption": "Ilustração própria da estratégia 3-2-1; não representa interface de produto."
+        }
+      ]
+    },
+    {
+      "id": "INFO-AUTH-034",
+      "origin": "authorial",
+      "prompt": "Uma pasta é sincronizada entre dois dispositivos. Um arquivo é excluído em um deles, e a exclusão também aparece no outro. Qual conclusão é mais importante para o planejamento de recuperação?",
+      "options": {
+        "A": "O sistema criou uma cópia offline imutável",
+        "B": "A sincronização pode propagar alterações e exclusões; ela não substitui automaticamente uma cópia de segurança recuperável",
+        "C": "O protocolo DNS apagou o arquivo",
+        "D": "Sincronização e backup são sinônimos em qualquer configuração",
+        "E": "A exclusão prova que os arquivos estavam criptografados"
+      },
+      "answer": "B",
+      "comment": "Sincronização replica estados entre locais e pode propagar exclusões ou alterações indesejadas. Um backup deve oferecer meios adequados de recuperar versões anteriores ou dados apagados; retenção, lixeira, histórico e isolamento dependem do serviço e da política configurada.",
+      "topicId": "backup-recuperacao",
+      "subtopicId": "sincronizacao-backup",
+      "difficulty": "medium",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    }
+  ]
+}

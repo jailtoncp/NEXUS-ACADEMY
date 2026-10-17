@@ -1,0 +1,12 @@
+flowchart LR
+    C["Computador<br/>consulta portal.exemplo"] --> R["Resolvedor DNS"]
+    R --> H["Hierarquia DNS<br/>raiz → domínio superior → autoritativo"]
+    H --> R
+    R --> IP["Resposta: endereço IP"]
+    IP --> W["Servidor web<br/>HTTP ou HTTPS"]
+    classDef user fill:#172a42,stroke:#7186ff,color:#edf2ff
+    classDef dns fill:#102a27,stroke:#39a787,color:#e5fff6
+    classDef web fill:#302719,stroke:#d49a4c,color:#fff4df
+    class C user
+    class R,H dns
+    class IP,W web

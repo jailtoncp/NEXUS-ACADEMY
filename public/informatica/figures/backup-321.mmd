@@ -1,0 +1,13 @@
+flowchart LR
+    D["Dados de produção"] --> C1["Cópia 1<br/>disco de trabalho"]
+    D --> C2["Cópia 2<br/>mídia local independente"]
+    D --> C3["Cópia 3<br/>repositório remoto, preferencialmente isolado"]
+    C1 -. "mídia 1" .-> R["3 cópias<br/>2 tipos de mídia<br/>1 cópia fora do local"]
+    C2 -. "mídia 2" .-> R
+    C3 -. "fora do local" .-> R
+    classDef data fill:#172a42,stroke:#7186ff,color:#edf2ff
+    classDef copy fill:#102a27,stroke:#39a787,color:#e5fff6
+    classDef rule fill:#302719,stroke:#d49a4c,color:#fff4df
+    class D data
+    class C1,C2,C3 copy
+    class R rule

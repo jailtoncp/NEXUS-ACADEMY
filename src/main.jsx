@@ -3,10 +3,12 @@ import { createRoot } from 'react-dom/client';
 import { LayoutDashboard, BookOpen, ClipboardList, Brain, RotateCcw, BarChart3, Star, Settings, ChevronDown, ChevronRight, Search, Bell, Sparkles, Target, Library, Menu, X, ArrowUpRight, ShieldCheck, Zap, Circle } from 'lucide-react';
 import DisciplineModule from './components/DisciplineModule.jsx';
 import rlmSubject from './data/subjects/raciocinio-logico.js';
+import informaticaSubject from './data/subjects/informatica.js';
 import './styles.css';
 
 const disciplines = ['Português','Informática','Raciocínio Lógico','Criminologia','Direito Penal','Processo Penal','Direito Constitucional','Direito Administrativo','Direitos Humanos','Ciências Forenses'];
-const counts = Object.fromEntries(disciplines.map((discipline) => [discipline, discipline === 'Raciocínio Lógico' ? rlmSubject.questions.length : 0]));
+const subjectsByName = { 'Raciocínio Lógico': rlmSubject, Informática: informaticaSubject };
+const counts = Object.fromEntries(disciplines.map((discipline) => [discipline, subjectsByName[discipline]?.questions.length || 0]));
 
 function App(){
   const[doOpen,setDoOpen]=useState(true),[qo,setQo]=useState(true),[active,setActive]=useState('Dashboard'),[mobile,setMobile]=useState(false),[query,setQuery]=useState('');
@@ -22,6 +24,7 @@ function Generic({active}){
   const isQuestionBank=active.startsWith('Q:');
   const title=isQuestionBank?active.slice(2):active;
   if(title==='Raciocínio Lógico') return <DisciplineModule subject={rlmSubject} defaultSection={isQuestionBank?'questions':'content'}/>;
+  if(title==='Informática') return <DisciplineModule subject={informaticaSubject} defaultSection={isQuestionBank?'questions':'content'}/>;
   return <div className="generic"><div className="generic-icon">{isQuestionBank?<ClipboardList/>:<BookOpen/>}</div><span>{isQuestionBank?'BANCO DE QUESTÕES':'MÓDULO'}</span><h1>{title}</h1><p>A interface desta área já está preparada. O conteúdo e as funcionalidades serão conectados nas próximas etapas do NEXUS ACADEMY.</p><div><Sparkles/>Estrutura visual pronta para receber conteúdo</div></div>
 }
 
