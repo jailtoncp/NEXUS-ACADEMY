@@ -1,7 +1,7 @@
 # CONTROLE-DISCIPLINAS.md — NEXUS ACADEMY
 
 **Atualizado em:** 2026-10-17
-**Escopo desta etapa:** exclusivamente Informática.
+**Escopo desta etapa:** exclusivamente Informática, além do ajuste mínimo de CI necessário para publicar o site.
 
 ## Regra de conteúdo e imagens
 
@@ -12,7 +12,7 @@ O usuário autorizou o uso de imagens que considera públicas e esclareceu que q
 | Disciplina | Responsável informado | Status | Acompanhamento |
 |---|---|---|---|
 | Raciocínio Lógico | Manus 2 | **FINALIZADA** | Não refazer. Os arquivos de dados da disciplina não foram modificados nesta etapa. O componente compartilhado foi ajustado para Informática e os fluxos de RLM foram testados. |
-| Informática | Manus 2 | **EM ANDAMENTO / EM REVISÃO** | Conteúdo autoral integrado e testado; auditoria de questões originais do acervo continua incompleta. |
+| Informática | Manus 2 | **CONTEÚDO PUBLICADO / AUDITORIA PENDENTE** | Trilha autoral e 34 questões publicadas; navegação e figuras verificadas na URL pública. A auditoria de questões originais do acervo continua incompleta. |
 | Português | Cursor | **PLANEJADA, AINDA NÃO IMPLEMENTADA** | Não trabalhada nesta etapa. |
 | Criminologia | Manus 1 | **EM ANDAMENTO / STATUS A CONFIRMAR** | Não trabalhada nem reclassificada nesta etapa. |
 
@@ -35,13 +35,20 @@ Os responsáveis e estados de Português e Criminologia reproduzem o estado info
 - `src/main.jsx` — integração da disciplina à navegação e às contagens.
 - `src/components/DisciplineModule.jsx` — suporte compartilhado a fontes, questões autorais e figuras no enunciado ou nas alternativas.
 - `src/components/discipline-module.css` — apresentação responsiva de referências e imagens.
+- `package.json` — bindings Linux x64 opcionais exigidos pelo runner de CI para Rolldown e Lightning CSS.
+- `package-lock.json` — versões reproduzíveis e bindings Linux arm64/x64 presentes no lockfile.
+- `.github/workflows/deploy.yml` — instalação do workflow alterada para `npm ci`.
 - `CONTROLE-DISCIPLINAS.md` — este registro de continuidade.
 
-Os arquivos de dados de Raciocínio Lógico não foram alterados. As mudanças no componente compartilhado são necessárias para apresentar Informática e foram verificadas em RLM.
+Os arquivos de dados de Raciocínio Lógico não foram alterados. As mudanças no componente compartilhado são necessárias para apresentar Informática e foram verificadas em RLM. O ajuste de CI limitou-se à instalação reproduzível das dependências e aos binários opcionais da plataforma do runner.
 
 ## Testes efetivamente realizados
 
-- `npm run build` — **passou**. O Vite emite um aviso informativo de tamanho do chunk JavaScript (aprox. 585 kB, acima do limite padrão de 500 kB); não impede o build.
+- `npm ci --no-audit --no-fund` — **passou** localmente.
+- `npm run build` — **passou** localmente e no runner Ubuntu x64. O Vite emite um aviso informativo de tamanho do chunk JavaScript (aprox. 585 kB, acima do limite padrão de 500 kB); não impede o build.
+- GitHub Actions — **deploy concluído com sucesso** no commit `581221a1b47cb8822ad2d587dec1e924d16ad990`; execução [39024715672](https://github.com/jailtoncp/NEXUS-ACADEMY/actions/runs/39024715672).
+- Smoke test público — a página, os bundles JS/CSS e os 3 PNGs autorais responderam HTTP 200; o bundle contém Informática e Raciocínio Lógico.
+- Verificação no navegador público — Informática abre e apresenta 34 questões; Raciocínio Lógico abre e apresenta 313 questões. Nenhum arquivo de dados de RLM foi alterado.
 - `git diff --check` — **passou**.
 - Validação estrutural — **passou**: 10 tópicos, 25 subtópicos, 34 questões, cinco alternativas por questão, gabaritos presentes, IDs únicos, classificação curricular válida e três imagens existentes com texto alternativo e legenda.
 - Chromium/Playwright sobre a build estática — **passou**: navegação para Informática, filtro por assunto, links oficiais, resposta correta e feedback, histórico local, carregamento dos diagramas nas questões 18, 22 e 33, layout móvel de 390 px sem rolagem horizontal e navegação de Raciocínio Lógico (313 questões disponíveis); nenhum erro JavaScript.
@@ -50,5 +57,5 @@ Os arquivos de dados de Raciocínio Lógico não foram alterados. As mudanças n
 ## Pendências e publicação
 
 - A auditoria individual das 43 fontes restantes, a contagem total de questões originais, a deduplicação global e a classificação de itens originais em prontos/em auditoria continuam pendentes. Não declarar Informática finalizada até resolver ou delimitar explicitamente essa auditoria.
-- Verificar se o push para `main` aciona a publicação do site e registrar o resultado após o envio.
+- **Publicação verificada:** [https://jailtoncp.github.io/NEXUS-ACADEMY/](https://jailtoncp.github.io/NEXUS-ACADEMY/). O build e o deploy pelo GitHub Actions concluíram com sucesso; o smoke test público confirmou navegação e figuras.
 - Nenhum texto de questão original, gabarito original ou figura literal foi publicado nesta etapa.
