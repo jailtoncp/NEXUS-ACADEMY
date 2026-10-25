@@ -12,7 +12,7 @@ O usuário autorizou o uso de imagens que considera públicas e esclareceu que q
 | Disciplina | Responsável informado | Status | Acompanhamento |
 |---|---|---|---|
 | Raciocínio Lógico | Manus 2 | **FINALIZADA** | Não refazer. Os arquivos de dados da disciplina não foram modificados nesta etapa. O componente compartilhado foi ajustado para Informática e os fluxos de RLM foram testados. |
-| Informática | Manus 2 | **CONTEÚDO PUBLICADO / AUDITORIA PENDENTE** | Trilha autoral e 34 questões publicadas; navegação e figuras verificadas na URL pública. A auditoria de questões originais do acervo continua incompleta. |
+| Informática | Claude (etapas 2 e 3) | **EM ANDAMENTO — 12 DE 44 FONTES COM QUESTÕES EXTRAÍDAS** | Trilha com 446 questões reais únicas (apostila geral + 11 PDFs de revisão) e 34 autorais. PDFs escaneados e slides ainda não auditados; não declarar finalizada. |
 | Português | Cursor | **PLANEJADA, AINDA NÃO IMPLEMENTADA** | Não trabalhada nesta etapa. |
 | Criminologia | Manus 1 | **EM ANDAMENTO / STATUS A CONFIRMAR** | Não trabalhada nem reclassificada nesta etapa. |
 
@@ -58,4 +58,51 @@ Os arquivos de dados de Raciocínio Lógico não foram alterados. As mudanças n
 
 - A auditoria individual das 43 fontes restantes, a contagem total de questões originais, a deduplicação global e a classificação de itens originais em prontos/em auditoria continuam pendentes. Não declarar Informática finalizada até resolver ou delimitar explicitamente essa auditoria.
 - **Publicação verificada:** [https://jailtoncp.github.io/NEXUS-ACADEMY/](https://jailtoncp.github.io/NEXUS-ACADEMY/). O build e o deploy pelo GitHub Actions concluíram com sucesso; o smoke test público confirmou navegação e figuras.
-- Nenhum texto de questão original, gabarito original ou figura literal foi publicado nesta etapa.
+- Nenhum texto de questão original, gabarito original ou figura literal foi publicado na etapa 1. **A etapa 2 (abaixo) inclui questões reais e recortes de figuras: o repositório deve permanecer privado.**
+
+## Etapa 2 — Informática: apostila geral (questões reais)
+
+**Fonte examinada:** `apostila .pdf` (seção INFORMÁTICA, 300 questões, págs. 267–320 do PDF; gabarito nas págs. 382–385). Esta é **1 das 44 fontes candidatas**; as demais continuam sem auditoria. A apostila `APOSTILA 2000` (PM-SP, Nova Concursos) foi inspecionada mas **ainda não extraída**, e os 41 arquivos de Português são majoritariamente escaneados (exigem leitura página a página).
+
+| Item | Resultado |
+| --- | --- |
+| Questões encontradas | 300 (sequência 1–300 completa, 5 alternativas cada) |
+| Gabarito da apostila | 300 de 300 localizados, sem lacunas nem duplicatas |
+| Duplicatas removidas | 32 (21 grupos) → **268 questões únicas** |
+| Questões com recorte de figura | 80 (inclui 5 com alternativas em imagem) |
+| Banca / ano / prova | **Não informados na apostila** — campos mantidos nulos |
+| Comentários explicativos | **0** das 268 — pendente |
+| Classificação por assunto | Regras automáticas + revisão manual de 36 itens duvidosos: 233 alta, 24 revisada, 10 média, 1 baixa confiança |
+
+**Gabarito — o que foi e o que não foi conferido:** o gabarito de cada questão é o da própria apostila. Conferência independente feita à mão em apenas 4 questões (1, 6, 7 e 189). Divergência encontrada: questões 189 e 246 são a mesma questão, com gabarito B e A; pela figura o correto é **B**, e a 246 foi excluída como duplicata. Fora essas, o gabarito **não foi verificado** e pode conter erros da fonte.
+
+**Limitações conhecidas:** texto extraído do PDF (não digitado à mão); formatação como negrito, tachado e cores só aparece nos recortes de figura; poucas questões podem ter espaços indevidos herdados do PDF (ex.: URL na questão 298).
+
+**Arquivos criados/alterados:** `src/data/subjects/informatica-real-question-bank.json` (novo), `public/questoes/informatica/*.png` (80 novos), `src/data/subjects/informatica.js` (importa o novo banco; avisos atualizados), `CONTROLE-DISCIPLINAS.md`. Componentes compartilhados e demais disciplinas **não foram alterados**.
+
+**Testes realizados:** carregamento do módulo no Node 22 e verificação programática das 302 questões (ids únicos, tópicos/subtópicos existentes, alternativas A–E preenchidas, gabarito válido, imagens existentes): 0 erros. **Não executados:** `npm ci`, `npm run build` e teste no navegador (sem acesso à rede no ambiente de trabalho).
+
+## Etapa 3 — Informática: PDFs de revisão do segundo acervo
+
+**Fontes examinadas (11 arquivos "INFO questões", todos com texto e gabarito):** Windows 1, Word 2, Excel 3, Correio eletrônico 4, e os arquivos 5, 6, 8, 9, 10, 11 e 12. Somadas à apostila geral da etapa 2, são **12 das 44 fontes candidatas com questões extraídas** (a contagem de 44 vem do levantamento anterior e não foi refeita).
+
+| Item | Resultado |
+| --- | --- |
+| Questões encontradas nos 11 PDFs | 189 (numeração e gabarito completos: 189 de 189) |
+| Já presentes no banco (mesmo texto e mesmo gabarito) | 11 → registradas em `alsoIn`, sem duplicar |
+| Novas integradas | 178 |
+| **Total de questões reais únicas** | **446** (268 da etapa 2 + 178) |
+| Recortes de figura | 141 questões no total (61 novos) |
+| Banca e ano | 18 questões, apenas onde o material informa (CESPE, IDECAN etc.); demais ficam nulos |
+| Formatos | inclui 3 questões Certo/Errado e 2 questões com 4 alternativas |
+| Comentários explicativos | 0 — pendente |
+
+**Observação sobre quase-duplicatas:** a questão 10 do arquivo "INFO questões 10" difere da INFO-REAL-184 por uma palavra ("óptica" x "magnética"). Os gabaritos (E e D) estão corretos para cada enunciado, então as duas foram mantidas.
+
+**Classificação:** os arquivos temáticos (Windows, Word, Excel, Correio, Hardware, Videoconferência) usam o assunto do próprio arquivo como tópico; os 28 itens dos arquivos de tópicos mistos (8, 11 e 12) foram classificados por regras e ajustados à mão. O subtópico dentro de cada tópico é automático e pode precisar de ajuste.
+
+**Gabarito:** continua sendo o do material de origem. A única conferência independente nesta etapa foi a comparação com as questões já integradas: nenhuma divergência real nas 11 repetidas.
+
+**Ainda NÃO auditado em Informática:** 7 PDFs de aula escaneados (INFO 1, 2, 3, 41, 42, 43 e 5) e o PDF de questões escaneado "INFO questões 7" (33 págs) — exigem leitura página a página; os slides INFO 6, 7 e 8 (contêm questões em formato de slide); a apostila `APOSTILA 2000` (PM-SP); e as demais fontes do levantamento original. Direito Penal e Direito Processual Penal do mesmo acervo ainda não foram iniciados.
+
+**Testes:** carregamento do módulo no Node 22 e verificação programática das 480 questões (ids únicos, tópicos e subtópicos existentes, alternativas e gabarito consistentes, imagens existentes, alternativas em imagem sempre com recorte): 0 erros. `npm ci`, `npm run build` e teste no navegador **não foram executados** (sem rede no ambiente).
