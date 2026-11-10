@@ -1,0 +1,430 @@
+[
+ {
+  "id": "fundamentos",
+  "title": "Fundamentos e componentes",
+  "order": 1,
+  "summary": "Entenda o papel do hardware, do software, da memória e das unidades de informação.",
+  "subtopics": [
+   {
+    "id": "hardware-software",
+    "title": "Hardware, software e organização do computador",
+    "order": 1,
+    "content": "Hardware é a parte física do computador (o que se pode tocar); software é a parte lógica (programas e dados). O software se divide em software de sistema (sistema operacional, drivers, utilitários), software aplicativo (editores, navegadores, jogos) e firmware (programa gravado em chip, como a BIOS/UEFI). Um computador executa o ciclo entrada, processamento, saída e armazenamento: dados entram por dispositivos de entrada, são processados pela CPU com apoio da memória, saem por dispositivos de saída e podem ser guardados em dispositivos de armazenamento.\n\nA placa-mãe interliga todos os componentes por meio de barramentos. Na placa-mãe ficam o soquete do processador, os slots de memória, os conectores de armazenamento, os slots de expansão (placas de vídeo, rede, som) e os chips de apoio. O gabinete abriga a placa-mãe e a fonte de alimentação, que converte a corrente alternada da tomada em corrente contínua para os componentes.\n\nClassificam-se como dispositivos de entrada o teclado, o mouse, o scanner, o microfone e a webcam; de saída, o monitor, a impressora e as caixas de som; de entrada e saída, o monitor touchscreen, o modem, a placa de rede, o HD, o SSD e o pendrive, pois tanto gravam quanto leem dados. Em prova, é comum cobrar essa classificação, por isso pense sempre no sentido do fluxo de dados em relação ao computador."
+   },
+   {
+    "id": "processador-cpu",
+    "title": "Processador (CPU)",
+    "order": 2,
+    "content": "A CPU (unidade central de processamento) é o componente que executa as instruções dos programas. Ela é formada pela unidade de controle (UC), que busca e decodifica instruções e coordena os demais componentes, pela unidade lógica e aritmética (ULA), que realiza cálculos e comparações lógicas, e pelos registradores, memórias minúsculas e velocíssimas que guardam os dados em uso imediato.\n\nO desempenho depende de vários fatores combinados, e não só da frequência. O clock, medido em hertz (GHz), indica quantos ciclos por segundo o processador executa. O número de núcleos (cores) permite executar tarefas em paralelo; um processador com mais núcleos tende a se sair melhor em multitarefa, desde que o programa aproveite esse paralelismo. A memória cache, embutida no processador e organizada em níveis (L1, L2 e L3), guarda dados e instruções usados com frequência para reduzir esperas da memória RAM. A arquitetura (32 ou 64 bits) define o tamanho das palavras tratadas e a quantidade de memória endereçável: sistemas de 64 bits acessam muito mais RAM do que os de 32 bits (cerca de 4 GB).\n\nFabricantes tradicionais de processadores para computadores pessoais são Intel e AMD (arquitetura x86/x64). Em smartphones e tablets predominam processadores de arquitetura ARM (Qualcomm, Apple, Samsung), que integram CPU, GPU e outros circuitos em um só chip, o SoC (system on a chip)."
+   },
+   {
+    "id": "memorias",
+    "title": "Memórias: RAM, ROM, cache e virtual",
+    "order": 3,
+    "content": "A memória principal é a RAM (memória de acesso aleatório): é volátil, ou seja, perde o conteúdo quando falta energia, e guarda os programas e dados em execução. Quanto mais RAM, mais programas podem rodar ao mesmo tempo sem recorrer ao disco. Os módulos atuais usam tecnologia DDR (DDR4, DDR5). A ROM é memória somente de leitura, não volátil, que guarda o firmware de inicialização (BIOS/UEFI), responsável pelo POST (autoteste de inicialização) e por carregar o sistema operacional.\n\nA cache é uma memória pequena e muito rápida, situada entre a CPU e a RAM. Os registradores são as memórias mais rápidas e ficam dentro da CPU. A memória virtual é um recurso do sistema operacional que usa uma área do disco (arquivo de paginação) como extensão da RAM quando ela se esgota; é muito mais lenta, e o excesso de uso causa lentidão.\n\nHierarquia de memória, do mais rápido e caro ao mais lento e barato: registradores, cache, RAM, armazenamento secundário (SSD, HD) e armazenamento removível ou de arquivo. Capacidade e velocidade são inversamente relacionadas nessa escala. Cuidado com a pegadinha clássica: a memória RAM não é dispositivo de armazenamento permanente, e o conteúdo não gravado é perdido ao desligar."
+   },
+   {
+    "id": "armazenamento",
+    "title": "Armazenamento: HD, SSD, mídias e RAID",
+    "order": 4,
+    "content": "O HD (disco rígido) armazena dados em discos magnéticos giratórios lidos por cabeças; é mais barato por gigabyte, mas mais lento e sensível a impactos. O SSD armazena em memória flash, sem partes móveis: é mais rápido, silencioso e resistente, embora tradicionalmente mais caro por gigabyte. SSDs podem usar a interface SATA ou o padrão NVMe (mais veloz, em slots M.2). Unidades híbridas (SSHD) combinam as duas tecnologias.\n\nMídias removíveis: pendrive e cartão de memória (flash, com leitura e gravação), e discos ópticos (CD, DVD e Blu-ray), que usam laser para ler e gravar; o DVD armazena mais que o CD, e o Blu-ray mais que o DVD. Disquete e fita magnética são tecnologias magnéticas antigas (a fita ainda aparece em backup de grande volume).\n\nRAID é um conjunto de discos que funciona como uma unidade lógica para ganhar desempenho e/ou tolerância a falhas. RAID 0 (striping) divide os dados entre os discos e aumenta a velocidade, mas não tem redundância: a falha de um disco perde tudo. RAID 1 (espelhamento) grava a mesma informação em dois discos. RAID 5 distribui dados e paridade entre pelo menos três discos e tolera a falha de um. RAID 10 combina espelhamento e distribuição. Atenção: RAID não é backup, pois protege contra falha de disco, não contra exclusão acidental, vírus ou ransomware."
+   },
+   {
+    "id": "perifericos-portas",
+    "title": "Periféricos, portas e impressoras",
+    "order": 5,
+    "content": "Os periféricos se conectam ao computador por portas e interfaces. USB é a interface universal para teclados, mouses, pendrives e muitos outros dispositivos (USB 2.0, 3.x e conectores USB-C). HDMI, DisplayPort e VGA transmitem vídeo (HDMI e DisplayPort também transmitem áudio digital); VGA é analógico. RJ-45 é o conector da rede cabeada Ethernet, e RJ-11, o do telefone fixo. P2 (conector de áudio) liga fones e microfones. Bluetooth e Wi-Fi são conexões sem fio.\n\nTipos de impressora: matricial (de impacto, usa agulhas e fita; imprime várias vias com papel carbono e é barulhenta), jato de tinta (cartuchos de tinta líquida), laser (usa toner em pó fixado por calor; é rápida e econômica em grandes volumes) e térmica (usa calor, comum em cupons fiscais e etiquetas). A multifuncional integra impressora, copiadora e scanner. A resolução de impressão e digitalização é medida em dpi (pontos por polegada); quanto maior, mais detalhe.\n\nO monitor tem resolução expressa em pixels (por exemplo, 1920 x 1080) e taxa de atualização em hertz. A placa de vídeo (GPU) processa imagens e pode ser integrada ao processador ou dedicada. Em questões, atenção a \"periférico de entrada\", \"de saída\" e \"de entrada e saída\", e à diferença entre porta (conector físico) e protocolo."
+   },
+   {
+    "id": "dispositivos-moveis",
+    "title": "Dispositivos móveis: smartphones e tablets",
+    "order": 6,
+    "content": "Smartphones e tablets são computadores portáteis com configuração própria. Comparados a PCs e notebooks, usam em geral processadores ARM em um SoC (Qualcomm, Apple, Samsung, MediaTek), memória RAM menor (por exemplo, 2 a 12 GB, volátil) e armazenamento em memória flash interna (como 64 a 512 GB), muitas vezes expansível por cartão microSD (nem todos os modelos aceitam). A tela touchscreen faz as vezes de monitor, teclado e mouse; câmera, microfone, GPS, acelerômetro, giroscópio e biometria vêm embutidos.\n\nOs sistemas operacionais mais comuns são o Android (baseado em Linux; desenvolvido pelo Google) e o iOS/iPadOS (Apple). A conexão com a Internet ocorre por Wi-Fi ou pela rede móvel (3G, 4G/LTE e 5G), e o aparelho tem modem celular e chip (SIM/eSIM). Aplicativos são instalados a partir de lojas oficiais (Google Play, App Store); instalar de fontes desconhecidas aumenta o risco de malware.\n\nPontos de segurança: bloqueio de tela (PIN, senha, biometria), criptografia do armazenamento, atualizações do sistema, permissões de aplicativos (câmera, localização, contatos), recursos de localizar e apagar remotamente e cuidado com redes Wi-Fi públicas."
+   },
+   {
+    "id": "unidades-dados",
+    "title": "Bits, bytes, unidades e sistemas numéricos",
+    "order": 7,
+    "content": "O bit (0 ou 1) é a menor unidade de informação; 8 bits formam 1 byte. Os múltiplos mais usados em informática crescem de 1024 em 1024 (potências de 2): 1 KB = 1024 bytes; 1 MB = 1024 KB; 1 GB = 1024 MB; 1 TB = 1024 GB; depois vêm PB, EB e assim por diante. Fabricantes de discos costumam usar múltiplos de 1000 na embalagem, o que explica por que um disco de \"500 GB\" mostra um valor menor no sistema operacional. Quando a questão não detalha, use 1024 para capacidades de armazenamento.\n\nCapacidade de armazenamento é medida em bytes (B maiúsculo); velocidade de transmissão é medida em bits por segundo (b minúsculo): Kbps, Mbps, Gbps. Uma conexão de 100 Mbps transfere no máximo 12,5 MB por segundo (100 dividido por 8). Atenção à diferença entre MB (megabyte) e Mb (megabit).\n\nOs computadores trabalham em binário (base 2). Convertendo: 1010 em binário vale 10 em decimal (8 + 2). O sistema hexadecimal (base 16, com dígitos 0 a 9 e A a F) é usado para representar endereços e cores de forma compacta, e cada dígito hexadecimal equivale a 4 bits. Na tabela ASCII, cada caractere ocupa 1 byte (8 bits); o padrão Unicode representa caracteres de todos os idiomas."
+   }
+  ]
+ },
+ {
+  "id": "sistemas-operacionais",
+  "title": "Sistemas operacionais e arquivos",
+  "order": 2,
+  "summary": "Relacione processos, interfaces, pastas, extensões, permissões e suporte de versões.",
+  "subtopics": [
+   {
+    "id": "sistema-operacional",
+    "title": "Sistema operacional: funções e interfaces",
+    "order": 1,
+    "content": "O sistema operacional (SO) é o software que gerencia os recursos do computador e serve de ponte entre o usuário, os aplicativos e o hardware. Entre suas funções estão: gerenciar processos (programas em execução), a memória, o armazenamento e o sistema de arquivos, os dispositivos de entrada e saída por meio de drivers, a segurança e as contas de usuário e a interface com o usuário (gráfica ou por linha de comando).\n\nO núcleo do SO é o kernel. Um sistema pode ser monousuário ou multiusuário, monotarefa ou multitarefa, e pode usar interface gráfica (GUI, com janelas, ícones e menus) ou de texto (CLI, como o Prompt de Comando e o PowerShell no Windows, ou o terminal no Linux). Drivers são programas que ensinam o SO a se comunicar com um dispositivo específico; sem o driver adequado, o dispositivo pode não funcionar corretamente.\n\nPrincipais sistemas: Windows (Microsoft, proprietário, usa sistema de arquivos NTFS), Linux (núcleo livre e de código aberto, distribuído em distribuições como Ubuntu, Debian e Fedora), macOS (Apple), Android e iOS (móveis). Software livre permite usar, estudar, modificar e redistribuir; software proprietário impõe restrições de licença."
+   },
+   {
+    "id": "windows-interface",
+    "title": "Windows: interface, atalhos e recursos do dia a dia",
+    "order": 2,
+    "content": "A Área de Trabalho abriga ícones e atalhos; a Barra de Tarefas mostra o menu Iniciar, a pesquisa, os aplicativos abertos ou fixados e a área de notificação (relógio, volume, rede). O Explorador de Arquivos gerencia arquivos e pastas. A Lixeira guarda temporariamente os arquivos excluídos do disco local, permitindo restaurá-los; não vão para a Lixeira os arquivos apagados de pendrive e de unidades de rede, nem os excluídos com Shift+Delete. Esvaziar a Lixeira apaga em definitivo.\n\nAtalhos muito cobrados: Win+E abre o Explorador de Arquivos; Win+D mostra a Área de Trabalho; Win+L bloqueia a tela; Win+R abre o Executar; Win+I abre as Configurações; Win+Tab abre a Visão de Tarefas; Alt+Tab alterna entre janelas; Alt+F4 fecha a janela ativa; Ctrl+Shift+Esc abre o Gerenciador de Tarefas; F2 renomeia; F5 atualiza; Delete envia para a Lixeira; Shift+Delete exclui sem Lixeira; Ctrl+C copia, Ctrl+X recorta, Ctrl+V cola, Ctrl+Z desfaz; Ctrl+A seleciona tudo; Print Screen captura a tela; Win+Shift+S abre a ferramenta de recorte.\n\nAo arrastar um arquivo com o mouse, o resultado depende da origem e do destino: no mesmo disco, move; para outro disco ou unidade, copia; com Ctrl pressionado, sempre copia; com Shift, sempre move; com Alt (ou botão direito), cria atalho ou abre o menu de opções. Aplicativos acessórios: Bloco de Notas (texto puro, .txt), WordPad (RTF), Paint (imagens), Calculadora e Ferramenta de Recorte."
+   },
+   {
+    "id": "windows-configuracoes",
+    "title": "Windows: configurações, segurança e manutenção",
+    "order": 3,
+    "content": "O Painel de Controle e o aplicativo Configurações concentram os ajustes do sistema (contas, rede, aplicativos, privacidade, atualização). O Windows Update baixa e instala atualizações de segurança e correções. A Segurança do Windows (antigo Windows Defender) reúne antivírus, firewall e proteção de rede; o Firewall do Windows filtra conexões de entrada e saída. O BitLocker criptografa unidades inteiras; o Histórico de Arquivos e o Backup e Restauração fazem cópias de segurança; os pontos de restauração permitem reverter alterações do sistema.\n\nO Gerenciador de Tarefas mostra processos, desempenho (CPU, memória, disco, rede), aplicativos de inicialização e permite finalizar tarefas que travaram. O Gerenciador de Dispositivos lista o hardware e seus drivers. O Desfragmentador e Otimizador de Unidades reorganiza HDs (em SSD, executa a otimização apropriada, não a desfragmentação tradicional). A Limpeza de Disco remove arquivos temporários.\n\nContas de usuário podem ser de administrador (alteram configurações e instalam programas) ou padrão (uso comum, com restrições). O Controle de Conta de Usuário (UAC) pede confirmação para ações que exigem privilégios elevados. Boas práticas: usar conta padrão no dia a dia, manter o sistema atualizado e proteger o login com senha forte ou Windows Hello (biometria/PIN)."
+   },
+   {
+    "id": "arquivos-formatos",
+    "title": "Arquivos, pastas, extensões e sistemas de arquivos",
+    "order": 4,
+    "content": "Arquivo é um conjunto de dados identificado por nome e extensão; pasta (diretório) organiza arquivos e outras pastas. O caminho (path) indica a localização, como C:\\Usuarios\\Ana\\Documentos\\relatorio.docx; no Windows usa-se a barra invertida, e no Linux, a barra normal (/home/ana/documentos). Nomes de arquivo no Windows não aceitam os caracteres \\ / : * ? \" < > |, e a extensão indica o tipo de conteúdo.\n\nExtensões comuns: .txt (texto puro), .docx (Word), .xlsx (Excel), .pptx (PowerPoint), .pdf (documento portátil), .jpg/.jpeg, .png, .gif e .bmp (imagens), .mp3 e .wav (áudio), .mp4 e .avi (vídeo), .zip e .rar (compactados), .exe (executável), .csv (tabela em texto separado por vírgula ou ponto e vírgula), .odt, .ods e .odp (LibreOffice). Ocultar a extensão pode enganar o usuário (um arquivo \"fatura.pdf.exe\" é um executável).\n\nCompactar arquivos reduz o tamanho (ZIP) e facilita o envio. Sistemas de arquivos: NTFS (padrão do Windows, com permissões, criptografia e arquivos grandes), FAT32 (compatível, limite de 4 GB por arquivo) e exFAT (para mídias removíveis, sem esse limite). No Linux, usam-se ext4 e outros. Atributos de arquivo incluem somente leitura, oculto, sistema e \"arquivo\" (usado pelos backups). Atalhos são ponteiros para o item original; excluir o atalho não exclui o original."
+   },
+   {
+    "id": "linux-basico",
+    "title": "Linux: conceitos e comandos básicos",
+    "order": 5,
+    "content": "Linux é o núcleo (kernel) de um sistema operacional livre, criado por Linus Torvalds e distribuído em diversas distribuições (Ubuntu, Debian, Fedora, Linux Mint). Na estrutura de diretórios, tudo parte da raiz (/); /home guarda os arquivos dos usuários, /etc as configurações, /bin e /usr os programas, /dev os dispositivos e /tmp os temporários. O Linux diferencia maiúsculas de minúsculas (Arquivo.txt e arquivo.txt são distintos). O usuário administrador chama-se root.\n\nComandos básicos: pwd (mostra o diretório atual), ls (lista), cd (muda de diretório), mkdir (cria pasta), rmdir (remove pasta vazia), cp (copia), mv (move ou renomeia), rm (remove arquivos; rm -r remove pastas), cat (exibe arquivo), touch (cria arquivo vazio), man (manual), chmod (muda permissões), chown (muda dono), sudo (executa com privilégios de administrador) e ping (testa conectividade). As permissões usam r (ler), w (escrever) e x (executar) para dono, grupo e outros.\n\nInterfaces gráficas como GNOME e KDE fornecem janelas e menus. Gerenciadores de pacotes (apt, dnf) instalam programas. Nos concursos, costuma-se cobrar o conceito de software livre, as distribuições, o caráter multiusuário e os comandos mais simples."
+   },
+   {
+    "id": "versoes-suporte",
+    "title": "Versões antigas e ciclo de suporte",
+    "order": 6,
+    "content": "Materiais preparatórios podem citar Windows 7 ou 10 e versões antigas do Office. Menus, nomes de comandos e recursos variam entre edições; quando a questão identifica uma versão, responda dentro desse contexto. Conhecimento de uma interface antiga não deve ser tratado automaticamente como instrução para a versão atual.\n\nPara Windows 10 Home e Pro, a Microsoft identifica a versão 22H2 como a final e informa que o suporte normal terminou em 14 de outubro de 2025. O sistema continua funcionando, mas a ausência de atualizações regulares aumenta o risco; o programa ESU é uma exceção para dispositivos inscritos, não suporte geral contínuo. O suporte do Office 2016 e do Office 2019 também terminou em 14 de outubro de 2025; os aplicativos podem continuar abrindo, mas isso não significa que continuem recebendo suporte ou correções de segurança."
+   }
+  ]
+ },
+ {
+  "id": "processamento-texto",
+  "title": "Processadores de texto",
+  "order": 3,
+  "summary": "Estruture documentos, padronize estilos e revise alterações sem confundir ferramentas.",
+  "subtopics": [
+   {
+    "id": "word-estrutura",
+    "title": "Word: interface, documentos e estrutura",
+    "order": 1,
+    "content": "O Microsoft Word é o editor de textos do Office. Seus documentos usam a extensão .docx (modelo: .dotx; compatibilidade antiga: .doc; texto de formato aberto: .odt; exportação: .pdf). A interface organiza comandos em guias (Arquivo, Página Inicial, Inserir, Design, Layout, Referências, Correspondências, Revisão, Exibir, Ajuda) divididas em grupos. A Barra de Ferramentas de Acesso Rápido guarda comandos frequentes (Salvar, Desfazer, Refazer). A régua auxilia recuos e tabulações; os modos de exibição incluem Layout de Impressão, Leitura, Layout da Web, Estrutura de Tópicos e Rascunho.\n\nEstilos agrupam formatações (fonte, parágrafo, cor) e permitem padronizar o documento; o estilo Normal usa, por padrão, a fonte Calibri 11 (no Office 2019). Títulos aplicados com estilos (Título 1, 2, 3) alimentam o Sumário, o Painel de Navegação e a Estrutura de Tópicos. Seções permitem formatar partes do documento de forma independente (orientação, margens, colunas, cabeçalho e rodapé). Quebras: de página (Ctrl+Enter), de coluna (Ctrl+Shift+Enter), de linha (Shift+Enter, muda de linha sem criar novo parágrafo) e de seção (próxima página, contínua, página par ou ímpar).\n\nCabeçalho e rodapé repetem conteúdo no topo e na base das páginas e podem ser diferentes na primeira página e em páginas pares e ímpares. A numeração de páginas é inserida na guia Inserir. Referências incluem sumário, notas de rodapé (Ctrl+Alt+F), notas de fim (Ctrl+Alt+D), legendas, índice e referências cruzadas. Mostrar tudo (Ctrl+*) exibe marcas de parágrafo, espaços e tabulações."
+   },
+   {
+    "id": "word-formatacao",
+    "title": "Word: formatação de caracteres e parágrafos",
+    "order": 2,
+    "content": "A formatação de caracteres inclui fonte, tamanho, cor, negrito (Ctrl+N), itálico (Ctrl+I), sublinhado (Ctrl+S), tachado, subscrito (Ctrl+=), sobrescrito (Ctrl+Shift++), maiúsculas e minúsculas (Shift+F3 alterna), realce e espaçamento entre caracteres. Os atalhos em português diferem dos em inglês: no Word em português, Ctrl+N é negrito, e Ctrl+B é Salvar. Também em português: Ctrl+T seleciona tudo, Ctrl+L localiza, Ctrl+U substitui, Ctrl+P imprime, Ctrl+A abre e Ctrl+K insere um hiperlink.\n\nA formatação de parágrafo trata de alinhamento (esquerda, centralizado, direita, justificado), recuos (primeira linha, deslocado, esquerdo e direito), espaçamento antes e depois, entrelinhas, marcadores e numeração, bordas e sombreamento. Parágrafo é todo trecho encerrado com Enter. Tabulações (esquerda, centralizada, direita, decimal, barra) alinham texto com a tecla Tab; o espaço de tabulação padrão é de 1,25 cm. O Pincel de Formatação (Ctrl+Shift+C copia, Ctrl+Shift+V cola a formatação) copia aparência de um trecho para outro; com clique duplo, aplica várias vezes.\n\nSelecionar com o mouse: clique duplo seleciona uma palavra, clique triplo um parágrafo; com Ctrl+clique, uma frase; clique na margem esquerda seleciona a linha. Com Ctrl pressionado, é possível selecionar partes não contíguas. Limpar toda a formatação do texto retorna ao padrão do estilo. Tabelas (guia Inserir) são formadas por linhas, colunas e células, que podem ser mescladas, divididas, dimensionadas e formatadas com estilos de tabela."
+   },
+   {
+    "id": "word-revisao",
+    "title": "Word: revisão, colaboração e formatos",
+    "order": 3,
+    "content": "A guia Revisão reúne ortografia e gramática (F7), dicionário de sinônimos, contagem de palavras, comentários, controle de alterações e comparação de documentos. Com o Controle de Alterações ligado (Ctrl+Shift+E), as edições aparecem como marcações atribuídas a cada autor, que podem ser aceitas ou rejeitadas. Comentários são anotações que não alteram o texto. Proteger o documento (restringir edição, marcar como final, criptografar com senha) controla o acesso e a modificação.\n\nO Word grava em formatos diferentes conforme a necessidade: .docx (padrão), .doc (versões antigas), .dotx (modelo), .rtf (formato rico, interoperável), .txt (texto puro, sem formatação), .odt (padrão aberto do LibreOffice) e .pdf (leitura e impressão com aparência fixa). Salvar como (F12) cria um novo arquivo; Salvar (Ctrl+B em português) atualiza o existente. A recuperação automática reduz perdas em falhas, mas não substitui o salvamento.\n\nA Mala Direta (guia Correspondências) combina um documento principal com uma fonte de dados (planilha ou lista) para gerar cartas, etiquetas ou e-mails personalizados com campos de mesclagem. Em documentos compartilhados na nuvem, vários autores podem editar ao mesmo tempo, e o histórico de versões permite voltar a uma versão anterior."
+   },
+   {
+    "id": "writer",
+    "title": "LibreOffice Writer e diferenças em relação ao Word",
+    "order": 4,
+    "content": "O LibreOffice é uma suíte de escritório livre e gratuita, com Writer (texto), Calc (planilhas), Impress (apresentações), Draw (desenhos), Base (banco de dados) e Math (fórmulas). O Writer usa por padrão o formato aberto .odt (OpenDocument), e salva também em .docx, .doc, .rtf, .txt e .pdf (Exportar como PDF). Os atalhos de uso geral são os do Windows (Ctrl+C, Ctrl+X, Ctrl+V, Ctrl+Z), mas alguns diferem do Word: no Writer, Ctrl+Shift+B aplica subscrito e Ctrl+Shift+P, sobrescrito; Ctrl+F4 e Ctrl+W fecham o documento; F11 abre a barra lateral de Estilos; Ctrl+F10 mostra os caracteres de formatação.\n\nConceitos equivalentes: guias do Word correspondem a menus e barras de ferramentas; o Pincel de Formatação do Word é o Clonar Formatação no Writer; a Mala Direta do Word corresponde ao Assistente de Mala Direta; estilos de parágrafo e de caractere organizam a formatação. Documentos .odt podem ser abertos no Word, mas recursos específicos podem se perder na conversão."
+   }
+  ]
+ },
+ {
+  "id": "planilhas",
+  "title": "Planilhas eletrônicas",
+  "order": 4,
+  "summary": "Use referências de células, fórmulas e ferramentas de análise com atenção à versão e à localidade.",
+  "subtopics": [
+   {
+    "id": "referencias-formulas",
+    "title": "Excel: estrutura, fórmulas e referências",
+    "order": 1,
+    "content": "O Microsoft Excel organiza dados em pastas de trabalho (arquivos .xlsx, ou .xls nas versões antigas, .xlsm com macros, .xltx modelos e .csv para texto delimitado) formadas por planilhas. Cada planilha tem colunas (A, B, C...) e linhas (1, 2, 3...); a célula é o cruzamento de uma coluna com uma linha (A1, B3). Um intervalo é indicado com dois-pontos (A1:B3 compreende as células A1, A2, A3, B1, B2 e B3); em português, o ponto e vírgula une referências (A1;A3) e o espaço indica interseção. A Caixa de Nome mostra a célula ativa, e a Barra de Fórmulas, o conteúdo.\n\nToda fórmula começa com o sinal de igual (=). Os operadores aritméticos são + - * / ^ (potência) e % (porcentagem); & concatena textos; os de comparação são = > < >= <= <>. A ordem de cálculo é: parênteses; potência; multiplicação e divisão; adição e subtração; concatenação; comparação. Exemplos: =2+3*4 resulta em 14; =(2+3)*4 resulta em 20.\n\nReferências: relativa (A1) muda ao copiar a fórmula; absoluta ($A$1) permanece fixa; mista ($A1 fixa a coluna, A$1 fixa a linha). A tecla F4 alterna entre os tipos ao editar a fórmula. Se a fórmula =B2*C2 da linha 2 for copiada para a linha 3, passa a ser =B3*C3. Para copiar para a direita, a coluna avança: =A1+B1 copiada duas colunas à direita vira =C1+D1.\n\nA alça de preenchimento (canto inferior direito da célula) copia valores e fórmulas ou continua séries (1, 2, 3...; dias da semana; meses). Se duas células com 1 e 2 forem selecionadas e arrastadas para a direita, a série continua com 3, 4, 5; arrastadas para a esquerda, a série retrocede (0, -1, -2). Ctrl+; insere a data atual; F2 edita o conteúdo da célula; Ctrl+Page Down e Ctrl+Page Up trocam de planilha; Ctrl+Home vai a A1."
+   },
+   {
+    "id": "funcoes-principais",
+    "title": "Excel: funções mais cobradas",
+    "order": 2,
+    "content": "Funções matemáticas e estatísticas: SOMA (soma valores e intervalos), MÉDIA, MÁXIMO, MÍNIMO, MAIOR(intervalo;k) e MENOR(intervalo;k) (k-ésimo maior ou menor valor), MED (mediana), MODO (valor mais frequente), MULT (produto), ARRED (arredonda), TRUNCAR, INT (parte inteira), MOD (resto da divisão), POTÊNCIA e RAIZ. Funções de contagem: CONT.NÚM conta células com números; CONT.VALORES conta células não vazias; CONTAR.VAZIO conta células vazias; CONT.SE conta células que atendem a um critério (=CONT.SE(A1:A10;\">5\")); SOMASE soma as que atendem a um critério.\n\nFunções lógicas: SE(teste;valor_se_verdadeiro;valor_se_falso) decide entre dois resultados; E retorna verdadeiro se todos os testes forem verdadeiros; OU, se pelo menos um for; NÃO inverte. Podem ser aninhadas: =SE(A1>=7;\"Aprovado\";SE(A1>=5;\"Recuperação\";\"Reprovado\")). Funções de pesquisa: PROCV procura um valor na primeira coluna de uma tabela e retorna o dado de outra coluna (=PROCV(valor;tabela;núm_coluna;0), em que 0 ou FALSO busca valor exato); PROCH faz o mesmo em linhas.\n\nFunções de texto: CONCATENAR (ou o operador &) junta textos; ESQUERDA, DIREITA e EXT.TEXTO extraem partes; NÚM.CARACT conta caracteres; MAIÚSCULA, MINÚSCULA e PRI.MAIÚSCULA mudam a caixa; SUBSTITUIR troca trechos. Funções de data e hora: HOJE e AGORA (atualizadas a cada cálculo), DIA, MÊS, ANO. Atenção a como os argumentos são separados em português: com ponto e vírgula (;), e não com vírgula."
+   },
+   {
+    "id": "funcoes-dados",
+    "title": "Excel: erros, formatação, gráficos e dados",
+    "order": 3,
+    "content": "Mensagens de erro frequentes: #DIV/0! (divisão por zero), #NOME? (nome de função ou intervalo não reconhecido), #VALOR! (tipo de argumento inválido), #REF! (referência inexistente, por exemplo célula excluída), #N/D (valor não disponível, comum em PROCV sem correspondência), #NÚM! (valor numérico inválido) e ##### (coluna estreita demais para exibir o resultado, que se resolve alargando a coluna). Para exibir uma fórmula em vez do resultado, ative Mostrar Fórmulas (Ctrl+`).\n\nA formatação de células (Ctrl+1) trata de número (geral, moeda, contábil, data, hora, porcentagem, texto), alinhamento, fonte, bordas e preenchimento. A formatação condicional altera a aparência com base em regras (por exemplo, destacar valores maiores que 100). Mesclar e centralizar une células; Quebrar Texto Automaticamente ajusta o texto dentro da célula. Congelar Painéis mantém linhas ou colunas visíveis na rolagem.\n\nDados: classificar ordena (crescente ou decrescente); filtrar mostra apenas linhas que atendem ao critério; Validação de Dados restringe o que pode ser digitado; Remover Duplicatas elimina repetições; Texto para Colunas divide o conteúdo de uma coluna em várias; Tabela Dinâmica resume grandes volumes de dados por campos. Gráficos (colunas, barras, linhas, pizza, dispersão) são criados na guia Inserir e se atualizam quando os dados mudam; o F11 cria um gráfico em uma nova planilha. Proteger planilha impede alterações em células bloqueadas."
+   },
+   {
+    "id": "calc",
+    "title": "LibreOffice Calc e diferenças em relação ao Excel",
+    "order": 4,
+    "content": "O Calc é o editor de planilhas do LibreOffice e grava por padrão em .ods (também lê e salva .xlsx e .csv). A estrutura em células, linhas e colunas, as referências relativas, absolutas e mistas e a maior parte das funções (SOMA, MÉDIA, SE, PROCV, CONT.SE...) funcionam de forma equivalente. No Calc, o separador de argumentos costuma ser o ponto e vírgula, e os intervalos usam dois-pontos (A1:B3); a referência a outra planilha usa um ponto (Planilha2.A1), ao contrário do Excel, que usa o ponto de exclamação (Planilha2!A1).\n\nNo Calc há opções semelhantes de formatação, classificação, filtros (incluindo o AutoFiltro), gráficos, tabelas dinâmicas (Tabela Dinâmica, em Dados) e proteção. O Calc é componente do mesmo pacote do Writer e do Impress, o que facilita a troca de dados entre eles. Planilhas salvas em .ods podem perder recursos específicos ao serem abertas em outros programas."
+   }
+  ]
+ },
+ {
+  "id": "apresentacoes",
+  "title": "Apresentações",
+  "order": 5,
+  "summary": "Diferencie efeitos de passagem, animações internas e configurações compartilhadas dos slides.",
+  "subtopics": [
+   {
+    "id": "powerpoint-basico",
+    "title": "PowerPoint: estrutura e modos de exibição",
+    "order": 1,
+    "content": "O Microsoft PowerPoint cria apresentações em slides. Os arquivos usam a extensão .pptx (apresentação editável), .ppsx (apresentação de slides, que abre direto no modo de apresentação), .potx (modelo) e .pdf (exportação). A área de trabalho tem painel de miniaturas, painel de slide, painel de anotações e as guias Página Inicial, Inserir, Design, Transições, Animações, Apresentação de Slides, Revisão e Exibir.\n\nModos de exibição: Normal (edição), Classificação de Slides (visão geral para reordenar), Anotações, Modo de Leitura e Apresentação de Slides. Atalhos de apresentação: F5 inicia do primeiro slide; Shift+F5 inicia do slide atual; Esc encerra; as setas e a barra de espaço avançam; B escurece a tela. Ctrl+M insere novo slide; Ctrl+D duplica o slide selecionado; arrastar slides no painel de miniaturas os reordena. Slides podem ser ocultados, e a apresentação pode ser gravada, cronometrada e exportada como vídeo.\n\nObjetos que podem ser inseridos: texto, imagens, formas, SmartArt, gráficos, tabelas, vídeo, áudio e hiperlinks. O Impress, do LibreOffice, é o equivalente livre (usa .odp, também abre e salva .pptx; F5 inicia a apresentação)."
+   },
+   {
+    "id": "transicoes-animacoes",
+    "title": "Transições e animações",
+    "order": 2,
+    "content": "Transição é o efeito visual que ocorre na passagem de um slide para o seguinte (guia Transições): desbotar, empurrar, revelar, entre outras. Pode-se definir som, duração e a forma de avançar (ao clicar com o mouse ou automaticamente após um tempo). Animação é o efeito aplicado a objetos dentro do slide (guia Animações): entrada, ênfase, saída e trajetória de movimento. A confusão entre os dois é frequente em provas: transição é entre slides; animação é em objetos de um slide.\n\nO Painel de Animação lista as animações em ordem e permite alterar início (ao clicar, com anterior ou após anterior), atraso e duração. Efeitos de ênfase destacam um objeto já exibido; os de saída o retiram. Para repetir uma mesma animação em outro objeto, usa-se o Pincel de Animação. A pré-visualização mostra o efeito sem iniciar a apresentação.\n\nUm slide oculto não aparece durante a apresentação, mas continua no arquivo. Em questões sobre ícones da faixa de opções, identifique em qual guia o comando está para saber se é transição ou animação."
+   },
+   {
+    "id": "mestre-layouts",
+    "title": "Temas, layouts e slide mestre",
+    "order": 3,
+    "content": "Tema é um conjunto de cores, fontes e efeitos aplicado ao conjunto da apresentação (guia Design). Layout define a disposição dos espaços reservados em um slide (título, conteúdo, duas colunas, em branco). O Slide Mestre (guia Exibir, Slide Mestre) controla a aparência de todos os slides: alterações no mestre (logotipo, fonte do título, plano de fundo, rodapé, numeração) se propagam a todos os slides que usam aquele layout. Cada layout pode ter alterações próprias, e a aparência definida individualmente em um slide não é sobrescrita pelo mestre se for formatação direta posterior.\n\nRodapé, data e número do slide são inseridos pela guia Inserir (Cabeçalho e Rodapé). Seções agrupam slides em partes nomeadas, facilitando a organização de apresentações longas. Para reaproveitar slides de outra apresentação, pode-se usar Reutilizar Slides, mantendo ou não a formatação de origem. Modelos (.potx) guardam temas, layouts e conteúdo padrão para novas apresentações."
+   }
+  ]
+ },
+ {
+  "id": "internet-redes",
+  "title": "Internet e redes",
+  "order": 6,
+  "summary": "Compreenda nomes de domínio, serviços web, transporte de dados e redes organizacionais.",
+  "subtopics": [
+   {
+    "id": "redes-organizacionais",
+    "title": "Tipos de rede, topologias e Internet, intranet e extranet",
+    "order": 1,
+    "content": "Quanto à abrangência, as redes se classificam em PAN (pessoal, poucos metros, como Bluetooth), LAN (local, um prédio ou campus), MAN (metropolitana, uma cidade) e WAN (de longa distância, a Internet é a maior WAN). WLAN é uma LAN sem fio. Topologia é a forma como os dispositivos se interligam: barramento (um cabo central), anel, estrela (todos ligados a um ponto central, como um switch; é a mais comum nas LANs atuais, e a falha de um nó não derruba a rede, mas a do ponto central sim), malha (vários caminhos redundantes) e árvore (hierárquica).\n\nInternet é a rede mundial de redes, baseada na família de protocolos TCP/IP, aberta ao público. Intranet é a rede privada de uma organização, que usa as mesmas tecnologias da Internet (navegador, HTTP, e-mail) para uso interno; seu acesso é restrito aos usuários autorizados. Extranet é a extensão de parte da intranet a pessoas externas autorizadas, como clientes e fornecedores, com controle de acesso. Uma intranet pode ser acessada de fora por meio de VPN, sem deixar de ser privada. Um endereço privado ou uma página com senha não elimina a necessidade de aplicar controles de segurança.\n\nModelo cliente-servidor: o cliente solicita serviços e o servidor os fornece, e não precisam estar no mesmo local físico. Na rede ponto a ponto (P2P), cada máquina pode atuar como cliente e servidor. ISP é o provedor de acesso à Internet; a velocidade contratada é medida em bits por segundo."
+   },
+   {
+    "id": "dispositivos-rede",
+    "title": "Dispositivos e meios de rede",
+    "order": 2,
+    "content": "Placa de rede (NIC) conecta o computador à rede e tem um endereço físico único, o MAC (48 bits, em hexadecimal, gravado pelo fabricante). Hub é um concentrador que repete o sinal para todas as portas (opera na camada física e causa mais colisões). Switch (comutador) encaminha os quadros apenas à porta do destinatário, usando o endereço MAC (camada de enlace). Roteador interliga redes diferentes e escolhe caminhos usando endereços IP (camada de rede), além de fazer NAT e, em redes domésticas, de atuar também como ponto de acesso Wi-Fi e servidor DHCP. Modem converte sinais digitais em sinais adequados ao meio de acesso (telefonia, cabo, fibra) e vice-versa. Access point (ponto de acesso) fornece Wi-Fi; repetidor amplia o sinal; gateway conecta redes com protocolos diferentes e é o \"portão de saída\" para outras redes; firewall filtra o tráfego.\n\nMeios de transmissão: cabo de par trançado (UTP, com conectores RJ-45, até 100 m por segmento, categorias Cat5e e Cat6), cabo coaxial, fibra óptica (luz; altíssima velocidade, longas distâncias e imunidade a interferência eletromagnética) e ondas de rádio (Wi-Fi, Bluetooth, redes móveis). A velocidade é limitada pelo componente mais lento da cadeia.\n\nWi-Fi segue a família de padrões IEEE 802.11 (a/b/g/n/ac/ax; o 802.11ax é o Wi-Fi 6) em faixas de 2,4 GHz (maior alcance, mais interferência) e 5 GHz (mais velocidade, menor alcance). Ethernet segue o padrão IEEE 802.3. Bluetooth é um padrão de curto alcance (PAN) para fones, teclados e outros periféricos."
+   },
+   {
+    "id": "protocolos-redes",
+    "title": "Protocolos e modelo TCP/IP",
+    "order": 3,
+    "content": "Protocolo é um conjunto de regras de comunicação. A família TCP/IP, usada na Internet, organiza-se em camadas: aplicação (HTTP, HTTPS, FTP, SMTP, POP3, IMAP, DNS, DHCP, SSH, Telnet), transporte (TCP, UDP), Internet ou rede (IP, ICMP) e acesso à rede (Ethernet, Wi-Fi). O modelo de referência OSI tem sete camadas (física, enlace, rede, transporte, sessão, apresentação e aplicação).\n\nTCP é orientado a conexão e confiável: estabelece a conexão, confirma o recebimento, reordena e retransmite pacotes perdidos; é usado em web, e-mail e transferência de arquivos. UDP não é orientado a conexão, não confirma nem retransmite, mas tem menos atraso, por isso é usado em VoIP, videoconferência, jogos e streaming. IP endereça e roteia os pacotes. ICMP trata de mensagens de controle e erro (o comando ping usa ICMP).\n\nPortas comuns: HTTP 80, HTTPS 443, FTP 20 e 21, SSH 22, Telnet 23, SMTP 25 (587 para envio autenticado), DNS 53, POP3 110, IMAP 143, RDP 3389. Dica de prova: a letra S no fim do protocolo indica segurança (HTTPS, FTPS, IMAPS, POP3S), e a presença de TP (HTTP, FTP) indica protocolo de transferência. HTTP transfere páginas e HTTPS faz o mesmo com criptografia (TLS); FTP transfere arquivos; SSH oferece acesso remoto seguro e Telnet, inseguro; DHCP atribui automaticamente configurações de rede; SNMP gerencia dispositivos de rede."
+   },
+   {
+    "id": "enderecamento-ip",
+    "title": "Endereçamento IP, DNS e DHCP",
+    "order": 4,
+    "content": "Todo dispositivo em uma rede IP precisa de um endereço. O IPv4 tem 32 bits, escritos em quatro números de 0 a 255 separados por pontos (192.168.0.10), com cerca de 4,3 bilhões de combinações, insuficientes para a Internet atual. O IPv6 tem 128 bits, escritos em oito grupos de quatro dígitos hexadecimais separados por dois-pontos (2001:0db8:85a3:0000:0000:8a2e:0370:7334), e oferece um espaço de endereçamento imenso. Endereços privados (10.0.0.0/8, 172.16.0.0/12 e 192.168.0.0/16) valem apenas em redes internas e não são roteados na Internet; o NAT, feito pelo roteador, traduz vários endereços privados em um endereço público.\n\nA máscara de sub-rede (por exemplo, 255.255.255.0 ou /24) separa a parte da rede da parte do dispositivo. O gateway padrão é o endereço do roteador pelo qual a rede alcança outras redes. O DHCP atribui automaticamente IP, máscara, gateway e DNS aos dispositivos; sem ele, a configuração é manual (IP fixo). O endereço 127.0.0.1 (localhost) designa a própria máquina.\n\nO DNS (Sistema de Nomes de Domínio) traduz nomes (www.exemplo.com.br) em endereços IP e vice-versa, de forma hierárquica; sem DNS, seria preciso decorar números. Um nome de domínio tem hierarquia da direita para a esquerda: domínio de topo (.br, .com), domínio de segundo nível (.com.br, ou exemplo) e subdomínios (www). O comando ping testa a conexão, o ipconfig exibe a configuração de rede no Windows (ifconfig e ip no Linux), o tracert mostra o caminho percorrido (traceroute no Linux) e o nslookup consulta o DNS."
+   },
+   {
+    "id": "dns-web",
+    "title": "Web, URL, navegadores e buscas",
+    "order": 5,
+    "content": "A Web (WWW) é o serviço de hipertexto da Internet, formado por páginas escritas em HTML e acessadas por URL, o endereço completo de um recurso, no formato protocolo://domínio:porta/caminho?parâmetros#âncora (por exemplo, https://www.exemplo.com.br/pagina). O navegador (Chrome, Edge, Firefox, Safari, Opera) solicita as páginas por HTTP ou HTTPS e as interpreta. Sites seguros mostram o cadeado e usam HTTPS, o que protege a comunicação, mas não garante a idoneidade do site. Se o endereço digitado começa com ftp://, o navegador usa o protocolo FTP.\n\nRecursos de navegação: guias (abas), favoritos, histórico, cache (cópias locais de páginas para acelerar acessos), cookies (pequenos arquivos que guardam preferências e sessões; cookies de terceiros rastreiam navegação), downloads, extensões, gerenciador de senhas e sincronização de conta. A navegação anônima (aba privada) não guarda histórico, cookies nem dados de formulários após fechar, mas não torna o usuário invisível: o provedor, o administrador da rede e os sites visitados ainda podem identificá-lo. Atalhos comuns: Ctrl+T abre nova guia, Ctrl+W fecha a guia, Ctrl+Shift+T reabre a última fechada, Ctrl+Shift+N abre janela anônima no Chrome e janela InPrivate no Edge (no Firefox, é Ctrl+Shift+P), Ctrl+H abre o histórico, Ctrl+J, os downloads, Ctrl+D, adiciona aos favoritos, F5 recarrega e Ctrl+F5 recarrega ignorando o cache.\n\nBuscadores (Google, Bing) indexam páginas e usam operadores: aspas para frase exata (\"polícia civil\"), sinal de menos para excluir um termo (-concurso), site: para restringir a um domínio e filetype: para um tipo de arquivo. Intranet e webmail são acessados pelo navegador. Plug-ins e extensões de origem duvidosa são risco de segurança."
+   },
+   {
+    "id": "wifi-seguranca",
+    "title": "Segurança de redes sem fio",
+    "order": 6,
+    "content": "O nome da rede Wi-Fi é o SSID. Protocolos de segurança: WEP (Wired Equivalent Privacy) é o mais antigo e é considerado inseguro, pois pode ser quebrado em minutos; WPA (Wi-Fi Protected Access) foi criado como melhoria do WEP; WPA2, hoje muito difundido, usa criptografia AES e é bem mais seguro; WPA3 é o mais recente. Uma rede aberta (sem senha) não tem criptografia, e qualquer um pode capturar o tráfego. Em redes públicas, evite digitar senhas e dados bancários, prefira sites HTTPS e use VPN.\n\nBoas práticas em redes domésticas: trocar a senha padrão do roteador e a da rede Wi-Fi, usar WPA2 ou WPA3 com senha longa, manter o firmware do roteador atualizado, desativar o WPS e o acesso remoto quando não necessários e usar a rede de convidados para visitantes. Ocultar o SSID e filtrar endereços MAC são medidas auxiliares que não substituem a criptografia, pois podem ser contornadas. Um ponto de acesso falso com nome parecido ao de uma rede legítima (evil twin) captura dados dos incautos."
+   }
+  ]
+ },
+ {
+  "id": "correio-eletronico",
+  "title": "Correio eletrônico e comunicação",
+  "order": 7,
+  "summary": "Separe transporte e consulta de mensagens e reconheça funções dos campos e da comunicação por IP.",
+  "subtopics": [
+   {
+    "id": "protocolos-email",
+    "title": "Protocolos de e-mail: SMTP, POP3 e IMAP",
+    "order": 1,
+    "content": "O envio de mensagens usa o SMTP (porta 25, e 587 para envio autenticado de clientes): ele leva a mensagem do cliente ao servidor e entre servidores. O recebimento usa POP3 ou IMAP. No POP3 (porta 110), o cliente baixa as mensagens para o computador e, em geral, elas são removidas do servidor (é possível manter cópia); fica adequado a quem lê no mesmo equipamento. No IMAP (porta 143), as mensagens permanecem no servidor e o cliente as sincroniza, de modo que pastas, marcações e leitura ficam iguais em todos os dispositivos. As versões seguras são SMTPS, POP3S e IMAPS.\n\nO webmail acessa o correio pelo navegador (Outlook.com, Gmail) e usa HTTP/HTTPS: dispensa o programa instalado, e as mensagens ficam no servidor. Um cliente de e-mail é um programa instalado (Outlook, Thunderbird) que se conecta ao servidor por SMTP e por POP3/IMAP. Dica da aula: M na sigla (SMTP, IMAP) lembra Mail (mensagem).\n\nO endereço de e-mail tem o formato usuario@dominio, com um único @, sem espaços e sem iniciar ou terminar por @; o nome do usuário é único no provedor. Um endereço como \"joao silva@exemplo.com\" (com espaço) é inválido."
+   },
+   {
+    "id": "campos-mensagem",
+    "title": "Campos, pastas e recursos do e-mail",
+    "order": 2,
+    "content": "Campo Para: destinatários principais. Cc (cópia): destinatários que recebem cópia, visíveis a todos. Cco (cópia oculta): destinatários que recebem a mensagem sem que os demais vejam seus endereços. Assunto: resume o tema (pode ficar em branco, mas o programa pede confirmação). Corpo: texto da mensagem. Anexos: arquivos enviados junto, com limite de tamanho do provedor (muitos aceitam em torno de 20 a 25 MB; arquivos maiores usam links de nuvem). Responder envia a resposta somente ao remetente; Responder a Todos envia a todos os destinatários do Para e Cc (não aos do Cco); Encaminhar envia a outros.\n\nPastas padrão: Caixa de Entrada (recebidas), Caixa de Saída (aguardando envio), Itens Enviados, Rascunhos (salvas e não enviadas), Itens Excluídos (Lixeira) e Lixo Eletrônico (spam). O cliente permite assinatura automática, regras de organização, marcadores, respostas automáticas (fora do escritório), listas de contatos e agenda. No Outlook, o formato de mensagem pode ser HTML, texto sem formatação ou texto rico. Spam é e-mail não solicitado em massa; mensagens de remetentes desconhecidos, com erros, urgência ou anexos suspeitos podem ser phishing: não clique em links nem abra anexos sem verificar."
+   },
+   {
+    "id": "clientes-webmail",
+    "title": "Outlook, Thunderbird e boas práticas",
+    "order": 3,
+    "content": "O Microsoft Outlook (do pacote Office) é o cliente de e-mail, calendário, contatos e tarefas; já o webmail da Microsoft é o Outlook.com (e o OWA, para ambientes corporativos). O Mozilla Thunderbird é um cliente livre e gratuito. Gmail é o webmail do Google e também pode ser usado em clientes via IMAP. Arquivos do Outlook usam os formatos .pst e .ost (dados locais) e .msg (mensagem salva).\n\nBoas práticas: verificar remetente e endereço real antes de clicar; desconfiar de pedidos urgentes de dados, senhas ou pagamentos; não abrir anexos executáveis (.exe, .scr) ou documentos com macros de origem incerta; usar antivírus atualizado; habilitar a autenticação em dois fatores; usar Cco para enviar mensagens a muitos destinatários sem expor seus endereços; e conferir os destinatários antes de usar Responder a Todos."
+   }
+  ]
+ },
+ {
+  "id": "mensageria-voip",
+  "title": "Mensageria instantânea e VoIP",
+  "order": 8,
+  "summary": "Compare aplicativos de mensagens, criptografia de ponta a ponta e a voz sobre IP.",
+  "subtopics": [
+   {
+    "id": "mensageria-instantanea",
+    "title": "Mensageria instantânea",
+    "order": 1,
+    "content": "Aplicativos de mensageria (WhatsApp, Telegram, Signal, Messenger) trocam mensagens de texto, voz, imagens, arquivos e chamadas pela Internet, em tempo real (comunicação síncrona) ou com leitura posterior. Diferem do SMS e do MMS, que usam a rede da operadora e podem gerar custo por mensagem. Identificam o usuário geralmente pelo número de telefone e podem ser usados em computadores e na web.\n\nA criptografia de ponta a ponta (E2EE) garante que só remetente e destinatário conseguem ler o conteúdo; nem o provedor do serviço o acessa. O WhatsApp a utiliza por padrão; no Telegram, ela só vale para os \"chats secretos\". Recursos: grupos, listas de transmissão, mensagens temporárias, status e backup na nuvem (que pode não ter a mesma proteção). Golpes comuns: clonagem de conta (pedem o código de verificação), falso suporte, links maliciosos e pedidos de dinheiro em nome de conhecidos. Proteja a conta com a verificação em duas etapas."
+   },
+   {
+    "id": "voip",
+    "title": "VoIP: voz sobre IP",
+    "order": 2,
+    "content": "VoIP (Voice over IP) é a tecnologia que transmite voz em tempo real por redes IP: o sinal analógico da voz é convertido em dados digitais, fragmentado em pacotes e enviado pela Internet, e reconstruído no destino. Aplicativos como WhatsApp, Skype e Teams usam VoIP; empresas usam PABX IP e telefones IP, que se conectam à rede por cabo RJ-45 (e não RJ-11, como os telefones convencionais). A qualidade depende de largura de banda adequada e de baixa latência e perda de pacotes.\n\nO VoIP usa o protocolo de transporte UDP, e não o TCP: o TCP, orientado a conexão, retransmite pacotes perdidos, o que causaria eco e atraso numa conversa em tempo real; o UDP aceita perder alguns pacotes e prioriza a continuidade. Protocolos auxiliares: SIP (sinalização: inicia, modifica e encerra chamadas), RTP (transporte de áudio e vídeo em tempo real), H.323 (conjunto de protocolos para chamadas) e codecs, que comprimem a voz. As chamadas podem ocorrer entre computadores, celulares, telefones IP ou para a rede de telefonia fixa e móvel."
+   }
+  ]
+ },
+ {
+  "id": "nuvem-colaboracao",
+  "title": "Nuvem e colaboração",
+  "order": 9,
+  "summary": "Entenda armazenamento compartilhado, permissões e o comportamento atual de gravações no Teams.",
+  "subtopics": [
+   {
+    "id": "conceitos-nuvem",
+    "title": "Computação em nuvem e armazenamento",
+    "order": 1,
+    "content": "Computação em nuvem é o fornecimento de recursos de TI (servidores, armazenamento, bancos de dados, software) pela Internet sob demanda, geralmente pagos conforme o uso. Modelos de serviço: IaaS (infraestrutura como serviço: máquinas virtuais, rede, armazenamento), PaaS (plataforma: ambiente para desenvolver e executar aplicações) e SaaS (software como serviço: aplicativos prontos acessados pelo navegador, como Gmail, Google Docs e Microsoft 365). Modelos de implantação: pública (infraestrutura compartilhada, de um provedor), privada (exclusiva de uma organização) e híbrida (combina as duas). Características: acesso por rede, elasticidade (aumentar ou reduzir recursos rapidamente), pagamento por uso e compartilhamento de recursos.\n\nServiços de armazenamento: OneDrive (Microsoft), Google Drive, Dropbox e iCloud. Permitem acessar arquivos de qualquer dispositivo, compartilhar com permissões de leitura ou edição e manter versões. Vantagens: acesso de qualquer lugar, colaboração e redução de custos. Riscos: dependência de conexão, vazamento por permissões mal configuradas, perda de acesso à conta e questões legais sobre onde ficam os dados. A nuvem não elimina a necessidade de backup independente."
+   },
+   {
+    "id": "onedrive-sharepoint",
+    "title": "OneDrive, SharePoint e sincronização",
+    "order": 2,
+    "content": "OneDrive associa arquivos a uma conta de usuário e facilita armazenamento e compartilhamento. SharePoint oferece sites, bibliotecas e espaços de equipe. Os serviços se integram, mas a localização e as permissões dependem de onde o arquivo está e de como foi compartilhado. Conceda apenas o acesso necessário e reveja links públicos ou externos.\n\nSincronizar uma pasta mantém cópias locais e remotas em correspondência conforme as regras do serviço. Uma alteração ou exclusão pode se propagar. Sincronização não substitui automaticamente backup independente, versionado e restaurável."
+   },
+   {
+    "id": "teams-gravacoes",
+    "title": "Teams: reuniões e gravações",
+    "order": 3,
+    "content": "A gravação de uma reunião de canal é armazenada no site SharePoint associado ao canal. Para reuniões que não são de canal, a documentação atual indica o OneDrive do organizador, na pasta Recordings. A localização de chamadas individuais/de grupo e os direitos de acesso seguem regras próprias; não presuma que todos os participantes externos terão acesso automático.\n\nA política de expiração é administrável. A documentação de administração consultada descreve 120 dias como prazo padrão para gravações e transcrições, mas a configuração pode ser alterada pela organização. Portanto, não trate esse prazo como universal nem como garantia de retenção. A interface e as opções podem mudar; para uma questão de prova, considere a versão expressamente indicada."
+   },
+   {
+    "id": "onenote",
+    "title": "Anotações colaborativas",
+    "order": 4,
+    "content": "Blocos do OneNote organizam conteúdo em seções e páginas. Quando armazenados em local compartilhado compatível, podem apoiar edição conjunta e sincronização, conforme as permissões atribuídas. A estrutura de anotações não é uma planilha, um protocolo de e-mail ou um sistema operacional.\n\nAo compartilhar um bloco, confirme quem tem acesso e se o vínculo é de leitura ou edição. Uma cópia local pode não refletir alterações de outras pessoas se não houver sincronização concluída."
+   }
+  ]
+ },
+ {
+  "id": "videoconferencia",
+  "title": "Videochamada e videoconferência",
+  "order": 10,
+  "summary": "Distinga as formas de comunicação síncrona e os recursos e cuidados de uma reunião online.",
+  "subtopics": [
+   {
+    "id": "comunicacao-sincrona",
+    "title": "Videochamada, videoconferência, reunião e webinar",
+    "order": 1,
+    "content": "A videoconferência é uma forma de comunicação síncrona: emissor e receptor estão conectados ao mesmo tempo, ao contrário do e-mail (assíncrono). As formas de comunicação diferem pelos recursos: chat (texto), chamada de áudio, chamada de vídeo, videoconferência, reunião, webinar e aula ao vivo oferecem combinações de texto, áudio, vídeo, arquivos e compartilhamento de tela. O vídeo gravado, ao contrário, é assíncrono.\n\nAs definições variam conforme o fornecedor, geralmente por critérios comerciais. No Zoom, por exemplo: chamada de vídeo é a conexão ponto a ponto entre dois usuários; videoconferência é uma transmissão por um ou mais apresentadores (anfitriões) a um público convidado de algumas dezenas de pessoas; reunião tem as mesmas características, mas os participantes podem assumir um papel mais ativo (câmera, microfone, tela); webinar é uma transmissão para grande público, em que os participantes em geral apenas assistem e interagem por chat ou perguntas. Em questões, a tabela de recursos de cada forma de comunicação costuma ser cobrada.\n\nPlataformas: Microsoft Teams, Zoom, Google Meet, Cisco Webex e Skype. Requisitos: câmera, microfone, alto-falantes ou fone, conexão estável com banda suficiente e navegador ou aplicativo. A mídia em tempo real trafega por protocolos como UDP/RTP."
+   },
+   {
+    "id": "recursos-seguranca-reunioes",
+    "title": "Recursos, gravações e segurança em reuniões",
+    "order": 2,
+    "content": "Recursos comuns: compartilhar tela ou janela, chat, levantar a mão, reações, salas de grupos (breakout rooms), quadro branco, plano de fundo virtual, legendas, gravação e transcrição, agendamento por convite com link, enquetes e sala de espera. Funções de participantes: anfitrião (controla a reunião, admite participantes, silencia e remove), coanfitrião, apresentador e participante.\n\nSegurança: use senha ou código de reunião, sala de espera para admitir pessoas manualmente, link exclusivo e não divulgado em redes públicas, bloqueio da reunião após o início, controle de quem compartilha a tela e atualização do aplicativo. Gravações devem respeitar a privacidade: avise os participantes e proteja o arquivo gerado. Evite compartilhar a tela inteira com notificações ou documentos confidenciais abertos. A gravação de reuniões no Microsoft Teams depende do tipo de reunião e da configuração da organização, como detalhado no tópico específico sobre o Teams."
+   }
+  ]
+ },
+ {
+  "id": "seguranca-digital",
+  "title": "Segurança da informação",
+  "order": 11,
+  "summary": "Reconheça ataques e combine autenticação, proteção de rede, atualizações e resposta a incidentes.",
+  "subtopics": [
+   {
+    "id": "pilares-ameacas",
+    "title": "Princípios da segurança e tipos de ameaça",
+    "order": 1,
+    "content": "Os pilares da segurança da informação são: confidencialidade (só acessa quem está autorizado), integridade (a informação não é alterada de forma indevida) e disponibilidade (a informação está acessível quando necessária), conhecidos pela sigla CID (ou CIA, em inglês). Acrescentam-se a autenticidade (garantia da identidade de quem criou ou enviou) e o não repúdio ou irretratabilidade (o autor não pode negar a autoria). Vulnerabilidade é uma fraqueza; ameaça é a possibilidade de exploração; risco combina probabilidade e impacto; incidente é o evento que compromete a segurança.\n\nAtaques frequentes: engenharia social (manipulação de pessoas para obter informações), phishing (mensagens falsas que induzem a revelar dados), pharming (redirecionamento ao site falso pela adulteração do DNS), spoofing (falsificação de identidade, endereço IP, MAC ou e-mail), sniffing (captura de tráfego), força bruta (tentativas sucessivas de senha), DoS (negação de serviço por sobrecarga a partir de uma fonte) e DDoS (a partir de muitas máquinas, em geral de uma botnet), man-in-the-middle (interceptação entre duas partes), SQL injection (injeção de comandos em formulários e consultas) e ataque de dia zero (exploração de falha ainda sem correção). Um ataque a disponibilidade fere o D do CID; interceptar dados fere a confidencialidade; alterar dados em trânsito fere a integridade."
+   },
+   {
+    "id": "malware-tipos",
+    "title": "Malware: tipos e características",
+    "order": 2,
+    "content": "Malware é o software malicioso. Vírus: programa que se anexa a arquivos ou programas hospedeiros e só se propaga quando o hospedeiro é executado; infecta outros arquivos. Worm (verme): propaga-se sozinho, explorando falhas e usando a rede, sem precisar de hospedeiro nem de ação do usuário; pode consumir banda e recursos. Cavalo de troia (trojan): parece um programa legítimo, executa ação maliciosa escondida e não se replica por conta própria. Spyware: monitora e envia informações do usuário; keylogger registra teclas digitadas e screenlogger registra a tela ou cliques. Adware exibe propaganda, às vezes sem consentimento.\n\nRansomware sequestra dados: criptografa os arquivos (ou bloqueia o acesso) e exige um resgate, normalmente em criptomoedas; por isso, o backup isolado é a melhor defesa. Backdoor (porta dos fundos) permite o retorno do invasor ao sistema. Rootkit esconde a presença do invasor e de outros códigos no sistema. Bot é o programa que faz o computador ser controlado remotamente; um conjunto de computadores infectados forma uma botnet, usada em DDoS, spam e outros ataques. Bomba lógica dispara sob certa condição (data, evento). Macro vírus infecta documentos com macros (Word, Excel).\n\nSintomas de infecção: lentidão, programas abrindo sozinhos, perda de arquivos, anúncios excessivos e comportamento estranho. Prevenção: antivírus atualizado, sistema e aplicativos em dia, evitar softwares piratas e anexos desconhecidos, desativar macros por padrão e fazer backup.\n\nTipos de vírus mais cobrados: vírus de arquivo (o clássico, infecta executáveis como .exe e .dll), vírus de boot (age no setor de inicialização e é ativado ao ligar o computador), vírus de macro (infecta arquivos do Office que usam macros), vírus de script (em páginas da Web e e-mails), polimórfico (muda a própria forma a cada infecção para escapar da detecção), metamórfico (reescreve todo o seu código), stealth (se oculta da detecção do antivírus) e timebomb ou bomba-relógio (ativa-se em data ou condição específica).\n\nOutros códigos maliciosos que aparecem em prova: sniffer (intercepta dados da rede), exploit (explora uma vulnerabilidade conhecida), hijacker ou sequestrador de navegador (altera a página inicial, o buscador e as configurações do navegador), keylogger (captura o que é digitado), screenlogger (registra a tela e onde o mouse clica), adware (exibe propagandas) e bomba lógica (programada para causar dano quando uma condição é atendida)."
+   },
+   {
+    "id": "phishing",
+    "title": "Phishing, engenharia social e golpes",
+    "order": 3,
+    "content": "Engenharia social explora a confiança e a pressa das pessoas, não falhas técnicas. Phishing é a mensagem (e-mail, SMS, aplicativo, ligação) que se passa por empresa, banco ou órgão público para induzir a vítima a clicar em link malicioso, instalar um programa ou fornecer dados. Variantes: spear phishing (alvo específico e personalizado), whaling (alta direção), smishing (SMS), vishing (voz, por ligação telefônica) e pharming (redirecionamento ao site falso pela alteração do DNS ou do arquivo hosts). Também ocorrem fraudes por clonagem de contas de mensageria, falsos boletos, \"falsa central\" e anúncios de promoções irreais.\n\nSinais de alerta: urgência ou ameaça, erros de escrita, endereço do remetente ou do link diferente do esperado (passe o mouse sobre o link para conferir o destino), pedido de senha, código ou pagamento, anexos inesperados. Boas práticas: não clicar; acessar o site digitando o endereço ou pelo aplicativo oficial; verificar por outro canal; não compartilhar códigos de verificação; ativar a autenticação em dois fatores; e comunicar a empresa e as autoridades. Nenhuma instituição séria pede senha completa por e-mail ou telefone."
+   },
+   {
+    "id": "controles-defesa",
+    "title": "Antivírus, firewall e outros controles",
+    "order": 4,
+    "content": "Antivírus detecta e remove malware por assinaturas, análise de comportamento (heurística) e proteção em tempo real; precisa estar atualizado e não substitui os demais cuidados. Firewall filtra o tráfego de rede segundo regras (permite ou bloqueia conexões por endereço, porta e protocolo); pode ser software (como o do Windows) ou hardware; ele não elimina vírus que já estão no computador nem protege contra um usuário que executa arquivos maliciosos. IDS detecta e IPS bloqueia intrusões. Proxy intermedeia o acesso à Internet, controlando e registrando navegação e fazendo cache. VPN cria um túnel criptografado pela rede pública, ligando o usuário a uma rede privada e protegendo o tráfego. Antispyware e antiphishing complementam.\n\nMedidas básicas: manter o sistema operacional e os aplicativos atualizados (correções fecham vulnerabilidades), usar conta sem privilégio de administrador, instalar programas só de fontes confiáveis, desativar a execução automática de mídias removíveis, criptografar dispositivos, fazer backup e treinar os usuários. Princípio do menor privilégio: cada usuário recebe apenas o acesso de que precisa. Política de senhas: longas, únicas e, de preferência, geradas e guardadas em um gerenciador de senhas."
+   },
+   {
+    "id": "autenticacao",
+    "title": "Autenticação e controle de acesso",
+    "order": 5,
+    "content": "Autenticar é comprovar a identidade; autorizar é definir o que o usuário pode fazer; registrar (auditoria, logs) é guardar o que foi feito (os \"três As\": autenticação, autorização e accounting). Os fatores de autenticação são: algo que você sabe (senha, PIN), algo que você tem (token, cartão, celular com aplicativo autenticador) e algo que você é (biometria: digital, face, íris). A autenticação multifator (MFA ou 2FA) combina pelo menos dois fatores de categorias diferentes; usar duas senhas, por exemplo, não é autenticação multifator.\n\nSenhas fortes: longas (12 caracteres ou mais), com letras, números e símbolos, sem dados pessoais, sem repetir em vários serviços; frases-senha são boas. Evite compartilhar senhas e anotá-las em locais visíveis. Códigos por SMS ajudam, mas aplicativos autenticadores e chaves físicas são mais robustos. Captcha diferencia humanos de robôs; o login único (SSO) permite acessar vários sistemas com uma só autenticação. Biometria é única, mas não pode ser trocada em caso de vazamento."
+   },
+   {
+    "id": "criptografia-integridade",
+    "title": "Criptografia, hash, assinatura e certificado digital",
+    "order": 6,
+    "content": "Criptografia transforma a mensagem em formato ilegível para quem não tem a chave. Simétrica: usa a mesma chave para cifrar e decifrar; é rápida, mas exige compartilhar a chave com segurança (exemplos: AES, DES). Assimétrica: usa um par de chaves, pública (pode ser divulgada) e privada (secreta); o que é cifrado com uma só é decifrado com a outra (exemplo: RSA). Para garantir confidencialidade, cifra-se com a chave pública do destinatário, e apenas a chave privada dele decifra. Na prática, usam-se as duas: a assimétrica troca uma chave simétrica de sessão.\n\nHash (resumo) é uma função que gera, a partir de qualquer conteúdo, um valor de tamanho fixo; é unidirecional (não se reverte) e qualquer mudança no conteúdo altera o hash, por isso garante integridade (exemplos: SHA-256; MD5 é considerado fraco). Assinatura digital: calcula-se o hash do documento e cifra-se esse hash com a chave privada do remetente; o destinatário verifica com a chave pública. Garante autenticidade, integridade e não repúdio, mas não confidencialidade (o documento não é cifrado).\n\nCertificado digital é um documento eletrônico, emitido por uma autoridade certificadora (AC), que vincula uma chave pública a uma pessoa ou entidade; no Brasil, a ICP-Brasil regula a emissão e dá validade jurídica às assinaturas. O HTTPS usa TLS e certificados para autenticar o site e cifrar a comunicação; o cadeado no navegador indica conexão segura, não que o site seja confiável. Esteganografia esconde a existência da mensagem dentro de outro arquivo; é diferente de criptografia."
+   }
+  ]
+ },
+ {
+  "id": "crimes-virtuais",
+  "title": "Crimes virtuais e cibersegurança",
+  "order": 12,
+  "summary": "Deep web e dark web, Marco Civil, provas digitais, cadeia de custódia e criptomoedas.",
+  "subtopics": [
+   {
+    "id": "deep-dark-web",
+    "title": "Deep Web, Dark Web e rede Tor",
+    "order": 1,
+    "content": "A internet pode ser pensada em camadas. Surface web (web de superfície) é o conteúdo indexado pelos buscadores. Deep web (web profunda) é todo conteúdo que os buscadores comuns não indexam: páginas que exigem login e senha (internet banking, e-mail, intranets), conteúdo dinâmico gerado em resposta a formulários, páginas isoladas, bancos de dados, documentos privados e conteúdo de acesso limitado (por exemplo, CAPTCHAs). A origem da deep web é legítima, e a maior parte dela é inofensiva e muito maior que a superfície.\n\nDark web (web obscura) é uma pequena parte da deep web, formada por redes e sites propositalmente ocultos (darknets) que exigem software, configuração ou autorização específicos. O acesso mais comum é pela rede Tor (The Onion Router, \"roteador cebola\"), que encaminha o tráfego por vários nós voluntários, com camadas de criptografia, dificultando a identificação do usuário; o Tor Browser é derivado do Firefox. Os sites têm endereços terminados em .onion, que não abrem em navegadores comuns como o Chrome e o Firefox e não são indexados pelo Google. O anonimato é forte, mas não absoluto. Muitas pessoas usam VPN para proteção adicional.\n\nA dark web abriga usos legítimos (jornalistas, ativistas, privacidade) e usos criminosos (venda de drogas, armas, dados roubados, malware, exploração de menores). O uso de rede anônima não é crime por si só; a prática de atividades ilícitas, sim. Atenção a pegadinhas: .on não é .onion; deep web e dark web não são sinônimos; a dark web não foi criada para o crime, embora o abrigue."
+   },
+   {
+    "id": "marco-civil-lgpd",
+    "title": "Marco Civil da Internet, LGPD e crimes cibernéticos",
+    "order": 2,
+    "content": "O Marco Civil da Internet (Lei 12.965/2014) estabelece princípios, garantias, direitos e deveres para o uso da Internet no Brasil: liberdade de expressão, proteção da privacidade e dos dados pessoais, neutralidade da rede (os pacotes são tratados de forma isonômica pelos provedores de conexão, sem discriminação de conteúdo, origem ou aplicação), responsabilização dos agentes e natureza participativa da rede. Os atores são os provedores de conexão, os provedores de aplicação (sites, redes sociais, e-mail) e os usuários. Os provedores devem guardar registros de conexão por 1 ano e (os de aplicação) registros de acesso a aplicações por 6 meses, e só fornecem esses dados mediante ordem judicial. O conteúdo de comunicações privadas só pode ser acessado por ordem judicial.\n\nA LGPD (Lei Geral de Proteção de Dados, Lei 13.709/2018) regula o tratamento de dados pessoais: exige base legal (como o consentimento livre, informado e inequívoco), finalidade e necessidade, transparência e segurança. Titular é a pessoa a quem os dados se referem; controlador decide sobre o tratamento; operador trata os dados em nome do controlador; encarregado (DPO) é o canal de comunicação; a ANPD é a autoridade nacional. Dados sensíveis (saúde, origem racial, religião, biometria) têm proteção reforçada.\n\nNo campo penal, a Lei 12.737/2012 (Carolina Dieckmann) tipificou a invasão de dispositivo informático (art. 154-A do Código Penal), e há tipos de fraude eletrônica, estelionato por meio digital, crimes contra a honra, divulgação de imagens íntimas sem consentimento, entre outros. Crimes virtuais podem ser próprios (que só existem no ambiente digital, como invasão de sistemas) ou impróprios (já existentes e praticados por meio digital, como a calúnia)."
+   },
+   {
+    "id": "provas-digitais",
+    "title": "Provas digitais, cadeia de custódia e a ISO/IEC 27037",
+    "order": 3,
+    "content": "Prova digital é o instrumento jurídico que demonstra a ocorrência de um fato ocorrido em meio digital, ou que usa o meio digital como instrumento de demonstração. Exemplos: registros de geolocalização, mensagens de aplicativos, postagens em redes sociais, logs, biometria, ata notarial lavrada em cartório e perícia técnica. Identificar a autoria é essencial: um simples print screen pode não bastar, porque pode se tratar de perfil falso ou conteúdo adulterado. Evidências digitais são frágeis: podem ser facilmente alteradas, apagadas, criptografadas ou sobrescritas, por isso o tratamento exige método.\n\nA norma ABNT NBR ISO/IEC 27037 padroniza o tratamento de evidências digitais para preservar sua integridade, admissibilidade e força probatória. Os processos são, nesta ordem: identificação (pesquisar, reconhecer e documentar o item), coleta (recolher o dispositivo de seu local de origem e levá-lo ao ambiente de análise), aquisição (produzir cópias da evidência, como a imagem do disco completo, com documentação dos métodos) e preservação (guarda e vigilância para evitar adulteração). Pilares da evidência válida: relevância, confiabilidade e suficiência; princípios do tratamento: auditabilidade, repetibilidade, reprodutibilidade e justificabilidade.\n\nA cadeia de custódia (arts. 158-A a 158-F do Código de Processo Penal) é o registro cronológico de todo o trajeto da evidência, com identificador único, quem a manuseou, quando e onde. Cuidados na cena: dispositivos desligados não devem ser ligados e dispositivos ligados não devem ser desligados, sob risco de perda de dados voláteis (a memória RAM, por exemplo); isolar o aparelho de redes (Wi-Fi, Bluetooth) para evitar apagamento remoto; documentar números de série e senhas; e minimizar o manuseio. A aquisição imediata (parcial) é feita quando o desligamento causaria perda de dados em memória. O hash dos arquivos coletados demonstra que a cópia é idêntica ao original."
+   },
+   {
+    "id": "criptomoedas-blockchain",
+    "title": "Criptomoedas e blockchain",
+    "order": 4,
+    "content": "Criptomoedas são moedas digitais que usam criptografia, sem emissão por banco central; o Bitcoin é a mais conhecida (e as demais são chamadas de altcoins; o Ethereum é outra relevante). Não são papel-moeda: são registros digitais. O valor decorre da confiança e da oferta e da procura, são muito voláteis e o mercado funciona 24 horas por dia. Características: registros distribuídos (todos os participantes consultam e validam), consenso (as transações são verificadas pela rede), hash para garantir a integridade, contratos inteligentes (smart contracts, que executam termos automaticamente, como no Ethereum) e pseudonimato: os endereços são públicos e as transações rastreáveis, embora a identidade do dono possa não ser conhecida. Carteiras (wallets) guardam as chaves que permitem movimentar os valores; perder a chave privada significa perder o acesso.\n\nBlockchain é uma cadeia de blocos encadeados por hash. Cada bloco contém um conjunto de transações, o hash do bloco anterior, a data e hora (timestamp), um número usado uma vez (nonce) e outros dados. Alterar um bloco muda seu hash e quebra a cadeia, o que torna o registro praticamente imutável. A mineração é o processo de validar blocos por prova de trabalho (proof of work) mediante grande poder computacional; outras redes usam prova de participação (proof of stake). Não há uma autoridade central: o registro é descentralizado.\n\nInteresse investigativo: criptomoedas são usadas em pagamentos de resgate de ransomware e em transações ilícitas, mas, como o histórico de transações é público, é possível rastreá-las, e corretoras (exchanges) podem ser obrigadas a identificar clientes. Para golpes, atenção a promessas de lucro garantido e pirâmides financeiras."
+   }
+  ]
+ },
+ {
+  "id": "backup-recuperacao",
+  "title": "Backup e recuperação",
+  "order": 13,
+  "summary": "Planeje cópias independentes, proteja uma cópia contra alteração e teste a restauração.",
+  "subtopics": [
+   {
+    "id": "tipos-backup",
+    "title": "Tipos de backup: completo, incremental, diferencial",
+    "order": 1,
+    "content": "Backup completo (full) copia todos os dados selecionados e marca os arquivos como copiados (desmarca o atributo \"arquivo\"). Backup incremental copia apenas o que foi criado ou modificado desde o último backup de qualquer tipo (completo ou incremental) e desmarca o atributo; é o mais rápido e usa menos espaço, mas a restauração é mais lenta, porque exige o último completo e todos os incrementais seguintes, em ordem. Backup diferencial copia o que mudou desde o último backup completo e não desmarca o atributo; cada diferencial cresce em relação ao anterior, e a restauração usa o último completo mais apenas o último diferencial. Backup de cópia (ou simples) copia sem alterar o atributo e não interfere nos ciclos de incremental e diferencial.\n\nExemplo: se o completo é feito aos domingos e há backups diários, para restaurar na quinta-feira com incrementais são necessários o completo de domingo e os incrementais de segunda a quinta; com diferencial, o completo de domingo e o diferencial de quinta. A recuperação pode ser total (restaurar tudo) ou parcial (arquivos específicos). Backups podem ser feitos em disco, fita, mídias removíveis, servidores de rede ou nuvem, de forma local ou externa, e devem ser criptografados quando contêm dados sensíveis. O backup só é confiável se for testado: ensaios de restauração periódicos mostram se os dados realmente voltam."
+   },
+   {
+    "id": "estrategia-321",
+    "title": "Estratégia 3-2-1, RPO, RTO e testes",
+    "order": 2,
+    "content": "A regra 3-2-1 recomenda manter 3 cópias dos dados (a original e duas cópias), em 2 tipos de mídia diferentes (por exemplo, disco interno e disco externo ou fita) e 1 cópia fora do local principal (outro prédio ou nuvem). Variações modernas (3-2-1-1-0) acrescentam uma cópia imutável ou desconectada da rede (air gap), que resiste a ransomware, e zero erros nos testes de restauração. O objetivo é sobreviver a falha de hardware, exclusão acidental, ataque e desastre físico (incêndio, roubo, enchente).\n\nDois indicadores orientam o planejamento: RPO (ponto objetivo de recuperação), a quantidade máxima de dados que a organização aceita perder, medida em tempo (se o RPO é de 24 horas, o backup deve ser feito ao menos diariamente); e RTO (tempo objetivo de recuperação), o tempo máximo aceitável para restabelecer o serviço. Quanto menores o RPO e o RTO, maior o custo. A política de retenção define por quanto tempo cada versão é mantida.\n\nBoas práticas: automatizar os backups; criptografar as cópias; proteger as credenciais do serviço de backup; manter ao menos uma cópia desconectada da rede; conferir os logs; e testar a restauração periodicamente. Um backup que nunca foi restaurado em teste é uma suposição, e não uma garantia."
+   },
+   {
+    "id": "sincronizacao-backup",
+    "title": "Sincronização não é backup",
+    "order": 3,
+    "content": "Sincronização replica alterações entre locais; uma exclusão acidental pode ser propagada. Backup cria cópias destinadas à recuperação, de preferência com versões, retenção e isolamento adequados. Lixeira e histórico de versões ajudam em alguns serviços, mas dependem de configuração e prazo de retenção.\n\nTeste periodicamente o procedimento de restauração e proteja as credenciais do serviço de backup. Uma estratégia deve considerar erro humano, falha de hardware, ransomware, perda de acesso à conta e desastre no local principal."
+   }
+  ]
+ }
+]

@@ -1,0 +1,250 @@
+[
+ {
+  "id": "interpretacao-textos",
+  "title": "Interpretação e organização do texto",
+  "order": 1,
+  "summary": "Distinga o que o texto diz, o que sugere e como suas partes se ligam.",
+  "subtopics": [
+   {
+    "id": "compreensao-inferencia",
+    "title": "Compreensão, interpretação e inferência",
+    "order": 1,
+    "content": "Compreender é extrair o que o texto afirma de modo explícito; interpretar é concluir o que ele sugere sem declarar, a chamada inferência. Em prova, a resposta correta sempre pode ser sustentada por um trecho: se você precisa imaginar um dado que o texto não traz, a alternativa extrapola.\n\nIdentifique a ideia central (o assunto e o que se diz sobre ele), as ideias secundárias, o ponto de vista do autor e a finalidade do texto. As armadilhas mais comuns são a extrapolação (ir além do texto), a redução (tomar uma parte como se fosse o todo), a contradição (afirmar o oposto do que o texto diz) e as generalizações com palavras como todos, sempre, nunca e apenas. Leia o enunciado antes do texto, localize o trecho a que a alternativa se refere e compare palavra por palavra."
+   },
+   {
+    "id": "tipologia-generos",
+    "title": "Tipos textuais, gêneros e funções da linguagem",
+    "order": 2,
+    "content": "Os tipos textuais descrevem a organização predominante: narração (ações no tempo, com personagens), descrição (características), dissertação (exposição ou argumentação de ideias), injunção (ordens e instruções) e exposição. Gênero é o formato social do texto, como notícia, reportagem, editorial, artigo de opinião, crônica, charge, ofício e requerimento. Um mesmo gênero pode combinar vários tipos.\n\nAs funções da linguagem indicam o foco da comunicação: referencial (informar sobre algo), emotiva (expressar o emissor), apelativa ou conativa (convencer o receptor), poética (a forma da mensagem), fática (manter o contato) e metalinguística (a linguagem explicando a si mesma). Distinga também linguagem formal e informal e perceba o registro adequado ao gênero."
+   },
+   {
+    "id": "coesao-coerencia",
+    "title": "Coesão, coerência e relações de sentido",
+    "order": 3,
+    "content": "Coesão são os elos linguísticos que ligam partes do texto: pronomes e sinônimos que retomam termos (anáfora), elementos que antecipam o que virá (catáfora), elipses e conectivos. Coerência é a lógica de sentido do conjunto; um texto pode ter conectivos e ainda assim ser incoerente.\n\nOs conectivos estabelecem relações: adição (e, nem), oposição (mas, porém, contudo, todavia, entretanto, no entanto), alternância (ou, ora... ora), conclusão (logo, portanto, por isso), explicação (pois, porque), causa (porque, já que, visto que), consequência (de modo que, tão... que), concessão (embora, ainda que, conquanto, mesmo que, se bem que), condição (se, caso, desde que, a menos que), finalidade (para que, a fim de que), comparação (como, tal qual), conformidade (conforme, segundo, consoante), tempo (quando, enquanto, assim que) e proporção (à medida que, quanto mais... mais). Trocar um conectivo por outro de relação diferente altera o sentido."
+   }
+  ]
+ },
+ {
+  "id": "ortografia-acentuacao",
+  "title": "Ortografia, acentuação e hífen",
+  "order": 2,
+  "summary": "Domine os pares confundíveis, as regras de acento e o hífen do Acordo Ortográfico.",
+  "subtopics": [
+   {
+    "id": "ortografia-usos",
+    "title": "Palavras de uso frequente e pares confundíveis",
+    "order": 1,
+    "content": "Porque (conjunção: causa ou explicação), por que (início ou meio de pergunta, com sentido de por qual razão, ou preposição mais pronome relativo), por quê (final de frase, antes de pontuação) e porquê (substantivo, precedido de artigo: o porquê). Mau é adjetivo e oposto de bom (mau tempo); mal é advérbio ou substantivo e oposto de bem (ele agiu mal), e também conjunção de tempo (mal chegou, saiu).\n\nA (preposição) e há (verbo haver, no sentido de tempo decorrido: há dois anos). Afim é semelhante; a fim de indica finalidade. Senão é caso contrário ou exceto; se não é condição seguida de negação. Onde indica lugar em que se está; aonde indica movimento (a + onde). Demais é advérbio ou pronome (muito; os demais); de mais é o oposto de de menos. Mas é adversativo; mais indica quantidade. Traz é do verbo trazer; trás é atrás de. Acerca de significa sobre; cerca de, aproximadamente; há cerca de, faz aproximadamente."
+   },
+   {
+    "id": "acentuacao-grafica",
+    "title": "Acentuação gráfica",
+    "order": 2,
+    "content": "Oxítonas recebem acento quando terminam em a, e, o (seguidas ou não de s) e em em ou ens: sofá, café, avô, também, parabéns. Paroxítonas são acentuadas quando terminam em l, n, r, x, ps, ão(s), ã(s), i(s), us, um e uns: fácil, hífen, açúcar, tórax, bíceps, órfão, ímã, táxi, vírus, álbum. Todas as proparoxítonas são acentuadas: árvore, lâmpada, pássaro.\n\nHiatos com i ou u tônicos, sozinhos na sílaba ou seguidos de s, recebem acento: saída, baú, país, juízo. Não se acentua se vier seguido de nh (rainha, moinho) nem quando o i ou u vier depois de ditongo em paroxítona (feiura). Os ditongos abertos éi, éu e ói são acentuados em oxítonas e monossílabos: papéis, céu, herói, dói; nas paroxítonas deixaram de ser acentuados: ideia, assembleia, joia, heroico, estreia.\n\nPelo Acordo de 2009, caiu o trema (exceto em nomes próprios estrangeiros, como Müller), o acento circunflexo em voo, enjoo, creem, leem e veem, e o acento diferencial em para, pelo, pera e polo. Permanecem pôde (passado) e pode, pôr e por, e o circunflexo nos plurais têm e vêm (e contêm, mantêm, intervêm) em oposição ao singular tem e vem."
+   },
+   {
+    "id": "hifen",
+    "title": "Emprego do hífen",
+    "order": 3,
+    "content": "Usa-se hífen quando o prefixo termina em vogal e a palavra seguinte começa com a mesma vogal (anti-inflamatório, micro-ondas, semi-interno), quando o prefixo termina em r e a palavra começa com r (hiper-resistente, inter-regional, super-requintado) e diante de h (anti-higiênico, pré-histórico). Sempre se hifenizam ex- (ex-aluno), vice- (vice-presidente), sota-, soto-, além-, aquém-, recém-, sem- (sem-terra) e, com acento tônico, pré-, pós- e pró- (pré-escolar, pós-graduação).\n\nNão se usa hífen quando o prefixo termina em vogal e a palavra seguinte começa com vogal diferente (autoescola, extraoficial, antiaéreo, neoclássico) ou com r ou s, caso em que essas consoantes se duplicam (antirreligioso, contrarregra, ultrassom, microssistema, infrassom). O prefixo co- une-se sem hífen (coordenar, coautor). Com mal-, hífen diante de vogal e de h (mal-educado, mal-humorado); com bem-, hífen em geral (bem-vindo, bem-estar). Circum- e pan- exigem hífen diante de vogal, m e n (pan-americano, circum-navegação)."
+   }
+  ]
+ },
+ {
+  "id": "morfologia",
+  "title": "Morfologia: classes de palavras",
+  "order": 3,
+  "summary": "Reconheça as classes de palavras e os pontos mais cobrados de pronomes e verbos.",
+  "subtopics": [
+   {
+    "id": "substantivo-adjetivo",
+    "title": "Substantivo, adjetivo, artigo e numeral",
+    "order": 1,
+    "content": "Substantivos podem ser comuns ou próprios, concretos ou abstratos, simples ou compostos, primitivos ou derivados; coletivos nomeiam conjuntos (cardume, matilha, alcateia, rebanho, enxame). Adjetivos qualificam o substantivo e concordam com ele; locuções adjetivas equivalem a adjetivos (de rim: renal; de rio: fluvial; de pele: cutâneo; de boi: bovino).\n\nOs graus comparativo e superlativo têm formas irregulares: bom, melhor, ótimo; mau, pior, péssimo; grande, maior, máximo; pequeno, menor, mínimo. O artigo é definido (o, a, os, as) ou indefinido (um, uma, uns, umas). Numerais são cardinais (dois), ordinais (segundo), multiplicativos (dobro) e fracionários (meio, terço); as formas ordinais aparecem em artigos e datas."
+   },
+   {
+    "id": "pronomes",
+    "title": "Pronomes: tipos e emprego",
+    "order": 2,
+    "content": "Pronomes pessoais retos (eu, tu, ele...) funcionam como sujeito; oblíquos (me, te, o, a, lhe, mim, ti, si, conosco) como complemento. Mim não é sujeito: use eu antes de verbo (para eu fazer, não para mim fazer). Depois de preposição que não introduz verbo, usa-se mim: entre mim e você, sobre mim e ela.\n\nPronomes de tratamento (Vossa Excelência, Vossa Senhoria) levam o verbo e os possessivos na terceira pessoa; usa-se Vossa quando se fala com a pessoa e Sua quando se fala dela. Demonstrativos: este (perto de quem fala, tempo presente), esse (perto de quem ouve), aquele (longe de ambos, tempo distante); no texto, este anuncia o que vem e esse retoma o que já foi dito. Há ainda possessivos, indefinidos (algum, nenhum, todo, outro, cada) e interrogativos (que, quem, qual, quanto)."
+   },
+   {
+    "id": "pronomes-relativos",
+    "title": "Pronomes relativos",
+    "order": 3,
+    "content": "Os relativos retomam um termo anterior (antecedente) e introduzem oração adjetiva: que, o qual (a qual, os quais, as quais), cujo (e flexões), quem, onde e quanto. Cujo indica posse, concorda com o termo possuído e nunca é seguido de artigo: o aluno cujo pai chegou (não cujo o pai).\n\nQuando o verbo da oração relativa exige preposição, ela vem antes do relativo: o livro de que preciso, o filme a que assisti, a casa em que moro, o amigo com quem falei, o cargo a que aspiro. Quem só se usa depois de preposição e para pessoas. Onde indica lugar em que (a cidade onde nasci); aonde só se usa com ideia de movimento, e nasci pede onde, não aonde."
+   },
+   {
+    "id": "verbos",
+    "title": "Verbos: modos, tempos e vozes",
+    "order": 4,
+    "content": "Os modos são indicativo (certeza: presente, pretérito perfeito, imperfeito, mais-que-perfeito, futuro do presente e do pretérito), subjuntivo (dúvida ou hipótese: presente, pretérito imperfeito, futuro) e imperativo (ordem). As formas nominais são infinitivo, gerúndio e particípio. Atente à correlação: se eu fosse, seria; se eu for, serei; quando vier, avise.\n\nVer e vir são muito cobrados: se eu vir, quando ele vir (de ver); se eu vier, quando ele vier (de vir). Derivados seguem o primitivo: manter, mantiver; intervir, intervier, interveio, intervêm; pôr, puser; reaver é defectivo. Haver como existencial é impessoal e fica no singular (há dúvidas, havia problemas).\n\nNa voz ativa, o sujeito pratica a ação; na passiva analítica, é paciente (as casas foram vendidas); na passiva sintética, usa-se o pronome apassivador se (vendem-se casas), com verbo concordando com o sujeito paciente; na reflexiva, o sujeito pratica e recebe a ação (ele se feriu)."
+   },
+   {
+    "id": "adverbio-preposicao",
+    "title": "Advérbio, preposição, conjunção e interjeição",
+    "order": 5,
+    "content": "O advérbio modifica verbo, adjetivo ou outro advérbio e indica lugar, tempo, modo, intensidade, afirmação, negação ou dúvida. Muitos terminam em -mente; muito, bem, mal, meio, bastante, menos e demais, quando advérbios, não variam: ela estava meio cansada; elas estavam bastante cansadas (bastante, aqui, equivale a muito). Locuções adverbiais também funcionam como advérbio (às vezes, de repente).\n\nPreposições ligam termos e criam relações (a, de, em, com, por, para, sobre, sob, entre, até); contraem-se com artigos (no, pela, ao). Conjunções ligam orações ou termos (coordenativas e subordinativas); interjeições expressam emoções (ai, ufa, nossa). Perceba a classe pela função na frase, não pela palavra isolada: que pode ser pronome relativo, conjunção integrante, advérbio de intensidade ou palavra expletiva."
+   },
+   {
+    "id": "formacao-palavras",
+    "title": "Formação de palavras",
+    "order": 6,
+    "content": "Toda palavra pode ser analisada em radical (a base de significado), afixos (prefixos e sufixos), vogal temática e desinências. A derivação cria palavras a partir de um radical: prefixal (infeliz), sufixal (felizmente), parassintética (prefixo e sufixo ao mesmo tempo, sem existir a forma só com um deles: entardecer, esclarecer), regressiva (substantivo deverbal: ajuda, de ajudar) e imprópria ou conversão (mudança de classe sem alterar a forma: o jantar).\n\nA composição une radicais: por justaposição (guarda-chuva, passatempo) ou por aglutinação, com perda de elementos (aguardente, planalto). Há ainda abreviação (foto), siglas (PC) e onomatopeias (tique-taque). O hibridismo combina radicais de línguas diferentes (automóvel, grego e latim)."
+   }
+  ]
+ },
+ {
+  "id": "sintaxe-oracao",
+  "title": "Sintaxe da oração",
+  "order": 4,
+  "summary": "Identifique sujeito, predicado e a função de cada termo na oração.",
+  "subtopics": [
+   {
+    "id": "sujeito-predicado",
+    "title": "Sujeito e predicado",
+    "order": 1,
+    "content": "O sujeito pode ser simples, composto, desinencial (oculto, identificado pela terminação do verbo), indeterminado (verbo na 3ª pessoa do plural sem referente: Bateram à porta; ou verbo intransitivo, transitivo indireto ou de ligação + se: Precisa-se de funcionários) e inexistente, nas orações sem sujeito: verbos de fenômenos da natureza (Choveu muito), haver no sentido de existir ou de tempo (Há problemas; Há dois anos), fazer e ser indicando tempo (Faz frio; É tarde).\n\nO predicado é verbal (núcleo verbo de ação: Os alunos estudaram), nominal (verbo de ligação mais predicativo do sujeito: A situação permaneceu tensa) ou verbo-nominal (verbo significativo mais predicativo: Ela voltou cansada). São verbos de ligação, conforme o sentido, ser, estar, ficar, permanecer, continuar, andar, parecer e tornar-se."
+   },
+   {
+    "id": "termos-integrantes",
+    "title": "Complementos verbais e nominais",
+    "order": 2,
+    "content": "O objeto direto completa o verbo sem preposição obrigatória (comprou o livro); o objeto indireto exige preposição (obedeceu ao professor; gosta de música); há objeto direto preposicionado em alguns casos (amar a Deus). O complemento nominal completa um nome (substantivo, adjetivo ou advérbio) e exige preposição (necessidade de ajuda, favorável à mudança); o adjunto adnominal modifica o substantivo sem completar seu sentido (livro de Maria, casa branca).\n\nO agente da passiva é quem pratica a ação na voz passiva analítica (O ladrão foi preso pela polícia). O predicativo do sujeito qualifica o sujeito por meio de verbo de ligação ou verbo significativo; o predicativo do objeto qualifica o objeto (Julgaram-no culpado)."
+   },
+   {
+    "id": "termos-acessorios",
+    "title": "Adjunto adverbial, aposto e vocativo",
+    "order": 3,
+    "content": "O adjunto adverbial indica circunstância (tempo, lugar, modo, causa, intensidade...) e modifica verbo, adjetivo ou advérbio. Quando deslocado para o início, costuma vir seguido de vírgula (Na semana passada, chegou o resultado). O aposto explica ou resume um termo e vem em geral isolado por vírgulas ou dois-pontos (Pedro, o aluno novo, chegou). Pode ser explicativo, enumerativo ou resumitivo (Livros, revistas, jornais: tudo foi vendido).\n\nO vocativo nomeia o interlocutor e fica sempre isolado por vírgulas (Alunos, prestem atenção). Não faz parte do sujeito nem do predicado."
+   }
+  ]
+ },
+ {
+  "id": "periodo-composto",
+  "title": "Período composto",
+  "order": 5,
+  "summary": "Reconheça orações coordenadas e subordinadas e as relações que os conectivos criam.",
+  "subtopics": [
+   {
+    "id": "coordenacao",
+    "title": "Orações coordenadas e conjunções coordenativas",
+    "order": 1,
+    "content": "Orações coordenadas são sintaticamente independentes entre si. Aditivas: e, nem, não só... mas também. Adversativas: mas, porém, contudo, todavia, entretanto, no entanto. Alternativas: ou, ora... ora, quer... quer. Conclusivas: logo, portanto, por isso, assim, pois (depois do verbo: Penso, pois, existo). Explicativas: pois (antes do verbo), porque, que, porquanto (Corra, que o ônibus vai sair).\n\nDistinga as conclusivas, em que a segunda oração é consequência da primeira, das explicativas, em que a segunda justifica a primeira. A conjunção e pode ter valor adversativo (Estudou muito e não passou) e o mas pode ter valor de retificação; o sentido do contexto decide."
+   },
+   {
+    "id": "subordinacao",
+    "title": "Orações subordinadas",
+    "order": 2,
+    "content": "Substantivas funcionam como termos essenciais ou integrantes e são introduzidas por que ou se: subjetiva (É importante que todos estudem), objetiva direta (Disse que viria), objetiva indireta (Precisa de que o ajudem), completiva nominal, predicativa e apositiva (Só quero isto: que me ouçam). Adjetivas modificam um substantivo: restritivas, sem vírgula, delimitam o antecedente (Os policiais que estavam de plantão foram homenageados: só alguns); explicativas, entre vírgulas, acrescentam informação a todo o antecedente (Os policiais, que estavam de plantão, foram homenageados).\n\nAdverbiais indicam circunstância: causais (porque, já que, visto que, como), concessivas (embora, ainda que, conquanto, mesmo que, se bem que), condicionais (se, caso, desde que, a menos que, contanto que), consecutivas (tão... que, de modo que), finais (para que, a fim de que), comparativas (como, que nem), conformativas (conforme, segundo, consoante), temporais (quando, enquanto, assim que, logo que) e proporcionais (à medida que, quanto mais... mais)."
+   },
+   {
+    "id": "oracoes-reduzidas",
+    "title": "Orações reduzidas e equivalência",
+    "order": 3,
+    "content": "Oração reduzida é aquela cujo verbo está em forma nominal (infinitivo, gerúndio ou particípio) e que não traz conectivo. Pode ser desdobrada em oração desenvolvida com mesmo sentido: Ao chegar, ligou equivale a Quando chegou, ligou (temporal); Estudando mais, passaria equivale a Se estudasse mais, passaria (condicional); Feito o pedido, saiu equivale a Depois que fez o pedido, saiu; Por ser rápido, venceu equivale a Porque era rápido, venceu (causal).\n\nAo reescrever, preserve a relação lógica e ajuste modo e tempo verbal. O gerúndio, por exemplo, pode indicar modo, tempo, causa ou condição conforme o contexto."
+   }
+  ]
+ },
+ {
+  "id": "concordancia",
+  "title": "Concordância verbal e nominal",
+  "order": 6,
+  "summary": "Faça o verbo e o nome concordarem em casos de maior risco de prova.",
+  "subtopics": [
+   {
+    "id": "concordancia-verbal",
+    "title": "Concordância verbal",
+    "order": 1,
+    "content": "Regra geral: o verbo concorda em número e pessoa com o sujeito. Sujeito composto anteposto leva o verbo ao plural; posposto, o verbo pode concordar com o núcleo mais próximo. Núcleos ligados por ou ficam no singular se há exclusão e no plural se há soma. Expressões partitivas aceitam singular ou plural (a maioria dos alunos chegou/chegaram). Mais de um leva o verbo ao singular (Mais de um candidato desistiu), exceto com reciprocidade ou repetição. Um dos que pede o plural na tradição gramatical (Ele é um dos que mais trabalham). Nomes próprios no plural levam o verbo ao plural quando precedidos de artigo plural (Os Estados Unidos são grandes).\n\nHaver existencial é impessoal (Há muitas dúvidas; Havia problemas) e, em locução, o auxiliar também fica no singular (Deve haver soluções), ao contrário de existir (Existem soluções). Fazer indicando tempo não varia (Faz dois anos). Com horas e datas, ser concorda com o numeral (São três horas). Com se, o verbo transitivo direto concorda com o sujeito paciente (Vendem-se casas), enquanto o verbo transitivo indireto, intransitivo ou de ligação fica no singular com se indeterminador (Precisa-se de funcionários)."
+   },
+   {
+    "id": "concordancia-nominal",
+    "title": "Concordância nominal",
+    "order": 2,
+    "content": "O adjetivo, o artigo, o pronome e o numeral concordam em gênero e número com o substantivo. Com adjetivos compostos, só o último elemento varia (surdos-mudos, camisas verde-claras); cores formadas por substantivo ficam invariáveis (camisas azul-marinho, olhos verde-oliva).\n\nAnexo, incluso, obrigado, mesmo e próprio concordam com o termo a que se referem (Seguem anexas as fotos; Obrigada, disse ela; Elas mesmas fizeram). Meio, quando advérbio (= um pouco), não varia (Ela está meio cansada), mas meia varia como numeral (meia hora). Bastante é invariável como advérbio (Elas estão bastante cansadas) e varia como pronome (bastantes motivos). É proibido, é necessário e é bom ficam invariáveis quando o sujeito não vem determinado por artigo (É proibido entrada), mas concordam se houver determinante (É proibida a entrada). Menos e só (= apenas) não variam."
+   }
+  ]
+ },
+ {
+  "id": "regencia-crase",
+  "title": "Regência e crase",
+  "order": 7,
+  "summary": "Combine verbos com a preposição correta e decida quando há crase.",
+  "subtopics": [
+   {
+    "id": "regencia",
+    "title": "Regência verbal e nominal",
+    "order": 1,
+    "content": "Assistir significa ver, com a preposição a (assistir ao filme), e ajudar, sem preposição (assistir o doente). Aspirar é cheirar, sem preposição (aspirar o perfume), e desejar, com a (aspirar a um cargo). Visar é mirar ou dar visto, sem preposição, e almejar, com a (visar ao cargo). Obedecer e desobedecer pedem a. Preferir pede a, e não do que (prefiro cinema a teatro). Implicar significa acarretar (a medida implica custos); implicar com é aborrecer-se. Custar, no sentido de ser difícil, rege objeto indireto (custa-me crer). Esquecer e lembrar, sem pronome, têm objeto direto (esqueci o livro); pronominais pedem de (esqueci-me do livro).\n\nIr e chegar pedem a na norma tradicional (vou ao centro; cheguei ao trabalho); na fala usam-se também em e para, mas a prova costuma cobrar a. Pagar e perdoar têm objeto direto de coisa e indireto de pessoa (paguei a conta ao fornecedor). Informar tem as construções informar alguém de algo ou informar algo a alguém. Simpatizar pede com; responder, atender e aludir pedem a."
+   },
+   {
+    "id": "crase",
+    "title": "Crase",
+    "order": 2,
+    "content": "A crase é a fusão da preposição a com o artigo a (ou com os pronomes aquele, aquela, aquilo). Para decidir, substitua a palavra feminina por uma masculina: se aparecer ao, há crase (Fui à escola, Fui ao colégio). Ocorre crase em locuções adverbiais, prepositivas e conjuntivas femininas (à tarde, à noite, às vezes, à vista, à medida que), nas horas (às duas horas; à uma hora) e diante de pronome demonstrativo (àquele, àquela, àquilo).\n\nNão há crase diante de palavra masculina, verbo, pronome pessoal (a ela), indefinido ou de tratamento, artigo indefinido (a uma), palavras repetidas (frente a frente, gota a gota), plural sem artigo (a pessoas) e, em geral, antes de casa e terra com sentido de lar ou chão firme sem determinante. É facultativa diante de pronome possessivo feminino e de nome próprio feminino de pessoa, e depois de até (até a/à escola)."
+   }
+  ]
+ },
+ {
+  "id": "pontuacao",
+  "title": "Pontuação",
+  "order": 8,
+  "summary": "Use vírgula e demais sinais sem separar termos que devem ficar juntos.",
+  "subtopics": [
+   {
+    "id": "virgula",
+    "title": "Vírgula",
+    "order": 1,
+    "content": "Use vírgula para separar elementos de uma enumeração, o vocativo (Alunos, atenção), o aposto explicativo, a oração adjetiva explicativa, adjuntos adverbiais deslocados e longos (Na manhã seguinte, saiu), expressões explicativas (isto é, ou seja, por exemplo), conjunções adversativas (mas, porém) e conclusivas intercaladas (Ele, portanto, saiu), e elipse do verbo (Eu li o livro; ela, o jornal).\n\nNão se separa sujeito de verbo, verbo de complemento nem nome de seu complemento (errado: O diretor, chegou cedo; O prefeito anunciou, as obras). A oração adjetiva restritiva não leva vírgula (Os alunos que estudaram passaram: só os que estudaram). Antes de e, a vírgula só aparece quando as orações têm sujeitos diferentes ou o e tem valor adversativo ou enfático."
+   },
+   {
+    "id": "outros-sinais",
+    "title": "Ponto e vírgula, dois-pontos, travessão, aspas e parênteses",
+    "order": 2,
+    "content": "O ponto e vírgula separa itens de enumeração extensa ou orações já pontuadas internamente por vírgula, e marca pausa maior que a vírgula, antes de conjunções adversativas em períodos longos. Os dois-pontos introduzem explicação, enumeração, citação ou fala; o travessão marca diálogo, destaca termo ou isola aposto e comentário. Entre parênteses colocam-se esclarecimentos, datas e informações acessórias.\n\nAs aspas indicam citação, ironia, estrangeirismo, gíria ou termo usado em sentido especial. O ponto de interrogação e o de exclamação encerram frases interrogativas e exclamativas; as reticências indicam suspensão ou hesitação. Em prova, verifique se a mudança de sinal altera o sentido (por exemplo, vírgula que transforma uma oração restritiva em explicativa)."
+   }
+  ]
+ },
+ {
+  "id": "colocacao-pronominal",
+  "title": "Colocação pronominal",
+  "order": 9,
+  "summary": "Defina onde o pronome oblíquo átono deve ficar em relação ao verbo.",
+  "subtopics": [
+   {
+    "id": "proclise-enclise",
+    "title": "Próclise, ênclise e mesóclise",
+    "order": 1,
+    "content": "A ênclise (pronome depois do verbo) ocorre no início de oração e após pausa (Entregaram-me o convite), com imperativo afirmativo (Faça-me um favor), gerúndio sem preposição (Saiu falando-me) e infinitivo impessoal quando não há atrator. A mesóclise (pronome no meio) só ocorre com o futuro do presente e o futuro do pretérito sem palavra atrativa (Entregar-me-ão o convite; Dir-se-ia).\n\nA próclise (pronome antes do verbo) é obrigatória diante de atrativos: palavras negativas (não, nunca, jamais, ninguém, nada), advérbios sem pausa (já, sempre, talvez, também, bem, ainda), pronomes relativos, indefinidos e interrogativos (que, quem, alguém, todos), conjunções subordinativas (quando, se, porque, embora), orações optativas (Deus o abençoe) e gerúndio precedido de em (Em se tratando de). Com locução verbal, o pronome pode ficar depois do auxiliar ou depois do verbo principal (se este estiver no infinitivo ou gerúndio), sem hífen quando vier antes do verbo principal; com particípio, nunca se coloca o pronome enclítico. Em provas, nunca inicie frase com pronome oblíquo átono."
+   }
+  ]
+ },
+ {
+  "id": "semantica-estilistica",
+  "title": "Semântica, figuras de linguagem e reescrita",
+  "order": 10,
+  "summary": "Trabalhe com sentido das palavras, recursos de estilo e equivalência entre frases.",
+  "subtopics": [
+   {
+    "id": "relacoes-significado",
+    "title": "Sinonímia, antonímia, homonímia, paronímia e polissemia",
+    "order": 1,
+    "content": "Sinônimos têm sentido próximo, mas só se trocam se o contexto permitir. Antônimos têm sentido oposto. Homônimos têm som ou grafia iguais e sentidos diferentes: homógrafos (gosto, substantivo, e gosto, verbo, com timbres distintos), homófonos (cesta, sexta e sesta; acento e assento) e perfeitos (são, adjetivo, e são, verbo). Parônimos têm grafia e som parecidos e sentidos diferentes: descrição e discrição, emigrar e imigrar, eminente e iminente, ratificar e retificar, infligir (aplicar) e infringir (violar), cumprimento e comprimento, mandado e mandato, tráfego e tráfico, soar e suar, conserto e concerto.\n\nPolissemia é a multiplicidade de sentidos de uma mesma palavra, definida pelo contexto. Denotação é o sentido literal e objetivo; conotação é o sentido figurado, ligado a associações. A ambiguidade ocorre quando a frase admite duas interpretações."
+   },
+   {
+    "id": "figuras",
+    "title": "Figuras de linguagem",
+    "order": 2,
+    "content": "Metáfora compara sem conectivo (Ele é uma pedra de gelo); comparação usa como, tal, feito. Metonímia substitui um termo por outro com relação de proximidade (autor pela obra: li Machado de Assis; continente pelo conteúdo: tomei um copo). Catacrese é a metáfora já incorporada à língua (pé da mesa, braço da cadeira). Antítese une ideias opostas (ódio e amor); paradoxo ou oxímoro une ideias contraditórias em um só termo (silêncio ensurdecedor).\n\nHipérbole exagera (morri de rir); eufemismo suaviza (ele nos deixou, no sentido de morreu); ironia diz o contrário do que pensa; personificação ou prosopopeia atribui traços humanos a seres não humanos; sinestesia mistura sensações (voz doce, cheiro azedo); gradação organiza ideias em escala; pleonasmo reforça uma ideia (subir para cima); elipse omite termo facilmente recuperável; zeugma omite termo já citado; polissíndeto repete conectivos; assíndeto os omite; silepse é a concordância com a ideia, e não com a palavra (Os brasileiros somos alegres)."
+   },
+   {
+    "id": "reescrita",
+    "title": "Reescrita, equivalência e substituição",
+    "order": 3,
+    "content": "Reescrever sem alterar o sentido exige manter as relações lógicas do original. Troque um conectivo por outro da mesma relação (embora, conquanto e ainda que são concessivos; porém, contudo e todavia são adversativos). Concessão e adversidade são aproximadas: Embora estudasse, não aprendeu equivale a Estudou, mas não aprendeu.\n\nVerifique também a mudança de voz (O réu foi julgado pelo juiz equivale a O juiz julgou o réu), a nominalização (Quando chegou, ligou equivale a Na sua chegada, ligou), a substituição de que por o qual, a deslocação de termos e a pontuação, que pode transformar uma oração restritiva em explicativa. Descarte a alternativa que acrescente ideia nova, retire informação do original ou inverta relação de causa e consequência."
+   }
+  ]
+ }
+]

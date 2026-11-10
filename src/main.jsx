@@ -4,10 +4,11 @@ import { LayoutDashboard, BookOpen, ClipboardList, Brain, RotateCcw, BarChart3, 
 import DisciplineModule from './components/DisciplineModule.jsx';
 import rlmSubject from './data/subjects/raciocinio-logico.js';
 import informaticaSubject from './data/subjects/informatica.js';
+import portuguesSubject from './data/subjects/portugues.js';
 import './styles.css';
 
 const disciplines = ['Português','Informática','Raciocínio Lógico','Criminologia','Direito Penal','Processo Penal','Direito Constitucional','Direito Administrativo','Direitos Humanos','Ciências Forenses'];
-const subjectsByName = { 'Raciocínio Lógico': rlmSubject, Informática: informaticaSubject };
+const subjectsByName = { 'Português': portuguesSubject, 'Raciocínio Lógico': rlmSubject, Informática: informaticaSubject };
 const counts = Object.fromEntries(disciplines.map((discipline) => [discipline, subjectsByName[discipline]?.questions.length || 0]));
 
 function App(){
@@ -25,6 +26,7 @@ function Generic({active}){
   const title=isQuestionBank?active.slice(2):active;
   if(title==='Raciocínio Lógico') return <DisciplineModule subject={rlmSubject} defaultSection={isQuestionBank?'questions':'content'}/>;
   if(title==='Informática') return <DisciplineModule subject={informaticaSubject} defaultSection={isQuestionBank?'questions':'content'}/>;
+  if(title==='Português') return <DisciplineModule subject={portuguesSubject} defaultSection={isQuestionBank?'questions':'content'}/>;
   return <div className="generic"><div className="generic-icon">{isQuestionBank?<ClipboardList/>:<BookOpen/>}</div><span>{isQuestionBank?'BANCO DE QUESTÕES':'MÓDULO'}</span><h1>{title}</h1><p>A interface desta área já está preparada. O conteúdo e as funcionalidades serão conectados nas próximas etapas do NEXUS ACADEMY.</p><div><Sparkles/>Estrutura visual pronta para receber conteúdo</div></div>
 }
 
