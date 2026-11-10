@@ -1,0 +1,1020 @@
+/* Legibilidade e acessibilidade visual — preserva a paleta dark/tecnológica do NEXUS. */
+:root {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  min-width: 320px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button,
+a,
+select {
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus-visible {
+  outline: 3px solid #9aabff;
+  outline-offset: 3px;
+}
+
+/* Navegação e cabeçalho */
+.brand {
+  min-height: 80px;
+}
+
+.brand-mark {
+  width: 40px;
+  height: 40px;
+  font-size: 21px;
+}
+
+.brand b {
+  font-size: 18px;
+}
+
+.brand small {
+  font-size: 10px;
+}
+
+.nav-label {
+  font-size: 11px;
+}
+
+.nav-item,
+.nav-parent {
+  min-height: 46px;
+  height: auto;
+  font-size: 15px;
+  line-height: 1.35;
+}
+
+.submenu button {
+  min-height: 42px;
+  height: auto;
+  font-size: 13px;
+  line-height: 1.35;
+}
+
+.nav-item svg,
+.nav-parent svg {
+  flex: 0 0 19px;
+  width: 19px;
+  height: 19px;
+}
+
+.status > div:first-child {
+  font-size: 12px;
+}
+
+.status small,
+.profile small {
+  font-size: 11px;
+}
+
+.profile b {
+  font-size: 13px;
+}
+
+.profile > div {
+  width: 36px;
+  height: 36px;
+  font-size: 12px;
+}
+
+.main header {
+  min-height: 76px;
+  height: auto;
+  gap: 16px;
+  padding-inline: clamp(18px, 2.6vw, 42px);
+}
+
+.crumb {
+  min-width: 0;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.actions {
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 10px;
+}
+
+.actions label {
+  width: clamp(210px, 24vw, 320px);
+  height: 46px;
+}
+
+.actions input {
+  font-size: 14px;
+}
+
+.actions kbd {
+  font-size: 10px;
+}
+
+.bell {
+  width: 46px;
+  min-height: 46px;
+}
+
+/* Dashboard */
+.content {
+  padding: clamp(26px, 3.2vw, 52px) clamp(22px, 3.5vw, 56px) 64px;
+}
+
+.hero {
+  min-height: 360px;
+  padding: clamp(30px, 4vw, 56px);
+}
+
+.eyebrow,
+.section-head > div > span,
+.panel-head > div > span,
+.generic > span {
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+.hero h1 {
+  font-size: clamp(38px, 3.4vw, 54px);
+  line-height: 1.08;
+  letter-spacing: -1.4px;
+}
+
+.hero p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.primary,
+.ghost {
+  min-height: 46px;
+  padding: 11px 16px;
+  font-size: 14px;
+}
+
+.section-head {
+  margin-top: 40px;
+  margin-bottom: 18px;
+}
+
+.section-head h2 {
+  font-size: 25px;
+}
+
+.section-head > b {
+  font-size: 10px;
+}
+
+.metrics {
+  gap: 16px;
+}
+
+.metric {
+  min-height: 116px;
+  padding: 18px;
+  grid-template-columns: 44px 1fr;
+  column-gap: 13px;
+}
+
+.metric > div {
+  width: 44px;
+  height: 44px;
+}
+
+.metric span {
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.metric strong {
+  font-size: 26px;
+}
+
+.metric small {
+  font-size: 11px;
+}
+
+.lower {
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.panel {
+  padding: 24px;
+}
+
+.panel-head h3 {
+  font-size: 18px;
+}
+
+.panel-head > i {
+  font-size: 10px;
+}
+
+.road {
+  gap: 15px;
+  padding: 16px 0;
+}
+
+.road > strong {
+  font-size: 12px;
+}
+
+.road b,
+.quick b {
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.road p,
+.quick small {
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.road small {
+  font-size: 11px;
+}
+
+.quick {
+  min-height: 64px;
+  gap: 12px;
+  padding: 14px 0;
+}
+
+.quick > div {
+  width: 42px;
+  height: 42px;
+  flex: 0 0 42px;
+}
+
+.empty {
+  align-items: flex-start;
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.generic {
+  margin: clamp(24px, 5vw, 60px) auto;
+  padding: clamp(28px, 5vw, 70px) clamp(20px, 4vw, 48px);
+}
+
+.generic h1 {
+  font-size: clamp(30px, 4vw, 40px);
+}
+
+.generic p {
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.generic > div:last-child {
+  min-height: 42px;
+  font-size: 12px;
+}
+
+/* Conteúdo, filtros e questões */
+.study-module {
+  font-size: 16px;
+}
+
+.study-heading {
+  gap: 24px;
+  padding: clamp(22px, 3vw, 36px);
+}
+
+.study-kicker,
+.topic-title-row > div > span,
+.history-heading > div > span {
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.study-heading h1 {
+  font-size: clamp(30px, 3vw, 38px);
+  line-height: 1.15;
+}
+
+.study-heading p {
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.study-total {
+  min-width: 156px;
+  padding: 14px 16px;
+}
+
+.study-total b {
+  font-size: 26px;
+}
+
+.study-total span {
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.study-tabs {
+  gap: 8px;
+  padding: 8px;
+}
+
+.study-tabs button {
+  min-height: 46px;
+  height: auto;
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+.study-tabs button span {
+  min-width: 24px;
+  height: 22px;
+  font-size: 11px;
+}
+
+.study-layout {
+  grid-template-columns: 280px minmax(0, 1fr);
+  gap: 18px;
+}
+
+.topic-list {
+  padding: 18px 12px;
+}
+
+.topic-list-heading {
+  font-size: 11px;
+}
+
+.topic-link {
+  min-height: 48px;
+  padding: 11px 10px 11px 38px;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.topic-link > span {
+  top: 12px;
+  font-size: 11px;
+}
+
+.topic-link small {
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+.topic-content {
+  padding: clamp(20px, 2.2vw, 30px);
+}
+
+.topic-title-row h2,
+.history-heading h2 {
+  font-size: 25px;
+  line-height: 1.25;
+}
+
+.topic-title-row p {
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.small-action,
+.text-action {
+  min-height: 44px;
+  padding: 9px 12px;
+  font-size: 12px;
+}
+
+.lesson-card {
+  grid-template-columns: 50px minmax(0, 1fr);
+  gap: 14px;
+  padding: 22px 2px;
+}
+
+.lesson-number {
+  font-size: 12px;
+}
+
+.lesson-card h3 {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.lesson-card p {
+  font-size: 15px;
+  line-height: 1.85;
+}
+
+.lesson-footer,
+.lesson-footer button {
+  font-size: 12px;
+}
+
+.question-layout {
+  grid-template-columns: 250px minmax(0, 1fr);
+  gap: 18px;
+}
+
+.question-filters {
+  padding: 18px;
+}
+
+.question-filters label {
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.select-wrap select {
+  min-height: 46px;
+  padding: 10px 36px 10px 12px;
+  font-size: 13px;
+}
+
+.select-wrap svg {
+  top: 15px;
+}
+
+.filter-note {
+  padding: 12px;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.question-card {
+  padding: clamp(22px, 3vw, 34px);
+}
+
+.question-meta {
+  font-size: 11px;
+  line-height: 1.5;
+  letter-spacing: 0.6px;
+}
+
+.question-topic {
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.question-card h2 {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.answer-options {
+  gap: 10px;
+}
+
+.answer-option {
+  min-height: 48px;
+  grid-template-columns: 30px minmax(0, 1fr) 20px;
+  gap: 11px;
+  padding: 12px 14px;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.answer-option > span:first-child {
+  width: 28px;
+  height: 28px;
+  font-size: 12px;
+}
+
+.primary-action {
+  min-height: 48px;
+  padding: 11px 16px;
+  font-size: 14px;
+}
+
+.answer-feedback {
+  padding: 14px 16px;
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+.answer-feedback strong {
+  font-size: 16px;
+}
+
+.answer-feedback small {
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.question-navigation button {
+  min-height: 44px;
+  font-size: 13px;
+}
+
+.history-table {
+  font-size: 12px;
+}
+
+.history-table th {
+  font-size: 12px;
+}
+
+.history-table td {
+  padding: 13px 10px;
+}
+
+@media (max-width: 1050px) {
+  .content {
+    padding-inline: 24px;
+  }
+
+  .study-layout {
+    grid-template-columns: 240px minmax(0, 1fr);
+  }
+
+  .question-layout {
+    grid-template-columns: 220px minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .sidebar {
+    width: min(88vw, 340px);
+  }
+
+  .main header {
+    min-height: 68px;
+    padding-inline: 16px;
+    gap: 10px;
+  }
+
+  .mobile-menu {
+    min-width: 44px;
+    min-height: 44px;
+    display: grid;
+    place-items: center;
+  }
+
+  .crumb {
+    flex: 1 1 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .actions label {
+    width: clamp(150px, 25vw, 220px);
+    height: 44px;
+  }
+
+  .content {
+    padding: 22px 18px 44px;
+  }
+
+  .hero {
+    min-height: 0;
+    padding: 32px;
+  }
+
+  .hero h1 {
+    font-size: clamp(36px, 6vw, 48px);
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .section-head h2 {
+    font-size: 23px;
+  }
+
+  .study-layout,
+  .question-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .topic-list,
+  .question-filters {
+    position: static;
+  }
+
+  .topic-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .study-heading {
+    align-items: flex-start;
+  }
+
+  .question-filters {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 520px) {
+  .main header {
+    min-height: 64px;
+    padding-inline: 10px;
+  }
+
+  .crumb span,
+  .crumb > svg {
+    display: none;
+  }
+
+  .crumb b {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .actions {
+    gap: 7px;
+  }
+
+  .actions label {
+    width: 42px;
+    min-height: 44px;
+    justify-content: center;
+    padding-inline: 0;
+  }
+
+  .actions input,
+  .actions kbd {
+    display: none;
+  }
+
+  .bell {
+    width: 42px;
+    min-height: 44px;
+  }
+
+  .content {
+    padding: 16px 14px 36px;
+  }
+
+  .hero {
+    padding: 26px 22px;
+  }
+
+  .hero h1 {
+    font-size: clamp(34px, 9vw, 42px);
+    letter-spacing: -1.1px;
+  }
+
+  .hero p {
+    font-size: 15px;
+    line-height: 1.75;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .primary,
+  .ghost {
+    justify-content: center;
+    min-height: 48px;
+  }
+
+  .section-head {
+    align-items: flex-start;
+    margin-top: 30px;
+  }
+
+  .section-head > b {
+    display: none;
+  }
+
+  .section-head h2 {
+    font-size: 22px;
+  }
+
+  .metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .metric {
+    min-height: 108px;
+    padding: 13px;
+    grid-template-columns: 34px minmax(0, 1fr);
+    column-gap: 9px;
+  }
+
+  .metric > div {
+    width: 34px;
+    height: 34px;
+  }
+
+  .metric span {
+    font-size: 12px;
+  }
+
+  .metric strong {
+    font-size: 23px;
+  }
+
+  .metric small {
+    font-size: 10px;
+    line-height: 1.4;
+  }
+
+  .lower {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .panel {
+    padding: 18px;
+  }
+
+  .study-heading {
+    display: block;
+    padding: 22px 18px;
+  }
+
+  .study-heading h1 {
+    font-size: 29px;
+  }
+
+  .study-heading p {
+    font-size: 15px;
+  }
+
+  .study-total {
+    display: inline-grid;
+    margin-top: 16px;
+  }
+
+  .study-tabs {
+    overflow-x: auto;
+    scrollbar-width: thin;
+  }
+
+  .study-tabs button {
+    flex: 0 0 auto;
+    padding-inline: 12px;
+    font-size: 13px;
+  }
+
+  .topic-list {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .topic-content {
+    padding: 18px 15px;
+  }
+
+  .topic-title-row {
+    display: block;
+  }
+
+  .topic-title-row h2 {
+    font-size: 22px;
+  }
+
+  .topic-title-row .small-action {
+    margin-top: 14px;
+  }
+
+  .lesson-card {
+    grid-template-columns: 38px minmax(0, 1fr);
+    gap: 9px;
+    padding: 18px 0;
+  }
+
+  .lesson-card h3 {
+    font-size: 17px;
+  }
+
+  .lesson-card p {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+
+  .question-filters {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .question-card {
+    min-height: 0;
+    padding: 18px 15px;
+  }
+
+  .question-card h2 {
+    font-size: 17px;
+    line-height: 1.75;
+  }
+
+  .answer-option {
+    grid-template-columns: 28px minmax(0, 1fr) 18px;
+    padding: 12px 10px;
+    font-size: 14px;
+  }
+
+  .question-meta {
+    align-items: flex-start;
+    font-size: 10px;
+  }
+
+  .history-panel {
+    padding: 16px 12px;
+  }
+
+  .history-table-wrap {
+    margin-inline: -4px;
+  }
+}
+
+@media (max-width: 380px) {
+  .mobile-menu {
+    margin-right: 0;
+  }
+
+  .crumb {
+    font-size: 12px;
+  }
+
+  .metric {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .metric > div {
+    grid-row: auto;
+    margin-bottom: 6px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+
+/* Instalação PWA */
+.install-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 46px;
+  padding: 0 13px;
+  border: 1px solid #33476e;
+  border-radius: 9px;
+  background: linear-gradient(135deg, #172746, #101a2a);
+  color: #c5d0ff;
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.install-button:hover {
+  border-color: #7186ff;
+  background: #192a49;
+  color: #fff;
+}
+
+.install-button svg {
+  width: 17px;
+  height: 17px;
+  flex: 0 0 17px;
+}
+
+.install-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  background: #03060cbb;
+  backdrop-filter: blur(8px);
+}
+
+.install-dialog {
+  position: relative;
+  width: min(100%, 560px);
+  max-height: min(88vh, 760px);
+  overflow: auto;
+  padding: clamp(24px, 5vw, 38px);
+  border: 1px solid #2a3b5a;
+  border-radius: 18px;
+  background: linear-gradient(145deg, #101a2b, #0b111d 76%);
+  color: #e8edf7;
+  box-shadow: 0 26px 90px #0009;
+}
+
+.install-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid #263650;
+  border-radius: 10px;
+  background: #0c1421;
+  color: #b9c7dc;
+  cursor: pointer;
+}
+
+.install-close svg {
+  width: 19px;
+  height: 19px;
+}
+
+.install-kicker {
+  display: block;
+  padding-right: 38px;
+  color: #99aaff;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.install-dialog h2 {
+  margin: 12px 38px 10px 0;
+  color: #f1f4fb;
+  font: 600 clamp(23px, 5vw, 30px)/1.25 'Space Grotesk', sans-serif;
+}
+
+.install-dialog p,
+.install-dialog li {
+  color: #bac5d8;
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.install-dialog ul {
+  display: grid;
+  gap: 10px;
+  margin: 16px 0 22px;
+  padding-left: 21px;
+}
+
+.install-dialog strong {
+  color: #e7ecf6;
+}
+
+.install-dismiss {
+  min-height: 46px;
+  padding: 10px 18px;
+  border: 1px solid #7186ff;
+  border-radius: 9px;
+  background: #7186ff;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .install-button {
+    min-width: 44px;
+    min-height: 44px;
+    padding-inline: 11px;
+  }
+}
+
+@media (max-width: 520px) {
+  .install-button {
+    width: 42px;
+    min-width: 42px;
+    min-height: 44px;
+    padding: 0;
+  }
+
+  .install-button span {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    clip-path: inset(50%);
+  }
+
+  .install-dialog ul {
+    padding-left: 19px;
+  }
+
+  .install-dialog p,
+  .install-dialog li {
+    font-size: 14px;
+  }
+}
