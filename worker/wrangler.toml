@@ -1,0 +1,16 @@
+name = "nexus-teacher-api"
+main = "src/index.js"
+compatibility_date = "2026-11-15"
+workers_dev = true
+
+[vars]
+ALLOWED_ORIGINS = "https://jailtoncp.github.io"
+OPENAI_MODEL = "gpt-5.4-mini"
+
+[[ratelimits]]
+name = "TEACHER_RATE_LIMITER"
+namespace_id = "861370221"
+
+  [ratelimits.simple]
+  limit = 8
+  period = 60

@@ -39,6 +39,8 @@ src/
     <disciplina>-question-bank.json        questões autorais (complemento)
 public/questoes/<disciplina>/   recortes de imagem (texto-base, figuras, questões)
 CONTROLE-DISCIPLINAS.md         registro verificável do que foi feito e do que falta
+worker/                         API opcional do NEXUS TEACHER (Cloudflare Worker)
+.github/workflows/deploy-teacher-api.yml  deploy manual e independente da API
 ```
 
 ### Formato de uma questão
@@ -51,6 +53,10 @@ Campos principais: `id`, `origin` (`real` ou `authorial`), `prompt`, `options` (
 2. Se houver imagem, salve em `public/questoes/<disciplina>/` e referencie em `images`.
 3. Todo tópico precisa ter ao menos uma questão (a tela não trata lista vazia).
 
+## NEXUS TEACHER
+
+O professor virtual aparece abaixo da teoria do assunto selecionado e usa esse conteúdo como contexto. A conversa fica na memória da sessão, separada do histórico de respostas. A chave do provedor permanece no backend; **o assistente não responde até que o Worker, o Secret `OPENAI_API_KEY` e a variável pública `VITE_TEACHER_API_URL` sejam configurados**. Consulte [`worker/README.md`](worker/README.md) para arquitetura, custos e ativação.
+
 ## Publicação (GitHub Pages)
 
 O fluxo `.github/workflows/deploy.yml` publica o site a cada `push` na branch `main`. Em conta gratuita, o Pages só funciona com repositório **público**. Se o objetivo é uso pessoal, **desative o fluxo** (ou troque o gatilho `push` por `workflow_dispatch`) e use apenas `npm run dev` localmente.
@@ -60,4 +66,5 @@ O fluxo `.github/workflows/deploy.yml` publica o site a cada `push` na branch `m
 - Os gabaritos são os dos materiais de origem; só uma parte foi conferida de forma independente.
 - Parte das questões vem como recorte de imagem (texto-base, figuras e questões de aulas escaneadas).
 - A classificação por assunto das questões reais é automática e pode precisar de ajustes.
-- O build (`npm run build`) e os testes no navegador não foram executados no ambiente em que os dados foram preparados; rode-os antes de confiar no resultado.
+- A integração do NEXUS TEACHER depende de configuração externa do Cloudflare e da API de IA; veja `worker/README.md` antes de ativá-la.
+- Esta implementação passou no build, nos testes unitários do Worker e na inspeção local em larguras móveis; a resposta real de IA depende da configuração externa descrita em `worker/README.md`.

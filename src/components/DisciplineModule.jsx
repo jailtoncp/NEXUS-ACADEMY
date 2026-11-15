@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { ArrowLeft, ArrowRight, ArrowUpRight, BookOpen, Check, ChevronDown, CircleHelp, Clock3, ListChecks, RotateCcw } from 'lucide-react';
 import { appendAnswerAttempt, readAnswerHistory } from '../lib/answerHistory.js';
 import './discipline-module.css';
+import TeacherChat from './TeacherChat.jsx';
 
 function getSubtopic(subject, topicId, subtopicId) {
   const topic = subject.topics.find((item) => item.id === topicId);
@@ -15,6 +16,7 @@ export default function DisciplineModule({ subject, defaultSection = 'content', 
   const [history, setHistory] = useState(readAnswerHistory);
   const [historyError, setHistoryError] = useState('');
   const [pendingLesson, setPendingLesson] = useState(null);
+  const [teacherConversations, setTeacherConversations] = useState({});
 
   useEffect(() => {
     const nextSection = initialTarget?.mode || defaultSection;
@@ -47,6 +49,17 @@ export default function DisciplineModule({ subject, defaultSection = 'content', 
     [subject.questions, topicId],
   );
   const topic = subject.topics.find((item) => item.id === topicId) || subject.topics[0];
+  const teacherConversationKey = `${subject.id}:${topic.id}`;
+  const teacherMessages = teacherConversations[teacherConversationKey] || [];
+
+  function updateTeacherConversation(messages) {
+    setTeacherConversations((current) => {
+      const next = { ...current };
+      if (messages.length) next[teacherConversationKey] = messages;
+      else delete next[teacherConversationKey];
+      return next;
+    });
+  }
 
   function recordAnswer(question, chosen, elapsedMs) {
     const attempt = {
@@ -117,6 +130,13 @@ export default function DisciplineModule({ subject, defaultSection = 'content', 
                 </div>
               </article>
             ))}
+            <TeacherChat
+              key={teacherConversationKey}
+              subject={subject}
+              topic={topic}
+              messages={teacherMessages}
+              onMessagesChange={updateTeacherConversation}
+            />
             <div className="lesson-footer"><span>Próximo assunto</span><button onClick={() => setTopicId(subject.topics[(topic.order) % subject.topics.length].id)}>{subject.topics[(topic.order) % subject.topics.length].title}<ArrowRight /></button></div>
           </main>
         </div>
@@ -136,7 +156,7 @@ export default function DisciplineModule({ subject, defaultSection = 'content', 
 
       {section === 'history' && (
         <section className="history-panel">
-          <div className="history-heading"><div><span>REGISTROS LOCAIS</span><h2>Seu histórico de respostas</h2></div><button className="small-action" onClick={() => setHistory(readHistory())}><RotateCcw /> Atualizar</button></div>
+          <div className="history-heading"><div><span>REGISTROS LOCAIS</span><h2>Seu histórico de respostas</h2></div><button className="small-action" onClick={() => setHistory(readAnswerHistory())}><RotateCcw /> Atualizar</button></div>
           {history.filter((item) => item.discipline === subject.id).length === 0 ? <div className="history-empty"><Clock3 /><h3>Nenhuma resposta registrada ainda</h3><p>Responda a uma questão para começar seu histórico de {subject.name}.</p><button className="primary-action" onClick={() => setSection('questions')}>Ir para questões</button></div> : (
             <div className="history-table-wrap"><table className="history-table"><thead><tr><th>Data e hora</th><th>Assunto</th><th>Escolhida</th><th>Gabarito</th><th>Resultado</th><th>Tempo</th></tr></thead><tbody>{history.filter((item) => item.discipline === subject.id).slice().reverse().map((item, index) => { const st = getSubtopic(subject, item.topicId, item.subtopicId); return <tr key={`${item.answeredAt}-${index}`}><td>{new Date(item.answeredAt).toLocaleString('pt-BR')}</td><td>{st?.title || item.topicId}</td><td>{item.chosenOption}</td><td>{item.correctOption}</td><td><span className={item.isCorrect ? 'result-good' : 'result-bad'}>{item.isCorrect ? 'Acerto' : 'Erro'}</span></td><td>{item.responseTimeMs ? `${Math.round(item.responseTimeMs / 1000)} s` : '—'}</td></tr>; })}</tbody></table></div>
           )}
