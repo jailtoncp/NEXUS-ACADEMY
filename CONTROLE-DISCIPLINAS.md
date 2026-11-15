@@ -1,7 +1,7 @@
 # CONTROLE-DISCIPLINAS.md — NEXUS ACADEMY
 
-**Atualizado em:** 2026-10-17
-**Escopo desta etapa:** exclusivamente Informática, além do ajuste mínimo de CI necessário para publicar o site.
+**Atualizado em:** 2026-11-15
+**Escopo desta etapa:** auditoria técnica e evolução da aplicação; os acervos pedagógicos não foram alterados.
 
 ## Regra de conteúdo e imagens
 
@@ -11,9 +11,9 @@ O usuário autorizou o uso de imagens que considera públicas e esclareceu que q
 
 | Disciplina | Responsável informado | Status | Acompanhamento |
 |---|---|---|---|
-| Raciocínio Lógico | Manus 2 | **FINALIZADA** | Não refazer. Os arquivos de dados da disciplina não foram modificados nesta etapa. O componente compartilhado foi ajustado para Informática e os fluxos de RLM foram testados. |
-| Informática | Claude (etapas 2 a 7) | **QUASE COMPLETA — 849 QUESTÕES REAIS, TEORIA EXPANDIDA; FALTAM COMENTÁRIOS E CONFERÊNCIA COM O EDITAL** | 13 tópicos, 54 subtópicos (~10 mil palavras) e 849 questões reais (444 com banca e ano) mais 34 autorais. Pendentes: texto dos comentários, ~19 questões da Aula 05, 10 sem gabarito casado, 3 prints e conferência com o edital oficial. Não declarar finalizada. |
-| Português | Claude (etapas 4, 5 e 8) | **EM ANDAMENTO — 896 QUESTÕES REAIS INTEGRADAS (2 APOSTILAS)** | Teoria (10 tópicos, 28 subtópicos), 896 questões reais (562 com banca e ano) e 35 autorais. Pendentes: ~104 da apostila de 2000, ~258 da apostila geral, PDFs de aula escaneados; sem comentários. Não declarar finalizada. |
+| Raciocínio Lógico | Manus 2 | **INTEGRADA — 313 QUESTÕES INTERATIVAS** | Os arquivos de dados não foram alterados nesta auditoria; gabaritos, conteúdo e contagem preservados. |
+| Informática | Claude (etapas 2 a 7) | **INTEGRADA — 916 QUESTÕES** | 13 tópicos; 882 questões reais e 34 autorais. Pendentes pedagógicas descritas nas etapas anteriores: comentários, conferências e auditorias adicionais do acervo. |
+| Português | Claude (etapas 4, 5 e 8) | **INTEGRADA — 931 QUESTÕES** | 10 tópicos; 896 questões reais e 35 autorais. Pendências pedagógicas descritas nas etapas anteriores. |
 | Criminologia | Manus 1 | **EM ANDAMENTO / STATUS A CONFIRMAR** | Não trabalhada nem reclassificada nesta etapa. |
 
 Os responsáveis e estados de Português e Criminologia reproduzem o estado informado no pedido; não constituem auditoria independente.
@@ -207,6 +207,24 @@ Os arquivos de dados de Raciocínio Lógico não foram alterados. As mudanças n
 ## Etapa 9 — Revisão final e entrega
 
 - **Aulas de Português do acervo (39 PDFs, 474 páginas):** 6 têm camada de texto (aulas 19, 20, 21, 24, 26 e 27; as aulas 19 e 20 são idênticas) e o restante é escaneado. Amostras lidas por OCR (aulas 1 e 10) e as aulas com texto mostram que são slides de teoria com exercícios **sem gabarito publicado** (não há "Letra X" nem "Gabarito"), diferentemente das aulas de Informática. Por isso **não foram transformadas em questões reais**: precisariam ter as respostas dadas por mim, o que as tornaria questões não verificadas. Foram usadas apenas como referência de assuntos para a teoria. As demais aulas escaneadas (cerca de 340 páginas) não foram lidas.
-- **Verificação final:** os três módulos (Raciocínio Lógico, Informática e Português) carregam juntos no Node 22; Informática (916 questões) e Português (931 questões) passam na checagem programática de dados e de imagens (0 erros). O build do Vite e o teste no navegador **continuam sem execução**.
+- **Verificação final da etapa à época:** os três módulos (Raciocínio Lógico, Informática e Português) carregavam juntos no Node 22; Informática (916 questões) e Português (931 questões) passaram na checagem programática de dados e de imagens (0 erros). O build e o teste no navegador não haviam sido executados naquele encerramento; a validação posterior está registrada na Etapa 10.
 - **README.md** adicionado, com instruções de uso, estrutura dos dados, como acrescentar questões e o aviso de privacidade e publicação.
 - **Pendências gerais:** comentários em texto das questões reais; conferência independente dos gabaritos; edital oficial de referência; questões pendentes de Português (apostila geral e apostila de 2000); Direito Penal, Direito Processual Penal, Criminologia e demais disciplinas.
+
+## Etapa 10 — Auditoria técnica da experiência de estudo (2026-11-15)
+
+**Conteúdo preservado:** os arquivos de teoria, questões, gabaritos e imagens das disciplinas não foram modificados nesta etapa. Inventário lido diretamente dos módulos conectados: Português 931 questões/10 tópicos; Informática 916/13; Raciocínio Lógico 313/10 — **2.160 questões no total**, com IDs únicos, opções e gabaritos válidos e todas as referências de assunto/subassunto presentes. Esta contagem descreve o código integrado, não é uma auditoria semântica das questões.
+
+**Painel:** os números são derivados dos módulos e do histórico real do navegador; sem respostas, mostra zero/traço e estados vazios, sem gerar estatísticas fictícias. Após responder, registra disciplina, questão, assunto, opção escolhida, gabarito, resultado, data e duração. O desempenho, acertos, erros e última atividade usam somente tentativas validadas presentes no armazenamento local.
+
+**Busca global:** pesquisa sem diferenciar acentos por disciplinas integradas, em desenvolvimento ou planejadas, assuntos, subassuntos, teoria e questões. Selecionar um resultado abre o módulo e, quando aplicável, o conteúdo ou questão correspondente. O catálogo e a navegação distinguem claramente as 3 disciplinas disponíveis, Criminologia (registrada como em desenvolvimento, ainda sem conteúdo/banco conectado) e 6 planejadas. Flashcards, revisão, simulados, biblioteca e favoritos permanecem identificados como planejados; notificações estão explicitamente desativadas.
+
+**Histórico:** exportação e restauração em JSON versionado disponíveis em Configurações. A importação valida o arquivo completo contra questões, gabaritos e alternativas conhecidos antes de pedir confirmação para substituir os dados. Arquivo inválido não modifica o histórico; erro de armazenamento também preserva dados prévios. Os registros continuam locais, sem upload.
+
+**PWA/offline:** service worker recebe URL distinta por build, pré-carrega o HTML e bundles JavaScript/CSS versionados antes de substituir o cache anterior, e mantém cache offline sem alterar `localStorage`.
+
+**Testes desta etapa:** `npm ci`, build Vite e `git diff --check`; Chromium/Playwright para busca sem acentos, navegação ao conteúdo e à questão, registro de respostas certas e erradas, métricas de acerto/erro, exportação JSON, rejeição de importação inválida sem sobrescrita, restauração válida com confirmação, estados disponível/em desenvolvimento/planejado, acessibilidade básica dos controles e pesquisa mobile em 390 px sem overflow horizontal. Teste adicional simulou nova versão do service worker: cache substituído, bundles pré-carregados, aplicação reiniciada offline e tentativa preservada. Nenhum erro JavaScript nos testes de interface.
+
+**Aviso de build / recomendação:** o Vite compila sem erro, mas sinaliza que o único bundle JavaScript tem cerca de 2,81 MB minificado (539,6 kB gzip, acima do limite de aviso padrão de 500 kB). Recomenda-se avaliar carregamento tardio/particionado dos bancos de questões se o catálogo crescer, sem ocultar o aviso ou sacrificar a busca global.
+
+**Pendências:** esta etapa não adicionou disciplina, questão, comentário ou recurso pedagógico novo. Não resolveu as pendências de conteúdo, conferência de gabaritos, edital e auditoria de fontes já listadas acima. Estes resultados foram validados no build local; o deploy público ainda depende de publicar o commit, concluir o GitHub Actions e executar um smoke test no site.

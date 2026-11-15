@@ -1,39 +1,46 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { ArrowLeft, ArrowRight, ArrowUpRight, BookOpen, Check, ChevronDown, CircleHelp, Clock3, ListChecks, RotateCcw } from 'lucide-react';
+import { appendAnswerAttempt, readAnswerHistory } from '../lib/answerHistory.js';
 import './discipline-module.css';
-
-const HISTORY_KEY = 'nexus-academy:answer-history:v1';
-
-function readHistory() {
-  try {
-    const value = JSON.parse(window.localStorage.getItem(HISTORY_KEY) || '[]');
-    return Array.isArray(value) ? value : [];
-  } catch {
-    return [];
-  }
-}
-
-function saveAttempt(attempt) {
-  const history = readHistory();
-  history.push(attempt);
-  window.localStorage.setItem(HISTORY_KEY, JSON.stringify(history));
-  return history;
-}
 
 function getSubtopic(subject, topicId, subtopicId) {
   const topic = subject.topics.find((item) => item.id === topicId);
   return topic?.subtopics.find((item) => item.id === subtopicId);
 }
 
-export default function DisciplineModule({ subject, defaultSection = 'content' }) {
-  const [section, setSection] = useState(defaultSection);
-  const [topicId, setTopicId] = useState(defaultSection === 'questions' ? '' : subject.topics[0]?.id);
-  const [history, setHistory] = useState(readHistory);
+export default function DisciplineModule({ subject, defaultSection = 'content', initialTarget = null }) {
+  const initialSection = initialTarget?.mode || defaultSection;
+  const [section, setSection] = useState(initialSection);
+  const [topicId, setTopicId] = useState(initialTarget?.topicId || (initialSection === 'questions' ? '' : subject.topics[0]?.id));
+  const [history, setHistory] = useState(readAnswerHistory);
+  const [historyError, setHistoryError] = useState('');
+  const [pendingLesson, setPendingLesson] = useState(null);
 
   useEffect(() => {
-    setSection(defaultSection);
-    setTopicId(defaultSection === 'questions' ? '' : subject.topics[0]?.id);
-  }, [defaultSection, subject.id]);
+    const nextSection = initialTarget?.mode || defaultSection;
+    setSection(nextSection);
+    setTopicId(initialTarget?.topicId || (nextSection === 'questions' ? '' : subject.topics[0]?.id));
+    setPendingLesson(initialTarget?.subtopicId ? { topicId: initialTarget.topicId, subtopicId: initialTarget.subtopicId } : null);
+  }, [defaultSection, subject.id, initialTarget]);
+
+  useEffect(() => {
+    const refresh = () => setHistory(readAnswerHistory());
+    window.addEventListener('nexus-history-updated', refresh);
+    window.addEventListener('storage', refresh);
+    return () => {
+      window.removeEventListener('nexus-history-updated', refresh);
+      window.removeEventListener('storage', refresh);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (section !== 'content' || !pendingLesson || topicId !== pendingLesson.topicId) return;
+    const frame = window.requestAnimationFrame(() => {
+      document.getElementById(`lesson-${subject.id}-${pendingLesson.subtopicId}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      setPendingLesson(null);
+    });
+    return () => window.cancelAnimationFrame(frame);
+  }, [section, subject.id, topicId, pendingLesson]);
 
   const questions = useMemo(
     () => subject.questions.filter((question) => !topicId || question.topicId === topicId),
@@ -55,7 +62,14 @@ export default function DisciplineModule({ subject, defaultSection = 'content' }
       responseTimeMs: elapsedMs,
       source: question.source,
     };
-    setHistory(saveAttempt(attempt));
+    setHistoryError('');
+    try {
+      setHistory(appendAnswerAttempt(attempt));
+      return true;
+    } catch {
+      setHistoryError('Não foi possível salvar a resposta neste navegador. Seu histórico anterior foi mantido; libere espaço e tente novamente.');
+      return false;
+    }
   }
 
   return (
@@ -89,7 +103,7 @@ export default function DisciplineModule({ subject, defaultSection = 'content' }
           <main className="topic-content">
             <div className="topic-title-row"><div><span>ASSUNTO {String(topic.order).padStart(2, '0')}</span><h2>{topic.title}</h2><p>{topic.summary}</p></div><button className="small-action" onClick={() => setSection('questions')}><ListChecks /> Praticar assunto</button></div>
             {topic.subtopics.map((subtopic) => (
-              <article className="lesson-card" key={subtopic.id}>
+                <article className="lesson-card" id={`lesson-${subject.id}-${subtopic.id}`} key={subtopic.id}>
                 <div className="lesson-number">{String(topic.order).padStart(2, '0')}.{String(subtopic.order).padStart(2, '0')}</div>
                 <div>
                   <h3>{subtopic.title}</h3>
@@ -116,7 +130,7 @@ export default function DisciplineModule({ subject, defaultSection = 'content' }
             <div className="filter-note"><CircleHelp /><span>{subject.questionNotice || 'Questões estruturadas a partir dos materiais do acervo. A origem e o ano, quando identificados, acompanham cada item.'}{subject.reviewCount > 0 && <> {subject.reviewCount} questão(ões) foram preservadas no inventário de auditoria para revisão por OCR ou gabarito e não entram no treino interativo.</>}</span></div>
             <button className="text-action" onClick={() => setSection('content')}><ArrowLeft /> Voltar ao conteúdo</button>
           </aside>
-          <QuestionRunner key={topicId || 'all'} questions={questions} topic={topicId ? topic : null} topics={subject.topics} subjectName={subject.name} onAnswer={recordAnswer} />
+          <QuestionRunner key={`${topicId || 'all'}-${initialTarget?.questionId || ''}-${initialTarget?.navigationKey || ''}`} questions={questions} topic={topicId ? topic : null} topics={subject.topics} subjectName={subject.name} onAnswer={recordAnswer} initialQuestionId={initialTarget?.questionId} historyError={historyError} />
         </div>
       )}
 
@@ -139,14 +153,13 @@ function imageSrc(image) {
   return `${import.meta.env.BASE_URL}${src.replace(/^\/+/, '')}`;
 }
 
-function QuestionRunner({ questions, topic, topics, subjectName, onAnswer }) {
-  const [index, setIndex] = useState(0);
+function QuestionRunner({ questions, topic, topics, subjectName, onAnswer, initialQuestionId, historyError }) {
+  const initialIndex = Math.max(0, questions.findIndex((item) => String(item.id) === String(initialQuestionId)));
+  const [index, setIndex] = useState(initialIndex);
   const [selected, setSelected] = useState('');
   const [submitted, setSubmitted] = useState(false);
   const [startedAt, setStartedAt] = useState(Date.now());
   const question = questions[index];
-
-  useEffect(() => { setIndex(0); setSelected(''); setSubmitted(false); setStartedAt(Date.now()); }, [questions.length]);
 
   if (!question) return <section className="question-card empty-questions"><CircleHelp /><h2>Não há questões neste assunto</h2><p>Escolha outro assunto no filtro para continuar.</p></section>;
 
@@ -154,8 +167,7 @@ function QuestionRunner({ questions, topic, topics, subjectName, onAnswer }) {
 
   function submit() {
     if (!selected || submitted) return;
-    onAnswer(question, selected, Date.now() - startedAt);
-    setSubmitted(true);
+    if (onAnswer(question, selected, Date.now() - startedAt)) setSubmitted(true);
   }
 
   function move(delta) {
@@ -179,6 +191,7 @@ function QuestionRunner({ questions, topic, topics, subjectName, onAnswer }) {
           return <button key={key} disabled={submitted} className={`answer-option ${optionImages.length ? 'has-image' : ''} ${selected === key ? 'chosen' : ''} ${isCorrect ? 'correct' : ''} ${isWrong ? 'wrong' : ''}`} role="radio" aria-checked={selected === key} onClick={() => setSelected(key)}><span>{key}</span><span>{optionText}</span>{optionImages.length > 0 && <span className="answer-option-images">{optionImages.map((image, imageIndex) => <img key={`${image.src || image.imageIndex || imageIndex}-${imageIndex}`} src={imageSrc(image)} alt={image.alt || `Figura da alternativa ${key}`} loading="lazy" decoding="async" />)}</span>}{isCorrect && <Check />}</button>;
         })}
       </div>
+      {historyError && <p className="history-save-error" role="alert">{historyError}</p>}
       {!submitted ? <button className="primary-action confirm-answer" disabled={!selected} onClick={submit}>Confirmar resposta</button> : (
         <div className={`answer-feedback ${selected === question.answer ? 'success' : 'failure'}`} role="status">
           <strong>{selected === question.answer ? 'Você acertou!' : 'Você errou.'}</strong>
