@@ -24,6 +24,7 @@ O estado detalhado, com números, fontes e pendências, está em `CONTROLE-DISCI
 | Raciocínio Lógico | Finalizada anteriormente (313 questões). Há pendências de revisão registradas no controle. |
 | Informática | Quase completa: 13 tópicos, 54 subtópicos, 882 questões reais e 34 autorais. Faltam comentários em texto e conferência com o edital oficial. |
 | Português | Em andamento: 10 tópicos, 28 subtópicos, 896 questões reais e 35 autorais. Faltam questões pendentes das duas apostilas e comentários. |
+| Criminologia | Integrada: 13 tópicos, 41 subtópicos e 340 questões autorais; itens em dúvida permanecem fora do treino. |
 | Demais disciplinas | Ainda não implementadas (telas provisórias). |
 
 ## Estrutura
@@ -60,4 +61,4 @@ O fluxo `.github/workflows/deploy.yml` publica o site a cada `push` na branch `m
 - Os gabaritos são os dos materiais de origem; só uma parte foi conferida de forma independente.
 - Parte das questões vem como recorte de imagem (texto-base, figuras e questões de aulas escaneadas).
 - A classificação por assunto das questões reais é automática e pode precisar de ajustes.
-- O build (`npm run build`) e os testes no navegador não foram executados no ambiente em que os dados foram preparados; rode-os antes de confiar no resultado.
+- O build mais recente (`npm run build`) e o fluxo interativo de Criminologia foram verificados no ambiente de desenvolvimento; confira as pendências específicas por disciplina em `CONTROLE-DISCIPLINAS.md`.

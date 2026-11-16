@@ -1,10 +1,11 @@
 import portugues from './subjects/portugues.js';
 import informatica from './subjects/informatica.js';
 import raciocinioLogico from './subjects/raciocinio-logico.js';
+import criminologia from './subjects/criminologia.js';
 
-export const activeSubjects = [portugues, informatica, raciocinioLogico];
+export const activeSubjects = [portugues, informatica, raciocinioLogico, criminologia];
 
-export const developmentDisciplines = ['Criminologia'];
+export const developmentDisciplines = [];
 
 export const plannedDisciplines = [
   'Direito Penal',

@@ -108,12 +108,14 @@ function App() {
               </button>
             ))}
           </div>}
+          {developmentDisciplines.length > 0 && <>
           <button className="nav-parent secondary-parent" type="button" onClick={() => setDevelopmentOpen(!developmentOpen)} aria-expanded={developmentOpen}>
             <span><Sparkles />Em desenvolvimento</span>{developmentOpen ? <ChevronDown /> : <ChevronRight />}
           </button>
           {developmentOpen && <div className="submenu">
             {developmentDisciplines.map((name) => <button key={name} className={active === name ? 'sub-active' : ''} type="button" onClick={() => navigate(name)}><span className="num">—</span>{name}<span className="nav-status development">Em desenvolvimento</span></button>)}
           </div>}
+          </>}
           <button className="nav-parent secondary-parent" type="button" onClick={() => setPlannedOpen(!plannedOpen)} aria-expanded={plannedOpen}>
             <span><Library />Planejadas</span>{plannedOpen ? <ChevronDown /> : <ChevronRight />}
           </button>
@@ -262,9 +264,11 @@ function DisciplineCatalog({ navigate }) {
     <div className="catalog-heading"><span>CATÁLOGO DE ESTUDO</span><h1>Disciplinas</h1><p>Os status refletem apenas os conteúdos e bancos de questões atualmente conectados ao aplicativo.</p></div>
     <h2>Disponíveis para estudar <small>{activeSubjects.length}</small></h2>
     <div className="catalog-grid">{activeSubjects.map((subject) => <article className="catalog-card" key={subject.id}><span className="catalog-status available">Disponível</span><h3>{subject.name}</h3><p>{subject.description}</p><div><b>{subject.questions.length.toLocaleString('pt-BR')}</b><span> questões · {subject.topics.length} assuntos</span></div><button className="primary-action" type="button" onClick={() => navigate(subject.name)}>Abrir disciplina<ArrowUpRight /></button></article>)}</div>
+    {developmentDisciplines.length > 0 && <>
     <h2 className="planned-title">Em desenvolvimento <small>{developmentDisciplines.length}</small></h2>
     <p className="planned-description">O projeto registra este módulo em andamento, mas ainda não há conteúdo ou banco de questões conectado. Ele não entra nas estatísticas de estudo.</p>
     <div className="planned-grid">{developmentDisciplines.map((name) => <div className="planned-card development-card" key={name}><Sparkles /><span>{name}</span><small>Em desenvolvimento</small></div>)}</div>
+    </>}
     <h2 className="planned-title">Planejadas <small>{plannedDisciplines.length}</small></h2>
     <p className="planned-description">Estas disciplinas ainda não têm conteúdo e banco de questões conectados. Não entram nas contagens de estudo.</p>
     <div className="planned-grid">{plannedDisciplines.map((name) => <div className="planned-card" key={name}><BookOpen /><span>{name}</span><small>Planejada</small></div>)}</div>

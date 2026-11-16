@@ -1,11 +1,13 @@
 # CONTROLE-DISCIPLINAS.md — NEXUS ACADEMY
 
-**Atualizado em:** 2026-11-15
-**Escopo desta etapa:** auditoria técnica e evolução da aplicação; os acervos pedagógicos não foram alterados.
+**Atualizado em:** 2026-11-16
+**Escopo desta etapa:** conclusão e teste da vertical de Criminologia. Os originais ficaram na área privada de trabalho e não foram adicionados ao bundle público.
 
 ## Regra de conteúdo e imagens
 
 O usuário autorizou o uso de imagens que considera públicas e esclareceu que questões textuais devem permanecer sem figura. Para esta implementação, optou-se por não republicar enunciados, alternativas, comentários ou capturas literais dos materiais-fonte: o módulo usa explicações e questões autorais. As três questões autorais que dependem de leitura visual têm diagramas próprios correspondentes; as demais são textuais. Qualquer questão futura transcrita ou figura literal deve ser avaliada separadamente quanto à permissão de publicação.
+
+Na etapa de Criminologia, o site inclui somente teoria autoral e questões reformuladas com redação, alternativas e comentários próprios; PDFs, recortes de página, layouts proprietários, páginas e identificadores de origem não foram incluídos.
 
 ## Status das disciplinas
 
@@ -14,9 +16,9 @@ O usuário autorizou o uso de imagens que considera públicas e esclareceu que q
 | Raciocínio Lógico | Manus 2 | **INTEGRADA — 313 QUESTÕES INTERATIVAS** | Os arquivos de dados não foram alterados nesta auditoria; gabaritos, conteúdo e contagem preservados. |
 | Informática | Claude (etapas 2 a 7) | **INTEGRADA — 916 QUESTÕES** | 13 tópicos; 882 questões reais e 34 autorais. Pendentes pedagógicas descritas nas etapas anteriores: comentários, conferências e auditorias adicionais do acervo. |
 | Português | Claude (etapas 4, 5 e 8) | **INTEGRADA — 931 QUESTÕES** | 10 tópicos; 896 questões reais e 35 autorais. Pendências pedagógicas descritas nas etapas anteriores. |
-| Criminologia | Manus 1 | **EM ANDAMENTO / STATUS A CONFIRMAR** | Não trabalhada nem reclassificada nesta etapa. |
+| Criminologia | Manus 1 | **INTEGRADA — 340 QUESTÕES AUTORAIS** | 13 tópicos e 41 subtópicos, todos com ao menos uma questão; 91 itens de origem foram preservados fora do treino para revisão. |
 
-Os responsáveis e estados de Português e Criminologia reproduzem o estado informado no pedido; não constituem auditoria independente.
+Os estados de Português reproduzem o informado no pedido; o estado de Criminologia foi verificado nesta etapa.
 
 ## Informática — materiais e contagens
 
@@ -228,3 +230,19 @@ Os arquivos de dados de Raciocínio Lógico não foram alterados. As mudanças n
 **Aviso de build / recomendação:** o Vite compila sem erro, mas sinaliza que o único bundle JavaScript tem cerca de 2,81 MB minificado (539,6 kB gzip, acima do limite de aviso padrão de 500 kB). Recomenda-se avaliar carregamento tardio/particionado dos bancos de questões se o catálogo crescer, sem ocultar o aviso ou sacrificar a busca global.
 
 **Pendências:** esta etapa não adicionou disciplina, questão, comentário ou recurso pedagógico novo. Não resolveu as pendências de conteúdo, conferência de gabaritos, edital e auditoria de fontes já listadas acima. O commit funcional `a12d05d` foi publicado na `main`; o GitHub Actions [43724731298](https://github.com/jailtoncp/NEXUS-ACADEMY/actions/runs/43724731298) concluiu build e deploy com sucesso e o smoke test confirmou a versão pública, a busca, os estados do catálogo, o manifesto/ícones PWA e a exibição em viewport de 390 px. Site: [https://jailtoncp.github.io/NEXUS-ACADEMY/](https://jailtoncp.github.io/NEXUS-ACADEMY/).
+
+## Etapa 11 — Criminologia (2026-11-16)
+
+**Integrado:** teoria autoral em 13 tópicos e 41 subtópicos, e 340 questões autorais com opções, gabarito e comentário. Há ao menos uma questão em cada subtópico. `board`, `year` e `exam` permanecem nulos; não foram publicados identificadores de fonte, páginas nem gabaritos originais.
+
+**Consolidação e revisão:** 250 candidatos do banco principal foram auditados; 53 já estavam em revisão. Entre os candidatos inicialmente utilizáveis, 23 itens de 18 grupos de duplicidade exata foram removidos e 1 item com similaridade textual elevada com a fonte foi retido para reformulação. Nos simulados, 206 itens chegaram à reformulação: 196 foram classificados no escopo e 10 ficaram fora dele. Outros 37 itens permaneceram em revisão por divergência de gabarito, alternativas inválidas, classificação ou mapeamento curricular. Ao todo, **91 itens foram mantidos fora do treino em fila privada de revisão**; esses textos não estão no banco público. Nenhum conflito de gabarito foi encontrado nos grupos de duplicatas exatas removidos.
+
+**Atualização jurídica:** a nota da LEP foi conferida em 15/11/2026, incluindo as Leis nº 15.358/2026 e nº 15.402/2026 e a redação consolidada do art. 112. O registro oficial consultado do Tema 1.408 do STF ainda não exibia tese de mérito. O acórdão da Quinta Turma do STJ no AgRg no HC 1.090.680/SP foi tratado como precedente de Turma em caso concreto, não como julgamento do Tema pelo STF.
+
+**Arquivos integrados:** `src/data/subjects/criminologia.js`, `criminologia-content.json` e `criminologia-question-bank.json`. Ajustes de catálogo em `src/data/subjectRegistry.js` e `src/main.jsx`; mensagem comum de revisão em `src/components/DisciplineModule.jsx`. Não foram alterados bancos de questões das outras disciplinas.
+
+**Testes realizados:** `npm ci --no-audit --no-fund`, `npm run build`, `git diff --check` e validação estrutural do banco: 340 IDs únicos, gabaritos e opções válidos, 13 tópicos, 41 subtópicos cobertos e nenhum metadado privado de origem no JSON público. No navegador, foi testada a navegação para a disciplina, filtro do tópico jurídico, bloqueio de confirmação antes da seleção, feedback imediato de resposta errada e correta, comentário explicativo e registro de duas tentativas no histórico local; não houve erros JavaScript. Os registros do teste foram removidos.
+
+**Aviso de build / recomendação:** o build conclui, mas o chunk JavaScript ficou em aproximadamente 3,18 MB minificado (622 kB gzip), acima do limite padrão de 500 kB. Avaliar divisão/carregamento tardio do banco se o catálogo crescer.
+
+**Estado:** vertical concluída e testada, pronta para o commit autorizado em `main`; interromper depois do commit para teste do usuário.

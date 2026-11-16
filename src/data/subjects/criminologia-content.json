@@ -1,0 +1,393 @@
+[
+  {
+    "id": "fundamentos",
+    "order": 1,
+    "title": "Fundamentos, objeto e funções da Criminologia",
+    "summary": "Conceito, objetos de estudo e finalidades do conhecimento criminológico.",
+    "subtopics": [
+      {
+        "id": "conceito-autonomia",
+        "order": 1,
+        "title": "Conceito e autonomia científica",
+        "content": "A Criminologia estuda a criminalidade como fenômeno humano e social. Investiga como o crime se manifesta, quais condições se associam a ele, quem sofre seus efeitos e como pessoas, comunidades e instituições respondem. Seu campo muda com o tempo e com as perguntas de pesquisa; por isso, não se reduz a uma lista imutável de causas individuais.\n\nEla é considerada empírica porque formula e revê explicações a partir de observações, registros e pesquisas. Também é interdisciplinar: pode articular sociologia, psicologia, economia, ciência política, história, saúde e direito, sem se tornar idêntica a nenhuma dessas áreas.",
+        "references": [{"label": "Griffith University Pressbooks — definição e mensuração do crime", "url": "https://griffithuniversity.pressbooks.pub/criminology-criminal-justice/chapter/what-is-crime-defining-measuring-criminal-behaviour/"}]
+      },
+      {
+        "id": "objetos",
+        "order": 2,
+        "title": "Objetos de estudo",
+        "content": "Uma apresentação clássica destaca crime, pessoa autora e vítima. Abordagens contemporâneas acrescentam o controle social, isto é, os processos pelos quais a sociedade define, previne e reage a condutas consideradas criminosas. Esses objetos se relacionam: estudar um delito sem observar a resposta institucional ou os efeitos sobre a vítima oferece um quadro incompleto.\n\nO crime pode ser examinado como fato juridicamente definido e como fenômeno social. A pessoa investigada ou condenada é objeto de estudo, mas não deve ser reduzida a um rótulo ou explicada por uma característica isolada. A vítima é sujeito de direitos e de proteção, e não causa moral da violência que sofreu.",
+        "references": [{"label": "LOUIS Pressbooks — escolas e teorias criminológicas", "url": "https://louis.pressbooks.pub/criminaljustice/chapter/2-10-criminological-schools-and-their-theories/"}]
+      },
+      {
+        "id": "finalidades",
+        "order": 3,
+        "title": "Finalidades e limites",
+        "content": "A Criminologia procura descrever padrões, formular explicações, compreender os efeitos do crime e avaliar respostas preventivas. O conhecimento produzido pode informar políticas públicas, mas não escolhe sozinho os fins legítimos de uma política nem substitui garantias jurídicas.\n\nUma associação estatística não demonstra, por si só, que um fator causou um delito. Explicações responsáveis consideram contexto, qualidade dos dados, fatores concorrentes e limites de generalização. Evitam determinismo, estigmatização de grupos e conclusões que transformem desigualdade social em predisposição individual.",
+        "references": []
+      }
+    ]
+  },
+  {
+    "id": "metodo-ciencias",
+    "order": 2,
+    "title": "Método e ciências criminais",
+    "summary": "Como a Criminologia produz conhecimento e como se distingue de áreas próximas.",
+    "subtopics": [
+      {
+        "id": "metodo-empirico",
+        "order": 1,
+        "title": "Método empírico e pesquisa",
+        "content": "Pesquisas criminológicas podem usar estatísticas, entrevistas, observação, estudos de caso, questionários de vitimização e análise documental. A escolha do método depende da pergunta: estimar frequência exige instrumentos diferentes daqueles usados para compreender trajetórias, percepções ou funcionamento institucional.\n\nO raciocínio indutivo parte de observações para propor padrões ou hipóteses; a dedução parte de uma hipótese ou teoria para derivar expectativas que podem ser examinadas. Pesquisas sólidas explicitam amostra, definições, período, fonte dos dados e incertezas, permitindo que outras pessoas avaliem os resultados.",
+        "references": [{"label": "Griffith University Pressbooks — definir e medir o comportamento criminal", "url": "https://griffithuniversity.pressbooks.pub/criminology-criminal-justice/chapter/what-is-crime-defining-measuring-criminal-behaviour/"}]
+      },
+      {
+        "id": "interdisciplinaridade",
+        "order": 2,
+        "title": "Interdisciplinaridade sem confusão de objetos",
+        "content": "A interdisciplinaridade permite combinar níveis de análise. Uma pesquisa pode relacionar experiências individuais, redes de convivência, condições econômicas, organização urbana e práticas institucionais. Integrar perspectivas não significa misturar conceitos sem método: cada disciplina conserva perguntas, técnicas e limites próprios.\n\nA Criminologia dialoga com o Direito Penal, mas não tem a mesma tarefa. O Direito Penal interpreta normas e define consequências jurídicas; a Criminologia investiga empiricamente o crime, a criminalidade, a vitimização e o controle social. A política criminal discute escolhas e estratégias de enfrentamento; a criminalística aplica conhecimentos técnico-científicos à investigação de fatos concretos.",
+        "references": []
+      },
+      {
+        "id": "divisoes",
+        "order": 3,
+        "title": "Campos e níveis de análise",
+        "content": "As classificações variam entre autores. É comum distinguir estudos voltados à explicação da conduta e de suas condições, análises das instituições de controle, vitimologia e avaliação de políticas de prevenção. A Criminologia clínica, quando mencionada, costuma focalizar avaliação e intervenção relativas a pessoas em situações concretas; a Criminologia geral examina padrões e processos mais amplos.\n\nEssas divisões são mapas didáticos, não fronteiras rígidas. Um estudo sobre reincidência, por exemplo, pode combinar trajetória individual, condições de saída da prisão, redes de apoio, desenho do programa de acompanhamento e decisões do sistema de justiça.",
+        "references": []
+      }
+    ]
+  },
+  {
+    "id": "historia-escolas",
+    "order": 3,
+    "title": "História do pensamento criminológico",
+    "summary": "Principais mudanças de foco nas escolas clássica, positivista e nas abordagens posteriores.",
+    "subtopics": [
+      {
+        "id": "fase-pre-cientifica",
+        "order": 1,
+        "title": "Antecedentes e pensamento pré-científico",
+        "content": "Antes da consolidação da Criminologia como campo de pesquisa, explicações sobre o delito misturavam religião, filosofia, moral e concepções de ordem social. Esses antecedentes ajudam a entender a história das ideias, mas não devem ser confundidos com investigação empírica contemporânea.\n\nA transição para debates modernos também refletiu transformações políticas e jurídicas. Temas como legalidade, proporcionalidade das penas e limites do poder punitivo passaram a ser discutidos com maior sistematicidade.",
+        "references": [{"label": "Northwestern University — panorama histórico das escolas clássica e positiva", "url": "https://scholarlycommons.law.northwestern.edu/cgi/viewcontent.cgi?article=4793&context=jclc"}]
+      },
+      {
+        "id": "escola-classica",
+        "order": 2,
+        "title": "Escola Clássica",
+        "content": "A Escola Clássica é associada à defesa da legalidade e à discussão racional da pena. Em suas formulações, o delito é tratado como escolha juridicamente relevante e a resposta penal deve guardar limites e proporção. A atenção recai sobretudo sobre o ato e sobre a legitimidade da punição, não sobre uma suposta identidade biológica imutável do infrator.\n\nEssa corrente é importante como marco histórico, embora suas premissas não esgotem explicações atuais sobre a criminalidade. Em provas, costuma ser contrastada com o positivismo pelo maior destaque dado ao livre-arbítrio, ao contrato social e à responsabilidade pelo ato.",
+        "references": [{"label": "LOUIS Pressbooks — escolas clássica e positivista", "url": "https://louis.pressbooks.pub/criminaljustice/chapter/2-10-criminological-schools-and-their-theories/"}]
+      },
+      {
+        "id": "escola-positiva",
+        "order": 3,
+        "title": "Escola Positiva e leitura histórica crítica",
+        "content": "A Escola Positiva deslocou a atenção para a pessoa autora e para a busca de fatores associados à conduta. Lombroso, Ferri e Garofalo são nomes frequentemente vinculados a essa etapa, embora tenham proposto ideias distintas. O positivismo contribuiu para a valorização da observação e da investigação causal, mas também abrigou classificações biologizantes e deterministas.\n\nA hipótese de que traços físicos permitiriam identificar naturalmente quem delinquiria não é tratada aqui como ciência atual. Deve ser estudada como construção histórica, com suas limitações metodológicas e consequências de estigmatização. Explicações contemporâneas exigem evidências revisáveis e recusam transformar características corporais ou pertencimento social em destino criminal.",
+        "references": [{"label": "Northwestern University — história das escolas", "url": "https://scholarlycommons.law.northwestern.edu/cgi/viewcontent.cgi?article=4793&context=jclc"}, {"label": "LOUIS Pressbooks — teorias criminológicas", "url": "https://louis.pressbooks.pub/criminaljustice/chapter/2-10-criminological-schools-and-their-theories/"}]
+      },
+      {
+        "id": "transicao-contemporanea",
+        "order": 4,
+        "title": "Da etiologia às explicações sociais e críticas",
+        "content": "O pensamento criminológico posterior ampliou o foco: além de perguntar por que uma pessoa pratica um delito, passou a investigar padrões comunitários, oportunidades, aprendizagem, desigualdades e respostas institucionais. Teorias diferentes podem explicar níveis distintos do fenômeno e não precisam ser reduzidas a uma causa única.\n\nA expansão do campo incluiu abordagens sociológicas, teorias da reação social e perspectivas críticas. Essa mudança tornou visível que as definições de crime e os processos de aplicação das normas também podem ser objeto de investigação.",
+        "references": [{"label": "LOUIS Pressbooks — escolas e teorias criminológicas", "url": "https://louis.pressbooks.pub/criminaljustice/chapter/2-10-criminological-schools-and-their-theories/"}]
+      }
+    ]
+  },
+  {
+    "id": "etiologia",
+    "order": 4,
+    "title": "Etiologia e fatores associados à criminalidade",
+    "summary": "Modelos explicativos e limites de inferência sobre fatores individuais e sociais.",
+    "subtopics": [
+      {
+        "id": "multifatorialidade",
+        "order": 1,
+        "title": "Explicações multifatoriais",
+        "content": "Etiologia criminal é a investigação de condições associadas à ocorrência de delitos. Uma abordagem contemporânea evita procurar uma causa universal: eventos podem decorrer da interação entre trajetórias pessoais, relações, oportunidades, contextos locais e instituições. O peso de cada elemento depende da pergunta e da evidência disponível.\n\nFatores de risco não são destinos nem diagnósticos de criminalidade. Uma característica pode estar associada a uma probabilidade em determinado grupo sem permitir prever o comportamento de uma pessoa específica. Também existem fatores de proteção, como vínculos de apoio, acesso a serviços e ambientes que favorecem participação social.",
+        "references": []
+      },
+      {
+        "id": "explicacoes-individuais",
+        "order": 2,
+        "title": "Perspectivas biológicas e psicológicas: alcance e crítica",
+        "content": "Perspectivas biológicas ou psicológicas estudam aspectos do organismo, desenvolvimento, saúde e comportamento que podem interagir com o contexto. Seu uso responsável exige distinguir hipótese científica atual de teorias históricas superadas e não inferir propensão criminosa a partir de aparência, diagnóstico ou marcador isolado.\n\nA história do determinismo biológico, especialmente em algumas leituras do positivismo, mostra como explicações reducionistas podem legitimar exclusão. A pesquisa atual precisa de desenho adequado, controle de variáveis e atenção a direitos, evitando rótulos que confundam correlação com causalidade.",
+        "references": [{"label": "LOUIS Pressbooks — panorama de escolas e teorias", "url": "https://louis.pressbooks.pub/criminaljustice/chapter/2-10-criminological-schools-and-their-theories/"}]
+      },
+      {
+        "id": "contexto-social",
+        "order": 3,
+        "title": "Contexto, oportunidade e interação de fatores",
+        "content": "Condições econômicas, relações comunitárias, experiências de violência, disponibilidade de oportunidades e práticas institucionais podem compor cenários de risco ou proteção. Nenhum desses fatores, isoladamente, explica todos os delitos ou autoriza atribuir comportamento coletivo a uma população.\n\nA investigação pode comparar explicações concorrentes e testar se uma relação se mantém em tempos, lugares e grupos distintos. Esse cuidado é essencial para que o conhecimento criminológico oriente prevenção sem transformar desigualdades em justificativas para vigilância indiscriminada.",
+        "references": []
+      }
+    ]
+  },
+  {
+    "id": "teorias-sociologicas",
+    "order": 5,
+    "title": "Teorias sociológicas da criminalidade",
+    "summary": "Abordagens que analisam organização social, aprendizagem, tensão e vínculos.",
+    "subtopics": [
+      {
+        "id": "chicago-desorganizacao",
+        "order": 1,
+        "title": "Escola de Chicago e desorganização social",
+        "content": "A Escola de Chicago estudou como características dos bairros e mudanças urbanas se relacionam com padrões de criminalidade. A perspectiva ecológica desloca a análise de uma explicação exclusivamente individual para condições locais, vínculos comunitários e capacidade de organização social.\n\nDesorganização social não significa que residentes sejam naturalmente inclinados ao crime. O conceito se refere a dificuldades de coordenação, confiança e ação coletiva sob determinadas condições. Ele ajuda a formular hipóteses sobre prevenção territorial, mas não substitui análise de desigualdades, políticas públicas ou decisões individuais.",
+        "references": [{"label": "LOUIS Pressbooks — Escola de Chicago e teorias sociológicas", "url": "https://louis.pressbooks.pub/criminaljustice/chapter/2-10-criminological-schools-and-their-theories/"}]
+      },
+      {
+        "id": "anomia-tensao",
+        "order": 2,
+        "title": "Anomia e teorias da tensão",
+        "content": "Teorias da anomia e da tensão investigam a relação entre objetivos socialmente valorizados, meios disponíveis para alcançá-los e respostas às pressões resultantes. Em algumas formulações, a discrepância entre metas e oportunidades pode produzir adaptações distintas; nem todas assumem a mesma definição de anomia.\n\nEssas teorias ajudam a analisar processos sociais, mas não autorizam concluir que pobreza ou frustração conduzem necessariamente ao delito. A explicação precisa especificar o modelo, a população, as condições mediadoras e os dados que a sustentam.",
+        "references": [{"label": "LOUIS Pressbooks — escolas e teorias criminológicas", "url": "https://louis.pressbooks.pub/criminaljustice/chapter/2-10-criminological-schools-and-their-theories/"}]
+      },
+      {
+        "id": "associacao-diferencial",
+        "order": 3,
+        "title": "Associação diferencial e aprendizagem social",
+        "content": "A associação diferencial explica a aprendizagem de condutas e definições favoráveis ou contrárias à violação da lei em interações sociais. Não se trata de uma simples contagem de amizades: importam conteúdos aprendidos, frequência, duração, prioridade e intensidade dos vínculos, conforme a formulação clássica.\n\nAbordagens de aprendizagem social ampliam essa análise ao considerar modelos, reforços e consequências percebidas. Essas ideias explicam processos de transmissão e manutenção de comportamentos sem afirmar que o ambiente determine inevitavelmente o resultado de cada pessoa.",
+        "references": [{"label": "LOUIS Pressbooks — associação diferencial e teorias", "url": "https://louis.pressbooks.pub/criminaljustice/chapter/2-10-criminological-schools-and-their-theories/"}]
+      },
+      {
+        "id": "subcultura",
+        "order": 4,
+        "title": "Subculturas e códigos de grupo",
+        "content": "Teorias subculturais examinam como grupos podem desenvolver normas, valores e práticas que diferem das expectativas dominantes. Alguns modelos associam esse processo a conflitos de status, oportunidades limitadas ou aprendizagem coletiva. A subcultura não é uma etiqueta para qualquer grupo marginalizado e não deve ser presumida a partir de classe, raça, bairro ou estilo de vida.\n\nA análise precisa demonstrar quais normas circulam, como são transmitidas e em que circunstâncias influenciam condutas. Ao mesmo tempo, deve considerar pluralidade interna, dissenso e mudanças dentro dos próprios grupos.",
+        "references": [{"label": "LOUIS Pressbooks — teorias sociológicas", "url": "https://louis.pressbooks.pub/criminaljustice/chapter/2-10-criminological-schools-and-their-theories/"}]
+      },
+      {
+        "id": "vinculos-controle",
+        "order": 5,
+        "title": "Vínculos sociais e teorias do controle",
+        "content": "Teorias do controle social perguntam quais vínculos, compromissos e formas de participação dificultam a violação de normas. Em versões conhecidas, apego, compromisso, envolvimento e crença compõem dimensões de ligação social. O interesse analítico recai sobre os mecanismos que sustentam conformidade, não sobre a ideia de que toda pessoa sem esses vínculos delinque.\n\nO conceito também pode ser usado em sentido institucional mais amplo, para estudar como famílias, escolas, comunidades e órgãos estatais regulam comportamentos. É importante distinguir essas teorias da reação social, que investiga a definição e a aplicação dos rótulos de desvio e crime.",
+        "references": [{"label": "OpenTextBC — desvio, crime e controle social", "url": "https://opentextbc.ca/introductiontosociology/chapter/chapter7-deviance-crime-and-social-control/"}]
+      }
+    ]
+  },
+  {
+    "id": "controle-social",
+    "order": 6,
+    "title": "Controle social, criminalização e reação social",
+    "summary": "Normas, instituições e processos pelos quais a sociedade define e responde ao crime.",
+    "subtopics": [
+      {
+        "id": "controle-formal-informal",
+        "order": 1,
+        "title": "Controle formal e informal",
+        "content": "O controle informal é exercido em relações cotidianas por meio de expectativas, aprovação, reprovação e vínculos comunitários. O controle formal decorre de normas e instituições estatais, como polícia, Ministério Público, Judiciário e sistema penitenciário. Eles podem interagir, mas não têm os mesmos poderes nem as mesmas garantias.\n\nDesvio social e crime não são sinônimos. Uma conduta pode contrariar expectativas sem constituir infração penal; a criminalização depende de definição jurídica e de processos institucionais. Estudar o controle social requer observar tanto regras quanto a forma concreta e desigual de sua aplicação.",
+        "references": [{"label": "OpenTextBC — crime e controle social", "url": "https://opentextbc.ca/introductiontosociology/chapter/chapter7-deviance-crime-and-social-control/"}]
+      },
+      {
+        "id": "criminalizacao",
+        "order": 2,
+        "title": "Criminalização primária e secundária",
+        "content": "A criminalização primária corresponde à criação legislativa de tipos penais e sanções. A criminalização secundária compreende a seleção e a aplicação dessas normas por instituições, desde a identificação de fatos até decisões judiciais e execução. A distinção é útil para analisar por que a criminalidade registrada não equivale a todos os comportamentos ocorridos.\n\nA seleção institucional pode ser influenciada por prioridades, recursos, discricionariedade e desigualdades sociais. Uma análise criminológica descreve esses processos com dados e contexto; não presume que todo agente ou toda instituição atue da mesma maneira.",
+        "references": [{"label": "OpenTextBC — desvio, crime e controle social", "url": "https://opentextbc.ca/introductiontosociology/chapter/chapter7-deviance-crime-and-social-control/"}]
+      },
+      {
+        "id": "rotulacao",
+        "order": 3,
+        "title": "Rotulação e reação social",
+        "content": "A perspectiva do etiquetamento, ou labelling approach, dirige o olhar à reação social e às consequências de definir alguém como desviante. O rótulo pode influenciar oportunidades, identidade social e interações posteriores; a teoria não afirma que a primeira conduta desapareça nem que toda reação produza reincidência.\n\nA distinção entre desvio primário e secundário aparece em formulações clássicas para analisar como a resposta social pode participar da trajetória de uma pessoa. O foco está no processo de rotulação e em seus efeitos, e não em atribuir à pessoa rotulada uma essência criminosa.",
+        "references": [{"label": "LOUIS Pressbooks — reação social e teorias criminológicas", "url": "https://louis.pressbooks.pub/criminaljustice/chapter/2-10-criminological-schools-and-their-theories/"}]
+      }
+    ]
+  },
+  {
+    "id": "criminologia-critica",
+    "order": 7,
+    "title": "Criminologia crítica e perspectivas contemporâneas",
+    "summary": "Abordagens que investigam poder, desigualdades, gênero, raça e definições de crime.",
+    "subtopics": [
+      {
+        "id": "criminologia-critica-poder",
+        "order": 1,
+        "title": "Criminologia crítica e relações de poder",
+        "content": "A Criminologia crítica examina como relações de poder, desigualdade e organização econômica influenciam a produção das leis, a definição de prioridades e a distribuição dos efeitos do sistema penal. Em vez de tratar toda criminalização como escolha neutra, pergunta quem participa dessas decisões e quais condutas recebem maior ou menor visibilidade institucional.\n\nAs correntes críticas são diversas e não devem ser reduzidas a uma única tese. Seu uso exige análise histórica, dados e atenção aos direitos de todas as pessoas afetadas, inclusive vítimas e grupos sujeitos a controle penal intenso.",
+        "references": [{"label": "UNIVEM — perspectivas de consenso e conflito", "url": "https://aberto.univem.edu.br/bitstreams/bf1f8487-3ba3-464b-9d42-403ae2f84160/download"}]
+      },
+      {
+        "id": "feminista-racial-queer",
+        "order": 2,
+        "title": "Perspectivas feminista, racial e queer",
+        "content": "Abordagens feministas investigam como gênero, violência, vitimização e instituições se relacionam, ampliando perguntas que teorias centradas em experiências masculinas podem deixar de lado. Perspectivas raciais estudam os efeitos de hierarquias e práticas de controle sobre grupos racializados. Abordagens queer analisam como normas de gênero e sexualidade influenciam definições, vulnerabilidades e respostas institucionais.\n\nEsses campos não são intercambiáveis e incluem debates internos. Uma abordagem cuidadosa evita tratar identidades como causas de delito e examina como estruturas, contextos e práticas concretas distribuem proteção, exposição à violência e intervenção estatal.",
+        "references": []
+      },
+      {
+        "id": "cultural-verde",
+        "order": 3,
+        "title": "Criminologia cultural e ambiental",
+        "content": "A Criminologia cultural estuda significados, identidades, estilos, mídia e emoções associados a práticas de transgressão e a respostas públicas. A Criminologia ambiental ou verde investiga danos contra ecossistemas, comunidades e animais, inclusive quando a conduta não recebe igual atenção nas estatísticas ou no direito penal.\n\nEssas perspectivas ampliam o repertório de objetos e ajudam a examinar danos corporativos e coletivos. A análise deve distinguir dano social, infração administrativa e crime juridicamente definido, sem presumir que as categorias coincidam.",
+        "references": []
+      }
+    ]
+  },
+  {
+    "id": "vitimologia",
+    "order": 8,
+    "title": "Vitimologia",
+    "summary": "Vitimação, proteção de direitos e leitura crítica das tipologias históricas.",
+    "subtopics": [
+      {
+        "id": "conceito-vitima-vitimacao",
+        "order": 1,
+        "title": "Vítima, vitimização e direitos",
+        "content": "A Vitimologia estuda vítimas, processos de vitimização e respostas sociais e institucionais. A vitimização primária se refere aos efeitos diretamente ligados ao fato; a secundária pode decorrer de respostas institucionais inadequadas ou de repetição desnecessária do relato; a terciária descreve consequências sociais mais amplas, conforme a classificação adotada. A terminologia varia entre autores.\n\nA pessoa vitimada deve ser tratada com dignidade, escuta e proteção, preservando sua autonomia e segurança. A análise de circunstâncias do evento não transfere responsabilidade moral ou jurídica pela violência sofrida para a vítima.",
+        "references": [{"label": "Open Oregon Pressbooks — vítimas e tipologias", "url": "https://openoregon.pressbooks.pub/ccj230/chapter/1-14-victims-in-the-cj-system/"}]
+      },
+      {
+        "id": "tipologias-historicas",
+        "order": 2,
+        "title": "Tipologias de von Hentig e Mendelsohn: uso histórico",
+        "content": "Von Hentig e Benjamin Mendelsohn são associados a tentativas históricas de classificar vítimas por características ou pela relação descrita com o evento. Em materiais didáticos, aparecem categorias como vítima ideal, vulnerável, provocadora ou participante. As nomenclaturas e o número de categorias podem variar conforme o resumo consultado.\n\nEssas tipologias são objeto de história e crítica, não instrumentos para presumir culpa ou reduzir proteção. Atribuições de participação podem reproduzir vieses, e classificações antigas não representam toda a diversidade de vitimizações, como danos corporativos, ambientais ou difusos.",
+        "references": [{"label": "Open Oregon Pressbooks — tipologias de vítimas", "url": "https://openoregon.pressbooks.pub/ccj230/chapter/1-14-victims-in-the-cj-system/"}, {"label": "U.S. Department of Justice, OJP — crítica à tipologia de Mendelsohn", "url": "https://www.ojp.gov/ncjrs/virtual-library/abstracts/culpable-victim-mendelsohns-typology"}]
+      },
+      {
+        "id": "vitimologia-politicas",
+        "order": 3,
+        "title": "Apoio, prevenção da revitimização e política pública",
+        "content": "Políticas de atenção devem reduzir danos, informar sobre direitos e facilitar acesso a serviços sem substituir a vontade da vítima por decisões paternalistas. A prevenção da revitimização inclui proteção de dados, ambientes seguros de atendimento e coordenação entre serviços, respeitando procedimentos legais e necessidades individuais.\n\nA Vitimologia também contribui para avaliar subnotificação, barreiras de acesso e necessidades que registros policiais não revelam. Esses dados devem ser interpretados com cuidado e nunca usados para desacreditar pessoas que não formalizaram uma ocorrência.",
+        "references": [{"label": "Open Oregon Pressbooks — vítimas no sistema de justiça", "url": "https://openoregon.pressbooks.pub/ccj230/chapter/1-14-victims-in-the-cj-system/"}]
+      }
+    ]
+  },
+  {
+    "id": "prevencao",
+    "order": 9,
+    "title": "Prevenção criminal e política pública",
+    "summary": "Níveis de prevenção e fundamentos para desenhar intervenções proporcionais e avaliáveis.",
+    "subtopics": [
+      {
+        "id": "niveis-prevencao",
+        "order": 1,
+        "title": "Prevenção primária, secundária e terciária",
+        "content": "Na tipologia tradicional, a prevenção primária busca reduzir condições sociais e ambientais relacionadas ao delito antes de sua ocorrência; a secundária dirige intervenções a situações, grupos ou lugares considerados de maior risco; a terciária atua após o contato com o sistema de justiça, com atenção à redução de novos delitos e à reintegração. A fronteira entre níveis pode variar entre autores e programas.\n\nClassificações internacionais também organizam os níveis por população-alvo e momento da intervenção. Por isso, em uma questão, observe a definição indicada e o público a que a medida se destina. Policiamento em áreas de risco costuma ser apresentado como seletivo ou secundário na tipologia brasileira; acompanhamento após condenação costuma ser associado ao nível terciário.",
+        "references": [{"label": "UNODC SHERLOC — tipologias de prevenção criminal", "url": "https://sherloc.unodc.org/cld/pt/education/tertiary/organized-crime/module-12/key-issues/key-crime-prevention-typologies.html"}, {"label": "Australian Institute of Criminology — abordagens de prevenção", "url": "https://www.aic.gov.au/publications/crm/crm1"}]
+      },
+      {
+        "id": "estrategias-prevencao",
+        "order": 2,
+        "title": "Estratégias comunitárias, situacionais e de desenvolvimento",
+        "content": "Programas preventivos podem atuar sobre condições sociais, desenho dos ambientes, oportunidades para a prática de delitos, vínculos comunitários ou fatores de desenvolvimento. Estratégias situacionais procuram reduzir oportunidades e vulnerabilidades em contextos específicos; programas sociais buscam ampliar proteção e acesso a recursos. As categorias podem se combinar.\n\nUma intervenção deve ser proporcional, baseada em evidências e avaliada por resultados e possíveis efeitos adversos. Redução de ocorrências registradas não basta para provar eficácia se houver deslocamento do problema, mudança de registro ou aumento de impactos sobre grupos vulneráveis.",
+        "references": [{"label": "UNODC — diretrizes para prevenção do crime", "url": "https://www.unodc.org/documents/justice-and-prison-reform/UNODC_CrimePreventGuidelines_POR_LR.pdf"}]
+      },
+      {
+        "id": "politica-criminal",
+        "order": 3,
+        "title": "Política criminal e avaliação de medidas",
+        "content": "Política criminal reúne escolhas públicas sobre prevenção, investigação, sanção, execução e reintegração. Ela pode mobilizar respostas penais e não penais. A Criminologia contribui com diagnóstico e avaliação, mas a decisão política também deve respeitar legalidade, proporcionalidade, direitos fundamentais e participação das comunidades afetadas.\n\nToda medida precisa de objetivo explícito, indicadores adequados e análise dos custos e efeitos. Uma política não se torna eficaz apenas por ser mais severa ou visível; é necessário verificar se alcança o resultado pretendido e para quem seus custos recaem.",
+        "references": [{"label": "UNODC — diretrizes para prevenção do crime", "url": "https://www.unodc.org/documents/justice-and-prison-reform/UNODC_CrimePreventGuidelines_POR_LR.pdf"}]
+      }
+    ]
+  },
+  {
+    "id": "teorias-pena",
+    "order": 10,
+    "title": "Teorias da pena e respostas ao delito",
+    "summary": "Finalidades atribuídas à pena e modelos de reação ao conflito criminal.",
+    "subtopics": [
+      {
+        "id": "absoluta-relativa-mista",
+        "order": 1,
+        "title": "Teorias absolutas, relativas e mistas",
+        "content": "Teorias absolutas justificam a pena predominantemente como retribuição pelo fato praticado; não definem sua finalidade central como prevenção de crimes futuros. Teorias relativas atribuem finalidade preventiva, frequentemente dividida em prevenção geral — voltada à coletividade — e especial — dirigida à pessoa sancionada.\n\nFormulações mistas ou unificadoras combinam fundamentos retributivos e preventivos em diferentes proporções. A prevenção geral pode ser descrita como negativa, quando enfatiza dissuasão, ou positiva, quando destaca a reafirmação da validade da norma. A prevenção especial pode buscar evitar novos delitos por intimidação, neutralização ou reintegração, conforme a teoria examinada.",
+        "references": [{"label": "Delictae — estudo sobre funções preventivas da pena", "url": "https://delictae.com.br/index.php/revista/article/download/4/8"}]
+      },
+      {
+        "id": "prevencao-geral-especial",
+        "order": 2,
+        "title": "Prevenção geral e especial: distinções",
+        "content": "Prevenção geral tem como destinatária a coletividade. Na vertente negativa, associa-se à ideia de dissuadir potenciais autores; na positiva, enfatiza a comunicação de que a norma continua vigente. Prevenção especial toma como referência a pessoa sancionada, buscando reduzir a possibilidade de novos delitos por diferentes meios.\n\nAs expressões descrevem teorias sobre finalidades da pena e não garantem que a sanção produza automaticamente o efeito alegado. Debates críticos apontam riscos de instrumentalização, expansão punitiva e confusão entre direito, moral e ética social. Uma questão deve ser interpretada à luz da corrente teórica que apresenta.",
+        "references": [{"label": "Delictae — funções da pena e críticas", "url": "https://delictae.com.br/index.php/revista/article/download/4/8"}]
+      },
+      {
+        "id": "modelos-reacao",
+        "order": 3,
+        "title": "Modelos dissuasório, ressocializador e restaurativo",
+        "content": "O modelo dissuasório enfatiza a ameaça e a aplicação da sanção. O ressocializador busca criar condições para a reintegração, sem reduzir a pessoa condenada a um diagnóstico de periculosidade. O modelo restaurativo procura tratar danos e necessidades por processos participativos, com salvaguardas e consentimento, sem substituir automaticamente o devido processo.\n\nEsses modelos são tipos analíticos e podem coexistir em sistemas concretos. O fato de um programa se declarar restaurativo não basta: é necessário verificar voluntariedade, segurança, participação informada e respeito aos direitos de vítimas e demais envolvidos.",
+        "references": []
+      }
+    ]
+  },
+  {
+    "id": "mensuracao-crime",
+    "order": 11,
+    "title": "Mensuração da criminalidade e cifras não registradas",
+    "summary": "Fontes, cobertura e limitações dos dados usados para descrever o crime.",
+    "subtopics": [
+      {
+        "id": "estatisticas-oficiais",
+        "order": 1,
+        "title": "Estatísticas oficiais e registros administrativos",
+        "content": "Registros policiais e dados judiciais permitem acompanhar ocorrências conhecidas pelas instituições e decisões processadas. Eles não representam automaticamente todo o universo de delitos: dependem de denúncia, classificação, capacidade de registro, prioridades e práticas administrativas.\n\nAo comparar estatísticas, verifique unidade de contagem, definição do evento, período, território e mudanças de sistema. Um aumento de registros pode refletir alteração de incidência, maior disposição para denunciar ou mudança no modo de contabilizar; os dados sozinhos nem sempre distinguem essas hipóteses.",
+        "references": [{"label": "Griffith University Pressbooks — definição e mensuração", "url": "https://griffithuniversity.pressbooks.pub/criminology-criminal-justice/chapter/what-is-crime-defining-measuring-criminal-behaviour/"}]
+      },
+      {
+        "id": "cifra-oculta",
+        "order": 2,
+        "title": "Cifra oculta e subnotificação",
+        "content": "A cifra oculta designa, em sentido amplo, fatos que não aparecem nas estatísticas oficiais de criminalidade. A subnotificação pode decorrer de falta de denúncia, medo, barreiras de acesso, desconfiança institucional ou percepção de que comunicar não produzirá resposta. O tamanho desse conjunto varia conforme delito, população, território e período.\n\nPesquisa de vitimização e autorrelato podem ampliar a observação, mas têm limitações de memória, amostragem e definição. Elas complementam registros oficiais; não devem ser tratadas como medida perfeita nem somadas sem cuidado a bases que contam unidades diferentes.",
+        "references": [{"label": "Griffith University Pressbooks — medir comportamento criminal", "url": "https://griffithuniversity.pressbooks.pub/criminology-criminal-justice/chapter/what-is-crime-defining-measuring-criminal-behaviour/"}]
+      },
+      {
+        "id": "comparacao-indicadores",
+        "order": 3,
+        "title": "Indicadores, comparação e vieses",
+        "content": "Indicadores de criminalidade precisam ser interpretados em relação à população, à exposição ao risco e às regras de contagem. Comparar números absolutos entre territórios de tamanhos diferentes pode induzir a conclusões erradas; taxas e séries temporais também exigem denominadores e critérios consistentes.\n\nFontes distintas respondem a perguntas distintas. Estatísticas policiais medem fatos registrados, pesquisas podem captar experiências não reportadas e dados judiciais mostram etapas posteriores do sistema. A triangulação ajuda a revelar lacunas, desde que diferenças metodológicas permaneçam explícitas.",
+        "references": [{"label": "Griffith University Pressbooks — definição e mensuração do crime", "url": "https://griffithuniversity.pressbooks.pub/criminology-criminal-justice/chapter/what-is-crime-defining-measuring-criminal-behaviour/"}]
+      }
+    ]
+  },
+  {
+    "id": "crime-organizado-policia",
+    "order": 12,
+    "title": "Criminalidade organizada e atuação policial",
+    "summary": "Fenômenos organizados, prevenção e relações entre polícia e comunidade.",
+    "subtopics": [
+      {
+        "id": "criminalidade-organizada",
+        "order": 1,
+        "title": "Criminalidade organizada como fenômeno social",
+        "content": "A criminalidade organizada pode envolver coordenação entre pessoas, continuidade, divisão de tarefas, recursos e adaptação a oportunidades. Sua análise não deve se limitar a uma imagem única de organização: estruturas, mercados e formas de atuação variam segundo o contexto.\n\nA investigação criminológica pode examinar redes, incentivos, efeitos sobre comunidades, conexões econômicas e respostas estatais. Definições legais específicas devem ser conferidas no texto vigente da lei aplicável, porque conceitos analíticos e elementos jurídicos de um tipo penal não são necessariamente idênticos.",
+        "references": [{"label": "UNODC SHERLOC — prevenção do crime organizado", "url": "https://sherloc.unodc.org/cld/pt/education/tertiary/organized-crime/module-12/key-issues/key-crime-prevention-typologies.html"}]
+      },
+      {
+        "id": "papel-policia",
+        "order": 2,
+        "title": "Polícia, prevenção e proteção de direitos",
+        "content": "A atividade policial integra o controle formal e pode contribuir para prevenção, investigação e proteção de pessoas. Modelos reativos priorizam a resposta a ocorrências já comunicadas; estratégias proativas podem antecipar riscos ou orientar recursos, mas precisam de base legal, supervisão e mecanismos contra discriminação.\n\nPoliciamento orientado por evidências requer objetivos mensuráveis e avaliação de resultados. A relação com a comunidade depende de confiança, transparência, prestação de contas e respeito a direitos; a mera presença policial não demonstra, por si só, que uma política reduza danos ou criminalidade.",
+        "references": [{"label": "UNODC — diretrizes para prevenção do crime", "url": "https://www.unodc.org/documents/justice-and-prison-reform/UNODC_CrimePreventGuidelines_POR_LR.pdf"}]
+      },
+      {
+        "id": "policia-comunidade",
+        "order": 3,
+        "title": "Comunidade, confiança e avaliação",
+        "content": "A prevenção comunitária envolve cooperação com residentes, serviços públicos e organizações locais para identificar problemas e construir respostas proporcionais. Participação comunitária não substitui deveres estatais nem deve transferir às pessoas a responsabilidade por garantir a própria segurança.\n\nAvaliações devem medir tanto resultados quanto efeitos sobre direitos, distribuição de recursos e confiança pública. Indicadores precisam ser definidos antes da intervenção e acompanhados por dados que permitam distinguir mudança real de deslocamento ou alteração na forma de registrar ocorrências.",
+        "references": [{"label": "Australian Institute of Criminology — prevenção criminal", "url": "https://www.aic.gov.au/publications/crm/crm1"}]
+      }
+    ]
+  },
+  {
+    "id": "lep-atualizacao-2026",
+    "order": 13,
+    "title": "Execução penal: atualização legal conferida em 2026",
+    "summary": "Nota de atualização para não aplicar automaticamente a questões antigas percentuais ou entendimentos superados.",
+    "subtopics": [
+      {
+        "id": "lep-art112-2026",
+        "order": 1,
+        "title": "LEP, art. 112: alterações legislativas de 2026",
+        "content": "Na consulta de 15 de novembro de 2026, o texto consolidado da Lei de Execução Penal já refletia alterações de 2026 no art. 112. A Lei nº 15.402/2026 modificou o caput e os incisos I a III; a Lei nº 15.358/2026 alterou trechos dos incisos V a VIII. Há dispositivos vetados. Por isso, percentuais reproduzidos em questões antigas não devem ser tratados como regra vigente sem cotejo do inciso aplicável no texto consolidado.\n\nO § 1º do art. 112 mantém a previsão introduzida pela Lei nº 14.843/2024 sobre boa conduta carcerária e resultados do exame criminológico como requisitos legais para progressão. O art. 114, II, também contém referência ao exame no requisito de ingresso no regime aberto. Esta nota é informativa e não substitui a leitura da redação oficial vigente.",
+        "references": [{"label": "Planalto — Lei de Execução Penal consolidada", "url": "https://www.planalto.gov.br/ccivil_03/leis/l7210.htm"}, {"label": "Planalto — Lei nº 15.402/2026", "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15402.htm"}, {"label": "Planalto — Lei nº 15.358/2026", "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15358.htm"}]
+      },
+      {
+        "id": "exame-criminologico-temporal",
+        "order": 2,
+        "title": "Exame criminológico: controvérsia temporal no STJ e STF",
+        "content": "A discussão sobre aplicar a exigência legal do exame criminológico a crimes praticados antes da Lei nº 14.843/2024 é questão intertemporal, distinta do texto vigente para casos alcançados pela norma. Em acórdão publicado em junho de 2026, a Quinta Turma do STJ, no AgRg no HC 1.090.680/SP, concluiu no caso examinado que a obrigatoriedade mais gravosa se aplica a crimes posteriores à vigência da lei. É decisão de Turma em processo concreto, não uma tese de mérito do STF.\n\nNa consulta oficial de 15 de novembro de 2026, o Tema 1.408 do STF (RE 1.536.743) ainda aparecia com repercussão geral reconhecida, sem tese de mérito exibida; a controvérsia trata da aplicação temporal da exigência. Assim, não se deve afirmar que o STF já resolveu a questão. Reconfira os andamentos e o acórdão antes de usar esta nota após a data de verificação.",
+        "references": [{"label": "STJ — AgRg no HC 1.090.680/SP, acórdão de junho de 2026", "url": "https://scon.stj.jus.br/SCON/GetInteiroTeorDoAcordao?num_registro=202601517175&dt_publicacao=22/06/2026"}, {"label": "STF — Tema 1.408, andamento do RE 1.536.743", "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=7163767&numeroProcesso=1536743&classeProcesso=RE&numeroTema=1408"}, {"label": "Planalto — Lei nº 14.843/2024", "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14843.htm"}]
+      }
+    ]
+  }
+]
