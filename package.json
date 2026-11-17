@@ -1,1 +1,28 @@
-{"name":"nexus-academy","private":true,"version":"0.1.0","type":"module","scripts":{"dev":"vite","build":"vite build","preview":"vite preview"},"dependencies":{"@vitejs/plugin-react":"latest","lucide-react":"latest","react":"latest","react-dom":"latest","vite":"latest"},"optionalDependencies":{"@rolldown/binding-linux-x64-gnu":"^1.2.14","lightningcss-linux-x64-gnu":"^1.33.0"}}
+{
+  "name": "nexus-academy",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "packageManager": "npm@12.2.2",
+  "allowScripts": {
+    "onnxruntime-node@1.30.0": false,
+    "protobufjs": false
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "4.3.2",
+    "@vitejs/plugin-react": "latest",
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "vite": "latest"
+  },
+  "optionalDependencies": {
+    "@rolldown/binding-linux-x64-gnu": "^1.2.14",
+    "lightningcss-linux-x64-gnu": "^1.33.0"
+  }
+}

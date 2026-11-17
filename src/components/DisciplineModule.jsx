@@ -3,6 +3,7 @@ import { ArrowLeft, ArrowRight, ArrowUpRight, BookOpen, Check, ChevronDown, Circ
 import { appendAnswerAttempt, readAnswerHistory } from '../lib/answerHistory.js';
 import './discipline-module.css';
 import TeacherChat from './TeacherChat.jsx';
+const TeacherLocalPrototype = React.lazy(() => import('./TeacherLocalPrototype.jsx'));
 
 function getSubtopic(subject, topicId, subtopicId) {
   const topic = subject.topics.find((item) => item.id === topicId);
@@ -51,6 +52,7 @@ export default function DisciplineModule({ subject, defaultSection = 'content', 
   const topic = subject.topics.find((item) => item.id === topicId) || subject.topics[0];
   const teacherConversationKey = `${subject.id}:${topic.id}`;
   const teacherMessages = teacherConversations[teacherConversationKey] || [];
+  const localTeacherPrototype = new URLSearchParams(window.location.search).get('nexusTeacherPrototype') === 'local';
 
   function updateTeacherConversation(messages) {
     setTeacherConversations((current) => {
@@ -130,13 +132,19 @@ export default function DisciplineModule({ subject, defaultSection = 'content', 
                 </div>
               </article>
             ))}
-            <TeacherChat
-              key={teacherConversationKey}
-              subject={subject}
-              topic={topic}
-              messages={teacherMessages}
-              onMessagesChange={updateTeacherConversation}
-            />
+            {localTeacherPrototype ? (
+              <React.Suspense fallback={<div className="teacher-chat-config" role="status">Carregando o módulo experimental local…</div>}>
+                <TeacherLocalPrototype key={teacherConversationKey} subject={subject} topic={topic} />
+              </React.Suspense>
+            ) : (
+              <TeacherChat
+                key={teacherConversationKey}
+                subject={subject}
+                topic={topic}
+                messages={teacherMessages}
+                onMessagesChange={updateTeacherConversation}
+              />
+            )}
             <div className="lesson-footer"><span>Próximo assunto</span><button onClick={() => setTopicId(subject.topics[(topic.order) % subject.topics.length].id)}>{subject.topics[(topic.order) % subject.topics.length].title}<ArrowRight /></button></div>
           </main>
         </div>
