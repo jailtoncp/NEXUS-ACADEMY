@@ -130,7 +130,7 @@ export default function DisciplineModule({ subject, defaultSection = 'content', 
             <div className="filter-note"><CircleHelp /><span>{subject.questionNotice || 'Questões estruturadas a partir dos materiais do acervo. A origem e o ano, quando identificados, acompanham cada item.'}{subject.reviewCount > 0 && <> {subject.reviewCount} questão(ões) foram preservadas no inventário de auditoria para revisão de OCR, gabarito, classificação ou possível duplicidade e não entram no treino interativo.</>}</span></div>
             <button className="text-action" onClick={() => setSection('content')}><ArrowLeft /> Voltar ao conteúdo</button>
           </aside>
-          <QuestionRunner key={`${topicId || 'all'}-${initialTarget?.questionId || ''}-${initialTarget?.navigationKey || ''}`} questions={questions} topic={topicId ? topic : null} topics={subject.topics} subjectName={subject.name} onAnswer={recordAnswer} initialQuestionId={initialTarget?.questionId} historyError={historyError} />
+          <QuestionRunner key={`${topicId || 'all'}-${initialTarget?.questionId || ''}-${initialTarget?.navigationKey || ''}`} questions={questions} topic={topicId ? topic : null} topics={subject.topics} subjectName={subject.name} disciplineId={subject.id} history={history} onAnswer={recordAnswer} initialQuestionId={initialTarget?.questionId} historyError={historyError} />
         </div>
       )}
 
@@ -153,32 +153,70 @@ function imageSrc(image) {
   return `${import.meta.env.BASE_URL}${src.replace(/^\/+/, '')}`;
 }
 
-function QuestionRunner({ questions, topic, topics, subjectName, onAnswer, initialQuestionId, historyError }) {
-  const initialIndex = Math.max(0, questions.findIndex((item) => String(item.id) === String(initialQuestionId)));
-  const [index, setIndex] = useState(initialIndex);
+function QuestionRunner({ questions, topic, topics, subjectName, disciplineId, history, onAnswer, initialQuestionId, historyError }) {
+  const [statusFilter, setStatusFilter] = useState('all');
+  const [pinnedQuestionId, setPinnedQuestionId] = useState('');
+  const [currentQuestionId, setCurrentQuestionId] = useState(() => {
+    const initialQuestion = questions.find((item) => String(item.id) === String(initialQuestionId));
+    return initialQuestion?.id ?? questions[0]?.id ?? null;
+  });
   const [selected, setSelected] = useState('');
   const [submitted, setSubmitted] = useState(false);
   const [startedAt, setStartedAt] = useState(Date.now());
-  const question = questions[index];
+  const answeredIds = new Set(history.filter((item) => item.discipline === disciplineId).map((item) => String(item.questionId)));
+  const answeredCount = questions.filter((item) => answeredIds.has(String(item.id))).length;
+  const matchesStatus = (item, filter) => filter === 'all' || (filter === 'answered' ? answeredIds.has(String(item.id)) : !answeredIds.has(String(item.id)));
+  const filteredQuestions = questions.filter((item) => matchesStatus(item, statusFilter) || String(item.id) === pinnedQuestionId);
+  const index = Math.max(0, filteredQuestions.findIndex((item) => String(item.id) === String(currentQuestionId)));
+  const question = filteredQuestions[index];
+  const statusOptions = [
+    { id: 'all', label: 'Todas', count: questions.length },
+    { id: 'answered', label: 'Respondidas', count: answeredCount },
+    { id: 'unanswered', label: 'Não respondidas', count: questions.length - answeredCount },
+  ];
+  const statusControls = (
+    <fieldset className="question-status-filter">
+      <legend>Andamento das questões</legend>
+      <div className="question-status-options" role="group" aria-label="Filtrar questões pelo andamento">
+        {statusOptions.map((option) => <button key={option.id} type="button" className={statusFilter === option.id ? 'selected' : ''} aria-pressed={statusFilter === option.id} onClick={() => {
+          const firstQuestion = questions.find((item) => String(item.id) === String(currentQuestionId) && matchesStatus(item, option.id)) || questions.find((item) => matchesStatus(item, option.id));
+          setStatusFilter(option.id);
+          setPinnedQuestionId('');
+          setCurrentQuestionId(firstQuestion?.id ?? null);
+          setSelected(''); setSubmitted(false); setStartedAt(Date.now());
+        }}>{option.label}<span>{option.count}</span></button>)}
+      </div>
+      <p>Uma questão é considerada respondida após pelo menos uma tentativa salva neste navegador.</p>
+    </fieldset>
+  );
 
-  if (!question) return <section className="question-card empty-questions"><CircleHelp /><h2>Não há questões neste assunto</h2><p>Escolha outro assunto no filtro para continuar.</p></section>;
+  if (!question) return <div className="question-runner">{statusControls}<section className="question-card empty-questions"><CircleHelp /><h2>{statusFilter === 'answered' ? 'Nenhuma questão respondida neste filtro' : statusFilter === 'unanswered' ? 'Nenhuma questão não respondida' : 'Não há questões neste assunto'}</h2><p>{statusFilter === 'answered' ? 'Responda a uma questão para ela aparecer neste filtro.' : statusFilter === 'unanswered' ? 'Todas as questões deste filtro já têm uma resposta salva.' : 'Escolha outro assunto no filtro para continuar.'}</p></section></div>;
 
   const promptImages = (question.images || []).filter((image) => image.location !== 'option' && imageSrc(image));
 
   function submit() {
     if (!selected || submitted) return;
-    if (onAnswer(question, selected, Date.now() - startedAt)) setSubmitted(true);
+    if (onAnswer(question, selected, Date.now() - startedAt)) {
+      setSubmitted(true);
+      if (statusFilter === 'unanswered') setPinnedQuestionId(String(question.id));
+    }
   }
 
   function move(delta) {
-    setIndex((current) => Math.min(Math.max(current + delta, 0), questions.length - 1));
+    const nextQuestion = filteredQuestions[index + delta];
+    if (!nextQuestion) return;
+    setCurrentQuestionId(nextQuestion.id);
+    setPinnedQuestionId('');
     setSelected(''); setSubmitted(false); setStartedAt(Date.now());
   }
 
   return (
+    <div className="question-runner">
+      {statusControls}
     <section className="question-card">
-      <div className="question-meta"><span>QUESTÃO {index + 1} DE {questions.length}</span><span>{question.origin === 'authorial' ? 'Questão autoral · NEXUS ACADEMY' : question.year || 'Ano não informado'}{question.difficulty ? ` · ${question.difficulty === 'easy' ? 'Fácil' : question.difficulty === 'medium' ? 'Média' : 'Difícil'}` : ''}</span></div>
-      <div className="question-progress"><i style={{ width: `${((index + 1) / questions.length) * 100}%` }} /></div>
+      <div className="question-meta"><span>QUESTÃO {index + 1} DE {filteredQuestions.length}</span><span>{question.origin === 'authorial' ? 'Questão autoral · NEXUS ACADEMY' : question.year || 'Ano não informado'}{question.difficulty ? ` · ${question.difficulty === 'easy' ? 'Fácil' : question.difficulty === 'medium' ? 'Média' : 'Difícil'}` : ''}</span></div>
+      <div className="question-progress"><i style={{ width: `${((index + 1) / filteredQuestions.length) * 100}%` }} /></div>
+      {statusFilter === 'unanswered' && pinnedQuestionId === String(question.id) && <p className="question-status-saved" aria-live="polite">Resposta registrada. Avance para continuar pelas questões não respondidas.</p>}
       <div className="question-topic">{topics.find((item) => item.id === question.topicId)?.title || topic?.title || subjectName}</div>
       <h2>{question.prompt}</h2>
       {(question.answerStatus || question.legalUpdateNote) && (
@@ -206,7 +244,8 @@ function QuestionRunner({ questions, topic, topics, subjectName, onAnswer, initi
           {question.source && <small>Fonte: {question.source}</small>}
         </div>
       )}
-      <div className="question-navigation"><button onClick={() => move(-1)} disabled={index === 0}><ArrowLeft /> Anterior</button><button onClick={() => move(1)} disabled={index === questions.length - 1}>Próxima <ArrowRight /></button></div>
+      <div className="question-navigation"><button onClick={() => move(-1)} disabled={index === 0}><ArrowLeft /> Anterior</button><button onClick={() => move(1)} disabled={index === filteredQuestions.length - 1}>Próxima <ArrowRight /></button></div>
     </section>
+    </div>
   );
 }
