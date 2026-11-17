@@ -275,7 +275,8 @@
    "blocosSemNumeroIgnorados": 32
   },
   "knownDefects": [
-   "PORT-REAL-088: alternativas A e B com o mesmo texto no material de origem"
+   "PORT-REAL-088: alternativas A e B com o mesmo texto no material de origem",
+   "PORT-REAL-A2000-630: alternativas B e C com o mesmo texto no material de origem"
   ],
   "topicDistribution": {
    "interpretacao-textos": 365,

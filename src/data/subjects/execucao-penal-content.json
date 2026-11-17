@@ -1,0 +1,136 @@
+[
+ {
+  "id": "objeto-classificacao",
+  "title": "Objeto, aplicação e classificação",
+  "order": 1,
+  "summary": "Finalidade da LEP, princípios e individualização da execução.",
+  "subtopics": [
+   {
+    "id": "lep-objeto",
+    "title": "Objeto, natureza e princípios da execução penal",
+    "order": 1,
+    "content": "A Lei de Execução Penal (Lei 7.210/1984) tem por objetivo efetivar as disposições de sentença ou decisão criminal e proporcionar condições para a harmônica integração social do condenado e do internado (art. 1º). A execução penal tem natureza jurídica mista ou complexa: é jurisdicional, pois o juiz da execução decide incidentes, e administrativa, pois os estabelecimentos penais aplicam o regime. As normas aplicam-se também ao preso provisório e ao condenado pela Justiça Eleitoral ou Militar, quando recolhido a estabelecimento sujeito à jurisdição ordinária (art. 2º, parágrafo único).\n\nPrincípios: legalidade, isonomia (a lei não distingue por natureza racial, social, religiosa ou política, art. 3º, parágrafo único), jurisdicionalidade, individualização, humanidade e proporcionalidade. Ao condenado e ao internado são assegurados todos os direitos não atingidos pela sentença ou pela lei (art. 3º). O Estado deve recorrer à cooperação da comunidade nas atividades de execução (art. 4º). As decisões do juiz da execução são impugnáveis por agravo em execução, no prazo de 5 dias (Súmula 700 do STF)."
+   },
+   {
+    "id": "lep-classificacao",
+    "title": "Classificação dos condenados e Comissão Técnica",
+    "order": 2,
+    "content": "Os condenados serão classificados, segundo os seus antecedentes e personalidade, para orientar a individualização da execução penal (art. 5º). A classificação é feita por Comissão Técnica de Classificação, existente em cada estabelecimento, que elabora o programa individualizador da pena privativa de liberdade adequada ao condenado ou preso provisório (art. 6º). A comissão é presidida pelo diretor e composta, no mínimo, por 2 chefes de serviço, 1 psiquiatra, 1 psicólogo e 1 assistente social, quando se tratar de condenado à pena privativa de liberdade (art. 7º); nos demais casos, a composição é determinada pela natureza da pena.\n\nO condenado ao cumprimento da pena privativa de liberdade em regime fechado será submetido a exame criminológico de classificação e de individualização da execução (art. 8º); o condenado em regime semiaberto poderá sê-lo. A classificação orienta a separação dos presos (por sexo, idade, primariedade, natureza do crime). A identificação do perfil genético (art. 9º-A) é obrigatória para condenados por crimes dolosos praticados com violência grave contra a pessoa e por crimes hediondos, na forma da lei. Atenção: a Lei 14.843/2024 tornou o exame criminológico requisito para a progressão de regime (veja o tópico de atualizações)."
+   }
+  ]
+ },
+ {
+  "id": "assistencia-egressos",
+  "title": "Assistência e egressos",
+  "order": 2,
+  "summary": "Espécies de assistência e amparo a quem sai do sistema.",
+  "subtopics": [
+   {
+    "id": "lep-assistencia",
+    "title": "Assistência ao preso e ao internado",
+    "order": 1,
+    "content": "A assistência ao preso e ao internado é dever do Estado e objetiva prevenir o crime e orientar o retorno à convivência em sociedade (art. 10). Espécies (art. 11): material, à saúde, jurídica, educacional, social e religiosa. A assistência material consiste no fornecimento de alimentação, vestuário e instalações higiênicas. A assistência à saúde tem caráter preventivo e curativo, compreendendo atendimento médico, farmacêutico e odontológico (art. 14); a mulher presa tem direito a acompanhamento médico, principalmente no pré-natal e no pós-parto, extensivo ao recém-nascido. A assistência jurídica é destinada aos presos sem recursos financeiros e prestada pela Defensoria Pública (art. 15 e 16).\n\nA assistência educacional compreende a instrução escolar e a formação profissional (art. 17); o ensino fundamental é obrigatório e integrado ao sistema escolar da unidade federativa (art. 18); o ensino profissional será ministrado em nível de iniciação ou de aperfeiçoamento técnico. A assistência social tem por finalidade amparar o preso e o internado e prepará-los para o retorno à liberdade (art. 22). A assistência religiosa, com liberdade de culto, é permitida aos presos e internados, assegurado o direito de participar dos serviços organizados no estabelecimento, de ter livros de instrução religiosa e de não ser obrigado a participar (art. 24)."
+   },
+   {
+    "id": "lep-egressos",
+    "title": "Egressos",
+    "order": 2,
+    "content": "Considera-se egresso (art. 26): o liberado definitivo, pelo prazo de 1 ano a contar da saída do estabelecimento; e o liberado condicional, durante o período de prova. A assistência ao egresso consiste na orientação e no apoio para reintegrá-lo à vida em liberdade e na concessão, se necessário, de alojamento e alimentação, em estabelecimento adequado, pelo prazo de 2 meses (art. 25 e 25, parágrafo único), prorrogável uma única vez, comprovado, por declaração do assistente social, o empenho na obtenção de emprego.\n\nO serviço de assistência social colaborará com o egresso para a obtenção de trabalho. A assistência aos egressos é função também do Patronato (órgão da execução penal, art. 78 e 79), que presta orientação aos condenados à pena restritiva de direitos, fiscaliza o cumprimento das penas de prestação de serviço à comunidade e de limitação de fim de semana e colabora na fiscalização das condições da suspensão e do livramento condicional. A ideia central é a reintegração social após a saída."
+   }
+  ]
+ },
+ {
+  "id": "trabalho-remicao",
+  "title": "Trabalho e remição",
+  "order": 3,
+  "summary": "Trabalho do preso, remuneração e abatimento da pena.",
+  "subtopics": [
+   {
+    "id": "lep-trabalho",
+    "title": "Trabalho do condenado",
+    "order": 1,
+    "content": "O trabalho do condenado, como dever social e condição de dignidade humana, terá finalidade educativa e produtiva (art. 28). Não está sujeito ao regime da Consolidação das Leis do Trabalho (art. 28, § 2º). A remuneração não poderá ser inferior a três quartos do salário mínimo (art. 29), e o produto da remuneração atenderá à indenização dos danos causados pelo crime, à assistência à família, a pequenas despesas pessoais e ao ressarcimento do Estado, e o saldo será depositado para constituição do pecúlio. A jornada normal de trabalho não será inferior a 6 nem superior a 8 horas, com descanso nos domingos e feriados (art. 33). O trabalho é obrigatório para o condenado, na medida de suas aptidões e capacidade; para o preso provisório, é facultativo e só pode ser executado no interior do estabelecimento (art. 31).\n\nO trabalho interno é obrigatório no regime fechado, com atividade desenvolvida segundo as aptidões do condenado (art. 31). O trabalho externo é admissível, no regime fechado, apenas em serviço ou obras públicas realizados por órgãos da administração direta ou indireta, ou entidades privadas, desde que tomadas as cautelas contra a fuga e em favor da disciplina (art. 36); a prestação de trabalho a entidade privada depende do consentimento expresso do preso, e o número de presos nessa condição não pode exceder 10% do total de empregados na obra. A autorização de trabalho externo depende de aptidão, disciplina e responsabilidade, além do cumprimento mínimo de 1/6 da pena (art. 37). No regime semiaberto, o trabalho externo é admissível, inclusive em serviço ou obras privadas, sem vigilância direta."
+   },
+   {
+    "id": "lep-remicao",
+    "title": "Remição da pena",
+    "order": 2,
+    "content": "Remição é o desconto do tempo de pena pelo trabalho ou pelo estudo. O condenado que cumpre a pena em regime fechado ou semiaberto poderá remir, por trabalho ou por estudo, parte do tempo de execução da pena (art. 126). A contagem é de 1 dia de pena a cada 3 dias de trabalho, e 1 dia de pena a cada 12 horas de frequência escolar (atividade de ensino fundamental, médio, inclusive profissionalizante, ou superior, ou ainda de requalificação profissional), divididas, no mínimo, em 3 dias (art. 126, § 1º). As atividades de estudo podem ser desenvolvidas de forma presencial ou por metodologia de ensino a distância, e deverão ser certificadas pelas autoridades educacionais competentes.\n\nO preso impossibilitado, por acidente, de prosseguir no trabalho ou nos estudos continuará a beneficiar-se com a remição. O tempo remido será computado como pena cumprida, para todos os efeitos (art. 128). O condenado que cumpre pena em regime aberto ou usufrui de liberdade condicional poderá remir, pela frequência a curso de ensino regular ou de educação profissional, parte do tempo de execução da pena ou do período de prova (art. 126, § 6º). A conclusão do ensino fundamental, médio ou superior durante o cumprimento da pena acrescenta 1/3 ao tempo remido pelo estudo (§ 5º). Em caso de falta grave, o juiz poderá revogar até 1/3 do tempo remido (art. 127), recomeçando a contagem a partir da data da infração disciplinar."
+   }
+  ]
+ },
+ {
+  "id": "direitos-deveres-disciplina",
+  "title": "Direitos, deveres e disciplina",
+  "order": 4,
+  "summary": "Direitos do preso, faltas disciplinares, sanções e RDD.",
+  "subtopics": [
+   {
+    "id": "lep-direitos-deveres",
+    "title": "Direitos e deveres do preso",
+    "order": 1,
+    "content": "Direitos (art. 41): alimentação suficiente e vestuário; atribuição de trabalho e sua remuneração; previdência social; constituição de pecúlio; proporcionalidade na distribuição do tempo para o trabalho, o descanso e a recreação; exercício das atividades profissionais, intelectuais, artísticas e desportivas anteriores, desde que compatíveis com a execução da pena; assistência material, à saúde, jurídica, educacional, social e religiosa; proteção contra qualquer forma de sensacionalismo; entrevista pessoal e reservada com o advogado; visita do cônjuge, da companheira, de parentes e amigos em dias determinados; chamamento nominal; igualdade de tratamento, salvo quanto às exigências da individualização da pena; audiência especial com o diretor do estabelecimento; representação e petição a qualquer autoridade em defesa de direito; contato com o mundo exterior por meio de correspondência escrita, da leitura e de outros meios de informação que não comprometam a moral e os bons costumes; atestado de pena a cumprir, emitido anualmente. Os incisos V (proporcionalidade do tempo), X (visita) e XV (contato com o mundo exterior) podem ser suspensos ou restringidos mediante ato motivado do diretor.\n\nDeveres (art. 39): comportamento disciplinado e cumprimento fiel da sentença; obediência ao servidor e respeito a qualquer pessoa com quem deva relacionar-se; urbanidade e respeito no trato com os demais condenados; conduta oposta aos movimentos individuais ou coletivos de fuga ou de subversão à ordem ou à disciplina; execução do trabalho, das tarefas e das ordens recebidas; submissão à sanção disciplinar imposta; indenização à vítima ou aos seus sucessores; indenização ao Estado, quando possível, das despesas realizadas com a sua manutenção; higiene pessoal e asseio da cela ou alojamento; conservação dos objetos de uso pessoal. Aplicam-se esses deveres, no que couber, ao preso provisório (art. 39, parágrafo único)."
+   },
+   {
+    "id": "lep-disciplina-rdd",
+    "title": "Faltas disciplinares, sanções e RDD",
+    "order": 2,
+    "content": "Não haverá falta nem sanção disciplinar sem expressa e anterior previsão legal ou regulamentar (art. 45). As faltas disciplinares classificam-se em leves, médias e graves; a legislação local especifica as leves e médias, e as graves estão no art. 50, entre elas incitar ou participar de movimento para subverter a ordem ou a disciplina, fugir, possuir instrumento capaz de ofender a integridade física de outrem, provocar acidente de trabalho, descumprir, no regime aberto, as condições impostas, inobservar os deveres previstos nos incisos II e V do art. 39 e possuir, utilizar ou fornecer aparelho telefônico, de rádio ou similar. Comete falta grave o condenado que praticar fato previsto como crime doloso. A pena restritiva de direitos e o preso provisório também respondem por falta grave, no que couber.\n\nSanções (art. 53): advertência verbal; repreensão; suspensão ou restrição de direitos; isolamento na própria cela ou em local adequado; inclusão no regime disciplinar diferenciado (RDD). A sanção é aplicada por ato motivado do diretor do estabelecimento (art. 54), mediante procedimento disciplinar assegurada a defesa, e o isolamento não excede 30 dias; a inclusão no RDD depende de prévio e fundamentado despacho do juiz competente. O RDD (art. 52) tem duração máxima de 2 anos, sem prejuízo de repetição da sanção por nova falta grave, recolhimento em cela individual, visitas de 2 pessoas por vez, em instalações que impeçam o contato físico, e saída para banho de sol de 2 horas diárias. Aplica-se ao preso provisório ou condenado, nacional ou estrangeiro, que apresente alto risco para a ordem e a segurança do estabelecimento ou da sociedade, ou sobre o qual recaiam fundadas suspeitas de envolvimento ou participação em organizações criminosas. Confira o texto vigente, pois a Lei 15.358/2026 mexeu na LEP."
+   }
+  ]
+ },
+ {
+  "id": "orgaos-estabelecimentos",
+  "title": "Órgãos e estabelecimentos penais",
+  "order": 5,
+  "summary": "Quem executa a pena e onde ela é cumprida.",
+  "subtopics": [
+   {
+    "id": "lep-orgaos",
+    "title": "Órgãos da execução penal",
+    "order": 1,
+    "content": "São órgãos da execução penal (art. 61): o Conselho Nacional de Política Criminal e Penitenciária (CNPCP); o Juízo da Execução; o Ministério Público; o Conselho Penitenciário; os Departamentos Penitenciários; o Patronato; o Conselho da Comunidade; e a Defensoria Pública. O CNPCP é subordinado ao Ministério da Justiça e tem a função de propor diretrizes da política criminal e penitenciária, avaliar o sistema e inspecionar os estabelecimentos. O Juízo da Execução (art. 65 e 66) tem competência para aplicar aos casos julgados lei posterior que de qualquer modo favoreça o condenado, declarar extinta a punibilidade, decidir sobre a soma ou a unificação de penas, a progressão ou a regressão nos regimes, a detração e a remição, a suspensão condicional, o livramento condicional, a conversão de penas, o indulto, bem como inspecionar mensalmente os estabelecimentos penais.\n\nO Ministério Público fiscaliza a execução da pena e da medida de segurança, oficiando no processo executivo e nos incidentes (art. 67 e 68), e visita mensalmente os estabelecimentos. O Conselho Penitenciário é órgão consultivo e fiscalizador da execução da pena (art. 69), emitindo parecer sobre indulto e comutação e inspecionando os estabelecimentos. Os Departamentos Penitenciários (nacional e locais) são órgãos executivos da política penitenciária. O Patronato (art. 78 e 79) é público ou particular, e destina-se a prestar assistência aos albergados e aos egressos. O Conselho da Comunidade (art. 80) é composto, no mínimo, por 1 representante de associação comercial ou industrial, 1 advogado indicado pela OAB, 1 Defensor Público indicado pelo Defensor Público Geral e 1 assistente social. A Defensoria Pública (art. 81-A) vela pela regular execução da pena e da medida de segurança."
+   },
+   {
+    "id": "lep-estabelecimentos",
+    "title": "Estabelecimentos penais",
+    "order": 2,
+    "content": "Estabelecimentos penais (art. 82): destinam-se ao condenado, ao submetido à medida de segurança, ao preso provisório e ao egresso; a mulher e o maior de 60 anos serão recolhidos, separadamente, a estabelecimento próprio e adequado à sua condição pessoal. A penitenciária destina-se ao condenado à pena de reclusão, em regime fechado (art. 87); o condenado será alojado em cela individual que conterá dormitório, aparelho sanitário e lavatório, com área mínima de 6 m² (art. 88). A penitenciária feminina poderá ter seção para gestante e parturiente e creche para os filhos de 6 meses a 7 anos (art. 89).\n\nA colônia agrícola, industrial ou similar destina-se ao cumprimento da pena em regime semiaberto (art. 91), com alojamento coletivo, observados o limite de capacidade e a seleção adequada dos presos. A casa do albergado destina-se ao cumprimento de pena privativa de liberdade em regime aberto e da pena de limitação de fim de semana (art. 93). O centro de observação realiza os exames gerais e o criminológico. O hospital de custódia e tratamento psiquiátrico destina-se aos inimputáveis e semi-imputáveis (art. 99). A cadeia pública destina-se ao recolhimento de presos provisórios (art. 102), e cada comarca terá, pelo menos, uma cadeia pública, a fim de resguardar o interesse da administração da justiça criminal e a permanência do preso em local próximo ao seu meio social e familiar. O condenado pode ser transferido para estabelecimento federal de segurança máxima, quando necessário."
+   }
+  ]
+ },
+ {
+  "id": "regimes-saidas-livramento",
+  "title": "Regimes, saídas e livramento condicional",
+  "order": 6,
+  "summary": "Progressão, regressão, saídas e liberdade condicional.",
+  "subtopics": [
+   {
+    "id": "lep-regimes",
+    "title": "Regimes de cumprimento, progressão e regressão",
+    "order": 1,
+    "content": "As penas privativas de liberdade são executadas em forma progressiva, com a transferência para regime menos rigoroso, a ser determinada pelo juiz, quando o preso tiver cumprido ao menos determinada fração da pena no regime anterior e ostentar boa conduta carcerária, comprovada pelo diretor do estabelecimento (art. 112). O pacote anticrime (Lei 13.964/2019) fixou frações que variam de 16% a 70%, de acordo com a primariedade, a natureza do crime (hediondo ou não, violência ou grave ameaça) e as circunstâncias (por exemplo, reincidência, resultado morte, comando de organização criminosa). A decisão é motivada e precedida de manifestação do Ministério Público e do defensor, e a Lei 14.843/2024 passou a exigir, ainda, o resultado do exame criminológico. A Lei 15.358/2026 alterou novamente o art. 112 para os casos ligados a organizações criminosas: consulte o texto vigente.\n\nRegressão (art. 118): transferência para qualquer dos regimes mais rigorosos quando o condenado praticar fato definido como crime doloso ou falta grave, ou sofrer condenação, por crime anterior, cuja pena, somada ao restante da pena em execução, torne incabível o regime. Regime aberto (art. 113 a 119): baseia-se na autodisciplina e no senso de responsabilidade do condenado; condições gerais e obrigatórias (permanecer no local designado durante o repouso e nos dias de folga; sair para o trabalho e retornar nos horários fixados; não se ausentar da cidade onde reside sem autorização judicial; comparecer a juízo para informar suas atividades); o juiz poderá estabelecer condições especiais, entre as quais a monitoração eletrônica. Prisão-albergue domiciliar (art. 117): condenado maior de 70 anos, acometido de doença grave, com filho menor ou deficiente físico ou mental, ou gestante."
+   },
+   {
+    "id": "lep-saidas-livramento",
+    "title": "Autorizações de saída e livramento condicional",
+    "order": 2,
+    "content": "Permissão de saída (art. 120 e 121): para presos que cumprem pena em regime fechado ou semiaberto e para os presos provisórios, mediante escolta, em caso de falecimento ou doença grave do cônjuge, companheira, ascendente, descendente ou irmão, e de necessidade de tratamento médico; a autorização é dada pelo diretor do estabelecimento. Saída temporária (art. 122 a 125): pertence ao regime semiaberto, sem vigilância direta, concedida pelo juiz da execução, e exige comportamento adequado, cumprimento mínimo de 1/6 da pena se o condenado for primário e 1/4 se reincidente, e compatibilidade com os objetivos da pena (art. 123). Com a Lei 14.843/2024, as saídas para visita à família e para atividades de retorno ao convívio social deixaram de existir; subsiste a saída para frequência a curso supletivo profissionalizante, de instrução do segundo grau ou superior na comarca do juízo da execução; e é vedada a saída temporária a quem cumpre pena por crime hediondo ou por crime praticado com violência ou grave ameaça contra a pessoa.\n\nLivramento condicional (art. 83 do CP e 131 a 146 da LEP): concedido pelo juiz da execução ao condenado a pena privativa de liberdade igual ou superior a 2 anos, desde que cumprida mais de 1/3 da pena se o condenado não for reincidente em crime doloso e tiver bons antecedentes, mais de 1/2 se reincidente em crime doloso, e mais de 2/3 nos casos de crime hediondo ou equiparado, se o apenado não for reincidente específico em crimes dessa natureza. Exigem-se comportamento satisfatório durante a execução, bom desempenho no trabalho, aptidão para prover a própria subsistência e reparação do dano, salvo impossibilidade. Condições (art. 132): obter ocupação lícita, comunicar periodicamente ao juiz sua ocupação e não mudar de comarca sem autorização; podem ser impostas ainda, entre outras, recolher-se à habitação em hora fixada, não frequentar determinados lugares e utilizar equipamento de monitoração eletrônica. O livramento é revogado em caso de condenação por crime cometido durante o benefício ou anterior; pode ser revogado se o liberado descumprir as obrigações."
+   }
+  ]
+ },
+ {
+  "id": "atualizacoes-lep",
+  "title": "Atualizações legislativas recentes",
+  "order": 7,
+  "summary": "Mudanças que podem tornar desatualizadas questões antigas.",
+  "subtopics": [
+   {
+    "id": "lep-atualizacoes",
+    "title": "Lei 14.843/2024 e leis posteriores",
+    "order": 1,
+    "content": "A Lei 14.843, de 11 de abril de 2024 (Lei Sargento PM Dias), alterou a LEP para dispor sobre a monitoração eletrônica do preso, prever a realização de exame criminológico para progressão de regime e restringir a saída temporária. Pontos principais: (1) o juiz da execução passa a determinar a utilização do equipamento de monitoração eletrônica (art. 66, V, j), como condição especial do regime aberto (art. 115), do livramento condicional (art. 132, § 2º, e) e nos casos de saída e limitação de fim de semana, e a violação ou o dano ao equipamento podem gerar sanções, como a revogação do livramento condicional e a conversão da pena restritiva de direitos em privativa de liberdade; (2) a progressão de regime exige boa conduta carcerária, comprovada pelo diretor do estabelecimento, e o resultado do exame criminológico (art. 112, § 1º); (3) a saída temporária ficou restrita à frequência a curso (art. 122, II) e vedada aos condenados por crime hediondo ou com violência ou grave ameaça contra a pessoa; as saídas para visita à família e para atividades de retorno ao convívio social foram retiradas, após o Congresso derrubar o veto presidencial.\n\nA aplicação aos fatos anteriores é controvertida; há decisões no sentido de que a restrição, por ser mais gravosa, não retroage. A doutrina e a jurisprudência discutem também a exigência indiscriminada do exame criminológico, em contraste com a Súmula Vinculante 26 do STF, que admitia a exigência em decisão fundamentada. Mais recentemente, a Lei 15.358/2026 (Lei Antifacção, de 24 de março de 2026) alterou, entre outros diplomas, a Lei de Organizações Criminosas, o Código Penal, o Código de Processo Penal, a Lei de Crimes Hediondos e a própria LEP, inclusive as frações do art. 112 para os integrantes de organizações criminosas. Antes de estudar números e prazos, leia o texto vigente."
+   }
+  ]
+ }
+]

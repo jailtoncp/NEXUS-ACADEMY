@@ -1,0 +1,201 @@
+{
+ "metrics": {
+  "authorialQuestions": 9,
+  "topicDistribution": {
+   "extincao-punibilidade": 3,
+   "atualizacoes-legislativas": 3,
+   "penas": 3
+  }
+ },
+ "questions": [
+  {
+   "id": "DP-AUTH-001",
+   "origin": "authorial",
+   "topicId": "extincao-punibilidade",
+   "subtopicId": "prescricao",
+   "difficulty": "medium",
+   "prompt": "Um crime tem pena máxima cominada de 6 anos de reclusão, sem causas de aumento ou de diminuição. Antes do trânsito em julgado da sentença, o prazo da prescrição da pretensão punitiva em abstrato é de",
+   "options": {
+    "A": "8 anos.",
+    "B": "12 anos.",
+    "C": "16 anos.",
+    "D": "20 anos.",
+    "E": "4 anos."
+   },
+   "answer": "B",
+   "comment": "Pelo art. 109 do CP, a pena máxima superior a 4 anos e não excedente a 8 anos prescreve em 12 anos.",
+   "board": null,
+   "year": null,
+   "exam": null,
+   "source": "Questão autoral — NEXUS ACADEMY"
+  },
+  {
+   "id": "DP-AUTH-002",
+   "origin": "authorial",
+   "topicId": "extincao-punibilidade",
+   "subtopicId": "causas-extincao",
+   "difficulty": "medium",
+   "prompt": "Quanto ao perdão judicial, é correto afirmar que, concedido,",
+   "options": {
+    "A": "não extingue a punibilidade, apenas reduz a pena.",
+    "B": "extingue a punibilidade, e a sentença que o concede não é considerada para efeitos de reincidência.",
+    "C": "extingue a punibilidade e gera reincidência.",
+    "D": "depende de requerimento do Presidente da República.",
+    "E": "só é cabível nos crimes de ação penal privada."
+   },
+   "answer": "B",
+   "comment": "O perdão judicial é causa de extinção da punibilidade (art. 107, IX), e a sentença que o concede não é considerada para efeitos de reincidência (art. 120 do CP).",
+   "board": null,
+   "year": null,
+   "exam": null,
+   "source": "Questão autoral — NEXUS ACADEMY"
+  },
+  {
+   "id": "DP-AUTH-003",
+   "origin": "authorial",
+   "topicId": "extincao-punibilidade",
+   "subtopicId": "causas-extincao",
+   "difficulty": "easy",
+   "prompt": "Em regra, o prazo decadencial para o ofendido oferecer queixa ou representação é de",
+   "options": {
+    "A": "30 dias.",
+    "B": "3 meses.",
+    "C": "6 meses.",
+    "D": "1 ano.",
+    "E": "2 anos."
+   },
+   "answer": "C",
+   "comment": "O direito de queixa ou de representação decai em 6 meses, contados do dia em que o ofendido veio a saber quem é o autor do crime (art. 103 do CP).",
+   "board": null,
+   "year": null,
+   "exam": null,
+   "source": "Questão autoral — NEXUS ACADEMY"
+  },
+  {
+   "id": "DP-AUTH-004",
+   "origin": "authorial",
+   "topicId": "atualizacoes-legislativas",
+   "subtopicId": "leis-recentes",
+   "difficulty": "medium",
+   "prompt": "Com a Lei 14.994/2024, o feminicídio passou a ser",
+   "options": {
+    "A": "qualificadora do homicídio, prevista no art. 121, § 2º, VI.",
+    "B": "crime autônomo, previsto no art. 121-A do Código Penal.",
+    "C": "contravenção penal.",
+    "D": "causa de aumento do crime de lesão corporal.",
+    "E": "crime de menor potencial ofensivo."
+   },
+   "answer": "B",
+   "comment": "A Lei 14.994/2024 transformou o feminicídio em crime autônomo (art. 121-A), com pena de reclusão de 20 a 40 anos.",
+   "board": null,
+   "year": null,
+   "exam": null,
+   "source": "Questão autoral — NEXUS ACADEMY"
+  },
+  {
+   "id": "DP-AUTH-005",
+   "origin": "authorial",
+   "topicId": "atualizacoes-legislativas",
+   "subtopicId": "leis-recentes",
+   "difficulty": "medium",
+   "prompt": "A Lei 14.155/2021 introduziu no Código Penal, entre outras mudanças, formas qualificadas de",
+   "options": {
+    "A": "tortura e abuso de autoridade.",
+    "B": "furto e estelionato praticados por meio de fraude eletrônica.",
+    "C": "corrupção ativa e passiva.",
+    "D": "crimes contra a organização do trabalho.",
+    "E": "tráfico de pessoas."
+   },
+   "answer": "B",
+   "comment": "A lei criou o furto mediante fraude eletrônica (art. 155, § 4º-B) e o estelionato por fraude eletrônica (art. 171, § 2º-A).",
+   "board": null,
+   "year": null,
+   "exam": null,
+   "source": "Questão autoral — NEXUS ACADEMY"
+  },
+  {
+   "id": "DP-AUTH-006",
+   "origin": "authorial",
+   "topicId": "atualizacoes-legislativas",
+   "subtopicId": "leis-recentes",
+   "difficulty": "medium",
+   "prompt": "A Lei 15.397/2026 alterou o Código Penal principalmente em relação aos crimes",
+   "options": {
+    "A": "contra a administração pública.",
+    "B": "contra o patrimônio, como furto, roubo, estelionato e receptação.",
+    "C": "contra a dignidade sexual.",
+    "D": "contra a fé pública.",
+    "E": "contra a organização do trabalho."
+   },
+   "answer": "B",
+   "comment": "A Lei 15.397/2026 endureceu penas e alterou regras de crimes patrimoniais, como furto, roubo, estelionato e receptação. Confira sempre o texto vigente.",
+   "board": null,
+   "year": null,
+   "exam": null,
+   "source": "Questão autoral — NEXUS ACADEMY"
+  },
+  {
+   "id": "DP-AUTH-007",
+   "origin": "authorial",
+   "topicId": "penas",
+   "subtopicId": "especies-regimes",
+   "difficulty": "medium",
+   "prompt": "Réu primário, condenado a 6 anos de reclusão, com circunstâncias judiciais favoráveis, deve iniciar o cumprimento da pena em regime",
+   "options": {
+    "A": "fechado.",
+    "B": "semiaberto.",
+    "C": "aberto.",
+    "D": "de prisão domiciliar obrigatória.",
+    "E": "de prisão especial."
+   },
+   "answer": "B",
+   "comment": "Conforme o art. 33, § 2º, b, do CP, o condenado não reincidente cuja pena seja superior a 4 anos e não exceda 8 pode começar a cumpri-la em regime semiaberto.",
+   "board": null,
+   "year": null,
+   "exam": null,
+   "source": "Questão autoral — NEXUS ACADEMY"
+  },
+  {
+   "id": "DP-AUTH-008",
+   "origin": "authorial",
+   "topicId": "penas",
+   "subtopicId": "aplicacao-pena",
+   "difficulty": "hard",
+   "prompt": "De acordo com a Súmula 231 do STJ, a incidência de circunstância atenuante",
+   "options": {
+    "A": "sempre reduz a pena abaixo do mínimo legal.",
+    "B": "não pode conduzir à redução da pena abaixo do mínimo legal.",
+    "C": "só vale para crimes culposos.",
+    "D": "só pode ser reconhecida pelo Tribunal do Júri.",
+    "E": "exclui a reincidência."
+   },
+   "answer": "B",
+   "comment": "Na segunda fase da dosimetria, as atenuantes e agravantes não podem levar a pena aquém do mínimo nem além do máximo legal (Súmula 231 do STJ).",
+   "board": null,
+   "year": null,
+   "exam": null,
+   "source": "Questão autoral — NEXUS ACADEMY"
+  },
+  {
+   "id": "DP-AUTH-009",
+   "origin": "authorial",
+   "topicId": "penas",
+   "subtopicId": "especies-regimes",
+   "difficulty": "medium",
+   "prompt": "A pena privativa de liberdade pode ser substituída por restritiva de direitos, em regra, quando",
+   "options": {
+    "A": "a pena aplicada for superior a 4 anos.",
+    "B": "o crime for doloso e cometido com violência ou grave ameaça à pessoa.",
+    "C": "a pena aplicada não for superior a 4 anos, o crime for doloso sem violência ou grave ameaça, o réu não for reincidente em crime doloso e a substituição for suficiente.",
+    "D": "o réu for reincidente específico.",
+    "E": "o crime for hediondo."
+   },
+   "answer": "C",
+   "comment": "O art. 44 do CP exige, entre outros requisitos, pena não superior a 4 anos (ou crime culposo), ausência de violência ou grave ameaça, não reincidência em crime doloso e suficiência da medida.",
+   "board": null,
+   "year": null,
+   "exam": null,
+   "source": "Questão autoral — NEXUS ACADEMY"
+  }
+ ]
+}

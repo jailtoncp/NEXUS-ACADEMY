@@ -1,64 +1,71 @@
 # NEXUS ACADEMY
 
-Plataforma de estudo **de uso pessoal** para concursos policiais (Polícia Civil, Polícia Científica e áreas afins). Organiza o acervo de materiais em disciplinas, tópicos, teoria e bancos de questões com gabarito. Feita com React, Vite e JavaScript (JSX).
+Plataforma de estudo para concursos policiais, construída com React, Vite e JavaScript (JSX). Reúne disciplinas integradas, trilhas de conteúdo, questões, gabaritos e acompanhamento local de respostas.
 
-> **Privacidade:** o banco contém questões e recortes de materiais de cursos e apostilas. Mantenha este repositório **privado** e **não publique** o site. Veja "Publicação" abaixo.
+> **Direitos e publicação:** para a atualização de 17/11/2026, o usuário declarou possuir autorização específica para publicar publicamente o conteúdo integral recebido no ZIP `atualizaçãonexus.zip` e solicitou sua publicação no GitHub Pages. Essa declaração não substitui revisão independente de direitos nem autoriza reutilização fora do escopo confirmado.
 
-## Como rodar no seu computador
+## Executar localmente
 
 ```bash
 npm ci
 npm run dev
 ```
 
-Abra o endereço mostrado no terminal **acrescentando `/NEXUS-ACADEMY/`** (por exemplo, `http://localhost:5173/NEXUS-ACADEMY/`), porque o projeto usa esse caminho-base (`vite.config.js`).
+Abra o endereço mostrado pelo Vite acrescentando `/NEXUS-ACADEMY/` (por exemplo, `http://localhost:5173/NEXUS-ACADEMY/`). Para validar a compilação, execute `npm run build`.
 
-Para conferir a compilação: `npm run build`.
+## Disciplinas integradas
 
-## Estado das disciplinas
+| Disciplina | Questões | Conteúdo/status |
+| --- | ---: | --- |
+| Português | 931 | 10 tópicos; 896 reais e 35 autorais. Em andamento. |
+| Informática | 916 | 13 tópicos; 882 reais e 34 autorais. Em andamento. |
+| Raciocínio Lógico | 313 | Módulo integrado; ver pendências históricas no controle. |
+| Criminologia | 340 | 13 tópicos; 41 subtópicos e 340 questões autorais; 91 itens de origem seguem fora do treino para revisão. |
+| Direito Penal | 191 | 11 tópicos; 182 reais e 9 autorais. Em andamento. |
+| Processo Penal | 154 | 8 tópicos; 148 reais e 6 autorais. Em andamento. |
+| Execução Penal | 102 | 7 tópicos; 100 reais e 2 autorais. Em andamento. |
+| Legislação Especial | 63 | 8 tópicos; 63 reais. Em andamento. |
+| Direitos Humanos | 30 | 2 tópicos; DUDH e Pacto de San José. Parcial. |
 
-O estado detalhado, com números, fontes e pendências, está em `CONTROLE-DISCIPLINAS.md`. Resumo:
+**Total:** 9 disciplinas e 3.040 questões conectadas. Direito Constitucional, Direito Administrativo e Ciências Forenses seguem planejadas. As contagens são derivadas dos dados importados, não uma avaliação semântica de cada questão.
 
-| Disciplina | Situação |
-| --- | --- |
-| Raciocínio Lógico | Finalizada anteriormente (313 questões). Há pendências de revisão registradas no controle. |
-| Informática | Quase completa: 13 tópicos, 54 subtópicos, 882 questões reais e 34 autorais. Faltam comentários em texto e conferência com o edital oficial. |
-| Português | Em andamento: 10 tópicos, 28 subtópicos, 896 questões reais e 35 autorais. Faltam questões pendentes das duas apostilas e comentários. |
-| Criminologia | Integrada: 13 tópicos, 41 subtópicos e 340 questões autorais; itens em dúvida permanecem fora do treino. |
-| Demais disciplinas | Ainda não implementadas (telas provisórias). |
+## Recursos atuais
 
-## Estrutura
+- Pesquisa global por disciplina, assunto, subassunto, conteúdo e questão.
+- Registro local de respostas, desempenho por disciplina e exportação/restauração de histórico JSON.
+- Interface responsiva com tipografia ampliada e suporte a instalação como PWA; o shell é armazenado para uso offline após o primeiro carregamento.
+- Questões com imagens carregam seus assets correspondentes; as cinco disciplinas desta atualização não contêm referências de imagem.
+- Avisos de atualização legislativa e a origem do gabarito aparecem junto das questões quando esses dados estão disponíveis.
 
-```
+## Organização
+
+```text
 src/
-  main.jsx                      navegação e registro das disciplinas
-  components/DisciplineModule.jsx  tela de uma disciplina (teoria e questões)
-  data/subjects/
-    <disciplina>.js             monta a disciplina (tópicos + questões)
-    <disciplina>-content.json   teoria: tópicos e subtópicos
-    <disciplina>-real-question-bank.json   questões reais extraídas do acervo
-    <disciplina>-question-bank.json        questões autorais (complemento)
-public/questoes/<disciplina>/   recortes de imagem (texto-base, figuras, questões)
-CONTROLE-DISCIPLINAS.md         registro verificável do que foi feito e do que falta
+  main.jsx                         aplicação e navegação
+  components/DisciplineModule.jsx  conteúdo, banco de questões e histórico
+  data/subjectRegistry.js          módulos disponíveis e planejados
+  data/subjects/                  definições, trilhas e bancos por disciplina
+  lib/answerHistory.js             persistência local e backup de respostas
+public/
+  icons/                           ícones PWA
+  manifest.webmanifest             manifesto instalável
+  sw.js                            service worker/offline
+  questoes/                        imagens de questões existentes
+CONTROLE-DISCIPLINAS.md            status, fontes, pendências e testes registrados
 ```
 
-### Formato de uma questão
+## Banco de questões
 
-Campos principais: `id`, `origin` (`real` ou `authorial`), `prompt`, `options` (A–E; também aceita 2 alternativas, no estilo Certo/Errado, ou 4), `answer`, `comment`, `topicId`, `subtopicId`, `board`, `year`, `exam`, `source` (arquivo, número e página de origem) e, opcionalmente, `images` com recortes (`src` relativo a `public/`, `location: "prompt"`). Questões reais mantêm banca, ano e fonte apenas quando o material informa; nada é inventado.
+Cada módulo define questões com identificador, enunciado, alternativas, gabarito, assunto e fonte quando disponível. Alguns gabaritos refletem os materiais de origem e ainda não foram conferidos independentemente; os avisos específicos acompanham os itens afetados. Consulte o controle antes de considerar uma disciplina finalizada.
 
-### Adicionar questões
+## Publicação
 
-1. Inclua a questão no `*-real-question-bank.json` da disciplina, com `topicId` e `subtopicId` que existam no `*-content.json`.
-2. Se houver imagem, salve em `public/questoes/<disciplina>/` e referencie em `images`.
-3. Todo tópico precisa ter ao menos uma questão (a tela não trata lista vazia).
-
-## Publicação (GitHub Pages)
-
-O fluxo `.github/workflows/deploy.yml` publica o site a cada `push` na branch `main`. Em conta gratuita, o Pages só funciona com repositório **público**. Se o objetivo é uso pessoal, **desative o fluxo** (ou troque o gatilho `push` por `workflow_dispatch`) e use apenas `npm run dev` localmente.
+O workflow `.github/workflows/deploy.yml` publica automaticamente quando há push na branch `main`. Site: <https://jailtoncp.github.io/NEXUS-ACADEMY/>. A instalação PWA funciona no escopo `/NEXUS-ACADEMY/`.
 
 ## Limitações conhecidas
 
-- Os gabaritos são os dos materiais de origem; só uma parte foi conferida de forma independente.
-- Parte das questões vem como recorte de imagem (texto-base, figuras e questões de aulas escaneadas).
-- A classificação por assunto das questões reais é automática e pode precisar de ajustes.
-- O build mais recente (`npm run build`) e o fluxo interativo de Criminologia foram verificados no ambiente de desenvolvimento; confira as pendências específicas por disciplina em `CONTROLE-DISCIPLINAS.md`.
+- Conteúdo real, gabaritos e classificação temática não foram auditados semanticamente item a item nesta integração.
+- O build atual pode emitir o aviso padrão de bundle JavaScript grande; a compilação ainda conclui sem erros.
+- Histórico de respostas fica neste dispositivo/navegador e só é transferido por exportação/importação explícita.
+
+Para detalhes de auditorias, origem, números e pendências, consulte [`CONTROLE-DISCIPLINAS.md`](CONTROLE-DISCIPLINAS.md).

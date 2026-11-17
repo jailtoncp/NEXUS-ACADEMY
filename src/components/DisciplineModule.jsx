@@ -181,6 +181,12 @@ function QuestionRunner({ questions, topic, topics, subjectName, onAnswer, initi
       <div className="question-progress"><i style={{ width: `${((index + 1) / questions.length) * 100}%` }} /></div>
       <div className="question-topic">{topics.find((item) => item.id === question.topicId)?.title || topic?.title || subjectName}</div>
       <h2>{question.prompt}</h2>
+      {(question.answerStatus || question.legalUpdateNote) && (
+        <aside className={`question-provenance ${question.legalUpdateNote ? 'has-warning' : ''}`}>
+          {question.answerStatus && <p><strong>Gabarito informado:</strong> {question.answerStatus}</p>}
+          {question.legalUpdateNote && <p role="note"><strong>Aviso de atualização legislativa:</strong> {question.legalUpdateNote}</p>}
+        </aside>
+      )}
       {promptImages.length > 0 && <div className="question-figures" aria-label="Figuras e diagramas da questão">{promptImages.map((image, imageIndex) => <figure className="question-figure" key={`${image.src || image.imageIndex || imageIndex}-${imageIndex}`}><img src={imageSrc(image)} alt={image.alt || `Imagem ${imageIndex + 1} da questão`} loading="lazy" decoding="async" />{image.caption && <figcaption>{image.caption}</figcaption>}</figure>)}</div>}
       <div className="answer-options" role="radiogroup" aria-label="Alternativas">
         {Object.entries(question.options).map(([key, text]) => {

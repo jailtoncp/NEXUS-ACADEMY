@@ -1,11 +1,11 @@
 # CONTROLE-DISCIPLINAS.md — NEXUS ACADEMY
 
-**Atualizado em:** 2026-11-16
-**Escopo desta etapa:** conclusão e teste da vertical de Criminologia. Os originais ficaram na área privada de trabalho e não foram adicionados ao bundle público.
+**Atualizado em:** 2026-11-17
+**Escopo desta etapa:** integração das cinco disciplinas do ZIP `atualizaçãonexus.zip`, preservando Criminologia e os recursos atuais do site.
 
 ## Regra de conteúdo e imagens
 
-O usuário autorizou o uso de imagens que considera públicas e esclareceu que questões textuais devem permanecer sem figura. Para esta implementação, optou-se por não republicar enunciados, alternativas, comentários ou capturas literais dos materiais-fonte: o módulo usa explicações e questões autorais. As três questões autorais que dependem de leitura visual têm diagramas próprios correspondentes; as demais são textuais. Qualquer questão futura transcrita ou figura literal deve ser avaliada separadamente quanto à permissão de publicação.
+Para a atualização de 2026-11-17, o usuário declarou possuir autorização específica para publicar publicamente todo o conteúdo integral incluído no ZIP `atualizaçãonexus.zip` (questões, gabaritos e imagens) e solicitou sua publicação no GitHub Pages. Essa declaração não constitui auditoria independente de direitos nem se estende a materiais fora do ZIP. As cinco novas disciplinas integradas nesta etapa não contêm referências a imagens; questões textuais permanecem sem figura.
 
 Na etapa de Criminologia, o site inclui somente teoria autoral e questões reformuladas com redação, alternativas e comentários próprios; PDFs, recortes de página, layouts proprietários, páginas e identificadores de origem não foram incluídos.
 
@@ -16,9 +16,14 @@ Na etapa de Criminologia, o site inclui somente teoria autoral e questões refor
 | Raciocínio Lógico | Manus 2 | **INTEGRADA — 313 QUESTÕES INTERATIVAS** | Os arquivos de dados não foram alterados nesta auditoria; gabaritos, conteúdo e contagem preservados. |
 | Informática | Claude (etapas 2 a 7) | **INTEGRADA — 916 QUESTÕES** | 13 tópicos; 882 questões reais e 34 autorais. Pendentes pedagógicas descritas nas etapas anteriores: comentários, conferências e auditorias adicionais do acervo. |
 | Português | Claude (etapas 4, 5 e 8) | **INTEGRADA — 931 QUESTÕES** | 10 tópicos; 896 questões reais e 35 autorais. Pendências pedagógicas descritas nas etapas anteriores. |
+| Direito Penal | Claude (conteúdo recebido nesta atualização) | **INTEGRADA — 191 QUESTÕES** | 11 tópicos, 24 subtópicos; 182 reais e 9 autorais. Gabaritos e fontes requerem revisão independente. |
+| Processo Penal | Claude (conteúdo recebido nesta atualização) | **INTEGRADA — 154 QUESTÕES** | 8 tópicos, 16 subtópicos; 148 reais e 6 autorais. Gabaritos e fontes requerem revisão independente. |
+| Execução Penal | Claude (conteúdo recebido nesta atualização) | **INTEGRADA — 102 QUESTÕES** | 7 tópicos, 13 subtópicos; 100 reais e 2 autorais. Gabaritos e fontes requerem revisão independente. |
+| Legislação Especial | Claude (conteúdo recebido nesta atualização) | **INTEGRADA — 63 QUESTÕES** | 8 tópicos, 9 subtópicos; 63 reais. Revisar a legislação vigente antes de considerar finalizada. |
+| Direitos Humanos | Claude (conteúdo recebido nesta atualização) | **INTEGRADA — 30 QUESTÕES** | 2 tópicos, 5 subtópicos; conteúdo parcial (DUDH e Pacto de San José). |
 | Criminologia | Manus 1 | **INTEGRADA — 340 QUESTÕES AUTORAIS** | 13 tópicos e 41 subtópicos, todos com ao menos uma questão; 91 itens de origem foram preservados fora do treino para revisão. |
 
-Os estados de Português reproduzem o informado no pedido; o estado de Criminologia foi verificado nesta etapa.
+Nove módulos estão disponíveis para estudo, totalizando 3.040 questões. Os estados e responsáveis reproduzem as informações registradas nas etapas e no material recebido; não representam revisão jurídica independente.
 
 ## Informática — materiais e contagens
 
@@ -60,7 +65,7 @@ Os arquivos de dados de Raciocínio Lógico não foram alterados. As mudanças n
 
 - A auditoria individual das 43 fontes restantes, a contagem total de questões originais, a deduplicação global e a classificação de itens originais em prontos/em auditoria continuam pendentes. Não declarar Informática finalizada até resolver ou delimitar explicitamente essa auditoria.
 - **Publicação verificada:** [https://jailtoncp.github.io/NEXUS-ACADEMY/](https://jailtoncp.github.io/NEXUS-ACADEMY/). O build e o deploy pelo GitHub Actions concluíram com sucesso; o smoke test público confirmou navegação e figuras.
-- Nenhum texto de questão original, gabarito original ou figura literal foi publicado na etapa 1. **A etapa 2 (abaixo) inclui questões reais e recortes de figuras: o repositório deve permanecer privado.**
+- **Nota histórica:** o aviso de privacidade abaixo foi escrito antes da autorização específica de 2026-11-17 para o ZIP `atualizaçãonexus.zip`. A autorização posterior se limita ao conteúdo desse ZIP e não substitui a avaliação de materiais fora desse escopo.
 
 ## Etapa 2 — Informática: apostila geral (questões reais)
 
@@ -246,3 +251,24 @@ Os arquivos de dados de Raciocínio Lógico não foram alterados. As mudanças n
 **Aviso de build / recomendação:** o build conclui, mas o chunk JavaScript ficou em aproximadamente 3,18 MB minificado (622 kB gzip), acima do limite padrão de 500 kB. Avaliar divisão/carregamento tardio do banco se o catálogo crescer.
 
 **Estado:** vertical concluída e testada, pronta para o commit autorizado em `main`; interromper depois do commit para teste do usuário.
+
+
+## Etapa 12 — Atualização de disciplinas (2026-11-17)
+
+O ZIP `atualizaçãonexus.zip` (SHA-256 `6add947c08bceb3c383bc679bbad7aeeec33d407cd1c7ac665e8bac04907df6f`) continha 927 entradas, passou na verificação de integridade e não apresentou caminhos de extração perigosos. O ClamAV 1.5.4 não detectou ameaças. O usuário declarou possuir autorização específica para publicar o conteúdo integral desse ZIP no site público; a autorização não foi verificada independentemente e não se estende automaticamente a conteúdo externo ao pacote.
+
+| Disciplina | Tópicos / subtópicos | Questões | Observações |
+|---|---:|---:|---|
+| Direito Penal | 11 / 24 | 191 (182 reais + 9 autorais) | Revisão independente de gabaritos/fontes pendente. |
+| Processo Penal | 8 / 16 | 154 (148 reais + 6 autorais) | Revisão independente de gabaritos/fontes pendente. |
+| Execução Penal | 7 / 13 | 102 (100 reais + 2 autorais) | Revisão independente de gabaritos/fontes pendente. |
+| Legislação Especial | 8 / 9 | 63 reais | Conferir a legislação vigente antes de considerar finalizada. |
+| Direitos Humanos | 2 / 5 | 30 reais | Conteúdo parcial (DUDH e Pacto de San José). |
+
+A integração adiciona 540 questões e não apaga o módulo de Criminologia que chegou à `main` durante esta etapa: Criminologia continua ativa com 340 questões autorais; 91 itens de origem seguem excluídos do treino. Nove disciplinas e 3.040 questões estão conectadas; Direito Constitucional, Direito Administrativo e Ciências Forenses continuam planejadas. O banco de Português permanece com as mesmas 896 questões reais, IDs e dados por questão; a atualização só acrescenta uma observação em `metrics.knownDefects` sobre alternativas duplicadas no material-fonte.
+
+Os novos bancos têm tópicos com questões, alternativas e gabaritos estruturalmente válidos, IDs sem duplicidade e nenhuma referência a imagem. Em todos os nove módulos foram auditadas 1.164 referências de imagem (1.101 questões ilustradas): zero ausentes; as 872 imagens PNG da build passaram pela verificação de integridade. Os campos `legalUpdateNote` (48 questões em Direito Penal, 54 em Processo Penal, 34 em Execução Penal e 41 em Legislação Especial) e `answerStatus` agora são exibidos antes da resposta. As versões antigas de `main.jsx`, `index.html`, `vite.config.js` e `DisciplineModule.jsx` que vieram no ZIP foram descartadas em favor dos arquivos atuais, preservando busca, Criminologia, PWA, histórico local e correções recentes.
+
+Na validação local sobre a `main` atualizada, `npm ci --no-audit --no-fund`, o build Vite e `git diff --check` passaram. Playwright confirmou navegação e contagens nos nove módulos, busca global, aviso legislativo por questão, origem do gabarito, manifesto/service worker/ícones e tela móvel de 390 px sem overflow nem erros JavaScript. Uma resposta correta de Direito Penal foi registrada no histórico local e atualizou o painel. O bundle único ficou em 4.340.695 bytes (4,34 MB) minificado, 848.236 bytes (848,24 kB) gzip, acima do aviso de 500 kB do Vite: não impede o build, mas pode aumentar o primeiro carregamento, sobretudo em rede móvel.
+
+**Pendente após este registro:** push/CI do commit integrado e smoke test público no GitHub Pages. Esta validação não é revisão semântica de questões, gabaritos ou vigência de cada lei; as ressalvas de revisão especializada permanecem.

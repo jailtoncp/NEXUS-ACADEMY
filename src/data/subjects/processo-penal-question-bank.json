@@ -1,0 +1,137 @@
+{
+ "metrics": {
+  "authorialQuestions": 6,
+  "topicDistribution": {
+   "persecucao-penal": 3,
+   "atualizacoes-dpp": 3
+  }
+ },
+ "questions": [
+  {
+   "id": "DPP-AUTH-001",
+   "origin": "authorial",
+   "topicId": "persecucao-penal",
+   "subtopicId": "persecucao-principios",
+   "difficulty": "easy",
+   "prompt": "O sistema processual penal acusatório caracteriza-se, essencialmente,",
+   "options": {
+    "A": "pela concentração, em um mesmo órgão, das funções de acusar, defender e julgar.",
+    "B": "pela separação das funções de acusar, defender e julgar, atribuídas a sujeitos distintos.",
+    "C": "pela iniciativa do juiz na produção de provas durante a investigação.",
+    "D": "pelo sigilo absoluto de todos os atos, inclusive perante a defesa.",
+    "E": "pela dispensa do contraditório na fase processual."
+   },
+   "answer": "B",
+   "comment": "No sistema acusatório, as funções de acusar, defender e julgar são exercidas por sujeitos distintos. O art. 3º-A do CPP (Lei 13.964/2019) afirma a estrutura acusatória do processo penal.",
+   "board": null,
+   "year": null,
+   "exam": null,
+   "source": "Questão autoral — NEXUS ACADEMY"
+  },
+  {
+   "id": "DPP-AUTH-002",
+   "origin": "authorial",
+   "topicId": "persecucao-penal",
+   "subtopicId": "policia-judiciaria",
+   "difficulty": "medium",
+   "prompt": "Segundo a Lei 12.830/2013, o indiciamento é",
+   "options": {
+    "A": "ato privativo do delegado de polícia, feito por análise técnico-jurídica e fundamentado.",
+    "B": "ato privativo do Ministério Público.",
+    "C": "ato que o juiz pode determinar de ofício no curso do inquérito.",
+    "D": "dispensável de fundamentação.",
+    "E": "ato que depende de autorização do Ministério Público."
+   },
+   "answer": "A",
+   "comment": "A Lei 12.830/2013 (art. 2º, § 6º) estabelece que o indiciamento é privativo do delegado de polícia e deve ser fundamentado, mediante análise técnico-jurídica do fato.",
+   "board": null,
+   "year": null,
+   "exam": null,
+   "source": "Questão autoral — NEXUS ACADEMY"
+  },
+  {
+   "id": "DPP-AUTH-003",
+   "origin": "authorial",
+   "topicId": "persecucao-penal",
+   "subtopicId": "policia-judiciaria",
+   "difficulty": "medium",
+   "prompt": "De acordo com o CPP (arts. 3º-A a 3º-F), a competência do juiz das garantias abrange as infrações penais, exceto as de menor potencial ofensivo, e se encerra",
+   "options": {
+    "A": "com a conclusão do inquérito policial.",
+    "B": "com o recebimento da denúncia ou da queixa.",
+    "C": "com a sentença condenatória.",
+    "D": "com o trânsito em julgado.",
+    "E": "com a citação do acusado."
+   },
+   "answer": "B",
+   "comment": "O juiz das garantias controla a legalidade da investigação, e sua competência cessa com o recebimento da denúncia ou da queixa, quando o processo passa ao juiz da instrução e julgamento.",
+   "board": null,
+   "year": null,
+   "exam": null,
+   "source": "Questão autoral — NEXUS ACADEMY"
+  },
+  {
+   "id": "DPP-AUTH-004",
+   "origin": "authorial",
+   "topicId": "atualizacoes-dpp",
+   "subtopicId": "leis-recentes-dpp",
+   "difficulty": "medium",
+   "prompt": "Ao julgar as ADIs 6298, 6299, 6300 e 6305, o STF decidiu que o juiz das garantias é",
+   "options": {
+    "A": "inconstitucional, por vício formal.",
+    "B": "constitucional e de implementação obrigatória, com prazo de 12 meses, prorrogável por mais 12, para a definição do formato pelos entes federados.",
+    "C": "constitucional, mas facultativo para os tribunais.",
+    "D": "constitucional apenas para a Justiça Federal.",
+    "E": "aplicável imediatamente em todo o país, sem qualquer prazo de adaptação."
+   },
+   "answer": "B",
+   "comment": "O STF, em 2023, declarou a constitucionalidade do juiz das garantias e fixou prazo de 12 meses, prorrogável por até mais 12, para a implementação, segundo diretrizes do CNJ.",
+   "board": null,
+   "year": null,
+   "exam": null,
+   "source": "Questão autoral — NEXUS ACADEMY"
+  },
+  {
+   "id": "DPP-AUTH-005",
+   "origin": "authorial",
+   "topicId": "atualizacoes-dpp",
+   "subtopicId": "leis-recentes-dpp",
+   "difficulty": "medium",
+   "prompt": "Após a Lei 13.964/2019 (pacote anticrime), a prisão preventiva",
+   "options": {
+    "A": "pode ser decretada de ofício pelo juiz em qualquer fase.",
+    "B": "não pode ser decretada de ofício pelo juiz, dependendo de requerimento do MP, do querelante, do assistente ou de representação da autoridade policial.",
+    "C": "só pode ser decretada pela autoridade policial.",
+    "D": "dispensa fundamentação em fatos concretos.",
+    "E": "independe de prova da existência do crime."
+   },
+   "answer": "B",
+   "comment": "O art. 311 do CPP passou a prever que a preventiva é decretada a requerimento ou por representação, e não de ofício pelo juiz. Ela exige fundamentação em fatos concretos e contemporâneos.",
+   "board": null,
+   "year": null,
+   "exam": null,
+   "source": "Questão autoral — NEXUS ACADEMY"
+  },
+  {
+   "id": "DPP-AUTH-006",
+   "origin": "authorial",
+   "topicId": "atualizacoes-dpp",
+   "subtopicId": "leis-recentes-dpp",
+   "difficulty": "hard",
+   "prompt": "A ordem correta das etapas da cadeia de custódia, segundo o art. 158-B do CPP, é",
+   "options": {
+    "A": "reconhecimento, isolamento, fixação, coleta, acondicionamento, transporte, recebimento, processamento, armazenamento e descarte.",
+    "B": "coleta, reconhecimento, isolamento, fixação, transporte, acondicionamento, recebimento, processamento, armazenamento e descarte.",
+    "C": "isolamento, reconhecimento, fixação, coleta, acondicionamento, transporte, processamento, recebimento, armazenamento e descarte.",
+    "D": "reconhecimento, fixação, isolamento, coleta, acondicionamento, transporte, recebimento, processamento, descarte e armazenamento.",
+    "E": "reconhecimento, isolamento, coleta, fixação, acondicionamento, transporte, recebimento, processamento, armazenamento e descarte."
+   },
+   "answer": "A",
+   "comment": "O art. 158-B lista as etapas na ordem: reconhecimento, isolamento, fixação, coleta, acondicionamento, transporte, recebimento, processamento, armazenamento e descarte (mnemônico REI FICA TREPAD).",
+   "board": null,
+   "year": null,
+   "exam": null,
+   "source": "Questão autoral — NEXUS ACADEMY"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "metrics": {
+  "authorialQuestions": 2
+ },
+ "questions": [
+  {
+   "id": "EXEC-AUTH-001",
+   "origin": "authorial",
+   "topicId": "atualizacoes-lep",
+   "subtopicId": "lep-atualizacoes",
+   "difficulty": "medium",
+   "prompt": "Após a Lei 14.843/2024, a saída temporária prevista na LEP, para o condenado em regime semiaberto, ficou restrita",
+   "options": {
+    "A": "à visita à família em datas comemorativas.",
+    "B": "à frequência a curso supletivo profissionalizante, de instrução do segundo grau ou superior, na comarca do juízo da execução.",
+    "C": "às atividades de retorno ao convívio social, sem limitação.",
+    "D": "a qualquer caso de necessidade pessoal, a critério do diretor.",
+    "E": "aos condenados por crime hediondo."
+   },
+   "answer": "B",
+   "comment": "A Lei 14.843/2024 manteve a saída temporária apenas para frequência a curso (art. 122, II, da LEP), retirando as saídas para visita à família e para atividades de convívio social, e a vedou a quem cumpre pena por crime hediondo ou por crime com violência ou grave ameaça contra a pessoa.",
+   "board": null,
+   "year": null,
+   "exam": null,
+   "source": "Questão autoral — NEXUS ACADEMY"
+  },
+  {
+   "id": "EXEC-AUTH-002",
+   "origin": "authorial",
+   "topicId": "atualizacoes-lep",
+   "subtopicId": "lep-atualizacoes",
+   "difficulty": "medium",
+   "prompt": "Segundo o art. 112 da LEP, com a redação dada pela Lei 14.843/2024, a progressão de regime exige, além do cumprimento da fração de pena,",
+   "options": {
+    "A": "apenas o requerimento do condenado.",
+    "B": "bom comportamento comprovado pelo diretor e, também, o resultado do exame criminológico.",
+    "C": "somente parecer favorável do Conselho da Comunidade.",
+    "D": "nenhum requisito subjetivo.",
+    "E": "a quitação integral da multa e das custas."
+   },
+   "answer": "B",
+   "comment": "A progressão depende de boa conduta carcerária, comprovada pelo diretor do estabelecimento, e do resultado do exame criminológico, conforme o art. 112, § 1º, da LEP. A Lei 15.358/2026 alterou ainda as frações em casos ligados a organizações criminosas.",
+   "board": null,
+   "year": null,
+   "exam": null,
+   "source": "Questão autoral — NEXUS ACADEMY"
+  }
+ ]
+}
