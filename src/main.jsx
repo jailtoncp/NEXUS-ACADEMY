@@ -21,17 +21,20 @@ import {
   X,
 } from 'lucide-react';
 import DisciplineModule from './components/DisciplineModule.jsx';
+import FavoritesPage from './components/FavoritesPage.jsx';
 import GlobalSearch from './components/GlobalSearch.jsx';
 import HistoryTools from './components/HistoryTools.jsx';
 import InstallPwaButton from './components/InstallPwaButton.jsx';
+import LibraryPage from './components/LibraryPage.jsx';
 import NotificationCenter from './components/NotificationCenter.jsx';
 import ProfileSettings from './components/ProfileSettings.jsx';
 import QuickToolsMenu from './components/QuickToolsMenu.jsx';
-import { activeSubjects, availableQuestionTotal, developmentDisciplines, plannedDisciplines, subjectByName } from './data/subjectRegistry.js';
+import { activeSubjects, availableQuestionTotal, developmentDisciplines, plannedDisciplines, plannedStudyFeatures, subjectByName } from './data/subjectRegistry.js';
 import { readAnswerHistory, summarizeAnswerHistory } from './lib/answerHistory.js';
 import './styles.css';
 import './readability.css';
 import './features.css';
+import './study-tools.css';
 
 const studyFeatures = [
   [Brain, 'Flashcards'],
@@ -134,7 +137,7 @@ function App() {
           <div className="nav-label second">ESTUDO</div>
           {studyFeatures.map(([Icon, label]) => (
             <button key={label} className={`nav-item ${active === label ? 'active' : ''}`} type="button" onClick={() => navigate(label)}>
-              <Icon />{label}{label !== 'Desempenho' && <span className="nav-status planned">Planejado</span>}
+              <Icon />{label}{plannedStudyFeatures.includes(label) && <span className="nav-status planned">Planejado</span>}
             </button>
           ))}
         </div>
@@ -156,7 +159,7 @@ function App() {
         <div className="content">
           {active === 'Dashboard' || active === 'Desempenho'
             ? <Dashboard navigate={navigate} active={active} />
-            : <Generic active={active} initialTarget={viewTarget} navigate={navigate} />}
+            : <Generic active={active} initialTarget={viewTarget} navigate={navigate} openSearchResult={openSearchResult} />}
         </div>
       </main>
     </div>
@@ -217,7 +220,7 @@ function Dashboard({ navigate, active }) {
           <PanelHeading kicker="ACESSO E STATUS" title="Continuar estudo" />
           <QuickAccess Icon={BookOpen} title="Disciplinas disponíveis" subtitle={`${activeSubjects.length} módulos integrados`} onClick={() => navigate('Disciplinas')} />
           {activeSubjects.map((subject) => <QuickAccess key={subject.id} Icon={ClipboardList} title={subject.name} subtitle={`${subject.questions.length.toLocaleString('pt-BR')} questões integradas`} onClick={() => navigate(`Q:${subject.name}`)} />)}
-          <div className="planned-summary"><Sparkles /><span><b>Próximas etapas</b><small>Flashcards, revisão, simulados e outras disciplinas ainda estão planejados.</small></span></div>
+          <div className="planned-summary"><Sparkles /><span><b>Próximas etapas</b><small>Flashcards, revisão e simulados seguem planejados. Biblioteca e Favoritos já estão disponíveis.</small></span></div>
           <button className="history-shortcut" type="button" onClick={() => navigate('Configurações')}><Download />Exportar ou restaurar histórico</button>
         </div>
       </section>
@@ -262,12 +265,14 @@ function PlannedModule({ title }) {
   return <section className="planned-module"><span>STATUS DO MÓDULO</span><div><Sparkles /></div><h1>{title}</h1><b>{inDevelopment ? 'Em desenvolvimento' : 'Planejado'}</b><p>{inDevelopment ? 'O projeto registra esta disciplina em andamento, mas ainda não há conteúdo ou banco de questões conectado. Ela não é contabilizada como disponível para estudo.' : 'Esta área ainda não está integrada para estudo. Nenhuma questão ou dado de desempenho é contabilizado aqui. Os conteúdos serão adicionados em uma etapa futura.'}</p></section>;
 }
 
-function Generic({ active, initialTarget, navigate }) {
+function Generic({ active, initialTarget, navigate, openSearchResult }) {
   const isQuestionBank = active.startsWith('Q:');
   const title = isQuestionBank ? active.slice(2) : active;
   const subject = subjectByName.get(title);
   if (subject) return <DisciplineModule subject={subject} defaultSection={isQuestionBank ? 'questions' : 'content'} initialTarget={initialTarget} />;
   if (title === 'Disciplinas') return <DisciplineCatalog navigate={navigate} />;
+  if (title === 'Biblioteca') return <LibraryPage onOpenResult={openSearchResult} />;
+  if (title === 'Favoritos') return <FavoritesPage onOpenResult={openSearchResult} />;
   if (title === 'Configurações') return <HistoryTools />;
   if (title === 'Meu perfil') return <ProfileSettings />;
   return <PlannedModule title={title} />;
