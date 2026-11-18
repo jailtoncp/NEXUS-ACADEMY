@@ -14,18 +14,19 @@ import {
   Library,
   Menu,
   RotateCcw,
-  Settings,
   ShieldCheck,
   Sparkles,
   Star,
   Target,
   X,
-  Zap,
 } from 'lucide-react';
 import DisciplineModule from './components/DisciplineModule.jsx';
 import GlobalSearch from './components/GlobalSearch.jsx';
 import HistoryTools from './components/HistoryTools.jsx';
 import InstallPwaButton from './components/InstallPwaButton.jsx';
+import NotificationCenter from './components/NotificationCenter.jsx';
+import ProfileSettings from './components/ProfileSettings.jsx';
+import QuickToolsMenu from './components/QuickToolsMenu.jsx';
 import { activeSubjects, availableQuestionTotal, developmentDisciplines, plannedDisciplines, subjectByName } from './data/subjectRegistry.js';
 import { readAnswerHistory, summarizeAnswerHistory } from './lib/answerHistory.js';
 import './styles.css';
@@ -138,11 +139,6 @@ function App() {
           ))}
         </div>
 
-        <div className="side-bottom">
-          <StudySessionStatus />
-          <button className={`nav-item ${active === 'Configurações' ? 'active' : ''}`} type="button" onClick={() => navigate('Configurações')}><Settings />Configurações</button>
-          <div className="profile"><div>JP</div><span><b>Meu perfil</b><small>Dados apenas neste dispositivo</small></span></div>
-        </div>
       </aside>
 
       <main className="main">
@@ -152,7 +148,7 @@ function App() {
           <div className="actions">
             <InstallPwaButton />
             <GlobalSearch subjects={activeSubjects} developmentDisciplines={developmentDisciplines} plannedDisciplines={plannedDisciplines} value={query} onChange={setQuery} onSelect={openSearchResult} expanded={searchExpanded} onToggleExpanded={() => setSearchExpanded((value) => !value)} />
-            <button className="bell" type="button" disabled aria-label="Notificações ainda não disponíveis" title="Notificações ainda não disponíveis"><span aria-hidden="true">•</span></button>
+            <NotificationCenter navigate={navigate} />
           </div>
         </header>
 
@@ -162,23 +158,9 @@ function App() {
             : <Generic active={active} initialTarget={viewTarget} navigate={navigate} />}
         </div>
       </main>
+      <QuickToolsMenu navigate={navigate} active={active} />
     </div>
   );
-}
-
-function StudySessionStatus() {
-  const [history, setHistory] = useState(readAnswerHistory);
-  useEffect(() => {
-    const refresh = () => setHistory(readAnswerHistory());
-    window.addEventListener('nexus-history-updated', refresh);
-    window.addEventListener('storage', refresh);
-    return () => {
-      window.removeEventListener('nexus-history-updated', refresh);
-      window.removeEventListener('storage', refresh);
-    };
-  }, []);
-  const count = summarizeAnswerHistory(history).attempts;
-  return <div className="status"><div><span><Zap />Respostas registradas</span><b>{count}</b></div><div className="progress"><i style={{ width: count ? '100%' : '0%' }} /></div><small>{count ? 'Histórico local deste dispositivo' : 'Responda questões para iniciar'}</small></div>;
 }
 
 function Dashboard({ navigate, active }) {
@@ -287,6 +269,7 @@ function Generic({ active, initialTarget, navigate }) {
   if (subject) return <DisciplineModule subject={subject} defaultSection={isQuestionBank ? 'questions' : 'content'} initialTarget={initialTarget} />;
   if (title === 'Disciplinas') return <DisciplineCatalog navigate={navigate} />;
   if (title === 'Configurações') return <HistoryTools />;
+  if (title === 'Meu perfil') return <ProfileSettings />;
   return <PlannedModule title={title} />;
 }
 
