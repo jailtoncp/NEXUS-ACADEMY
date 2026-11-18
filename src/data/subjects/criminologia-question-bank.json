@@ -1,13 +1,13 @@
 {
   "metrics": {
-    "authorialQuestions": 340,
+    "authorialQuestions": 341,
     "realQuestions": 0,
     "topicDistribution": {
       "fundamentos": 21,
       "metodo-ciencias": 23,
       "historia-escolas": 58,
       "etiologia": 8,
-      "teorias-sociologicas": 48,
+      "teorias-sociologicas": 49,
       "controle-social": 38,
       "criminologia-critica": 27,
       "vitimologia": 46,
@@ -37,9 +37,9 @@
     "exactRewrittenDuplicatesRemoved": 0,
     "heldForReview": 91,
     "topics": 13,
-    "subtopics": 41,
+    "subtopics": 42,
     "authorWrittenLegalUpdateQuestions": 2,
-    "authorWrittenCoverageQuestions": 7
+    "authorWrittenCoverageQuestions": 8
   },
   "questions": [
     {
@@ -7176,6 +7176,27 @@
       },
       "answer": "A",
       "comment": "A participação comunitária pode apoiar a identificação de problemas e a construção de respostas, mas não substitui deveres estatais nem autoriza reduzir direitos.",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "CRIM-AUTH-341",
+      "origin": "authorial",
+      "topicId": "teorias-sociologicas",
+      "subtopicId": "janelas-quebradas",
+      "difficulty": "medium",
+      "prompt": "Segundo a teoria das Janelas Quebradas, qual alternativa apresenta a hipótese com a cautela empírica adequada?",
+      "options": {
+        "A": "Sinais visíveis de desordem podem ser percebidos como indícios de controle informal fragilizado e se associar a mais desordem ou crime, mas essa relação causal não é consensual.",
+        "B": "Uma janela quebrada comprova, por si só, que delitos graves ocorrerão no local.",
+        "C": "A teoria demonstra que moradores de áreas pobres possuem predisposição inata ao crime.",
+        "D": "A teoria exige que toda infração menor seja tratada com prisão imediata.",
+        "E": "A literatura comprovou definitivamente que ações policiais agressivas são a única forma eficaz de prevenção."
+      },
+      "answer": "A",
+      "comment": "A teoria propõe uma hipótese sobre desordem, percepção de controle informal e criminalidade. Revisões encontram evidências mistas e não autorizam tratar a causalidade como comprovada; a hipótese também não se confunde automaticamente com políticas de tolerância zero.",
       "board": null,
       "year": null,
       "exam": null,

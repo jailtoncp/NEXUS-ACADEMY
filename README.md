@@ -19,15 +19,15 @@ Abra o endereço mostrado pelo Vite acrescentando `/NEXUS-ACADEMY/` (por exemplo
 | --- | ---: | --- |
 | Português | 931 | 10 tópicos; 896 reais e 35 autorais. Em andamento. |
 | Informática | 916 | 13 tópicos; 882 reais e 34 autorais. Em andamento. |
-| Raciocínio Lógico | 313 | Módulo integrado; ver pendências históricas no controle. |
-| Criminologia | 340 | 13 tópicos; 41 subtópicos e 340 questões autorais; 91 itens de origem seguem fora do treino para revisão. |
+| Raciocínio Lógico | 313 | Módulo integrado; teoria inclui a tabela-verdade completa dos conectivos. Ver pendências históricas no controle. |
+| Criminologia | 341 | 13 tópicos; 42 subtópicos e 341 questões autorais; 91 itens de origem seguem fora do treino para revisão. |
 | Direito Penal | 191 | 11 tópicos; 182 reais e 9 autorais. Em andamento. |
 | Processo Penal | 154 | 8 tópicos; 148 reais e 6 autorais. Em andamento. |
 | Execução Penal | 102 | 7 tópicos; 100 reais e 2 autorais. Em andamento. |
 | Legislação Especial | 63 | 8 tópicos; 63 reais. Em andamento. |
 | Direitos Humanos | 30 | 2 tópicos; DUDH e Pacto de San José. Parcial. |
 
-**Total:** 9 disciplinas e 3.040 questões conectadas. Direito Constitucional, Direito Administrativo e Ciências Forenses seguem planejadas. As contagens são derivadas dos dados importados, não uma avaliação semântica de cada questão.
+**Total:** 9 disciplinas e 3.041 questões conectadas. Direito Constitucional, Direito Administrativo e Ciências Forenses seguem planejadas. As contagens são derivadas dos dados importados, não uma avaliação semântica de cada questão.
 
 ## Recursos atuais
 

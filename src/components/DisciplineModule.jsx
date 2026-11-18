@@ -108,6 +108,15 @@ export default function DisciplineModule({ subject, defaultSection = 'content', 
                 <div>
                   <h3>{subtopic.title}</h3>
                   {subtopic.content.split('\n\n').map((paragraph, index) => <p key={index}>{paragraph}</p>)}
+                  {subtopic.truthTable && (
+                    <div className="lesson-table-scroll" role="region" aria-label={subtopic.truthTable.ariaLabel} tabIndex={0}>
+                      <table className="lesson-truth-table">
+                        <caption>{subtopic.truthTable.caption}</caption>
+                        <thead><tr>{subtopic.truthTable.columns.map((column) => <th scope="col" key={column}>{column}</th>)}</tr></thead>
+                        <tbody>{subtopic.truthTable.rows.map((row, rowIndex) => <tr key={rowIndex}>{row.map((value, columnIndex) => <td key={`${rowIndex}-${columnIndex}`}>{value}</td>)}</tr>)}</tbody>
+                      </table>
+                    </div>
+                  )}
                   {subtopic.references?.length > 0 && (
                     <div className="lesson-references">
                       <strong>Fontes oficiais e documentação</strong>

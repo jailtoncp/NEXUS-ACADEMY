@@ -19,7 +19,23 @@ const subject = {
       summary: 'Interprete os conectivos, seus valores lógicos e as fórmulas compostas.',
       subtopics: [
         { id: 'operadores', title: 'Operadores lógicos', order: 1, content: `Conjunção (p ∧ q, “p e q”): só é verdadeira quando ambas as proposições são verdadeiras. Disjunção inclusiva (p ∨ q, “p ou q”): só é falsa quando ambas são falsas. A disjunção exclusiva é verdadeira quando exatamente uma das partes é verdadeira.\n\nCondicional (p → q, “se p, então q”): é falsa somente no caso p = V e q = F. p é o antecedente e q, o consequente. Bicondicional (p ↔ q, “p se e somente se q”): é verdadeira quando p e q têm o mesmo valor lógico. A negação (¬p) inverte o valor lógico de p.` },
-        { id: 'tabelas-verdade', title: 'Construção e leitura de tabelas-verdade', order: 2, content: `Liste as combinações possíveis das proposições simples (2ⁿ linhas) e avalie os conectivos de dentro para fora, respeitando parênteses e precedência. Uma linha decisiva pode refutar uma tautologia, mas a classificação completa exige considerar todas as valorações.\n\nConfira especialmente a condicional: V → F = F; nos demais casos o resultado é V. Em provas, transcreva cada linha com atenção para não confundir disjunção inclusiva e exclusiva.` }
+        {
+          id: 'tabelas-verdade',
+          title: 'Construção e leitura de tabelas-verdade',
+          order: 2,
+          content: `Uma tabela completa enumera todas as combinações possíveis das proposições simples: com p e q há 2² = 4 linhas. Avalie cada coluna respeitando os parênteses. A imagem de apoio destaca casos decisivos; a tabela abaixo reúne todos os casos de negação, conjunção, disjunção inclusiva, disjunção exclusiva, condicional e bicondicional.\n\nUse ¬ para negação, ∧ para “e”, ∨ para “ou” inclusivo, ⊕ para “ou... ou” exclusivo, → para “se... então” e ↔ para “se e somente se”. A notação da disjunção exclusiva varia entre materiais. Lembre-se: p → q só é falsa quando p é V e q é F; p ↔ q é verdadeira quando os valores de p e q são iguais.`,
+          truthTable: {
+            ariaLabel: 'Tabela-verdade completa dos conectivos lógicos; role horizontalmente para ver todas as colunas.',
+            caption: 'Tabela-verdade dos conectivos (V = verdadeiro; F = falso)',
+            columns: ['p', 'q', '¬p', '¬q', 'p ∧ q', 'p ∨ q', 'p ⊕ q', 'p → q', 'p ↔ q'],
+            rows: [
+              ['V', 'V', 'F', 'F', 'V', 'V', 'F', 'V', 'V'],
+              ['V', 'F', 'F', 'V', 'F', 'V', 'V', 'F', 'F'],
+              ['F', 'V', 'V', 'F', 'F', 'V', 'V', 'V', 'F'],
+              ['F', 'F', 'V', 'V', 'F', 'F', 'F', 'V', 'V']
+            ]
+          }
+        }
       ]
     },
     {

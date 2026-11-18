@@ -126,7 +126,7 @@
     "id": "teorias-sociologicas",
     "order": 5,
     "title": "Teorias sociológicas da criminalidade",
-    "summary": "Abordagens que analisam organização social, aprendizagem, tensão e vínculos.",
+    "summary": "Abordagens que analisam organização social, desordem urbana, aprendizagem, tensão e vínculos.",
     "subtopics": [
       {
         "id": "chicago-desorganizacao",
@@ -162,6 +162,18 @@
         "title": "Vínculos sociais e teorias do controle",
         "content": "Teorias do controle social perguntam quais vínculos, compromissos e formas de participação dificultam a violação de normas. Em versões conhecidas, apego, compromisso, envolvimento e crença compõem dimensões de ligação social. O interesse analítico recai sobre os mecanismos que sustentam conformidade, não sobre a ideia de que toda pessoa sem esses vínculos delinque.\n\nO conceito também pode ser usado em sentido institucional mais amplo, para estudar como famílias, escolas, comunidades e órgãos estatais regulam comportamentos. É importante distinguir essas teorias da reação social, que investiga a definição e a aplicação dos rótulos de desvio e crime.",
         "references": [{"label": "OpenTextBC — desvio, crime e controle social", "url": "https://opentextbc.ca/introductiontosociology/chapter/chapter7-deviance-crime-and-social-control/"}]
+      },
+      {
+        "id": "janelas-quebradas",
+        "order": 6,
+        "title": "Teoria das Janelas Quebradas",
+        "content": "Wilson e Kelling popularizaram essa hipótese em 1982. Sinais visíveis de desordem física ou social — como danos sem reparo, lixo acumulado ou vandalismo — podem ser percebidos como indícios de abandono ou de controle informal fragilizado. Segundo a teoria, essas percepções podem reduzir a sensação de segurança e a disposição de intervenção comunitária, criando condições que se associem à continuidade da desordem e a delitos mais graves. O foco está na relação entre ambiente, percepção e controle social; não em uma suposta propensão criminosa dos moradores.\n\nA hipótese não equivale a uma política automática de tolerância zero nem prova que prisões por infrações menores reduzam crimes graves. Revisões empíricas encontram resultados mistos e pouco consenso sobre causalidade forte; desordem e crime também podem compartilhar causas estruturais. Sínteses recentes favorecem respostas comunitárias e de resolução de problemas em vez de técnicas agressivas orientadas por prisões, com atenção à confiança pública, à proporcionalidade e aos impactos desiguais da fiscalização.",
+        "references": [
+          {"label": "Wilson e Kelling (1982) — Broken Windows, The Atlantic", "url": "https://www.theatlantic.com/magazine/archive/1982/03/broken-windows/304465/"},
+          {"label": "Lanfear, Matsueda e Beach (2019) — revisão da evidência causal", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8059646/"},
+          {"label": "IACP (2025) — síntese de estratégias para reduzir desordem e crime", "url": "https://www.theiacp.org/resources/evidence-to-action/fixing-the-right-broken-windows-new-evidence-on-crime-reduction"},
+          {"label": "Columbia Law School (2015) — crítica de Bernard Harcourt", "url": "https://www.law.columbia.edu/news/archive/shattering-broken-windows"}
+        ]
       }
     ]
   },

@@ -1,7 +1,7 @@
 # CONTROLE-DISCIPLINAS.md — NEXUS ACADEMY
 
 **Atualizado em:** 2026-11-17
-**Escopo desta etapa:** integração das cinco disciplinas do ZIP `atualizaçãonexus.zip`, preservando Criminologia e os recursos atuais do site.
+**Escopo desta etapa:** integração das cinco disciplinas do ZIP `atualizaçãonexus.zip` e complementos solicitados de Criminologia e Raciocínio Lógico, preservando os recursos atuais do site.
 
 ## Regra de conteúdo e imagens
 
@@ -13,7 +13,7 @@ Na etapa de Criminologia, o site inclui somente teoria autoral e questões refor
 
 | Disciplina | Responsável informado | Status | Acompanhamento |
 |---|---|---|---|
-| Raciocínio Lógico | Manus 2 | **INTEGRADA — 313 QUESTÕES INTERATIVAS** | Os arquivos de dados não foram alterados nesta auditoria; gabaritos, conteúdo e contagem preservados. |
+| Raciocínio Lógico | Manus 2 | **INTEGRADA — 313 QUESTÕES INTERATIVAS** | Teoria atualizada com tabela-verdade completa dos conectivos; contagem e banco de questões preservados. |
 | Informática | Claude (etapas 2 a 7) | **INTEGRADA — 916 QUESTÕES** | 13 tópicos; 882 questões reais e 34 autorais. Pendentes pedagógicas descritas nas etapas anteriores: comentários, conferências e auditorias adicionais do acervo. |
 | Português | Claude (etapas 4, 5 e 8) | **INTEGRADA — 931 QUESTÕES** | 10 tópicos; 896 questões reais e 35 autorais. Pendências pedagógicas descritas nas etapas anteriores. |
 | Direito Penal | Claude (conteúdo recebido nesta atualização) | **INTEGRADA — 191 QUESTÕES** | 11 tópicos, 24 subtópicos; 182 reais e 9 autorais. Gabaritos e fontes requerem revisão independente. |
@@ -21,9 +21,9 @@ Na etapa de Criminologia, o site inclui somente teoria autoral e questões refor
 | Execução Penal | Claude (conteúdo recebido nesta atualização) | **INTEGRADA — 102 QUESTÕES** | 7 tópicos, 13 subtópicos; 100 reais e 2 autorais. Gabaritos e fontes requerem revisão independente. |
 | Legislação Especial | Claude (conteúdo recebido nesta atualização) | **INTEGRADA — 63 QUESTÕES** | 8 tópicos, 9 subtópicos; 63 reais. Revisar a legislação vigente antes de considerar finalizada. |
 | Direitos Humanos | Claude (conteúdo recebido nesta atualização) | **INTEGRADA — 30 QUESTÕES** | 2 tópicos, 5 subtópicos; conteúdo parcial (DUDH e Pacto de San José). |
-| Criminologia | Manus 1 | **INTEGRADA — 340 QUESTÕES AUTORAIS** | 13 tópicos e 41 subtópicos, todos com ao menos uma questão; 91 itens de origem foram preservados fora do treino para revisão. |
+| Criminologia | Manus 1 | **INTEGRADA — 341 QUESTÕES AUTORAIS** | 13 tópicos e 42 subtópicos, todos com ao menos uma questão; 91 itens de origem foram preservados fora do treino para revisão. |
 
-Nove módulos estão disponíveis para estudo, totalizando 3.040 questões. Os estados e responsáveis reproduzem as informações registradas nas etapas e no material recebido; não representam revisão jurídica independente.
+Nove módulos estão disponíveis para estudo, totalizando 3.041 questões. Os estados e responsáveis reproduzem as informações registradas nas etapas e no material recebido; não representam revisão jurídica independente.
 
 ## Informática — materiais e contagens
 
@@ -275,3 +275,18 @@ Na validação local sobre a `main` atualizada, `npm ci --no-audit --no-fund`, o
 
 
 **Atualização de publicação (2026-11-17):** o commit integrado `159a47af564f2f65273cbc453c1300a4870067ab` foi enviado à `main`. O GitHub Actions [44198910002](https://github.com/jailtoncp/NEXUS-ACADEMY/actions/runs/44198910002) concluiu build e deploy com sucesso. O smoke test em [GitHub Pages](https://jailtoncp.github.io/NEXUS-ACADEMY/) confirmou os nove módulos e as respectivas contagens (total 3.040 questões), inclusive Criminologia (340); busca global, aviso legislativo e status do gabarito; manifesto, ícones e service worker do PWA; e viewport mobile de 390 px sem overflow ou erros JavaScript. A pendência de publicação anotada acima foi resolvida. A ressalva sobre revisão pedagógica/jurídica independente dos bancos permanece.
+
+
+## Etapa 13 — Complementos solicitados de Criminologia e Raciocínio Lógico (2026-11-17)
+
+**Criminologia:** o tópico 05 agora inclui o subtópico autoral “Teoria das Janelas Quebradas”, com a hipótese descrita junto das ressalvas sobre causalidade e das diferenças em relação a políticas de tolerância zero. Foi adicionada a questão autoral `CRIM-AUTH-341`; o módulo passa a 13 tópicos, 42 subtópicos e 341 questões, mantendo os 91 itens em revisão fora do treino.
+
+**Raciocínio Lógico:** o subtópico de tabelas-verdade agora reúne negação, conjunção, disjunção inclusiva e exclusiva, condicional e bicondicional nas quatro valorações de `p` e `q`. A tabela tem cabeçalho e legenda, e é renderizada como tabela semântica; o banco existente permanece com 313 questões.
+
+**Referências acadêmicas:** o subtópico de Criminologia aponta para a formulação de Wilson e Kelling (1982), uma revisão empírica (Lanfear, Matsueda e Beach, 2019), uma síntese da IACP (2025) e uma crítica acadêmica da Columbia Law School. A redação teórica e a questão são próprias; nenhum PDF, layout de curso ou a imagem de referência foi incluído.
+
+**Validação após integrar a `origin/main` atualizada:** o build de produção passou e `git diff --check` não encontrou erros. A auditoria confirmou 13 tópicos, os 42 subtópicos com questões, 341 IDs únicos e gabaritos/opções válidos; a tabela lógica foi conferida contra as funções dos conectivos. No navegador, a versão com nove módulos exibiu a teoria, a tabela com 9 colunas e 4 linhas e a contagem agregada de 3.041 questões, sem erro JavaScript observado.
+
+**Aviso de build:** o chunk principal ficou em aproximadamente 4,35 MB minificado (857 kB gzip), acima do limite padrão de 500 kB do Vite. O build conclui; dividir/carregar sob demanda os bancos das nove disciplinas continua recomendável.
+
+**Estado:** implementação e validação concluídas; atualização registrada na branch `main`; interromper agora para o teste do usuário.
