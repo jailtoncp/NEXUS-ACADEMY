@@ -1,5 +1,5 @@
-import React, { useEffect, useMemo, useState } from 'react';
-import { ArrowLeft, ArrowRight, ArrowUpRight, BookOpen, Check, ChevronDown, CircleHelp, Clock3, ListChecks, RotateCcw } from 'lucide-react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
+import { ArrowLeft, ArrowRight, ArrowUpRight, BookOpen, Check, ChevronDown, CircleHelp, Clock3, ListChecks, Maximize2, Minimize2, RotateCcw } from 'lucide-react';
 import { appendAnswerAttempt, readAnswerHistory } from '../lib/answerHistory.js';
 import './discipline-module.css';
 
@@ -15,6 +15,11 @@ export default function DisciplineModule({ subject, defaultSection = 'content', 
   const [history, setHistory] = useState(readAnswerHistory);
   const [historyError, setHistoryError] = useState('');
   const [pendingLesson, setPendingLesson] = useState(null);
+  const [isFullscreen, setIsFullscreen] = useState(false);
+  const [fullscreenOutlineOpen, setFullscreenOutlineOpen] = useState(false);
+  const fullscreenTriggerRef = useRef(null);
+  const fullscreenCloseRef = useRef(null);
+  const fullscreenContentRef = useRef(null);
 
   useEffect(() => {
     const nextSection = initialTarget?.mode || defaultSection;
@@ -22,6 +27,26 @@ export default function DisciplineModule({ subject, defaultSection = 'content', 
     setTopicId(initialTarget?.topicId || (nextSection === 'questions' ? '' : subject.topics[0]?.id));
     setPendingLesson(initialTarget?.subtopicId ? { topicId: initialTarget.topicId, subtopicId: initialTarget.subtopicId } : null);
   }, [defaultSection, subject.id, initialTarget]);
+
+  useEffect(() => {
+    if (!isFullscreen) return undefined;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    fullscreenCloseRef.current?.focus();
+    const closeOnEscape = (event) => {
+      if (event.key === 'Escape') setIsFullscreen(false);
+    };
+    window.addEventListener('keydown', closeOnEscape);
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      window.removeEventListener('keydown', closeOnEscape);
+      window.requestAnimationFrame(() => fullscreenTriggerRef.current?.focus());
+    };
+  }, [isFullscreen]);
+
+  useEffect(() => {
+    if (isFullscreen && fullscreenContentRef.current) fullscreenContentRef.current.scrollTop = 0;
+  }, [isFullscreen, topicId]);
 
   useEffect(() => {
     const refresh = () => setHistory(readAnswerHistory());
@@ -90,7 +115,8 @@ export default function DisciplineModule({ subject, defaultSection = 'content', 
       </nav>
 
       {section === 'content' && (
-        <div className="study-layout">
+        <>
+        <div className="study-layout" aria-hidden={isFullscreen}>
           <aside className="topic-list" tabIndex={0} aria-label="Roteiro de estudo">
             <div className="topic-list-heading">ROTEIRO DE ESTUDO</div>
             {subject.topics.map((item) => (
@@ -101,34 +127,49 @@ export default function DisciplineModule({ subject, defaultSection = 'content', 
             ))}
           </aside>
           <main className="topic-content">
-            <div className="topic-title-row"><div><span>ASSUNTO {String(topic.order).padStart(2, '0')}</span><h2>{topic.title}</h2><p>{topic.summary}</p></div><button className="small-action" onClick={() => setSection('questions')}><ListChecks /> Praticar assunto</button></div>
-            {topic.subtopics.map((subtopic) => (
-                <article className="lesson-card" id={`lesson-${subject.id}-${subtopic.id}`} key={subtopic.id}>
-                <div className="lesson-number">{String(topic.order).padStart(2, '0')}.{String(subtopic.order).padStart(2, '0')}</div>
-                <div>
-                  <h3>{subtopic.title}</h3>
-                  {subtopic.content.split('\n\n').map((paragraph, index) => <p key={index}>{paragraph}</p>)}
-                  {subtopic.truthTable && (
-                    <div className="lesson-table-scroll" role="region" aria-label={subtopic.truthTable.ariaLabel} tabIndex={0}>
-                      <table className="lesson-truth-table">
-                        <caption>{subtopic.truthTable.caption}</caption>
-                        <thead><tr>{subtopic.truthTable.columns.map((column) => <th scope="col" key={column}>{column}</th>)}</tr></thead>
-                        <tbody>{subtopic.truthTable.rows.map((row, rowIndex) => <tr key={rowIndex}>{row.map((value, columnIndex) => <td key={`${rowIndex}-${columnIndex}`}>{value}</td>)}</tr>)}</tbody>
-                      </table>
-                    </div>
-                  )}
-                  {subtopic.references?.length > 0 && (
-                    <div className="lesson-references">
-                      <strong>Fontes oficiais e documentação</strong>
-                      <ul>{subtopic.references.map((reference) => <li key={reference.url}><a href={reference.url} target="_blank" rel="noreferrer">{reference.label}<ArrowUpRight /></a></li>)}</ul>
-                    </div>
-                  )}
-                </div>
-              </article>
-            ))}
-            <div className="lesson-footer"><span>Próximo assunto</span><button onClick={() => setTopicId(subject.topics[(topic.order) % subject.topics.length].id)}>{subject.topics[(topic.order) % subject.topics.length].title}<ArrowRight /></button></div>
+            <TopicMaterial
+              subject={subject}
+              topic={topic}
+              onPractice={() => setSection('questions')}
+              onNextTopic={() => setTopicId(subject.topics[topic.order % subject.topics.length].id)}
+              onEnterFullscreen={() => { setFullscreenOutlineOpen(false); setIsFullscreen(true); }}
+              fullscreenButtonRef={fullscreenTriggerRef}
+            />
           </main>
         </div>
+        {isFullscreen && (
+          <div className="fullscreen-reader-backdrop">
+            <section className="fullscreen-reader" role="dialog" aria-modal="true" aria-label={`Leitura em tela cheia: ${subject.name}`}>
+              <header className="fullscreen-reader-toolbar">
+                <div className="fullscreen-reader-heading"><span>LEITURA EM FOCO</span><h2>{subject.name}</h2></div>
+                <div className="fullscreen-reader-actions">
+                  <button type="button" className="small-action" aria-expanded={fullscreenOutlineOpen} aria-controls="fullscreen-study-outline" onClick={() => setFullscreenOutlineOpen((open) => !open)}><ListChecks /> {fullscreenOutlineOpen ? 'Ocultar roteiro' : 'Mostrar roteiro'}</button>
+                  <button type="button" className="small-action" ref={fullscreenCloseRef} onClick={() => setIsFullscreen(false)}><Minimize2 /> Sair da tela cheia</button>
+                </div>
+              </header>
+              <div className={`fullscreen-reader-body ${fullscreenOutlineOpen ? 'outline-open' : 'outline-closed'}`}>
+                <aside id="fullscreen-study-outline" className="topic-list fullscreen-topic-list" tabIndex={0} aria-label="Roteiro de estudo em tela cheia" hidden={!fullscreenOutlineOpen}>
+                  <div className="topic-list-heading">ROTEIRO DE ESTUDO</div>
+                  {subject.topics.map((item) => (
+                    <button key={item.id} className={topicId === item.id ? 'topic-link active' : 'topic-link'} onClick={() => setTopicId(item.id)}>
+                      <span>{String(item.order).padStart(2, '0')}</span>{item.title}
+                      <small>{item.subtopics.length} {item.subtopics.length === 1 ? 'subassunto' : 'subassuntos'}</small>
+                    </button>
+                  ))}
+                </aside>
+                <main className="topic-content fullscreen-topic-content" ref={fullscreenContentRef} tabIndex={0} aria-label={`Material de estudo: ${topic.title}`}>
+                  <TopicMaterial
+                    subject={subject}
+                    topic={topic}
+                    onPractice={() => { setIsFullscreen(false); setSection('questions'); }}
+                    onNextTopic={() => setTopicId(subject.topics[topic.order % subject.topics.length].id)}
+                  />
+                </main>
+              </div>
+            </section>
+          </div>
+        )}
+        </>
       )}
 
       {section === 'questions' && (
@@ -152,6 +193,45 @@ export default function DisciplineModule({ subject, defaultSection = 'content', 
         </section>
       )}
     </div>
+  );
+}
+
+function TopicMaterial({ subject, topic, onPractice, onNextTopic, onEnterFullscreen, fullscreenButtonRef }) {
+  return (
+    <>
+      <div className="topic-title-row">
+        <div><span>ASSUNTO {String(topic.order).padStart(2, '0')}</span><h2>{topic.title}</h2><p>{topic.summary}</p></div>
+        <div className="topic-actions">
+          {onEnterFullscreen && <button type="button" className="small-action" ref={fullscreenButtonRef} onClick={onEnterFullscreen} aria-label={`Abrir ${topic.title} em tela cheia`}><Maximize2 /> Tela cheia</button>}
+          <button type="button" className="small-action" onClick={onPractice}><ListChecks /> Praticar assunto</button>
+        </div>
+      </div>
+      {topic.subtopics.map((subtopic) => (
+        <article className="lesson-card" id={`lesson-${subject.id}-${subtopic.id}`} key={subtopic.id}>
+          <div className="lesson-number">{String(topic.order).padStart(2, '0')}.{String(subtopic.order).padStart(2, '0')}</div>
+          <div>
+            <h3>{subtopic.title}</h3>
+            {subtopic.content.split('\n\n').map((paragraph, index) => <p key={index}>{paragraph}</p>)}
+            {subtopic.truthTable && (
+              <div className="lesson-table-scroll" role="region" aria-label={subtopic.truthTable.ariaLabel} tabIndex={0}>
+                <table className="lesson-truth-table">
+                  <caption>{subtopic.truthTable.caption}</caption>
+                  <thead><tr>{subtopic.truthTable.columns.map((column) => <th scope="col" key={column}>{column}</th>)}</tr></thead>
+                  <tbody>{subtopic.truthTable.rows.map((row, rowIndex) => <tr key={rowIndex}>{row.map((value, columnIndex) => <td key={`${rowIndex}-${columnIndex}`}>{value}</td>)}</tr>)}</tbody>
+                </table>
+              </div>
+            )}
+            {subtopic.references?.length > 0 && (
+              <div className="lesson-references">
+                <strong>Fontes oficiais e documentação</strong>
+                <ul>{subtopic.references.map((reference) => <li key={reference.url}><a href={reference.url} target="_blank" rel="noreferrer">{reference.label}<ArrowUpRight /></a></li>)}</ul>
+              </div>
+            )}
+          </div>
+        </article>
+      ))}
+      <div className="lesson-footer"><span>Próximo assunto</span><button type="button" onClick={onNextTopic}>{subject.topics[topic.order % subject.topics.length].title}<ArrowRight /></button></div>
+    </>
   );
 }
 
