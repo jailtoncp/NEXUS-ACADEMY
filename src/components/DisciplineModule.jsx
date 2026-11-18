@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
-import { ArrowLeft, ArrowRight, ArrowUpRight, BookOpen, Check, ChevronDown, CircleHelp, Clock3, ListChecks, Maximize2, Minimize2, RotateCcw } from 'lucide-react';
+import { ArrowLeft, ArrowRight, ArrowUpRight, BookOpen, Check, ChevronDown, CircleHelp, Clock3, ListChecks, Maximize2, Minimize2, RotateCcw, Star } from 'lucide-react';
 import { appendAnswerAttempt, readAnswerHistory } from '../lib/answerHistory.js';
+import { isQuestionFavorite, readFavoriteItems, toggleQuestionFavorite } from '../lib/favorites.js';
 import './discipline-module.css';
 
 function getSubtopic(subject, topicId, subtopicId) {
@@ -252,12 +253,26 @@ function QuestionRunner({ questions, topic, topics, subjectName, disciplineId, h
   const [selected, setSelected] = useState('');
   const [submitted, setSubmitted] = useState(false);
   const [startedAt, setStartedAt] = useState(Date.now());
+  const [favorites, setFavorites] = useState(readFavoriteItems);
+  const [favoriteError, setFavoriteError] = useState('');
+
+  useEffect(() => {
+    const refresh = () => setFavorites(readFavoriteItems());
+    window.addEventListener('nexus-favorites-updated', refresh);
+    window.addEventListener('storage', refresh);
+    return () => {
+      window.removeEventListener('nexus-favorites-updated', refresh);
+      window.removeEventListener('storage', refresh);
+    };
+  }, []);
+
   const answeredIds = new Set(history.filter((item) => item.discipline === disciplineId).map((item) => String(item.questionId)));
   const answeredCount = questions.filter((item) => answeredIds.has(String(item.id))).length;
   const matchesStatus = (item, filter) => filter === 'all' || (filter === 'answered' ? answeredIds.has(String(item.id)) : !answeredIds.has(String(item.id)));
   const filteredQuestions = questions.filter((item) => matchesStatus(item, statusFilter) || String(item.id) === pinnedQuestionId);
   const index = Math.max(0, filteredQuestions.findIndex((item) => String(item.id) === String(currentQuestionId)));
   const question = filteredQuestions[index];
+  const questionIsFavorite = question ? isQuestionFavorite(disciplineId, question.id, favorites) : false;
   const statusOptions = [
     { id: 'all', label: 'Todas', count: questions.length },
     { id: 'answered', label: 'Respondidas', count: answeredCount },
@@ -280,8 +295,16 @@ function QuestionRunner({ questions, topic, topics, subjectName, disciplineId, h
   );
 
   if (!question) return <div className="question-runner">{statusControls}<section className="question-card empty-questions"><CircleHelp /><h2>{statusFilter === 'answered' ? 'Nenhuma questão respondida neste filtro' : statusFilter === 'unanswered' ? 'Nenhuma questão não respondida' : 'Não há questões neste assunto'}</h2><p>{statusFilter === 'answered' ? 'Responda a uma questão para ela aparecer neste filtro.' : statusFilter === 'unanswered' ? 'Todas as questões deste filtro já têm uma resposta salva.' : 'Escolha outro assunto no filtro para continuar.'}</p></section></div>;
-
   const promptImages = (question.images || []).filter((image) => image.location !== 'option' && imageSrc(image));
+
+  function toggleCurrentFavorite() {
+    setFavoriteError('');
+    try {
+      setFavorites(toggleQuestionFavorite(disciplineId, question.id));
+    } catch (cause) {
+      setFavoriteError(cause.message || 'Não foi possível atualizar os favoritos.');
+    }
+  }
 
   function submit() {
     if (!selected || submitted) return;
@@ -303,8 +326,13 @@ function QuestionRunner({ questions, topic, topics, subjectName, disciplineId, h
     <div className="question-runner">
       {statusControls}
     <section className="question-card">
-      <div className="question-meta"><span>QUESTÃO {index + 1} DE {filteredQuestions.length}</span><span>{question.origin === 'authorial' ? 'Questão autoral · NEXUS ACADEMY' : question.year || 'Ano não informado'}{question.difficulty ? ` · ${question.difficulty === 'easy' ? 'Fácil' : question.difficulty === 'medium' ? 'Média' : 'Difícil'}` : ''}</span></div>
+      <div className="question-meta">
+        <span>QUESTÃO {index + 1} DE {filteredQuestions.length}</span>
+        <span>{question.origin === 'authorial' ? 'Questão autoral · NEXUS ACADEMY' : question.year || 'Ano não informado'}{question.difficulty ? ` · ${question.difficulty === 'easy' ? 'Fácil' : question.difficulty === 'medium' ? 'Média' : 'Difícil'}` : ''}</span>
+        <button className={`question-favorite-toggle ${questionIsFavorite ? 'is-saved' : ''}`} type="button" aria-pressed={questionIsFavorite} aria-label={questionIsFavorite ? 'Remover questão dos favoritos' : 'Salvar questão nos favoritos'} onClick={toggleCurrentFavorite}><Star fill={questionIsFavorite ? 'currentColor' : 'none'} />{questionIsFavorite ? 'Salva' : 'Favoritar'}</button>
+      </div>
       <div className="question-progress"><i style={{ width: `${((index + 1) / filteredQuestions.length) * 100}%` }} /></div>
+      {favoriteError && <p className="question-favorite-error" role="alert">{favoriteError}</p>}
       {statusFilter === 'unanswered' && pinnedQuestionId === String(question.id) && <p className="question-status-saved" aria-live="polite">Resposta registrada. Avance para continuar pelas questões não respondidas.</p>}
       <div className="question-topic">{topics.find((item) => item.id === question.topicId)?.title || topic?.title || subjectName}</div>
       <h2>{question.prompt}</h2>
