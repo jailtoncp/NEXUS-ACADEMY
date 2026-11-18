@@ -436,3 +436,20 @@
 
 .notification-explore { width: 100%; min-height: 37px; margin-top: 10px; border: 1px solid #354a70; border-radius: 8px; background: #121e32; color: #bdc9ff; font-size: 11px; font-weight: 600; cursor: pointer; }
 .notification-explore:hover { border-color: #8496ff; background: #172642; }
+
+
+/* Meu espaço ao lado das notificações, sem botão flutuante sobre o conteúdo. */
+.header-tools { position: relative; z-index: 45; flex: 0 0 auto; font-family: 'DM Sans',sans-serif; }
+.header-tools-toggle { position: relative; width: 40px; height: 40px; display: grid; place-items: center; padding: 0; border: 1px solid #273752; border-radius: 11px; background: linear-gradient(145deg,#101a2a,#0b111d); color: #aab9d4; cursor: pointer; transition: border-color .18s, color .18s, box-shadow .18s; }
+.header-tools-toggle:hover,.header-tools-toggle.is-open { border-color: #7186ff; color: #e0e7ff; box-shadow: 0 0 20px #7186ff20; }
+.header-tools-avatar { width: 26px; height: 26px; display: grid; place-items: center; overflow: hidden; border: 1px solid #40547a; border-radius: 8px; background: linear-gradient(145deg,#25395b,#111b2d); color: #bdc9ff; }
+.header-tools-avatar img { width: 100%; height: 100%; object-fit: cover; }
+.header-tools-avatar svg { width: 16px; height: 16px; stroke-width: 1.8; }
+.header-tools-indicator { position: absolute; right: -4px; bottom: -4px; width: 15px; height: 15px; display: grid; place-items: center; border: 1px solid #435a82; border-radius: 50%; background: #152238; color: #c0caff; }
+.header-tools-indicator svg { width: 10px; height: 10px; transition: transform .18s; }
+.header-tools-toggle.is-open .header-tools-indicator svg { transform: rotate(180deg); }
+.header-tools-popover { position: absolute; top: calc(100% + 11px); right: 0; z-index: 120; width: min(360px, calc(100vw - 24px)); max-height: min(74vh, 490px); overflow: auto; overscroll-behavior: contain; padding: 14px; border: 1px solid #2a3b59; border-radius: 15px; background: #0a111c; box-shadow: 0 24px 70px #000b; color: #dce5f4; }
+.header-tools-popover[hidden] { display: none !important; }
+@media (max-width: 520px) {
+  .header-tools-popover { right: -52px; width: min(360px, calc(100vw - 24px)); max-height: min(70vh, 460px); }
+}

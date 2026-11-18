@@ -148,6 +148,7 @@ function App() {
           <div className="actions">
             <InstallPwaButton />
             <GlobalSearch subjects={activeSubjects} developmentDisciplines={developmentDisciplines} plannedDisciplines={plannedDisciplines} value={query} onChange={setQuery} onSelect={openSearchResult} expanded={searchExpanded} onToggleExpanded={() => setSearchExpanded((value) => !value)} />
+            <QuickToolsMenu navigate={navigate} active={active} />
             <NotificationCenter navigate={navigate} />
           </div>
         </header>
@@ -158,7 +159,6 @@ function App() {
             : <Generic active={active} initialTarget={viewTarget} navigate={navigate} />}
         </div>
       </main>
-      <QuickToolsMenu navigate={navigate} active={active} />
     </div>
   );
 }

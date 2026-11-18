@@ -58,13 +58,12 @@ export default function QuickToolsMenu({ navigate, active }) {
   }
 
   return (
-    <div className="floating-tools" ref={rootRef}>
-      <button ref={triggerRef} className={`floating-tools-toggle ${open ? 'is-open' : ''}`} type="button" aria-label={open ? 'Fechar menu pessoal' : 'Abrir menu pessoal'} aria-expanded={open} aria-controls="nexus-personal-menu" onClick={() => setOpen((value) => !value)}>
-        <span className="floating-tools-avatar">{profile.photoDataUrl ? <img src={profile.photoDataUrl} alt="" /> : <span>{getUserInitials(profile.displayName)}</span>}</span>
-        <span className="floating-tools-toggle-copy"><b>Meu espaço</b><small>{profile.displayName.trim() || 'Atalhos pessoais'}</small></span>
-        <ChevronDown aria-hidden="true" />
+    <div className="header-tools" ref={rootRef}>
+      <button ref={triggerRef} className={`header-tools-toggle ${open ? 'is-open' : ''}`} type="button" title="Meu espaço" aria-label={open ? 'Fechar menu pessoal' : 'Abrir menu pessoal'} aria-expanded={open} aria-controls="nexus-personal-menu" onClick={() => setOpen((value) => !value)}>
+        <span className="header-tools-avatar">{profile.photoDataUrl ? <img src={profile.photoDataUrl} alt="" /> : <UserRound aria-hidden="true" />}</span>
+        <span className="header-tools-indicator"><ChevronDown aria-hidden="true" /></span>
       </button>
-      <section id="nexus-personal-menu" className="floating-tools-popover" aria-label="Atalhos pessoais" hidden={!open}>
+      <section id="nexus-personal-menu" className="header-tools-popover" aria-label="Atalhos pessoais" hidden={!open}>
         <div className="floating-tools-heading">
           <div className="floating-tools-avatar large">{profile.photoDataUrl ? <img src={profile.photoDataUrl} alt="" /> : <span>{getUserInitials(profile.displayName)}</span>}</div>
           <div><span>SEU ESPAÇO</span><strong>{displayName}</strong><small>{profile.targetExam.trim() || 'Dados salvos neste dispositivo'}</small></div>
