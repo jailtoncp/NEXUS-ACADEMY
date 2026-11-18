@@ -91,7 +91,7 @@ export default function DisciplineModule({ subject, defaultSection = 'content', 
 
       {section === 'content' && (
         <div className="study-layout">
-          <aside className="topic-list">
+          <aside className="topic-list" tabIndex={0} aria-label="Roteiro de estudo">
             <div className="topic-list-heading">ROTEIRO DE ESTUDO</div>
             {subject.topics.map((item) => (
               <button key={item.id} className={topicId === item.id ? 'topic-link active' : 'topic-link'} onClick={() => setTopicId(item.id)}>
