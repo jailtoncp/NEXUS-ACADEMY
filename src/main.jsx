@@ -29,6 +29,7 @@ import LibraryPage from './components/LibraryPage.jsx';
 import NotificationCenter from './components/NotificationCenter.jsx';
 import ProfileSettings from './components/ProfileSettings.jsx';
 import QuickToolsMenu from './components/QuickToolsMenu.jsx';
+import SimuladosPage from './components/SimuladosPage.jsx';
 import { activeSubjects, availableQuestionTotal, developmentDisciplines, plannedDisciplines, plannedStudyFeatures, subjectByName } from './data/subjectRegistry.js';
 import { readAnswerHistory, summarizeAnswerHistory } from './lib/answerHistory.js';
 import './styles.css';
@@ -192,7 +193,7 @@ function Dashboard({ navigate, active }) {
           <p>Estude conteúdos e resolva questões das disciplinas conectadas. Seu desempenho é calculado a partir das respostas registradas neste dispositivo.</p>
           <div className="hero-actions">
             <button className="primary" type="button" onClick={() => navigate('Disciplinas')}><BookOpen />Explorar disciplinas</button>
-            <button className="ghost" type="button" onClick={() => navigate('Simulados')}>Simulados · planejado<ArrowUpRight /></button>
+            <button className="ghost" type="button" onClick={() => navigate('Simulados')}>Criar simulado<ArrowUpRight /></button>
           </div>
         </div>
         <div className="orbit" aria-hidden="true"><div className="ring a" /><div className="ring b" /><div className="core"><Sparkles /><b>N</b></div><span className="node na">FOCO</span><span className="node nb">CONTEÚDO</span><span className="node nc">QUESTÕES</span></div>
@@ -220,7 +221,7 @@ function Dashboard({ navigate, active }) {
           <PanelHeading kicker="ACESSO E STATUS" title="Continuar estudo" />
           <QuickAccess Icon={BookOpen} title="Disciplinas disponíveis" subtitle={`${activeSubjects.length} módulos integrados`} onClick={() => navigate('Disciplinas')} />
           {activeSubjects.map((subject) => <QuickAccess key={subject.id} Icon={ClipboardList} title={subject.name} subtitle={`${subject.questions.length.toLocaleString('pt-BR')} questões integradas`} onClick={() => navigate(`Q:${subject.name}`)} />)}
-          <div className="planned-summary"><Sparkles /><span><b>Próximas etapas</b><small>Flashcards, revisão e simulados seguem planejados. Biblioteca e Favoritos já estão disponíveis.</small></span></div>
+          <div className="planned-summary"><Sparkles /><span><b>Próximas etapas</b><small>Flashcards e revisão seguem planejados. Simulados, Biblioteca e Favoritos já estão disponíveis.</small></span></div>
           <button className="history-shortcut" type="button" onClick={() => navigate('Configurações')}><Download />Exportar ou restaurar histórico</button>
         </div>
       </section>
@@ -271,6 +272,7 @@ function Generic({ active, initialTarget, navigate, openSearchResult }) {
   const subject = subjectByName.get(title);
   if (subject) return <DisciplineModule subject={subject} defaultSection={isQuestionBank ? 'questions' : 'content'} initialTarget={initialTarget} />;
   if (title === 'Disciplinas') return <DisciplineCatalog navigate={navigate} />;
+  if (title === 'Simulados') return <SimuladosPage />;
   if (title === 'Biblioteca') return <LibraryPage onOpenResult={openSearchResult} />;
   if (title === 'Favoritos') return <FavoritesPage onOpenResult={openSearchResult} />;
   if (title === 'Configurações') return <HistoryTools />;

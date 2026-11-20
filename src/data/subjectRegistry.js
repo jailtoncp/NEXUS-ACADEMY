@@ -31,7 +31,6 @@ export const plannedDisciplines = [
 export const plannedStudyFeatures = [
   'Flashcards',
   'Revisão',
-  'Simulados',
 ];
 
 export const subjectByName = new Map(activeSubjects.map((subject) => [subject.name, subject]));
