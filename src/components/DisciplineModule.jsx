@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
-import { ArrowLeft, ArrowRight, ArrowUpRight, BookOpen, Check, ChevronDown, CircleHelp, Clock3, ListChecks, Maximize2, Minimize2, RotateCcw, Star } from 'lucide-react';
+import { ArrowLeft, ArrowRight, ArrowUpRight, BookOpen, Check, ChevronDown, CircleHelp, Clock3, ListChecks, Maximize2, Minimize2, RotateCcw, Star, X, ZoomIn, ZoomOut } from 'lucide-react';
 import { appendAnswerAttempt, readAnswerHistory } from '../lib/answerHistory.js';
 import { isQuestionFavorite, readFavoriteItems, toggleQuestionFavorite } from '../lib/favorites.js';
 import './discipline-module.css';
@@ -255,6 +255,10 @@ function QuestionRunner({ questions, topic, topics, subjectName, disciplineId, h
   const [startedAt, setStartedAt] = useState(Date.now());
   const [favorites, setFavorites] = useState(readFavoriteItems);
   const [favoriteError, setFavoriteError] = useState('');
+  const [zoomedImage, setZoomedImage] = useState(null);
+  const [imageZoom, setImageZoom] = useState(1);
+  const imageZoomTriggerRef = useRef(null);
+  const imageZoomCloseRef = useRef(null);
 
   useEffect(() => {
     const refresh = () => setFavorites(readFavoriteItems());
@@ -265,6 +269,22 @@ function QuestionRunner({ questions, topic, topics, subjectName, disciplineId, h
       window.removeEventListener('storage', refresh);
     };
   }, []);
+
+  useEffect(() => {
+    if (!zoomedImage) return undefined;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    imageZoomCloseRef.current?.focus();
+    const closeOnEscape = (event) => {
+      if (event.key === 'Escape') setZoomedImage(null);
+    };
+    window.addEventListener('keydown', closeOnEscape);
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      window.removeEventListener('keydown', closeOnEscape);
+      window.requestAnimationFrame(() => imageZoomTriggerRef.current?.focus());
+    };
+  }, [zoomedImage]);
 
   const answeredIds = new Set(history.filter((item) => item.discipline === disciplineId).map((item) => String(item.questionId)));
   const answeredCount = questions.filter((item) => answeredIds.has(String(item.id))).length;
@@ -306,6 +326,18 @@ function QuestionRunner({ questions, topic, topics, subjectName, disciplineId, h
     }
   }
 
+  function openImageZoom(image, event) {
+    const src = imageSrc(image);
+    if (!src) return;
+    imageZoomTriggerRef.current = event.currentTarget;
+    setImageZoom(1);
+    setZoomedImage({ src, alt: image.alt || 'Imagem do enunciado', caption: image.caption || image.alt || '' });
+  }
+
+  function adjustImageZoom(amount) {
+    setImageZoom((current) => Math.max(1, Math.min(3, Number((current + amount).toFixed(2)))));
+  }
+
   function submit() {
     if (!selected || submitted) return;
     if (onAnswer(question, selected, Date.now() - startedAt)) {
@@ -342,7 +374,22 @@ function QuestionRunner({ questions, topic, topics, subjectName, disciplineId, h
           {question.legalUpdateNote && <p role="note"><strong>Aviso de atualização legislativa:</strong> {question.legalUpdateNote}</p>}
         </aside>
       )}
-      {promptImages.length > 0 && <div className="question-figures" aria-label="Figuras e diagramas da questão">{promptImages.map((image, imageIndex) => <figure className="question-figure" key={`${image.src || image.imageIndex || imageIndex}-${imageIndex}`}><img src={imageSrc(image)} alt={image.alt || `Imagem ${imageIndex + 1} da questão`} loading="lazy" decoding="async" />{image.caption && <figcaption>{image.caption}</figcaption>}</figure>)}</div>}
+      {promptImages.length > 0 && (
+        <div className="question-figures" aria-label="Figuras e diagramas da questão">
+          {promptImages.map((image, imageIndex) => {
+            const alt = image.alt || `Imagem ${imageIndex + 1} da questão`;
+            return (
+              <figure className="question-figure" key={`${image.src || image.imageIndex || imageIndex}-${imageIndex}`}>
+                <button type="button" className="question-image-trigger" aria-haspopup="dialog" aria-label={`Ampliar imagem do enunciado para facilitar a leitura: ${alt}`} onClick={(event) => openImageZoom(image, event)}>
+                  <img src={imageSrc(image)} alt={alt} loading="lazy" decoding="async" />
+                  <span className="question-image-zoom-hint"><ZoomIn aria-hidden="true" /> Ampliar para ler</span>
+                </button>
+                {image.caption && <figcaption>{image.caption}</figcaption>}
+              </figure>
+            );
+          })}
+        </div>
+      )}
       <div className="answer-options" role="radiogroup" aria-label="Alternativas">
         {Object.entries(question.options).map(([key, text]) => {
           const isCorrect = submitted && key === question.answer;
@@ -363,6 +410,26 @@ function QuestionRunner({ questions, topic, topics, subjectName, disciplineId, h
       )}
       <div className="question-navigation"><button onClick={() => move(-1)} disabled={index === 0}><ArrowLeft /> Anterior</button><button onClick={() => move(1)} disabled={index === filteredQuestions.length - 1}>Próxima <ArrowRight /></button></div>
     </section>
+    {zoomedImage && (
+      <div className="question-image-zoom-backdrop" onClick={() => setZoomedImage(null)}>
+        <section className="question-image-zoom-dialog" role="dialog" aria-modal="true" aria-label={`Imagem ampliada: ${zoomedImage.alt}`} onClick={(event) => event.stopPropagation()}>
+          <header className="question-image-zoom-toolbar">
+            <div className="question-image-zoom-heading"><span>LEITURA DA IMAGEM</span><h2>Imagem ampliada</h2></div>
+            <div className="question-image-zoom-controls">
+              <button type="button" className="small-action" aria-label="Diminuir zoom" title="Diminuir zoom" disabled={imageZoom <= 1} onClick={() => adjustImageZoom(-0.25)}><ZoomOut /></button>
+              <span className="question-image-zoom-level" aria-live="polite">{Math.round(imageZoom * 100)}%</span>
+              <button type="button" className="small-action" aria-label="Aumentar zoom" title="Aumentar zoom" disabled={imageZoom >= 3} onClick={() => adjustImageZoom(0.25)}><ZoomIn /></button>
+              <button type="button" className="small-action" onClick={() => setImageZoom(1)}><RotateCcw /> Ajustar</button>
+              <button type="button" className="small-action" ref={imageZoomCloseRef} onClick={() => setZoomedImage(null)}><X /> Fechar</button>
+            </div>
+          </header>
+          <div className="question-image-zoom-stage">
+            <img src={zoomedImage.src} alt={zoomedImage.alt} style={{ transform: `scale(${imageZoom})` }} />
+          </div>
+          {zoomedImage.caption && <p className="question-image-zoom-caption">{zoomedImage.caption}</p>}
+        </section>
+      </div>
+    )}
     </div>
   );
 }
