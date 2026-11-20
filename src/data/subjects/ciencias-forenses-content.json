@@ -1,0 +1,329 @@
+[
+  {
+    "id": "fundamentos-pericia",
+    "order": 1,
+    "title": "Fundamentos da perícia forense",
+    "summary": "Objeto da perícia, vestígios e atuação técnico-científica com imparcialidade.",
+    "subtopics": [
+      {
+        "id": "criminalistica-objeto",
+        "order": 1,
+        "title": "Criminalística e perícia",
+        "content": "A perícia forense reúne conhecimentos técnicos e científicos para examinar fatos de interesse da Justiça. Na investigação criminal, a Criminalística se ocupa principalmente dos vestígios materiais relacionados a uma infração e pode contribuir para esclarecer a dinâmica dos fatos.\n\nO exame pericial não tem como finalidade confirmar uma suspeita prévia nem declarar alguém culpado ou inocente. Cabe ao profissional descrever o que foi observado, explicar os métodos empregados e apresentar conclusões compatíveis com os dados e com os limites do exame. A decisão sobre responsabilidade penal pertence às autoridades competentes no processo.",
+        "references": [
+          { "label": "Código de Processo Penal — arts. 158 e 159", "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm" }
+        ]
+      },
+      {
+        "id": "vestigio-interpretacao",
+        "order": 2,
+        "title": "Vestígio, observação e inferência",
+        "content": "Vestígio é um objeto ou material bruto, visível ou latente, que pode ter relação com a infração penal. Uma mancha, uma impressão, um fragmento, uma marca de ferramenta ou um projétil são exemplos possíveis, mas sua relevância ainda precisa ser examinada.\n\nÉ útil separar três momentos: localizar e registrar o elemento; submetê-lo a exame; e interpretar o resultado em conjunto com os demais dados. Um vestígio isolado raramente responde sozinho quem praticou um fato, quando ocorreu ou em que circunstâncias. Hipóteses devem ser comparadas com explicações alternativas, e incertezas relevantes precisam ser explicitadas.",
+        "references": [
+          { "label": "Código de Processo Penal — art. 158-A, § 3º", "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm" }
+        ]
+      },
+      {
+        "id": "profissionais-laudo",
+        "order": 3,
+        "title": "Profissionais e documentação pericial",
+        "content": "Na perícia criminal, o perito oficial examina os vestígios e documenta os achados em laudo. Em casos que envolvem o corpo humano, o médico-legista realiza exames médico-legais dentro de sua atribuição. As funções se complementam, mas não são intercambiáveis: o exame do local e o exame médico-legal respondem a perguntas diferentes.\n\nO laudo deve permitir que outra pessoa compreenda o que foi examinado, como o exame foi realizado e de que dados decorrem as conclusões. Assistentes técnicos podem analisar o trabalho pericial e apresentar manifestação técnica conforme as regras aplicáveis. A organização dos órgãos e os protocolos operacionais podem variar entre estados.",
+        "references": [
+          { "label": "Código de Processo Penal — arts. 159 e 160", "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "local-cadeia-custodia",
+    "order": 2,
+    "title": "Local de crime e cadeia de custódia",
+    "summary": "Segurança, isolamento, preservação, documentação e rastreabilidade dos vestígios.",
+    "subtopics": [
+      {
+        "id": "delimitacao-local",
+        "order": 1,
+        "title": "Delimitação e leitura do local",
+        "content": "O local de interesse pericial pode incluir a área em que o fato ocorreu, espaços próximos e outros pontos relacionados. As expressões local imediato, mediato e relacionado são recursos didáticos para orientar a delimitação; o perímetro deve ser definido de acordo com os vestígios possíveis e com as circunstâncias concretas.\n\nAntes de iniciar o exame, a equipe considera as informações preliminares, os riscos presentes e os recursos necessários. A inspeção deve ser planejada e registrada de modo ordenado. Uma classificação inicial da ocorrência ajuda na preparação, mas não substitui a observação direta nem deve limitar a busca a uma única hipótese.",
+        "references": [
+          { "label": "Código de Processo Penal — arts. 6º e 169", "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm" }
+        ]
+      },
+      {
+        "id": "seguranca-isolamento",
+        "order": 2,
+        "title": "Segurança, isolamento e preservação",
+        "content": "A proteção da vida e a eliminação de riscos imediatos vêm antes da preservação integral da cena. Se for necessário prestar socorro, controlar um perigo ou permitir acesso de emergência, a intervenção deve ser limitada ao necessário e, quando possível, documentada para que seus efeitos sejam avaliados depois.\n\nIsolar é restringir o acesso ao espaço relevante; preservar é reduzir alterações, perdas e contaminações dos vestígios. O primeiro agente no local deve buscar informações sobre quem entrou, proteger a área e orientar acessos. A perícia registra as condições encontradas e as mudanças que possam influenciar a interpretação.",
+        "references": [
+          { "label": "Código de Processo Penal — arts. 6º, 158-A e 169", "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm" }
+        ]
+      },
+      {
+        "id": "cadeia-de-custodia",
+        "order": 3,
+        "title": "Cadeia de custódia",
+        "content": "Cadeia de custódia é o conjunto de procedimentos que mantém e documenta a história cronológica do vestígio, permitindo rastrear sua posse e seu manuseio desde o reconhecimento até a destinação final. O CPP descreve etapas como reconhecimento, isolamento, fixação, coleta, acondicionamento, transporte, recebimento, processamento, armazenamento e descarte.\n\nNa prática, cada transferência precisa ser identificável e compatível com o protocolo aplicável. A embalagem, a identificação e a vedação devem preservar o material e permitir detectar violações. Uma etiqueta ou um lacre, por si só, não corrige coleta inadequada: integridade, documentação e método precisam funcionar em conjunto.",
+        "references": [
+          { "label": "Código de Processo Penal — arts. 158-A a 158-F", "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm" },
+          { "label": "Lei nº 13.964/2019 — Câmara dos Deputados", "url": "https://www2.camara.leg.br/legin/fed/lei/2019/lei-13964-24-dezembro-2019-789639-publicacaooriginal-159754-pl.html" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "crime-pessoa-vestigios",
+    "order": 3,
+    "title": "Crimes contra a pessoa e vestígios",
+    "summary": "Exame de corpo de delito, locais de morte e interpretação de vestígios biológicos.",
+    "subtopics": [
+      {
+        "id": "corpo-de-delito",
+        "order": 1,
+        "title": "Corpo de delito: exame direto e indireto",
+        "content": "Quando a infração deixa vestígios, o CPP prevê exame de corpo de delito, direto ou indireto; a confissão do acusado não o substitui. O exame direto observa os vestígios remanescentes. Se eles desapareceram e o exame direto se tornou impossível, o art. 167 admite que a prova testemunhal possa suprir a falta, conforme a situação concreta.\n\nA expressão corpo de delito se refere ao conjunto de elementos materiais relacionados ao fato, não apenas ao corpo de uma pessoa. A documentação cuidadosa ajuda a explicar o que foi observado e quais limitações decorreram da ausência, alteração ou degradação dos vestígios.",
+        "references": [
+          { "label": "Código de Processo Penal — arts. 158 e 167", "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm" }
+        ]
+      },
+      {
+        "id": "exame-local-morte",
+        "order": 2,
+        "title": "Exame de local com morte",
+        "content": "Em um local com cadáver, a equipe deve observar a cena como um todo e registrar posição, condições do ambiente, objetos, marcas e possíveis relações entre os achados. O exame do local e o exame médico-legal do corpo produzem informações complementares. A conclusão deve considerar também exames laboratoriais e outros elementos disponíveis.\n\nMorte natural, morte por causa externa e situação suspeita não são classificações que se devam definir apenas pela aparência inicial. Homicídio, suicídio e acidente são hipóteses que exigem análise integrada. Lesões ou objetos isolados podem ser compatíveis com mais de uma dinâmica, inclusive com alteração intencional da cena.",
+        "references": []
+      },
+      {
+        "id": "hematologia-forense",
+        "order": 3,
+        "title": "Hematologia forense e manchas hematoides",
+        "content": "Uma mancha que se parece com sangue pode ser chamada de hematoide até que seja examinada. A hematologia forense identificadora investiga a natureza da mancha e características relevantes; a vertente reconstrutora estuda padrões e sua relação possível com a dinâmica do evento.\n\nTestes de orientação servem como triagem e podem apresentar resultados não específicos. Um resultado presuntivo positivo não deve ser tratado, sozinho, como confirmação definitiva. A interpretação de formas, direções e distribuição das manchas também depende do suporte, do ambiente, de possíveis alterações e da compatibilidade com outros vestígios.",
+        "references": []
+      }
+    ]
+  },
+  {
+    "id": "medicina-legal-documentos",
+    "order": 4,
+    "title": "Medicina Legal e documentos médico-legais",
+    "summary": "Exames em pessoas vivas e cadáveres, documentação e fluxos gerais de óbito.",
+    "subtopics": [
+      {
+        "id": "medicina-legal-campo",
+        "order": 1,
+        "title": "Campo de atuação da Medicina Legal",
+        "content": "Medicina Legal aplica conhecimentos médicos e biológicos a questões de interesse jurídico. A atuação pode envolver pessoas vivas, como em exames de lesão corporal, e cadáveres, como em exames necroscópicos. O conhecimento médico-legal também auxilia a leitura de lesões e sua compatibilidade com os demais achados da cena.\n\nO exame médico-legal não deve ser confundido com uma investigação policial completa. O profissional registra elementos pertinentes à sua área e responde aos quesitos técnicos dentro dos limites do método e das informações disponíveis.",
+        "references": []
+      },
+      {
+        "id": "documentos-medico-legais",
+        "order": 2,
+        "title": "Laudo, parecer, atestado e prontuário",
+        "content": "O laudo pericial comunica o exame realizado, os achados, a discussão técnica e as conclusões. Uma sequência didática comum inclui identificação do exame, histórico ou informações recebidas, descrição, discussão e conclusão; os títulos e a organização podem variar conforme a área e as regras institucionais.\n\nParecer técnico é uma manifestação especializada sobre uma questão ou sobre um trabalho pericial. Atestado declara uma condição constatada pelo profissional dentro de sua competência; prontuário registra informações da assistência à saúde; notificação comunica situações previstas em normas próprias. Esses documentos têm finalidades distintas e não devem ser tratados como equivalentes.\n\nQuando uma infração deixa vestígios, o art. 158 do CPP prevê exame de corpo de delito direto ou indireto e impede que a confissão o substitua. Se os vestígios desapareceram e o exame não puder ser realizado, o art. 167 admite que a prova testemunhal possa suprir sua falta, conforme o caso.",
+        "references": [
+          { "label": "Código de Processo Penal — arts. 158 e 167", "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm" }
+        ]
+      },
+      {
+        "id": "svo-iml-declaracao",
+        "order": 3,
+        "title": "SVO, IML e Declaração de Óbito",
+        "content": "Em termos gerais, o Serviço de Verificação de Óbito (SVO) atua na investigação de causas naturais não esclarecidas, enquanto o Instituto Médico-Legal (IML), ou serviço médico-legal equivalente, atende óbitos por causas externas ou suspeitas. O fluxo concreto depende da estrutura e das normas locais; nomenclaturas como ML ou DML também podem ser usadas.\n\nA Declaração de Óbito é um documento médico para registrar o óbito e suas causas segundo as regras sanitárias. Ela não é sinônimo de laudo necroscópico nem de certidão de óbito. A emissão e o encaminhamento devem seguir a situação do caso e o fluxo institucional local.",
+        "truthTable": {
+          "caption": "Distinção didática — o fluxo oficial deve ser confirmado localmente",
+          "ariaLabel": "Comparação entre SVO e IML",
+          "columns": ["Serviço", "Situação típica", "Cuidado"],
+          "rows": [
+            ["SVO", "Causa natural sem esclarecimento suficiente", "Não é serviço de investigação de causa externa"],
+            ["IML ou serviço médico-legal", "Causa externa, violenta ou suspeita", "A estrutura e a nomenclatura variam por localidade"]
+          ]
+        },
+        "references": [
+          { "label": "Ministério da Saúde — Manual de instruções para preenchimento da Declaração de Óbito", "url": "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/vigilancia/declaracao-de-obito-manual-de-instrucoes-para-preenchimento.pdf/view" },
+          { "label": "Polícia Científica de Santa Catarina — SVO x DML, exemplo de fluxo local", "url": "https://www.saude.sc.gov.br/index.php/pt/servicos/verificacao-de-obitos/svo-x-iml" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "traumatologia",
+    "order": 5,
+    "title": "Traumatologia forense",
+    "summary": "Mecanismos de lesão, feridas, lesões por arma de fogo e asfixias mecânicas.",
+    "subtopics": [
+      {
+        "id": "energia-instrumentos",
+        "order": 1,
+        "title": "Energia e mecanismo de ação",
+        "content": "A traumatologia forense estuda lesões e os mecanismos que podem produzi-las. A classificação considera principalmente a forma de ação e a energia transferida, não apenas o nome ou a aparência do objeto. Um mesmo instrumento pode produzir marcas diferentes conforme o modo de uso, a região atingida e as condições do contato.\n\nComo esquema didático, instrumentos cortantes tendem a produzir feridas incisas; os perfurantes, lesões punctórias; os contundentes, lesões contusas; e ações combinadas podem produzir lesões perfurocortantes, perfurocontusas ou cortocontusas. A descrição morfológica não identifica automaticamente um objeto específico.",
+        "truthTable": {
+          "caption": "Relação didática entre ação predominante e lesão",
+          "ariaLabel": "Tabela de mecanismos de ação e lesões",
+          "columns": ["Ação predominante", "Lesão associada", "Exemplo didático"],
+          "rows": [
+            ["Cortar", "Incisa", "Lâmina em movimento"],
+            ["Perfurar", "Punctória", "Ponta estreita"],
+            ["Perfurar e contundir", "Perfurocontusa", "Projétil de arma de fogo"],
+            ["Cortar e contundir", "Cortocontusa", "Instrumento pesado com gume"]
+          ]
+        },
+        "references": []
+      },
+      {
+        "id": "lesoes-contusas",
+        "order": 2,
+        "title": "Lesões contusas",
+        "content": "A ação contundente pode gerar alterações distintas. Rubefação é uma vermelhidão transitória; escoriação envolve abrasão superficial; equimose corresponde a sangue infiltrado nos tecidos; hematoma é uma coleção localizada de sangue; e uma ferida contusa pode ocorrer quando a força rompe os tecidos.\n\nEssas categorias descrevem aspectos observáveis, mas não funcionam como relógio preciso da lesão. Cor, extensão e evolução dependem de fatores individuais e contextuais. A avaliação médico-legal deve registrar a localização e as características e evitar conclusões que os achados, sozinhos, não sustentem.",
+        "references": []
+      },
+      {
+        "id": "lesoes-arma-fogo",
+        "order": 3,
+        "title": "Lesões por projétil de arma de fogo",
+        "content": "Lesões por projétil costumam ser classificadas como perfurocontusas. A descrição de feridas de entrada e de saída pode considerar bordas, orlas e outros sinais, mas os padrões são tendências, não regras infalíveis. Região anatômica, ângulo, características do projétil e condições do disparo influenciam a aparência.\n\nSinais associados a resíduos, calor ou contato da boca da arma podem auxiliar a estimativa de distância em contextos específicos. A ausência ou presença de um sinal não deve ser interpretada isoladamente. O diâmetro de uma ferida não permite determinar, por si só, o calibre ou o modelo da arma.",
+        "references": []
+      },
+      {
+        "id": "asfixias-mecanicas",
+        "order": 4,
+        "title": "Asfixias mecânicas: distinções gerais",
+        "content": "Enforcamento, estrangulamento e esganadura envolvem mecanismos diferentes de constrição do pescoço. No enforcamento, a força constritiva decorre principalmente do peso do corpo ou de parte dele; no estrangulamento, a constrição por laço é produzida por força externa; na esganadura, há compressão manual.\n\nAspectos como direção do sulco e presença de lesões podem orientar a análise, mas não definem o mecanismo sem avaliação do conjunto. A interpretação médico-legal considera o corpo, o local, os exames complementares e as circunstâncias documentadas.",
+        "references": []
+      }
+    ]
+  },
+  {
+    "id": "tanatologia",
+    "order": 6,
+    "title": "Tanatologia forense",
+    "summary": "Fenômenos cadavéricos e transformações após a morte, com atenção às incertezas temporais.",
+    "subtopics": [
+      {
+        "id": "fenomenos-cadavericos",
+        "order": 1,
+        "title": "Fenômenos cadavéricos",
+        "content": "A Tanatologia Forense estuda fenômenos relacionados à morte e às transformações do cadáver. Entre os fenômenos consecutivos estão o resfriamento cadavérico, os livores de hipóstase e a rigidez cadavérica. Cada um pode fornecer informação, mas sua observação depende das condições ambientais, do intervalo decorrido e das características do corpo.\n\nA interpretação médico-legal deve considerar mais de um indicador e reconhecer suas limitações. Um sinal cadavérico isolado não permite fixar com exatidão o horário da morte.",
+        "references": []
+      },
+      {
+        "id": "putrefacao-intervalo",
+        "order": 2,
+        "title": "Putrefação e estimativa do intervalo",
+        "content": "Uma sequência didática descreve a putrefação em fases cromática, gasosa, coliquativa e de esqueletização. Essas etapas representam transformações progressivas, mas não ocorrem em um ritmo universal. Temperatura, umidade, ventilação, acesso de insetos, vestimentas e local de deposição podem alterar sua evolução.\n\nPor isso, fases e sinais de decomposição auxiliam a avaliação, mas não devem ser usados como cronômetro exato. A estimativa do intervalo post mortem deve ser expressa com cautela e compatibilizada com outros dados do caso.",
+        "references": []
+      }
+    ]
+  },
+  {
+    "id": "papiloscopia",
+    "order": 7,
+    "title": "Papiloscopia e identificação humana",
+    "summary": "Impressões papilares, classificação, comparação e limites de interpretação.",
+    "subtopics": [
+      {
+        "id": "conceitos-papiloscopia",
+        "order": 1,
+        "title": "Identidade, identificação e papiloscopia",
+        "content": "Identidade é o conjunto de características que individualiza uma pessoa; identificação é o processo usado para estabelecê-la. Papiloscopia estuda desenhos e impressões papilares. Datiloscopia é a área voltada às impressões dos dedos; quiroscopia e podoscopia se referem, respectivamente, às palmas das mãos e às plantas dos pés.\n\nPerenidade, estabilidade do desenho ao longo da vida e variabilidade entre pessoas são propriedades clássicas ensinadas para explicar o valor identificador das impressões. Elas não dispensam coleta adequada, qualidade suficiente, análise técnica e verificação conforme o procedimento aplicável.",
+        "references": [
+          { "label": "Ministério da Justiça e Segurança Pública — POPs de Perícia Criminal 2024, Papiloscopia", "url": "https://www.gov.br/mj/pt-br/assuntos/sua-seguranca/seguranca-publica/analise-e-pesquisa/pop/pops-pericia-criminal-2024-papiloscopia-vol-8-pdf-1.pdf" }
+        ]
+      },
+      {
+        "id": "tipos-impressoes",
+        "order": 2,
+        "title": "Tipos de impressão e desenhos digitais",
+        "content": "Uma impressão visível pode ser percebida diretamente; uma impressão latente não é facilmente vista sem recursos de exame; uma impressão moldada reproduz o desenho em relevo ou depressão sobre material deformável. A classificação ajuda a descrever o vestígio e escolher procedimentos compatíveis com o suporte.\n\nNa classificação didática tradicional dos desenhos digitais são apresentados arco, presilha e verticilo. Terminação e bifurcação são exemplos de minúcias. A análise técnica não consiste apenas em observar que duas imagens se parecem: considera qualidade, correspondências, localização, orientação e eventuais incompatibilidades.",
+        "truthTable": {
+          "caption": "Classificação didática de impressões papilares",
+          "ariaLabel": "Tipos de impressão papilar",
+          "columns": ["Tipo", "Como reconhecer em linhas gerais", "Exemplo"],
+          "rows": [
+            ["Visível ou patente", "Perceptível sem revelação específica", "Marca de dedo contaminada por substância colorida"],
+            ["Latente", "Não facilmente perceptível a olho nu", "Resíduo de contato em superfície lisa"],
+            ["Moldada ou plástica", "Reprodução tridimensional em suporte deformável", "Impressão em cera ou material semelhante"]
+          ]
+        },
+        "references": [
+          { "label": "Ministério da Justiça e Segurança Pública — POP 8.02, levantamento em local de crime", "url": "https://www.gov.br/mj/pt-br/assuntos/sua-seguranca/seguranca-publica/analise-e-pesquisa/pop/pops-pericia-criminal-2024-papiloscopia-vol-8-pdf-1.pdf" }
+        ]
+      },
+      {
+        "id": "comparacao-papiloscopica",
+        "order": 3,
+        "title": "Busca, comparação e interpretação do vestígio",
+        "content": "Em local de crime, a equipe planeja a busca, registra as condições, documenta a impressão e a submete a procedimentos de análise e comparação previstos no protocolo. O POP nacional de papiloscopia inclui impressões latentes, visíveis e moldadas e destaca a qualidade dos fragmentos e a cadeia de custódia.\n\nEncontrar uma impressão em um objeto demonstra uma possível relação de contato com aquela superfície, não prova automaticamente a prática do delito. A interpretação depende de onde a impressão estava, de quando o contato pode ter ocorrido, da qualidade do vestígio e dos demais elementos da investigação. Identificação humana também pode usar métodos distintos, como DNA e odontologia, que analisam outros tipos de características.",
+        "references": [
+          { "label": "Ministério da Justiça e Segurança Pública — POPs de Perícia Criminal 2024, Papiloscopia", "url": "https://www.gov.br/mj/pt-br/assuntos/sua-seguranca/seguranca-publica/analise-e-pesquisa/pop/pops-pericia-criminal-2024-papiloscopia-vol-8-pdf-1.pdf" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "balistica-forense",
+    "order": 8,
+    "title": "Balística Forense",
+    "summary": "Armas, munições, dinâmica do disparo, trajetórias e confronto de vestígios.",
+    "subtopics": [
+      {
+        "id": "ramos-balistica",
+        "order": 1,
+        "title": "Ramos da Balística Forense",
+        "content": "Balística Forense estuda armas de fogo, munições e efeitos de disparos em situações de interesse jurídico. A balística interna trata do funcionamento da arma e dos fenômenos até a saída do projétil; a externa estuda o deslocamento do projétil após deixar o cano; a terminal ou dos efeitos examina o impacto e seus efeitos no alvo.\n\nOs ramos organizam perguntas diferentes. A interpretação de um caso pode exigir exame da arma, da munição, de projéteis, estojos, impactos e lesões, sempre com documentação e métodos compatíveis com o vestígio.",
+        "truthTable": {
+          "caption": "Ramos da Balística Forense",
+          "ariaLabel": "Comparação dos ramos da balística",
+          "columns": ["Ramo", "Foco de estudo", "Marco geral"],
+          "rows": [
+            ["Interna", "Funcionamento da arma e eventos no disparo", "Até a saída do projétil pelo cano"],
+            ["Externa", "Deslocamento e trajetória do projétil", "Do cano ao impacto"],
+            ["Terminal ou dos efeitos", "Interação do projétil com o alvo", "No impacto e seus efeitos"]
+          ]
+        },
+        "references": []
+      },
+      {
+        "id": "arma-municao-vestigios",
+        "order": 2,
+        "title": "Armas, munições e vestígios",
+        "content": "Uma arma de fogo e sua munição podem produzir diferentes vestígios: projéteis ou fragmentos, estojos, marcas de impacto e resíduos associados ao disparo. A localização e a documentação desses elementos podem contribuir para comparar relatos e avaliar hipóteses sobre a dinâmica.\n\nA coleta deve respeitar segurança, identificação e cadeia de custódia. Não se deve manipular arma ou munição sem competência, treinamento e protocolo institucional. Na análise didática, diferencie munição intacta, estojo deflagrado e projétil; são elementos distintos e podem responder a perguntas periciais diferentes.",
+        "references": []
+      },
+      {
+        "id": "confronto-trajetoria",
+        "order": 3,
+        "title": "Confronto balístico e reconstrução",
+        "content": "O confronto balístico busca avaliar compatibilidades entre vestígios e uma arma examinada, usando marcas produzidas no processo de disparo e métodos de comparação. A força de uma conclusão depende da qualidade do material, dos critérios empregados e da possibilidade de verificação. Um resultado não deve ser apresentado com certeza maior do que a técnica permite.\n\nImpactos, ângulos e posições relativas podem ajudar a formular uma trajetória provável, mas alterações no ambiente, ricochetes, deslocamento de objetos e limitações de documentação afetam a reconstrução. Trajetória de projétil não equivale, automaticamente, à posição exata de uma pessoa nem à autoria do disparo.",
+        "references": []
+      }
+    ]
+  },
+  {
+    "id": "pericia-veiculos",
+    "order": 9,
+    "title": "Perícia em veículos",
+    "summary": "Sinais identificadores, suspeitas de adulteração e busca de vestígios em ocorrências com veículos.",
+    "subtopics": [
+      {
+        "id": "sinais-identificadores",
+        "order": 1,
+        "title": "Sinais identificadores veiculares",
+        "content": "A identificação pericial de um veículo considera sinais gravados ou fixados em diferentes componentes, como a numeração de identificação veicular, gravações de motor e placas, conforme o modelo e as regras aplicáveis. A placa é apenas um dos elementos e pode ser substituída ou adulterada.\n\nA leitura precisa ser confrontada com dados de referência compatíveis com marca, modelo, ano e especificação do veículo. A análise da posição, do padrão de gravação e das condições do suporte pode revelar inconsistências que justificam exames adicionais.",
+        "references": []
+      },
+      {
+        "id": "adulteracao-identificadores",
+        "order": 2,
+        "title": "Adulteração e exame dos sinais",
+        "content": "Sinais identificadores podem ser removidos, sobrepostos ou modificados. O exame considera características do suporte e da gravação e, quando tecnicamente cabível, pode buscar marcas latentes que persistam no material. Procedimentos de revelação dependem de profissionais habilitados, protocolos laboratoriais e condições específicas do componente.\n\nUma alteração aparente deve ser descrita e documentada antes de qualquer intervenção. A conclusão deve distinguir o que foi observado, o que pôde ser recuperado e o que permaneceu inconclusivo. A presença de adulteração em um sinal não determina, isoladamente, a origem criminosa do veículo ou a identidade de quem a realizou.",
+        "references": []
+      },
+      {
+        "id": "locais-e-vestigios-veiculo",
+        "order": 3,
+        "title": "Locais de subtração e localização do veículo",
+        "content": "Em ocorrências de furto ou roubo de veículo, o ponto de onde o bem foi retirado e o local em que ele foi encontrado podem conter vestígios complementares. No primeiro podem existir marcas de ferramenta ou sinais de acesso; no segundo, impressões, material biológico, objetos abandonados ou alterações no veículo.\n\nA busca deve priorizar a preservação e a documentação de cada local. Impressões digitais, vestígios biológicos e marcas de ferramenta não são automaticamente atribuíveis a um suspeito: é preciso verificar qualidade, contexto, cadeia de custódia e explicações alternativas.",
+        "references": []
+      }
+    ]
+  }
+]
