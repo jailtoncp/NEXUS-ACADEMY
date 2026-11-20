@@ -1,0 +1,558 @@
+[
+  {
+    "id": "fundamentos-organizacao-administrativa",
+    "order": 1,
+    "title": "Fundamentos e organização administrativa",
+    "summary": "Fontes e regime administrativo, estrutura direta e indireta e formas de distribuir a execução das atividades públicas.",
+    "subtopics": [
+      {
+        "id": "fontes-e-regime-administrativo",
+        "order": 1,
+        "title": "Fontes e regime jurídico administrativo",
+        "content": "A Constituição e as leis formam referências centrais para a atuação administrativa. Regulamentos e atos normativos administrativos devem respeitar as normas superiores; jurisprudência e doutrina contribuem para interpretar e sistematizar o direito, sem substituir a Constituição ou criar autorização para contrariar a lei. O art. 37, caput, da Constituição dirige seus princípios à Administração direta e indireta de todos os Poderes e entes federativos.\n\n“Regime jurídico administrativo” é uma expressão de síntese doutrinária para o conjunto de prerrogativas e sujeições que orienta a atividade administrativa em busca de fins públicos. Não é uma definição literal única do art. 37. Entidades de direito privado integrantes da Administração indireta também se submetem aos deveres constitucionais pertinentes, embora seu regime específico dependa da entidade e da atividade.",
+        "references": [
+          {
+            "label": "Constituição Federal — art. 37 e art. 173, § 1º",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+          },
+          {
+            "label": "Decreto-Lei nº 200/1967 — organização da Administração Federal",
+            "url": "https://www2.camara.leg.br/legin/fed/declei/1960-1969/decreto-lei-200-25-fevereiro-1967-376033-normaatualizada-pe.html"
+          },
+          {
+            "label": "Lei nº 13.303/2016 — estatuto das empresas estatais",
+            "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13303.htm"
+          }
+        ]
+      },
+      {
+        "id": "administracao-direta-e-indireta",
+        "order": 2,
+        "title": "Administração direta e indireta",
+        "content": "Na organização federal, o Decreto-Lei nº 200/1967 descreve a Administração Direta como os serviços integrados à estrutura da Presidência da República e dos Ministérios. A Administração Indireta reúne entidades com personalidade jurídica própria, como autarquias, empresas públicas, sociedades de economia mista e fundações públicas. Esse enquadramento do Decreto-Lei nº 200 é federal e não deve ser transposto automaticamente como regra de organização para estados e municípios.\n\nA Constituição prevê criação de autarquia por lei específica e autorização legal para instituir empresa pública, sociedade de economia mista e fundação, observada, para esta última, a disciplina constitucional sobre áreas de atuação. A natureza jurídica de fundações estatais não deve ser presumida uniforme: segundo o STF, sua qualificação depende do estatuto de criação ou autorização e das atividades. Empresas públicas e sociedades de economia mista têm personalidade de direito privado, mas diferem, entre outros aspectos, pela composição do capital e pela forma societária.",
+        "references": [
+          {
+            "label": "Constituição Federal — arts. 37, XIX e XX, e 173",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+          },
+          {
+            "label": "Decreto-Lei nº 200/1967 — arts. 4º e 5º",
+            "url": "https://www2.camara.leg.br/legin/fed/declei/1960-1969/decreto-lei-200-25-fevereiro-1967-376033-normaatualizada-pe.html"
+          },
+          {
+            "label": "STF — Tema 545, RE 716.378",
+            "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=4312969&numeroProcesso=716378&classeProcesso=RE&numeroTema=545"
+          }
+        ]
+      },
+      {
+        "id": "descentralizacao-e-desconcentracao",
+        "order": 3,
+        "title": "Descentralização e desconcentração",
+        "content": "Na sistematização doutrinária, desconcentração é a distribuição interna de competências entre órgãos de uma mesma pessoa jurídica. Como os órgãos não ganham personalidade jurídica própria por essa divisão, a atuação continua imputada à pessoa jurídica a que pertencem. A criação de órgãos e a repartição interna de tarefas devem respeitar a Constituição e as normas de organização aplicáveis ao ente.\n\nDescentralização, em sentido didático, envolve atribuir a execução de atividade a outra pessoa, por exemplo, a entidade administrativa criada ou autorizada em lei. A descentralização não se confunde com desconcentração, nem significa necessariamente que o Estado tenha transferido a titularidade de um serviço público: nas concessões e permissões, por exemplo, a execução pode ser delegada sem transferência da titularidade. O enquadramento concreto depende do instrumento e da legislação aplicável.",
+        "references": [
+          {
+            "label": "Decreto-Lei nº 200/1967 — organização da Administração Federal",
+            "url": "https://www2.camara.leg.br/legin/fed/declei/1960-1969/decreto-lei-200-25-fevereiro-1967-376033-normaatualizada-pe.html"
+          },
+          {
+            "label": "Constituição Federal — arts. 37, XIX e XX, e 175",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+          },
+          {
+            "label": "Lei nº 8.987/1995 — concessão e permissão de serviços públicos",
+            "url": "https://anttlegis.antt.gov.br/action/ActionDatalegis.php?acao=detalharAto&tipo=LEI&numeroAto=00008987&seqAto=000&valorAno=1995&orgao=NI&nomeTitulo=codigos&desItem=&desItemFim=&cod_modulo=420&cod_menu=7145"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "principios-administrativos",
+    "order": 2,
+    "title": "Princípios administrativos",
+    "summary": "Princípios constitucionais expressos, critérios da Lei 9.784/1999 no processo federal, motivação e segurança jurídica.",
+    "subtopics": [
+      {
+        "id": "limpe-e-principios-constitucionais",
+        "order": 1,
+        "title": "LIMPE e princípios constitucionais",
+        "content": "O art. 37, caput, da Constituição explicita legalidade, impessoalidade, moralidade, publicidade e eficiência, conjunto lembrado pela sigla LIMPE. A regra alcança a Administração direta e indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios. A legalidade submete a atuação administrativa à ordem jurídica; impessoalidade, moralidade, publicidade e eficiência também orientam a finalidade e a forma de agir.\n\nO rol constitucional expresso não é idêntico às listas de leis específicas. A Lei 9.784/1999, por exemplo, contém princípios e critérios adicionais para o processo administrativo federal, sem substituir o texto constitucional nem transformar sua própria lista em rol fechado. Em qualquer aplicação, princípios devem ser usados com fundamento e ponderação compatíveis com as normas e circunstâncias concretas.",
+        "references": [
+          {
+            "label": "Constituição Federal — art. 37, caput",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+          },
+          {
+            "label": "Lei nº 9.784/1999 — arts. 1º e 2º",
+            "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-publicacaooriginal-1-pl.html"
+          }
+        ]
+      },
+      {
+        "id": "principios-da-lei-9784-processo-federal",
+        "order": 2,
+        "title": "Princípios da Lei 9.784/1999 no âmbito federal",
+        "content": "A Lei 9.784/1999 regula o processo administrativo no âmbito da Administração Federal direta e indireta e também se aplica aos órgãos dos Poderes Legislativo e Judiciário da União quando desempenham função administrativa. O art. 2º menciona, entre outros, legalidade, finalidade, motivação, razoabilidade, proporcionalidade, moralidade, ampla defesa, contraditório, segurança jurídica, interesse público e eficiência.\n\nEsse diploma federal não deve ser apresentado como estatuto geral de processo administrativo para estados e municípios. Outros entes podem ter legislação própria, sem prejuízo das garantias constitucionais aplicáveis. A lei também indica critérios concretos, como objetividade no atendimento ao interesse geral, vedação à promoção pessoal e respeito aos direitos e garantias dos administrados.",
+        "references": [
+          {
+            "label": "Lei nº 9.784/1999 — arts. 1º e 2º",
+            "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-publicacaooriginal-1-pl.html"
+          },
+          {
+            "label": "Constituição Federal — arts. 5º, LV, e 37",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+          }
+        ]
+      },
+      {
+        "id": "motivacao-proporcionalidade-seguranca-juridica",
+        "order": 3,
+        "title": "Motivação, proporcionalidade e segurança jurídica",
+        "content": "A motivação deve indicar os fatos e fundamentos jurídicos nas hipóteses previstas no art. 50 da Lei 9.784/1999, como decisões que afetem direitos, imponham sanções ou decidam recursos e atos de anulação ou revogação. A lei exige motivação explícita, clara e congruente; é possível adotar fundamentos de pareceres ou decisões anteriores, desde que incorporados à decisão. A disciplina citada rege o processo federal.\n\nNo mesmo âmbito, proporcionalidade exige adequação entre meios e fins e veda impor obrigações, restrições ou sanções além do necessário ao interesse público. A segurança jurídica também se concretiza na decadência de cinco anos para anular atos federais favoráveis, salvo má-fé comprovada. Regras específicas, como o prazo fixado pelo STF para julgamento de concessões iniciais de aposentadoria, reforma ou pensão pelos Tribunais de Contas, têm objeto próprio e não devem ser confundidas com aplicação indistinta do art. 54.",
+        "references": [
+          {
+            "label": "Lei nº 9.784/1999 — arts. 2º, 50 e 54",
+            "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-publicacaooriginal-1-pl.html"
+          },
+          {
+            "label": "STF — Tema 445 da repercussão geral",
+            "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=4043019&numeroProcesso=636553&classeProcesso=RE&numeroTema=445"
+          },
+          {
+            "label": "STF — Súmula Vinculante 3",
+            "url": "https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26&sumula=1191"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "poderes-administrativos",
+    "order": 3,
+    "title": "Poderes administrativos",
+    "summary": "Competências administrativas vinculadas e discricionárias, hierarquia, disciplina, regulamentação e polícia, com limites contra abuso.",
+    "subtopics": [
+      {
+        "id": "vinculacao-discricionariedade-abuso",
+        "order": 1,
+        "title": "Atuação vinculada, discricionariedade e abuso",
+        "content": "Em atuação vinculada, a lei predetermina a providência quando os pressupostos normativos se verificam. Na discricionária, a lei permite uma margem de avaliação ou escolha, dentro dos limites legais e constitucionais; discricionariedade não significa arbitrariedade. Competência, finalidade, forma exigida, motivos juridicamente relevantes, motivação cabível e respeito aos direitos permanecem sujeitos a controle.\n\nA doutrina chama de excesso de poder a atuação além da competência e de desvio de finalidade o uso da competência para fim diverso do previsto juridicamente. O controle judicial pode examinar legalidade e reconhecer desvio, mas não substitui automaticamente uma escolha administrativa legítima por preferência própria. Esses rótulos são categorias didáticas; a análise depende do ato e das normas que conferem a competência.",
+        "references": [
+          {
+            "label": "Constituição Federal — arts. 5º, II, e 37",
+            "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+          },
+          {
+            "label": "Lei nº 9.784/1999 — arts. 2º e 50",
+            "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-publicacaooriginal-1-pl.html"
+          },
+          {
+            "label": "STF — ADPF 964/DF",
+            "url": "https://jurisprudencia.stf.jus.br/pages/search/sjur484731/false"
+          }
+        ]
+      },
+      {
+        "id": "hierarquico-disciplinar-regulamentar",
+        "order": 2,
+        "title": "Poderes hierárquico, disciplinar e regulamentar",
+        "content": "O poder hierárquico organiza funções e relações internas nos limites da lei. No processo federal, a Lei 9.784/1999 permite delegar parte de competências, inclusive a órgão ou titular não subordinado, salvo impedimento; não se delegam, entre outros casos, atos normativos, decisão de recursos e matérias de competência exclusiva. A avocação é excepcional, temporária e justificada, sobre competência de órgão hierarquicamente inferior.\n\nO poder disciplinar permite apurar infrações e aplicar sanções administrativas quando houver base normativa e observância do procedimento devido, inclusive contraditório e ampla defesa conforme o caso. O poder regulamentar, por sua vez, viabiliza a fiel execução da lei; decretos não podem contrariá-la nem inovar livremente em matéria reservada à lei. As competências presidenciais de decretos autônomos são restritas às hipóteses delimitadas no art. 84, VI, da Constituição.",
+        "references": [
+          {
+            "label": "Lei nº 9.784/1999 — arts. 11 a 15 e 2º",
+            "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-publicacaooriginal-1-pl.html"
+          },
+          {
+            "label": "Constituição Federal — art. 84, IV e VI",
+            "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+          }
+        ]
+      },
+      {
+        "id": "policia-administrativa-e-limites",
+        "order": 3,
+        "title": "Poder de polícia e limites do exercício",
+        "content": "O art. 78 do Código Tributário Nacional define poder de polícia como atividade administrativa que limita ou disciplina direitos, interesses ou liberdades em razão de interesse público, nos campos ali indicados. A atuação deve ocorrer por órgão competente, dentro dos limites da lei aplicável e com observância do devido processo legal. A definição legal não autoriza restrições sem fundamento jurídico.\n\nComo os demais poderes, o poder de polícia tem finalidade instrumental e não é ilimitado. Abuso ou desvio podem comprometer a validade da atuação e gerar consequências próprias. Em medidas que afetem direitos, a autoridade deve observar as garantias aplicáveis, justificar a providência quando exigido e manter relação adequada entre os meios adotados e a finalidade legal.",
+        "references": [
+          {
+            "label": "Código Tributário Nacional — art. 78, Senado Federal",
+            "url": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/531492/codigo_tributario_nacional_3ed.pdf"
+          },
+          {
+            "label": "Constituição Federal — arts. 5º, LIV e LV, e 37",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+          },
+          {
+            "label": "Lei nº 9.784/1999 — art. 2º, no processo federal",
+            "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-publicacaooriginal-1-pl.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "atos-administrativos",
+    "order": 4,
+    "title": "Atos administrativos",
+    "summary": "Elementos, atributos e classificações em chave doutrinária, além de anulação e convalidação no processo administrativo federal.",
+    "subtopics": [
+      {
+        "id": "elementos-ato-administrativo",
+        "order": 1,
+        "title": "Elementos do ato administrativo: sistematização doutrinária",
+        "content": "Uma sistematização doutrinária tradicional identifica competência, finalidade, forma, motivo e objeto como elementos do ato administrativo. Esse conjunto é uma ferramenta de estudo e não um rol literal enunciado pelos arts. 53 a 55 da Lei 9.784/1999. A lei, contudo, exige atuação conforme a lei e o Direito, finalidade pública, formalidades essenciais e indicação dos pressupostos de fato e de direito das decisões.\n\nA análise desses elementos ajuda a localizar possíveis ilegalidades: quem podia agir, para qual finalidade, por qual forma, com base em quais fatos e com qual conteúdo. A motivação é obrigatória nas hipóteses do art. 50 da Lei 9.784, incluindo atos que afetem direitos e aqueles que anulem, revoguem, suspendam ou convalidem atos. O alcance procedimental dessa lei é federal.",
+        "references": [
+          {
+            "label": "Lei nº 9.784/1999 — arts. 2º e 50",
+            "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-publicacaooriginal-1-pl.html"
+          },
+          {
+            "label": "Constituição Federal — arts. 5º, XXXV e LV, e 37",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+          }
+        ]
+      },
+      {
+        "id": "atributos-classificacoes-doutrinarias",
+        "order": 2,
+        "title": "Atributos e classificações: categorias doutrinárias",
+        "content": "A doutrina tradicional costuma estudar presunção de legitimidade ou veracidade, imperatividade, autoexecutoriedade e tipicidade como atributos. Essa lista não está codificada como conjunto legal uniforme, e nem todo atributo aparece em todo ato: por exemplo, nem todo ato impõe obrigação, e a execução material direta depende de fundamento jurídico ou de situação admitida.\n\nTambém são classificações didáticas, com variações entre autores, as distinções entre atos vinculados e discricionários, gerais e individuais, internos e externos, normativos, ordinatórios, negociais, enunciativos e punitivos. Tais rótulos ajudam a compreender função e efeitos, mas não devem ser apresentados como taxonomia fechada da Lei 9.784. A legalidade e a possibilidade de controle continuam aplicáveis conforme o caso.",
+        "references": [
+          {
+            "label": "Lei nº 9.784/1999 — arts. 2º e 50",
+            "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-publicacaooriginal-1-pl.html"
+          },
+          {
+            "label": "Constituição Federal — arts. 5º, XXXV, e 37",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+          },
+          {
+            "label": "STF — Súmula 473",
+            "url": "https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=1602"
+          }
+        ]
+      },
+      {
+        "id": "anulacao-e-convalidacao",
+        "order": 3,
+        "title": "Anulação e convalidação",
+        "content": "A Administração deve anular atos com vício de legalidade e pode convalidar defeitos sanáveis quando a decisão não causar lesão ao interesse público nem prejuízo a terceiros, conforme os arts. 53 e 55 da Lei 9.784/1999. A lei não enumera, no art. 55, uma lista fechada de defeitos sanáveis; exemplos como certos vícios de competência não exclusiva ou de forma não essencial são discutidos pela doutrina e dependem do caso.\n\nNo âmbito federal, o direito de anular ato favorável decai em cinco anos desde sua prática, salvo má-fé comprovada, com regra própria para efeitos patrimoniais contínuos. Atos que anulem ou convalidem devem ser motivados nas hipóteses legais. Se o desfazimento atingir efeitos concretos na esfera do interessado, o STF exige processo administrativo regular com as garantias pertinentes; a via administrativa não exclui apreciação judicial.",
+        "references": [
+          {
+            "label": "Lei nº 9.784/1999 — arts. 50 e 53 a 55",
+            "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-publicacaooriginal-1-pl.html"
+          },
+          {
+            "label": "STF — Tema 138 da repercussão geral",
+            "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=138"
+          },
+          {
+            "label": "STF — Súmula 473",
+            "url": "https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=1602"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "extincao-atos-administrativos",
+    "order": 5,
+    "title": "Extinção dos atos administrativos",
+    "summary": "Distinção entre anulação e revogação e apresentação cautelosa de cassação, caducidade e contraposição como categorias doutrinárias.",
+    "subtopics": [
+      {
+        "id": "anulacao-versus-revogacao",
+        "order": 1,
+        "title": "Anulação e revogação: fundamentos distintos",
+        "content": "A anulação decorre de ilegalidade: no âmbito federal, o art. 53 da Lei 9.784/1999 determina que a Administração anule seus atos com vício de legalidade. A revogação recai sobre ato válido que deixa de ser conveniente ou oportuno para a Administração, respeitados os direitos adquiridos. Portanto, não são sinônimos: uma reage a vício jurídico; a outra corresponde a juízo de mérito administrativo dentro da lei.\n\nA doutrina costuma descrever a anulação como retroativa (*ex tunc*) e a revogação como prospectiva (*ex nunc*), mas esses rótulos não são a redação dos arts. 53 a 55 e sua aplicação depende do contexto e da proteção de situações jurídicas. A Súmula 473 do STF reconhece autotutela e preserva a apreciação judicial. A Lei 9.784/1999, inclusive seus prazos, refere-se ao processo administrativo federal.",
+        "references": [
+          {
+            "label": "Lei nº 9.784/1999 — arts. 53 e 54",
+            "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-publicacaooriginal-1-pl.html"
+          },
+          {
+            "label": "STF — Súmula 473",
+            "url": "https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=1602"
+          }
+        ]
+      },
+      {
+        "id": "cassacao-caducidade",
+        "order": 2,
+        "title": "Cassação e caducidade: categorias doutrinárias",
+        "content": "Cassação não é sinônimo de revogação. Na classificação doutrinária, cassação designa a retirada de ato cujo beneficiário deixou de cumprir condição ou requisito que deveria continuar observando; não se trata simplesmente de mudar a avaliação de conveniência sobre um ato válido. A Lei 9.784/1999 não cria, nos arts. 53 a 55, uma definição geral de cassação, e normas setoriais podem disciplinar situações específicas.\n\nCaducidade é usada por parte da doutrina para descrever a incompatibilidade superveniente de um ato com nova norma. O termo também pode receber significado próprio em leis setoriais, razão pela qual não se deve importar um sentido único sem examinar o regime. Em qualquer desfazimento com impacto sobre direitos ou caráter sancionatório, devem ser observadas competência, motivação e garantias procedimentais pertinentes.",
+        "references": [
+          {
+            "label": "Lei nº 9.784/1999 — arts. 2º, 50 e 53 a 55",
+            "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-publicacaooriginal-1-pl.html"
+          },
+          {
+            "label": "Constituição Federal — art. 5º, LV",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+          }
+        ]
+      },
+      {
+        "id": "contraposicao-garantias",
+        "order": 3,
+        "title": "Contraposição, competência e garantias",
+        "content": "Contraposição é rótulo doutrinário para a extinção de efeitos de um ato anterior por ato posterior incompatível, normalmente associado ao exercício de competência que produz efeitos opostos. Não é categoria geral definida nos arts. 53 a 55 da Lei 9.784/1999. Cassação, caducidade e contraposição, portanto, devem ser identificadas como classificações doutrinárias, sem lhes atribuir definição legal universal.\n\nA autotutela deve ser exercida pela autoridade competente segundo as regras aplicáveis, e não por qualquer agente indistintamente. A Lei 9.784 prevê motivação para anulação e revogação e protege direitos adquiridos; o STF exige procedimento administrativo regular, com contraditório e ampla defesa, quando o desfazimento afeta ato que já produziu efeitos concretos. A revisão administrativa permanece sujeita ao controle judicial.",
+        "references": [
+          {
+            "label": "Lei nº 9.784/1999 — arts. 2º, 50 e 53 a 55",
+            "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-publicacaooriginal-1-pl.html"
+          },
+          {
+            "label": "STF — Tema 138 da repercussão geral",
+            "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=138"
+          },
+          {
+            "label": "STF — Súmula 473",
+            "url": "https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=1602"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "controle-administracao-publica",
+    "order": 6,
+    "title": "Controle da Administração Pública",
+    "summary": "Autotutela, fiscalização legislativa, controle interno, jurisdição e competências constitucionais do TCU.",
+    "subtopics": [
+      {
+        "id": "autotutela-administrativa",
+        "order": 1,
+        "title": "Autotutela e revisão dos próprios atos",
+        "content": "Autotutela é a revisão administrativa dos próprios atos dentro das competências legais. No âmbito federal, a Lei 9.784/1999 determina a anulação de atos ilegais, admite revogação por conveniência ou oportunidade com respeito aos direitos adquiridos e permite convalidar defeito sanável sem lesão ao interesse público ou prejuízo a terceiros. A Súmula 473 do STF também ressalva a apreciação judicial.\n\nA revisão tem limites de prazo e de procedimento. Para atos federais favoráveis, o art. 54 prevê decadência de cinco anos, salvo má-fé comprovada. Quando a invalidação de ato já produziu efeitos concretos e afeta interesses individuais, o STF exige processo administrativo prévio regular, com contraditório e ampla defesa. Essas regras da Lei 9.784 não se generalizam automaticamente a estados e municípios.",
+        "references": [
+          {
+            "label": "Lei nº 9.784/1999 — arts. 53 a 55",
+            "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-publicacaooriginal-1-pl.html"
+          },
+          {
+            "label": "STF — Súmula 473",
+            "url": "https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=1602"
+          },
+          {
+            "label": "STF — Tema 138 da repercussão geral",
+            "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=138"
+          }
+        ]
+      },
+      {
+        "id": "controle-legislativo-e-judicial",
+        "order": 2,
+        "title": "Controle legislativo e controle judicial",
+        "content": "O controle legislativo é delimitado pela Constituição. O Congresso Nacional pode fiscalizar e controlar atos do Executivo, inclusive da Administração indireta, e sustar atos normativos que exorbitem o poder regulamentar ou os limites da delegação legislativa. Isso não equivale a autorização geral para o Legislativo administrar ou substituir escolhas legítimas de conveniência e oportunidade.\n\nPelo art. 5º, XXXV, lesão ou ameaça a direito pode ser submetida ao Judiciário. O controle judicial verifica conformidade jurídica sem substituir automaticamente o mérito administrativo lícito. Em contexto específico de concurso público, o Tema 485 do STF limita a substituição da banca para reexaminar conteúdo e critérios de correção, ressalvadas ilegalidade ou inconstitucionalidade; essa tese não deve ser aplicada fora de seu contexto sem análise.",
+        "references": [
+          {
+            "label": "Constituição Federal — arts. 5º, XXXV, 49, V e X",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+          },
+          {
+            "label": "STF — Tema 485 da repercussão geral",
+            "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=3992645&numeroProcesso=632853&classeProcesso=RE&numeroTema=485"
+          }
+        ]
+      },
+      {
+        "id": "controle-interno-externo-e-tcu",
+        "order": 3,
+        "title": "Controle interno, controle externo e TCU",
+        "content": "A Constituição prevê fiscalização contábil, financeira, orçamentária, operacional e patrimonial quanto à legalidade, legitimidade e economicidade. O controle externo é exercido pelo Congresso com auxílio do Tribunal de Contas da União, enquanto cada Poder mantém sistema de controle interno; este também avalia resultados e apoia o controle externo. Responsáveis que tomem conhecimento de irregularidade devem comunicá-la ao TCU, nos termos constitucionais.\n\nO TCU exerce competências próprias enumeradas na Constituição: aprecia as contas anuais do Presidente mediante parecer prévio, enquanto o julgamento cabe ao Congresso, e julga contas de administradores e demais responsáveis por recursos públicos. Pode realizar auditorias, fixar prazo para correção de ilegalidades e aplicar sanções previstas em lei. Decisões que imputem débito ou multa têm eficácia de título executivo; o Tribunal não recebe, por isso, competência geral para dirigir a Administração.",
+        "references": [
+          {
+            "label": "Constituição Federal — arts. 70, 71 e 74",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+          },
+          {
+            "label": "TCU — Competências do Tribunal de Contas da União",
+            "url": "https://portal.tcu.gov.br/transparencia-e-prestacao-de-contas/servico/competencias-do-tcu"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "responsabilidade-civil-estado",
+    "order": 7,
+    "title": "Responsabilidade civil do Estado",
+    "summary": "Responsabilidade objetiva prevista na Constituição, nexo causal e teses do STF nos Temas 940 e 592.",
+    "subtopics": [
+      {
+        "id": "regra-constitucional-risco-administrativo",
+        "order": 1,
+        "title": "Art. 37, § 6º, e risco administrativo",
+        "content": "O art. 37, § 6º, da Constituição prevê responsabilidade das pessoas jurídicas de direito público e das pessoas jurídicas de direito privado prestadoras de serviço público pelos danos que seus agentes, nessa qualidade, causem a terceiros. Na relação com a vítima, trata-se de responsabilidade objetiva: não se exige prova de dolo ou culpa individual do agente para a regra constitucional, mas é necessário demonstrar os pressupostos pertinentes, inclusive dano e nexo causal.\n\nO texto constitucional prevê, em plano distinto, direito de regresso contra o responsável quando houver dolo ou culpa. A doutrina e a jurisprudência descrevem a regra geral como risco administrativo, não risco integral: a análise de causalidade e de eventuais fatores que rompam o nexo continua relevante. A responsabilidade não significa indenização automática por todo dano ocorrido em contexto estatal.",
+        "references": [
+          {
+            "label": "Constituição Federal — art. 37, § 6º",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+          },
+          {
+            "label": "STF — Informativo 745, ADI 4.976",
+            "url": "https://www.stf.jus.br/arquivo/informativo/documento/informativo745.htm"
+          }
+        ]
+      },
+      {
+        "id": "dano-nexo-e-excludentes",
+        "order": 2,
+        "title": "Dano, nexo causal e fatores relevantes",
+        "content": "A responsabilização objetiva não elimina a necessidade de relacionar causalmente o dano à atuação do agente nessa qualidade ou à atividade administrativa abrangida. A vítima não precisa provar culpa ou dolo do agente para a pretensão indenizatória constitucional, mas a existência do dano e o nexo causal devem ser examinados a partir dos fatos e das provas do caso.\n\nNa síntese do STF sobre risco administrativo, caso fortuito, força maior e culpa exclusiva da vítima podem excluir a responsabilidade quando rompem o nexo causal. Essa avaliação é contextual: a simples invocação de uma dessas expressões não resolve a controvérsia sem verificar sua relação com o dano. A regra não deve ser confundida com risco integral nem com responsabilidade subjetiva regressiva do agente.",
+        "references": [
+          {
+            "label": "Constituição Federal — art. 37, § 6º",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+          },
+          {
+            "label": "STF — Informativo 745, ADI 4.976",
+            "url": "https://www.stf.jus.br/arquivo/informativo/documento/informativo745.htm"
+          }
+        ]
+      },
+      {
+        "id": "temas-940-e-592",
+        "order": 3,
+        "title": "Temas 940 e 592 do STF",
+        "content": "No Tema 940, o STF fixou que a ação de indenização por dano causado por agente público deve ser proposta contra o Estado ou a pessoa jurídica de direito privado prestadora do serviço público. O agente que praticou o ato é parte ilegítima para responder diretamente à vítima nessa ação, sem prejuízo do regresso contra ele se comprovados dolo ou culpa.\n\nO Tema 592 trata de situação delimitada: o Estado responde pela morte de pessoa presa quando inobserva o dever específico de proteção previsto na Constituição. A tese não autoriza afirmar, sem outra base, que toda omissão estatal gera responsabilidade objetiva. Em casos de omissão, o dever jurídico concreto de agir e a relação causal com o dano são elementos importantes da análise.",
+        "references": [
+          {
+            "label": "STF — Tema 940 da repercussão geral",
+            "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=5136782&numeroProcesso=1027633&classeProcesso=RE&numeroTema=940"
+          },
+          {
+            "label": "STF — Tema 592 da repercussão geral",
+            "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=4645403&numeroProcesso=841526&classeProcesso=RE&numeroTema=592"
+          },
+          {
+            "label": "Constituição Federal — arts. 5º, XLIX, e 37, § 6º",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "servicos-publicos-agentes",
+    "order": 8,
+    "title": "Serviços públicos e agentes públicos",
+    "summary": "Delegação de serviços, âmbito próprio da Lei 8.112/1990 e requisitos atuais de improbidade administrativa.",
+    "subtopics": [
+      {
+        "id": "servicos-concessao-permissao",
+        "order": 1,
+        "title": "Serviços públicos, concessão e permissão",
+        "content": "O art. 175 da Constituição atribui ao Poder Público a prestação de serviços públicos diretamente ou sob regime de concessão ou permissão, sempre mediante licitação. A delegação transfere a execução nos termos legais, não a titularidade do serviço. A Lei 8.987/1995 exige serviço adequado e enumera regularidade, continuidade, eficiência, segurança, atualidade, generalidade, cortesia e modicidade tarifária; a continuidade comporta interrupções nas hipóteses legais.\n\nConcessão e permissão são modalidades distintas. A concessão, precedida de licitação, é formalizada por contrato e pode ser delegada a pessoa jurídica ou consórcio, por prazo determinado e por conta e risco do concessionário; a lei prevê concorrência ou diálogo competitivo. A permissão, também licitada, é delegada a pessoa física ou jurídica a título precário e formalizada por contrato de adesão. A legislação e o edital aplicáveis devem ser considerados em cada caso.",
+        "references": [
+          {
+            "label": "Constituição Federal — art. 175",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+          },
+          {
+            "label": "Lei nº 8.987/1995 — arts. 2º, 6º e 40",
+            "url": "https://anttlegis.antt.gov.br/action/ActionDatalegis.php?acao=detalharAto&tipo=LEI&numeroAto=00008987&seqAto=000&valorAno=1995&orgao=NI&nomeTitulo=codigos&desItem=&desItemFim=&cod_modulo=420&cod_menu=7145"
+          }
+        ]
+      },
+      {
+        "id": "agentes-e-lei-8112",
+        "order": 2,
+        "title": "Agentes públicos e alcance da Lei 8.112/1990",
+        "content": "A expressão agente público pode abranger pessoas que exercem função pública sob diferentes vínculos, mas cada regime jurídico tem âmbito próprio. A Lei 8.112/1990 institui o regime dos servidores civis da União, das autarquias federais e das fundações públicas federais; servidor, para essa lei, é a pessoa legalmente investida em cargo público. Não é estatuto geral de servidores estaduais ou municipais, que dependem da legislação de seus entes.\n\nNo regime federal, a investidura em cargo efetivo depende de aprovação prévia em concurso público, ressalvadas as hipóteses legais de cargos em comissão. Regras sobre provimento, deveres, responsabilidades e sanções devem ser relacionadas ao vínculo e à lei correspondente, sem projetar automaticamente normas federais sobre carreiras locais ou regimes diversos.",
+        "references": [
+          {
+            "label": "Lei nº 8.112/1990 — arts. 1º a 3º e 5º",
+            "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html"
+          },
+          {
+            "label": "Constituição Federal — art. 37, II",
+            "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+          }
+        ]
+      },
+      {
+        "id": "improbidade-dolo-e-tema-1199",
+        "order": 3,
+        "title": "Improbidade administrativa e exigência de dolo",
+        "content": "A Lei 8.429/1992, em sua redação atualizada pela Lei 14.230/2021, adota conceito amplo de agente público para fins de improbidade, abrangendo quem exerça mandato, cargo, emprego ou função nas entidades previstas, ainda que transitoriamente ou sem remuneração, nos termos legais. A responsabilização por improbidade exige enquadramento em tipo legal e os requisitos previstos na lei atual.\n\nPara os atos dos arts. 9º, 10 e 11, exige-se dolo, entendido na lei como vontade livre e consciente de alcançar o resultado ilícito tipificado; mera voluntariedade ou exercício regular de competência não bastam. No Tema 1.199, o STF estabeleceu critérios de aplicação temporal da revogação da modalidade culposa: a análise de casos sem trânsito em julgado cabe ao juízo competente, sem desfazer coisa julgada ou alcançar a execução de condenações definitivas; os novos marcos prescricionais não retroagem. A leitura deve sempre considerar a Lei 8.429 atualizada e essa tese.",
+        "references": [
+          {
+            "label": "Lei nº 8.429/1992 — texto atualizado",
+            "url": "https://www2.camara.leg.br/legin/fed/lei/1992/lei-8429-2-junho-1992-357452-normaatualizada-pl.html"
+          },
+          {
+            "label": "STF — Tema 1.199 da repercussão geral",
+            "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=4652910&numeroProcesso=843989&classeProcesso=ARE&numeroTema=1199"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "licitacoes-contratos",
+    "order": 9,
+    "title": "Licitações e contratos administrativos",
+    "summary": "Lei 14.133/2021 no regime geral atualizado, contratação direta e contratos, com distinção para estatais e transição normativa.",
+    "subtopics": [
+      {
+        "id": "regimes-e-transicao-licitatoria",
+        "order": 1,
+        "title": "Regime vigente e transição das leis anteriores",
+        "content": "A Lei 14.133/2021 é a referência geral para as Administrações diretas, autárquicas e fundacionais dos entes federativos, incluindo órgãos legislativos e judiciários quando exercem função administrativa. Em regra, empresas públicas, sociedades de economia mista e subsidiárias estão fora de seu âmbito e seguem a Lei 13.303/2016. As normas específicas da entidade e eventuais exceções legais devem ser verificadas.\n\nDesde 30 de dezembro de 2023, as Leis 8.666/1993 e 10.520/2002 e os arts. 1º a 47-A da Lei 12.462/2011 foram revogados para novas escolhas no regime geral. A transição preserva processos validamente optados e divulgados no prazo legal e os contratos deles decorrentes durante sua vigência; a opção pelo regime antigo deveria ser expressa e não podia ser combinada com a Lei 14.133. Não se deve ensinar os diplomas revogados como alternativas atuais para novas contratações.",
+        "references": [
+          {
+            "label": "Lei nº 14.133/2021 — texto atualizado",
+            "url": "https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-normaatualizada-pl.html"
+          },
+          {
+            "label": "Lei nº 13.303/2016 — texto atualizado",
+            "url": "https://www2.camara.leg.br/legin/fed/lei/2016/lei-13303-30-junho-2016-783296-normaatualizada-pl.html"
+          },
+          {
+            "label": "Portal de Compras — Comunicado nº 12/2023 sobre transição",
+            "url": "https://www.gov.br/compras/pt-br/acesso-a-informacao/comunicados/2023/n-o-12-2023-transicao-entre-a-lei-no-14-133-de-2021-e-as-leis-no-8-666-de-1993-no-10-520-de-2002-e-os-arts-1o-a-47-a-da-lei-no-12-462-de-2011"
+          }
+        ]
+      },
+      {
+        "id": "principios-modalidades-e-fases",
+        "order": 2,
+        "title": "Princípios, modalidades e fases da licitação",
+        "content": "A Lei 14.133 lista princípios como legalidade, impessoalidade, moralidade, publicidade, eficiência, planejamento, transparência, igualdade, motivação, vinculação ao edital, julgamento objetivo, competitividade, proporcionalidade e economicidade. São cinco modalidades: pregão, concorrência, concurso, leilão e diálogo competitivo. Modalidade não se confunde com critério de julgamento, e o valor, por si só, não cria modalidade nova.\n\nA sequência ordinária compreende fase preparatória, divulgação do edital, apresentação de propostas e lances quando cabível, julgamento, habilitação, fase recursal e homologação. A habilitação pode vir antes de propostas e julgamento apenas por decisão motivada que explicite os benefícios e se a inversão estiver prevista no edital. A lei proíbe criar modalidades ou combinar as existentes.",
+        "references": [
+          {
+            "label": "Lei nº 14.133/2021 — arts. 5º, 17 e 28",
+            "url": "https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-normaatualizada-pl.html"
+          },
+          {
+            "label": "TCU — Modalidades de licitação",
+            "url": "https://licitacoesecontratos.tcu.gov.br/3-6-modalidades-de-licitacao/"
+          }
+        ]
+      },
+      {
+        "id": "contratacao-direta-e-contratos",
+        "order": 3,
+        "title": "Contratação direta e contratos",
+        "content": "Contratação direta não significa ausência de processo ou justificativa. Inexigibilidade pressupõe inviabilidade de competição; dispensa é hipótese prevista em lei na qual a competição pode ser viável, mas a lei autoriza contratar sem licitação. O art. 72 da Lei 14.133 exige instrução documental pertinente, incluindo demanda, estimativa de despesa, adequação orçamentária, razão da escolha do contratado, justificativa de preço e autorização competente, conforme aplicável. Valores de dispensa são atualizados periodicamente e devem ser conferidos no ato vigente, não copiados de referências históricas.\n\nContratos regidos pela Lei 14.133 submetem-se às cláusulas pactuadas e aos preceitos de direito público, com aplicação supletiva da teoria geral dos contratos e do direito privado. A lei prevê forma escrita, inclusive eletrônica, cláusulas necessárias e instrumento contratual em regra, admitida substituição por instrumento hábil nos casos legais. Para empresas estatais, aplica-se em regra a Lei 13.303/2016, sem misturar os dois regimes.",
+        "references": [
+          {
+            "label": "Lei nº 14.133/2021 — arts. 72, 89 e seguintes",
+            "url": "https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-normaatualizada-pl.html"
+          },
+          {
+            "label": "TCU — Processo de contratação direta",
+            "url": "https://licitacoesecontratos.tcu.gov.br/5-10-processo-de-contratacao-direta/"
+          },
+          {
+            "label": "Lei nº 13.303/2016 — texto atualizado",
+            "url": "https://www2.camara.leg.br/legin/fed/lei/2016/lei-13303-30-junho-2016-783296-normaatualizada-pl.html"
+          }
+        ]
+      }
+    ]
+  }
+]

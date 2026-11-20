@@ -8,6 +8,8 @@ import execucaoPenal from './subjects/execucao-penal.js';
 import legislacaoEspecial from './subjects/legislacao-especial.js';
 import direitosHumanos from './subjects/direitos-humanos.js';
 import cienciasForenses from './subjects/ciencias-forenses.js';
+import direitoConstitucional from './subjects/direito-constitucional.js';
+import direitoAdministrativo from './subjects/direito-administrativo.js';
 
 export const activeSubjects = [
   portugues,
@@ -20,14 +22,13 @@ export const activeSubjects = [
   legislacaoEspecial,
   direitosHumanos,
   cienciasForenses,
+  direitoConstitucional,
+  direitoAdministrativo,
 ];
 
 export const developmentDisciplines = [];
 
-export const plannedDisciplines = [
-  'Direito Constitucional',
-  'Direito Administrativo',
-];
+export const plannedDisciplines = [];
 
 export const plannedStudyFeatures = [
   'Flashcards',
