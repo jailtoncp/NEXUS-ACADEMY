@@ -449,3 +449,15 @@ Total: 25 integradas, 15 duplicatas, 10 em revisão. A Q10 sobre progressão em 
 Relatório completo: `docs/auditorias/pdf2-legislacao-penal-processual-audit.md`.
 
 **Status PDF 2:** Português, Informática, RLM e a seção de Legislação Penal/Processual Penal agora têm todas as questões classificadas. Permanecem em andamento Direitos Humanos, Atualidades, Ética/Administração Pública e Execução Penal/Sistema Prisional.
+
+
+## Etapa 22 — PDF 2: fechamento de Execução Penal e Sistema Prisional (2026-11-22)
+
+A seção das páginas impressas 63–69 foi auditada integralmente: **50/50 questões com destino definido**. Foram integradas 8 questões (Q4, Q16, Q20, Q23, Q25, Q26, Q37 e Q44), 26 foram identificadas como duplicatas e 16 foram retidas para revisão editorial/jurídica. Nenhuma ficou pendente de extração.
+
+O comentário da questão antiga `EXEC-PP300-183` foi atualizado: a Lei 14.843/2024 alterou o art. 112, §1º, da LEP quanto ao exame criminológico para progressão. Também foram bloqueadas questões com legislação desatualizada: saída temporária (Q22), RDD de 360 dias (Q24), progressão (Q32) e remição por leitura com exigência de resenha/prova (Q29, Resolução CNJ 391/2021).
+
+Relatório completo: `docs/auditorias/pdf2-execucao-penal-audit.md`.
+Banco suplementar: `src/data/subjects/execucao-penal-pp500-supplemental-question-bank.json`.
+
+**Status geral do PDF 2:** Português, Informática, RLM, Legislação Penal/Processual Penal e Execução Penal/Sistema Prisional têm destino definido para todas as questões. Permanecem Direitos Humanos, Atualidades e Ética/Noções de Administração Pública.
