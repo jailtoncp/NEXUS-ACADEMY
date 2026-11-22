@@ -2,13 +2,13 @@
   "metrics": {
     "sourceFile": "500_questoes_comentadas_de_pp.pdf",
     "sourceDiscipline": "Direito Penal",
-    "questionsLocated": 50,
+    "questionsLocated": 24,
     "questionsIntegrated": 14,
     "duplicates": 6,
     "questionsInReview": 4,
     "questionsPending": 0,
     "answerKeySource": "gabarito_comentado.pdf, pp. 77–81",
-    "note": "50 questões localizadas: 14 integradas, 6 repetidas em bancos existentes e 4 retidas em revisão neste módulo. As questões 1, 6, 8 e 12 foram bloqueadas por enunciado/alternativas ambíguos ou incompletos. As questões 2, 7, 22, 25, 33 e 47 repetem questões ou conceitos já cobertos no banco de Direito Penal."
+    "note": "A seção de Legislação Penal e Processual Penal tem 50 questões no total. Deste conjunto, 24 pertencem ao bloco de Direito Penal: 14 integradas, 6 duplicatas e 4 em revisão (Q1, Q6, Q8 e Q12)."
   },
   "questions": [
     {
