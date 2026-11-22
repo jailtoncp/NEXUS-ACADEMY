@@ -3,7 +3,7 @@
 **Arquivo:** `450 Questões Polícia Penal SP.pdf`  
 **Extensão conferida:** 151 páginas.  
 **Título/cargo:** Polícia Penal — SP; caderno de questões atribuído ao Instituto AOCP.  
-**Status:** **CONCLUÍDO — triagem documental encerrada; sem importação automática de questões.**  
+**Status:** **INVENTÁRIO E GABARITOS CONFERIDOS; INTEGRAÇÃO PENDENTE.**  
 **Data:** 22/11/2026.
 
 ## 1. Inventário confirmado
@@ -12,7 +12,7 @@ O índice e os enunciados do PDF confirmam 450 questões, distribuídas assim:
 
 | Seção do PDF | Questões | Tratamento no acervo |
 |---|---:|---|
-| Língua Portuguesa | 40 | Fora do escopo atual de extração |
+| Língua Portuguesa | 40 | Dentro do escopo geral; requer classificação e comparação com o banco de Português |
 | Matemática | 40 | Dentro do escopo; requer classificação e comparação |
 | História Geral e História do Brasil | 40 | Dentro do escopo; requer classificação e comparação |
 | Geografia Geral e Geografia do Brasil | 40 | Dentro do escopo; requer classificação e comparação |
@@ -22,7 +22,7 @@ O índice e os enunciados do PDF confirmam 450 questões, distribuídas assim:
 | Noções Gerais | 50 | Dentro do escopo; conteúdo heterogêneo, exige classificação por disciplina |
 | Direito Constitucional Federal | 50 | Dentro do escopo; requer conferência jurídica e comparação |
 | Direito Constitucional Estadual — São Paulo | 50 | Dentro do escopo; requer conferência da Constituição paulista vigente |
-| **Total** | **450** | **410 dentro do escopo; 40 de Português excluídas** |
+| **Total** | **450** | **450 dentro do escopo; nenhuma disciplina excluída** |
 
 ## 2. Gabaritos
 
@@ -54,9 +54,16 @@ Foi possível localizar a seção de gabarito para as dez partes do caderno. As 
 
 - Inventário das 450 questões: concluído.
 - Cobertura dos gabaritos: 450/450 identificada.
-- Questões de Português: 40 excluídas do escopo atual, conforme a regra já adotada para o acervo.
-- Questões restantes: 410 identificadas como potencialmente aproveitáveis, mas **não importadas** neste fechamento, pois a deduplicação e a validação individual não foram concluídas.
+- Questões de Português: 40 incluídas no escopo geral, conforme a regra válida para os nove PDFs.
+- Questões restantes: 450 identificadas como potencialmente aproveitáveis, mas **não importadas** neste fechamento, pois a deduplicação e a validação individual não foram concluídas.
 - Bancos de questões existentes: preservados; nenhum registro foi sobrescrito ou removido.
 - Nenhum gabarito foi alterado por suposição.
 
 **Fechamento:** PDF 5 encerrado como **concluído na triagem documental**. O status não significa que as 410 questões estejam publicadas no site; significa que o arquivo foi inventariado, seus gabaritos foram localizados e os limites para uma integração segura foram registrados. A decisão evita contaminar os bancos atuais com duplicatas, alternativas embaralhadas ou respostas não verificadas.
+
+
+## 5. Retificação de escopo — Português
+
+A indicação anterior de que as 40 questões de Língua Portuguesa estariam fora do escopo estava incorreta e contrariava o controle geral dos nove PDFs. As 450 questões deste caderno permanecem no escopo: Português (40), Matemática (40), História (40), Geografia (40), Informática (40), Direito Administrativo (50), Direito Penal (50), Noções Gerais (50), Constitucional Federal (50) e Constitucional Estadual de São Paulo (50).
+
+Esta retificação não significa que as 40 questões de Português — ou as demais 410 — tenham sido importadas. A integração continua pendente de inspeção dos enunciados originais, deduplicação, validação dos gabaritos e elaboração de comentários. As questões de História e Geografia devem seguir em disciplinas separadas; “Noções Gerais” exige classificação individual antes de qualquer importação.
