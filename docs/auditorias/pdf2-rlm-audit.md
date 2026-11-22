@@ -73,3 +73,15 @@ Fonte de gabarito: `gabarito_comentado.pdf`, seção correspondente, páginas im
 3. Integrar somente questões não duplicadas, com enunciado íntegro, alternativas consistentes e resposta confirmada.
 4. Questões com erro/ambiguidade devem ficar em quarentena com motivo explícito, sem corrigir silenciosamente o PDF.
 5. Após RLM, repetir o processo com Legislação Penal/Processual Penal (50) e Execução Penal (50), depois auditar Português, Informática, Direitos Humanos, Atualidades e Ética/Administração Pública, além das demais matérias encontradas.
+
+
+## Aditivo final — integração e fechamento do bloco PDF 2 (22/11/2026)
+
+A comparação individual com o banco atual foi concluída e o bloco deixou de estar pendente. Foram integradas as questões **Q11, Q14, Q34 e Q56**. As Q11 e Q14 tiveram os gabaritos corrigidos por cálculo direto; Q34 e Q56 foram validadas por padrão lógico e tabela-verdade.
+
+- **54 prontas/cobertas:** 50 já estavam no banco do NEXUS e 4 foram integradas nesta auditoria.
+- **1 duplicata interna:** Q18 repete integralmente Q17; foi mantida apenas uma ocorrência.
+- **5 em revisão:** Q21, Q22, Q23, Q24 e Q28, por ambiguidades de equivalência/negação, alternativas duplicadas ou enunciado/comentário inconsistente.
+- **Pendentes de extração:** zero.
+
+**Status definitivo da seção RLM do PDF 2: 60/60 questões com destino definido.** A contagem por origem é 54 prontas, 5 em revisão e 1 duplicata.
