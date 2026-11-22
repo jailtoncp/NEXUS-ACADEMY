@@ -7,12 +7,12 @@ const subject = {
   name: 'Português',
   abbreviation: 'PORT',
   description: 'Teoria organizada por tópicos do edital de Língua Portuguesa, questões reais extraídas e auditadas do acervo e questões autorais do NEXUS ACADEMY.',
-  questionNotice: `${realBank.questions.length} questões reais do acervo publicadas do PDF 2, com gabaritos conferidos e comentários. O PDF 2 contém 80 questões de Português; 37 ainda aguardam extração/deduplicação e 12 itens das primeiras 43 permanecem em revisão por ambiguidade ou gabarito inconsistente. Também há ${bank.questions.length} questões autorais do NEXUS ACADEMY. Esta disciplina ainda não está finalizada.`,
+  questionNotice: `${realBank.questions.length} questões reais do acervo publicadas do PDF 2, com gabaritos conferidos e comentários. O PDF 2 contém 80 questões de Português; as 80 questões já foram extraídas e examinadas; 15 permanecem em revisão por ambiguidade, múltiplas respostas ou defeito editorial. Também há ${bank.questions.length} questões autorais do NEXUS ACADEMY. Esta disciplina ainda não está finalizada.`,
   topics: content,
   questions: [...realBank.questions, ...bank.questions],
   reviewCount: realBank.metrics.questionsInReview,
   questionAudit: { ...bank.metrics, realQuestions: realBank.metrics },
-  sourceInventory: [{ sourceId: 'pp500-portugues', sourceName: '500_questoes_comentadas_de_pp.pdf', questionsFound: 80, integrated: 31, pendingExtractionOrDeduplication: 37, needsReview: 12, answerKeySource: 'gabarito_comentado.pdf, pp. 103–109' }],
+  sourceInventory: [{ sourceId: 'pp500-portugues', sourceName: '500_questoes_comentadas_de_pp.pdf', questionsFound: 80, integrated: 31, pendingExtractionOrDeduplication: 0, needsReview: 15, answerKeySource: 'gabarito_comentado.pdf, pp. 103–109' }],
 };
 
 export default subject;
