@@ -311,3 +311,35 @@ Na validação local sobre a `main` atualizada, `npm ci --no-audit --no-fund`, o
 **Aviso de build:** o chunk principal ficou em aproximadamente 4,35 MB minificado (857 kB gzip), acima do limite padrão de 500 kB do Vite. O build conclui; dividir/carregar sob demanda os bancos das nove disciplinas continua recomendável.
 
 **Estado:** implementação e validação concluídas; atualização registrada na branch `main`; interromper agora para o teste do usuário.
+
+
+## Etapa 14 — PDF 2: `500_questoes_comentadas_de_pp.pdf` (auditoria inicial, 2026-11-22)
+
+**Fonte reaberta e examinada:** segundo PDF do ZIP `questões.zip`, extraído em `/mnt/data/ziptext/1_500_questoes_comentadas_de_pp.pdf.txt`. O título anuncia “500 questões”, mas a contagem das sequências numeradas localizadas no corpo do documento totaliza **410 questões**, distribuídas em oito disciplinas:
+
+| Disciplina | Questões localizadas | Gabarito disponível no material complementar |
+|---|---:|---|
+| Português | 80 (1–80) | Não localizado |
+| Informática | 50 (1–50) | Não localizado |
+| Direitos Humanos | 40 (1–40) | Apenas 1 resposta aparece junto da questão 13; sem gabarito para as outras 39 |
+| Atualidades | 40 (1–40) | Não localizado |
+| Ética e Noções de Administração Pública | 40 (1–40) | Não localizado |
+| Raciocínio Lógico e Matemática Básica | 60 (1–60) | 60 respostas no PDF complementar |
+| Legislação Penal e Processual Penal | 50 (1–50) | 50 respostas no PDF complementar |
+| Execução Penal e Sistema Prisional | 50 (1–50) | 50 respostas no PDF complementar |
+| **Total** | **410** | **160 respostas no gabarito complementar + 1 resposta isolada em Direitos Humanos** |
+
+**Gabarito complementar examinado:** `gabarito_comentado.pdf` (quarto PDF do ZIP). Diferentemente da triagem preliminar, a leitura integral confirmou que ele contém gabaritos comentados para os blocos de Raciocínio Lógico, Legislação Penal/Processual Penal e Execução Penal. Não contém gabarito para Português, Informática, Atualidades, Ética/Administração Pública nem para a maior parte de Direitos Humanos.
+
+**Decisão de integração:** nenhuma questão deste PDF 2 foi publicada ainda. As 160 questões com gabarito complementar são candidatas à extração e validação em lotes; não serão inseridas automaticamente apenas porque existe uma letra de resposta. As outras 249 questões sem gabarito permanecem pendentes de resolução independente ou de localização de outra fonte de respostas. A questão 13 de Direitos Humanos tem resposta “b” e explicação impressas no próprio PDF, mas também aguarda validação e comparação com o banco atual.
+
+**Pontos de auditoria obrigatórios antes da publicação:**
+- Comparar cada item com os bancos reais e autorais existentes, em especial Português, Informática, Raciocínio Lógico, Direitos Humanos, Legislação Especial/Processo Penal e Execução Penal.
+- Conferir enunciado, cinco alternativas, gabarito e comentário; registrar páginas do PDF-fonte e do gabarito.
+- Revisar conteúdo jurídico conforme legislação e jurisprudência vigentes na data da publicação. O material contém tópicos sujeitos a alterações legislativas e algumas explicações são excessivamente resumidas.
+- Atualidades exige verificação temporal e factual; não presumir que referências a acontecimentos de 2025 continuem atuais.
+- As disciplinas novas **Atualidades** e **Ética e Noções de Administração Pública** foram identificadas para futura aba de questões. Ainda não foram criadas/ativadas no catálogo nesta etapa, porque o banco não está validado e o módulo não deve aparecer como se já tivesse questões disponíveis.
+- A nomenclatura “500 questões” não foi aceita como total: o inventário atual registra 410 itens numerados; reexaminar o PDF visualmente se surgir discrepância entre a paginação impressa e a extração de texto.
+
+**Status do PDF 2:** **AUDITORIA INICIAL CONCLUÍDA — EXTRAÇÃO/VALIDAÇÃO/INTEGRAÇÃO PENDENTES**. Não marcar como completo até que os 410 itens tenham destino registrado (integrados, repetidos, descartados com motivo ou pendentes justificados) e os gabaritos tenham sido tratados.
+
