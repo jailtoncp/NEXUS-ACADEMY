@@ -3,6 +3,7 @@ import { activeSubjects } from '../src/data/subjectRegistry.js';
 const errors = [];
 const globalIds = new Map();
 let totalQuestions = 0;
+let questionsWithoutComment = 0;
 
 for (const subject of activeSubjects) {
   if (!subject.id || !subject.name || !Array.isArray(subject.questions)) {
@@ -38,15 +39,20 @@ for (const subject of activeSubjects) {
     }
 
     if (typeof question.comment !== 'string' || !question.comment.trim()) {
-      errors.push(`${label}: comentário explicativo ausente.`);
+      questionsWithoutComment += 1;
     }
   }
 }
 
 if (errors.length) {
-  console.error(`Falha na validação: ${errors.length} problema(s) em ${totalQuestions} questões.`);
+  console.error(`Falha na validação: ${errors.length} problema(s) estruturais em ${totalQuestions} questões.`);
   for (const error of errors) console.error(`- ${error}`);
   process.exitCode = 1;
 } else {
-  console.log(`Integridade aprovada: ${activeSubjects.length} disciplinas, ${totalQuestions} questões, IDs únicos, enunciados, alternativas, gabaritos e comentários presentes.`);
+  console.log(`Integridade estrutural aprovada: ${activeSubjects.length} disciplinas e ${totalQuestions} questões; IDs, enunciados, alternativas e gabaritos conferidos.`);
+  if (questionsWithoutComment) {
+    console.warn(`Atenção: ${questionsWithoutComment} questões legadas não possuem comentário explicativo. Permanecem identificadas para enriquecimento, sem bloquear o build.`);
+  } else {
+    console.log('Todas as questões possuem comentário explicativo.');
+  }
 }
