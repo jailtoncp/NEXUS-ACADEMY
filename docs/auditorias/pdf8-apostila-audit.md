@@ -119,3 +119,35 @@ As páginas originais foram abertas como imagem para conferir a diagramação, o
 ### 7.3. Limite desta conferência
 
 A conferência acima cobre as duas duplicatas percebidas na leitura inicial, não representa validação integral das 146 questões. A comparação completa com o banco atual e a revisão dos demais gabaritos continuam pendentes. Nenhuma questão foi adicionada ao site nesta etapa.
+
+
+## 8. Conferência visual — continuação do bloco de RLM (questões 334–443)
+
+A leitura visual foi avançada pelas páginas impressas 464–481. O bloco segue com questões de Raciocínio Lógico até a 443; a questão 444 inicia o bloco seguinte, de Direito Constitucional, conforme a separação do gabarito.
+
+### Páginas e questões percorridas
+
+- Páginas 464–469: continuação da leitura anterior, cobrindo questões intermediárias do bloco.
+- Páginas 470–475: questões 367–403.
+- Páginas 476–481: questões 404–443.
+- O gabarito próprio da segunda bateria foi localizado nas páginas 580–581 para este intervalo; a correspondência numérica precisa ser mantida por bateria, sem confundir com o gabarito da primeira.
+
+### Problemas de integridade visual / transcrição
+
+1. **Questão 393:** as alternativas dependem de figuras/setas, mas os elementos gráficos das alternativas não aparecem na página visual consultada. Não é aproveitável sem recuperar a imagem original íntegra.
+2. **Questão 398:** parte da simbologia lógica está corrompida na impressão/extração visual, com caracteres de substituição em operadores. Exige fonte mais nítida antes de transcrever.
+3. **Questões 404–405:** são questões de sequência de figuras; os enunciados remetem a figuras que não aparecem integralmente na imagem consultada. Não transcrever sem recuperar os elementos visuais.
+4. **Questão 427:** tabela com células em branco a completar; exige resolução a partir da tabela original, preservando a estrutura.
+5. **Questões 401, 425 e 432:** dependem de diagramas/conjuntos ou dados de interseção; precisam ser transcritas com os diagramas e premissas completos, não apenas como texto.
+6. **Questão 422:** sequência de símbolos; os símbolos devem ser preservados como imagem ou descritos com precisão. A extração textual simples não é suficiente.
+
+### Estado de validação
+
+- A leitura visual do corpo foi estendida até a questão 443.
+- A conferência visual não equivale à resolução individual nem à validação de todos os 146 gabaritos.
+- As divergências já identificadas nas questões 298/330 e 301/326 permanecem registradas na seção 7.
+- As questões 352, 359 e 361 também foram sinalizadas durante a revisão como divergências entre o gabarito impresso e a resolução lógica; antes de qualquer importação, seus enunciados e alternativas devem permanecer vinculados à conferência individual já feita.
+- **Nenhuma questão da segunda bateria foi importada nesta etapa; nenhum banco de questões foi alterado.**
+- A deduplicação integral contra as 317 questões do banco atual ainda precisa ser concluída antes de selecionar candidatos para publicação.
+
+A próxima etapa é terminar a comparação item a item com o banco existente, resolver os gabaritos candidatos e separar questões aproveitáveis, duplicadas, visualmente incompletas ou com chave inconsistente.
