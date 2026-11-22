@@ -3,12 +3,12 @@
     "sourceFile": "500_questoes_comentadas_de_pp.pdf",
     "sourceDiscipline": "Direito Penal",
     "questionsLocated": 50,
-    "questionsIntegrated": 13,
-    "duplicates": 0,
-    "questionsInReview": 7,
+    "questionsIntegrated": 14,
+    "duplicates": 6,
+    "questionsInReview": 4,
     "questionsPending": 0,
     "answerKeySource": "gabarito_comentado.pdf, pp. 77–81",
-    "note": "Questões integradas após revisão individual e conferência do CP vigente. Itens 1, 6, 8, 10, 12, 21, 22, 26, 33, 39, 40, 43, 47 foram retidos ou classificados como duplicados em relatório global; o controle definitivo lista todos os 50 destinos."
+    "note": "50 questões localizadas: 14 integradas, 6 repetidas em bancos existentes e 4 retidas em revisão neste módulo. As questões 1, 6, 8 e 12 foram bloqueadas por enunciado/alternativas ambíguos ou incompletos. As questões 2, 7, 22, 25, 33 e 47 repetem questões ou conceitos já cobertos no banco de Direito Penal."
   },
   "questions": [
     {
@@ -322,6 +322,30 @@
       "sourcePage": 61,
       "answerKeyPage": 81,
       "source": "500_questoes_comentadas_de_pp.pdf — Legislação Penal e Processual Penal, questão 46, p. 61; gabarito_comentado.pdf, p. 81."
+    },
+    {
+      "id": "DPE-PP500-021",
+      "origin": "real",
+      "sourceNumber": 21,
+      "topicId": "introducao-principios",
+      "subtopicId": "principios",
+      "difficulty": "easy",
+      "prompt": "A exigência de que uma conduta somente possa ser considerada crime e receber pena se houver lei anterior que a defina corresponde ao princípio da:",
+      "options": {
+        "A": "Insignificância.",
+        "B": "Legalidade.",
+        "C": "Culpabilidade.",
+        "D": "Lesividade.",
+        "E": "Adequação social."
+      },
+      "answer": "B",
+      "comment": "O princípio da legalidade está expresso no art. 1º do Código Penal e no art. 5º, XXXIX, da Constituição: não há crime sem lei anterior que o defina, nem pena sem prévia cominação legal. A lei penal deve ser anterior ao fato (anterioridade) e escrita (reserva legal).",
+      "board": null,
+      "year": null,
+      "exam": "Polícia Penal",
+      "sourcePage": 57,
+      "answerKeyPage": 79,
+      "source": "500_questoes_comentadas_de_pp.pdf — Legislação Penal e Processual Penal, questão 21, p. 57; gabarito_comentado.pdf, p. 79."
     }
   ]
 }
