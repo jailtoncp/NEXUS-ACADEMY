@@ -534,3 +534,14 @@ A seção sobre Lei de Drogas não apresenta questões numeradas. Foi conferida 
 **Arquivos:** banco `src/data/subjects/execucao-penal-pdf3-supplemental-question-bank.json`; módulo `src/data/subjects/execucao-penal.js`; relatório `docs/auditorias/pdf3-atualizacao-i-2024-pp-audit.md`.
 
 **Status PDF 3:** auditoria integral concluída — 5/5 questões com destino definido. Build e deploy serão registrados após a validação da integração.
+
+
+## Etapa 28 — PDF 4: gabarito_comentado.pdf (2026-11-22)
+
+Auditoria concluída do quarto arquivo do ZIP. Trata-se de **gabarito complementar**, não de um novo caderno de questões. Foram identificadas 7 seções e 370 posições de resposta: RLM (60), Legislação Penal/Processual Penal (50), Execução Penal (50), Ética/Administração Pública (40), Informática (50), Atualidades (40) e Português (80). As 40 questões de Direitos Humanos do PDF 2 não possuem seção correspondente neste gabarito.
+
+Nenhuma questão nova foi criada ou importada. O documento foi confrontado com as auditorias disciplinares já concluídas. Foram registrados erros relevantes: Q14 e Q18 de RLM; comentário da Q6 e regra antiga da Q10 de Legislação; informação desatualizada de RDD na Q24 de Execução Penal; duplicidade de numeração Q3 e repetição de comentário Q17/Q25 em Atualidades; e explicações de Direito Penal deslocadas para Q22–Q25 de Português (página impressa 104). A anotação anterior no relatório de Atualidades que dizia não haver gabarito foi corrigida.
+
+Relatório: `docs/auditorias/pdf4-gabarito-comentado-audit.md`.
+
+**Status PDF 4:** auditoria integral do arquivo concluída; 370/370 posições do gabarito inventariadas; 0 questões novas; 40 itens de Direitos Humanos sem seção neste gabarito; 0 pendências de extração.
