@@ -75,6 +75,11 @@ export default function DisciplineModule({ subject, defaultSection = 'content', 
   );
   const topic = subject.topics.find((item) => item.id === topicId) || subject.topics[0];
 
+  function openAllQuestions() {
+    setTopicId('');
+    setSection('questions');
+  }
+
   function recordAnswer(question, chosen, elapsedMs) {
     const attempt = {
       questionId: question.id,
@@ -112,7 +117,7 @@ export default function DisciplineModule({ subject, defaultSection = 'content', 
 
       <nav className="study-tabs" aria-label="Seções da disciplina">
         <button className={section === 'content' ? 'selected' : ''} onClick={() => setSection('content')}><BookOpen /> Conteúdo</button>
-        <button className={section === 'questions' ? 'selected' : ''} onClick={() => setSection('questions')}><ListChecks /> Questões <span>{subject.questions.length}</span></button>
+        <button className={section === 'questions' ? 'selected' : ''} onClick={openAllQuestions}><ListChecks /> Questões <span>{subject.questions.length}</span></button>
         <button className={section === 'history' ? 'selected' : ''} onClick={() => setSection('history')}><Clock3 /> Histórico <span>{history.filter((item) => item.discipline === subject.id).length}</span></button>
       </nav>
 
@@ -189,7 +194,7 @@ export default function DisciplineModule({ subject, defaultSection = 'content', 
       {section === 'history' && (
         <section className="history-panel">
           <div className="history-heading"><div><span>REGISTROS LOCAIS</span><h2>Seu histórico de respostas</h2></div><button className="small-action" onClick={() => setHistory(readHistory())}><RotateCcw /> Atualizar</button></div>
-          {history.filter((item) => item.discipline === subject.id).length === 0 ? <div className="history-empty"><Clock3 /><h3>Nenhuma resposta registrada ainda</h3><p>Responda a uma questão para começar seu histórico de {subject.name}.</p><button className="primary-action" onClick={() => setSection('questions')}>Ir para questões</button></div> : (
+          {history.filter((item) => item.discipline === subject.id).length === 0 ? <div className="history-empty"><Clock3 /><h3>Nenhuma resposta registrada ainda</h3><p>Responda a uma questão para começar seu histórico de {subject.name}.</p><button className="primary-action" onClick={openAllQuestions}>Ir para questões</button></div> : (
             <div className="history-table-wrap"><table className="history-table"><thead><tr><th>Data e hora</th><th>Assunto</th><th>Escolhida</th><th>Gabarito</th><th>Resultado</th><th>Tempo</th></tr></thead><tbody>{history.filter((item) => item.discipline === subject.id).slice().reverse().map((item, index) => { const st = getSubtopic(subject, item.topicId, item.subtopicId); return <tr key={`${item.answeredAt}-${index}`}><td>{new Date(item.answeredAt).toLocaleString('pt-BR')}</td><td>{st?.title || item.topicId}</td><td>{item.chosenOption}</td><td>{item.correctOption}</td><td><span className={item.isCorrect ? 'result-good' : 'result-bad'}>{item.isCorrect ? 'Acerto' : 'Erro'}</span></td><td>{item.responseTimeMs ? `${Math.round(item.responseTimeMs / 1000)} s` : '—'}</td></tr>; })}</tbody></table></div>
           )}
         </section>
