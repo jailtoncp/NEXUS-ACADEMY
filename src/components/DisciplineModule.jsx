@@ -137,7 +137,7 @@ export default function DisciplineModule({ subject, defaultSection = 'content', 
             <TopicMaterial
               subject={subject}
               topic={topic}
-              onPractice={() => setSection('questions')}
+              onPractice={() => { setTopicId(topic?.id || ''); setSection('questions'); }}
               onNextTopic={() => setTopicId(subject.topics[topic.order % subject.topics.length].id)}
               onEnterFullscreen={() => { setFullscreenOutlineOpen(false); setIsFullscreen(true); }}
               fullscreenButtonRef={fullscreenTriggerRef}
@@ -168,7 +168,7 @@ export default function DisciplineModule({ subject, defaultSection = 'content', 
                   <TopicMaterial
                     subject={subject}
                     topic={topic}
-                    onPractice={() => { setIsFullscreen(false); setSection('questions'); }}
+                    onPractice={() => { setTopicId(topic?.id || ''); setIsFullscreen(false); setSection('questions'); }}
                     onNextTopic={() => setTopicId(subject.topics[topic.order % subject.topics.length].id)}
                   />
                 </main>
