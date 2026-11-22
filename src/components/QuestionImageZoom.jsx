@@ -1,6 +1,6 @@
 import React, { useEffect, useId, useLayoutEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
-import { RotateCcw, Search, X, ZoomIn, ZoomOut } from 'lucide-react';
+import { Maximize2, Minimize2, RotateCcw, Search, X, ZoomIn, ZoomOut } from 'lucide-react';
 import './question-image-zoom.css';
 
 const MIN_ZOOM = 1;
@@ -10,6 +10,7 @@ const ZOOM_STEP = 0.25;
 export default function QuestionImageZoom({ src, alt, caption, figureClassName = 'question-figure' }) {
   const [isOpen, setIsOpen] = useState(false);
   const [zoom, setZoom] = useState(MIN_ZOOM);
+  const [isFullscreen, setIsFullscreen] = useState(false);
   const [naturalSize, setNaturalSize] = useState({ width: 0, height: 0 });
   const [stageSize, setStageSize] = useState({ width: 0, height: 0 });
   const previewRef = useRef(null);
@@ -23,12 +24,14 @@ export default function QuestionImageZoom({ src, alt, caption, figureClassName =
   const openViewer = () => {
     hasOpenedRef.current = true;
     setZoom(MIN_ZOOM);
+    setIsFullscreen(false);
     setIsOpen(true);
   };
 
   const closeViewer = () => {
     setIsOpen(false);
     setZoom(MIN_ZOOM);
+    setIsFullscreen(false);
   };
 
   useEffect(() => {
@@ -100,7 +103,7 @@ export default function QuestionImageZoom({ src, alt, caption, figureClassName =
       });
     });
     return () => window.cancelAnimationFrame(frame);
-  }, [isOpen, zoom, naturalSize, stageSize]);
+  }, [isOpen, zoom, naturalSize, stageSize, isFullscreen]);
 
   const fitScale = naturalSize.width > 0 && naturalSize.height > 0 && stageSize.width > 0 && stageSize.height > 0
     ? Math.min(stageSize.width / naturalSize.width, stageSize.height / naturalSize.height)
@@ -117,12 +120,12 @@ export default function QuestionImageZoom({ src, alt, caption, figureClassName =
     : { width: '100%', height: '100%' };
 
   const viewer = isOpen && createPortal(
-    <div className="question-image-zoom-backdrop" onMouseDown={(event) => {
+    <div className={`question-image-zoom-backdrop${isFullscreen ? ' question-image-zoom-backdrop-fullscreen' : ''}`} onMouseDown={(event) => {
       if (event.target === event.currentTarget) closeViewer();
     }}>
       <section
         ref={dialogRef}
-        className="question-image-zoom-dialog"
+        className={`question-image-zoom-dialog${isFullscreen ? ' question-image-zoom-dialog-fullscreen' : ''}`}
         role="dialog"
         aria-modal="true"
         aria-labelledby={titleId}
@@ -133,9 +136,22 @@ export default function QuestionImageZoom({ src, alt, caption, figureClassName =
             <h2 id={titleId}>Ampliar foto do texto</h2>
             <p>{caption || accessibleAlt}</p>
           </div>
-          <button ref={closeButtonRef} type="button" className="question-image-zoom-close" aria-label="Fechar imagem ampliada" onClick={closeViewer}>
-            <X aria-hidden="true" />
-          </button>
+          <div className="question-image-zoom-header-actions">
+            <button
+              type="button"
+              className="question-image-zoom-header-action"
+              aria-label={isFullscreen ? 'Restaurar janela de zoom' : 'Expandir janela de zoom para tela cheia'}
+              title={isFullscreen ? 'Restaurar janela de zoom' : 'Expandir janela para tela cheia'}
+              aria-pressed={isFullscreen}
+              onClick={() => setIsFullscreen((current) => !current)}
+            >
+              {isFullscreen ? <Minimize2 aria-hidden="true" /> : <Maximize2 aria-hidden="true" />}
+              <span>{isFullscreen ? 'Restaurar' : 'Tela cheia'}</span>
+            </button>
+            <button ref={closeButtonRef} type="button" className="question-image-zoom-close" aria-label="Fechar imagem ampliada" onClick={closeViewer}>
+              <X aria-hidden="true" />
+            </button>
+          </div>
         </header>
         <div ref={stageRef} className="question-image-zoom-stage" role="region" aria-label="Imagem ampliada. Use a rolagem para percorrer toda a imagem.">
           <div className="question-image-zoom-canvas" style={canvasStyle}>
