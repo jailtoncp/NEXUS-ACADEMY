@@ -69,3 +69,28 @@ A segunda bateria tem gabarito próprio, identificado como **“GABARITO 1.000 Q
 ## 5. Próxima etapa
 
 Fazer o inventário da segunda bateria por seção no corpo do PDF, conferir os itens visuais e as correspondências questão–gabarito e, em seguida, comparar os blocos não portugueses com os bancos atuais. Nenhuma questão deste PDF foi integrada até aqui.
+
+
+## 6. Etapa 2 iniciada — Raciocínio Lógico da segunda bateria
+
+Foi iniciado o cruzamento do primeiro bloco não português da segunda bateria:
+
+- **Intervalo:** questões 298–443.
+- **Quantidade indicada pelo gabarito:** 146 itens.
+- **Gabarito próprio:** página impressa 580 (continua na 581 para o fim do intervalo).
+- **Banco atual consultado:** `src/data/subjects/raciocinio-logico-question-bank.json` — 317 questões interativas no momento da consulta; o banco já possui inventário de fontes anteriores, inclusive um bloco de 210 questões de RLM de outra apostila.
+
+### Ocorrências detectadas na leitura inicial
+
+1. **Questões 298 e 330 — possível repetição do mesmo problema lógico.** Ambas apresentam a declaração do gerente de produção (“Se o funcionário é bem remunerado, então a produção é alta”), mas as alternativas foram apresentadas de forma diferente. O gabarito indica **298-A** e **330-D**. A questão 298-A corresponde à contrapositiva da condicional; a marcação 330-D não coincide com essa equivalência na transcrição consultada e precisa ser conferida visualmente no PDF antes de qualquer aproveitamento. Não importar nenhuma das duas até resolver a divergência.
+2. **Questões 301 e 326 — possível repetição de problema de associação lógica** envolvendo Ana, Beatriz e Cláudia, cores de blusas, calçados e quantidade de filhos. As alternativas e o gabarito devem ser cotejados lado a lado para confirmar se é duplicata integral ou reaproveitamento com mudanças.
+3. A leitura do corpo confirma que o bloco de RLM começa na questão 298, mas a extração em duas colunas exige conferência de cada enunciado e alternativa na página visual. Itens com figuras/tabelas não podem ser transcritos apenas pelo texto extraído.
+
+### Resultado desta etapa parcial
+
+- **Nenhuma questão importada ou publicada.**
+- **Nenhum banco existente foi alterado.**
+- A comparação integral das 146 questões com o banco atual ainda está pendente.
+- As divergências acima foram registradas como pontos de revisão, não como gabaritos corrigidos.
+
+A próxima ação é concluir a leitura visual e a deduplicação das questões 298–443; só depois será possível separar itens novos, duplicatas e itens que exigem revisão.
