@@ -4,7 +4,7 @@
     "questionsFoundIncludingDuplicates": 570,
     "duplicateQuestionsRemoved": 79,
     "uniqueQuestions": 491,
-    "interactiveReadyQuestions": 313,
+    "interactiveReadyQuestions": 315,
     "needsReviewQuestions": 176,
     "duplicateGroups": 59
   },
@@ -8140,6 +8140,56 @@
       "subtopicId": "sequencias-numericas",
       "difficulty": null,
       "source": "Apostila geral — seção Raciocínio Lógico (210 questões) — questão 177, PDF p. 260 / Apostila geral — seção Raciocínio Lógico (210 questões) — questão 96, PDF p. 249"
+    },
+    {
+      "id": "pp500-rlm-11",
+      "sourceNumber": 11,
+      "prompt": "Qual é o valor de 3/4 de 200?",
+      "options": {
+        "A": "100",
+        "B": "120",
+        "C": "130",
+        "D": "140",
+        "E": "150"
+      },
+      "answer": "E",
+      "comment": "3/4 de 200 = 200 × 3 ÷ 4 = 150. O gabarito impresso no material aponta B (120), mas esse resultado não corresponde ao cálculo; a resposta correta é E.",
+      "year": null,
+      "board": null,
+      "exam": "Polícia Penal",
+      "topic": "Frações",
+      "subtopic": "fração de uma quantidade",
+      "sourcePage": 55,
+      "issue": "Gabarito impresso divergente: indica B, mas 3/4 de 200 = 150 (E). Resposta corrigida por cálculo direto.",
+      "topicId": "matematica-basica",
+      "subtopicId": "fracoes",
+      "difficulty": null,
+      "source": "Caderno 500 questões PP — seção Raciocínio Lógico e Matemática Básica — questão 11, PDF p. 55"
+    },
+    {
+      "id": "pp500-rlm-14",
+      "sourceNumber": 14,
+      "prompt": "A média das idades: 30, 34, 26, 40 é:",
+      "options": {
+        "A": "30,2",
+        "B": "31",
+        "C": "32,5",
+        "D": "33",
+        "E": "35,4"
+      },
+      "answer": "C",
+      "comment": "A média aritmética é (30 + 34 + 26 + 40) ÷ 4 = 130 ÷ 4 = 32,5. O gabarito impresso aponta D (33), mas o cálculo confirma a alternativa C.",
+      "year": null,
+      "board": null,
+      "exam": "Polícia Penal",
+      "topic": "Média Aritmética",
+      "subtopic": "média simples",
+      "sourcePage": 56,
+      "issue": "Gabarito impresso divergente: indica D (33), mas a média correta é 32,5 (C). Resposta corrigida por cálculo direto.",
+      "topicId": "equacoes-medias",
+      "subtopicId": "equacoes-medias",
+      "difficulty": null,
+      "source": "Caderno 500 questões PP — seção Raciocínio Lógico e Matemática Básica — questão 14, PDF p. 56"
     }
   ]
 }
