@@ -405,3 +405,18 @@ A seção de Português foi reaberta no PDF original, em extração por colunas 
 **CI:** commit do módulo/banco b7eee7ca8f250f979be3412936f6dbf58fb55226; build e deploy do lote de Português serão confirmados após este commit.
 
 **Status do PDF 2:** INCOMPLETO. A auditoria continua pelos demais itens e disciplinas.
+
+
+## Etapa 19 — PDF 2: auditoria integral de Português e publicação do banco validado (2026-11-22)
+
+A extração por colunas e a conferência com o gabarito complementar foram concluídas para as 80 questões de Português (páginas impressas 1–13 da fonte; gabarito nas páginas impressas 103–109). A seção não foi importada em massa porque o gabarito apresenta várias letras desalinhadas ou incompatíveis com as questões, além de enunciados com múltiplas respostas possíveis.
+
+**Resultado final do bloco Português:** 65 questões integradas ao banco real de Português, com comentário e origem/página; 15 retidas para revisão editorial. Nenhuma questão do bloco ficou sem destino. As 15 retidas são: Q1 (mais de uma sequência correta), Q2 (mais de uma frase correta com crase), Q3 (mais de uma colocação pronominal possível), Q5 (mais de uma alternativa de regência defensável), Q10 (referente pronominal ambíguo), Q11 (A e E corretas), Q13 (A e C corretas), Q20 (mais de uma palavra corretamente grafada), Q21 (alternativas repetidas/defeito de elaboração), Q24 (concordância partitiva admite singular e plural), Q28 (mais de uma grafia correta segundo o Acordo Ortográfico), Q38 (mais de um tempo verbal possível sem contexto), Q44 (mais de uma alternativa recebe acento), Q65 (não há alternativa que descreva inequivocamente a ambiguidade pedida) e Q74 (pontuação/enunciado não corresponde à figura indicada).
+
+**Correções importantes no gabarito complementar:** Q16 (resposta correta A, “houve”, não B); Q18 (resposta correta A, não D); Q22 (B, não C); Q23 (A, não B); Q27 (B, não D); Q29 (C, não A); Q47 (B, não A); Q48 (A, não B); Q49 (B, não D); Q50 (C, não B); Q51 (B, não A); Q53 (A, não C); Q55 (A, não C); Q56 (C, não D); Q57 (A, não D); Q58 (A, não B); Q59 (B, não C); Q60 (E, com ressalva de regência formal). As respostas publicadas foram conferidas pela gramática/análise sintática, não copiadas cegamente do material.
+
+**Módulo:** Português agora disponibiliza 65 questões reais do PDF 2 + 35 autorais; 15 itens reais permanecem fora do treino e contabilizados em revisão. O banco real registra 80 localizadas, 65 integradas, 15 em revisão e zero pendentes de extração.
+
+**CI:** Actions run 45038528245; build e deploy concluídos com sucesso para o commit 4bc33bbdb227a84474de511e7a45861e19b9923d. O controle deste registro será publicado em commit subsequente.
+
+**Status de Português/PDF2:** BLOCO AUDITADO; 65 publicadas, 15 retidas com motivo. O PDF 2 como um todo permanece INCOMPLETO até a conclusão das outras sete disciplinas.
