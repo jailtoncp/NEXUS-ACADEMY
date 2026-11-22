@@ -10,6 +10,8 @@ import direitosHumanos from './subjects/direitos-humanos.js';
 import atualidades from './subjects/atualidades.js';
 import direitoAdministrativo from './subjects/direito-administrativo.js';
 import etica from './subjects/etica.js';
+import cienciasForenses from './subjects/ciencias-forenses.js';
+import direitoConstitucional from './subjects/direito-constitucional.js';
 
 export const activeSubjects = [
   portugues,
@@ -22,21 +24,19 @@ export const activeSubjects = [
   legislacaoEspecial,
   direitosHumanos,
   atualidades,
+  cienciasForenses,
+  direitoConstitucional,
   direitoAdministrativo,
   etica,
 ];
 
 export const developmentDisciplines = [];
 
-export const plannedDisciplines = [
-  'Direito Constitucional',
-  'Ciências Forenses',
-];
+export const plannedDisciplines = [];
 
 export const plannedStudyFeatures = [
   'Flashcards',
   'Revisão',
-  'Simulados',
 ];
 
 export const subjectByName = new Map(activeSubjects.map((subject) => [subject.name, subject]));

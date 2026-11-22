@@ -1,0 +1,352 @@
+[
+  {
+    "id": "teoria-estrutura-constitucional",
+    "order": 1,
+    "title": "Teoria e estrutura constitucional",
+    "summary": "Estrutura da Constituição e do ADCT, poder constituinte, reforma, classificações doutrinárias e posição normativa.",
+    "subtopics": [
+      {
+        "id": "estrutura-cf-adct",
+        "order": 1,
+        "title": "Estrutura da Constituição e do ADCT",
+        "content": "A Constituição de 1988 começa com um preâmbulo, contém o texto permanente — organizado em nove títulos, dos arts. 1º a 250 — e é acompanhada pelo Ato das Disposições Constitucionais Transitórias (ADCT). O ADCT integra o texto constitucional: não é lei infraconstitucional nem mero apêndice sem força normativa. Seus dispositivos estabelecem regras de transição e devem ser interpretados segundo seu próprio texto e contexto.\n\nNem toda disposição transitória permanece operativa indefinidamente. Algumas se exauriram em razão do tempo ou do cumprimento de seu objeto; outras continuam aplicáveis conforme sua redação e a interpretação pertinente. Por isso, é inadequado presumir que todo o ADCT perdeu vigência ou, no sentido oposto, que cada artigo ainda produz efeitos atuais. O preâmbulo, por sua vez, apresenta valores e propósitos, mas não cria por si só direitos e deveres autônomos; o STF afastou a obrigatoriedade de reprodução da expressão religiosa em constituições estaduais.",
+        "references": [
+          { "label": "Constituição Federal de 1988 — texto compilado, Planalto", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm" },
+          { "label": "ADCT — texto atualizado, Câmara dos Deputados", "url": "https://www2.camara.leg.br/legin/fed/conadc/1988/constituicao.adct-1988-5-outubro-1988-322234-normaatualizada-pl.pdf" },
+          { "label": "STF — ADI 2.076, preâmbulo constitucional", "url": "https://noticias.stf.jus.br/postsnoticias/pleno-mantem-supressao-da-frase-sob-a-protecao-de-deus-na-constituicao-do-acre/" }
+        ]
+      },
+      {
+        "id": "classificacoes-eficacia-constitucional",
+        "order": 2,
+        "title": "Classificações doutrinárias e eficácia das normas",
+        "content": "As classificações mais usadas em cursos são ferramentas doutrinárias, não uma taxonomia fechada escrita na Constituição. Entre os critérios, distinguem-se constituições escritas ou não escritas, promulgadas ou outorgadas, dogmáticas ou históricas, rígidas ou flexíveis e analíticas ou sintéticas. Nessa classificação convencional, a Constituição brasileira de 1988 é escrita, promulgada, dogmática, analítica e rígida, porque sua alteração segue procedimento mais exigente que o das leis ordinárias. Alguns autores usam ainda o rótulo “super-rígida”; não é denominação legal uniforme.\n\nTambém é doutrinária a classificação das normas em eficácia plena, contida e limitada. A aplicação imediata prevista no art. 5º, § 1º, para direitos e garantias fundamentais não significa que toda norma constitucional dispense concretização ou que normas dependentes de regulamentação não produzam efeito algum. Quando a falta total ou parcial de norma regulamentadora inviabiliza o exercício de direito, liberdade ou prerrogativa constitucional, a Constituição prevê o mandado de injunção, disciplinado pela Lei 13.300/2016.",
+        "references": [
+          { "label": "Constituição Federal de 1988 — arts. 5º, § 1º, e 60, Planalto", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm" },
+          { "label": "Lei nº 13.300/2016 — mandado de injunção", "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13300.htm" }
+        ]
+      },
+      {
+        "id": "poder-constituinte-tratados-hierarquia",
+        "order": 3,
+        "title": "Poder constituinte, reforma e posição normativa",
+        "content": "A distinção entre poder constituinte originário, que inaugura uma ordem constitucional, e poder derivado, que atua sob autorização e limites constitucionais, é uma síntese doutrinária. O art. 60 disciplina a reforma: a proposta deve partir de legitimado constitucional, ser aprovada em dois turnos em cada Casa por três quintos dos respectivos membros e ser promulgada pelas Mesas da Câmara e do Senado. Há limites circunstanciais, materiais e procedimentais; entre os núcleos protegidos contra propostas tendentes a aboli-los estão a Federação, o voto protegido, a separação dos Poderes e os direitos e garantias individuais.\n\nA Constituição é parâmetro superior das normas infraconstitucionais. Não há hierarquia entre normas constitucionais originárias que permita invalidar uma delas em face de outra; emendas, contudo, são produto do poder reformador e podem ser controladas por vícios formais ou materiais. Tratados de direitos humanos aprovados pelo rito qualificado do art. 5º, § 3º, equivalem a emendas constitucionais; segundo a orientação do STF, os demais tratados de direitos humanos têm caráter supralegal. A invocação do preâmbulo não altera essa hierarquia nem cria norma autônoma.",
+        "references": [
+          { "label": "Constituição Federal de 1988 — arts. 5º, §§ 2º e 3º, e 60, Planalto", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm" },
+          { "label": "STF — ADI 815, unidade hierárquico-normativa constitucional", "url": "https://portal.stf.jus.br/peticaoInicial/verPeticaoInicial.asp?base=ADI&numProcesso=815" },
+          { "label": "STF — RE 466.343 e status dos tratados de direitos humanos", "url": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=100258&ori=1" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "principios-fundamentais",
+    "order": 2,
+    "title": "Princípios fundamentais",
+    "summary": "Fundamentos da República, objetivos constitucionais, princípios das relações internacionais e separação dos Poderes.",
+    "subtopics": [
+      {
+        "id": "fundamentos-republica",
+        "order": 1,
+        "title": "Fundamentos da República e soberania popular",
+        "content": "O art. 1º define o Brasil como República Federativa, formada pela união indissolúvel dos Estados, Municípios e Distrito Federal, e como Estado Democrático de Direito. Seus cinco fundamentos são soberania, cidadania, dignidade da pessoa humana, valores sociais do trabalho e da livre iniciativa e pluralismo político. A enumeração deve ser distinguida dos objetivos fundamentais do art. 3º e dos princípios de relações internacionais do art. 4º.\n\nO parágrafo único do art. 1º afirma que todo poder emana do povo, que o exerce por representantes eleitos ou diretamente, nos termos constitucionais. Soberania, fundamento estatal, e titularidade popular do poder são ideias relacionadas, mas aparecem em lugares distintos e não devem ser tratadas como expressões intercambiáveis. O exercício direto também ocorre nos instrumentos e condições previstos na Constituição, não de modo irrestrito.",
+        "references": [
+          { "label": "Constituição Federal de 1988 — arts. 1º a 4º, Planalto", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm" },
+          { "label": "Constituição Federal — texto atualizado, Câmara dos Deputados", "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html" }
+        ]
+      },
+      {
+        "id": "objetivos-fundamentais",
+        "order": 2,
+        "title": "Objetivos fundamentais da República",
+        "content": "O art. 3º reúne quatro objetivos fundamentais: construir uma sociedade livre, justa e solidária; garantir o desenvolvimento nacional; erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais; e promover o bem de todos sem preconceitos de origem, raça, sexo, cor, idade ou outras formas de discriminação. São diretrizes constitucionais expressas para a atuação estatal e não devem ser confundidas com os fundamentos do art. 1º.\n\nA redação de cada inciso importa: o inciso III combina erradicar pobreza e marginalização com reduzir desigualdades, enquanto o inciso IV orienta a promoção do bem de todos sem discriminação. Esses objetivos orientam interpretação e políticas públicas, mas sua concretização depende das competências, normas e circunstâncias aplicáveis. A lista não significa que a Constituição imponha identidade de resultados em toda situação nem substitui a análise jurídica concreta.",
+        "references": [
+          { "label": "Constituição Federal de 1988 — art. 3º, Planalto", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm" },
+          { "label": "Constituição Federal — texto atualizado, Câmara dos Deputados", "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html" }
+        ]
+      },
+      {
+        "id": "relacoes-internacionais-separacao-poderes",
+        "order": 3,
+        "title": "Relações internacionais e separação dos Poderes",
+        "content": "O art. 4º estabelece dez princípios para as relações internacionais do Brasil: independência nacional, prevalência dos direitos humanos, autodeterminação dos povos, não intervenção, igualdade entre os Estados, defesa da paz, solução pacífica dos conflitos, repúdio ao terrorismo e ao racismo, cooperação entre os povos para o progresso da humanidade e concessão de asilo político. Seu parágrafo único acrescenta a diretriz de buscar integração econômica, política, social e cultural dos povos da América Latina; não é um inciso adicional.\n\nO art. 2º, por sua vez, estabelece Legislativo, Executivo e Judiciário como Poderes independentes e harmônicos. Independência não significa isolamento: a Constituição distribui funções e prevê controles recíprocos. A separação dos Poderes também é protegida contra propostas de emenda tendentes a abolir esse núcleo, sem que isso impeça os controles expressamente previstos no texto constitucional.",
+        "references": [
+          { "label": "Constituição Federal de 1988 — arts. 2º, 4º e 60, § 4º, Planalto", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm" },
+          { "label": "STF — ADI 6338/DF, cidadania e pluralismo em contexto eleitoral", "url": "https://jurisprudencia.stf.jus.br/pages/search/sjur481146/false" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "direitos-individuais-coletivos",
+    "order": 3,
+    "title": "Direitos individuais e coletivos",
+    "summary": "Direitos e garantias do art. 5º, liberdades, proteção da propriedade, segurança, dados e garantias processuais.",
+    "subtopics": [
+      {
+        "id": "igualdade-liberdades",
+        "order": 1,
+        "title": "Igualdade, legalidade e liberdades",
+        "content": "O caput do art. 5º protege vida, liberdade, igualdade, segurança e propriedade. A legalidade geral do inciso II determina que ninguém será obrigado a fazer ou deixar de fazer algo senão em virtude de lei; a legalidade penal do inciso XXXIX, mais específica, exige lei anterior que defina o crime e comine a pena. A Constituição também protege a manifestação do pensamento, vedado o anonimato, e assegura direito de resposta proporcional e indenização quando cabíveis.\n\nA liberdade de expressão intelectual, artística, científica e de comunicação é protegida sem censura ou licença, e consciência, crença e culto recebem proteção própria. Essas liberdades coexistem com outras garantias constitucionais e não são absolutas. A Constituição prevê consequências específicas para quem invoca convicção religiosa ou filosófica para se eximir de obrigação legal geral e também recusa prestação alternativa fixada em lei; não se deve omitir essa condição ao resumir o inciso VIII.",
+        "references": [
+          { "label": "Constituição Federal de 1988 — art. 5º, incisos I a IX, Planalto", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm" }
+        ]
+      },
+      {
+        "id": "intimidade-domicilio-dados",
+        "order": 2,
+        "title": "Privacidade, domicílio e proteção de dados pessoais",
+        "content": "O art. 5º protege intimidade, vida privada, honra e imagem, com direito à indenização por violação, e assegura a proteção de dados pessoais, inclusive nos meios digitais, no inciso LXXIX, inserido pela EC 115/2022. Essa proteção constitucional não significa que todo tratamento de dados seja proibido: sua realização depende das normas e fundamentos jurídicos aplicáveis.\n\nA casa é inviolável, mas o próprio inciso XI prevê exceções: consentimento do morador, flagrante delito, desastre ou prestação de socorro; por determinação judicial, o ingresso é permitido durante o dia. A exceção relativa à ordem judicial não equivale a autorização geral de entrada domiciliar em qualquer horário ou circunstância. O alcance concreto de direitos e exceções deve ser avaliado conforme o texto e o caso, sem transformar garantias em fórmulas absolutas.",
+        "references": [
+          { "label": "Constituição Federal de 1988 — art. 5º, X, XI e LXXIX, Planalto", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm" }
+        ]
+      },
+      {
+        "id": "reuniao-propriedade-devido-processo",
+        "order": 3,
+        "title": "Reunião, associação, propriedade e garantias processuais",
+        "content": "A reunião pacífica, sem armas, em local aberto ao público independe de autorização, mas exige prévio aviso e não pode frustrar reunião anteriormente convocada para o mesmo local. A liberdade de associação pressupõe fins lícitos, veda caráter paramilitar e impede associação ou permanência forçadas; suspensão e dissolução compulsórias dependem de decisão judicial, e a dissolução exige trânsito em julgado. A representação por entidade associativa em juízo ou fora dele requer autorização expressa dos filiados.\n\nA propriedade é garantida e deve cumprir função social; desapropriação, requisição em perigo público e respectivas indenizações seguem condições constitucionais próprias. O art. 5º também assegura acesso à Justiça, devido processo legal, contraditório e ampla defesa em processos judiciais e administrativos, inadmissibilidade de provas ilícitas e presunção de não culpabilidade até o trânsito em julgado de condenação penal. Embora a literalidade do inciso LXVII mencione depositário infiel, a Súmula Vinculante 25 do STF considera ilícita a prisão civil por essa causa em qualquer modalidade.",
+        "references": [
+          { "label": "Constituição Federal de 1988 — art. 5º, Planalto", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm" },
+          { "label": "STF — Súmula Vinculante 25", "url": "https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26&sumula=1268" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "remedios-constitucionais",
+    "order": 4,
+    "title": "Remédios constitucionais",
+    "summary": "Cabimento, objeto e diferenças entre habeas corpus, mandados, habeas data, ação popular, petição e certidões.",
+    "subtopics": [
+      {
+        "id": "hc-ms",
+        "order": 1,
+        "title": "Habeas corpus e mandado de segurança",
+        "content": "O habeas corpus protege a liberdade de locomoção diante de violência ou coação ilegal ou abusiva, atual ou ameaçada; não é instrumento genérico para qualquer controvérsia constitucional. Pode ser impetrado por qualquer pessoa em favor próprio ou de terceiro. A Constituição prevê ressalva quanto ao uso de HC contra punições disciplinares militares, que não deve ser confundida com imunidade geral desses atos a todo controle judicial de legalidade.\n\nO mandado de segurança protege direito líquido e certo não amparado por habeas corpus ou habeas data, quando ilegalidade ou abuso for atribuído a autoridade pública ou a agente no exercício de atribuições públicas. A liquidez e certeza dizem respeito à possibilidade de comprovar os fatos relevantes por prova pré-constituída, não à ausência de controvérsia jurídica. A Lei 12.016/2009 estabelece, entre outros requisitos, prazo decadencial de 120 dias da ciência do ato e hipóteses em que não cabe a via; não se usa MS contra lei em tese.",
+        "references": [
+          { "label": "Constituição Federal de 1988 — art. 5º, LXVIII e LXIX, Planalto", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm" },
+          { "label": "Lei nº 12.016/2009 — texto atualizado, Câmara dos Deputados", "url": "https://www2.camara.leg.br/legin/fed/lei/2009/lei-12016-7-agosto-2009-590271-normaatualizada-pl.html" },
+          { "label": "STF — Súmula 266", "url": "https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=2459" }
+        ]
+      },
+      {
+        "id": "habeas-data-mandado-injuncao",
+        "order": 2,
+        "title": "Habeas data e mandado de injunção",
+        "content": "O habeas data protege acesso a informações relativas à própria pessoa em registros ou bancos de dados governamentais ou de caráter público, além da retificação de dados e, nas condições legais, da anotação de explicação ou contestação. Não é substituto universal para pedido de informação pública sobre terceiros. A Lei 9.507/1997 prevê demonstração de recusa ou demora administrativa nos termos legais e o habeas data é gratuito.\n\nO mandado de injunção cabe quando a falta total ou parcial de norma regulamentadora torna inviável o exercício de direito ou liberdade constitucional ou de prerrogativa ligada à nacionalidade, soberania ou cidadania. Não serve para corrigir qualquer lacuna legislativa sem esse nexo. A Lei 13.300/2016 permite, reconhecida a mora, fixar prazo e estabelecer condições para exercício do direito se persistir a omissão; a eficácia é em regra entre as partes, com exceções legais quando extensão maior for necessária.",
+        "references": [
+          { "label": "Constituição Federal de 1988 — art. 5º, LXXI, LXXII e LXXVII, Planalto", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm" },
+          { "label": "Lei nº 9.507/1997 — habeas data", "url": "https://www.planalto.gov.br/ccivil_03/leis/l9507.htm" },
+          { "label": "Lei nº 13.300/2016 — mandado de injunção", "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13300.htm" }
+        ]
+      },
+      {
+        "id": "acao-popular-peticao-certidoes",
+        "order": 3,
+        "title": "Ação popular, direito de petição e certidões",
+        "content": "A ação popular permite ao cidadão buscar a anulação de ato lesivo ao patrimônio público ou de entidade de que o Estado participe, à moralidade administrativa, ao meio ambiente ou ao patrimônio histórico e cultural. A cidadania deve ser comprovada na forma legal; a Constituição isenta o autor de custas e sucumbência, salvo comprovada má-fé. A lesividade não se limita necessariamente a dano financeiro quantificável, pois a Constituição enumera também outros bens jurídicos.\n\nO direito de petição aos Poderes Públicos, sem pagamento de taxas, serve à defesa de direitos ou à denúncia de ilegalidade ou abuso. O direito a certidões em repartições públicas é assegurado para defesa de direitos e esclarecimento de situações de interesse pessoal. São garantias exercíveis perante o Poder Público, não ações judiciais da mesma natureza que os cinco remédios; a Lei 9.051/1995 prevê prazo de 15 dias para as certidões e órgãos que abrange, sem apagar possíveis diferenças de organização e protocolo locais.",
+        "references": [
+          { "label": "Constituição Federal de 1988 — art. 5º, XXXIV e LXXIII, Planalto", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm" },
+          { "label": "Lei nº 4.717/1965 — ação popular", "url": "https://www.planalto.gov.br/ccivil_03/leis/l4717.htm" },
+          { "label": "Lei nº 9.051/1995 — expedição de certidões", "url": "https://www.planalto.gov.br/ccivil_03/leis/l9051.htm" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "direitos-sociais-trabalhadores",
+    "order": 5,
+    "title": "Direitos sociais e dos trabalhadores",
+    "summary": "Direitos dos arts. 6º a 11, relações de trabalho, organização sindical, greve e participação dos trabalhadores.",
+    "subtopics": [
+      {
+        "id": "direitos-sociais-artigo-sexto",
+        "order": 1,
+        "title": "Direitos sociais e renda básica familiar",
+        "content": "O art. 6º enumera educação, saúde, alimentação, trabalho, moradia, transporte, lazer, segurança, previdência social, proteção à maternidade e à infância e assistência aos desamparados como direitos sociais. O parágrafo único prevê renda básica familiar a todo brasileiro em situação de vulnerabilidade social, em programa permanente, mas remete à lei a definição de normas e requisitos de acesso e exige observância fiscal e orçamentária.\n\nA previsão constitucional não significa pagamento automático, imediato e uniforme a qualquer pessoa em situação de vulnerabilidade. A Lei 14.601/2023 institui o Bolsa Família e disciplina elegibilidade e benefícios. O conteúdo constitucional estabelece o direito e a diretriz, enquanto os critérios de implementação devem ser lidos na legislação aplicável; não se deve confundir proteção social com benefício incondicionado sem requisitos.",
+        "references": [
+          { "label": "Constituição Federal de 1988 — art. 6º, Planalto", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm" },
+          { "label": "Lei nº 14.601/2023 — Programa Bolsa Família, arts. 5º e 6º", "url": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2023-06-19;14601!cap2_sec2" }
+        ]
+      },
+      {
+        "id": "direitos-trabalhadores-emenda-141",
+        "order": 2,
+        "title": "Direitos dos trabalhadores e transição da EC 141/2026",
+        "content": "O art. 7º contempla, entre outros direitos, salário mínimo, proteção salarial, décimo terceiro, remuneração do trabalho noturno, limites de jornada, repouso semanal, horas extras, férias acrescidas de um terço, licenças, segurança e saúde no trabalho e reconhecimento de instrumentos coletivos. A EC 141/2026 alterou os limites de jornada e o repouso semanal, estabelecendo como patamar final 40 horas semanais e dois dias de repouso remunerado, um preferencialmente aos domingos, sem redução salarial nominal, proporcional ou de qualquer espécie.\n\nA emenda prevê transição: 42 horas semanais e o novo repouso entram após dois meses da publicação, enquanto o patamar de 40 horas se aplica um ano depois desse marco. Em 20/11/2026, a transição ainda não alcançara o marco inicial de dois meses contado da publicação de 16/10/2026. A mudança não deve ser descrita como exigência já vigente de 40 horas naquela data, nem como escala universal obrigatória 5x2: a emenda prevê compensações, regimes diferenciados e exceções próprias.",
+        "references": [
+          { "label": "Constituição Federal de 1988 — art. 7º, Planalto", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm" },
+          { "label": "Emenda Constitucional nº 141, de 16/10/2026 — publicação oficial, Senado Federal", "url": "https://legis.senado.leg.br/norma/44184944/publicacao/44189027" }
+        ]
+      },
+      {
+        "id": "sindicato-greve-representacao",
+        "order": 3,
+        "title": "Liberdade sindical, greve e representação",
+        "content": "O art. 8º protege a liberdade sindical e veda autorização estatal para fundar sindicato, ressalvado o registro no órgão competente. A Constituição, contudo, adota unicidade sindical por categoria e base territorial não inferior a um Município. Filiação individual é voluntária, embora o sindicato represente os interesses da categoria; contribuição confederativa, contribuição sindical legal e contribuição assistencial têm regimes distintos e não devem ser confundidas.\n\nO art. 9º assegura o direito de greve e remete à lei a definição de serviços essenciais e atendimento de necessidades inadiáveis. Para trabalhadores abrangidos, a Lei 7.783/1989 disciplina aviso e serviços indispensáveis. No caso de servidores públicos civis, o STF reconheceu omissão legislativa e determinou aplicação analógica de leis de greve até disciplina específica; isso é solução jurisprudencial, não aplicação literal e automática de toda regra trabalhista a qualquer serviço público. Os arts. 10 e 11 preveem participação em colegiados quando interesses pertinentes forem discutidos e eleição de representante em empresas com mais de 200 empregados, sem substituir automaticamente o sindicato.",
+        "references": [
+          { "label": "Constituição Federal de 1988 — arts. 8º a 11 e art. 37, VII, Planalto", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm" },
+          { "label": "Lei nº 7.783/1989 — direito de greve", "url": "https://www.planalto.gov.br/ccivil_03/leis/l7783.htm" },
+          { "label": "STF — casos relevantes MI 670 e MI 708, greve de servidores", "url": "https://portal.stf.jus.br/arquivo/livraria/Casos_Relevantes.pdf" },
+          { "label": "STF — Tema 935 da repercussão geral", "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=5112803&numeroProcesso=1018459&classeProcesso=ARE&numeroTema=935" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nacionalidade-direitos-politicos",
+    "order": 6,
+    "title": "Nacionalidade e direitos políticos",
+    "summary": "Brasileiros natos e naturalizados, extradição, alistamento, elegibilidade, inelegibilidades e partidos políticos.",
+    "subtopics": [
+      {
+        "id": "nacionalidade-cargos-perda",
+        "order": 1,
+        "title": "Nacionalidade, distinções constitucionais e perda",
+        "content": "A Constituição define quem é brasileiro nato ou naturalizado e só admite distinção entre eles nos casos expressamente previstos. A lista de cargos privativos de brasileiro nato do art. 12, § 3º, é taxativa. O estatuto de igualdade atribuído a portugueses residentes permanentemente, se houver reciprocidade, não os transforma em brasileiros natos ou naturalizados.\n\nApós a EC 131/2023, adquirir outra nacionalidade não causa, por si só, perda automática da nacionalidade brasileira. A perda pode decorrer do cancelamento judicial da naturalização nas hipóteses constitucionais ou de pedido expresso perante autoridade brasileira competente, desde que não produza apatridia; a lei pode disciplinar a reaquisição da nacionalidade originária. É importante não reproduzir resumos anteriores à emenda como se ainda fossem regra vigente.",
+        "references": [
+          { "label": "Constituição Federal — texto atualizado, arts. 12 e 13, Câmara dos Deputados", "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html" },
+          { "label": "EC nº 131/2023 — Planalto", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc131.htm" },
+          { "label": "Ministério da Justiça — perda da nacionalidade brasileira", "url": "https://www.gov.br/mj/pt-br/assuntos/seus-direitos/migracoes/nacionalidade/o-que-e-perda-de-nacionalidade/perda-da-nacionalidade-brasileira" }
+        ]
+      },
+      {
+        "id": "extradicao-brasileiros-estrangeiros",
+        "order": 2,
+        "title": "Extradição e limites constitucionais",
+        "content": "Extradição é forma de cooperação penal e não se confunde com perda de nacionalidade. Brasileiro nato não pode ser extraditado. Brasileiro naturalizado pode sê-lo por crime comum praticado antes da naturalização ou por comprovado envolvimento em tráfico ilícito de entorpecentes, na forma da lei. A Constituição também veda extraditar estrangeiro por crime político ou de opinião.\n\nA Lei de Migração prevê impedimentos e requisitos, como dupla tipicidade e outras condições legais, e exige pronunciamento prévio do STF sobre legalidade e procedência. A nacionalidade, portanto, é apenas parte da análise: não é correto afirmar que adquirir outra nacionalidade autoriza automaticamente extradição, nem que a impossibilidade de extraditar brasileiro nato implique imunidade penal no Brasil.",
+        "references": [
+          { "label": "Constituição Federal — art. 5º, LI e LII, Planalto", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm" },
+          { "label": "Lei nº 13.445/2017 — publicação oficial, Senado Federal, arts. 81 a 90", "url": "https://legis.senado.leg.br/norma/17696552/publicacao/17696561" },
+          { "label": "STF — vedação de extradição de brasileiro nato", "url": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=361130&ori=1" }
+        ]
+      },
+      {
+        "id": "direitos-politicos-partidos",
+        "order": 3,
+        "title": "Alistamento, elegibilidade e partidos políticos",
+        "content": "O art. 14 prevê sufrágio universal, voto direto e secreto e instrumentos de participação popular. Alistamento e voto são obrigatórios para maiores de 18 anos e facultativos para analfabetos, maiores de 70 e pessoas de 16 a 18 anos; a Constituição veda alistamento a estrangeiros e conscritos durante serviço militar obrigatório, com ressalva reconhecida para portugueses com igualdade de direitos e residência permanente. Elegibilidade exige condições cumulativas, como nacionalidade brasileira, pleno exercício dos direitos políticos, alistamento, domicílio eleitoral, filiação partidária e idade mínima pertinente.\n\nInelegibilidades constitucionais e legais têm pressupostos e prazos diversos; não se deve resumir todas as causas como um único período. A LC 219/2025 alterou marcos e instituiu o Requerimento de Declaração de Elegibilidade, regulamentado pelo TSE para 2026. Partidos têm liberdade de organização nos limites constitucionais, precisam de caráter nacional e registro, e a filiação é condição de elegibilidade. Coligações são vedadas nas eleições proporcionais; federação partidária não é sinônimo de coligação.",
+        "references": [
+          { "label": "Constituição Federal — arts. 14 a 17, Câmara dos Deputados", "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html" },
+          { "label": "TSE — português com igualdade de direitos", "url": "https://temasselecionados.tse.jus.br/temas-selecionados/inelegibilidades-e-condicoes-de-elegibilidade/parte-i-inelegibilidades-e-condicoes-de-elegibilidade/nacionalidade/portugues-com-igualdade-de-direitos" },
+          { "label": "LC nº 219/2025 — TSE", "url": "https://www.tse.jus.br/legislacao/compilada/lei/complementar/lei-complementar-no-219-de-29-de-setembro-de-2025" },
+          { "label": "Lei dos Partidos Políticos — texto compilado, TSE", "url": "https://www.tse.jus.br/legislacao/codigo-eleitoral/lei-dos-partidos-politicos/lei-dos-partidos-politicos-lei-nb0-9.096-de-19-de-setembro-de-1995" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "organizacao-do-estado",
+    "order": 7,
+    "title": "Organização do Estado",
+    "summary": "Federação, autonomia dos entes, repartição de competências e intervenção como medida excepcional.",
+    "subtopics": [
+      {
+        "id": "entes-federativos-autonomia",
+        "order": 1,
+        "title": "Federação e autonomia dos entes",
+        "content": "A organização político-administrativa brasileira compreende União, Estados, Distrito Federal e Municípios, todos autônomos nos termos da Constituição. Autonomia não equivale a soberania: cada ente exerce competências próprias dentro da ordem constitucional. Territórios Federais, se existentes, integram a União e não são enumerados como entes autônomos no art. 18; Brasília é a Capital Federal.\n\nO pacto federativo combina unidade e diversidade, com competências e mecanismos de cooperação definidos constitucionalmente. Nenhum ente pode simplesmente afastar limites constitucionais sob alegação de autonomia. A estrutura federal e a autonomia local devem ser analisadas à luz do texto constitucional, sem generalizar regras de uma Constituição estadual ou Lei Orgânica para todo o País.",
+        "references": [
+          { "label": "Constituição Federal de 1988 — arts. 18 a 36, Planalto", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm" }
+        ]
+      },
+      {
+        "id": "competencias-federativas",
+        "order": 2,
+        "title": "Repartição de competências legislativas e administrativas",
+        "content": "A Constituição distribui competências de naturezas diferentes. O art. 23 trata de competências administrativas comuns; o art. 24 prevê competência legislativa concorrente da União, dos Estados e do Distrito Federal, cabendo à União normas gerais e aos demais suplementação. Na falta de norma geral federal, Estados podem exercer competência plena para suas peculiaridades; sobrevindo norma federal, fica suspensa a eficácia da lei estadual apenas no que lhe for contrário.\n\nO art. 22 reserva matérias legislativas à União e admite delegação aos Estados, por lei complementar, sobre questões específicas. Municípios legislam sobre interesse local e suplementam normas federais e estaduais no que couber. A competência municipal não é irrestrita nem prevalece automaticamente: no Tema 145, o STF delimitou a atuação local sobre meio ambiente à harmonia com a disciplina dos demais entes.",
+        "references": [
+          { "label": "Constituição Federal de 1988 — arts. 22 a 24 e 30, Planalto", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm" },
+          { "label": "STF — Tema 145 da repercussão geral", "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=2616565&numeroProcesso=586224&classeProcesso=RE&numeroTema=145" }
+        ]
+      },
+      {
+        "id": "intervencao-federativa",
+        "order": 3,
+        "title": "Intervenção federal e estadual",
+        "content": "A regra constitucional é a não intervenção; a União só pode intervir nos Estados ou no Distrito Federal, e os Estados em seus Municípios, nas hipóteses expressamente previstas nos arts. 34 e 35. A União somente intervém em Município localizado em Território Federal. A intervenção é medida excepcional, não mecanismo geral de supervisão política de outro ente.\n\nO art. 36 disciplina procedimento e decreto, que deve especificar amplitude, prazo e condições. Em regra, o ato é submetido ao Legislativo competente em 24 horas; a Constituição prevê hipóteses em que essa apreciação é dispensada quando a suspensão do ato impugnado bastar para restabelecer a normalidade. A medida deve respeitar a hipótese autorizadora e o rito constitucional, não sendo possível presumir poderes interventivos fora desses limites.",
+        "references": [
+          { "label": "Constituição Federal de 1988 — arts. 34 a 36, Planalto", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm" },
+          { "label": "STF — competência federativa no enfrentamento da Covid-19, ADI 6341", "url": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=441447&tip=UN" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "poderes-da-republica",
+    "order": 8,
+    "title": "Poderes da República",
+    "summary": "Funções típicas e atípicas, competências e controles constitucionais entre Legislativo, Executivo e Judiciário.",
+    "subtopics": [
+      {
+        "id": "legislativo-congresso-controle",
+        "order": 1,
+        "title": "Poder Legislativo e fiscalização",
+        "content": "O Congresso Nacional é bicameral: Câmara dos Deputados e Senado Federal. A Câmara representa o povo pelo sistema proporcional; o Senado representa os Estados e o Distrito Federal. Além de legislar, o Congresso exerce competências de controle político e financeiro, como fiscalizar atos do Executivo, julgar contas presidenciais e sustar atos normativos do Executivo que excedam o poder regulamentar ou os limites da delegação.\n\nHá funções não legislativas expressamente atribuídas às Casas, como o julgamento pelo Senado de autoridades em crimes de responsabilidade, dentro dos limites constitucionais. O veto presidencial é etapa do processo legislativo, não decisão final: pode ser apreciado pelo Congresso segundo quórum constitucional. Esses mecanismos ilustram freios e contrapesos sem eliminar a independência e harmonia entre os Poderes.",
+        "references": [
+          { "label": "Constituição Federal — texto atualizado, arts. 44 a 75, Câmara dos Deputados", "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html" },
+          { "label": "Constituição Federal de 1988 — Planalto", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm" }
+        ]
+      },
+      {
+        "id": "executivo-processo-legislativo",
+        "order": 2,
+        "title": "Poder Executivo e atribuições constitucionais",
+        "content": "O Poder Executivo exerce, entre outras, a função de direção da Administração e as competências presidenciais previstas na Constituição. Algumas atribuições têm caráter atípico, mas são constitucionalmente delimitadas. A medida provisória, por exemplo, pode ser editada pelo Presidente em caso de relevância e urgência, tem força de lei e se submete à apreciação do Congresso; a Constituição também exclui matérias específicas de seu âmbito.\n\nO Presidente pode sancionar ou vetar projetos de lei, e o Congresso pode apreciar o veto nos termos constitucionais. Também pode receber delegação legislativa conforme o art. 68. Não se deve tratar essas competências como autorização geral para legislar fora dos procedimentos previstos, nem como atos imunes a controle. A separação funcional convive com fiscalização e controles recíprocos expressamente instituídos.",
+        "references": [
+          { "label": "Constituição Federal — texto atualizado, arts. 62, 66, 68 e 76 a 91, Câmara dos Deputados", "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html" },
+          { "label": "STF — julgamento da ADI 5.874 sobre indulto presidencial", "url": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=413857" }
+        ]
+      },
+      {
+        "id": "judiciario-mp-controles",
+        "order": 3,
+        "title": "Poder Judiciário, Ministério Público e controles recíprocos",
+        "content": "A jurisdição é função típica do Poder Judiciário, e a Constituição atribui precipuamente ao Supremo Tribunal Federal a guarda da Constituição. A composição do STF também exemplifica controle entre Poderes: o Presidente nomeia os ministros após aprovação da escolha pela maioria absoluta do Senado. A atuação jurisdicional segue competências e garantias definidas constitucionalmente.\n\nO Ministério Público não é um quarto Poder: a Constituição o disciplina entre as Funções Essenciais à Justiça e o define como instituição permanente, com autonomia funcional e administrativa. Não integra o Judiciário nem se subordina ao Executivo. Em conjunto, as regras sobre controle legislativo, veto, nomeações e jurisdição demonstram que independência não significa ausência de limites, e que cada controle deve ter fundamento constitucional próprio.",
+        "references": [
+          { "label": "Constituição Federal — texto atualizado, arts. 92 a 103 e 127 a 135, Câmara dos Deputados", "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html" },
+          { "label": "Constituição Federal de 1988 — Planalto", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "administracao-publica-constitucional",
+    "order": 9,
+    "title": "Administração Pública constitucional",
+    "summary": "Princípios constitucionais, acesso a cargos, acumulação, responsabilidade estatal e garantias dos servidores.",
+    "subtopics": [
+      {
+        "id": "principios-administracao-publica",
+        "order": 1,
+        "title": "Princípios e publicidade administrativa",
+        "content": "O art. 37 submete a Administração direta e indireta de todos os Poderes e entes federativos aos princípios da legalidade, impessoalidade, moralidade, publicidade e eficiência. A publicidade institucional deve ter caráter educativo, informativo ou de orientação social e não pode incluir nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores.\n\nEsses princípios vinculam a atuação administrativa, mas sua aplicação depende da situação concreta e do restante do texto constitucional e legal. A Constituição estabelece um núcleo comum nacional; normas de organização e regimes funcionais podem variar conforme o ente e a legislação aplicável. Assim, exemplos de estatutos estaduais ou de carreiras específicas não devem ser apresentados como regra uniforme para toda a Administração Pública brasileira.",
+        "references": [
+          { "label": "Constituição Federal — texto atualizado, arts. 37 a 41, Câmara dos Deputados", "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html" }
+        ]
+      },
+      {
+        "id": "concurso-agentes-acumulacao",
+        "order": 2,
+        "title": "Agentes públicos, concurso e acumulação de cargos",
+        "content": "Como regra, a investidura em cargo ou emprego público depende de concurso de provas ou de provas e títulos; a exceção constitucional inclui nomeação para cargo em comissão declarado em lei. Funções de confiança são exercidas exclusivamente por ocupantes de cargo efetivo, e cargos em comissão destinam-se a direção, chefia e assessoramento. Não se pode usar provimento ou transposição para permitir ingresso em cargo diverso sem concurso correspondente.\n\nA acumulação remunerada é vedada como regra. Com compatibilidade de horários e respeito ao teto, a Constituição admite dois cargos de professor; um cargo de professor com outro de qualquer natureza; ou dois cargos/empregos privativos de profissionais de saúde com profissões regulamentadas. A hipótese de professor com outro cargo reflete a EC 138/2025. As vedações alcançam empregos e funções na Administração indireta; requisitos e regimes específicos devem ser conferidos na legislação aplicável, sem generalizar estatutos locais.",
+        "references": [
+          { "label": "Constituição Federal — texto atualizado, art. 37, incisos II, V, XI e XVI a XVII, Câmara dos Deputados", "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html" },
+          { "label": "STF — Súmula Vinculante 43", "url": "https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26&sumula=2348" },
+          { "label": "STF — Tema 384 da repercussão geral", "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=2694206&numeroProcesso=602043&classeProcesso=RE&numeroTema=384" }
+        ]
+      },
+      {
+        "id": "responsabilidade-estabilidade-servidor",
+        "order": 3,
+        "title": "Responsabilidade civil do Estado e estabilidade",
+        "content": "Pessoas jurídicas de direito público e pessoas jurídicas de direito privado prestadoras de serviço público respondem objetivamente pelos danos que seus agentes, nessa qualidade, causarem a terceiros. A Constituição assegura ação regressiva contra o agente quando houver dolo ou culpa. Segundo o STF, a ação indenizatória deve ser dirigida à pessoa jurídica responsável, sem prejuízo de eventual regresso contra o agente, e não se deve confundir responsabilidade objetiva estatal com responsabilidade pessoal automática.\n\nAdquire estabilidade após três anos de efetivo exercício o servidor nomeado para cargo efetivo por concurso, condicionada à avaliação especial de desempenho. A perda do cargo estável só ocorre nas hipóteses constitucionais e com as garantias procedimentais previstas, como sentença transitada em julgado, processo administrativo com ampla defesa ou avaliação periódica na forma de lei complementar. A estabilidade não se estende automaticamente a todo agente público ou empregado público.",
+        "references": [
+          { "label": "Constituição Federal — texto atualizado, arts. 37, § 6º, e 41, Câmara dos Deputados", "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html" },
+          { "label": "STF — Tema 940 da repercussão geral", "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=5136782&numeroProcesso=1027633&classeProcesso=RE&numeroTema=940" }
+        ]
+      }
+    ]
+  }
+]
