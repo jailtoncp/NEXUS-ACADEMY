@@ -12,7 +12,7 @@ Atualizado em 22/11/2026. Este controle acompanha os nove PDFs do arquivo origin
 | 6 | `Exercicios_Portuguesa.pdf` | **Triagem concluída — fora do escopo** | 97 páginas; questões numeradas até 1009. Conteúdo exclusivamente de Português. Nenhuma questão importada; ver auditoria do PDF 6. |
 | 7 | `Gabarito.pdf` | **Triagem concluída — fora do escopo** | Gabarito complementar do PDF 6, com respostas até a questão 1009 e algumas entradas especiais/anuladas. Nenhum gabarito aplicado ao site; ver auditoria do PDF 7. |
 | 8 | `apostila .pdf` | **Concluído — triagem documental; sem integração** | 590 páginas; duas baterias inventariadas; gabaritos localizados; segunda bateria visualmente percorrida. Nenhuma questão importada; validação individual e integração permanecem para uma rodada futura por blocos menores. Ver auditoria do PDF 8. |
-| 9 | `APOSTILA 2000_241008_080545 (1).pdf` | **Em análise** | 335 páginas; caderno PM-SP/VUNESP publicado em 2021. Inventariadas 5 disciplinas e 1.886 posições de gabarito; capa anuncia 2.000, diferença de 114 ainda precisa ser esclarecida. Português fora do escopo; 1.220 itens não portugueses aguardam revisão. Ver auditoria do PDF 9. |
+| 9 | `APOSTILA 2000_241008_080545 (1).pdf` | **Em análise — Matemática** | 335 páginas; inventariadas 1.886 posições de gabarito. Revisadas as questões 1–25 de Matemática: 17 resolvidas e conferidas com o gabarito; 7 dependem de gráficos e aguardam inspeção visual; duplicidade ainda em análise. Nenhuma questão importada. Ver auditoria do PDF 9. |
 
 ## Regras preservadas
 
