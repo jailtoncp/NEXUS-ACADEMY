@@ -1,0 +1,152 @@
+{
+  "metrics": {
+    "sourceFile": "500_questoes_comentadas_de_pp.pdf",
+    "sourceSection": "Ética e Noções de Administração Pública",
+    "questionsLocated": 6,
+    "questionsIntegrated": 6,
+    "duplicates": 0,
+    "questionsInReview": 0,
+    "questionsPending": 0,
+    "answerKeySource": "gabarito_comentado.pdf; revisão independente."
+  },
+  "questions": [
+    {
+      "id": "ETICA-PP500-006",
+      "origin": "real",
+      "sourceNumber": 6,
+      "topicId": "etica",
+      "subtopicId": "conflito-interesses",
+      "difficulty": "easy",
+      "prompt": "Configura conflito de interesses para um agente penitenciário:",
+      "options": {
+        "A": "orientar decisão com base em normas técnicas.",
+        "B": "atuar em processo que beneficie membro da própria família.",
+        "C": "recusar-se a receber vantagem indevida.",
+        "D": "denunciar irregularidade no setor.",
+        "E": "cumprir escalas de serviço."
+      },
+      "answer": "B",
+      "comment": "Atuar em processo no qual exista interesse pessoal ou familiar capaz de comprometer a imparcialidade caracteriza conflito de interesses. A situação deve ser comunicada e o agente deve se afastar da decisão, conforme a legislação e o regime ético aplicáveis.",
+      "board": null,
+      "year": null,
+      "exam": "Polícia Penal",
+      "sourcePage": 35,
+      "source": "Caderno 500 questões PP — Ética e Noções de Administração Pública — questão 6, p. 35. Resposta validada com legislação e princípios administrativos vigentes."
+    },
+    {
+      "id": "ETICA-PP500-008",
+      "origin": "real",
+      "sourceNumber": 8,
+      "topicId": "etica",
+      "subtopicId": "conduta-servidor",
+      "difficulty": "easy",
+      "prompt": "Código de Ética de uma corporação policial penal normalmente exige:",
+      "options": {
+        "A": "sigilo absoluto mesmo quando previsto em lei acesso por familiares.",
+        "B": "lealdade institucional, profissionalismo e respeito aos direitos humanos.",
+        "C": "subversão de hierarquia quando conveniente.",
+        "D": "favorecimento político em processos disciplinares.",
+        "E": "discriminação como prática administrativa lícita."
+      },
+      "answer": "B",
+      "comment": "Códigos de ética e deveres funcionais exigem lealdade institucional, profissionalismo, imparcialidade e respeito aos direitos humanos. Sigilo não é absoluto: deve ceder diante de deveres legais de informação e controle.",
+      "board": null,
+      "year": null,
+      "exam": "Polícia Penal",
+      "sourcePage": 36,
+      "source": "Caderno 500 questões PP — Ética e Noções de Administração Pública — questão 8, p. 36. Resposta validada com legislação e princípios administrativos vigentes."
+    },
+    {
+      "id": "ETICA-PP500-021",
+      "origin": "real",
+      "sourceNumber": 21,
+      "topicId": "etica",
+      "subtopicId": "conduta-servidor",
+      "difficulty": "easy",
+      "prompt": "Um policial penal que compartilha, em rede social pessoal, conteúdo que discrimina pessoas com base em raça incorre em:",
+      "options": {
+        "A": "exercício pleno da liberdade sem consequências.",
+        "B": "violação de preceitos éticos e disciplinares, sujeitando-se a apuração.",
+        "C": "imunidade absoluta.",
+        "D": "exoneração automática sem processo.",
+        "E": "vantagem para promoção."
+      },
+      "answer": "B",
+      "comment": "A liberdade de expressão não protege discriminação ilícita nem afasta deveres funcionais. A conduta pode ensejar apuração disciplinar, com contraditório e ampla defesa; não há exoneração automática.",
+      "board": null,
+      "year": null,
+      "exam": "Polícia Penal",
+      "sourcePage": 38,
+      "source": "Caderno 500 questões PP — Ética e Noções de Administração Pública — questão 21, p. 38. Resposta validada com legislação e princípios administrativos vigentes."
+    },
+    {
+      "id": "ETICA-PP500-025",
+      "origin": "real",
+      "sourceNumber": 25,
+      "topicId": "etica",
+      "subtopicId": "conduta-servidor",
+      "difficulty": "easy",
+      "prompt": "O sigilo profissional do agente penitenciário abrange:",
+      "options": {
+        "A": "divulgação irrestrita de dados sensíveis.",
+        "B": "proteção de informações que possam colocar em risco segurança ou a intimidade dos custodiados.",
+        "C": "ocultação de irregularidade grave ao público.",
+        "D": "uso político de informações investigativas.",
+        "E": "venda de dados a terceiros."
+      },
+      "answer": "B",
+      "comment": "O agente deve proteger dados sensíveis e informações cuja divulgação possa comprometer a segurança ou a intimidade dos custodiados. O sigilo não autoriza ocultar irregularidades nem descumprir deveres legais de comunicação e controle.",
+      "board": null,
+      "year": null,
+      "exam": "Polícia Penal",
+      "sourcePage": 39,
+      "source": "Caderno 500 questões PP — Ética e Noções de Administração Pública — questão 25, p. 39. Resposta validada com legislação e princípios administrativos vigentes."
+    },
+    {
+      "id": "ETICA-PP500-035",
+      "origin": "real",
+      "sourceNumber": 35,
+      "topicId": "etica",
+      "subtopicId": "conduta-servidor",
+      "difficulty": "easy",
+      "prompt": "Atender pedido de familiar para vantagem indevida configura:",
+      "options": {
+        "A": "cumprimento de dever público.",
+        "B": "conflito ético e conduta vedada, sujeita a sanção.",
+        "C": "ato neutro sem consequências.",
+        "D": "prerrogativa do gestor.",
+        "E": "benefício para a coletividade."
+      },
+      "answer": "B",
+      "comment": "O agente não pode usar o cargo para obter ou conceder vantagem indevida a familiares. A conduta pode configurar infração ética, disciplinar e, conforme os fatos, ilícito civil ou penal.",
+      "board": null,
+      "year": null,
+      "exam": "Polícia Penal",
+      "sourcePage": 40,
+      "source": "Caderno 500 questões PP — Ética e Noções de Administração Pública — questão 35, p. 40. Resposta validada com legislação e princípios administrativos vigentes."
+    },
+    {
+      "id": "ETICA-PP500-040",
+      "origin": "real",
+      "sourceNumber": 40,
+      "topicId": "etica",
+      "subtopicId": "etica-direitos-humanos",
+      "difficulty": "easy",
+      "prompt": "Em unidades prisionais, adoção de práticas compatíveis com direitos humanos inclui:",
+      "options": {
+        "A": "tratamento degradante para controle.",
+        "B": "garantia de condições dignas, acesso à saúde, alimentação e respeito à integridade.",
+        "C": "proibição de qualquer assistência educacional.",
+        "D": "isolamento absoluto sem regulamentos.",
+        "E": "uso permanente de tortura institucional."
+      },
+      "answer": "B",
+      "comment": "A gestão prisional deve assegurar dignidade, alimentação, assistência à saúde e respeito à integridade física e moral das pessoas custodiadas. A segurança deve ser compatibilizada com os direitos fundamentais.",
+      "board": null,
+      "year": null,
+      "exam": "Polícia Penal",
+      "sourcePage": 41,
+      "source": "Caderno 500 questões PP — Ética e Noções de Administração Pública — questão 40, p. 41. Resposta validada com legislação e princípios administrativos vigentes."
+    }
+  ]
+}
