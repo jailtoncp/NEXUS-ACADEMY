@@ -22,6 +22,7 @@ import {
   resolveFinishTiming,
   validateCustomQuotas,
 } from '../lib/simulatedExam.js';
+import QuestionImageZoom from './QuestionImageZoom.jsx';
 import './simulados.css';
 
 const DEFAULT_TOTAL = 50;
@@ -343,7 +344,7 @@ function SimuladosPage() {
               </aside>
             )}
             <h2 id="sim-question-prompt">{question.prompt}</h2>
-            {promptImages.length > 0 && <div className="sim-question-images" aria-label="Figuras e diagramas da questão">{promptImages.map((image, imageIndex) => <figure key={`${image.src || image.path || imageIndex}-${imageIndex}`}><img src={imageSource(image)} alt={image.alt || `Imagem ${imageIndex + 1} da questão`} loading="lazy" decoding="async" />{image.caption && <figcaption>{image.caption}</figcaption>}</figure>)}</div>}
+            {promptImages.length > 0 && <div className="sim-question-images" aria-label="Figuras e diagramas da questão">{promptImages.map((image, imageIndex) => <QuestionImageZoom key={`${image.src || image.path || imageIndex}-${imageIndex}`} src={imageSource(image)} alt={image.alt || `Imagem ${imageIndex + 1} da questão`} caption={image.caption} figureClassName="sim-question-image-figure" />)}</div>}
             <div className="sim-answer-options" role="group" aria-label="Alternativas">
               {Object.entries(question.options || {}).map(([key, value]) => {
                 const optionImages = (question.images || []).filter((image) => image.location === 'option' && image.optionKey === key && imageSource(image));

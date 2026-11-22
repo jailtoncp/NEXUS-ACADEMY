@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { ArrowLeft, ArrowRight, ArrowUpRight, BookOpen, Check, ChevronDown, CircleHelp, Clock3, ListChecks, Maximize2, Minimize2, RotateCcw, Star } from 'lucide-react';
 import { appendAnswerAttempt, readAnswerHistory } from '../lib/answerHistory.js';
 import { isQuestionFavorite, readFavoriteItems, toggleQuestionFavorite } from '../lib/favorites.js';
+import QuestionImageZoom from './QuestionImageZoom.jsx';
 import './discipline-module.css';
 
 function getSubtopic(subject, topicId, subtopicId) {
@@ -342,7 +343,7 @@ function QuestionRunner({ questions, topic, topics, subjectName, disciplineId, h
           {question.legalUpdateNote && <p role="note"><strong>Aviso de atualização legislativa:</strong> {question.legalUpdateNote}</p>}
         </aside>
       )}
-      {promptImages.length > 0 && <div className="question-figures" aria-label="Figuras e diagramas da questão">{promptImages.map((image, imageIndex) => <figure className="question-figure" key={`${image.src || image.imageIndex || imageIndex}-${imageIndex}`}><img src={imageSrc(image)} alt={image.alt || `Imagem ${imageIndex + 1} da questão`} loading="lazy" decoding="async" />{image.caption && <figcaption>{image.caption}</figcaption>}</figure>)}</div>}
+      {promptImages.length > 0 && <div className="question-figures" aria-label="Figuras e diagramas da questão">{promptImages.map((image, imageIndex) => <QuestionImageZoom key={`${image.src || image.imageIndex || imageIndex}-${imageIndex}`} src={imageSrc(image)} alt={image.alt || `Imagem ${imageIndex + 1} da questão`} caption={image.caption} />)}</div>}
       <div className="answer-options" role="radiogroup" aria-label="Alternativas">
         {Object.entries(question.options).map(([key, text]) => {
           const isCorrect = submitted && key === question.answer;
