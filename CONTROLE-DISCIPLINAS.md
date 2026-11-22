@@ -3,6 +3,27 @@
 **Atualizado em:** 2026-11-17
 **Escopo desta etapa:** integração das cinco disciplinas do ZIP `atualizaçãonexus.zip` e complementos solicitados de Criminologia e Raciocínio Lógico, preservando os recursos atuais do site.
 
+## Diretriz permanente — auditoria de questões de todas as disciplinas (2026-11-22)
+
+A partir desta etapa, **todo o acervo de PDFs e materiais enviados deve ser auditado considerando todas as disciplinas**, sem limitar a triagem às matérias que já possuem módulo ou conteúdo teórico no NEXUS. A cobertura inclui:
+
+- Todas as disciplinas já integradas ao NEXUS, incluindo Português e Informática em **todas** as auditorias, mesmo quando o PDF aparentar ser de outra matéria.
+- Disciplinas ainda não cadastradas ou sem conteúdo teórico, como História, Geografia, Matemática e outras matérias que apareçam no acervo ou sejam pertinentes aos concursos.
+- Quando houver questões de uma disciplina ainda não existente, criar sua entrada/módulo de questões no catálogo, mesmo que inicialmente seja **somente banco de questões**, sem teoria. O conteúdo de estudo será desenvolvido em etapa posterior.
+- Registrar por fonte e por disciplina: questões localizadas, integradas, repetidas, pendentes, descartadas e motivo; preservar gabarito, banca/ano, página e origem quando o material fornecer esses dados.
+- Não considerar uma fonte completa apenas porque foi lida ou porque suas questões foram parcialmente extraídas. Marcar como **COMPLETO** somente após conferir a sequência/total da fonte, gabarito disponível, duplicidades e destino de todas as questões (integradas, repetidas ou justificadamente pendentes/descartadas).
+
+### Controle de fontes — ZIP `questões.zip`
+
+| Fonte | Disciplinas consideradas | Status | Resultado / observação |
+|---|---|---|---|
+| `300+QUESTOES+COMENTADAS+-+POLÍCIA+PENAL.pdf` (PDF 1) | Todas as disciplinas identificadas no documento e conferência de ausência/presença de outras matérias | **COMPLETO** | 306 questões numeradas de 1 a 306; 306 números únicos, sem lacunas ou duplicatas exatas. Três questões recuperadas e integradas em Processo Penal (143, 144 e 175); questão 299 de Direitos Humanos corrigida no banco existente, sem duplicação. Não há bloco de questões de Português ou Informática neste PDF. |
+| Demais 8 PDFs do ZIP | Todas as disciplinas, inclusive matérias sem módulo atual | **PENDENTE DE AUDITORIA** | Não marcar como completos até a auditoria integral por disciplina, comparação com os bancos atuais e registro dos destinos de todas as questões. |
+
+**Regra de catálogo para disciplinas sem teoria:** a ausência de conteúdo didático não deve impedir a criação de uma aba de questões. Criar a disciplina como “somente questões”/“conteúdo teórico pendente” quando houver material de questões validado; não inventar questões nem gabaritos para preencher lacunas.
+
+
+
 ## Regra de conteúdo e imagens
 
 Para a atualização de 2026-11-17, o usuário declarou possuir autorização específica para publicar publicamente todo o conteúdo integral incluído no ZIP `atualizaçãonexus.zip` (questões, gabaritos e imagens) e solicitou sua publicação no GitHub Pages. Essa declaração não constitui auditoria independente de direitos nem se estende a materiais fora do ZIP. As cinco novas disciplinas integradas nesta etapa não contêm referências a imagens; questões textuais permanecem sem figura.
