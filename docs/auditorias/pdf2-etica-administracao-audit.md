@@ -29,11 +29,17 @@ As respostas publicadas foram verificadas com a Constituição Federal, Lei de I
 - **Q30 — responsabilidade civil do Estado:** a responsabilidade perante terceiro é objetiva (CF, art. 37, § 6º), sem prejuízo do direito de regresso contra o agente em caso de dolo ou culpa.
 - **Q39 — dano ao patrimônio público:** pode gerar responsabilidade civil e administrativa; nem todo dano ou falha administrativa configura improbidade após a reforma de 2021.
 
-## Módulo
+## Reorganização por disciplina no NEXUS
 
-Novo módulo somente de questões: `src/data/subjects/etica-administracao.js`.  
-Banco: `src/data/subjects/etica-administracao-pp500-question-bank.json`.  
-Resultado: 40 localizadas, 37 integradas, zero duplicatas, 3 em revisão, zero pendentes.
+A seção original do PDF foi desmembrada conforme o conteúdo efetivo das questões, sem manter a classificação editorial ampla como nome de disciplina:
+
+- **Direito Administrativo:** 30 questões publicadas; Q14, Q31 e Q33 permanecem em revisão (33 itens destinados a esta área).
+- **Ética no Serviço Público:** 6 questões publicadas (Q6, Q8, Q21, Q25, Q35 e Q40).
+- **Direito Penal:** Q15 (peculato) foi direcionada ao módulo de Direito Penal, por tratar de crime contra a Administração Pública.
+
+Arquivos: `src/data/subjects/direito-administrativo.js`, `direito-administrativo-pp500-question-bank.json`, `etica.js` e `etica-pp500-question-bank.json`. A questão de peculato foi incorporada por `direito-penal-etica-supplemental-question-bank.json`.
+
+A seção original continua totalizando 40 questões: 30 em Direito Administrativo, 6 em Ética, 1 em Direito Penal e 3 retidas para revisão.
 
 ## Fontes oficiais consultadas
 
