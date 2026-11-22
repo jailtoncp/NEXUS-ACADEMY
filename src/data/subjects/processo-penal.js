@@ -1,6 +1,7 @@
 import content from './direito-processual-penal-content.json' with { type: 'json' };
 import bank from './processo-penal-question-bank.json' with { type: 'json' };
 import realBank from './processo-penal-real-question-bank.json' with { type: 'json' };
+import supplementalBank from './processo-penal-supplemental-question-bank.json' with { type: 'json' };
 import pp500Bank from './processo-penal-pp500-supplemental-question-bank.json' with { type: 'json' };
 
 const subject = {
