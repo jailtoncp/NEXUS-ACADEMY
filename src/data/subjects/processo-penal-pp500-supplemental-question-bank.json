@@ -2,13 +2,13 @@
   "metrics": {
     "sourceFile": "500_questoes_comentadas_de_pp.pdf",
     "sourceDiscipline": "Processo Penal",
-    "questionsLocated": 50,
+    "questionsLocated": 20,
     "questionsIntegrated": 10,
-    "duplicates": 0,
-    "questionsInReview": 0,
+    "duplicates": 7,
+    "questionsInReview": 3,
     "questionsPending": 0,
     "answerKeySource": "gabarito_comentado.pdf, pp. 77–81",
-    "note": "Questões integradas após conferência individual com CPP vigente. A Q20 teve gabarito corrigido de D para C. Os itens retidos/duplicados estão discriminados no relatório global."
+    "note": "A seção de Legislação Penal e Processual Penal tem 50 questões no total. Deste conjunto, 20 pertencem ao bloco de Processo Penal: 10 integradas, 7 duplicatas e 3 em revisão (Q15, Q35 e Q39). A Q20 teve gabarito corrigido de D para C."
   },
   "questions": [
     {
