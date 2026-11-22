@@ -151,3 +151,42 @@ A leitura visual foi avançada pelas páginas impressas 464–481. O bloco segue
 - A deduplicação integral contra as 317 questões do banco atual ainda precisa ser concluída antes de selecionar candidatos para publicação.
 
 A próxima etapa é terminar a comparação item a item com o banco existente, resolver os gabaritos candidatos e separar questões aproveitáveis, duplicadas, visualmente incompletas ou com chave inconsistente.
+
+
+## 9. Fechamento da triagem documental — segunda bateria (páginas 482–589)
+
+Foi concluída a leitura panorâmica visual do restante do caderno da segunda bateria, cobrindo as páginas impressas 482–576, e a conferência da estrutura do gabarito próprio nas páginas 577–589.
+
+### Organização observada no corpo do caderno
+
+- **Direito Constitucional:** questões 444–475.
+- **Direitos Humanos:** questões 476–505.
+- **Direito Penal:** questões 506–555.
+- **Direito Processual Penal:** questões 556–597.
+- **Direito Administrativo:** questões 598–628.
+- **Legislação Especial:** questões 629–654.
+- **Criminologia:** questões 655–760.
+- **Lei Orgânica da Polícia Civil do Estado de São Paulo:** questão 761, com referência expressa à LC estadual nº 207/1979.
+- **Informática:** questões 762–1000.
+
+A estrutura geral coincide com a divisão temática do gabarito. A questão 761 foi conferida no corpo e trata, de fato, da Lei Orgânica da Polícia Civil do Estado de São Paulo; não é uma seção extensa, mas um item isolado antes de Informática.
+
+### Achados da inspeção visual
+
+1. O caderno usa diagramação em duas colunas. A extração linear de texto mistura trechos de colunas distintas e, em vários pontos, intercala números de questões que não aparecem em sequência no texto extraído. Portanto, a extração automática não é fonte segura para reconstruir enunciado, alternativas ou correspondência com gabarito sem conferência visual.
+2. Há questões de Informática que dependem de capturas de tela, tabelas, planilhas, diagramas e figuras. A transcrição textual simples perde parte relevante do enunciado e das alternativas.
+3. O bloco de Criminologia inclui questões conceituais de diferentes correntes e teorias; o gabarito isolado não fornece comentários que justifiquem a resposta.
+4. Os blocos jurídicos exigem atualização normativa e jurisprudencial individual. A presença de itens sobre Constituição, Código Penal, CPP, legislação especial e LC paulista nº 207/1979 impede importação segura apenas com base na letra impressa.
+5. A inspeção panorâmica confirma a existência dos blocos e a presença de conteúdo visual, mas não equivale à resolução individual de todas as 557 questões não portuguesas da segunda bateria.
+
+### Resultado final do PDF 8
+
+- As duas baterias foram inventariadas e suas divisões documentais registradas.
+- O gabarito próprio da segunda bateria foi localizado e mapeado até a questão 1000.
+- O bloco de RLM 298–443 recebeu revisão visual parcial e revelou duplicatas internas, divergências de gabarito e itens dependentes de recursos visuais.
+- **Nenhuma questão da segunda bateria foi integrada ao NEXUS nesta triagem.**
+- **Nenhum banco de questões foi substituído ou alterado por causa deste PDF.**
+- A primeira bateria também permanece como inventário documental: as 1.400 questões não portuguesas não passaram por validação individual nesta etapa.
+- O PDF 8 fica encerrado como **“Concluído — triagem documental; sem integração de questões”**. Isso não significa que as 2.400 questões não portuguesas das duas baterias estejam validadas ou publicadas; significa que a estrutura, o escopo, os gabaritos e os riscos de aproveitamento foram documentados sem inserir conteúdo não auditado.
+
+**Decisão de qualidade:** não fazer importação em massa. Uma futura rodada de integração deverá selecionar blocos menores, validar cada enunciado, alternativas e gabarito, deduplicar contra os bancos existentes e atualizar questões jurídicas/visuais antes de publicar.
