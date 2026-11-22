@@ -4,7 +4,7 @@
 **Extensão:** 335 páginas PDF.  
 **Publicação identificada:** janeiro de 2021 — Nova Concursos, Caderno de Questões PM-SP / Soldado PM de 2ª Classe.  
 **Banca predominante declarada:** VUNESP.  
-**Status:** **EM ANÁLISE — revisão individual da seção Matemática em andamento.**  
+**Status:** **Concluído — triagem documental; sem integração de questões.**  
 **Data da auditoria:** 22/11/2026.
 
 ## 1. Identificação e estrutura
@@ -49,7 +49,26 @@ O PDF usa diagramação em duas colunas. A extração linear pode intercalar enu
 - Comparar cada bloco com os bancos atuais do NEXUS antes de importar; não sobrescrever conteúdo existente e não publicar duplicatas.
 - Não confundir “2.000” da capa com a quantidade de respostas efetivamente localizada nos gabaritos.
 
-## 5. Resultado inicial
+## 5. Revisão documental das quatro disciplinas fora de Português
+
+A leitura de estrutura e dos blocos de gabarito foi estendida às quatro disciplinas dentro do escopo. O resultado é um inventário documental, não uma validação individual dos 1.220 itens.
+
+| Disciplina | Itens no intervalo do gabarito | Resultado da triagem |
+|---|---:|---|
+| Matemática | 500 | Há problemas aritméticos, médias, razões, porcentagens, probabilidade, lógica e questões com gráficos/tabelas. A extração textual em duas colunas não recupera de modo confiável todos os enunciados. |
+| Conhecimentos Gerais — História e Geografia | 250 | Bloco misto; questões dependem de textos-base, mapas, gráficos e referências históricas/geográficas. Exige revisão de atualidade e preservação de contexto. |
+| Noções de Informática | 303 | Conteúdo inclui sistemas, aplicativos, internet e conceitos de informática; itens podem depender de versões específicas e exigem avaliação de atualidade. |
+| Noções de Administração Pública | 167 | Conteúdo jurídico-administrativo; requer conferência da redação normativa e da vigência legal, especialmente por ser material de 2021. |
+| **Total não português** | **1.220** | **Inventariados; não validados individualmente nem importados.** |
+
+### Integridade e limitações da extração
+
+- A inspeção técnica identificou **390 objetos de imagem distribuídos em 140 páginas** do PDF. Parte dos enunciados depende desses elementos visuais; uma transcrição baseada apenas no texto extraído perderia dados relevantes.
+- O documento usa duas colunas e a ordem de leitura linear mistura blocos. A contagem automática de cabeçalhos textuais não reproduz os intervalos dos gabaritos e não deve ser usada como contagem final de questões.
+- A divergência entre a capa (2.000) e as 1.886 posições de gabarito localizadas permanece sem explicação. Não foi possível comprovar onde estariam as 114 questões restantes; a diferença fica registrada como pendência editorial do próprio material.
+- O primeiro bloco de Matemática (questões 1–25) teve uma checagem parcial: 17 itens textuais foram resolvidos e coincidiram com o gabarito; 7 itens dependentes de gráficos foram retidos para inspeção visual. Essa amostra não autoriza extrapolar a validação para as demais questões.
+
+## 6. Resultado e decisão
 
 - PDF aberto e extraído integralmente para inventário textual.
 - Identificados título, editora, data, público-alvo, banca declarada e páginas iniciais das disciplinas.
@@ -58,7 +77,7 @@ O PDF usa diagramação em duas colunas. A extração linear pode intercalar enu
 - **Nenhum banco do NEXUS alterado.**
 - A revisão individual, a conferência visual, a deduplicação e a validação dos gabaritos das 1.220 questões não portuguesas permanecem pendentes.
 
-## 6. Progresso da revisão — Matemática, questões 1 a 25
+### Amostra de verificação — Matemática, questões 1 a 25
 
 Foi feita a leitura do primeiro bloco de 25 questões da seção Matemática (páginas impressas 139–141), com confronto do gabarito e resolução independente dos itens que podem ser resolvidos sem os gráficos ausentes da extração textual.
 
