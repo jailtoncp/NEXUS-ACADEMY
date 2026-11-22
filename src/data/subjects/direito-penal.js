@@ -12,7 +12,7 @@ const subject = {
   questions: [...realBank.questions, ...pp500Bank.questions, ...bank.questions],
   reviewCount: 4,
   questionAudit: { ...bank.metrics, realQuestions: realBank.metrics, pdf2: pp500Bank.metrics },
-  sourceInventory: [{ sourceId: 'pp500-legislacao-penal', sourceName: '500_questoes_comentadas_de_pp.pdf', questionsFound: 24, integrated: 13, duplicates: 7, needsReview: 4, pending: 0, answerKeySource: 'gabarito_comentado.pdf, pp. 77–81' }],
+  sourceInventory: [{ sourceId: 'pp500-legislacao-penal', sourceName: '500_questoes_comentadas_de_pp.pdf', questionsFound: 24, integrated: 14, duplicates: 6, needsReview: 4, pending: 0, answerKeySource: 'gabarito_comentado.pdf, pp. 77–81' }],
 };
 
 export default subject;
