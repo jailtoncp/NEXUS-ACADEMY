@@ -93,3 +93,16 @@ Foi feita a leitura do primeiro bloco de 25 questões da seção Matemática (p�
 O PDF 9 fica **encerrado nesta rodada como triagem documental**, sem integração de questões. Não seria seguro importar itens em lote nem declarar as 1.220 questões revisadas individualmente: a extração textual é incompleta em razão da diagramação em duas colunas e dos elementos visuais, o gabarito não contém comentários, há riscos de desatualização em Informática e Administração Pública e a divergência de 114 itens segue sem solução.
 
 Uma futura rodada de aproveitamento deverá ser feita por disciplina e por pequenos blocos, com inspeção visual da página original, resolução independente, comparação real com os bancos e comentário fundamentado. Apenas os itens aprovados em todas essas etapas poderão ser integrados.
+
+
+## 8. Atualização posterior — integração parcial e escopo geral
+
+Esta seção atualiza as decisões de escopo e o estado de integração após a auditoria inicial.
+
+- **Português não está excluído do projeto.** A seção de Língua Portuguesa do PDF 9, com 666 posições de gabarito localizadas, também integra o escopo geral de extração, deduplicação, validação e integração.
+- **Matemática:** 21 questões do PDF 9 foram efetivamente integradas ao banco `src/data/subjects/raciocinio-logico-question-bank.json`, nos lotes PDF9-MAT-Q001–Q004, Q006–Q012, Q014 e Q017–Q025. O banco é carregado por `src/data/subjects/raciocinio-logico.js`.
+- As 7 questões da amostra inicial dependentes de gráficos (Q4, Q5, Q7, Q10, Q13, Q15 e Q16) não foram incluídas nesse lote.
+- A atualização não transforma a amostra de 25 questões em auditoria integral das 500 questões de Matemática, nem valida as outras disciplinas.
+- Permanecem pendentes a conferência visual dos itens com gráficos, a análise das questões restantes de Matemática, as seções de História, Geografia, Informática, Administração Pública e Português, e a investigação da diferença de 114 questões anunciadas na capa.
+
+**Estado correto:** triagem documental concluída; integração parcial de Matemática (21 questões); demais blocos ainda pendentes. Não declarar o PDF 9 integralmente concluído.
