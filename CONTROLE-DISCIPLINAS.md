@@ -433,3 +433,19 @@ A extração por colunas e a conferência com o gabarito complementar foram conc
 **Próximo bloco em auditoria: Legislação Penal e Processual Penal (50 questões), páginas impressas 54–61; gabarito complementar, páginas 77–81.** A revisão deve conferir cada item com CP, CPP e leis especiais vigentes, pois o próprio gabarito tem respostas incompletas ou erradas. Alertas iniciais já identificados: Q6 não oferece excludente de ilicitude correta (obediência hierárquica e coação moral irresistível são causas relacionadas à culpabilidade, não à ilicitude); Q15 simplifica os requisitos da preventiva; Q35 confunde inafiançabilidade com vedação automática à liberdade provisória; Q39 generaliza o regime das nulidades absolutas; Q40 generaliza ação pública incondicionada para a Lei Maria da Penha. Estes itens ficam bloqueados até saneamento ou retenção formal.
 
 **Status geral do PDF 2:** Português, Informática e RLM têm destino definido para todas as questões. Direitos Humanos, Atualidades, Ética/Administração Pública, Legislação Penal/Processual Penal e Execução Penal ainda aguardam conclusão. PDF 2 permanece INCOMPLETO.
+
+
+## Etapa 21 — PDF 2: fechamento da seção Legislação Penal e Processual Penal (2026-11-22)
+
+A seção das páginas impressas 54–61 foi auditada integralmente: **50/50 questões com destino definido**, sem pendência de extração. O item de concurso de pessoas aparece como “Q53” por erro de diagramação, mas corresponde à Q3 da sequência desta seção.
+
+- **Direito Penal:** 14 integradas, 6 duplicatas, 4 em revisão.
+- **Processo Penal:** 10 integradas, 7 duplicatas, 3 em revisão.
+- **Legislação Especial:** 1 integrada, 2 duplicatas, 2 em revisão.
+- **Execução Penal:** 1 questão (Q49) encaminhada para revisão.
+
+Total: 25 integradas, 15 duplicatas, 10 em revisão. A Q10 sobre progressão em crime hediondo não foi publicada: o percentual de 40% do gabarito antigo foi superado por alteração legislativa de 2026; o texto vigente prevê 70% para condenado primário por crime hediondo ou equiparado. Q6, Q8, Q12, Q15, Q35, Q39 e Q40 também foram retidas por erro conceitual, generalização ou ausência de resposta inequívoca. A Q20 teve a resposta corrigida de D para C. Q32 foi comentada com a distinção entre inafiançabilidade e vedação à liberdade provisória.
+
+Relatório completo: `docs/auditorias/pdf2-legislacao-penal-processual-audit.md`.
+
+**Status PDF 2:** Português, Informática, RLM e a seção de Legislação Penal/Processual Penal agora têm todas as questões classificadas. Permanecem em andamento Direitos Humanos, Atualidades, Ética/Administração Pública e Execução Penal/Sistema Prisional.
