@@ -1,0 +1,36 @@
+{
+  "metrics": {
+    "sourceFile": "300+QUESTOES+COMENTADAS+-+POLÍCIA+PENAL.pdf",
+    "questionsIntegrated": 1,
+    "questionsRecoveredFromPreviousExtractionGap": 1,
+    "answerKeyChecks": "Gabarito e comentário do material confrontados com os arts. 5º e 7º da Convenção Americana sobre Direitos Humanos."
+  },
+  "questions": [
+    {
+      "id": "DH-PP300-299-AUDIT",
+      "origin": "real",
+      "sourceFile": "300+QUESTOES+COMENTADAS+-+POLÍCIA+PENAL.pdf",
+      "sourceNumber": 299,
+      "sourcePage": 311,
+      "prompt": "De acordo com o previsto na Convenção Americana de Direitos Humanos (Pacto de San José da Costa Rica, de 22/11/1969), enumere a primeira coluna de acordo com a segunda e marque a sequência correta, de cima para baixo.\n\n1) Direito à integridade pessoal\n2) Direito à liberdade pessoal\n\n( ) Ninguém pode ser submetido a detenção ou encarceramento arbitrários.\n( ) As penas privativas da liberdade devem ter por finalidade essencial a reforma e a readaptação social dos condenados.\n( ) Toda pessoa detida ou retida deve ser informada das razões da sua detenção e notificada, sem demora, da acusação ou acusações formuladas contra ela.\n( ) A pena não pode passar da pessoa do delinquente.",
+      "options": {
+        "A": "2, 1, 2, 1.",
+        "B": "1, 2, 1, 2.",
+        "C": "1, 2, 2, 2.",
+        "D": "2, 2, 1, 1."
+      },
+      "answer": "A",
+      "comment": "A sequência é 2, 1, 2, 1. A detenção arbitrária e a informação sobre os motivos da prisão são garantias da liberdade pessoal (art. 7º, itens 3 e 4). A finalidade de reforma e readaptação social da pena e a pessoalidade da pena estão no direito à integridade pessoal (art. 5º, itens 6 e 3).",
+      "topicId": "convencao-americana",
+      "subtopicId": "cadh-direitos",
+      "difficulty": null,
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "300+ Questões Comentadas — Polícia Penal, questão 299, p. 311 do PDF",
+      "classificationConfidence": "alta",
+      "answerStatus": "gabarito do material conferido com a Convenção Americana",
+      "commentSource": "auditoria NEXUS"
+    }
+  ]
+}
