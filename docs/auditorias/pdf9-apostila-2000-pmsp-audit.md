@@ -70,26 +70,26 @@ A leitura de estrutura e dos blocos de gabarito foi estendida às quatro discipl
 
 ## 6. Resultado e decisão
 
-- PDF aberto e extraído integralmente para inventário textual.
-- Identificados título, editora, data, público-alvo, banca declarada e páginas iniciais das disciplinas.
-- Identificados os intervalos de gabarito por disciplina.
+- PDF de 335 páginas examinado para identificação, estrutura, seções e gabaritos.
+- Quatro seções não portuguesas inventariadas, totalizando 1.220 posições de gabarito.
+- Foram identificados 390 objetos de imagem em 140 páginas e limitações relevantes da extração em duas colunas.
+- A amostra de Matemática 1–25 foi parcialmente resolvida conforme registrado abaixo.
 - **Nenhuma questão importada.**
 - **Nenhum banco do NEXUS alterado.**
-- A revisão individual, a conferência visual, a deduplicação e a validação dos gabaritos das 1.220 questões não portuguesas permanecem pendentes.
+- **Nenhuma alteração no conteúdo funcional do site.**
 
 ### Amostra de verificação — Matemática, questões 1 a 25
 
 Foi feita a leitura do primeiro bloco de 25 questões da seção Matemática (páginas impressas 139–141), com confronto do gabarito e resolução independente dos itens que podem ser resolvidos sem os gráficos ausentes da extração textual.
 
-- **17 questões com enunciado textual suficiente** foram resolvidas independentemente; os resultados coincidiram com o gabarito impresso: 1-B, 2-B, 3-A, 6-A, 8-D, 9-A, 11-C, 12-E, 14-A e 17–25 (B, B, A, C, A, A, D, E, A).
+- **17 questões com enunciado textual suficiente** foram resolvidas independentemente; os resultados coincidiram com o gabarito impresso: 1-B, 2-B, 3-A, 6-A, 8-D, 9-A, 11-C, 12-E e 14-A, além das questões 17–25 (B, B, A, C, A, A, D, E, A).
 - **7 questões dependem de gráficos/elementos visuais** e foram retidas para conferência nas páginas renderizadas: 4, 5, 7, 10, 13, 15 e 16.
 - Não foi identificada divergência de gabarito entre os 17 itens resolvidos e as respostas impressas.
 - A questão 1 foi conferida por equação: se a média é `m` e a venda de segunda-feira é `m/2`, então `m = (m/2 + 81)/5`, resultando em `m = 18` (B).
-- O banco atual de Raciocínio Lógico possui conteúdo matemático misturado a lógica e problemas de associação; a comparação de duplicidade deve considerar o enunciado integral e não apenas o tema. A conferência de duplicatas deste bloco ainda não foi encerrada.
-- **Alerta de proveniência:** o inventário do banco atual atribui 210 questões a este mesmo PDF9, mas a busca por enunciados representativos desse lote (por exemplo, itens que mencionam “Betino”) não os localizou no texto integral extraído do PDF9. Essa atribuição de origem precisa ser investigada; não usar esses 210 registros como prova de duplicidade com o bloco atual até esclarecer a divergência.
-- **Nenhuma questão deste bloco foi importada** nesta etapa; não houve alteração dos bancos nem do conteúdo publicado no site.
+- **Alerta de proveniência:** o inventário do banco atual atribui 210 questões a este mesmo PDF9, mas enunciados representativos desse lote (por exemplo, itens que mencionam “Betino”) não foram localizados no texto extraído do PDF9. Essa atribuição de origem precisa ser investigada; não usar esses registros como prova de duplicidade com o bloco atual.
 
-### Próxima etapa
+## 7. Decisão de aproveitamento
 
-Renderizar as páginas que contêm as questões dependentes de gráficos, completar a comparação de duplicidade do bloco 1–25 e seguir com as questões 26–50. Depois disso, continuar em blocos controlados, sem importação em massa.
+O PDF 9 fica **encerrado nesta rodada como triagem documental**, sem integração de questões. Não seria seguro importar itens em lote nem declarar as 1.220 questões revisadas individualmente: a extração textual é incompleta em razão da diagramação em duas colunas e dos elementos visuais, o gabarito não contém comentários, há riscos de desatualização em Informática e Administração Pública e a divergência de 114 itens segue sem solução.
 
+Uma futura rodada de aproveitamento deverá ser feita por disciplina e por pequenos blocos, com inspeção visual da página original, resolução independente, comparação real com os bancos e comentário fundamentado. Apenas os itens aprovados em todas essas etapas poderão ser integrados.
