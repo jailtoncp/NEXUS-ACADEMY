@@ -94,3 +94,28 @@ Foi iniciado o cruzamento do primeiro bloco não português da segunda bateria:
 - As divergências acima foram registradas como pontos de revisão, não como gabaritos corrigidos.
 
 A próxima ação é concluir a leitura visual e a deduplicação das questões 298–443; só depois será possível separar itens novos, duplicatas e itens que exigem revisão.
+
+
+## 7. Conferência visual — questões 298–330 (páginas impressas 458–463)
+
+As páginas originais foram abertas como imagem para conferir a diagramação, os enunciados e as alternativas. Isso confirmou duas repetições internas e duas divergências de gabarito:
+
+### 7.1. Questões 298 e 330 — mesmo problema lógico repetido
+
+- As duas questões repetem a declaração: “Se o funcionário é bem remunerado, então a produção é alta”.
+- A alternativa A apresenta a contrapositiva correta: “Se a produção não é alta, então o funcionário não é bem remunerado”.
+- **Gabarito impresso:** 298-A; 330-D.
+- **Verificação lógica:** a resposta correta para ambas é A. A alternativa D da questão 330 não é equivalente à proposição original.
+- **Decisão:** considerar uma única ocorrência como candidata; descartar a repetição 330 e registrar divergência do gabarito impresso. Não copiar a letra D para o banco.
+
+### 7.2. Questões 301 e 326 — enunciado e alternativas repetidos
+
+- As duas questões repetem o mesmo problema de associação entre Ana, Beatriz e Cláudia, com cores de blusas, calçados e número de filhos.
+- O conjunto de alternativas é o mesmo.
+- **Gabarito impresso:** 301-B; 326-A.
+- **Verificação pelas premissas:** Cláudia tem um filho; Beatriz tem mais filhos que Ana; a pessoa que usa tênis tem dois filhos. Portanto, Ana tem dois filhos e usa tênis; Beatriz tem três filhos e, como a blusa azul corresponde à bota, Beatriz usa blusa azul e calça bota; Cláudia usa blusa verde e sandália. A alternativa correta é **B**.
+- **Decisão:** considerar uma única ocorrência como candidata; descartar a repetição 326 e registrar que o gabarito impresso A está incorreto.
+
+### 7.3. Limite desta conferência
+
+A conferência acima cobre as duas duplicatas percebidas na leitura inicial, não representa validação integral das 146 questões. A comparação completa com o banco atual e a revisão dos demais gabaritos continuam pendentes. Nenhuma questão foi adicionada ao site nesta etapa.
