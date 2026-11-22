@@ -545,3 +545,8 @@ Nenhuma questão nova foi criada ou importada. O documento foi confrontado com a
 Relatório: `docs/auditorias/pdf4-gabarito-comentado-audit.md`.
 
 **Status PDF 4:** auditoria integral do arquivo concluída; 370/370 posições do gabarito inventariadas; 0 questões novas; 40 itens de Direitos Humanos sem seção neste gabarito; 0 pendências de extração.
+
+
+## Etapa 29 — Reorganização da seção Ética/Administração Pública (2026-11-22)
+
+A seção de 40 questões foi reclassificada pelo conteúdo: **Direito Administrativo** (30 publicadas + 3 em revisão), **Ética no Serviço Público** (6 publicadas) e **Direito Penal** (1 questão de peculato). A questão de peculato foi incluída no módulo de Direito Penal. Não houve perda nem duplicação: os 40 itens têm destino definido. O registro de disciplinas ativas foi atualizado: saiu o módulo genérico “Ética e Noções de Administração Pública”; entraram “Direito Administrativo” e “Ética no Serviço Público”. Direito Administrativo deixa de constar como disciplina apenas planejada.
