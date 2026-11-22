@@ -518,3 +518,19 @@ A auditoria das oito disciplinas do PDF 2 foi concluída. **Todas as 410 questõ
 - docs/auditorias/pdf2-etica-administracao-audit.md
 
 **STATUS FINAL DO PDF 2: COMPLETO — 410/410 QUESTÕES COM DESTINO DEFINIDO.**
+
+
+## Etapa 27 — PDF 3: ATUALIZAÇÃO I — 2024 (PP) (2026-11-22)
+
+A auditoria do terceiro PDF identificado no ZIP `questões.zip` foi iniciada e concluída para o documento `ATUALIZAÇÃO+I+-+2024+(PP).pdf` (8 páginas). O material aborda a Lei 14.843/2024 (Lei Sargento PM Dias) e a decisão do STF no Tema 506 sobre porte de cannabis para consumo pessoal.
+
+**Questões:** 5/5 com destino definido, todas de Execução Penal/LEP:
+- **3 integradas:** Q1 (competência do juiz da execução para determinar monitoração eletrônica; gabarito corrigido de “E” para **D**, pois a alternativa E não existe), Q2 (monitoração como condição especial do regime aberto) e Q3 (monitoração como condição facultativa do livramento condicional).
+- **2 duplicatas/conceitos já cobertos:** Q4 (exame criminológico como requisito para progressão, já testado por `EXEC-AUTH-002`) e Q5 (restrição da saída temporária a condenados por crime hediondo ou com violência/grave ameaça, já abordada no comentário de `EXEC-AUTH-001`).
+- **0 em revisão; 0 pendentes.**
+
+A seção sobre Lei de Drogas não apresenta questões numeradas. Foi conferida com a tese do STF no Tema 506: o porte de cannabis para uso pessoal não constitui infração penal, mas permanece ilícito extrapenal; a presunção de uso pessoal até 40 g ou seis plantas-fêmeas é relativa, não um limite absoluto, e a decisão não legalizou a substância nem se estende às demais drogas.
+
+**Arquivos:** banco `src/data/subjects/execucao-penal-pdf3-supplemental-question-bank.json`; módulo `src/data/subjects/execucao-penal.js`; relatório `docs/auditorias/pdf3-atualizacao-i-2024-pp-audit.md`.
+
+**Status PDF 3:** auditoria integral concluída — 5/5 questões com destino definido. Build e deploy serão registrados após a validação da integração.
