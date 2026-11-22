@@ -390,3 +390,18 @@ A comparação por ID e enunciado com o banco de RLM identificou que 50 das 60 q
 **CI:** commit 44c8e4739dc4152d2c040eace7f90548610c6243; Actions run 45037617455; build e deploy concluídos com sucesso.
 
 **Status do PDF 2:** INCOMPLETO. Blocos de Português, Informática, Direitos Humanos, Atualidades, Ética/Administração Pública, Legislação Penal/Processual Penal e Execução Penal ainda aguardam auditoria individual e integração.
+
+
+## Etapa 18 — PDF 2: primeiro lote de Português publicado (2026-11-22)
+
+A seção de Português foi reaberta no PDF original, em extração por colunas para preservar enunciados e alternativas. O gabarito complementar correspondente foi localizado nas páginas impressas 103–109. A auditoria inicial das questões 1–20 identificou problemas de qualidade no próprio material: várias questões admitem mais de uma resposta ou não apresentam alternativa única, e há gabaritos/comentários desalinhados ou incorretos. Por isso, não foi importado o bloco em massa.
+
+**Publicadas 12 questões validadas:** PORT-PP500-004, -006, -007, -008, -009, -012, -014, -015, -016, -017, -018 e -019. Os gabaritos das Q16 e Q18 foram corrigidos após conferência gramatical, pois as letras do PDF complementar não correspondem à resposta correta. As questões receberam comentários explicativos e referência à página impressa da fonte.
+
+**Retidas para revisão entre as primeiras 20:** Q1 (mais de uma sequência de palavras correta), Q2 (mais de uma frase com crase correta), Q3 (mais de uma construção possível de colocação pronominal), Q5 (mais de uma alternativa de regência defensável), Q10 (pronome com referente ambíguo), Q11 (alternativas A e E corretas), Q13 (alternativas A e C corretas) e Q20 (mais de uma palavra grafada corretamente). As questões 21–80 ainda não foram extraídas e auditadas individualmente.
+
+**Estado de Português/PDF2:** 12 integradas; 8 das primeiras 20 em revisão; 60 ainda aguardam extração/deduplicação/validação. O módulo existente passa a exibir as questões reais publicadas e a contagem de revisão.
+
+**CI:** commit do módulo/banco b7eee7ca8f250f979be3412936f6dbf58fb55226; build e deploy do lote de Português serão confirmados após este commit.
+
+**Status do PDF 2:** INCOMPLETO. A auditoria continua pelos demais itens e disciplinas.
