@@ -319,19 +319,19 @@ Na validação local sobre a `main` atualizada, `npm ci --no-audit --no-fund`, o
 
 | Disciplina | Questões localizadas | Gabarito disponível no material complementar |
 |---|---:|---|
-| Português | 80 (1–80) | Não localizado |
+| Português | 80 (1–80) | 80 respostas comentadas no PDF complementar |
 | Informática | 50 (1–50) | 50 respostas comentadas no PDF complementar |
 | Direitos Humanos | 40 (1–40) | Apenas 1 resposta aparece junto da questão 13; sem gabarito para as outras 39 |
-| Atualidades | 40 (1–40) | Não localizado |
+| Atualidades | 40 (1–40) | 40 respostas comentadas no PDF complementar |
 | Ética e Noções de Administração Pública | 40 (1–40) | 40 respostas comentadas no PDF complementar |
 | Raciocínio Lógico e Matemática Básica | 60 (1–60) | 60 respostas comentadas no PDF complementar |
 | Legislação Penal e Processual Penal | 50 (1–50) | 50 respostas comentadas no PDF complementar |
 | Execução Penal e Sistema Prisional | 50 (1–50) | 50 respostas comentadas no PDF complementar |
-| **Total** | **410** | **250 respostas no gabarito complementar + 1 resposta isolada em Direitos Humanos** |
+| **Total** | **410** | **370 respostas no gabarito complementar + 1 resposta isolada em Direitos Humanos** |
 
-**Gabarito complementar examinado:** `gabarito_comentado.pdf` (quarto PDF do ZIP). A leitura integral confirmou que ele contém gabaritos comentados para cinco blocos: Raciocínio Lógico (60), Informática (50), Ética e Noções de Administração Pública (40), Legislação Penal/Processual Penal (50) e Execução Penal (50), totalizando 250 respostas. Não contém gabarito para Português, Atualidades nem para a maior parte de Direitos Humanos.
+**Gabarito complementar examinado:** `gabarito_comentado.pdf` (quarto PDF do ZIP). A leitura integral confirmou que ele contém gabaritos comentados para sete blocos: Português (80), Informática (50), Atualidades (40), Ética e Noções de Administração Pública (40), Raciocínio Lógico (60), Legislação Penal/Processual Penal (50) e Execução Penal (50), totalizando 370 respostas. Não contém gabarito para a seção de Direitos Humanos, exceto a resposta inline da Q13.
 
-**Decisão de integração:** nenhuma questão deste PDF 2 foi publicada ainda. As 250 questões com gabarito complementar são candidatas à extração e validação em lotes; não serão inseridas automaticamente apenas porque existe uma letra de resposta. As outras 159 questões sem gabarito permanecem pendentes de resolução independente ou de localização de outra fonte de respostas. A resposta isolada de DH Q13 é adicional às 250. A questão 13 de Direitos Humanos tem resposta “b” e explicação impressas no próprio PDF, mas também aguarda validação e comparação com o banco atual.
+**Decisão de integração:** nenhuma questão deste PDF 2 foi publicada ainda. As 370 questões com gabarito complementar são candidatas à extração e validação em lotes; não serão inseridas automaticamente apenas porque existe uma letra de resposta. As outras 39 questões de Direitos Humanos permanecem pendentes de resolução independente ou de localização de outra fonte de respostas. A resposta inline de DH Q13 é adicional às 370. A questão 13 de Direitos Humanos tem resposta “b” e explicação impressas no próprio PDF, mas também aguarda validação e comparação com o banco atual.
 
 **Pontos de auditoria obrigatórios antes da publicação:**
 - Comparar cada item com os bancos reais e autorais existentes, em especial Português, Informática, Raciocínio Lógico, Direitos Humanos, Legislação Especial/Processo Penal e Execução Penal.
@@ -363,7 +363,7 @@ Foram refeitos cálculos independentes de várias questões e registrados no rel
 
 ## Etapa 16 — Correção do inventário de gabaritos e publicação parcial do PDF 2 (2026-11-22)
 
-A leitura integral do PDF complementar foi refeita por seções, e a contagem registrada na Etapa 14 estava incompleta. O gabarito comentado contém **250 respostas**, não 160: RLM (60), Informática (50), Ética/Administração Pública (40), Legislação Penal/Processual Penal (50) e Execução Penal (50). Português (80), Atualidades (40) e a maior parte de Direitos Humanos (39) não têm gabarito localizado. DH Q13 traz uma resposta inline adicional. Assim, 410 questões no total = 250 com resposta no companion + 1 resposta inline + 159 sem resposta identificada.
+A leitura integral do PDF complementar foi refeita por seções, e as contagens anteriores estavam incompletas. O gabarito comentado contém **370 respostas**, distribuídas em Português (80), Informática (50), Atualidades (40), Ética/Administração Pública (40), RLM (60), Legislação Penal/Processual Penal (50) e Execução Penal (50). Direitos Humanos (40) não tem seção de gabarito complementar; a Q13 traz uma resposta inline, restando 39 sem resposta identificada. Assim, 410 questões no total = 370 com resposta no companion + 1 resposta inline + 39 sem resposta identificada.
 
 **Publicação parcial:** foram integradas ao banco existente de Raciocínio Lógico as questões PP500-RLM-11 e PP500-RLM-14, ausentes do banco. Os gabaritos impressos do material estavam errados; os resultados foram recalculados (Q11 = E, 150; Q14 = C, 32,5), com a divergência da fonte registrada no campo de revisão/comentário. O banco RLM passa a 315 questões prontas e 176 em revisão (491 únicas). As demais questões do bloco RLM continuam em auditoria; a publicação do lote não conclui a disciplina nem o PDF.
 
