@@ -1,4 +1,5 @@
 import content from './direito-penal-content.json' with { type: 'json' };
+import realBank from './direito-penal-real-question-bank.json' with { type: 'json' };
 import bank from './direito-penal-question-bank.json' with { type: 'json' };
 import pp500Bank from './direito-penal-pp500-supplemental-question-bank.json' with { type: 'json' };
 
