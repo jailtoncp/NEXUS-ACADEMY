@@ -7,7 +7,7 @@ Fonte de gabarito: `gabarito_comentado.pdf`, seção correspondente, páginas im
 
 - 60 questões identificadas na fonte primária.
 - 60 posições de gabarito/explicação previstas no material complementar.
-- Nenhuma questão desta seção foi integrada nesta rodada: a conferência revelou inconsistências que impedem importar o bloco em massa.
+- **Registro histórico da primeira conferência:** nenhuma questão foi integrada naquele momento, pois a conferência revelou inconsistências que impediam importar o bloco em massa. O aditivo final abaixo registra a resolução posterior e a integração de quatro itens.
 - A comparação individual contra as 313 questões prontas do banco atual permanece necessária antes de qualquer importação.
 
 ## Inconsistências objetivas encontradas
@@ -66,13 +66,9 @@ Fonte de gabarito: `gabarito_comentado.pdf`, seção correspondente, páginas im
 - Q59: juros simples = R$ 400 (D).
 - Q60: razão 3:5 e soma 32; maior idade = 20 (E).
 
-## Próximas ações obrigatórias
+## Ações previstas na primeira conferência — posteriormente atualizadas
 
-1. Comparar as 60 questões, uma a uma, com o banco atual de RLM; registrar duplicatas por ID existente.
-2. Conferir as questões restantes e seus comentários, não apenas a letra do gabarito.
-3. Integrar somente questões não duplicadas, com enunciado íntegro, alternativas consistentes e resposta confirmada.
-4. Questões com erro/ambiguidade devem ficar em quarentena com motivo explícito, sem corrigir silenciosamente o PDF.
-5. Após RLM, repetir o processo com Legislação Penal/Processual Penal (50) e Execução Penal (50), depois auditar Português, Informática, Direitos Humanos, Atualidades e Ética/Administração Pública, além das demais matérias encontradas.
+As ações abaixo descrevem o plano original. O aditivo final registra que a comparação das 60 questões foi concluída e que cada item recebeu destino: banco existente, integração, revisão ou deduplicação. Não tratar esta lista histórica como pendência atual da seção de RLM.
 
 
 ## Aditivo final — integração e fechamento do bloco PDF 2 (22/11/2026)
