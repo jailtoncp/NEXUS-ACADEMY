@@ -1,0 +1,96 @@
+{
+  "metrics": {
+    "sourceFile": "300+QUESTOES+COMENTADAS+-+POLÍCIA+PENAL.pdf",
+    "questionsIntegrated": 3,
+    "questionsRecoveredFromPreviousExtractionGap": 3,
+    "answerKeyChecks": "Gabarito do material confrontado com CPP vigente em 22/11/2026; questões 143, 144 e 175 validadas.",
+    "topicDistribution": {
+      "inquerito-policial": 2,
+      "prisoes-cautelares": 1
+    }
+  },
+  "questions": [
+    {
+      "id": "DPP-PP300-143-AUDIT",
+      "origin": "real",
+      "sourceFile": "300+QUESTOES+COMENTADAS+-+POLÍCIA+PENAL.pdf",
+      "sourceNumber": 143,
+      "sourcePage": 149,
+      "prompt": "Em relação ao inquérito policial, marque a resposta CORRETA.",
+      "options": {
+        "A": "Iniciado o inquérito, e observando a autoridade policial que não existem provas suficientes para condenação do acusado, a autoridade policial deverá arquivá-lo.",
+        "B": "Crimes que se processam por meio de ação penal pública incondicionada podem ter a instauração do inquérito policial solicitada pela vítima ou ofendido.",
+        "C": "Iniciado o inquérito, e observando a autoridade policial que não existem provas suficientes para condenação do acusado, a autoridade policial poderá arquivá-lo.",
+        "D": "Quando o crime for contra a honra do Presidente da República, o inquérito policial é instaurado somente por requisição do próprio Presidente.",
+        "E": "Qualquer do povo poderá solicitar a instauração de inquérito em relação aos crimes ocorridos contra a honra do Presidente da República."
+      },
+      "answer": "B",
+      "comment": "O art. 5º, II, do CPP prevê que, nos crimes de ação pública, o inquérito pode ser iniciado mediante requerimento do ofendido ou de quem tenha qualidade para representá-lo. A autoridade policial não pode arquivar o inquérito (art. 17 do CPP). Nos crimes contra a honra do Presidente da República, a requisição é do Ministro da Justiça.",
+      "topicId": "inquerito-policial",
+      "subtopicId": "ip-instauracao-prazos",
+      "difficulty": null,
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "300+ Questões Comentadas — Polícia Penal, questão 143, p. 149 do PDF",
+      "classificationConfidence": "alta",
+      "answerStatus": "gabarito do material conferido com CPP vigente",
+      "commentSource": "auditoria NEXUS"
+    },
+    {
+      "id": "DPP-PP300-144-AUDIT",
+      "origin": "real",
+      "sourceFile": "300+QUESTOES+COMENTADAS+-+POLÍCIA+PENAL.pdf",
+      "sourceNumber": 144,
+      "sourcePage": 150,
+      "prompt": "O inquérito policial tem como finalidade, EXCETO:",
+      "options": {
+        "A": "Apurar a materialidade do crime.",
+        "B": "Apurar a autoria do crime.",
+        "C": "Colher elementos para informar o titular da ação penal.",
+        "D": "Formar a convicção do juiz e fundamentar sua decisão, de forma exclusiva.",
+        "E": "Subsidiar a decretação de medidas cautelares."
+      },
+      "answer": "D",
+      "comment": "O inquérito reúne elementos informativos para subsidiar a atuação do titular da ação penal. Pelo art. 155 do CPP, o juiz não pode fundamentar sua decisão exclusivamente nos elementos informativos colhidos na investigação, ressalvadas as provas cautelares, não repetíveis e antecipadas.",
+      "topicId": "inquerito-policial",
+      "subtopicId": "ip-natureza",
+      "difficulty": null,
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "300+ Questões Comentadas — Polícia Penal, questão 144, p. 150 do PDF",
+      "classificationConfidence": "alta",
+      "answerStatus": "gabarito do material conferido com CPP vigente",
+      "commentSource": "auditoria NEXUS"
+    },
+    {
+      "id": "DPP-PP300-175-AUDIT",
+      "origin": "real",
+      "sourceFile": "300+QUESTOES+COMENTADAS+-+POLÍCIA+PENAL.pdf",
+      "sourceNumber": 175,
+      "sourcePage": 178,
+      "prompt": "Poderá o juiz substituir a prisão preventiva pela domiciliar quando o agente for, EXCETO:",
+      "options": {
+        "A": "Maior de 70 (setenta) anos.",
+        "B": "Gestante.",
+        "C": "Extremamente debilitado por motivo de doença grave.",
+        "D": "Mulher com filho de até 12 (doze) anos de idade incompletos.",
+        "E": "Imprescindível aos cuidados especiais de pessoa menor de 6 (seis) anos de idade ou com deficiência."
+      },
+      "answer": "A",
+      "comment": "A alternativa A é a exceção: o art. 318, I, do CPP exige idade superior a 80 anos, não 70. As demais hipóteses correspondem às situações previstas nos incisos II a V do art. 318. O inciso VI também prevê a hipótese de homem que seja o único responsável pelos cuidados de filho de até 12 anos incompletos.",
+      "topicId": "prisoes-cautelares",
+      "subtopicId": "prisao-preventiva-temporaria",
+      "difficulty": null,
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "300+ Questões Comentadas — Polícia Penal, questão 175, p. 178 do PDF",
+      "classificationConfidence": "alta",
+      "answerStatus": "gabarito do material conferido com CPP vigente",
+      "commentSource": "auditoria NEXUS",
+      "legalUpdateNote": "Conferido com o art. 318 do CPP vigente em 22/11/2026: a idade legal permanece superior a 80 anos. Alterações recentes do CPP em outros dispositivos não modificaram este requisito."
+    }
+  ]
+}
