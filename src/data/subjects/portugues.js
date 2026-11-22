@@ -6,13 +6,13 @@ const subject = {
   id: 'portugues',
   name: 'Português',
   abbreviation: 'PORT',
-  description: 'Teoria organizada por tópicos do edital de Língua Portuguesa, questões reais extraídas do acervo e questões autorais do NEXUS ACADEMY.',
-  questionNotice: `${realBank.questions.length} questões reais extraídas de duas apostilas do acervo (texto-base em imagem; banca e ano aparecem quando o material informa) e ${bank.questions.length} questões autorais do NEXUS ACADEMY. O gabarito das reais segue o do material e elas ainda não têm comentário. Parte das questões das duas apostilas ainda está pendente (alternativas incompletas no PDF ou texto-base não localizado), então esta disciplina não está finalizada.`,
+  description: 'Teoria organizada por tópicos do edital de Língua Portuguesa, questões reais extraídas e auditadas do acervo e questões autorais do NEXUS ACADEMY.',
+  questionNotice: `${realBank.questions.length} questões reais do acervo publicadas (12 do PDF 2, com gabaritos conferidos e comentários). O PDF 2 contém 80 questões de Português; 68 ainda aguardam extração/deduplicação e 12 itens permanecem em revisão por ambiguidade ou gabarito inconsistente. Também há ${bank.questions.length} questões autorais do NEXUS ACADEMY. Esta disciplina ainda não está finalizada.`,
   topics: content,
   questions: [...realBank.questions, ...bank.questions],
   reviewCount: 0,
   questionAudit: { ...bank.metrics, realQuestions: realBank.metrics },
-  sourceInventory: [],
+  sourceInventory: [{ sourceId: 'pp500-portugues', sourceName: '500_questoes_comentadas_de_pp.pdf', questionsFound: 80, integrated: 12, pendingExtractionOrDeduplication: 68, needsReview: 12, answerKeySource: 'gabarito_comentado.pdf, pp. 103–109' }],
 };
 
 export default subject;
