@@ -5,7 +5,7 @@
     "duplicateQuestionsRemoved": 79,
     "uniqueQuestions": 491,
     "interactiveReadyQuestions": 313,
-    "needsReviewQuestions": 178,
+    "needsReviewQuestions": 176,
     "duplicateGroups": 59
   },
   "sourceInventory": [
@@ -86,9 +86,9 @@
       "sourceName": "CURSO PC-SP/policia penal/500_questoes_comentadas_de_pp.pdf",
       "file": "CURSO PC-SP/policia penal/500_questoes_comentadas_de_pp.pdf",
       "questionsFound": 60,
-      "readyInSource": 49,
-      "needsReviewInSource": 11,
-      "notes": ""
+      "readyInSource": 51,
+      "needsReviewInSource": 9,
+      "notes": "Auditoria do PDF 2: 50 questões já constavam no banco; Q11 e Q14 integradas após correção matemática dos gabaritos impressos. Q17/Q18 são duplicatas; Q23, Q24 e outros itens permanecem em revisão por ambiguidade ou inconsistência."
     },
     {
       "sourceId": "PCSP2002/001-InvestigadorPolícia-Noções de Lógica",
