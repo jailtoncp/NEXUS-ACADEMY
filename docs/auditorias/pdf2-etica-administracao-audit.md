@@ -50,3 +50,13 @@ A seção original continua totalizando 40 questões: 30 em Direito Administrati
 - LGPD: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm
 - Lei de Licitações e Contratos: https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm
 - Código Penal: https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm
+
+## Conferência de publicação no código
+
+A divisão acima foi confrontada com os módulos e arquivos efetivamente importados pelo registro de disciplinas:
+
+- `direito-administrativo.js` importa `direito-administrativo-pp500-question-bank.json` (30 questões).
+- `etica.js` importa `etica-pp500-question-bank.json` (6 questões).
+- `direito-penal.js` importa `direito-penal-etica-supplemental-question-bank.json`, que contém a questão de peculato (1 questão).
+
+Assim, as 37 questões classificadas como integradas não estão apenas em arquivos soltos: os três bancos suplementares são consumidos pelos respectivos módulos. As três questões Q14, Q31 e Q33 permanecem fora dos bancos publicados.
