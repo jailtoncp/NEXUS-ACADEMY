@@ -470,3 +470,51 @@ A seção das páginas impressas 22–28 foi auditada integralmente: **40/40 que
 O módulo recebeu novo eixo temático “Direitos Humanos no Sistema Prisional”. Relatório: `docs/auditorias/pdf2-direitos-humanos-audit.md`. Banco suplementar: `src/data/subjects/direitos-humanos-pp500-supplemental-question-bank.json`.
 
 **Status geral do PDF 2:** Direitos Humanos, Português, Informática, RLM, Legislação Penal/Processual Penal e Execução Penal/Sistema Prisional têm destino definido para todas as questões. Permanecem Atualidades e Ética/Noções de Administração Pública.
+
+
+## Etapa 24 — PDF 2: fechamento de Atualidades (2026-11-22)
+
+A seção das páginas impressas 26–33 foi auditada integralmente: **40/40 questões com destino definido**. Foram integradas 23, 9 foram classificadas como duplicatas internas/conceituais e 8 ficaram em revisão por atribuição factual imprecisa, fonte não confirmada ou definição incompleta (Q2, Q7, Q9, Q11, Q14, Q15, Q19 e Q37). As respostas publicadas foram verificadas com CNJ, STF, SENAPPEN, CNMP, Governo de Minas, OAB e Corte Interamericana.
+
+Foi criado o módulo somente de questões **Atualidades** (src/data/subjects/atualidades.js) e seu banco (atualidades-pp500-question-bank.json). Relatório: docs/auditorias/pdf2-atualidades-audit.md.
+
+## Etapa 25 — PDF 2: fechamento de Ética e Noções de Administração Pública (2026-11-22)
+
+A seção das páginas impressas 35–41 foi auditada integralmente: **40/40 questões com destino definido**. Foram integradas 37, sem duplicatas, e 3 ficaram em revisão:
+- Q14: a ação de improbidade não pode ser proposta por qualquer cidadão; após ADIs 7042/7043, a legitimidade é concorrente do MP e das pessoas jurídicas interessadas.
+- Q31: a LAI prevê 20 dias, prorrogáveis por mais 10 mediante justificativa, e não por igual período de 20 dias.
+- Q33: o art. 4º, III, da LGPD exclui tratamentos para fins exclusivos de segurança pública/investigação penal, sujeitos a legislação específica; a questão não delimita a finalidade.
+
+Foi criado o módulo somente de questões **Ética e Noções de Administração Pública** (src/data/subjects/etica-administracao.js) e seu banco (etica-administracao-pp500-question-bank.json). Relatório: docs/auditorias/pdf2-etica-administracao-audit.md.
+
+## Etapa 26 — PDF 2: encerramento integral do documento (2026-11-22)
+
+A auditoria das oito disciplinas do PDF 2 foi concluída. **Todas as 410 questões receberam destino: prontas/cobertas no NEXUS, duplicatas de itens já existentes ou revisão justificada. Não há questão sem classificação nem pendência de extração.**
+
+| Disciplina | Questões na fonte | Prontas/cobertas no NEXUS | Duplicatas | Em revisão |
+|---|---:|---:|---:|---:|
+| Raciocínio Lógico e Matemática Básica | 60 | 54 | 1 | 5 |
+| Português | 80 | 65 | 0 | 15 |
+| Informática | 50 | 46 | 3 | 1 |
+| Direitos Humanos | 40 | 29 | 8 | 3 |
+| Atualidades | 40 | 23 | 9 | 8 |
+| Ética e Noções de Administração Pública | 40 | 37 | 0 | 3 |
+| Legislação Penal e Processual Penal | 50 | 25 | 15 | 10 |
+| Execução Penal e Sistema Prisional | 50 | 8 | 26 | 16 |
+| **TOTAL** | **410** | **287** | **62** | **61** |
+
+**Como ler a contagem:** “Prontas/cobertas” inclui questões do PDF 2 que já estavam no banco do NEXUS antes desta auditoria e as que foram publicadas durante o trabalho. Não significa que 287 itens foram todos criados do zero. Duplicatas apontam para questão/conceito já coberto; itens em revisão não entram no treino como resposta confirmada.
+
+**Correções de gabarito e legislação relevantes:** RLM Q11 e Q14; Português Q16, Q18, Q22, Q23, Q27, Q29 e outras divergências listadas no relatório; Informática Q1, Q4, Q32, Q40 e Q44; Processo Penal Q20; atualização de exame criminológico na LEP; bloqueio de questões com progressão/saída temporária/RDD desatualizados; e correção dos comentários de exame criminológico no banco antigo.
+
+**Módulos criados durante a auditoria:** Atualidades e Ética e Noções de Administração Pública, ambos somente de questões. Os módulos de Direitos Humanos, Informática, Português e Execução Penal receberam bancos suplementares do PDF 2.
+
+**Relatórios de auditoria:** 
+- docs/auditorias/pdf2-rlm-audit.md
+- docs/auditorias/pdf2-legislacao-penal-processual-audit.md
+- docs/auditorias/pdf2-execucao-penal-audit.md
+- docs/auditorias/pdf2-direitos-humanos-audit.md
+- docs/auditorias/pdf2-atualidades-audit.md
+- docs/auditorias/pdf2-etica-administracao-audit.md
+
+**STATUS FINAL DO PDF 2: COMPLETO — 410/410 QUESTÕES COM DESTINO DEFINIDO.**
