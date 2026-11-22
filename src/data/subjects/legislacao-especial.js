@@ -1,4 +1,5 @@
 import content from './legislacao-especial-content.json' with { type: 'json' };
+import realBank from './legislacao-especial-real-question-bank.json' with { type: 'json' };
 import bank from './legislacao-especial-question-bank.json' with { type: 'json' };
 import pp500Bank from './legislacao-especial-pp500-supplemental-question-bank.json' with { type: 'json' };
 
