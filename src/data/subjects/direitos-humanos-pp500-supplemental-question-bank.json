@@ -133,7 +133,7 @@
       "topicId": "direitos-sistema-prisional",
       "subtopicId": "direitos-pessoa-presa",
       "difficulty": "easy",
-      "prompt": "Discriminar uma pessoa presa por sua orientação sexual viola principalmente o princípio:",
+      "prompt": "Discriminar preso por sua orientação sexual viola o princípio:",
       "options": {
         "A": "Da reserva legal.",
         "B": "Da oficialidade.",
@@ -593,7 +593,7 @@
       "topicId": "convencao-americana",
       "subtopicId": "cadh-sistema",
       "difficulty": "medium",
-      "prompt": "A aplicação de tratados internacionais de direitos humanos no Brasil ocorre:",
+      "prompt": "A aplicação de tratados de direitos humanos no Brasil ocorre:",
       "options": {
         "A": "Apenas se aprovados por decreto estadual.",
         "B": "Sem qualquer procedimento de incorporação.",
