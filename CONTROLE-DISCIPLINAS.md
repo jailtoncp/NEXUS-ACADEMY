@@ -370,3 +370,23 @@ A leitura integral do PDF complementar foi refeita por seções, e as contagens 
 **CI:** commit c12c3136b7246e042db680df8324f2e5a64e1ea4; GitHub Actions run 45037094601; build e deploy concluídos com sucesso.
 
 **Status:** PDF 2 INCOMPLETO — auditoria, deduplicação, validação e integração dos demais blocos continuam obrigatórias.
+
+
+## Etapa 17 — PDF 2: integração adicional de Raciocínio Lógico (2026-11-22)
+
+A comparação por ID e enunciado com o banco de RLM identificou que 50 das 60 questões do bloco já estavam representadas no banco; quatro ausências foram integradas em lotes: Q11 e Q14 (Etapa 16), Q34 e Q56 (esta etapa). A integração preserva a referência à página impressa do PDF2 e registra correção de gabarito quando a conta/forma lógica demonstrável diverge do gabarito editorial.
+
+- Q34 — sequência 2, 3, 5, 9, 17: resposta D (33), diferenças sucessivas dobram (+1, +2, +4, +8, +16).
+- Q56 — condicional ¬P → Q falsa: resposta B (P falso e Q falso), pela regra de falsidade da condicional.
+- Q18 é repetição integral de Q17 (2,5 × 0,4); não criar uma segunda questão.
+- Q21 permanece em revisão: nenhuma alternativa expressa corretamente a equivalência/contrapositiva de P → Q.
+- Q22 permanece em revisão: alternativa B é aproximativa (“podem não ser”), não a negação formal inequívoca de “todos”.
+- Q23 permanece em revisão: duas alternativas apresentam o mesmo resultado 159.
+- Q24 permanece em revisão: escala 24h/72h e contagem em janela de 30 dias não são suficientemente especificadas para sustentar a resposta editorial.
+- Q28 permanece em revisão: alternativas B e D expressam a mesma condição necessária por contraposição.
+
+**Destino das 60 questões RLM do PDF2:** 54 prontas (50 já existentes no banco + 4 novas integradas), 5 em revisão e 1 duplicata interna (Q18). O banco RLM geral passa a 317 questões prontas e 176 em revisão (493 únicas no arquivo). As 5 questões retidas não são publicadas no treino até correção/decisão editorial.
+
+**CI:** commit 44c8e4739dc4152d2c040eace7f90548610c6243; Actions run 45037617455; build e deploy concluídos com sucesso.
+
+**Status do PDF 2:** INCOMPLETO. Blocos de Português, Informática, Direitos Humanos, Atualidades, Ética/Administração Pública, Legislação Penal/Processual Penal e Execução Penal ainda aguardam auditoria individual e integração.
