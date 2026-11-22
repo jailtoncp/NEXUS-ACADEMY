@@ -1,0 +1,199 @@
+{
+  "metrics": {
+    "sourceFile": "500_questoes_comentadas_de_pp.pdf",
+    "sourceDiscipline": "Execução Penal e Sistema Prisional",
+    "questionsLocated": 50,
+    "questionsIntegrated": 8,
+    "duplicates": 26,
+    "questionsInReview": 16,
+    "questionsPending": 0,
+    "answerKeySource": "gabarito_comentado.pdf, pp. 82–86",
+    "note": "8 questões integradas após conferência com a LEP/CPP vigentes; 26 duplicatas em relação ao banco de 300+ questões e/ou duplicatas internas; 16 retidas por legislação desatualizada, enunciado incompleto, matéria dependente de norma local ou ausência de resposta inequívoca. O gabarito de Q23 foi mantido (D), Q24 foi retida porque o limite de 360 dias está superado e Q29 foi retida porque a Resolução CNJ 391/2021 não exige resenha ou prova escrita."
+  },
+  "questions": [
+    {
+      "id": "EXEC-PP500-004",
+      "origin": "real",
+      "sourceNumber": 4,
+      "topicId": "assistencia-egressos",
+      "subtopicId": "lep-assistencia",
+      "difficulty": "easy",
+      "prompt": "A assistência material ao preso, conforme a Lei de Execução Penal, inclui:",
+      "options": {
+        "A": "Pagamento de salário mínimo mensal.",
+        "B": "Fornecimento de alimentação, vestuário e instalações higiênicas.",
+        "C": "Acesso livre à internet.",
+        "D": "Recursos financeiros para gastos pessoais.",
+        "E": "Auxílio-moradia."
+      },
+      "answer": "B",
+      "comment": "A assistência material compreende alimentação, vestuário e instalações higiênicas, conforme o art. 12 da LEP. Assistência jurídica, educacional, social e à saúde são modalidades distintas.",
+      "board": null,
+      "year": null,
+      "exam": "Polícia Penal",
+      "sourcePage": 63,
+      "source": "Caderno 500 questões PP — Execução Penal e Sistema Prisional — questão 4, p. 63."
+    },
+    {
+      "id": "EXEC-PP500-016",
+      "origin": "real",
+      "sourceNumber": 16,
+      "topicId": "direitos-deveres-disciplina",
+      "subtopicId": "lep-direitos-deveres",
+      "difficulty": "easy",
+      "prompt": "Sobre as visitas no sistema prisional, é correto afirmar que:",
+      "options": {
+        "A": "Não podem ser restringidas, salvo por ordem judicial.",
+        "B": "Podem ser regulamentadas pela direção da unidade.",
+        "C": "Devem ocorrer diariamente.",
+        "D": "O preso pode determinar livremente quem o visita.",
+        "E": "Só familiares de primeiro grau podem visitar."
+      },
+      "answer": "B",
+      "comment": "A LEP prevê visitas em dias determinados e permite que o direito seja suspenso ou restringido por ato motivado do diretor do estabelecimento (art. 41, X e parágrafo único). Portanto, a direção pode regulamentar dias, horários e condições, respeitando a lei e a motivação exigida.",
+      "board": null,
+      "year": null,
+      "exam": "Polícia Penal",
+      "sourcePage": 64,
+      "source": "Caderno 500 questões PP — Execução Penal e Sistema Prisional — questão 16, p. 64."
+    },
+    {
+      "id": "EXEC-PP500-020",
+      "origin": "real",
+      "sourceNumber": 20,
+      "topicId": "orgaos-estabelecimentos",
+      "subtopicId": "lep-estabelecimentos",
+      "difficulty": "medium",
+      "prompt": "A prisão especial, antes do trânsito em julgado da condenação:",
+      "options": {
+        "A": "É cumprida em cela comum com os demais presos.",
+        "B": "É benefício que implica tratamento superior.",
+        "C": "Consiste em recolhimento em local distinto dos presos comuns.",
+        "D": "Permite que o preso deixe de seguir normas disciplinares.",
+        "E": "Autoriza o uso irrestrito de roupas próprias."
+      },
+      "answer": "C",
+      "comment": "A prisão especial consiste em recolhimento em local distinto da prisão comum, nos termos do art. 295, § 1º, do CPP. Não representa privilégio material nem dispensa das regras disciplinares; assegura separação física nas hipóteses legais.",
+      "board": null,
+      "year": null,
+      "exam": "Polícia Penal",
+      "sourcePage": 65,
+      "source": "Caderno 500 questões PP — Execução Penal e Sistema Prisional — questão 20, p. 65."
+    },
+    {
+      "id": "EXEC-PP500-023",
+      "origin": "real",
+      "sourceNumber": 23,
+      "topicId": "direitos-deveres-disciplina",
+      "subtopicId": "lep-disciplina-rdd",
+      "difficulty": "easy",
+      "prompt": "São sanções disciplinares previstas na Lei de Execução Penal, exceto:",
+      "options": {
+        "A": "Advertência verbal.",
+        "B": "Suspensão ou restrição de direitos.",
+        "C": "Isolamento disciplinar.",
+        "D": "Recolhimento em cela escura.",
+        "E": "Inclusão no regime disciplinar diferenciado."
+      },
+      "answer": "D",
+      "comment": "O art. 53 da LEP enumera advertência verbal, repreensão, suspensão ou restrição de direitos, isolamento e inclusão no RDD. Recolhimento em cela escura não integra o rol legal de sanções disciplinares.",
+      "board": null,
+      "year": null,
+      "exam": "Polícia Penal",
+      "sourcePage": 66,
+      "source": "Caderno 500 questões PP — Execução Penal e Sistema Prisional — questão 23, p. 66."
+    },
+    {
+      "id": "EXEC-PP500-025",
+      "origin": "real",
+      "sourceNumber": 25,
+      "topicId": "orgaos-estabelecimentos",
+      "subtopicId": "lep-orgaos",
+      "difficulty": "easy",
+      "prompt": "Qual das instituições abaixo NÃO é órgão da execução penal previsto no art. 61 da Lei de Execução Penal?",
+      "options": {
+        "A": "Poder Judiciário, por meio do Juízo da Execução.",
+        "B": "Ministério Público.",
+        "C": "Defensoria Pública.",
+        "D": "Patronato.",
+        "E": "Polícia Rodoviária Federal."
+      },
+      "answer": "E",
+      "comment": "O art. 61 da LEP relaciona, entre outros, o Juízo da Execução, Ministério Público, Conselho Penitenciário, Departamentos Penitenciários, Patronato, Conselho da Comunidade e Defensoria Pública. A Polícia Rodoviária Federal não consta desse rol.",
+      "board": null,
+      "year": null,
+      "exam": "Polícia Penal",
+      "sourcePage": 66,
+      "source": "Caderno 500 questões PP — Execução Penal e Sistema Prisional — questão 25, p. 66."
+    },
+    {
+      "id": "EXEC-PP500-026",
+      "origin": "real",
+      "sourceNumber": 26,
+      "topicId": "assistencia-egressos",
+      "subtopicId": "lep-assistencia",
+      "difficulty": "easy",
+      "prompt": "De acordo com a LEP, a assistência religiosa deve:",
+      "options": {
+        "A": "Ser restrita a padres e pastores.",
+        "B": "Ser obrigatória para todos os presos.",
+        "C": "Permitir a liberdade de culto e a participação nos serviços religiosos organizados no estabelecimento.",
+        "D": "Proibir reuniões coletivas.",
+        "E": "Ser autorizada somente pelo juiz."
+      },
+      "answer": "C",
+      "comment": "O art. 24 da LEP determina que a assistência religiosa, com liberdade de culto, seja prestada aos presos e internados, permitindo a participação nos serviços organizados no estabelecimento e a posse de livros de instrução religiosa. Ninguém pode ser obrigado a participar de atividade religiosa.",
+      "board": null,
+      "year": null,
+      "exam": "Polícia Penal",
+      "sourcePage": 66,
+      "source": "Caderno 500 questões PP — Execução Penal e Sistema Prisional — questão 26, p. 66."
+    },
+    {
+      "id": "EXEC-PP500-037",
+      "origin": "real",
+      "sourceNumber": 37,
+      "topicId": "regimes-saidas-livramento",
+      "subtopicId": "lep-saidas-livramento",
+      "difficulty": "medium",
+      "prompt": "Segundo a Lei de Execução Penal, a monitoração eletrônica pode ser determinada:",
+      "options": {
+        "A": "Apenas no regime fechado.",
+        "B": "Nas hipóteses expressamente autorizadas pela LEP, como saída temporária no semiaberto, prisão domiciliar e cumprimento de pena nos regimes aberto ou semiaberto.",
+        "C": "Apenas em prisão domiciliar.",
+        "D": "Apenas durante saída temporária.",
+        "E": "Apenas no regime aberto."
+      },
+      "answer": "B",
+      "comment": "O art. 146-B da LEP autoriza o juiz a definir monitoração eletrônica em várias hipóteses, incluindo saída temporária no semiaberto, prisão domiciliar, cumprimento de pena nos regimes aberto ou semiaberto, progressão para esses regimes e livramento condicional. A Lei 14.843/2024 ampliou as hipóteses legais.",
+      "board": null,
+      "year": null,
+      "exam": "Polícia Penal",
+      "sourcePage": 68,
+      "source": "Caderno 500 questões PP — Execução Penal e Sistema Prisional — questão 37, p. 68."
+    },
+    {
+      "id": "EXEC-PP500-044",
+      "origin": "real",
+      "sourceNumber": 44,
+      "topicId": "orgaos-estabelecimentos",
+      "subtopicId": "lep-estabelecimentos",
+      "difficulty": "easy",
+      "prompt": "De acordo com a Lei de Execução Penal, os presos provisórios devem:",
+      "options": {
+        "A": "Ficar separados dos condenados.",
+        "B": "Ficar juntos para facilitar a gestão.",
+        "C": "Cumprir pena logo após a sentença, ainda que recorrível.",
+        "D": "Receber regime fechado automaticamente.",
+        "E": "Ser encaminhados ao regime semiaberto."
+      },
+      "answer": "A",
+      "comment": "O art. 84 da LEP determina a separação entre presos provisórios e condenados, observados também os critérios legais de separação entre categorias de presos.",
+      "board": null,
+      "year": null,
+      "exam": "Polícia Penal",
+      "sourcePage": 69,
+      "source": "Caderno 500 questões PP — Execução Penal e Sistema Prisional — questão 44, p. 69."
+    }
+  ]
+}
