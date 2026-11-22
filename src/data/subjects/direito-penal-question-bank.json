@@ -1,201 +1,360 @@
 {
- "metrics": {
-  "authorialQuestions": 9,
-  "topicDistribution": {
-   "extincao-punibilidade": 3,
-   "atualizacoes-legislativas": 3,
-   "penas": 3
-  }
- },
- "questions": [
-  {
-   "id": "DP-AUTH-001",
-   "origin": "authorial",
-   "topicId": "extincao-punibilidade",
-   "subtopicId": "prescricao",
-   "difficulty": "medium",
-   "prompt": "Um crime tem pena máxima cominada de 6 anos de reclusão, sem causas de aumento ou de diminuição. Antes do trânsito em julgado da sentença, o prazo da prescrição da pretensão punitiva em abstrato é de",
-   "options": {
-    "A": "8 anos.",
-    "B": "12 anos.",
-    "C": "16 anos.",
-    "D": "20 anos.",
-    "E": "4 anos."
-   },
-   "answer": "B",
-   "comment": "Pelo art. 109 do CP, a pena máxima superior a 4 anos e não excedente a 8 anos prescreve em 12 anos.",
-   "board": null,
-   "year": null,
-   "exam": null,
-   "source": "Questão autoral — NEXUS ACADEMY"
+  "metrics": {
+    "authorialQuestions": 9,
+    "topicDistribution": {
+      "extincao-punibilidade": 3,
+      "atualizacoes-legislativas": 3,
+      "penas": 3
+    },
+    "sourceQuestions": 8,
+    "sourceDistribution": {
+      "pdf1-direito-penal": 8
+    }
   },
-  {
-   "id": "DP-AUTH-002",
-   "origin": "authorial",
-   "topicId": "extincao-punibilidade",
-   "subtopicId": "causas-extincao",
-   "difficulty": "medium",
-   "prompt": "Quanto ao perdão judicial, é correto afirmar que, concedido,",
-   "options": {
-    "A": "não extingue a punibilidade, apenas reduz a pena.",
-    "B": "extingue a punibilidade, e a sentença que o concede não é considerada para efeitos de reincidência.",
-    "C": "extingue a punibilidade e gera reincidência.",
-    "D": "depende de requerimento do Presidente da República.",
-    "E": "só é cabível nos crimes de ação penal privada."
-   },
-   "answer": "B",
-   "comment": "O perdão judicial é causa de extinção da punibilidade (art. 107, IX), e a sentença que o concede não é considerada para efeitos de reincidência (art. 120 do CP).",
-   "board": null,
-   "year": null,
-   "exam": null,
-   "source": "Questão autoral — NEXUS ACADEMY"
-  },
-  {
-   "id": "DP-AUTH-003",
-   "origin": "authorial",
-   "topicId": "extincao-punibilidade",
-   "subtopicId": "causas-extincao",
-   "difficulty": "easy",
-   "prompt": "Em regra, o prazo decadencial para o ofendido oferecer queixa ou representação é de",
-   "options": {
-    "A": "30 dias.",
-    "B": "3 meses.",
-    "C": "6 meses.",
-    "D": "1 ano.",
-    "E": "2 anos."
-   },
-   "answer": "C",
-   "comment": "O direito de queixa ou de representação decai em 6 meses, contados do dia em que o ofendido veio a saber quem é o autor do crime (art. 103 do CP).",
-   "board": null,
-   "year": null,
-   "exam": null,
-   "source": "Questão autoral — NEXUS ACADEMY"
-  },
-  {
-   "id": "DP-AUTH-004",
-   "origin": "authorial",
-   "topicId": "atualizacoes-legislativas",
-   "subtopicId": "leis-recentes",
-   "difficulty": "medium",
-   "prompt": "Com a Lei 14.994/2024, o feminicídio passou a ser",
-   "options": {
-    "A": "qualificadora do homicídio, prevista no art. 121, § 2º, VI.",
-    "B": "crime autônomo, previsto no art. 121-A do Código Penal.",
-    "C": "contravenção penal.",
-    "D": "causa de aumento do crime de lesão corporal.",
-    "E": "crime de menor potencial ofensivo."
-   },
-   "answer": "B",
-   "comment": "A Lei 14.994/2024 transformou o feminicídio em crime autônomo (art. 121-A), com pena de reclusão de 20 a 40 anos.",
-   "board": null,
-   "year": null,
-   "exam": null,
-   "source": "Questão autoral — NEXUS ACADEMY"
-  },
-  {
-   "id": "DP-AUTH-005",
-   "origin": "authorial",
-   "topicId": "atualizacoes-legislativas",
-   "subtopicId": "leis-recentes",
-   "difficulty": "medium",
-   "prompt": "A Lei 14.155/2021 introduziu no Código Penal, entre outras mudanças, formas qualificadas de",
-   "options": {
-    "A": "tortura e abuso de autoridade.",
-    "B": "furto e estelionato praticados por meio de fraude eletrônica.",
-    "C": "corrupção ativa e passiva.",
-    "D": "crimes contra a organização do trabalho.",
-    "E": "tráfico de pessoas."
-   },
-   "answer": "B",
-   "comment": "A lei criou o furto mediante fraude eletrônica (art. 155, § 4º-B) e o estelionato por fraude eletrônica (art. 171, § 2º-A).",
-   "board": null,
-   "year": null,
-   "exam": null,
-   "source": "Questão autoral — NEXUS ACADEMY"
-  },
-  {
-   "id": "DP-AUTH-006",
-   "origin": "authorial",
-   "topicId": "atualizacoes-legislativas",
-   "subtopicId": "leis-recentes",
-   "difficulty": "medium",
-   "prompt": "A Lei 15.397/2026 alterou o Código Penal principalmente em relação aos crimes",
-   "options": {
-    "A": "contra a administração pública.",
-    "B": "contra o patrimônio, como furto, roubo, estelionato e receptação.",
-    "C": "contra a dignidade sexual.",
-    "D": "contra a fé pública.",
-    "E": "contra a organização do trabalho."
-   },
-   "answer": "B",
-   "comment": "A Lei 15.397/2026 endureceu penas e alterou regras de crimes patrimoniais, como furto, roubo, estelionato e receptação. Confira sempre o texto vigente.",
-   "board": null,
-   "year": null,
-   "exam": null,
-   "source": "Questão autoral — NEXUS ACADEMY"
-  },
-  {
-   "id": "DP-AUTH-007",
-   "origin": "authorial",
-   "topicId": "penas",
-   "subtopicId": "especies-regimes",
-   "difficulty": "medium",
-   "prompt": "Réu primário, condenado a 6 anos de reclusão, com circunstâncias judiciais favoráveis, deve iniciar o cumprimento da pena em regime",
-   "options": {
-    "A": "fechado.",
-    "B": "semiaberto.",
-    "C": "aberto.",
-    "D": "de prisão domiciliar obrigatória.",
-    "E": "de prisão especial."
-   },
-   "answer": "B",
-   "comment": "Conforme o art. 33, § 2º, b, do CP, o condenado não reincidente cuja pena seja superior a 4 anos e não exceda 8 pode começar a cumpri-la em regime semiaberto.",
-   "board": null,
-   "year": null,
-   "exam": null,
-   "source": "Questão autoral — NEXUS ACADEMY"
-  },
-  {
-   "id": "DP-AUTH-008",
-   "origin": "authorial",
-   "topicId": "penas",
-   "subtopicId": "aplicacao-pena",
-   "difficulty": "hard",
-   "prompt": "De acordo com a Súmula 231 do STJ, a incidência de circunstância atenuante",
-   "options": {
-    "A": "sempre reduz a pena abaixo do mínimo legal.",
-    "B": "não pode conduzir à redução da pena abaixo do mínimo legal.",
-    "C": "só vale para crimes culposos.",
-    "D": "só pode ser reconhecida pelo Tribunal do Júri.",
-    "E": "exclui a reincidência."
-   },
-   "answer": "B",
-   "comment": "Na segunda fase da dosimetria, as atenuantes e agravantes não podem levar a pena aquém do mínimo nem além do máximo legal (Súmula 231 do STJ).",
-   "board": null,
-   "year": null,
-   "exam": null,
-   "source": "Questão autoral — NEXUS ACADEMY"
-  },
-  {
-   "id": "DP-AUTH-009",
-   "origin": "authorial",
-   "topicId": "penas",
-   "subtopicId": "especies-regimes",
-   "difficulty": "medium",
-   "prompt": "A pena privativa de liberdade pode ser substituída por restritiva de direitos, em regra, quando",
-   "options": {
-    "A": "a pena aplicada for superior a 4 anos.",
-    "B": "o crime for doloso e cometido com violência ou grave ameaça à pessoa.",
-    "C": "a pena aplicada não for superior a 4 anos, o crime for doloso sem violência ou grave ameaça, o réu não for reincidente em crime doloso e a substituição for suficiente.",
-    "D": "o réu for reincidente específico.",
-    "E": "o crime for hediondo."
-   },
-   "answer": "C",
-   "comment": "O art. 44 do CP exige, entre outros requisitos, pena não superior a 4 anos (ou crime culposo), ausência de violência ou grave ameaça, não reincidência em crime doloso e suficiência da medida.",
-   "board": null,
-   "year": null,
-   "exam": null,
-   "source": "Questão autoral — NEXUS ACADEMY"
-  }
- ]
+  "questions": [
+    {
+      "id": "DP-AUTH-001",
+      "origin": "authorial",
+      "topicId": "extincao-punibilidade",
+      "subtopicId": "prescricao",
+      "difficulty": "medium",
+      "prompt": "Um crime tem pena máxima cominada de 6 anos de reclusão, sem causas de aumento ou de diminuição. Antes do trânsito em julgado da sentença, o prazo da prescrição da pretensão punitiva em abstrato é de",
+      "options": {
+        "A": "8 anos.",
+        "B": "12 anos.",
+        "C": "16 anos.",
+        "D": "20 anos.",
+        "E": "4 anos."
+      },
+      "answer": "B",
+      "comment": "Pelo art. 109 do CP, a pena máxima superior a 4 anos e não excedente a 8 anos prescreve em 12 anos.",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "DP-AUTH-002",
+      "origin": "authorial",
+      "topicId": "extincao-punibilidade",
+      "subtopicId": "causas-extincao",
+      "difficulty": "medium",
+      "prompt": "Quanto ao perdão judicial, é correto afirmar que, concedido,",
+      "options": {
+        "A": "não extingue a punibilidade, apenas reduz a pena.",
+        "B": "extingue a punibilidade, e a sentença que o concede não é considerada para efeitos de reincidência.",
+        "C": "extingue a punibilidade e gera reincidência.",
+        "D": "depende de requerimento do Presidente da República.",
+        "E": "só é cabível nos crimes de ação penal privada."
+      },
+      "answer": "B",
+      "comment": "O perdão judicial é causa de extinção da punibilidade (art. 107, IX), e a sentença que o concede não é considerada para efeitos de reincidência (art. 120 do CP).",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "DP-AUTH-003",
+      "origin": "authorial",
+      "topicId": "extincao-punibilidade",
+      "subtopicId": "causas-extincao",
+      "difficulty": "easy",
+      "prompt": "Em regra, o prazo decadencial para o ofendido oferecer queixa ou representação é de",
+      "options": {
+        "A": "30 dias.",
+        "B": "3 meses.",
+        "C": "6 meses.",
+        "D": "1 ano.",
+        "E": "2 anos."
+      },
+      "answer": "C",
+      "comment": "O direito de queixa ou de representação decai em 6 meses, contados do dia em que o ofendido veio a saber quem é o autor do crime (art. 103 do CP).",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "DP-AUTH-004",
+      "origin": "authorial",
+      "topicId": "atualizacoes-legislativas",
+      "subtopicId": "leis-recentes",
+      "difficulty": "medium",
+      "prompt": "Com a Lei 14.994/2024, o feminicídio passou a ser",
+      "options": {
+        "A": "qualificadora do homicídio, prevista no art. 121, § 2º, VI.",
+        "B": "crime autônomo, previsto no art. 121-A do Código Penal.",
+        "C": "contravenção penal.",
+        "D": "causa de aumento do crime de lesão corporal.",
+        "E": "crime de menor potencial ofensivo."
+      },
+      "answer": "B",
+      "comment": "A Lei 14.994/2024 transformou o feminicídio em crime autônomo (art. 121-A), com pena de reclusão de 20 a 40 anos.",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "DP-AUTH-005",
+      "origin": "authorial",
+      "topicId": "atualizacoes-legislativas",
+      "subtopicId": "leis-recentes",
+      "difficulty": "medium",
+      "prompt": "A Lei 14.155/2021 introduziu no Código Penal, entre outras mudanças, formas qualificadas de",
+      "options": {
+        "A": "tortura e abuso de autoridade.",
+        "B": "furto e estelionato praticados por meio de fraude eletrônica.",
+        "C": "corrupção ativa e passiva.",
+        "D": "crimes contra a organização do trabalho.",
+        "E": "tráfico de pessoas."
+      },
+      "answer": "B",
+      "comment": "A lei criou o furto mediante fraude eletrônica (art. 155, § 4º-B) e o estelionato por fraude eletrônica (art. 171, § 2º-A).",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "DP-AUTH-006",
+      "origin": "authorial",
+      "topicId": "atualizacoes-legislativas",
+      "subtopicId": "leis-recentes",
+      "difficulty": "medium",
+      "prompt": "A Lei 15.397/2026 alterou o Código Penal principalmente em relação aos crimes",
+      "options": {
+        "A": "contra a administração pública.",
+        "B": "contra o patrimônio, como furto, roubo, estelionato e receptação.",
+        "C": "contra a dignidade sexual.",
+        "D": "contra a fé pública.",
+        "E": "contra a organização do trabalho."
+      },
+      "answer": "B",
+      "comment": "A Lei 15.397/2026 endureceu penas e alterou regras de crimes patrimoniais, como furto, roubo, estelionato e receptação. Confira sempre o texto vigente.",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "DP-AUTH-007",
+      "origin": "authorial",
+      "topicId": "penas",
+      "subtopicId": "especies-regimes",
+      "difficulty": "medium",
+      "prompt": "Réu primário, condenado a 6 anos de reclusão, com circunstâncias judiciais favoráveis, deve iniciar o cumprimento da pena em regime",
+      "options": {
+        "A": "fechado.",
+        "B": "semiaberto.",
+        "C": "aberto.",
+        "D": "de prisão domiciliar obrigatória.",
+        "E": "de prisão especial."
+      },
+      "answer": "B",
+      "comment": "Conforme o art. 33, § 2º, b, do CP, o condenado não reincidente cuja pena seja superior a 4 anos e não exceda 8 pode começar a cumpri-la em regime semiaberto.",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "DP-AUTH-008",
+      "origin": "authorial",
+      "topicId": "penas",
+      "subtopicId": "aplicacao-pena",
+      "difficulty": "hard",
+      "prompt": "De acordo com a Súmula 231 do STJ, a incidência de circunstância atenuante",
+      "options": {
+        "A": "sempre reduz a pena abaixo do mínimo legal.",
+        "B": "não pode conduzir à redução da pena abaixo do mínimo legal.",
+        "C": "só vale para crimes culposos.",
+        "D": "só pode ser reconhecida pelo Tribunal do Júri.",
+        "E": "exclui a reincidência."
+      },
+      "answer": "B",
+      "comment": "Na segunda fase da dosimetria, as atenuantes e agravantes não podem levar a pena aquém do mínimo nem além do máximo legal (Súmula 231 do STJ).",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "DP-AUTH-009",
+      "origin": "authorial",
+      "topicId": "penas",
+      "subtopicId": "especies-regimes",
+      "difficulty": "medium",
+      "prompt": "A pena privativa de liberdade pode ser substituída por restritiva de direitos, em regra, quando",
+      "options": {
+        "A": "a pena aplicada for superior a 4 anos.",
+        "B": "o crime for doloso e cometido com violência ou grave ameaça à pessoa.",
+        "C": "a pena aplicada não for superior a 4 anos, o crime for doloso sem violência ou grave ameaça, o réu não for reincidente em crime doloso e a substituição for suficiente.",
+        "D": "o réu for reincidente específico.",
+        "E": "o crime for hediondo."
+      },
+      "answer": "C",
+      "comment": "O art. 44 do CP exige, entre outros requisitos, pena não superior a 4 anos (ou crime culposo), ausência de violência ou grave ameaça, não reincidência em crime doloso e suficiência da medida.",
+      "board": null,
+      "year": null,
+      "exam": null,
+      "source": "Questão autoral — NEXUS ACADEMY"
+    },
+    {
+      "id": "PDF1-DP-Q001",
+      "origin": "source",
+      "topicId": "principios-penais",
+      "subtopicId": "insignificancia-violencia-domestica",
+      "difficulty": "medium",
+      "prompt": "Joana compareceu à delegacia relatando que seu companheiro, por não aceitar que ela exercesse atividade laboral, destruiu seus instrumentos de trabalho, avaliados em R$ 85,00. Considerando o entendimento do STJ, é aplicável o princípio da insignificância em favor do companheiro em razão do reduzido valor dos objetos destruídos.",
+      "options": {
+        "A": "Certo.",
+        "B": "Errado."
+      },
+      "answer": "B",
+      "comment": "Errado. A Súmula 589 do STJ estabelece que é inaplicável o princípio da insignificância nos crimes ou contravenções praticados contra a mulher no âmbito das relações domésticas. O baixo valor do bem não afasta essa orientação.",
+      "board": null,
+      "year": null,
+      "exam": "Questões para Polícia Penal",
+      "source": "300+ QUESTÕES COMENTADAS — POLÍCIA PENAL.pdf, Direito Penal, Princípios e aplicação da lei penal, questão 1; correção da própria apostila."
+    },
+    {
+      "id": "PDF1-DP-Q002",
+      "origin": "source",
+      "topicId": "principios-penais",
+      "subtopicId": "fragmentariedade-subsidiariedade",
+      "difficulty": "medium",
+      "prompt": "No REsp 672.225-RS, a absolvição de uma contadora acusada de apropriar-se de R$ 500,00 recebidos para quitar contribuições ao INSS e protocolar pedido administrativo foi amparada, segundo a apostila, no princípio da:",
+      "options": {
+        "A": "Legalidade.",
+        "B": "Culpabilidade.",
+        "C": "Insignificância.",
+        "D": "Subsidiariedade."
+      },
+      "answer": "D",
+      "comment": "A subsidiariedade expressa a intervenção mínima do Direito Penal: ele deve atuar como ultima ratio, quando os demais ramos do Direito não forem suficientes para resolver a situação. A própria correção da apostila indica a alternativa D.",
+      "board": null,
+      "year": null,
+      "exam": "Questões para Polícia Penal",
+      "source": "300+ QUESTÕES COMENTADAS — POLÍCIA PENAL.pdf, Direito Penal, Princípios e aplicação da lei penal, questão 2; correção da própria apostila."
+    },
+    {
+      "id": "PDF1-DP-Q005",
+      "origin": "source",
+      "topicId": "teoria-do-crime",
+      "subtopicId": "imputabilidade-penal-menoridade",
+      "difficulty": "easy",
+      "prompt": "Uma pessoa de dezessete anos, faixa preta em arte marcial, comete ato previsto como crime. Nessa situação, será considerada penalmente inimputável, conforme previsão expressa na Constituição Federal de 1988 e no Código Penal.",
+      "options": {
+        "A": "Certo.",
+        "B": "Errado."
+      },
+      "answer": "A",
+      "comment": "Certo. A menoridade penal é aferida pela idade: os menores de 18 anos são penalmente inimputáveis, sujeitos às normas da legislação especial (art. 27 do Código Penal e art. 228 da Constituição). Habilidade física ou graduação em arte marcial não altera esse critério.",
+      "board": null,
+      "year": null,
+      "exam": "Questões para Polícia Penal",
+      "source": "300+ QUESTÕES COMENTADAS — POLÍCIA PENAL.pdf, Direito Penal, Princípios e aplicação da lei penal, questão 5."
+    },
+    {
+      "id": "PDF1-DP-Q006",
+      "origin": "source",
+      "topicId": "aplicacao-da-lei-penal",
+      "subtopicId": "pena-cumprida-no-estrangeiro",
+      "difficulty": "medium",
+      "prompt": "De acordo com o Código Penal Brasileiro, é correto afirmar que:",
+      "options": {
+        "A": "O crime somente será considerado praticado quando evidenciado o seu resultado.",
+        "B": "A pena cumprida no estrangeiro atenua a pena imposta no Brasil pelo mesmo crime, quando diversas, ou nela é computada, quando idênticas.",
+        "C": "A lei nova que deixa de considerar determinado fato como crime mantém os efeitos penais da condenação em fase de cumprimento.",
+        "D": "A lei excepcional ou temporária deixa de ser aplicada aos fatos praticados durante sua vigência após expirado seu prazo.",
+        "E": "Após o trânsito em julgado, a sentença não pode ser alterada mesmo que lei nova beneficie o condenado."
+      },
+      "answer": "B",
+      "comment": "Alternativa B. É a regra do art. 8º do Código Penal: a pena cumprida no estrangeiro atenua a pena imposta no Brasil pelo mesmo crime, quando diversas, ou é nela computada, quando idênticas. As demais alternativas contrariam, respectivamente, os arts. 4º, 2º, 3º e 2º, parágrafo único, do CP.",
+      "board": null,
+      "year": null,
+      "exam": "Questões para Polícia Penal",
+      "source": "300+ QUESTÕES COMENTADAS — POLÍCIA PENAL.pdf, Direito Penal, Princípios e aplicação da lei penal, questão 6."
+    },
+    {
+      "id": "PDF1-DP-Q007",
+      "origin": "source",
+      "topicId": "aplicacao-da-lei-penal",
+      "subtopicId": "principios-e-tempo-do-crime",
+      "difficulty": "medium",
+      "prompt": "Em relação à aplicação da lei penal, marque a alternativa correta.",
+      "options": {
+        "A": "Não há crime sem lei ou decreto anterior que o defina.",
+        "B": "A lei posterior que deixa de considerar o fato crime faz cessar também os efeitos civis da condenação.",
+        "C": "A lei posterior mais benéfica não se aplica se já houver sentença condenatória transitada em julgado.",
+        "D": "A lei excepcional ou temporária não se aplica ao fato praticado durante sua vigência depois de encerrado seu período.",
+        "E": "Considera-se praticado o crime no momento da ação ou omissão, ainda que outro seja o momento do resultado."
+      },
+      "answer": "E",
+      "comment": "Alternativa E. O art. 4º do Código Penal adota a teoria da atividade para determinar o tempo do crime. A lei penal mais benéfica retroage inclusive após o trânsito em julgado; leis temporárias e excepcionais continuam aplicáveis aos fatos praticados durante sua vigência.",
+      "board": null,
+      "year": null,
+      "exam": "Questões para Polícia Penal",
+      "source": "300+ QUESTÕES COMENTADAS — POLÍCIA PENAL.pdf, Direito Penal, Princípios e aplicação da lei penal, questão 7."
+    },
+    {
+      "id": "PDF1-DP-Q008",
+      "origin": "source",
+      "topicId": "principios-penais",
+      "subtopicId": "principio-da-legalidade",
+      "difficulty": "easy",
+      "prompt": "O Direito Penal não admite analogias incriminadoras. Essa afirmação decorre do princípio da:",
+      "options": {
+        "A": "Adequação social.",
+        "B": "Responsabilidade penal pessoal.",
+        "C": "Individualização das penas.",
+        "D": "Legalidade.",
+        "E": "Responsabilidade penal subjetiva."
+      },
+      "answer": "D",
+      "comment": "A analogia não pode ser usada para criar crimes ou agravar penas. Essa vedação decorre do princípio da legalidade (art. 1º do Código Penal e art. 5º, XXXIX, da Constituição), que exige lei anterior para definir crime e cominar pena.",
+      "board": null,
+      "year": null,
+      "exam": "Questões para Polícia Penal",
+      "source": "300+ QUESTÕES COMENTADAS — POLÍCIA PENAL.pdf, Direito Penal, Princípios e aplicação da lei penal, questão 8."
+    },
+    {
+      "id": "PDF1-DP-Q009",
+      "origin": "source",
+      "topicId": "aplicacao-da-lei-penal",
+      "subtopicId": "lei-penal-no-tempo",
+      "difficulty": "easy",
+      "prompt": "A lei penal somente pode retroagir para beneficiar o réu.",
+      "options": {
+        "A": "Certo.",
+        "B": "Errado."
+      },
+      "answer": "A",
+      "comment": "Certo. A Constituição (art. 5º, XL) e o art. 2º, parágrafo único, do Código Penal asseguram a retroatividade da lei penal mais benéfica. A lei mais gravosa não retroage.",
+      "board": null,
+      "year": null,
+      "exam": "Questões para Polícia Penal",
+      "source": "300+ QUESTÕES COMENTADAS — POLÍCIA PENAL.pdf, Direito Penal, Princípios e aplicação da lei penal, questão 9."
+    },
+    {
+      "id": "PDF1-DP-Q010",
+      "origin": "source",
+      "topicId": "aplicacao-da-lei-penal",
+      "subtopicId": "extraterritorialidade",
+      "difficulty": "medium",
+      "prompt": "Segundo entendimento do STJ, do STF e da doutrina dominante, consoante o princípio da nacionalidade ou personalidade, os crimes contra a vida ou a liberdade do Presidente da República, ainda que cometidos no estrangeiro, sujeitam-se à lei brasileira.",
+      "options": {
+        "A": "Certo.",
+        "B": "Errado."
+      },
+      "answer": "B",
+      "comment": "Errado quanto ao fundamento indicado. O art. 7º, I, 'a', do Código Penal prevê extraterritorialidade incondicionada para crimes contra a vida ou a liberdade do Presidente da República, com fundamento no princípio da defesa ou proteção, e não no princípio da nacionalidade ou personalidade.",
+      "board": null,
+      "year": null,
+      "exam": "Questões para Polícia Penal",
+      "source": "300+ QUESTÕES COMENTADAS — POLÍCIA PENAL.pdf, Direito Penal, Princípios e aplicação da lei penal, questão 10."
+    }
+  ]
 }
