@@ -67,6 +67,7 @@ Foi feita a leitura do primeiro bloco de 25 questões da seção Matemática (p�
 - Não foi identificada divergência de gabarito entre os 17 itens resolvidos e as respostas impressas.
 - A questão 1 foi conferida por equação: se a média é `m` e a venda de segunda-feira é `m/2`, então `m = (m/2 + 81)/5`, resultando em `m = 18` (B).
 - O banco atual de Raciocínio Lógico possui conteúdo matemático misturado a lógica e problemas de associação; a comparação de duplicidade deve considerar o enunciado integral e não apenas o tema. A conferência de duplicatas deste bloco ainda não foi encerrada.
+- **Alerta de proveniência:** o inventário do banco atual atribui 210 questões a este mesmo PDF9, mas a busca por enunciados representativos desse lote (por exemplo, itens que mencionam “Betino”) não os localizou no texto integral extraído do PDF9. Essa atribuição de origem precisa ser investigada; não usar esses 210 registros como prova de duplicidade com o bloco atual até esclarecer a divergência.
 - **Nenhuma questão deste bloco foi importada** nesta etapa; não houve alteração dos bancos nem do conteúdo publicado no site.
 
 ### Próxima etapa
