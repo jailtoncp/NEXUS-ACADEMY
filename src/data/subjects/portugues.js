@@ -12,7 +12,7 @@ const subject = {
   questions: [...realBank.questions, ...bank.questions],
   reviewCount: realBank.metrics.questionsInReview,
   questionAudit: { ...bank.metrics, realQuestions: realBank.metrics },
-  sourceInventory: [{ sourceId: 'pp500-portugues', sourceName: '500_questoes_comentadas_de_pp.pdf', questionsFound: 80, integrated: 12, pendingExtractionOrDeduplication: 60, needsReview: 8, answerKeySource: 'gabarito_comentado.pdf, pp. 103–109' }],
+  sourceInventory: [{ sourceId: 'pp500-portugues', sourceName: '500_questoes_comentadas_de_pp.pdf', questionsFound: 80, integrated: 31, pendingExtractionOrDeduplication: 37, needsReview: 12, answerKeySource: 'gabarito_comentado.pdf, pp. 103–109' }],
 };
 
 export default subject;
