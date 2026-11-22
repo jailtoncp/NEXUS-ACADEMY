@@ -5,10 +5,10 @@
     "questionsLocated": 80,
     "questionsIntegrated": 12,
     "questionsPending": 68,
-    "questionsInReview": 12,
+    "questionsInReview": 8,
     "answerKeySource": "gabarito_comentado.pdf, páginas impressas 103–109",
-    "note": "Lote inicial: apenas itens com resposta única e enunciado/opções suficientes foram integrados. Questões com alternativas múltiplas, ambiguidade ou gabarito divergente permanecem em revisão.",
-    "questionsPendingExtraction": 56
+    "note": "20 primeiras questões examinadas: 12 integradas após conferência independente; 8 retidas por múltiplas respostas possíveis ou enunciado/alternativas ambíguos. As outras 60 ainda aguardam extração, deduplicação e validação.",
+    "questionsPendingExtraction": 60
   },
   "questions": [
     {
