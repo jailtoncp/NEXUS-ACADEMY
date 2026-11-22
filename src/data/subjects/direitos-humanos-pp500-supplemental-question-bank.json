@@ -41,7 +41,7 @@
       "topicId": "dudh",
       "subtopicId": "dudh-direitos",
       "difficulty": "easy",
-      "prompt": "Segundo a Declaração Universal dos Direitos Humanos, a proibição de tortura e de tratamento ou castigo cruel, desumano ou degradante está prevista no:",
+      "prompt": "Segundo a DUDH, ninguém será submetido à tortura, nem a tratamento desumano ou degradante. Esse dispositivo está no:",
       "options": {
         "A": "Art. 3º",
         "B": "Art. 5º",
@@ -87,7 +87,7 @@
       "topicId": "direitos-sistema-prisional",
       "subtopicId": "direitos-pessoa-presa",
       "difficulty": "easy",
-      "prompt": "A Constituição Federal de 1988 estabelece que as penas e o tratamento das pessoas presas:",
+      "prompt": "A CF/88 estabelece que as penas:",
       "options": {
         "A": "Podem ter caráter perpétuo em casos excepcionais.",
         "B": "Podem incluir banimento por ordem judicial.",
@@ -248,13 +248,13 @@
       "topicId": "direitos-sistema-prisional",
       "subtopicId": "garantias-e-legalidade",
       "difficulty": "easy",
-      "prompt": "O agente penal, à luz dos princípios de direitos humanos:",
+      "prompt": "O agente penal, segundo princípios de DH:",
       "options": {
         "A": "Pode usar força como punição.",
         "B": "Deve atuar com legalidade, respeito e proporcionalidade.",
         "C": "Pode agir sem regulamentação.",
         "D": "Deve impor punição física moderada.",
-        "E": "Deve priorizar a violência para manter a segurança."
+        "E": "Deve priorizar violência para manter segurança."
       },
       "answer": "B",
       "comment": "A atuação do agente público deve observar a legalidade, a dignidade humana e a proporcionalidade. A força não pode ser empregada como castigo e só é admissível nos limites legais, quando necessária e proporcional.",
@@ -271,10 +271,10 @@
       "topicId": "direitos-sistema-prisional",
       "subtopicId": "regras-de-mandela",
       "difficulty": "medium",
-      "prompt": "Segundo as Regras de Mandela, o uso da força por funcionários prisionais:",
+      "prompt": "Segundo as Regras de Mandela, o uso da força:",
       "options": {
         "A": "Deve ser usado como disciplina.",
-        "B": "Só pode ocorrer como último recurso, nos limites estritos previstos nas regras.",
+        "B": "Só pode ocorrer como último recurso.",
         "C": "Deve ser a primeira opção.",
         "D": "Pode ser usado para obter informações.",
         "E": "Pode ser aplicado indiscriminadamente."
@@ -317,13 +317,13 @@
       "topicId": "direitos-sistema-prisional",
       "subtopicId": "direitos-pessoa-presa",
       "difficulty": "easy",
-      "prompt": "A superlotação carcerária, quando produz condições degradantes e viola direitos básicos:",
+      "prompt": "Superlotação carcerária é considerada:",
       "options": {
-        "A": "É situação normal e juridicamente aceitável.",
-        "B": "Viola direitos humanos.",
-        "C": "É política legítima de contenção.",
-        "D": "É medida administrativa necessária em qualquer hipótese.",
-        "E": "Não tem relação com direitos humanos."
+        "A": "Situação normal e aceitável.",
+        "B": "Viola direitos humanos por gerar condições degradantes.",
+        "C": "Política legítima de contenção.",
+        "D": "Medida administrativa necessária.",
+        "E": "Situação que não tem relação com direitos humanos."
       },
       "answer": "B",
       "comment": "A superlotação que submete pessoas a condições degradantes viola a dignidade, a integridade e os direitos fundamentais. O Estado não pode justificar condições desumanas apenas pela falta de vagas.",
@@ -340,10 +340,10 @@
       "topicId": "dudh",
       "subtopicId": "dudh-natureza",
       "difficulty": "easy",
-      "prompt": "O Conselho de Direitos Humanos da Organização das Nações Unidas:",
+      "prompt": "O Conselho de Direitos Humanos da ONU:",
       "options": {
         "A": "Não tem relação com o Brasil.",
-        "B": "É responsável por promover e proteger os direitos humanos mundialmente.",
+        "B": "É responsável por promover e proteger direitos humanos mundialmente.",
         "C": "Atua apenas em emergências de guerra.",
         "D": "Tem função militar.",
         "E": "Age apenas em casos criminais."
@@ -363,13 +363,13 @@
       "topicId": "direitos-sistema-prisional",
       "subtopicId": "tortura-tratamento-degradante",
       "difficulty": "medium",
-      "prompt": "Nos termos da Lei nº 9.455/1997, o crime de tortura é:",
+      "prompt": "A tortura é crime:",
       "options": {
         "A": "Insuscetível de fiança.",
         "B": "De menor potencial ofensivo.",
-        "C": "Passível de transação penal.",
-        "D": "Com efeitos anulados após dois anos.",
-        "E": "Punível apenas com multa."
+        "C": "Que admite transação penal.",
+        "D": "Cujos efeitos são anulados após 2 anos.",
+        "E": "Com pena substituível por multa."
       },
       "answer": "A",
       "comment": "O art. 1º, § 6º, da Lei 9.455/1997 estabelece que o crime de tortura é inafiançável e insuscetível de graça ou anistia. A alternativa A reproduz a característica da inafiançabilidade.",
@@ -386,11 +386,11 @@
       "topicId": "convencao-americana",
       "subtopicId": "cadh-garantias",
       "difficulty": "easy",
-      "prompt": "O devido processo legal assegura, entre outras garantias:",
+      "prompt": "O devido processo legal garante:",
       "options": {
         "A": "Julgamento secreto e sem defesa.",
         "B": "Ampla defesa e contraditório.",
-        "C": "Apenas o direito de falar ao final do processo.",
+        "C": "Apenas direito de falar no final do processo.",
         "D": "Direito de negar defesa técnica.",
         "E": "Aplicação imediata de pena."
       },
@@ -409,12 +409,12 @@
       "topicId": "direitos-sistema-prisional",
       "subtopicId": "direitos-pessoa-presa",
       "difficulty": "easy",
-      "prompt": "O visitante de uma pessoa presa deve ser tratado:",
+      "prompt": "O visitante de preso deve ser tratado:",
       "options": {
         "A": "Como suspeito automaticamente.",
         "B": "Com respeito e sem práticas degradantes.",
-        "C": "Com humilhação como regra de segurança.",
-        "D": "Sem qualquer direito ou proteção.",
+        "C": "Com rigidez absoluta e humilhação.",
+        "D": "Sem qualquer direito.",
         "E": "Com isolamento obrigatório."
       },
       "answer": "B",
@@ -432,12 +432,12 @@
       "topicId": "direitos-sistema-prisional",
       "subtopicId": "direitos-pessoa-presa",
       "difficulty": "easy",
-      "prompt": "Mulheres privadas de liberdade têm direito a:",
+      "prompt": "Mulheres presas têm direito a:",
       "options": {
-        "A": "Nenhuma proteção específica.",
+        "A": "Nenhuma especificidade.",
         "B": "Alojamento misto obrigatório.",
-        "C": "Acompanhamento pré-natal e pós-natal.",
-        "D": "Punições diferenciadas por gravidez.",
+        "C": "Acompanhamento pré e pós-natal.",
+        "D": "Punições diferenciadas.",
         "E": "Trabalho forçado."
       },
       "answer": "C",
@@ -480,14 +480,14 @@
       "difficulty": "medium",
       "prompt": "Um Estado pode responder internacionalmente por:",
       "options": {
-        "A": "Qualquer crime privado, mesmo sem vínculo com o Estado ou falha de prevenção atribuível a ele.",
-        "B": "Violações de direitos humanos atribuíveis a seus agentes ou decorrentes do descumprimento de deveres internacionais de proteção.",
-        "C": "Ações de empresas estrangeiras independentes, sem qualquer vínculo ou omissão estatal.",
-        "D": "Decisões privadas de cidadãos sem relação com o governo.",
-        "E": "Atos de civis que nunca possam ser atribuídos ao Estado."
+        "A": "Crimes privados cometidos sem participação estatal.",
+        "B": "Violações graves de direitos humanos por agentes públicos.",
+        "C": "Ações de empresas estrangeiras independentes.",
+        "D": "Decisões de cidadãos sem relação com o governo.",
+        "E": "Atos isolados de civis."
       },
       "answer": "B",
-      "comment": "A responsabilidade internacional surge quando uma conduta ou omissão é atribuível ao Estado e viola obrigação internacional. Pode decorrer de atos de agentes públicos ou de falha estatal em cumprir deveres de prevenção, investigação e proteção; não é automática por qualquer ato privado.",
+      "comment": "B",
       "board": null,
       "year": null,
       "exam": "Polícia Penal",
@@ -573,10 +573,10 @@
       "prompt": "As Regras de Bangkok tratam especificamente de:",
       "options": {
         "A": "Crianças em conflito com a lei.",
-        "B": "Mulheres privadas de liberdade e medidas não privativas de liberdade para mulheres infratoras.",
+        "B": "Mulheres privadas de liberdade.",
         "C": "Policiais militares.",
         "D": "Agentes penitenciários.",
-        "E": "Direitos exclusivos de pessoas idosas."
+        "E": "Direitos de idosos."
       },
       "answer": "B",
       "comment": "As Regras de Bangkok são regras das Nações Unidas voltadas ao tratamento de mulheres presas e a medidas não privativas de liberdade para mulheres infratoras, considerando suas necessidades e especificidades.",
@@ -616,16 +616,16 @@
       "topicId": "direitos-sistema-prisional",
       "subtopicId": "direitos-pessoa-presa",
       "difficulty": "medium",
-      "prompt": "A visita familiar à pessoa presa:",
+      "prompt": "A visita familiar é:",
       "options": {
-        "A": "É simples privilégio sem proteção jurídica.",
-        "B": "É uma forma de contato familiar reconhecida em padrões internacionais, sujeita a regras legais e restrições justificadas.",
-        "C": "É permitida apenas a presos do regime semiaberto.",
-        "D": "É sempre vedada em caso de reincidência.",
-        "E": "Não possui relação com a dignidade humana."
+        "A": "Privilégio do preso.",
+        "B": "Direito humano reconhecido internacionalmente.",
+        "C": "Concessão discricionária do diretor.",
+        "D": "Permitida apenas para presos do semiaberto.",
+        "E": "Vedada em casos de reincidência."
       },
       "answer": "B",
-      "comment": "As Regras de Mandela reconhecem o contato regular com familiares e amigos, inclusive por visitas, sob supervisão necessária. Na LEP, a visita também integra o rol de direitos do preso (art. 41, X), podendo ser regulamentada ou restringida por ato motivado do diretor; não é um direito absoluto.",
+      "comment": "B",
       "board": null,
       "year": null,
       "exam": "Polícia Penal",
@@ -639,16 +639,16 @@
       "topicId": "direitos-sistema-prisional",
       "subtopicId": "direitos-pessoa-presa",
       "difficulty": "medium",
-      "prompt": "A permanência de bebês com suas mães no estabelecimento prisional:",
+      "prompt": "Bebês podem permanecer com suas mães no presídio:",
       "options": {
-        "A": "É sempre proibida.",
-        "B": "É permitida apenas até seis meses, sem qualquer possibilidade de estrutura específica.",
-        "C": "Deve ocorrer pelo período previsto na legislação, em condições adequadas para o cuidado e a amamentação.",
-        "D": "Só é possível em regime aberto.",
-        "E": "Depende de autorização da ONU."
+        "A": "Nunca.",
+        "B": "Apenas até 6 meses, conforme legislação.",
+        "C": "Até período definido em lei, com condições adequadas.",
+        "D": "Apenas em regime aberto.",
+        "E": "Apenas se autorizado pela ONU."
       },
       "answer": "C",
-      "comment": "A Constituição assegura às presidiárias condições para permanecer com seus filhos durante o período de amamentação (art. 5º, L). A LEP prevê berçários para que as condenadas possam cuidar dos filhos e amamentá-los, no mínimo, até seis meses de idade (art. 83, § 2º), além de estrutura específica para gestantes e parturientes.",
+      "comment": "C",
       "board": null,
       "year": null,
       "exam": "Polícia Penal",
@@ -662,13 +662,13 @@
       "topicId": "direitos-sistema-prisional",
       "subtopicId": "responsabilidade-estatal",
       "difficulty": "medium",
-      "prompt": "A agressão física injustificada de um agente público contra uma pessoa presa caracteriza:",
+      "prompt": "Cometer agressão física injustificada ao preso caracteriza:",
       "options": {
-        "A": "Excesso sujeito a responsabilização disciplinar e penal, sem prejuízo de eventual responsabilidade civil.",
+        "A": "Excesso punível disciplinar e penalmente.",
         "B": "Ato normal da função.",
-        "C": "Direito do agente em razão da custódia.",
-        "D": "Medida disciplinar adequada.",
-        "E": "Ato sem consequência jurídica."
+        "C": "Direito do agente.",
+        "D": "Medida apropriada.",
+        "E": "Ato sem qualquer consequência."
       },
       "answer": "A",
       "comment": "A custódia não autoriza violência punitiva. A agressão injustificada pode configurar crime, infração funcional e gerar responsabilidade civil do Estado, conforme as circunstâncias e a prova do caso.",
