@@ -17,7 +17,7 @@ A partir desta etapa, **todo o acervo de PDFs e materiais enviados deve ser audi
 
 | Fonte | Disciplinas consideradas | Status | Resultado / observação |
 |---|---|---|---|
-| `300+QUESTOES+COMENTADAS+-+POLÍCIA+PENAL.pdf` (PDF 1) | Todas as disciplinas identificadas no documento e conferência de ausência/presença de outras matérias | **COMPLETO** | 306 questões numeradas de 1 a 306; 306 números únicos, sem lacunas ou duplicatas exatas. Três questões recuperadas e integradas em Processo Penal (143, 144 e 175); questão 299 de Direitos Humanos corrigida no banco existente, sem duplicação. Não há bloco de questões de Português ou Informática neste PDF. |
+| `300+QUESTOES+COMENTADAS+-+POLÍCIA+PENAL.pdf` (PDF 1) | Todas as disciplinas identificadas no documento e conferência de ausência/presença de outras matérias | **INVENTÁRIO NUMÉRICO CONCLUÍDO; INTEGRAÇÃO PARCIAL** | 306 números únicos (1–306), sem lacunas ou duplicatas exatas no inventário. Integrações registradas: 8 questões de Direito Penal (Q1, Q2, Q5–Q10 da seção), 3 de Processo Penal (143, 144 e 175) e correção da questão 299 de Direitos Humanos no banco existente. A conferência da sequência não significa que todas as questões estejam publicadas; os destinos por disciplina ainda devem ser reconciliados com os bancos. Não há bloco de Português ou Informática identificado neste PDF. |
 | Demais 8 PDFs do ZIP | Todas as disciplinas, inclusive matérias sem módulo atual | **PENDENTE DE AUDITORIA** | Não marcar como completos até a auditoria integral por disciplina, comparação com os bancos atuais e registro dos destinos de todas as questões. |
 
 **Regra de catálogo para disciplinas sem teoria:** a ausência de conteúdo didático não deve impedir a criação de uma aba de questões. Criar a disciplina como “somente questões”/“conteúdo teórico pendente” quando houver material de questões validado; não inventar questões nem gabaritos para preencher lacunas.
@@ -550,3 +550,8 @@ Relatório: `docs/auditorias/pdf4-gabarito-comentado-audit.md`.
 ## Etapa 29 — Reorganização da seção Ética/Administração Pública (2026-11-22)
 
 A seção de 40 questões foi reclassificada pelo conteúdo: **Direito Administrativo** (30 publicadas + 3 em revisão), **Ética no Serviço Público** (6 publicadas) e **Direito Penal** (1 questão de peculato). A questão de peculato foi incluída no módulo de Direito Penal. Não houve perda nem duplicação: os 40 itens têm destino definido. O registro de disciplinas ativas foi atualizado: saiu o módulo genérico “Ética e Noções de Administração Pública”; entraram “Direito Administrativo” e “Ética no Serviço Público”. Direito Administrativo deixa de constar como disciplina apenas planejada.
+
+
+### Reconciliação do PDF 1 — distinção entre inventário e publicação
+
+A expressão “COMPLETO” na linha do PDF 1 foi substituída por dois estados distintos. O inventário numérico (306 posições únicas, sem lacunas) está registrado como concluído; isso não autoriza afirmar que todas as questões foram integradas ao site. As integrações explicitamente documentadas são 8 itens de Direito Penal, 3 de Processo Penal e a correção sem duplicação do item 299 de Direitos Humanos. A nota específica de Direito Penal continua válida: ela documenta apenas aquele lote de oito questões e não pretende resumir as outras disciplinas. Antes de declarar o PDF 1 integralmente aproveitado, é necessário reconciliar a lista completa de 306 itens com os bancos e as classificações por disciplina.
