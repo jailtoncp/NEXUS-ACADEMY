@@ -1,0 +1,37 @@
+{
+  "metrics": {
+    "sourceFile": "500_questoes_comentadas_de_pp.pdf",
+    "sourceSection": "Ética e Noções de Administração Pública",
+    "questionsLocated": 1,
+    "questionsIntegrated": 1,
+    "duplicates": 0,
+    "questionsInReview": 0,
+    "questionsPending": 0,
+    "answerKeySource": "gabarito_comentado.pdf; classificação temática em Direito Penal."
+  },
+  "questions": [
+    {
+      "id": "ETICA-PP500-015",
+      "origin": "real",
+      "sourceNumber": 15,
+      "topicId": "direito-penal",
+      "subtopicId": "crimes-contra-administracao",
+      "difficulty": "easy",
+      "prompt": "Peculato é crime que consiste em:",
+      "options": {
+        "A": "enriquecimento sem relação com função pública.",
+        "B": "apropriação ou desvio de bens ou valores recebidos por razão do cargo.",
+        "C": "crime contra honra exclusivamente.",
+        "D": "infração administrativa leve.",
+        "E": "crime cometido fora do universo da administração pública."
+      },
+      "answer": "B",
+      "comment": "O art. 312 do Código Penal tipifica o peculato como apropriação ou desvio, pelo funcionário público, de dinheiro, valor ou outro bem móvel de que tem posse em razão do cargo, em proveito próprio ou alheio.",
+      "board": null,
+      "year": null,
+      "exam": "Polícia Penal",
+      "sourcePage": 37,
+      "source": "Caderno 500 questões PP — Ética e Noções de Administração Pública — questão 15, p. 37. Resposta validada com legislação e princípios administrativos vigentes."
+    }
+  ]
+}
