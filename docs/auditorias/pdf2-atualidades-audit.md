@@ -1,7 +1,7 @@
 # PDF 2 — Auditoria de Atualidades
 
 Data de conferência: 22/11/2026  
-Fonte: `500_questoes_comentadas_de_pp.pdf`, páginas impressas 26–33. Não há gabarito complementar para esta seção.
+Fonte: `500_questoes_comentadas_de_pp.pdf`, páginas impressas 26–33. O gabarito complementar está em `gabarito_comentado.pdf`, páginas impressas 98–101 (PDF 4). A conferência posterior identificou duplicidade de numeração na Q3 e repetição de comentário entre Q17 e Q25; as letras e justificativas foram tratadas como apoio, não como validação factual automática.
 
 ## Fechamento do inventário: 40/40
 
