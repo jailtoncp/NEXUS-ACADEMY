@@ -4,7 +4,7 @@
 **Extensão:** 335 páginas PDF.  
 **Publicação identificada:** janeiro de 2021 — Nova Concursos, Caderno de Questões PM-SP / Soldado PM de 2ª Classe.  
 **Banca predominante declarada:** VUNESP.  
-**Status:** **EM ANÁLISE — inventário documental inicial.**  
+**Status:** **EM ANÁLISE — revisão individual da seção Matemática em andamento.**  
 **Data da auditoria:** 22/11/2026.
 
 ## 1. Identificação e estrutura
@@ -58,6 +58,18 @@ O PDF usa diagramação em duas colunas. A extração linear pode intercalar enu
 - **Nenhum banco do NEXUS alterado.**
 - A revisão individual, a conferência visual, a deduplicação e a validação dos gabaritos das 1.220 questões não portuguesas permanecem pendentes.
 
-## 6. Próxima etapa
+## 6. Progresso da revisão — Matemática, questões 1 a 25
 
-Conferir visualmente a divisão dos quatro blocos não portugueses, resolver a divergência entre as 2.000 questões anunciadas e as 1.886 posições de gabarito identificadas, e então trabalhar disciplina por disciplina, comparando com os bancos existentes. Só integrar itens que tenham enunciado, alternativas e resposta verificáveis.
+Foi feita a leitura do primeiro bloco de 25 questões da seção Matemática (páginas impressas 139–141), com confronto do gabarito e resolução independente dos itens que podem ser resolvidos sem os gráficos ausentes da extração textual.
+
+- **17 questões com enunciado textual suficiente** foram resolvidas independentemente; os resultados coincidiram com o gabarito impresso: 1-B, 2-B, 3-A, 6-A, 8-D, 9-A, 11-C, 12-E, 14-A e 17–25 (B, B, A, C, A, A, D, E, A).
+- **7 questões dependem de gráficos/elementos visuais** e foram retidas para conferência nas páginas renderizadas: 4, 5, 7, 10, 13, 15 e 16.
+- Não foi identificada divergência de gabarito entre os 17 itens resolvidos e as respostas impressas.
+- A questão 1 foi conferida por equação: se a média é `m` e a venda de segunda-feira é `m/2`, então `m = (m/2 + 81)/5`, resultando em `m = 18` (B).
+- O banco atual de Raciocínio Lógico possui conteúdo matemático misturado a lógica e problemas de associação; a comparação de duplicidade deve considerar o enunciado integral e não apenas o tema. A conferência de duplicatas deste bloco ainda não foi encerrada.
+- **Nenhuma questão deste bloco foi importada** nesta etapa; não houve alteração dos bancos nem do conteúdo publicado no site.
+
+### Próxima etapa
+
+Renderizar as páginas que contêm as questões dependentes de gráficos, completar a comparação de duplicidade do bloco 1–25 e seguir com as questões 26–50. Depois disso, continuar em blocos controlados, sem importação em massa.
+
