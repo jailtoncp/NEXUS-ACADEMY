@@ -320,18 +320,18 @@ Na validação local sobre a `main` atualizada, `npm ci --no-audit --no-fund`, o
 | Disciplina | Questões localizadas | Gabarito disponível no material complementar |
 |---|---:|---|
 | Português | 80 (1–80) | Não localizado |
-| Informática | 50 (1–50) | Não localizado |
+| Informática | 50 (1–50) | 50 respostas comentadas no PDF complementar |
 | Direitos Humanos | 40 (1–40) | Apenas 1 resposta aparece junto da questão 13; sem gabarito para as outras 39 |
 | Atualidades | 40 (1–40) | Não localizado |
-| Ética e Noções de Administração Pública | 40 (1–40) | Não localizado |
-| Raciocínio Lógico e Matemática Básica | 60 (1–60) | 60 respostas no PDF complementar |
-| Legislação Penal e Processual Penal | 50 (1–50) | 50 respostas no PDF complementar |
-| Execução Penal e Sistema Prisional | 50 (1–50) | 50 respostas no PDF complementar |
-| **Total** | **410** | **160 respostas no gabarito complementar + 1 resposta isolada em Direitos Humanos** |
+| Ética e Noções de Administração Pública | 40 (1–40) | 40 respostas comentadas no PDF complementar |
+| Raciocínio Lógico e Matemática Básica | 60 (1–60) | 60 respostas comentadas no PDF complementar |
+| Legislação Penal e Processual Penal | 50 (1–50) | 50 respostas comentadas no PDF complementar |
+| Execução Penal e Sistema Prisional | 50 (1–50) | 50 respostas comentadas no PDF complementar |
+| **Total** | **410** | **250 respostas no gabarito complementar + 1 resposta isolada em Direitos Humanos** |
 
-**Gabarito complementar examinado:** `gabarito_comentado.pdf` (quarto PDF do ZIP). Diferentemente da triagem preliminar, a leitura integral confirmou que ele contém gabaritos comentados para os blocos de Raciocínio Lógico, Legislação Penal/Processual Penal e Execução Penal. Não contém gabarito para Português, Informática, Atualidades, Ética/Administração Pública nem para a maior parte de Direitos Humanos.
+**Gabarito complementar examinado:** `gabarito_comentado.pdf` (quarto PDF do ZIP). A leitura integral confirmou que ele contém gabaritos comentados para cinco blocos: Raciocínio Lógico (60), Informática (50), Ética e Noções de Administração Pública (40), Legislação Penal/Processual Penal (50) e Execução Penal (50), totalizando 250 respostas. Não contém gabarito para Português, Atualidades nem para a maior parte de Direitos Humanos.
 
-**Decisão de integração:** nenhuma questão deste PDF 2 foi publicada ainda. As 160 questões com gabarito complementar são candidatas à extração e validação em lotes; não serão inseridas automaticamente apenas porque existe uma letra de resposta. As outras 249 questões sem gabarito permanecem pendentes de resolução independente ou de localização de outra fonte de respostas. A questão 13 de Direitos Humanos tem resposta “b” e explicação impressas no próprio PDF, mas também aguarda validação e comparação com o banco atual.
+**Decisão de integração:** nenhuma questão deste PDF 2 foi publicada ainda. As 250 questões com gabarito complementar são candidatas à extração e validação em lotes; não serão inseridas automaticamente apenas porque existe uma letra de resposta. As outras 159 questões sem gabarito permanecem pendentes de resolução independente ou de localização de outra fonte de respostas. A resposta isolada de DH Q13 é adicional às 250. A questão 13 de Direitos Humanos tem resposta “b” e explicação impressas no próprio PDF, mas também aguarda validação e comparação com o banco atual.
 
 **Pontos de auditoria obrigatórios antes da publicação:**
 - Comparar cada item com os bancos reais e autorais existentes, em especial Português, Informática, Raciocínio Lógico, Direitos Humanos, Legislação Especial/Processo Penal e Execução Penal.
@@ -359,3 +359,14 @@ A conferência identificou problemas concretos no material, portanto **não houv
 Foram refeitos cálculos independentes de várias questões e registrados no relatório `docs/auditorias/pdf2-rlm-audit.md`. A comparação individual com o banco atual de 313 questões prontas ainda precisa ser concluída; nenhuma questão do PDF 2/RLM foi publicada até a deduplicação e validação completas.
 
 **Status RLM/PDF 2:** auditoria detalhada iniciada; integração pendente. O PDF 2 permanece INCOMPLETO.
+
+
+## Etapa 16 — Correção do inventário de gabaritos e publicação parcial do PDF 2 (2026-11-22)
+
+A leitura integral do PDF complementar foi refeita por seções, e a contagem registrada na Etapa 14 estava incompleta. O gabarito comentado contém **250 respostas**, não 160: RLM (60), Informática (50), Ética/Administração Pública (40), Legislação Penal/Processual Penal (50) e Execução Penal (50). Português (80), Atualidades (40) e a maior parte de Direitos Humanos (39) não têm gabarito localizado. DH Q13 traz uma resposta inline adicional. Assim, 410 questões no total = 250 com resposta no companion + 1 resposta inline + 159 sem resposta identificada.
+
+**Publicação parcial:** foram integradas ao banco existente de Raciocínio Lógico as questões PP500-RLM-11 e PP500-RLM-14, ausentes do banco. Os gabaritos impressos do material estavam errados; os resultados foram recalculados (Q11 = E, 150; Q14 = C, 32,5), com a divergência da fonte registrada no campo de revisão/comentário. O banco RLM passa a 315 questões prontas e 176 em revisão (491 únicas). As demais questões do bloco RLM continuam em auditoria; a publicação do lote não conclui a disciplina nem o PDF.
+
+**CI:** commit c12c3136b7246e042db680df8324f2e5a64e1ea4; GitHub Actions run 45037094601; build e deploy concluídos com sucesso.
+
+**Status:** PDF 2 INCOMPLETO — auditoria, deduplicação, validação e integração dos demais blocos continuam obrigatórias.
