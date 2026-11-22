@@ -343,3 +343,19 @@ Na validação local sobre a `main` atualizada, `npm ci --no-audit --no-fund`, o
 
 **Status do PDF 2:** **AUDITORIA INICIAL CONCLUÍDA — EXTRAÇÃO/VALIDAÇÃO/INTEGRAÇÃO PENDENTES**. Não marcar como completo até que os 410 itens tenham destino registrado (integrados, repetidos, descartados com motivo ou pendentes justificados) e os gabaritos tenham sido tratados.
 
+
+
+## Etapa 15 — PDF 2: auditoria detalhada inicial de Raciocínio Lógico (2026-11-22)
+
+A seção de Raciocínio Lógico e Matemática Básica foi reaberta diretamente nos PDFs originais: 60 questões na fonte principal (páginas impressas 44–53) e seção complementar de gabarito nas páginas 70–76.
+
+A conferência identificou problemas concretos no material, portanto **não houve importação em massa** nesta etapa. Entre os problemas:
+- Q14: média correta é 32,5 (alternativa C), mas o gabarito aponta D.
+- Q17 e Q18: enunciado e alternativas repetidos; Q18 ainda tem gabarito incompatível com o resultado (2,5 × 0,4 = 1,0, alternativa C; gabarito aponta B).
+- Q23: duas alternativas repetem 159.
+- Q24: comentário e contagem de plantões em escala 24h/72h são inconsistentes/ambíguos.
+- Q32: conclusão depende de premissa sobre categorias que não está explicitada.
+
+Foram refeitos cálculos independentes de várias questões e registrados no relatório `docs/auditorias/pdf2-rlm-audit.md`. A comparação individual com o banco atual de 313 questões prontas ainda precisa ser concluída; nenhuma questão do PDF 2/RLM foi publicada até a deduplicação e validação completas.
+
+**Status RLM/PDF 2:** auditoria detalhada iniciada; integração pendente. O PDF 2 permanece INCOMPLETO.
