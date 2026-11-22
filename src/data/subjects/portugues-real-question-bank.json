@@ -7,7 +7,8 @@
     "questionsPending": 68,
     "questionsInReview": 12,
     "answerKeySource": "gabarito_comentado.pdf, páginas impressas 103–109",
-    "note": "Lote inicial: apenas itens com resposta única e enunciado/opções suficientes foram integrados. Questões com alternativas múltiplas, ambiguidade ou gabarito divergente permanecem em revisão."
+    "note": "Lote inicial: apenas itens com resposta única e enunciado/opções suficientes foram integrados. Questões com alternativas múltiplas, ambiguidade ou gabarito divergente permanecem em revisão.",
+    "questionsPendingExtraction": 56
   },
   "questions": [
     {
