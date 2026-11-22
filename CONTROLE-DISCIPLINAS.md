@@ -420,3 +420,16 @@ A extração por colunas e a conferência com o gabarito complementar foram conc
 **CI:** Actions run 45038528245; build e deploy concluídos com sucesso para o commit 4bc33bbdb227a84474de511e7a45861e19b9923d. O controle deste registro será publicado em commit subsequente.
 
 **Status de Português/PDF2:** BLOCO AUDITADO; 65 publicadas, 15 retidas com motivo. O PDF 2 como um todo permanece INCOMPLETO até a conclusão das outras sete disciplinas.
+
+
+## Etapa 20 — PDF 2: fechamento dos blocos de RLM e Informática; avanço para Legislação (2026-11-22)
+
+**Raciocínio Lógico e Matemática Básica — 60/60 com destino definido.** Conforme Etapas 16 e 17, 54 questões foram integradas ao banco (50 já estavam representadas e 4 ausentes foram acrescentadas: Q11, Q14, Q34 e Q56); 5 foram retidas em revisão (Q21, Q22, Q23, Q24 e Q28) por defeito/ambiguidade; Q18 foi registrada como duplicata interna de Q17. Não há item sem classificação. O banco geral permanece com 317 questões prontas e 176 em revisão.
+
+**Informática — 50/50 com destino definido e publicação concluída.** Foram integradas 46 questões ao módulo existente, 3 foram identificadas como repetidas (Q30 repete Q6 no próprio PDF; Q33 repete item de impressora laser já existente; Q36 repete o conceito de 2FA da Q10) e Q7 foi retida para revisão por definição imprecisa de software/firmware. As respostas das Q1, Q4, Q32, Q40 e Q44 foram corrigidas após confronto com o conceito técnico, pois o gabarito complementar divergia ou se contradizia. Banco suplementar: `informatica-pp500-candidate-bank.json`; integração no módulo `informatica.js`. CI: run 45039273929, build e deploy SUCCESS.
+
+**Português — 80/80 com destino definido.** Etapa 19: 65 integradas, 15 retidas por problemas de formulação ou múltiplas respostas; zero pendentes de extração.
+
+**Próximo bloco em auditoria: Legislação Penal e Processual Penal (50 questões), páginas impressas 54–61; gabarito complementar, páginas 77–81.** A revisão deve conferir cada item com CP, CPP e leis especiais vigentes, pois o próprio gabarito tem respostas incompletas ou erradas. Alertas iniciais já identificados: Q6 não oferece excludente de ilicitude correta (obediência hierárquica e coação moral irresistível são causas relacionadas à culpabilidade, não à ilicitude); Q15 simplifica os requisitos da preventiva; Q35 confunde inafiançabilidade com vedação automática à liberdade provisória; Q39 generaliza o regime das nulidades absolutas; Q40 generaliza ação pública incondicionada para a Lei Maria da Penha. Estes itens ficam bloqueados até saneamento ou retenção formal.
+
+**Status geral do PDF 2:** Português, Informática e RLM têm destino definido para todas as questões. Direitos Humanos, Atualidades, Ética/Administração Pública, Legislação Penal/Processual Penal e Execução Penal ainda aguardam conclusão. PDF 2 permanece INCOMPLETO.
