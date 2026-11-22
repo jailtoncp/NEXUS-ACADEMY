@@ -76,3 +76,8 @@ As respostas de Português devem ser confrontadas com cada enunciado e alternati
 - As auditorias disciplinares do PDF 2 continuam sendo a referência de destino das questões (integrada, duplicada ou revisão).
 
 **Fechamento do PDF 4:** inventário completo como material complementar; 370 posições de resposta identificadas em 7 disciplinas; 40 questões de Direitos Humanos sem seção correspondente; 0 novas questões a integrar; 0 pendências de extração do próprio arquivo.
+
+
+## 4. Ajuste posterior de classificação da seção Ética/Administração Pública
+
+A denominação editorial da seção do PDF 2 não foi mantida como nome de disciplina no NEXUS. O bloco reúne áreas distintas: **Direito Administrativo** (30 questões publicadas e 3 retidas), **Ética no Serviço Público** (6 questões publicadas) e **Direito Penal** (1 questão sobre peculato). O gabarito das páginas 87–91 permanece como referência auxiliar para os 40 itens dessa seção.
