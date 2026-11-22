@@ -3,8 +3,8 @@
     "sourceBlocksProcessed": 27,
     "questionsFoundIncludingDuplicates": 570,
     "duplicateQuestionsRemoved": 79,
-    "uniqueQuestions": 491,
-    "interactiveReadyQuestions": 315,
+    "uniqueQuestions": 493,
+    "interactiveReadyQuestions": 317,
     "needsReviewQuestions": 176,
     "duplicateGroups": 59
   },
@@ -86,9 +86,9 @@
       "sourceName": "CURSO PC-SP/policia penal/500_questoes_comentadas_de_pp.pdf",
       "file": "CURSO PC-SP/policia penal/500_questoes_comentadas_de_pp.pdf",
       "questionsFound": 60,
-      "readyInSource": 51,
-      "needsReviewInSource": 9,
-      "notes": "Auditoria do PDF 2: 50 questões já constavam no banco; Q11 e Q14 integradas após correção matemática dos gabaritos impressos. Q17/Q18 são duplicatas; Q23, Q24 e outros itens permanecem em revisão por ambiguidade ou inconsistência."
+      "readyInSource": 54,
+      "needsReviewInSource": 5,
+      "notes": "60 questões da fonte: 50 já estavam no banco; Q11, Q14, Q34 e Q56 foram integradas após conferência/correção do cálculo ou da lógica. Q18 repete integralmente Q17; Q21, Q22, Q23, Q24 e Q28 foram retidas para revisão por equivalência/negação ambígua, alternativas duplicadas ou enunciado/explicação inconsistentes. Contagem de origem: 54 prontas, 5 em revisão e 1 duplicata interna."
     },
     {
       "sourceId": "PCSP2002/001-InvestigadorPolícia-Noções de Lógica",
@@ -8190,6 +8190,56 @@
       "subtopicId": "equacoes-medias",
       "difficulty": null,
       "source": "Caderno 500 questões PP — seção Raciocínio Lógico e Matemática Básica — questão 14, PDF p. 56"
+    },
+    {
+      "id": "pp500-rlm-34",
+      "sourceNumber": 34,
+      "prompt": "Complete a sequência: 2, 3, 5, 9, 17, ___.",
+      "options": {
+        "A": "31",
+        "B": "29",
+        "C": "30",
+        "D": "33",
+        "E": "28"
+      },
+      "answer": "D",
+      "comment": "As diferenças entre os termos são +1, +2, +4 e +8; seguindo a duplicação, a próxima diferença é +16. Portanto, 17 + 16 = 33 (alternativa D).",
+      "year": null,
+      "board": null,
+      "exam": "Polícia Penal",
+      "topic": "Sequência lógica",
+      "subtopic": "padrões numéricos",
+      "sourcePage": 49,
+      "issue": "",
+      "topicId": "sequencias",
+      "subtopicId": "sequencias-numericas",
+      "difficulty": "easy",
+      "source": "Caderno 500 questões PP — seção Raciocínio Lógico e Matemática Básica — questão 34, p. 49"
+    },
+    {
+      "id": "pp500-rlm-56",
+      "sourceNumber": 56,
+      "prompt": "Se ¬P → Q é falsa, então:",
+      "options": {
+        "A": "P é verdadeiro e Q é falso",
+        "B": "P é falso e Q é falso",
+        "C": "P é falso e Q é verdadeiro",
+        "D": "Q é verdadeiro",
+        "E": "A proposição é tautológica"
+      },
+      "answer": "B",
+      "comment": "Uma condicional só é falsa quando o antecedente é verdadeiro e o consequente é falso. Logo, ¬P é verdadeiro e Q é falso; portanto, P é falso e Q é falso (B).",
+      "year": null,
+      "board": null,
+      "exam": "Polícia Penal",
+      "topic": "Sistemas lógicos",
+      "subtopic": "condicional e valores lógicos",
+      "sourcePage": 52,
+      "issue": "",
+      "topicId": "logica-proposicional",
+      "subtopicId": "condicional",
+      "difficulty": "medium",
+      "source": "Caderno 500 questões PP — seção Raciocínio Lógico e Matemática Básica — questão 56, p. 52"
     }
   ]
 }
