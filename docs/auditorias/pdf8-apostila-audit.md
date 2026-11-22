@@ -1,40 +1,71 @@
-# Auditoria inicial do PDF 8 — apostila .pdf
+# Auditoria do PDF 8 — apostila .pdf
 
 **Arquivo:** `apostila .pdf`  
 **Extensão:** 590 páginas PDF.  
-**Status:** **EM ANÁLISE — inventário inicial.**  
+**Status:** **EM ANÁLISE — inventário das duas baterias iniciado.**  
 **Data:** 22/11/2026.
 
-## 1. Estrutura identificada
+## 1. Estrutura geral
 
-O sumário das páginas impressas 2–3 descreve a primeira bateria de questões, iniciada na página impressa 4, com as seguintes seções:
+O PDF reúne duas baterias distintas:
+- **1ª bateria:** começa na página impressa 4; o gabarito começa na página 363 e segue até a página 389.
+- **2ª bateria:** divisória na página 390; questões começam na página 391; gabarito próprio começa na página 577 e vai até a página 589.
 
-| Disciplina | Início indicado no sumário |
-|---|---:|
-| Língua Portuguesa | 4 |
-| Direito Constitucional | 122 |
-| Direito Penal | 141 |
-| Direitos Humanos | 162 |
-| Direito Processual Penal | 182 |
-| Legislação Especial | 200 |
-| Direito Administrativo | 217 |
-| Raciocínio Lógico | 236 |
-| Informática | 267 |
-| Criminologia | 321 |
-| Lei Orgânica da Polícia Civil | 360 |
-| Gabaritos | 363 |
+O documento contém, portanto, uma bateria inicial de aproximadamente 2.000 questões e uma segunda bateria explicitamente intitulada **“1.000 Questões”**. Não se deve misturar numeração, gabaritos ou origens das duas partes.
 
-A seção de gabaritos da primeira bateria começa na página impressa 363. O conteúdo apresenta também uma divisória intitulada **“2ª Bateria de Exercícios — 1.000 Questões”** na página impressa 390, seguida por uma nova sequência de questões a partir da página 391. Portanto, o arquivo reúne pelo menos duas baterias distintas e não deve ser tratado como um único conjunto contínuo sem separar as partes.
+## 2. Primeira bateria — sumário e quantidades identificadas
 
-## 2. Escopo e cautelas iniciais
+O sumário das páginas impressas 2–3 lista:
 
-- Português permanece fora do escopo desta rodada; os itens dessa disciplina não devem ser importados.
-- As disciplinas jurídicas devem ser comparadas aos bancos atuais e verificadas conforme a legislação vigente.
+| Disciplina | Início no PDF | Quantidade indicada no título da seção |
+|---|---:|---:|
+| Língua Portuguesa | 4 | 600 (confirmado pela sequência do gabarito e pelo banco já existente) |
+| Direito Constitucional | 122 | 100 |
+| Direito Penal | 141 | 120 |
+| Direitos Humanos | 162 | 100 |
+| Direito Processual Penal | 182 | 100 |
+| Legislação Especial | 200 | 100 |
+| Direito Administrativo | 217 | 100 |
+| Raciocínio Lógico | 236 | 210 |
+| Informática | 267 | 300 |
+| Criminologia | 321 | 250 |
+| Lei Orgânica da Polícia Civil | 360 | 20 |
+| Gabaritos | 363 | — |
+
+As dez seções não portuguesas totalizam 1.400 questões. Somadas às 600 de Português, a primeira bateria corresponde a 2.000 questões. Português está fora do escopo atual e não será importado nesta rodada.
+
+## 3. Segunda bateria — distribuição do gabarito
+
+A segunda bateria tem gabarito próprio, identificado como **“GABARITO 1.000 QUESTÕES”**, a partir da página impressa 577. A organização por disciplina no próprio gabarito permite mapear os intervalos abaixo:
+
+| Disciplina | Numeração no gabarito | Quantidade |
+|---|---:|---:|
+| Português | 1–297 | 297 |
+| Raciocínio Lógico | 298–443 | 146 |
+| Direito Constitucional | 444–475 | 32 |
+| Direitos Humanos | 476–505 | 30 |
+| Direito Penal | 506–555 | 50 |
+| Direito Processual Penal | 556–597 | 42 |
+| Direito Administrativo | 598–628 | 31 |
+| Legislação Especial | 629–654 | 26 |
+| Criminologia | 655–760 | 106 |
+| Lei Orgânica | 761 | 1 |
+| Informática | 762–1000 | 239 |
+| **Total** | **1–1000** | **1.000** |
+
+**Atenção:** essa tabela reproduz a classificação e a sequência visíveis no gabarito. O item isolado 761 atribuído a Lei Orgânica precisa ser conferido diretamente no caderno antes de qualquer aproveitamento; não presumir que exista uma seção extensa dessa matéria na segunda bateria.
+
+## 4. Escopo e cautelas
+
+- Português permanece fora do escopo desta rodada; não importar as 600 questões da primeira bateria nem as 297 da segunda.
+- As demais questões devem ser comparadas aos bancos existentes, sem substituir ou sobrescrever conteúdo.
 - Raciocínio Lógico, Informática, Direitos Humanos e Criminologia já possuem conteúdo no NEXUS; deduplicação é obrigatória.
-- Lei Orgânica da Polícia Civil é legislação estadual específica e exige conferir a redação vigente antes de aproveitar os itens.
-- A segunda bateria começa após a página impressa 390. Sua distribuição disciplinar, quantidade por matéria e eventual gabarito próprio ainda precisam ser inventariados.
-- O PDF contém diagramação em colunas; a extração linear de texto pode intercalar enunciados e alternativas.
+- Direito Penal, Processo Penal, Constitucional, Administrativo e Legislação Especial exigem conferência de legislação e entendimento atualizados. O material foi produzido em 2024 e pode conter referências normativas que mudaram.
+- Lei Orgânica da Polícia Civil é legislação estadual específica e exige confirmar a unidade federativa e a redação vigente antes de aproveitar itens.
+- A extração textual em duas colunas pode embaralhar enunciados e alternativas. Há questões com diagramas, tabelas e imagens; nesses casos, a referência visual original deve ser preservada.
+- O gabarito fornece letras, não comentários explicativos. Não inventar comentários nem corrigir gabaritos sem análise individual fundamentada.
+- A segunda bateria mistura disciplinas e sua divisão deve ser confirmada no corpo das questões, não apenas inferida pelos intervalos do gabarito.
 
-## 3. Próxima etapa
+## 5. Próxima etapa
 
-Separar a primeira bateria da segunda, levantar quantidade de questões e gabaritos por disciplina, identificar imagens e tabelas indispensáveis e comparar os itens com os bancos já existentes antes de qualquer alteração. Nenhuma questão deste PDF foi integrada nesta etapa inicial.
+Fazer o inventário da segunda bateria por seção no corpo do PDF, conferir os itens visuais e as correspondências questão–gabarito e, em seguida, comparar os blocos não portugueses com os bancos atuais. Nenhuma questão deste PDF foi integrada até aqui.
