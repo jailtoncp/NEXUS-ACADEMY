@@ -11,8 +11,8 @@ Atualizado em 22/11/2026. Este controle acompanha os nove PDFs do arquivo origin
 | 5 | `450 Questões Polícia Penal SP.pdf` | **Concluído — triagem documental** | 450 questões inventariadas; 410 fora de Português; gabaritos localizados para todas as seções. As 410 não foram importadas em lote porque deduplicação, classificação e validação individual não foram concluídas. Bancos existentes preservados. |
 | 6 | `Exercicios_Portuguesa.pdf` | Fora do escopo | Apostila intitulada “1.000 Exercícios de Língua Portuguesa”; Português permanece fora do escopo desta rodada. |
 | 7 | `Gabarito.pdf` | Fora do escopo | Gabarito correspondente à apostila de 1.000 exercícios de Português do PDF 6; excluído junto com o material-fonte. |
-| 8 | `apostila .pdf` | **Próximo PDF** | Retomar a análise neste arquivo. |
-| 9 | `APOSTILA 2000_241008_080545 (1).pdf` | Pendente | Aguardando o PDF 8. |
+| 8 | `apostila .pdf` | **Em análise** | PDF de 590 páginas. Inventário inicial iniciado; contém uma primeira bateria por disciplina e uma segunda bateria a partir da página impressa 390. |
+| 9 | `APOSTILA 2000_241008_080545 (1).pdf` | Pendente | Aguardando conclusão do PDF 8. |
 
 ## Regras preservadas
 
