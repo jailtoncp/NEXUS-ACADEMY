@@ -2,13 +2,13 @@
   "metrics": {
     "sourceFile": "500_questoes_comentadas_de_pp.pdf",
     "sourceDiscipline": "Legislação Especial",
-    "questionsLocated": 50,
+    "questionsLocated": 5,
     "questionsIntegrated": 1,
-    "duplicates": 0,
-    "questionsInReview": 0,
+    "duplicates": 2,
+    "questionsInReview": 2,
     "questionsPending": 0,
     "answerKeySource": "gabarito_comentado.pdf, pp. 77–81",
-    "note": "Q32 integrada com distinção entre inafiançabilidade e liberdade provisória. A questão Q10 sobre progressão de hediondos foi retida: o percentual de 40% do material foi alterado em 2026."
+    "note": "A seção de Legislação Penal e Processual Penal tem 50 questões no total. Deste conjunto, 5 pertencem ao bloco de Legislação Especial: Q32 integrada; Q9 e Q50 duplicatas; Q10 e Q40 em revisão."
   },
   "questions": [
     {
