@@ -9,7 +9,7 @@ const subject = {
   name: 'Direito Penal',
   abbreviation: 'DPE',
   description: 'Parte Geral e Parte Especial do Código Penal com atualizações legislativas recentes, questões reais extraídas do acervo e questões autorais do NEXUS ACADEMY.',
-  questionNotice: `${realBank.questions.length + pp500Bank.questions.length + ethicsSourceBank.questions.length} questões reais (incluindo questões validadas dos PDFs 2 e 4) e ${bank.questions.length} autorais. No bloco PDF 2, 7 foram classificadas como repetidas e 4 ficaram em revisão; a Q1, Q6, Q8 e Q12 não foram publicadas. Os itens novos têm comentários e referências às páginas da fonte.`,
+  questionNotice: `${realBank.questions.length + pp500Bank.questions.length + ethicsSourceBank.questions.length} questões reais (incluindo questões validadas do PDF 2 e conferidas com o gabarito complementar do PDF 4) e ${bank.questions.length} autorais. No bloco PDF 2, 7 foram classificadas como repetidas e 4 ficaram em revisão; a Q1, Q6, Q8 e Q12 não foram publicadas. Os itens novos têm comentários e referências às páginas da fonte.`,
   topics: content,
   questions: [...realBank.questions, ...pp500Bank.questions, ...ethicsSourceBank.questions, ...bank.questions],
   reviewCount: 4,
