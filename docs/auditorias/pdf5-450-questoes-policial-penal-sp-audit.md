@@ -59,7 +59,7 @@ Foi possível localizar a seção de gabarito para as dez partes do caderno. As 
 - Bancos de questões existentes: preservados; nenhum registro foi sobrescrito ou removido.
 - Nenhum gabarito foi alterado por suposição.
 
-**Fechamento:** PDF 5 encerrado como **concluído na triagem documental**. O status não significa que as 410 questões estejam publicadas no site; significa que o arquivo foi inventariado, seus gabaritos foram localizados e os limites para uma integração segura foram registrados. A decisão evita contaminar os bancos atuais com duplicatas, alternativas embaralhadas ou respostas não verificadas.
+**Fechamento:** o inventário e a localização dos gabaritos do PDF 5 estão concluídos; a integração das 450 questões continua pendente. O arquivo foi inventariado e os limites para uma integração segura foram registrados. A decisão evita contaminar os bancos atuais com duplicatas, alternativas embaralhadas ou respostas não verificadas.
 
 
 ## 5. Retificação de escopo — Português
