@@ -4,7 +4,7 @@
     "questionsFoundIncludingDuplicates": 570,
     "duplicateQuestionsRemoved": 79,
     "uniqueQuestions": 493,
-    "interactiveReadyQuestions": 317,
+    "interactiveReadyQuestions": 320,
     "needsReviewQuestions": 176,
     "duplicateGroups": 59
   },
@@ -76,10 +76,10 @@
       "sourceId": "apostila-geral-rlm-210",
       "sourceName": "CURSO PC-SP/APOSTILA 2000_241008_080545 (1).pdf",
       "file": "CURSO PC-SP/APOSTILA 2000_241008_080545 (1).pdf",
-      "questionsFound": 210,
-      "readyInSource": 203,
-      "needsReviewInSource": 7,
-      "notes": ""
+      "questionsFound": 3,
+      "readyInSource": 3,
+      "needsReviewInSource": 0,
+      "notes": "Integração PDF9 iniciada: questões 1–3 de Matemática conferidas, resolvidas e inseridas. A atribuição antiga de 210 questões a esta fonte não foi confirmada no conteúdo atual do banco; inventário legado corrigido para refletir apenas itens efetivamente localizados nesta fonte."
     },
     {
       "sourceId": "pp500_rlm",
@@ -8240,6 +8240,81 @@
       "subtopicId": "condicional",
       "difficulty": "medium",
       "source": "Caderno 500 questões PP — seção Raciocínio Lógico e Matemática Básica — questão 56, p. 52"
+    },
+    {
+      "id": "PDF9-MAT-Q001",
+      "sourceNumber": 1,
+      "prompt": "A tabela apresenta as unidades vendidas de um produto em cinco dias: segunda-feira, X; terça-feira, 13; quarta-feira, 15; quinta-feira, 25; sexta-feira, 28. Sabendo que as vendas de segunda-feira corresponderam à metade da média diária dos cinco dias, qual foi a média diária de unidades vendidas?",
+      "options": {
+        "A": "21",
+        "B": "18",
+        "C": "15",
+        "D": "12",
+        "E": "9"
+      },
+      "answer": "B",
+      "comment": "Seja m a média. Como a segunda-feira teve m/2 unidades, a soma é m/2 + 13 + 15 + 25 + 28 = 5m. Logo, 81 = 4,5m e m = 18.",
+      "year": 2020,
+      "board": "VUNESP",
+      "exam": "PM-SP — Soldado PM de 2ª Classe (apostila 2021)",
+      "topic": "Médias aritméticas",
+      "subtopic": "média aritmética simples",
+      "sourcePage": 139,
+      "issue": "",
+      "topicId": "equacoes-medias",
+      "subtopicId": "equacoes-medias",
+      "difficulty": "medium",
+      "source": "PDF 9 — 2.000 Questões para PM-SP — Matemática, questão 1, p. 139."
+    },
+    {
+      "id": "PDF9-MAT-Q002",
+      "sourceNumber": 2,
+      "prompt": "O consumo médio de um produto no primeiro semestre de 2019 foi de 36 unidades por mês. No segundo semestre, o consumo médio mensal foi o mesmo. Sabendo que de julho a novembro foram consumidas, respectivamente, 40, 38, 32, 35 e 34 unidades, quantas unidades foram consumidas em dezembro?",
+      "options": {
+        "A": "33",
+        "B": "37",
+        "C": "39",
+        "D": "42",
+        "E": "44"
+      },
+      "answer": "B",
+      "comment": "O total do segundo semestre deve ser 6 × 36 = 216 unidades. De julho a novembro foram consumidas 40 + 38 + 32 + 35 + 34 = 179. Portanto, dezembro: 216 − 179 = 37 unidades.",
+      "year": 2020,
+      "board": "VUNESP",
+      "exam": "PM-SP — Soldado PM de 2ª Classe (apostila 2021)",
+      "topic": "Médias aritméticas",
+      "subtopic": "média e valor desconhecido",
+      "sourcePage": 139,
+      "issue": "",
+      "topicId": "equacoes-medias",
+      "subtopicId": "equacoes-medias",
+      "difficulty": "easy",
+      "source": "PDF 9 — 2.000 Questões para PM-SP — Matemática, questão 2, p. 139."
+    },
+    {
+      "id": "PDF9-MAT-Q003",
+      "sourceNumber": 3,
+      "prompt": "A média aritmética simples das idades de cinco pessoas de uma mesma família é 20 anos. Duas dessas pessoas são irmãos gêmeos, e a média das idades das outras três pessoas é 24 anos. Qual é a idade de cada irmão gêmeo?",
+      "options": {
+        "A": "14 anos",
+        "B": "15 anos",
+        "C": "16 anos",
+        "D": "17 anos",
+        "E": "18 anos"
+      },
+      "answer": "A",
+      "comment": "As cinco pessoas somam 5 × 20 = 100 anos. As outras três somam 3 × 24 = 72 anos. Assim, os gêmeos somam 100 − 72 = 28 anos; como têm a mesma idade, cada um tem 14 anos.",
+      "year": 2020,
+      "board": "VUNESP",
+      "exam": "PM-SP — Soldado PM de 2ª Classe (apostila 2021)",
+      "topic": "Médias aritméticas",
+      "subtopic": "média e valor desconhecido",
+      "sourcePage": 139,
+      "issue": "",
+      "topicId": "equacoes-medias",
+      "subtopicId": "equacoes-medias",
+      "difficulty": "easy",
+      "source": "PDF 9 — 2.000 Questões para PM-SP — Matemática, questão 3, p. 139."
     }
   ]
 }
