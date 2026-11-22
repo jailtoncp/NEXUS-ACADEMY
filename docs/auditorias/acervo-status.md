@@ -11,8 +11,8 @@ Atualizado em 22/11/2026. Este controle acompanha os nove PDFs do arquivo origin
 | 5 | `450 Questões Polícia Penal SP.pdf` | **Concluído — triagem documental** | 450 questões inventariadas; 410 fora de Português; gabaritos localizados para todas as seções. As 410 não foram importadas em lote porque deduplicação, classificação e validação individual não foram concluídas. Bancos existentes preservados. |
 | 6 | `Exercicios_Portuguesa.pdf` | **Triagem concluída — fora do escopo** | 97 páginas; questões numeradas até 1009. Conteúdo exclusivamente de Português. Nenhuma questão importada; ver auditoria do PDF 6. |
 | 7 | `Gabarito.pdf` | **Triagem concluída — fora do escopo** | Gabarito complementar do PDF 6, com respostas até a questão 1009 e algumas entradas especiais/anuladas. Nenhum gabarito aplicado ao site; ver auditoria do PDF 7. |
-| 8 | `apostila .pdf` | **Em análise** | PDF de 590 páginas. Inventário inicial iniciado; contém uma primeira bateria por disciplina e uma segunda bateria a partir da página impressa 390. |
-| 9 | `APOSTILA 2000_241008_080545 (1).pdf` | Pendente | Aguardando conclusão do PDF 8. |
+| 8 | `apostila .pdf` | **Concluído — triagem documental; sem integração** | 590 páginas; duas baterias inventariadas; gabaritos localizados; segunda bateria visualmente percorrida. Nenhuma questão importada; validação individual e integração permanecem para uma rodada futura por blocos menores. Ver auditoria do PDF 8. |
+| 9 | `APOSTILA 2000_241008_080545 (1).pdf` | **Próximo — pendente** | PDF 8 encerrado como triagem documental; próximo arquivo liberado para inventário. |
 
 ## Regras preservadas
 
