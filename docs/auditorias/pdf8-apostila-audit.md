@@ -2,7 +2,7 @@
 
 **Arquivo:** `apostila .pdf`  
 **Extensão:** 590 páginas PDF.  
-**Status:** **EM ANÁLISE — inventário das duas baterias iniciado.**  
+**Status:** **TRIAGEM DOCUMENTAL CONCLUÍDA; INTEGRAÇÃO PENDENTE.**  
 **Data:** 22/11/2026.
 
 ## 1. Estrutura geral
@@ -32,7 +32,7 @@ O sumário das páginas impressas 2–3 lista:
 | Lei Orgânica da Polícia Civil | 360 | 20 |
 | Gabaritos | 363 | — |
 
-As dez seções não portuguesas totalizam 1.400 questões. Somadas às 600 de Português, a primeira bateria corresponde a 2.000 questões. Português está fora do escopo atual e não será importado nesta rodada.
+As dez seções não portuguesas totalizam 1.400 questões. Somadas às 600 de Português, a primeira bateria corresponde a 2.000 questões. Português também integra o escopo geral dos nove PDFs; as 600 questões permanecem pendentes de extração, deduplicação, validação e integração.
 
 ## 3. Segunda bateria — distribuição do gabarito
 
@@ -57,7 +57,7 @@ A segunda bateria tem gabarito próprio, identificado como **“GABARITO 1.000 Q
 
 ## 4. Escopo e cautelas
 
-- Português permanece fora do escopo desta rodada; não importar as 600 questões da primeira bateria nem as 297 da segunda.
+- Português integra o escopo geral do projeto: 600 questões na primeira bateria e 297 na segunda, conforme os intervalos identificados no gabarito. Nenhuma delas foi integrada nesta triagem.
 - As demais questões devem ser comparadas aos bancos existentes, sem substituir ou sobrescrever conteúdo.
 - Raciocínio Lógico, Informática, Direitos Humanos e Criminologia já possuem conteúdo no NEXUS; deduplicação é obrigatória.
 - Direito Penal, Processo Penal, Constitucional, Administrativo e Legislação Especial exigem conferência de legislação e entendimento atualizados. O material foi produzido em 2024 e pode conter referências normativas que mudaram.
@@ -186,7 +186,14 @@ A estrutura geral coincide com a divisão temática do gabarito. A questão 761 
 - O bloco de RLM 298–443 recebeu revisão visual parcial e revelou duplicatas internas, divergências de gabarito e itens dependentes de recursos visuais.
 - **Nenhuma questão da segunda bateria foi integrada ao NEXUS nesta triagem.**
 - **Nenhum banco de questões foi substituído ou alterado por causa deste PDF.**
-- A primeira bateria também permanece como inventário documental: as 1.400 questões não portuguesas não passaram por validação individual nesta etapa.
-- O PDF 8 fica encerrado como **“Concluído — triagem documental; sem integração de questões”**. Isso não significa que as 2.400 questões não portuguesas das duas baterias estejam validadas ou publicadas; significa que a estrutura, o escopo, os gabaritos e os riscos de aproveitamento foram documentados sem inserir conteúdo não auditado.
+- A primeira bateria também permanece como inventário documental: as 2.000 questões, incluindo Português, não passaram por validação individual nesta etapa.
+- O PDF 8 fica encerrado como **“Concluído — triagem documental; sem integração de questões”**. Isso não significa que as 3.000 questões anunciadas pelas duas baterias estejam validadas ou publicadas; os intervalos de gabarito localizados somam 2.697 posições (2.000 na primeira bateria e 1.000 na segunda), com Português incluído no escopo. A estrutura, o escopo, os gabaritos e os riscos de aproveitamento foram documentados sem inserir conteúdo não auditado.
 
 **Decisão de qualidade:** não fazer importação em massa. Uma futura rodada de integração deverá selecionar blocos menores, validar cada enunciado, alternativas e gabarito, deduplicar contra os bancos existentes e atualizar questões jurídicas/visuais antes de publicar.
+
+
+## 10. Retificação de escopo — Português incluído
+
+A indicação anterior de que Português estaria fora do escopo desta rodada estava incorreta. A disciplina integra o escopo geral dos nove PDFs, inclusive neste material. Foram identificadas 600 posições de gabarito na primeira bateria e 297 na segunda (questões 1–297 da segunda bateria). Esses números indicam cobertura do gabarito, não validação dos enunciados nem integração ao NEXUS.
+
+O total indicado pelas duas baterias é de 3.000 questões (2.000 na primeira e 1.000 na segunda), conforme a organização do material. A quantidade de posições de gabarito localizadas e a numeração interna devem ser tratadas como inventário documental, não como validação individual de cada enunciado. Nenhuma questão de Português deste PDF foi importada nesta etapa.
