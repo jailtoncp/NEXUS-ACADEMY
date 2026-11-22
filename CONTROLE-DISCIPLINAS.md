@@ -461,3 +461,12 @@ Relatório completo: `docs/auditorias/pdf2-execucao-penal-audit.md`.
 Banco suplementar: `src/data/subjects/execucao-penal-pp500-supplemental-question-bank.json`.
 
 **Status geral do PDF 2:** Português, Informática, RLM, Legislação Penal/Processual Penal e Execução Penal/Sistema Prisional têm destino definido para todas as questões. Permanecem Direitos Humanos, Atualidades e Ética/Noções de Administração Pública.
+
+
+## Etapa 23 — PDF 2: fechamento de Direitos Humanos (2026-11-22)
+
+A seção das páginas impressas 22–28 foi auditada integralmente: **40/40 questões com destino definido**. Foram integradas 29 questões, 8 foram classificadas como duplicatas e 3 foram retidas por formulação excessivamente ampla ou dependente de delimitação normativa (Q7, Q12 e Q40). Não havia gabarito complementar; Q13 continha resposta e explicação inline, e as demais respostas publicadas foram validadas com Constituição, LEP, Lei 9.455/1997, DUDH, CADH, Regras de Mandela e Regras de Bangkok.
+
+O módulo recebeu novo eixo temático “Direitos Humanos no Sistema Prisional”. Relatório: `docs/auditorias/pdf2-direitos-humanos-audit.md`. Banco suplementar: `src/data/subjects/direitos-humanos-pp500-supplemental-question-bank.json`.
+
+**Status geral do PDF 2:** Direitos Humanos, Português, Informática, RLM, Legislação Penal/Processual Penal e Execução Penal/Sistema Prisional têm destino definido para todas as questões. Permanecem Atualidades e Ética/Noções de Administração Pública.
