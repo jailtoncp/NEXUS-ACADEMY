@@ -4,7 +4,7 @@ Atualizado em 22/11/2026. Este controle acompanha os nove PDFs do arquivo origin
 
 | Nº | Arquivo | Status | Observação |
 |---:|---|---|---|
-| 1 | `300+QUESTOES+COMENTADAS+-+POLÍCIA PENAL.pdf` | **Integração parcial** | 8 questões de Direito Penal (Q1, Q2, Q5–Q10 da seção) integradas ao banco. As demais questões e disciplinas ainda precisam de conferência e destino. Ver `pdf1-direito-penal-integracao-parcial.md`. |
+| 1 | `300+QUESTOES+COMENTADAS+-+POLÍCIA PENAL.pdf` | **Inventário numérico concluído; integração parcial** | 306 números únicos (1–306) inventariados. Integrações registradas: 8 questões de Direito Penal, 3 de Processo Penal (143, 144 e 175) e correção da questão 299 de Direitos Humanos. Inventário completo não equivale a publicação completa; reconciliar os destinos dos 306 itens com os bancos antes de encerrar. Ver `pdf1-direito-penal-integracao-parcial.md` e `CONTROLE-DISCIPLINAS.md`. |
 | 2 | `500_questoes_comentadas_de_pp.pdf` | **Auditorias por disciplina concluídas; integração parcial já existente** | Questões distribuídas por disciplina; conferir bancos e registros específicos para distinguir integradas, duplicatas e itens em revisão. |
 | 3 | `ATUALIZAÇÃO I - 2024 (PP).pdf` | **Triagem concluída** | 5 itens inventariados: 3 integrados e 2 duplicatas/conceitos já cobertos. |
 | 4 | `gabarito_comentado.pdf` | **Material complementar conferido** | 370 posições de gabarito inventariadas; complemento do PDF 2, sem novas questões autônomas. |
