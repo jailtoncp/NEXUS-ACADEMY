@@ -3,11 +3,17 @@
     "sourceFile": "500_questoes_comentadas_de_pp.pdf",
     "sourceDiscipline": "Informática",
     "questionsLocated": 50,
-    "questionsIntegrated": 49,
+    "questionsIntegrated": 46,
     "questionsInReview": 1,
     "questionsPending": 0,
     "answerKeySource": "gabarito_comentado.pdf, páginas impressas 94–98",
-    "note": "49 questões integradas após conferência individual; Q7 retida porque a definição genérica pode apontar para software, enquanto firmware é um tipo específico de software embarcado. Gabaritos impressos corrigidos nas Q1, Q4, Q32, Q40 e Q44."
+    "note": "50 questões localizadas: 46 integradas, 1 em revisão (Q7: definição ampla pode confundir software e firmware) e 3 repetidas (Q30 repete Q6 no próprio PDF; Q33 repete questão de impressora a laser/toner já existente no banco; Q36 repete o conceito de 2FA da Q10). As respostas Q1, Q4, Q32, Q40 e Q44 foram corrigidas após conferência.",
+    "duplicatesRemoved": 3,
+    "duplicateSourceNumbers": [
+      30,
+      33,
+      36
+    ]
   },
   "questions": [
     {
@@ -655,29 +661,6 @@
       "source": "Caderno 500 questões PP — Informática — questão 29, p. 17."
     },
     {
-      "id": "INFO-PP500-030",
-      "origin": "real",
-      "sourceNumber": 30,
-      "topicId": "planilhas",
-      "subtopicId": "funcoes-principais",
-      "difficulty": "easy",
-      "prompt": "A função =SOMA(A1:A10) realiza:",
-      "options": {
-        "A": "Contagem de valores",
-        "B": "Média dos valores",
-        "C": "Soma dos valores",
-        "D": "Soma apenas se forem textos",
-        "E": "Soma ignorando números repetidos"
-      },
-      "answer": "C",
-      "comment": "A função SOMA adiciona os valores numéricos contidos no intervalo A1:A10.",
-      "board": null,
-      "year": null,
-      "exam": "Polícia Penal",
-      "sourcePage": 17,
-      "source": "Caderno 500 questões PP — Informática — questão 30, p. 17."
-    },
-    {
       "id": "INFO-PP500-031",
       "origin": "real",
       "sourceNumber": 31,
@@ -724,29 +707,6 @@
       "source": "Caderno 500 questões PP — Informática — questão 32, p. 18. Gabarito complementar divergente; resposta corrigida pela definição de memória volátil."
     },
     {
-      "id": "INFO-PP500-033",
-      "origin": "real",
-      "sourceNumber": 33,
-      "topicId": "fundamentos",
-      "subtopicId": "perifericos-portas",
-      "difficulty": "easy",
-      "prompt": "A impressora que usa toner e fusão térmica é:",
-      "options": {
-        "A": "Jato de tinta",
-        "B": "Matricial",
-        "C": "Térmica direta",
-        "D": "Laser",
-        "E": "Multifunção"
-      },
-      "answer": "D",
-      "comment": "Impressoras a laser utilizam toner em pó e um conjunto de fusão térmica para fixar o material no papel.",
-      "board": null,
-      "year": null,
-      "exam": "Polícia Penal",
-      "sourcePage": 18,
-      "source": "Caderno 500 questões PP — Informática — questão 33, p. 18."
-    },
-    {
       "id": "INFO-PP500-034",
       "origin": "real",
       "sourceNumber": 34,
@@ -791,29 +751,6 @@
       "exam": "Polícia Penal",
       "sourcePage": 18,
       "source": "Caderno 500 questões PP — Informática — questão 35, p. 18."
-    },
-    {
-      "id": "INFO-PP500-036",
-      "origin": "real",
-      "sourceNumber": 36,
-      "topicId": "seguranca-digital",
-      "subtopicId": "autenticacao",
-      "difficulty": "easy",
-      "prompt": "O uso de dois fatores de autenticação (senha + código SMS) caracteriza:",
-      "options": {
-        "A": "Assinatura digital",
-        "B": "Dupla autenticação (2FA)",
-        "C": "Criptografia reversa",
-        "D": "Firewall pessoal",
-        "E": "Rede privada virtual"
-      },
-      "answer": "B",
-      "comment": "A senha é um fator de conhecimento; o código enviado ao dispositivo é tratado como fator de posse. A combinação caracteriza autenticação em dois fatores, embora SMS seja menos resistente a ataques que aplicativos autenticadores ou chaves físicas.",
-      "board": null,
-      "year": null,
-      "exam": "Polícia Penal",
-      "sourcePage": 18,
-      "source": "Caderno 500 questões PP — Informática — questão 36, p. 18."
     },
     {
       "id": "INFO-PP500-037",
