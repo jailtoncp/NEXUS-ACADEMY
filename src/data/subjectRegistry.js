@@ -7,6 +7,7 @@ import processoPenal from './subjects/processo-penal.js';
 import execucaoPenal from './subjects/execucao-penal.js';
 import legislacaoEspecial from './subjects/legislacao-especial.js';
 import direitosHumanos from './subjects/direitos-humanos.js';
+import atualidades from './subjects/atualidades.js';
 
 export const activeSubjects = [
   portugues,
@@ -18,6 +19,7 @@ export const activeSubjects = [
   execucaoPenal,
   legislacaoEspecial,
   direitosHumanos,
+  atualidades,
 ];
 
 export const developmentDisciplines = [];
