@@ -1,0 +1,39 @@
+{
+  "metrics": {
+    "sourceFile": "500_questoes_comentadas_de_pp.pdf",
+    "sourceDiscipline": "Legislação Especial",
+    "questionsLocated": 50,
+    "questionsIntegrated": 1,
+    "duplicates": 0,
+    "questionsInReview": 0,
+    "questionsPending": 0,
+    "answerKeySource": "gabarito_comentado.pdf, pp. 77–81",
+    "note": "Q32 integrada com distinção entre inafiançabilidade e liberdade provisória. A questão Q10 sobre progressão de hediondos foi retida: o percentual de 40% do material foi alterado em 2026."
+  },
+  "questions": [
+    {
+      "id": "LEG-PP500-032",
+      "origin": "real",
+      "sourceNumber": 32,
+      "topicId": "crimes-hediondos",
+      "subtopicId": "hediondos-geral",
+      "difficulty": "medium",
+      "prompt": "Segundo a Lei 8.072/1990, os crimes hediondos são:",
+      "options": {
+        "A": "Passíveis de anistia e graça.",
+        "B": "Sempre incompatíveis com liberdade provisória, em qualquer circunstância.",
+        "C": "Insuscetíveis de fiança.",
+        "D": "Punidos exclusivamente com reclusão perpétua.",
+        "E": "Incompatíveis com qualquer progressão de regime."
+      },
+      "answer": "C",
+      "comment": "O art. 2º, II, da Lei 8.072/1990 estabelece a inafiançabilidade dos crimes hediondos e equiparados. Isso não deve ser confundido com proibição automática de liberdade provisória sem fiança; o inciso I também veda anistia, graça e indulto. A progressão de regime segue os percentuais da LEP vigente, alterados em 2026.",
+      "board": null,
+      "year": null,
+      "exam": "Polícia Penal",
+      "sourcePage": 58,
+      "answerKeyPage": 79,
+      "source": "500_questoes_comentadas_de_pp.pdf — Legislação Penal e Processual Penal, questão 32, p. 58; gabarito_comentado.pdf, p. 79."
+    }
+  ]
+}
