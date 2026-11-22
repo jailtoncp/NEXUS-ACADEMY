@@ -7,7 +7,7 @@ const subject = {
   name: 'Português',
   abbreviation: 'PORT',
   description: 'Teoria organizada por tópicos do edital de Língua Portuguesa, questões reais extraídas e auditadas do acervo e questões autorais do NEXUS ACADEMY.',
-  questionNotice: `${realBank.questions.length} questões reais do acervo publicadas (12 do PDF 2, com gabaritos conferidos e comentários). O PDF 2 contém 80 questões de Português; 60 ainda aguardam extração/deduplicação e 8 itens das primeiras 20 permanecem em revisão por ambiguidade ou gabarito inconsistente. Também há ${bank.questions.length} questões autorais do NEXUS ACADEMY. Esta disciplina ainda não está finalizada.`,
+  questionNotice: `${realBank.questions.length} questões reais do acervo publicadas do PDF 2, com gabaritos conferidos e comentários. O PDF 2 contém 80 questões de Português; 37 ainda aguardam extração/deduplicação e 12 itens das primeiras 43 permanecem em revisão por ambiguidade ou gabarito inconsistente. Também há ${bank.questions.length} questões autorais do NEXUS ACADEMY. Esta disciplina ainda não está finalizada.`,
   topics: content,
   questions: [...realBank.questions, ...bank.questions],
   reviewCount: realBank.metrics.questionsInReview,
