@@ -1,0 +1,242 @@
+[
+  {
+    "source_id": "FGV Delegado CNS100",
+    "board": "FGV",
+    "exam": "Delegado de Polícia Civil do Estado do Piauí",
+    "year": 2025,
+    "questionNumber": 13,
+    "page": 6,
+    "prompt": "A Polícia Civil do Estado Ômega, com o auxílio da Polícia Militar do Estado Ômega, realizou uma grande operação em uma determinada área dominada por uma facção criminosa, com o objetivo de cumprir diversos mandados de prisão e de busca e apreensão. Durante a operação, houve uma troca de tiros intensa entre as forças policiais e os membros da facção criminosa. João, que morava na área onde houve a operação e que lá estava no momento da troca de tiros, foi atingido por uma bala perdida, vindo a falecer. Todavia, João não era membro da facção criminosa. Assim, os familiares de João, inconformados, ajuizaram uma ação judicial em face do Estado Ômega, a fim de que fossem indenizados pela perda de seu familiar querido. Diante dessa situação, considerando as normas constitucionais aplicáveis ao caso e a jurisprudência do Supremo Tribunal Federal sobre a matéria, assinale a opção correta.",
+    "options": {
+      "A": "No caso, é de natureza subjetiva a responsabilidade civil do Estado, de modo que os familiares de João devem comprovar o dolo ou a culpa dos agentes de segurança que atuaram na referida operação.",
+      "B": "Caso seja feita uma perícia sobre a origem do disparo que matou João e o resultado dessa perícia seja inconclusivo, fica afastada a responsabilidade civil do Estado Ômega.",
+      "C": "Não se aplica ao caso em questão a Teoria do Risco Administrativo.",
+      "D": "No curso do processo judicial, o Estado Ômega não terá o ônus de demonstrar a presença de excludentes de responsabilidade civil.",
+      "E": "A perícia inconclusiva sobre a origem de disparo fatal durante operações policiais e militares não é suficiente, por si só, para afastar a responsabilidade civil do Estado, por constituir elemento indiciário."
+    },
+    "answer": "E",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Responsabilidade civil do Estado",
+    "subtopic": "Bala perdida em operação policial e perícia inconclusiva",
+    "comment": "A responsabilidade estatal é objetiva, e a perícia inconclusiva não afasta, por si só, o nexo indicado pelos demais elementos probatórios.",
+    "source": {
+      "url": "https://conhecimento.fgv.br/concursos/pcpi25"
+    }
+  },
+  {
+    "source_id": "FGV Delegado CNS100",
+    "board": "FGV",
+    "exam": "Delegado de Polícia Civil do Estado do Piauí",
+    "year": 2025,
+    "questionNumber": 14,
+    "page": 7,
+    "prompt": "André, delegado de polícia, recebe uma denúncia anônima informando que um determinado indivíduo estaria comercializando entorpecentes na Rua XY. André decide se dirigir à Rua XY para verificar a denúncia. Chegando lá, André se depara com Juan portando, para fins de tráfico, 540 (quinhentos e quarenta) gramas de cocaína. Assim, André dá voz de prisão a Juan e o prende em flagrante delito. Ao revistar Juan, André encontra um aparelho celular junto com os entorpecentes. Diante desses fatos, considerando a jurisprudência do Supremo Tribunal Federal sobre direitos e garantias fundamentais, assinale a opção correta.",
+    "options": {
+      "A": "No caso, André deverá aguardar uma decisão judicial para que possa proceder à apreensão do celular de Juan, uma vez que a apreensão de aparelho celular está sujeita à cláusula de reserva de jurisdição.",
+      "B": "No caso, André apenas pode acessar os dados contidos no aparelho celular de Juan mediante consentimento expresso e livre de Juan.",
+      "C": "No caso, André apenas pode acessar os dados contidos no aparelho celular de Juan mediante consentimento expresso e livre de Juan, ou mediante prévia decisão judicial que justifique, com base em elementos concretos, a proporcionalidade da medida e delimite sua abrangência à luz de direitos fundamentais à intimidade, à privacidade, à proteção dos dados pessoais e à autodeterminação informacional, inclusive nos meios digitais.",
+      "D": "Enquanto não obtida decisão judicial autorizando acesso aos dados do celular de Juan, André não pode adotar providências necessárias para a preservação dos dados e metadados contidos no aparelho celular apreendido.",
+      "E": "No caso, considerando que se trata de prisão em flagrante pela prática do crime de tráfico de drogas, delito equiparado a hediondo, André pode acessar os dados do aparelho celular de Juan independentemente de prévia autorização judicial ou de consentimento expresso e livre de Juan."
+    },
+    "answer": "C",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Direitos e garantias fundamentais",
+    "subtopic": "Acesso a dados de aparelho celular apreendido",
+    "comment": "A apreensão do aparelho não autoriza automaticamente o acesso aos dados; exige consentimento válido ou decisão judicial fundamentada e delimitada.",
+    "source": {
+      "url": "https://conhecimento.fgv.br/concursos/pcpi25"
+    }
+  },
+  {
+    "source_id": "FGV Delegado CNS100",
+    "board": "FGV",
+    "exam": "Delegado de Polícia Civil do Estado do Piauí",
+    "year": 2025,
+    "questionNumber": 15,
+    "page": 7,
+    "prompt": "Os dirigentes de associações de delegados de polícia civil dos Estado Alfa, Ômega e Beta se reuniram para discutir os possíveis impactos da Proposta de Emenda à Constituição nº XXX. A PEC nº XXX faz diversas alterações no modelo de segurança pública concebido pela Constituição Federal de 1988, prevendo novas atribuições e funções para os órgãos de segurança pública já existentes, e também criando novos órgãos de segurança pública. Os dirigentes das associações temem que a referida PEC enfraqueça as polícias civis, retirando delas diversas atribuições relevantes. Assim, desejam saber quais são os limites e possibilidades do controle de constitucionalidade das emendas à Constituição, para que possam tomar as medidas cabíveis caso a PEC seja promulgada pelo Congresso Nacional. Considerando essa temática e os fatos narrados, assinale a opção correta.",
+    "options": {
+      "A": "O modelo de Supremacia da Constituição adotado no ordenamento jurídico brasileiro impede que emendas à constituição sejam objeto de controle de constitucionalidade pelo Poder Judiciário.",
+      "B": "Segundo jurisprudência consolidada do Supremo Tribunal Federal, qualquer cidadão brasileiro tem legitimidade para impetrar mandado de segurança buscando impedir a tramitação de proposta de emenda à constituição que viole cláusulas pétreas.",
+      "C": "Considerando que as emendas à Constituição são manifestações do poder constituinte originário, não existem limitações materiais às emendas à Constituição, mas apenas limitações formais e circunstanciais.",
+      "D": "As emendas à constituição são manifestações do Poder Constituinte Derivado, o qual deve observar as limitações postas pelo Poder Constituinte Originário. Nesse sentido, por exemplo, não pode ser objeto de deliberação a proposta de emenda tendente a abolir: (i) a forma federativa de Estado; (ii) o voto direto, secreto, universal e periódico; (iii) a separação dos Poderes; (iv) os direitos e garantias individuais.",
+      "E": "As emendas à constituição, como qualquer outra proposição legislativa, necessitam da sanção do Presidente da República. Assim, ainda que a PEC seja aprovada pelas duas casas do Congresso Nacional, o Presidente da República tem o poder de vetá-la."
+    },
+    "answer": "D",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Poder constituinte",
+    "subtopic": "Limitações materiais ao poder de reforma e controle de emendas",
+    "comment": "Emendas são produto do poder constituinte derivado e estão sujeitas às cláusulas pétreas do art. 60, § 4º, da Constituição.",
+    "source": {
+      "url": "https://conhecimento.fgv.br/concursos/pcpi25"
+    }
+  },
+  {
+    "source_id": "FGV Delegado CNS100",
+    "board": "FGV",
+    "exam": "Delegado de Polícia Civil do Estado do Piauí",
+    "year": 2025,
+    "questionNumber": 16,
+    "page": 8,
+    "prompt": "De acordo com o artigo 129 da Constituição Federal, estão entre as funções institucionais do Ministério Público: a) promover, privativamente, a ação penal pública, na forma da lei; b) exercer o controle externo da atividade policial, na forma de lei complementar; c) requisitar diligências investigatórias e a instauração de inquérito policial, indicados os fundamentos jurídicos de suas manifestações processuais. Todavia, atualmente, o Ministério Público também exerce diretamente poder investigatório, instaurando e presidindo seus próprios procedimentos investigatórios criminais. Acerca dessa temática, considerando a jurisprudência do Supremo Tribunal Federal sobre o poder investigatório do Ministério Público, assinale a opção correta.",
+    "options": {
+      "A": "O artigo 18 do Código de Processo Penal (“Depois de ordenado o arquivamento do inquérito pela autoridade judiciária, por falta de base para a denúncia, a autoridade policial poderá proceder a novas pesquisas, se de outras provas tiver notícia”) não se aplica aos procedimentos investigatórios criminais instaurados pelo Ministério Público.",
+      "B": "Os procedimentos investigatórios criminais do Ministério Público não devem observar os mesmos prazos e regramentos previstos para conclusão de inquéritos policiais.",
+      "C": "As investigações realizadas pelo Ministério Público não estão sujeitas ao controle judicial, em razão da independência funcional assegurada aos membros do Ministério Público.",
+      "D": "A instauração de procedimento investigatório pelo Ministério Público deverá ser motivada sempre que houver suspeita de envolvimento de agentes dos órgãos de segurança pública na prática de infrações penais ou sempre que mortes ou ferimentos graves ocorram em virtude da utilização de armas de fogo por esses mesmos agentes. Havendo representação ao Ministério Público, a não instauração do procedimento investigatório deverá ser sempre motivada.",
+      "E": "Nos procedimentos investigatórios criminais do Ministério Público, não se exige a comunicação imediata ao juiz competente sobre a instauração e o encerramento do procedimento investigatório, uma vez que o próprio Ministério Público faz o controle de legalidade sobre o início e encerramento da investigação."
+    },
+    "answer": "D",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Ministério Público",
+    "subtopic": "Poder investigatório criminal e controle da investigação",
+    "comment": "O STF reconhece a investigação criminal pelo MP, sujeita a controle judicial e a deveres de comunicação, motivação e observância dos direitos fundamentais.",
+    "source": {
+      "url": "https://conhecimento.fgv.br/concursos/pcpi25"
+    }
+  },
+  {
+    "source_id": "FGV Delegado CNS100",
+    "board": "FGV",
+    "exam": "Delegado de Polícia Civil do Estado do Piauí",
+    "year": 2025,
+    "questionNumber": 17,
+    "page": 8,
+    "prompt": "José, Prefeito do Município XYZ, está preocupado com o aumento da criminalidade no município. Ele tem percebido que a Polícia Militar e a Polícia Civil não têm sido capazes de assegurar plenamente a segurança pública da população do Município XYZ, pois contam com efetivo bem reduzido. Assim, pretende instituir no Município XYZ uma Guarda Municipal, mediante a aprovação de uma lei municipal na Câmara de Vereadores do Município XYZ. Todavia, para melhor compreender as atribuições da Guarda Municipal, consulta seus assessores jurídicos, para que o esclareçam acerca do papel exercido pela Guarda Municipal e da constitucionalidade da referida lei municipal caso aprovada. Diante desses fatos, considerando a jurisprudência do Supremo Tribunal Federal sobre a matéria e os dispositivos constitucionais aplicáveis ao caso, assinale a opção correta.",
+    "options": {
+      "A": "A Guarda Municipal não se submete ao controle externo da atividade policial exercido pelo Ministério Público.",
+      "B": "As Guardas Municipais não podem realizar o policiamento ostensivo, uma vez que este é atribuição exclusiva da Polícia Militar.",
+      "C": "Em hipóteses específicas, quando haja clara vinculação com interesses municipais, as guardas municipais podem exercer a atividade de polícia judiciária.",
+      "D": "As Guardas Municipais são órgãos de segurança pública, podendo ser criadas por lei municipal. Todavia, a lei municipal que instituir a Guarda Municipal deve observar as normas gerais estabelecidas pelo Congresso Nacional.",
+      "E": "As guardas municipais não podem ser consideradas órgãos de segurança pública, e sim órgãos de natureza “sui generis”, uma vez que reúnem atribuições variadas, as quais vão além da atividade de segurança pública."
+    },
+    "answer": "D",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Segurança pública",
+    "subtopic": "Guardas municipais e normas gerais",
+    "comment": "As guardas municipais integram a segurança pública, podem ser criadas por lei municipal e devem observar a legislação geral nacional.",
+    "source": {
+      "url": "https://conhecimento.fgv.br/concursos/pcpi25"
+    }
+  },
+  {
+    "source_id": "FGV Delegado CNS100",
+    "board": "FGV",
+    "exam": "Delegado de Polícia Civil do Estado do Piauí",
+    "year": 2025,
+    "questionNumber": 18,
+    "page": 9,
+    "prompt": "“[...] A separação entre as funções de acusar, defender e julgar é o signo essencial do sistema acusatório de processo penal (Art. 129, I, CRFB), tornando a atuação do Judiciário na fase pré-processual somente admissível com o propósito de proteger as garantias fundamentais dos investigados” (Supremo Tribunal Federal, ADI 4414, Relator Min. Luiz Fux, Tribunal Pleno, julgado em 31/05/2012). A Lei nº 13.964 de 2019 instituiu a figura do juiz das garantias no processo penal brasileiro. De acordo com o art. 3º-B do Código de Processo Penal, “o juiz das garantias é o responsável pelo controle da legalidade da investigação criminal e pela salvaguarda dos direitos individuais cuja franquia tenha sido reservada à autorização prévia do Poder Judiciário”. Assim, a instituição do juiz das garantias reforça e promove diversos direitos e garantias fundamentais na investigação penal e no processo penal. Nesse sentido, considerando a jurisprudência do Supremo Tribunal Federal sobre o juiz das garantias, assinale a opção correta.",
+    "options": {
+      "A": "A competência do juiz das garantias cessa com o recebimento da denúncia.",
+      "B": "A Lei nº 13.964/2019 estabeleceu uma presunção legal absoluta de parcialidade do juiz que tenha proferido decisões na fase do inquérito. Tal presunção absoluta é constitucional, pois promove o princípio da imparcialidade do magistrado. Assim, é constitucional a norma que torna impedido de julgar o juiz que tenha proferido decisões na fase do inquérito policial.",
+      "C": "O juiz da ação penal, se tomar conhecimento dos autos da investigação, perde sua imparcialidade para o julgamento do mérito. Portanto, os autos que compõem as matérias de competência do juiz das garantias não podem ser remetidos ao juiz da instrução e julgamento.",
+      "D": "Com a nova sistemática do juiz das garantais, fica excluída qualquer possibilidade de controle judicial sobre o ato de arquivamento da investigação. Segundo o Supremo Tribunal Federal, a eliminação do controle judicial não constitui violação ao princípio da inafastabilidade da jurisdição, e sim promoção do princípio acusatório no processo penal.",
+      "E": "A competência do juiz das garantias cessa com o oferecimento da denúncia, e os autos que compõem as matérias de competência do juiz das garantias serão remetidos ao juiz da instrução e julgamento."
+    },
+    "answer": "A",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Jurisdição e processo penal constitucional",
+    "subtopic": "Juiz das garantias",
+    "comment": "Segundo a disciplina constitucionalizada pelo STF, a competência do juiz das garantias termina com o recebimento da denúncia ou queixa.",
+    "source": {
+      "url": "https://conhecimento.fgv.br/concursos/pcpi25"
+    }
+  },
+  {
+    "source_id": "FGV Delegado CNS100",
+    "board": "FGV",
+    "exam": "Delegado de Polícia Civil do Estado do Piauí",
+    "year": 2025,
+    "questionNumber": 19,
+    "page": 9,
+    "prompt": "A intervenção federal, o estado de defesa e o estado sítio possuem algo em comum. Estes três institutos previstos na Constituição Federal são reservados para situações excepcionais, taxativamente previstas na Constituição. Com efeito, considerando que estes três institutos implicam certas restrições e limitações a direitos e garantias fundamentais, eles devem ser utilizados apenas nos casos expressamente previstos na Constituição e devem observar rigorosamente as regras procedimentais previstas na Constituição. Acerca dessa temática, considerando as normas constitucionais aplicáveis, assinale a opção correta.",
+    "options": {
+      "A": "A União poderá intervir nos Estados ou no Distrito Federal para garantir o livre exercício de qualquer dos Poderes nas unidades da Federação. Nesta hipótese de intervenção, se a coação for exercida contra o Poder Judiciário, a decretação da intervenção dependerá de requisição do Supremo Tribunal Federal.",
+      "B": "É vedada a prorrogação do tempo de duração do estado de defesa.",
+      "C": "O decreto que instituir o estado de defesa não poderá estabelecer restrições aos direitos de: a) reunião, ainda que exercida no seio das associações; b) sigilo de correspondência; c) sigilo de comunicação telegráfica e telefônica.",
+      "D": "A União não pode intervir nos Estados ou no Distrito Federal para repelir invasão estrangeira ou de uma unidade da Federação em outra. Neste caso, a União deve agir diretamente por meio das Forças Armadas, sem necessidade de instauração da intervenção federal.",
+      "E": "Não é admitida a decretação de estado de sítio em caso de comoção grave de repercussão nacional ou de ocorrência de fatos que comprovem a ineficácia de medida tomada durante o estado de defesa."
+    },
+    "answer": "A",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Defesa do Estado e das instituições democráticas",
+    "subtopic": "Intervenção federal, estado de defesa e estado de sítio",
+    "comment": "A intervenção para garantir o livre exercício dos Poderes depende de solicitação ou requisição conforme o Poder coacto; contra o Judiciário, exige requisição do STF.",
+    "source": {
+      "url": "https://conhecimento.fgv.br/concursos/pcpi25"
+    }
+  },
+  {
+    "source_id": "FGV Delegado CNS100",
+    "board": "FGV",
+    "exam": "Delegado de Polícia Civil do Estado do Piauí",
+    "year": 2025,
+    "questionNumber": 20,
+    "page": 10,
+    "prompt": "José é delegado de polícia civil no Estado Alfa. Na delegacia em que José atua, há um inquérito policial em tramitação que tem como indiciados Luís e Maria, ambos servidores públicos do Estado Alfa. O referido inquérito apura a prática dos crimes de peculato e de emprego irregular de verbas ou rendas públicas. José teve conhecimento de que também há um procedimento em curso no Tribunal de Contas do Estado Alfa contra Luís e Maria, que investiga a prática de irregularidades por estes servidores públicos, as quais teriam causado prejuízo ao erário público. Todavia, José tem dúvidas acerca das funções exercidas pelos tribunais de contas no ordenamento jurídico brasileiro. Assim, consulta João, seu amigo constitucionalista, para melhor compreender as funções dos tribunais de contas. Acerca dessa temática, considerando os dispositivos constitucionais aplicáveis ao caso, assinale a opção correta.",
+    "options": {
+      "A": "Compete ao Tribunal de Contas da União julgar anualmente as contas prestadas pelo Presidente da República e apreciar os relatórios sobre a execução dos planos de governo.",
+      "B": "Qualquer cidadão, partido político, associação ou sindicato é parte legítima para, na forma da lei, denunciar irregularidades ou ilegalidades perante os tribunais de contas.",
+      "C": "As decisões dos Tribunais de Contas de que resulte imputação de débito ou multa terão eficácia de título executivo judicial.",
+      "D": "Os Poderes Legislativo, Executivo e Judiciário manterão, de forma integrada, sistema de controle interno. Os responsáveis pelo controle interno, ao tomarem conhecimento de qualquer irregularidade ou ilegalidade, não são obrigados a dar ciência ao respectivo tribunal de contas, uma vez que podem realizar suas próprias investigações internas.",
+      "E": "Caso determinado agente público sofra sanções administrativas do Tribunal de Contas, ele não pode ser punido pelos mesmos fatos na esfera criminal, sob pena de violação ao princípio do “non bis in idem”."
+    },
+    "answer": "B",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Controle externo",
+    "subtopic": "Tribunais de contas e denúncia de irregularidades",
+    "comment": "A Constituição legitima cidadão, partido político, associação ou sindicato a denunciar irregularidades perante os tribunais de contas.",
+    "source": {
+      "url": "https://conhecimento.fgv.br/concursos/pcpi25"
+    }
+  },
+  {
+    "source_id": "FGV Delegado CNS100",
+    "board": "FGV",
+    "exam": "Delegado de Polícia Civil do Estado do Piauí",
+    "year": 2025,
+    "questionNumber": 21,
+    "page": 10,
+    "prompt": "A Supremacia da Constituição e o Bloco de Constitucionalidade são temas que suscitam diversos debates no âmbito do direito constitucional. Acerca dessa temática, assinale a opção correta.",
+    "options": {
+      "A": "O Supremo Tribunal Federal não admite que o princípio da proporcionalidade seja usado como parâmetro do controle de constitucionalidade de normas, pois o Supremo adota um conceito restritivo de bloco de constitucionalidade, o qual não inclui princípios constitucionais implícitos.",
+      "B": "Em determinados e específicos casos, quando se verificar clara incongruência no texto constitucional, é possível declarar a inconstitucionalidade de normas constitucionais originárias.",
+      "C": "O Supremo Tribunal Federal adota um conceito extensivo de bloco de constitucionalidade, o qual abarca tratados internacionais de direitos humanos que não foram aprovados pelo rito das emendas constitucionais. Portanto, segundo entendimento consolidado do Supremo Tribunal Federal, é possível declarar inconstitucionalidade de leis utilizando como parâmetro de constitucionalidade os referidos tratados.",
+      "D": "As normas previstas no Ato das Disposições Constitucionais Transitórias (ADCT) não podem ser consideradas normas constitucionais e, portanto, não podem servir de parâmetro de controle de constitucionalidade.",
+      "E": "Não é possível a declaração de inconstitucionalidade de lei com base tão somente em violação ao Preâmbulo da Constituição Federal de 1988."
+    },
+    "answer": "E",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Controle de constitucionalidade",
+    "subtopic": "Bloco de constitucionalidade e preâmbulo",
+    "comment": "O preâmbulo não possui força normativa autônoma para servir como parâmetro de declaração de inconstitucionalidade.",
+    "source": {
+      "url": "https://conhecimento.fgv.br/concursos/pcpi25"
+    }
+  },
+  {
+    "source_id": "FGV Delegado CNS100",
+    "board": "FGV",
+    "exam": "Delegado de Polícia Civil do Estado do Piauí",
+    "year": 2025,
+    "questionNumber": 22,
+    "page": 10,
+    "prompt": "A Arguição de Descumprimento de Preceito Fundamental (ADPF) é relevante ação do sistema de controle de constitucionalidade brasileiro, possuindo seus contornos próprios. Considerando essa temática, analise as assertivas a seguir: I. A ADPF é instrumento eficaz de controle da inconstitucionalidade por omissão. Destarte, a ADPF pode ter por objeto as omissões do poder público, quer totais ou parciais, normativas ou não normativas, nas mesmas circunstâncias em que ela é cabível contra os atos em geral do poder público, desde que essas omissões se afigurem lesivas a preceito fundamental, a ponto de obstar a efetividade de norma constitucional que o consagra. II. Ao declarar a inconstitucionalidade de lei ou ato normativo, no processo de argüição de descumprimento de preceito fundamental (ADPF), e tendo em vista razões de segurança jurídica ou de excepcional interesse social, poderá o Supremo Tribunal Federal, por maioria de dois terços de seus membros, restringir os efeitos daquela declaração ou decidir que ela só tenha eficácia a partir de seu trânsito em julgado ou de outro momento que venha a ser fixado. III. Podem propor a ADPF os mesmos legitimados para a Ação Direta de Inconstitucionalidade (ADI). Além disso, ainda que em face de uma lei ou de um ato normativo seja possível o ajuizamento de ADI perante o Supremo Tribunal Federal, o legitimado ativo pode optar pelo ajuizamento da ADPF em vez da ADI, uma vez que ambas as ações são igualmente eficazes para sanar qualquer lesão a preceito fundamental. Está correto o que se afirma em",
+    "options": {
+      "A": "II apenas.",
+      "B": "I e III, apenas.",
+      "C": "I e II, apenas.",
+      "D": "I apenas.",
+      "E": "II e III, apenas."
+    },
+    "answer": "C",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Controle de constitucionalidade",
+    "subtopic": "ADPF: cabimento, legitimidade e modulação",
+    "comment": "A ADPF pode alcançar omissões e admite modulação por dois terços; porém é subsidiária, não podendo substituir ADI cabível e eficaz.",
+    "source": {
+      "url": "https://conhecimento.fgv.br/concursos/pcpi25"
+    }
+  }
+]

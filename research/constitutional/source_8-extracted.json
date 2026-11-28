@@ -1,0 +1,200 @@
+[
+  {
+    "source_id": "source_8",
+    "board": "Cebraspe",
+    "exam": "PC/CE Delegado",
+    "year": 2025,
+    "questionNumber": 1,
+    "page": 1,
+    "prompt": "Nos termos da Constituição do Estado do Ceará, o Conselho de Segurança Pública é órgão com funções",
+    "options": {
+      "A": "deliberativas e fiscalizadoras, goza de autonomia administrativa e financeira, e dispõe da dotação orçamentária que lhe seja diretamente vinculada.",
+      "B": "consultivas e deliberativas, tem autonomia administrativa e financeira, e dispõe da dotação orçamentária que lhe seja diretamente vinculada.",
+      "C": "consultivas e deliberativas, tem autonomia administrativa e financeira, e goza de iniciativa para sua proposta orçamentária.",
+      "D": "consultivas e fiscalizadoras, goza de autonomia administrativa e financeira, e dispõe da dotação orçamentária que lhe seja diretamente vinculada.",
+      "E": "consultivas e fiscalizadoras, tem autonomia administrativa e financeira, e goza de iniciativa para sua proposta orçamentária."
+    },
+    "answer": "B",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Organização constitucional do Estado",
+    "subtopic": "Segurança pública no Estado do Ceará",
+    "comment": "A Constituição cearense qualifica o Conselho como órgão consultivo e deliberativo, com autonomia administrativa e financeira e dotação diretamente vinculada.",
+    "source": "https://www.cebraspe.org.br/concursos/pc_ce_25_delegado"
+  },
+  {
+    "source_id": "source_8",
+    "board": "Cebraspe",
+    "exam": "PC/CE Delegado",
+    "year": 2025,
+    "questionNumber": 2,
+    "page": 1,
+    "prompt": "Se determinado estado da Federação publicar lei que trate de procedimento em matéria processual, ela será",
+    "options": {
+      "A": "constitucional, por tratar de matéria legislativa concorrente da União, dos estados e dos municípios.",
+      "B": "inconstitucional, por tratar de matéria de competência legislativa exclusiva da União.",
+      "C": "inconstitucional, por tratar de matéria de competência legislativa concorrente da União e do Distrito Federal.",
+      "D": "constitucional, por tratar de matéria legislativa concorrente da União, dos estados e do Distrito Federal.",
+      "E": "constitucional, caso estabeleça normas específicas sobre o tema e já exista lei da União estabelecendo suas normas gerais."
+    },
+    "answer": "D",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Organização do Estado",
+    "subtopic": "Competência legislativa concorrente",
+    "comment": "Procedimentos em matéria processual integram a competência concorrente da União, dos estados e do Distrito Federal; municípios não participam dessa competência.",
+    "source": "https://www.cebraspe.org.br/concursos/pc_ce_25_delegado"
+  },
+  {
+    "source_id": "source_8",
+    "board": "Cebraspe",
+    "exam": "PC/CE Delegado",
+    "year": 2025,
+    "questionNumber": 3,
+    "page": 1,
+    "prompt": "Conforme previsto na Constituição do Estado do Ceará, o Ministério Público nesse estado possui estrutura organizacional com as curadorias",
+    "options": {
+      "A": "da segurança pública, do consumidor, dos grupos socialmente discriminados, de acidente do trabalho e de ausentes e incapazes.",
+      "B": "do meio ambiente, do consumidor, dos grupos socialmente discriminados, de acidente do trabalho e de ausentes e incapazes.",
+      "C": "do meio ambiente, da segurança pública, dos grupos socialmente discriminados, de acidente do trabalho e de ausentes e incapazes.",
+      "D": "do meio ambiente, do consumidor, dos grupos socialmente discriminados, de acidente do trabalho e da segurança pública.",
+      "E": "do meio ambiente, do consumidor, dos grupos socialmente discriminados, da segurança pública e de ausentes e incapazes."
+    },
+    "answer": "B",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Funções essenciais à Justiça",
+    "subtopic": "Ministério Público estadual",
+    "comment": "A estrutura constitucional estadual prevê curadorias do meio ambiente, consumidor, grupos socialmente discriminados, acidente do trabalho e ausentes e incapazes.",
+    "source": "https://www.cebraspe.org.br/concursos/pc_ce_25_delegado"
+  },
+  {
+    "source_id": "source_8",
+    "board": "Cebraspe",
+    "exam": "PC/CE Delegado",
+    "year": 2025,
+    "questionNumber": 5,
+    "page": 1,
+    "prompt": "A Constituição do Estado do Ceará prevê que o desenvolvimento de atividades educativas de proteção ao meio ambiente é atribuição",
+    "options": {
+      "A": "da Polícia Militar, somente.",
+      "B": "do Corpo de Bombeiros Militar, somente.",
+      "C": "da Polícia Militar, da Polícia Civil e do Corpo de Bombeiros Militar.",
+      "D": "da Polícia Militar e do Corpo de Bombeiros Militar, somente.",
+      "E": "da Polícia Civil e do Corpo de Bombeiros Militar, somente."
+    },
+    "answer": "C",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Organização constitucional do Estado",
+    "subtopic": "Segurança pública e proteção ambiental",
+    "comment": "A Constituição estadual atribui o desenvolvimento dessas atividades educativas às três instituições policiais indicadas.",
+    "source": "https://www.cebraspe.org.br/concursos/pc_ce_25_delegado"
+  },
+  {
+    "source_id": "source_8",
+    "board": "Cebraspe",
+    "exam": "PC/CE Delegado",
+    "year": 2025,
+    "questionNumber": 6,
+    "page": 1,
+    "prompt": "No início de determinada sessão legislativa, uma proposta de emenda constitucional (PEC) e um projeto de lei (PL) foram rejeitados.\n\nNa situação apresentada, segundo a Constituição Federal de 1988, ainda na mesma sessão legislativa,",
+    "options": {
+      "A": "as matérias constantes da PEC e do PL poderão ser objeto de novas propostas, desde que apresentadas por 2/3 dos membros de qualquer das casas do Congresso Nacional.",
+      "B": "as matérias constantes da PEC e do PL poderão ser objeto de novas propostas, desde que apresentadas pela maioria absoluta dos membros de qualquer das casas do Congresso Nacional.",
+      "C": "as matérias constantes da PEC e do PL não poderão ser objeto de novas propostas.",
+      "D": "a matéria constante da PEC, mas não a do PL, pode ser objeto de nova proposta, desde que apresentada pela maioria absoluta dos membros de qualquer das Casas do Congresso Nacional.",
+      "E": "a matéria constante do PL, mas não a da PEC, pode ser objeto de nova proposta, desde que apresentada pela maioria absoluta dos membros de qualquer das casas do Congresso Nacional."
+    },
+    "answer": "E",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Poder Legislativo",
+    "subtopic": "Rejeição de PEC e projeto de lei na mesma sessão legislativa",
+    "comment": "A matéria de PEC rejeitada não pode ser reapresentada na mesma sessão; projeto de lei pode ser reapresentado mediante proposta da maioria absoluta de qualquer Casa.",
+    "source": "https://www.cebraspe.org.br/concursos/pc_ce_25_delegado"
+  },
+  {
+    "source_id": "source_8",
+    "board": "Cebraspe",
+    "exam": "PC/CE Delegado",
+    "year": 2025,
+    "questionNumber": 7,
+    "page": 2,
+    "prompt": "A impetração de mandado de segurança coletivo por entidade de classe",
+    "options": {
+      "A": "condiciona-se ao requisito de que a pretensão veiculada seja do interesse de toda a categoria.",
+      "B": "independe de autorização dos seus associados.",
+      "C": "condiciona-se ao requisito de a entidade estar constituída e em funcionamento há pelo menos um ano.",
+      "D": "depende da autorização de 2/3 dos seus associados.",
+      "E": "depende da autorização da maioria absoluta dos seus associados."
+    },
+    "answer": "B",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Direitos e garantias fundamentais",
+    "subtopic": "Mandado de segurança coletivo",
+    "comment": "A entidade de classe possui legitimidade extraordinária e não depende de autorização dos associados para impetrar mandado de segurança coletivo.",
+    "source": "https://www.cebraspe.org.br/concursos/pc_ce_25_delegado"
+  },
+  {
+    "source_id": "source_8",
+    "board": "Cebraspe",
+    "exam": "PC/CE Delegado",
+    "year": 2025,
+    "questionNumber": 8,
+    "page": 2,
+    "prompt": "Ana, pessoa idosa, passou a ter incapacidade civil absoluta; Maria, com 21 anos de idade, passou a ter incapacidade civil absoluta; Lúcio, chileno naturalizado brasileiro, teve sua naturalização cancelada por sentença transitada em julgado.\n\nEm relação aos direitos políticos das citadas pessoas nas situações apresentadas, é correto afirmar que",
+    "options": {
+      "A": "Ana e Lúcio tiveram seus direitos políticos cassados.",
+      "B": "Lúcio teve seus direitos políticos suspensos.",
+      "C": "Ana e Lúcio tiveram seus direitos políticos suspensos.",
+      "D": "Lúcio perdeu seus direitos políticos.",
+      "E": "Maria e Lúcio tiveram seus direitos políticos cassados."
+    },
+    "answer": "D",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Direitos políticos",
+    "subtopic": "Suspensão e perda de direitos políticos",
+    "comment": "A incapacidade civil absoluta suspende direitos políticos, enquanto o cancelamento da naturalização por sentença transitada em julgado implica perda da nacionalidade e dos direitos políticos.",
+    "source": "https://www.cebraspe.org.br/concursos/pc_ce_25_delegado"
+  },
+  {
+    "source_id": "source_8",
+    "board": "Cebraspe",
+    "exam": "PC/CE Delegado",
+    "year": 2025,
+    "questionNumber": 9,
+    "page": 2,
+    "prompt": "De acordo com a Constituição Federal de 1988, constitui crime inafiançável e imprescritível, sujeito à pena de reclusão,",
+    "options": {
+      "A": "a ação de grupos armados contra a ordem constitucional.",
+      "B": "o tráfico ilícito de entorpecentes.",
+      "C": "a prática de racismo.",
+      "D": "o terrorismo.",
+      "E": "a prática de tortura."
+    },
+    "answer": "C",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Direitos e garantias fundamentais",
+    "subtopic": "Crimes constitucionais inafiançáveis e imprescritíveis",
+    "comment": "A Constituição determina expressamente que a prática do racismo é crime inafiançável e imprescritível, sujeito à pena de reclusão.",
+    "source": "https://www.cebraspe.org.br/concursos/pc_ce_25_delegado"
+  },
+  {
+    "source_id": "source_8",
+    "board": "Cebraspe",
+    "exam": "PC/CE Delegado",
+    "year": 2025,
+    "questionNumber": 11,
+    "page": 2,
+    "prompt": "Acerca da realização de exame psicotécnico em concursos públicos, julgue os próximos itens, de acordo com o entendimento jurisprudencial dos tribunais superiores.\n\nI   De acordo com o STF, admite-se a realização de exame psicotécnico em concursos públicos, desde que a lei da carreira expressamente o preveja como requisito para acesso ao cargo.\n\nII Para que a exigência do exame psicotécnico seja válida, é necessária sua previsão tanto no edital do concurso público quanto em lei em sentido amplo.\n\nIII De acordo com o STJ, os critérios de avaliação do exame psicotécnico devem ser objetivos.\n\nIV Deve haver possibilidade de o candidato interpor recurso contra o resultado do exame psicotécnico.\n\nAssinale a opção correta.",
+    "options": {
+      "A": "Apenas os itens I, II e III estão certos.",
+      "B": "Apenas os itens I, II e IV estão certos.",
+      "C": "Apenas os itens I, III e IV estão certos.",
+      "D": "Apenas os itens II, III e IV estão certos.",
+      "E": "Todos os itens estão certos."
+    },
+    "answer": "E",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Administração pública na Constituição",
+    "subtopic": "Concurso público e exame psicotécnico",
+    "comment": "A jurisprudência exige previsão legal e editalícia, critérios objetivos e possibilidade de recurso administrativo contra o resultado.",
+    "source": "https://www.cebraspe.org.br/concursos/pc_ce_25_delegado"
+  }
+]

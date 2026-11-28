@@ -1,0 +1,1709 @@
+                                                                                                   CEBRASPE – PC/MA – Edital: 2026
+•   Nas questões a seguir, marque, para cada uma, a única opção correta, de acordo com o respectivo comando. Para as devidas
+    marcações, use a Folha de Respostas, único documento válido para a correção das suas respostas.
+•   Eventuais espaços livres — identificados ou não pela expressão “Espaço livre” — que constarem deste caderno de prova poderão
+    ser utilizados para rascunho.
+                                                          -- PROVA OBJETIVA --
+                             GRUPO I                                              Questão 2
+                                                                                                                <PCMA_DELEGADO244001A01E4555>
+
+
+
+         DIREITO DIGITAL, DIREITO CIVIL, DIREITO                               Marlene, de 75 anos de idade, possui, em instituição
+             PROCESSUAL CIVIL, DIREITO AGRÁRIO E                        bancária privada, conta-corrente com movimentação média
+                      DIREITO AMBIENTAL
+                                                                        habitual de R$ 3.000. Às 4 h 00 min de certo dia, ela recebeu
+                                            <SEFAZRN160CG1A04E3740>
+             Questão 1
+                                                                        uma ligação de número com o prefixo oficial de seu banco e
+       Um indivíduo foi acusado do crime de injúria racial.
+                                                                        identificado, no visor de seu celular, como o contato salvo de seu
+Segundo a denúncia, ele havia proferido palavras ofensivas à
+                                                                        gerente, Afonso. O suposto gerente a informou de uma tentativa
+vítima em um estádio de futebol, de acordo com gravação em
+                                                                        de fraude em sua conta e a orientou a cancelar a operação
+vídeo. No entanto, laudos periciais oficiais e pareceres técnicos
+                                                                        suspeita por meio do compartilhamento da senha e do token,
+apontaram que, a partir do áudio, não fora identificado elemento
+                                                                        tendo-lhe cobrado pelo serviço o pagamento via PIX no valor de
+ofensivo. Em razão disso, a autoridade policial solicitou ao centro
+                                                                        R$ 20.000. Acreditando que se comunicava com seu gerente,
+de inteligência da delegacia a elaboração de relatório com auxílio
+de inteligência artificial generativa (IAG), que, por sua vez,          Marlene utilizou seu aplicativo do banco para realizar a
+
+concluiu a presença dos elementos ofensivos caracterizadores do         transferência segundo as instruções, sem ter havido qualquer
+
+crime. Esse relatório, então, foi utilizado como fundamento para        bloqueio ou alerta antes da efetivação, ainda que se tratasse de
+
+a denúncia apresentada contra o acusado.                                transferência durante a madrugada e em valor expressivamente
+                                                                        superior ao habitual. Dessa forma, ela satisfez as camadas de
+Nessa situação hipotética, conforme entendimento do STJ, o
+                                                                        autenticação viciada por erro induzido e, sem perceber, tornou-se
+relatório elaborado com auxílio de IAG
+                                                                        vítima de golpe baseado na técnica de spoofing.
+A é considerado prova apta a subsidiar a decisão judicial, pois o
+                                                                        Em relação a essa situação hipotética, assinale a opção correta
+    juiz não fica adstrito ao laudo, podendo aceitá-lo ou rejeitá-lo,
+                                                                        consoante o entendimento sumulado do STJ.
+    no todo ou em parte, nos termos do Código de Processo
+    Penal.                                                              A O fato de Marlene ter realizado a transferência pelo aplicativo
+B não é considerado prova apta a subsidiar a decisão judicial,             conforme as instruções do golpista configura culpa exclusiva
+    pois a prova deve observar critérios de racionalidade e                da vítima, o que exclui a responsabilidade da instituição
+    fundamentação, algo que a IAG não necessariamente atende,              bancária.
+    por basear-se em padrões estatísticos passíveis de alucinação       B A responsabilidade da instituição bancária é automática em
+    e risco de viés de confirmação.                                        qualquer golpe da falsa central e de spoofing, bastando a mera
+C não é considerado prova apta a subsidiar a decisão judicial,
+                                                                           alegação da vítima de ter sido enganada por terceiro.
+    porque o ordenamento jurídico processual penal veda
+                                                                        C A ausência de bloqueio ou de alerta diante da transferência na
+    qualquer prova técnica que não seja produzida por perito
+                                                                           madrugada e em valor muito superior ao perfil da cliente
+    oficial, assim entendido como o ser humano dotado de
+                                                                           evidencia insuficiência de mecanismos antifraude, o que
+    capacidade técnica.
+                                                                           configura fortuito interno e atrai a incidência da Súmula
+D é considerado prova apta a subsidiar a decisão judicial,
+                                                                           n.º 479 do STJ.
+    porquanto tem a finalidade de permitir ao juiz conhecer dos
+                                                                        D A responsabilidade, no caso, é exclusiva do golpista, jamais
+    fatos e formar sua convicção a partir do sistema do livre
+                                                                           podendo ser imputada à instituição bancária, ainda que
+    convencimento motivado.
+                                                                           demonstrada falha em seus sistemas de segurança.
+E é considerado prova apta a subsidiar a decisão judicial,
+                                                                        E Não há responsabilidade de instituições financeiras por golpes
+    porque o relatório técnico produzido por IAG não configura
+    qualquer ilícito tampouco violação a normas de direito penal           baseados na técnica de spoofing, por se tratar de falha na
+
+    ou ofensa à cadeia de custódia da prova.                               prestação de serviço pela operadora de telefonia.
+                                                                                                  CEBRASPE – PC/MA – Edital: 2026
+                                       <PCMA_DELEGADO244001A01E4555>                                            <PCMA_DELEGADO244001A01E4555>
+          Questão 3                                                              Questão 4
+        Com o intuito de oferecimento de serviços de disparo de        Uma operadora de telecomunicações, ao fornecer a um cliente
+material de campanha a candidatos em eleições, uma                     acesso à Internet por meio de conexão de fibra óptica residencial,
+microempresa de telemarketing anunciou em seu site uma lista           atua como provedora de conexão. Já um aplicativo de mensagens
+segmentada com cerca de 130 milhões de contatos de telefone.           instantâneas, ao permitir que esse mesmo usuário troque
+Ao saber do fato, a promotoria de justiça do Ministério Público        mensagens pela Internet, atua como provedor de aplicações de
+do estado comunicou o fato à Autoridade Nacional de Proteção           Internet. Com base nessa distinção e no Marco Civil da Internet,
+de Dados (ANPD). Durante a apuração, requisitaram-se à                 assinale a opção correta.
+microempresa a indicação do encarregado e a origem desses
+dados comercializados, o que não foi atendido. Em razão disso,         A As operadoras de telecomunicações e os provedores dos
+foi lavrado auto de infração contra a microempresa e publicada a         aplicativos de mensagens instantâneas estão dispensados de
+decisão sancionatória da ANPD.                                           guardar qualquer registro, cabendo essa obrigação à
+                                                                         autoridade policial que o requisitar.
+A partir dessa situação hipotética, assinale a opção correta em        B As operadoras de telecomunicações devem manter os
+conformidade com o Regulamento do Processo de Fiscalização e             registros de conexão sob sigilo pelo prazo de 2 anos, e os
+do Processo Administrativo Sancionador no âmbito da ANPD.                provedores dos aplicativos de mensagens instantâneas devem
+A O não atendimento à requisição da ANPD pode caracterizar               manter os registros de acesso sob sigilo pelo prazo de 1 ano.
+  obstrução à atividade de fiscalização, que abrange a recusa no       C As operadoras de telecomunicações devem manter os
+  atendimento e o não envio ou envio intempestivo de                     registros de conexão, em ambiente controlado e de segurança,
+  quaisquer dados e informações pertinentes à obrigação do               pelo prazo de 1 ano, e os provedores dos aplicativos de
+  agente regulado.                                                       mensagens instantâneas devem manter os registros de acesso
+B Não há previsão normativa para celebração de termo de                  sob sigilo pelo mesmo prazo.
+  ajustamento de conduta (TAC) no âmbito do processo                   D As operadoras de telecomunicações devem manter os
+  administrativo sancionador.                                            registros de conexão sob sigilo, em ambiente controlado e de
+C A microempresa autuada poderá interpor recurso                         segurança, pelo prazo de 1 ano, e os provedores dos
+  administrativo contra o despacho de instauração do processo            aplicativos de mensagens instantâneas devem manter os
+  administrativo sancionador, no prazo de dez dias, contado da           registros de acesso, nessas mesmas condições, pelo prazo de
+  sua ciência.                                                           6 meses.
+D A ANPD tem competência fiscalizatória para atuar em                  E As operadoras de telecomunicações devem manter os
+  decorrência de programas periódicos de fiscalização, de                registros de conexão, em ambiente controlado e de segurança,
+  forma coordenada com órgãos e entidades públicos ou em                 pelo prazo de 6 meses, e os provedores dos aplicativos de
+  cooperação com autoridades de proteção de dados pessoais de            mensagens instantâneas devem manter os registros de acesso,
+  outros países, de natureza internacional ou transnacional,             nessas mesmas condições, pelo prazo de 1 ano.
+  sendo vedada sua atuação de ofício.                                                                           <PCMA_DELEGADO244001A02E3626>
+E A ANPD deveria ter aplicado medidas de orientação e                            Questão 5
+  prevenção antes da instauração do processo administrativo            De acordo com o Código Civil e a jurisprudência dos tribunais
+  sancionador, tendo em vista a natureza de microempresa do            superiores, julgue os próximos itens, acerca da tutela jurídica do
+  agente autuado.                                                      nascituro.
+Espaço livre                                                           I   A redação atual do art. 2.º do Código Civil, após reforma
+                                                                           legislativa recente, alberga expressamente a teoria
+                                                                           concepcionista ao prever que a personalidade civil da pessoa
+                                                                           começa a partir da fecundação, momento em que todos os
+                                                                           direitos patrimoniais e extrapatrimoniais do nascituro passam
+                                                                           a ser protegidos.
+                                                                       II Embora o nascituro tenha alguns direitos preservados por
+                                                                           força da parte final do art. 2.º do Código Civil, a
+                                                                           jurisprudência do STJ é uníssona ao afastar o direito do
+                                                                           nascituro à indenização por dano moral, tendo em vista que o
+                                                                           pressuposto para a tutela da honra subjetiva é a consciência da
+                                                                           própria existência.
+                                                                       III A lei põe a salvo os direitos do nascituro desde a concepção.
+                                                                       IV Conforme precedente do STJ, erro em exame realizado
+                                                                            durante a gravidez que não comprometa o desenvolvimento
+                                                                            digno e saudável no útero da mãe e, consequentemente, não
+                                                                            afete o nascimento com vida e saúde nem repercuta na vida
+                                                                            após o nascimento não gera dano moral indenizável.
+                                                                       Estão certos apenas os itens
+                                                                       A I e II.
+                                                                       B II e IV.
+                                                                       C III e IV.
+                                                                       D I, II e III.
+                                                                       E I, III e IV.
+                                                                                                    CEBRASPE – PC/MA – Edital: 2026
+                                        <PCMA_DELEGADO244001A02E3626>                                            <PCMA_DELEGADO244001A02E3626>
+          Questão 6                                                                 Questão 8
+Acerca da invalidade e dos vícios dos negócios jurídicos, assinale      Com base no Decreto n.º 9.830/2019, assinale a opção correta.
+a opção correta conforme o Código Civil e a jurisprudência do
+STJ.                                                                    A A decisão administrativa que estabelecer interpretação ou
+A O negócio nulo pode ser confirmado pelas partes, salvo                   orientação nova sobre norma de conteúdo indeterminado e
+  direito de terceiro.
+B A chamada simulação inocente recebe tratamento diferente do              impuser novo dever ou novo condicionamento de direito
+  conferido à fraudulenta no Código Civil e na jurisprudência,             sempre prescindirá de regime de transição.
+  porquanto a primeira é considerada hipótese de anulabilidade
+  (nulidade relativa) do negócio jurídico e a segunda fulmina o         B Na interpretação de normas sobre gestão pública, serão
+  negócio com vício de nulidade absoluta.
+                                                                           considerados os obstáculos, as dificuldades reais do agente
+C Na fraude contra credores, presumem-se fraudatórias dos
+  direitos dos outros credores as garantias de dívidas que o               público e as exigências das políticas públicas a seu cargo, sem
+  devedor insolvente tiver dado a algum credor, bem como os
+  negócios ordinários indispensáveis à manutenção de                       prejuízo dos direitos dos administrados.
+  estabelecimento mercantil, rural ou industrial, ou à                  C O termo de ajustamento de gestão será celebrado apenas entre
+  subsistência do devedor e de sua família.
+D O Código Civil equiparou o falso motivo ao erro substancial,             agentes públicos e poderá ser celebrado nas hipóteses de
+  razão pela qual invalida o negócio jurídico com os mesmos                ocorrência de dano ao erário praticado por agentes públicos
+  requisitos de escusabilidade e cognoscibilidade descritos no
+  seu art. 138.                                                            que agirem com dolo ou erro grosseiro.
+E O dolo do representante legal de uma das partes só obriga o           D A decisão que determinar a revisão quanto à validade de atos,
+  representado a responder civilmente até a importância do
+  proveito que teve; se, porém, o dolo for do representante                contratos, ajustes, processos ou normas administrativas cuja
+  convencional, o representado responderá solidariamente com               produção de efeitos esteja em curso ou que tenha sido
+  ele por perdas e danos.
+                                        <PCMA_DELEGADO244001A02E3626>
+                                                                           concluída não levará em consideração as orientações gerais da
+          Questão 7
+                                                                           época.
+       A sociedade empresária XYZ Ltda. ajuizou ação de
+reparação de danos materiais e morais contra Ícaro, proprietário        E É proibido que situação plenamente constituída seja declarada
+de imóvel vizinho, um terreno baldio, em razão de prejuízos                inválida devido a mudança posterior de orientação geral,
+decorrentes de um incêndio provocado no imóvel de Ícaro e
+alastrado para o imóvel da sociedade empresária. O incêndio fora           vedação esta que atinge também a possibilidade de suspensão
+iniciado por terceiro não identificado. A sociedade empresária
+                                                                           de efeitos futuros de relação em curso.
+alegou que Ícaro não observou o dever geral de cuidado do bem e
+que o incêndio apenas se alastrou porque o imóvel não era                                                        <PCMA_DELEGADO244001A03E1493>
+
+totalmente cercado, o que permitiu que pessoas depositassem lá                      Questão 9
+garrafas e saco plásticos, que acabaram por contribuir para que o       Acerca do cabimento de habeas corpus no processo civil,
+incêndio se espalhasse rapidamente e atingisse o imóvel da
+sociedade empresária.                                                   assinale a opção correta.
+
+Considerando essa situação hipotética, assinale a opção correta         A É cabível habeas corpus em caso de execução de obrigação
+de acordo com o Código Civil e a jurisprudência do STJ.
+                                                                           alimentar, caso, mesmo após o executado comprovar sua
+A Pela teoria da causalidade direta e imediata, também referida
+  na jurisprudência como teoria do dano direto e imediato, Ícaro           impossibilidade de pagar a dívida, o juiz decrete a sua prisão.
+  não tem o dever de indenizar a sociedade empresária XYZ
+                                                                        B Não há instrumento jurídico que proíba a sua aplicação no
+  Ltda.
+B Todas as pessoas que depositaram resíduos como garrafas e                processo civil, mas a doutrina e a jurisprudência pátrias
+  sacos plásticos no terreno, bem como o sujeito que ateou o
+  fogo, são solidariamente responsáveis, juntamente com Ícaro,             reconhecem que se trata de um instituto exclusivamente
+  pelo prejuízo causado à sociedade empresária XYZ Ltda.,                  criminal.
+  porém esta somente pode requerer a reparação integral do
+  dano em face da pessoa que efetivamente ateou o fogo.                 C É cabível habeas corpus no processo de execução sempre que
+C O Código Civil não adota a teoria da causalidade adequada,               a obrigação estiver prescrita, e, mesmo assim, o juiz deve
+  razão pela qual todas as concausas são relevantes para a
+  identificação do nexo de causalidade, devendo Ícaro ser                  decretar medidas expropriativas que atinjam o patrimônio do
+  responsabilizado por todos os danos causados à sociedade                 devedor.
+  empresária XYZ Ltda., incluídos os danos morais.
+D A manutenção de terreno baldio atrai a responsabilidade civil         D O habeas corpus é cabível no processo civil exclusivamente
+  objetiva prevista no art. 927, parágrafo único, do Código                nas execuções de obrigação de não fazer, caso o executado
+  Civil, que dispensa não apenas a prova da culpa, mas também
+  o nexo de causalidade, bastando a prova da existência do                 descumpra a ordem judicial e pratique ato a ele vedado,
+  dano e a comprovação de que Ícaro é proprietário do imóvel               causando a sua ordem de prisão.
+  abandonado.
+E Em conformidade com o art. 944 do Código Civil, em razão              E O habeas corpus é o instrumento processual adequado para
+  de a culpa ser também imputável a terceiros não conhecidos,              combater ameaça a direito líquido e certo de uma das partes
+  Ícaro somente será responsabilizado pelos danos emergentes e
+  não responderá por danos morais e lucros cessantes.                      envolvidas em uma relação processual não criminal.
+                                                                                                           CEBRASPE – PC/MA – Edital: 2026
+                                        <PCMA_DELEGADO244001A03E1493>                                                      <PCMA_DELEGADO244001A03E1493>
+           Questão 10                                                                    Questão 12
+        Hans, nascido na Alemanha e lá residente, ingressou, no                No que se refere à competência e sua modificação no processo
+seu país de origem, com ação judicial contra Francisco, brasileiro             civil, julgue os itens a seguir.
+também residente naquele país, reivindicando a propriedade de                  I   O julgamento de conflito negativo de competência que
+um imóvel situado no Brasil. Francisco foi regularmente citado,                    envolva dois juízos estaduais de primeiro grau localizados no
+constituiu advogado e apresentou defesa. Após o regular                            mesmo estado competirá ao respectivo tribunal de justiça a
+processamento, o pedido foi julgado procedente e transitou em                      que estejam vinculados os juízos conflitantes.
+                                                                               II O juízo da causa, se constatar que o autor não obedeceu à
+julgado na justiça alemã.
+                                                                                   regra legal que fixa a competência territorial, poderá declinar
+Nessa situação hipotética, a decisão proferida pela jurisdição                     da competência de ofício e determinar a remessa dos autos ao
+alemã                                                                              juízo competente.
+                                                                               III Nos contratos particulares, os contratantes podem eleger o
+A poderá ser executada no Brasil perante a jurisdição estatual da                  juízo para processar e julgar qualquer controvérsia jurídica
+   localidade onde o imóvel está situado, desde que seja                           decorrente do contrato firmado entre eles.
+   homologada pelo STF.                                                        IV A incompetência em razão da matéria e do lugar não fica
+                                                                                    sujeita à preclusão e, por esse motivo, poderá ser suscitada
+B poderá ser executada no Brasil, perante a jurisdição estatual
+                                                                                    pelo réu em qualquer tempo ou grau de jurisdição.
+   da localidade onde o imóvel está situado.
+C não poderá ser executada perante a autoridade judiciária                     Assinale a opção correta.
+   brasileira, porquanto a competência para julgar matéria                     A Apenas o item I está certo.
+   relacionada a bem imóvel situado no Brasil é exclusiva da                   B Apenas os itens III e IV estão certos.
+   jurisdição brasileira.                                                      C Apenas os itens I, II e III estão certos.
+                                                                               D Apenas os itens I, II e IV estão certos.
+D poderá ser executada no Brasil, perante a jurisdição federal da
+                                                                               E Apenas os itens II, III e IV estão certos.
+   localidade onde o imóvel está situado, independentemente de
+                                                                                                                           <PCMA_DELEGADO244001A04E4518>
+
+   homologação judicial.                                                                 Questão 13
+E poderá ser executada no Brasil perante a jurisdição federal da                       Apesar das reivindicações e mobilizações ocorridas
+                                                                               durante a Constituinte, a política de reforma agrária implantada a
+   localidade onde o imóvel está situado, desde que seja
+                                                                               partir de 1988 não conseguiu alterar de modo estrutural o quadro
+   homologada pelo STJ.
+                                                                               de concentração fundiária no Brasil.
+                                        <PCMA_DELEGADO244001A03E1493>
+           Questão 11                                                                                                  Antonio Maués. Constituição e desigualdade:
+                                                                                                                    direito de propriedade e reforma agrária no Brasil.
+        Alberto propôs ação de reparação de dano em desfavor de                                                   In: Lua Nova, São Paulo, v. 115, 2022, p. 192-193.
+
+João, e, após inúmeras tentativas frustradas de citação, o juízo
+                                                                               A respeito da regulação jurídica da reforma agrária, assinale a
+considerou que havia suspeita de ocultação pelo requerido, por                 opção correta.
+esse    motivo   concedeu,   de   ofício,   tutela        de       urgência,
+                                                                               A Para fins de habilitação como beneficiário em projetos de
+determinando o arresto de bens do requerido, até o limite do
+                                                                                 assentamento do Programa Nacional de Reforma
+valor do pedido formulado pelo requerente.                                       Agrária (PNRA), a renda familiar proveniente de atividade
+Nessa situação hipotética, a concessão da tutela de urgência                     não agrária não pode ser superior a três salários mínimos
+                                                                                 mensais ou a um salário mínimo per capita.
+A não tem amparo legal, pois, no processo de conhecimento, a                   B A observância das disposições que regulam as relações de
+   medida somente pode ser concedida após a instrução                            trabalho implica, para a função social da propriedade rural,
+   processual.                                                                   considerar apenas as relações que disciplinam os contratos de
+                                                                                 arrendamento e parcerias rurais.
+B não tem amparo legal, pois a medida somente pode ser
+                                                                               C Os beneficiários da distribuição de imóveis rurais pela
+   concedida de ofício em ação de execução ou em fase de                         reforma agrária receberão títulos de domínio ou de concessão
+   cumprimento de sentença.                                                      de uso, inegociáveis pelo prazo de vinte anos.
+C não tem amparo legal, pois a medida, embora possa ser                        D A pequena e a média propriedade rural gozam de imunidade
+   concedida em ação de conhecimento, não pode ser concedida                     contra a desapropriação para fins de reforma agrária,
+   de ofício.                                                                    independentemente da quantidade de imóveis rurais que seu
+                                                                                 titular possua.
+D tem amparo legal, pois a medida pode ser concedida de ofício
+                                                                               E O grau de utilização da terra, para avaliação de propriedade
+   em qualquer fase da ação de conhecimento.
+                                                                                 produtiva, deve ser, no mínimo, de 50%, calculado pela
+E não tem amparo legal, pois a medida somente pode ser                           relação percentual entre a área efetivamente utilizada e a área
+   concedida após a citação regular do requerido.                                aproveitável total do imóvel.
+                                                                                                                                      CEBRASPE – PC/MA – Edital: 2026
+                                                            <PCMA_DELEGADO244001A04E4518>                                                           <PCMA_DELEGADO244001A04E4518>
+           Questão 14                                                                                               Questão 16
+Acerca dos contratos agrários, julgue os próximos itens.                                                  A respeito dos procedimentos administrativos para a
+                                                                                                          identificação, o reconhecimento, a delimitação, a demarcação e a
+I   Arrendamento rural é o contrato pelo qual uma pessoa se
+                                                                                                          titulação da propriedade definitiva das terras ocupadas por
+    obriga a ceder a outra, por tempo determinado ou não, o uso e
+                                                                                                          remanescentes das comunidades dos quilombos, em
+    gozo de imóvel rural, mediante partilha de riscos do caso                                             conformidade com a legislação aplicável, julgue os itens a seguir.
+    fortuito e da força maior.
+                                                                                                          I   O critério da autodeclaração étnico-racial tem aplicação
+II Os contratos de arrendamento e de parceria podem ser
+                                                                                                              restrita aos processos de demarcação de terras indígenas,
+    celebrados por escrito ou verbalmente.                                                                    sendo inaplicável aos procedimentos de identificação e
+III Nos contratos agrários, independentemente de sua forma,                                                   regularização das terras ocupadas por remanescentes das
+    deverão constar obrigatoriamente cláusulas que assegurem a                                                comunidades dos quilombos.
+    conservação dos recursos naturais.                                                                    II Para fins de execução da política agrícola e agrária, os
+                                                                                                              remanescentes das comunidades dos quilombos fazem jus à
+Assinale a opção correta.
+                                                                                                              assistência técnica dos órgãos competentes, porém, sem
+A Apenas o item I está certo.                                                                                 direito a tratamento preferencial ou linhas especiais de
+                                                                                                              financiamento.
+B Apenas o item II está certo.
+                                                                                                          III Constatada a incidência de terras ocupadas por remanescentes
+C Apenas os itens I e III estão certos.
+                                                                                                              das comunidades dos quilombos sobre áreas de domínio dos
+D Apenas os itens II e III estão certos.
+                                                                                                              estados, caberá ao INCRA o encaminhamento dos autos aos
+E Todos os itens estão certos.                                                                                respectivos entes federativos competentes para a devida
+           Questão 15
+                                                            <PCMA_DELEGADO244001A04E4518>                     titulação.
+
+       O Nordeste é a segunda região do país com o maior                                                  Assinale a opção correta.
+número de indígenas: são 528.800 pessoas que se autodeclaram
+                                                                                                          A Nenhum item está certo.
+indígenas. Em relação aos estados da região, o Maranhão fica                                              B Apenas o item II está certo.
+atrás somente da Bahia, que possui 229.103 pessoas indígenas, e                                           C Apenas o item III está certo.
+de Pernambuco, que conta 106.634.                                                                         D Apenas os itens I e II estão certos.
+        Rafaelle Fróes. Censo 2022: Maranhão é 3.º estado com maior população indígena do Nordeste;       E Apenas os itens I e III estão certos.
+            mais de 72% vive dentro de territórios indígenas. In: Portal G1, 7/8/2023 (com adaptações).                                             <PCMA_DELEGADO244001A05E4518>
+                                                                                                                    Questão 17
+No que diz respeito às terras indígenas, assinale a opção correta.                                        Assinale a opção correta a respeito de aspectos legais pertinentes
+                                                                                                          às unidades de conservação.
+A O órgão fundiário federal está isento de realizar o
+    reassentamento de ocupantes não indígenas identificados em                                            A A pena prevista para o crime de penetrar em unidade de
+                                                                                                            conservação conduzindo instrumentos próprios para caça ou
+    área em processo de demarcação.
+                                                                                                            para exploração de produtos, sem licença da autoridade
+B É inadmissível o deslocamento compulsório ou a remoção de
+                                                                                                            competente, é detenção, de seis meses a um ano, e multa.
+    comunidades indígenas de suas terras tradicionais, sendo tal
+                                                                                                          B O entorno de uma unidade de conservação onde as atividades
+    medida vedada e insuscetível de autorização mesmo em casos                                              humanas estiverem sujeitas a normas e restrições específicas,
+    de crises sanitárias que coloquem em iminente risco a                                                   com o propósito de minimizar os impactos negativos sobre a
+    sobrevivência de sua população.                                                                         unidade, é considerado corredor ecológico.
+C A Fundação Nacional dos Povos Indígenas não detém poder                                                 C Famoso mundialmente por suas dunas e lagoas de água
+    de polícia em terras indígenas.                                                                         pluvial, o Parque Nacional dos Lençóis Maranhenses é uma
+D Constitui infração aos direitos dos povos indígenas o                                                     unidade de conservação da categoria de uso sustentável.
+                                                                                                          D A criação de unidades de conservação, exceto áreas de
+    cometimento de danos às placas e aos marcos delimitadores
+                                                                                                            proteção ambiental, deve ser precedida de consulta pública
+    de terras indígenas.
+                                                                                                            que permita identificar a localização, a dimensão e os limites
+E A pesquisa e a lavra de riquezas minerais em terras indígenas
+                                                                                                            mais adequados para a unidade.
+    são permitidas mediante autorização da assembleia legislativa                                         E O crime ambiental definido pela conduta de causar dano
+    do respectivo estado, depois de ouvidas as comunidades                                                  direto ou indireto às unidades de conservação é penalizado
+    afetadas.                                                                                               com reclusão e não admite a modalidade culposa.
+                                                                                                      CEBRASPE – PC/MA – Edital: 2026
+                                           <PCMA_DELEGADO244001A05E4518>                                            <PCMA_DELEGADO244001A05E4518>
+          Questão 18                                                                 Questão 20
+Acerca da responsabilidade ambiental, julgue os próximos itens,            Considerando as sanções penais e administrativas aplicáveis por
+de acordo com o entendimento jurisprudencial dos tribunais                 condutas e atividades lesivas ao meio ambiente, assinale a opção
+superiores.                                                                correta.
+
+I   Conforme tese fixada pelo STJ sob o rito dos recursos                  A A suspensão condicional da pena, em casos de crimes
+    repetitivos, a nulidade da intimação por edital no processo              ambientais, deve obedecer ao teto máximo de dois anos de
+    administrativo ambiental, no âmbito da apuração de infrações             pena privativa de liberdade.
+    e imposição de sanções, exige a demonstração de efetivo                B Pessoa jurídica que praticar o crime de destruir vegetação
+    prejuízo à defesa.                                                       protetora de mangues pode ser punida com a proibição de
+II Conforme decisão do STF em julgamento de repercussão                      obter subsídio do poder público estadual, penalidade cujo
+    geral, é imprescritível a pretensão executória e inaplicável a           prazo máximo previsto é de cinco anos.
+                                                                           C Considere que um tatuador, com fins puramente estéticos,
+    prescrição intercorrente na execução de reparação de dano
+                                                                             faça tatuagem em seu gato-esfinge de estimação. Essa
+    ambiental, porém esse entendimento é inaplicável à hipótese
+                                                                             conduta não configura crime de maus-tratos, embora possa
+    de conversão da obrigação em indenização por perdas e
+                                                                             provocar crítica de organizações de proteção animal.
+    danos.
+                                                                           D A responsabilização penal de pessoa jurídica por crimes
+III Segundo súmula do STJ, prescreve em cinco anos, contados
+                                                                             ambientais exige que a infração seja cometida por decisão de
+    do término do processo administrativo, a pretensão da
+                                                                             seu representante contratual, independentemente de benefício
+    administração pública de promover a execução de multa por
+                                                                             para a entidade.
+    infração ambiental.                                                    E Se uma pessoa física for condenada a pena privativa de
+Assinale a opção correta.                                                    liberdade de quatro anos por ter provocado, de forma dolosa,
+                                                                             incêndio em floresta, não caberá a substituição dessa pena por
+A Apenas o item I está certo.                                                recolhimento domiciliar.
+B Apenas o item II está certo.
+                                                                                                      GRUPO II
+C Apenas os itens I e III estão certos.                                     DIREITO ADMINISTRATIVO, DIREITO CONSTITUCIONAL,
+D Apenas os itens II e III estão certos.                                          MEDICINA LEGAL E DIREITOS HUMANOS
+E Todos os itens estão certos.                                                                                         <SEFAZRN160CG1A04E3740>
+                                                                                     Questão 21
+                                           <PCMA_DELEGADO244001A05E4518>
+          Questão 19                                                       Em relação às fontes do direito administrativo, ao regime
+Acerca do licenciamento ambiental e de crimes e infrações                  jurídico-administrativo e aos princípios da administração pública,
+administrativas contra o meio ambiente, assinale a opção correta.          assinale a opção correta.
+
+A Caso consultor ambiental apresente relatório técnico                     A A jurisprudência constitui fonte normativa primária do direito
+  parcialmente falso, com o objetivo de viabilizar o                         administrativo,     podendo      os    tribunais     estabelecer,
+  licenciamento de uma grande obra de construção civil, a ele                independentemente de previsão legal, novas obrigações
+  será aplicável multa administrativa mínima de quinhentos                   administrativas gerais aplicáveis aos particulares.
+  reais e máxima de quinhentos mil reais.                                  B Os princípios administrativos têm natureza exclusivamente
+B O licenciamento de empreendimentos que possam afetar a                     orientadora, de modo que sua violação somente poderá
+  zona de amortecimento de unidade de conservação não requer                 produzir consequências jurídicas quando houver também
+                                                                             descumprimento expresso de regra legal.
+  autorização do órgão responsável pela administração dessa
+                                                                           C Os costumes administrativos podem ser utilizados como fonte
+  unidade.
+                                                                             do direito administrativo, inclusive para afastar a aplicação de
+C A concessão de licença prévia em desacordo com as normas
+                                                                             norma legal vigente, quando a prática administrativa estiver
+  ambientais, quando decorrente de mera imperícia, configura
+                                                                             consolidada e atender ao interesse público.
+  crime ambiental punível apenas com multa.
+                                                                           D O princípio da legalidade permite à administração pública
+D A construção ou a reforma de obra potencialmente poluidora,
+                                                                             praticar todo ato que não seja expressamente proibido pela lei,
+  sem autorização dos órgãos ambientais competentes,                         desde que sua finalidade esteja relacionada à satisfação de
+  configura crime ambiental punível com pena de detenção, de                 interesse público juridicamente reconhecido.
+  seis meses a dois anos, ou multa, ou ambas as penas                      E O regime jurídico-administrativo caracteriza-se pela aplicação
+  cumulativamente.                                                           conjunta das prerrogativas conferidas à administração pública
+E Compete administrativamente ao poder público estadual                      e das restrições impostas à sua atuação, tendo como
+  promover      o    licenciamento     de    empreendimentos                 fundamentos a supremacia e a indisponibilidade do interesse
+  desenvolvidos em terras indígenas no âmbito de seu território.             público.
+                                                                                                  CEBRASPE – PC/MA – Edital: 2026
+                                       <PCMA_DELEGADO244001A06E3383>                                           <PCMA_DELEGADO244001A06E3383>
+          Questão 22                                                             Questão 24
+A respeito dos atos administrativos e suas hipóteses de cassação,      No que se refere aos bens públicos, assinale a opção correta.
+revogação e anulação, bem como do silêncio da administração
+                                                                       A Os bens públicos de uso comum do povo podem ser
+pública, assinale a opção correta.                                       livremente utilizados por particulares para qualquer finalidade
+A A permissão administrativa possui natureza necessariamente             econômica, desde que inexistente prejuízo material à
+  vinculada, e, uma vez descumprida uma condição pelo                    conservação do patrimônio público.
+  beneficiário, a retirada do ato caracteriza revogação fundada        B Os bens públicos de uso comum e de uso especial são
+  exclusivamente em razões de conveniência administrativa.               suscetíveis de alienação, desde que precedida de avaliação e
+B A licença regularmente concedida constitui ato administrativo          licitação na modalidade adequada, enquanto mantiverem a
+  vinculado, e, uma vez preenchidos os requisitos legais pelo            destinação pública.
+  interessado, sua retirada por mera conveniência                      C A utilização privativa de bem público por particular pode ser
+  administrativa caracteriza anulação do ato anteriormente               admitida pela administração pública, observados os requisitos
+  praticado.                                                             legais e o instrumento jurídico adequado à natureza da
+C A cassação é modalidade de retirada do ato administrativo              utilização pretendida.
+                                                                       D A alienação de bem público imóvel exige sempre autorização
+  fundada em conveniência e oportunidade.
+                                                                         legislativa específica, avaliação prévia e licitação na
+D A administração pública deve anular os atos administrativos
+                                                                         modalidade concorrência.
+  que apresentem vício de legalidade, respeitados os direitos
+                                                                       E Os bens públicos dominicais submetem-se ao regime jurídico
+  adquiridos.
+                                                                         privado, razão pela qual podem ser adquiridos por usucapião
+E A ausência de manifestação da administração pública produz,            e alienados livremente, independentemente de interesse
+  em regra, efeito jurídico previamente definido pela lei                público ou procedimento administrativo.
+  aplicável, não sendo possível presumir genericamente que o                                                   <PCMA_DELEGADO244001A06E3383>
+  silêncio administrativo corresponda à concordância estatal                     Questão 25
+  com a pretensão do interessado.                                      Considerando as disposições constitucionais e legais aplicáveis
+          Questão 23
+                                       <PCMA_DELEGADO244001A06E3383>   aos agentes públicos, assinale a opção correta.
+
+       Durante uma operação de fiscalização, determinado órgão         A A responsabilidade administrativa do servidor exclui sua
+público identificou que um estabelecimento comercial estava              responsabilização civil ou penal pelo mesmo fato.
+funcionando sem a autorização administrativa exigida para o            B Função pública somente pode ser exercida por servidor
+exercício daquela atividade. A autoridade competente determinou          ocupante de cargo efetivo.
+a interrupção da atividade e aplicou a medida administrativa           C A exoneração e a demissão são ambas formas de vacância do
+prevista na legislação pertinente. Paralelamente, no âmbito              cargo público aplicadas como penalidades disciplinares em
+                                                                         consequência de infração disciplinar praticada por servidor
+interno do órgão, um servidor que havia descumprido dever
+                                                                         efetivo.
+funcional foi submetido a procedimento disciplinar pela
+                                                                       D O emprego público se caracteriza pela existência de vínculo
+autoridade competente.
+                                                                         de trabalho regido necessariamente por regime estatutário.
+Considerando essa situação hipotética, os poderes da                   E A nomeação é forma de provimento de cargo público,
+administração pública, suas manifestações e a relação entre o            podendo ocorrer tanto para cargo efetivo quanto para cargo
+poder de polícia e as liberdades públicas, assinale a opção              em comissão, observados os requisitos estabelecidos no
+correta.                                                                 ordenamento jurídico.
+
+A O poder disciplinar e o poder de polícia têm a mesma                 Espaço livre
+  finalidade, pois ambos permitem à administração pública
+  restringir indistintamente liberdades públicas e aplicar
+  sanções a qualquer pessoa que descumpra norma
+  administrativa.
+B O poder disciplinar permite à administração pública aplicar
+  penalidades a qualquer particular que descumpra norma
+  administrativa, enquanto o poder de polícia restringe
+  exclusivamente direitos individuais constitucionalmente
+  previstos.
+C O poder hierárquico autoriza a administração pública a criar
+  obrigações gerais aos particulares, enquanto o poder de
+  polícia somente pode ser exercido mediante ordem judicial
+  que determine previamente a restrição.
+D O poder de polícia permite condicionar ou restringir direitos,
+  interesses ou liberdades em benefício do interesse público,
+  observados os limites legais e as garantias asseguradas aos
+  administrados.
+E O poder hierárquico permite distribuir e ordenar funções
+  administrativas, enquanto o poder disciplinar autoriza a
+  aplicação de sanções a servidores públicos e a particulares
+  sujeitos a vínculo jurídico especial com a administração
+  pública.
+                                                                                                  CEBRASPE – PC/MA – Edital: 2026
+                                       <PCMA_DELEGADO244001A06E3383>                                            <PCMA_DELEGADO244001A06E3383>
+          Questão 26                                                                Questão 28
+       Determinada agência reguladora federal pretende editar                 Durante     procedimento      instaurado            para          apurar
+ato normativo de interesse geral dos agentes econômicos e dos          irregularidades em contrato celebrado entre uma empresa privada
+usuários de seus serviços regulados. Durante a preparação da           e determinado órgão público, foram identificados indícios de
+medida, a diretoria da agência iniciou os procedimentos previstos
+                                                                       vantagem indevida oferecida a agente público. No curso da
+na legislação específica, considerando a necessidade de
+                                                                       apuração, também se verificou possível violação a dever
+fundamentação técnica e de participação dos interessados antes
+da tomada da decisão.                                                  funcional.
+
+A partir dessa situação hipotética, assinale a opção correta,          Considerando essa situação hipotética, assinale a opção correta
+considerando o regime jurídico das agências reguladoras e as           de acordo com a Lei Anticorrupção (Lei n.º 12.846/2013) e a
+disposições da Lei n.º 13.848/2019.                                    Lei de Improbidade Administrativa (Lei n.º 8.429/1992).
+A Os dirigentes das agências reguladoras podem ser livremente          A Pessoa jurídica pode responder objetivamente pelos atos
+  exonerados pela autoridade responsável por sua nomeação,                lesivos previstos na Lei Anticorrupção.
+  pois a natureza especial dessas entidades não assegura a eles
+                                                                       B A celebração de acordo de leniência exclui automaticamente a
+  estabilidade durante o mandato.
+                                                                          aplicação das sanções previstas na Lei Anticorrupção e
+B A natureza especial das agências reguladoras decorre da
+  existência de sua subordinação hierárquica ao Ministério de             impede a responsabilização de agentes públicos que tenham
+  Estado supervisor, embora lhes seja assegurada autonomia                participado do ato lesivo.
+  administrativa para exercer suas competências.                       C A configuração do ato de improbidade exige sempre a
+C A análise de impacto regulatório é procedimento posterior à             demonstração de enriquecimento ilícito do agente público.
+  edição do ato normativo, destinando-se à avaliação dos               D A responsabilização de pessoa jurídica por conduta tipificada
+  resultados concretos produzidos pela medida regulatória.
+                                                                          na Lei Anticorrupção depende da comprovação de dolo ou
+D A consulta pública deve ocorrer previamente à decisão sobre
+                                                                          culpa de seus dirigentes.
+  minutas e propostas de alteração de atos normativos de
+  interesse geral, permitindo-se o envio de críticas, sugestões e      E A configuração de improbidade administrativa independe da
+  contribuições por quaisquer interessados.                               presença de dolo quando houver prejuízo ao erário.
+E A autonomia das agências reguladoras impede o controle de                                                     <PCMA_DELEGADO244001A07E3389>
+                                                                                    Questão 29
+  seus atos pelo Poder Judiciário, pois a independência
+                                                                       Com base nas disposições da Constituição do Estado do
+  decisória exclui a possibilidade de revisão judicial de suas
+  decisões.                                                            Maranhão acerca das limitações do poder de tributar, assinale a
+                                       <PCMA_DELEGADO244001A06E3383>
+                                                                       opção correta.
+          Questão 27
+Assinale a opção correta a respeito dos poderes e deveres da           A A anistia ou remissão que envolva matéria tributária estadual
+administração pública.                                                    pode ser formalizada por decreto do Poder Executivo,
+A O abuso de poder somente ocorre quando o agente atua fora               dispensada a edição de lei específica, desde que o ato
+  de sua competência legal, não abrangendo situações em que a             normativo indique expressamente os créditos abrangidos e
+  autoridade competente utiliza-se do poder a ela atribuído para          observe os limites fixados na lei orçamentária anual.
+  alcançar finalidade diversa da prevista em lei.                      B É permitido conceder privilégio fiscal a sociedade de
+B O dever de agir impõe que a administração pública atue                  economia mista ou a empresa pública que não seja extensivo
+  quando presentes os pressupostos legais, enquanto o dever de            ao setor privado.
+  eficiência exige que a atividade administrativa busque
+                                                                       C A imunidade tributária de partidos políticos e de entidades
+  resultados adequados, sem afastar a observância da
+                                                                          sindicais abrange todo o seu patrimônio e sua renda, ainda
+  legalidade.
+C O dever de probidade vincula apenas os agentes públicos                 que alheios às suas finalidades essenciais.
+  sujeitos a regime estatutário, enquanto o dever de prestação         D A proibição de instituir impostos sobre patrimônio, renda ou
+  de contas alcança somente aqueles responsáveis pela                     serviços de um ente federativo em relação a outro estende-se
+  administração direta de recursos financeiros.                           às autarquias e fundações públicas quanto ao patrimônio, à
+D O STF reconhece que o poder regulamentar permite ao Poder               renda e aos serviços vinculados às suas finalidades essenciais,
+  Executivo inovar livremente na ordem jurídica, desde que o              não abrangendo atividade econômica regida por normas
+  regulamento permaneça compatível com a finalidade geral
+                                                                          aplicáveis a empreendimentos privados.
+  estabelecida pela lei.
+                                                                       E É permitido cobrar tributo por fatos geradores ocorridos antes
+E O poder regulamentar permite ao chefe do Poder Executivo
+  editar decreto para criar obrigações originárias aos                    do início de sua vigência, desde que a cobrança somente se
+  particulares, desde que a medida seja necessária à execução             efetive no exercício financeiro subsequente ao da sua
+  de política pública prevista em lei.                                    instituição.
+                                                                                                   CEBRASPE – PC/MA – Edital: 2026
+                                        <PCMA_DELEGADO244001A07E3389>                                           <PCMA_DELEGADO244001A07E3389>
+          Questão 30                                                              Questão 33
+Considerando o disposto na Constituição Federal de 1988 (CF),           Assinale a opção correta a respeito dos direitos e garantias
+assinale a opção correta acerca da nacionalidade brasileira.            individuais previstos na CF.
+A Os cargos de governador de estado e de juiz de paz são                A Constatada a ilegalidade da prisão, cabe à autoridade policial
+  privativos de brasileiro nato.                                          responsável pela custódia deliberar sobre o relaxamento da
+B Ao legislador infraconstitucional é vedado diferenciar                  medida, no prazo legal de 72 horas.
+  brasileiros natos de naturalizados, salvo nas hipóteses que a         B A prisão fora de flagrante delito pode ser efetivada mediante
+  própria CF expressamente contemplar.                                    ordem verbal de autoridade judiciária competente, dispensada
+C A perda da nacionalidade brasileira é consequência                      a forma escrita, em situações de urgência que recomendem a
+  automática da aquisição voluntária de outra nacionalidade,              medida imediata.
+  independentemente da manifestação de vontade do                       C A prisão de qualquer pessoa deve ser comunicada
+  interessado.                                                            imediatamente à autoridade judiciária competente, e não à
+D O filho de mãe brasileira nascido no exterior adquire                   família do preso ou à pessoa por ele indicada, em razão do
+  nacionalidade             originária        automaticamente,            sigilo das investigações em curso.
+  independentemente de registro consular ou de opção                    D É terminantemente vedada a prisão civil por dívida, inclusive
+  posterior, ainda que sua genitora não esteja a serviço do               na hipótese de inadimplemento voluntário e inescusável de
+  Brasil no exterior.                                                     obrigação alimentícia, que deve ser satisfeita exclusivamente
+E A exigência de apenas um ano de residência ininterrupta e               por meio de execução patrimonial do devedor.
+  idoneidade moral para a naturalização aplica-se a qualquer            E Quando a lei autorizar a liberdade provisória, com ou sem
+  estrangeiro, independentemente do país de origem, por ser               fiança, o preso não deve ser recolhido à prisão ou nela
+  garantia fundada em direitos humanos.                                   mantido.
+                                        <PCMA_DELEGADO244001A07E3389>                                           <PCMA_DELEGADO244001A07E3389>
+          Questão 31                                                              Questão 34
+À luz das normas da CF sobre o processo de emenda                       Assinale a opção correta a respeito das comissões parlamentares
+constitucional, assinale a opção correta.                               de inquérito (CPI).
+A Rejeitada a proposta de emenda constitucional, sua matéria            A A criação de CPI depende de requerimento subscrito pela
+  não poderá ser objeto de nova proposta durante a vigência do            maioria absoluta dos membros da respectiva casa legislativa.
+  governo sob a qual foi rejeitada.                                     B As CPI têm competência para presidir inquérito policial,
+B A tramitação de proposta de emenda constitucional                       substituindo a atuação da polícia judiciária na apuração dos
+  apresentada na vigência de estado de sítio regularmente                 fatos objeto da investigação.
+  decretado não pode prosseguir enquanto perdurar o estado de           C As conclusões da CPI serão, quando cabível, encaminhadas
+  sítio.                                                                  ao Poder Judiciário, ao qual competirá promover eventual
+C A aprovação de emenda constitucional exige um único turno               responsabilização civil ou criminal dos infratores.
+  de votação em cada casa do Congresso Nacional, sendo                  D As CPI podem ser instituídas para a apuração de fatos
+  suficiente o voto favorável da maioria absoluta dos membros.            genéricos relacionados à administração pública, cabendo à
+D Proposta de emenda constitucional pode ser apresentada por              própria comissão deliberar sobre a fixação do prazo para a
+  iniciativa de mais da metade das assembleias legislativas das           conclusão dos trabalhos.
+  unidades da Federação, exigindo-se, em cada uma delas, a              E As CPI, criadas pela Câmara dos Deputados e pelo Senado
+  manifestação pela maioria absoluta de seus membros.                     Federal, em conjunto ou separadamente, terão poderes de
+E Proposta de emenda constitucional pode ser apresentada por              investigação próprios das autoridades judiciais, além de
+  iniciativa individual de qualquer deputado federal, dispensada          outros previstos nos regimentos das respectivas casas
+  a subscrição mínima de um terço dos membros da casa                     legislativas.
+  legislativa quando o parlamentar ocupa a função de líder da                                                   <PCMA_DELEGADO244001A07E3389>
+
+  bancada de seu partido.                                                         Questão 35
+                                        <PCMA_DELEGADO244001A07E3389>           Em três situações distintas, o Congresso Nacional
+          Questão 32                                                    apreciou tratados internacionais de direitos humanos, da seguinte
+Acerca da organização da segurança pública e das atribuições            forma.
+constitucionais de seus órgãos, assinale a opção correta de acordo              O Tratado X foi aprovado, em sessão conjunta do
+com a CF.                                                               Congresso Nacional, em turno único de votação, com o voto
+                                                                        favorável de três quintos dos membros do Congresso Nacional.
+A Os municípios poderão constituir guardas municipais com
+                                                                                O Tratado Y foi aprovado, em cada casa do Congresso
+  atribuições de polícia judiciária para a apuração de infrações
+                                                                        Nacional, em dois turnos de votação, com o voto favorável da
+  penais relacionadas à proteção de seus bens, serviços e
+                                                                        maioria absoluta dos membros em cada turno.
+  instalações.
+                                                                                O Tratado Z foi aprovado, em cada casa do Congresso
+B As polícias civis têm as funções de polícia judiciária e
+                                                                        Nacional, em dois turnos de votação, com o voto favorável de
+  competência para apurar infrações penais em regime de
+                                                                        três quintos dos membros em cada turno.
+  competência concorrente com a Polícia Federal, inclusive
+  quanto às infrações de repercussão interestadual ou                   Em relação a essa situação hipotética, é correto afirmar que
+  internacional.
+C As polícias militares e os corpos de bombeiros militares,             A apenas o Tratado Z adquiriu hierarquia equivalente à de
+  forças auxiliares e reserva do Exército Brasileiro,                     emenda constitucional.
+  subordinam-se hierarquicamente ao Comando do Exército.                B apenas os Tratados Y e Z adquiriram hierarquia equivalente à
+D A Polícia Federal tem competência constitucional para                   de emenda constitucional.
+  exercer as funções de polícia marítima, aeroportuária e de            C apenas o Tratado X adquiriu hierarquia equivalente à de
+  fronteiras, além de competência exclusiva para exercer as               emenda constitucional.
+  funções de polícia judiciária da União.                               D os Tratados X, Y e Z adquiriram hierarquia equivalente à de
+E A Polícia Rodoviária Federal destina-se ao patrulhamento                emenda constitucional.
+  ostensivo das rodovias federais, incumbindo-lhe também a              E apenas os Tratados X e Y adquiriram hierarquia equivalente à
+  apuração das infrações penais nelas cometidas.                          de emenda constitucional.
+                                                                                                           CEBRASPE – PC/MA – Edital: 2026
+                                            <PCMA_DELEGADO244001A07E3389>                                               <PCMA_DELEGADO244001A08E2110>
+            Questão 36                                                                     Questão 38
+Com base na Constituição do Estado do Maranhão, julgue os                               Durante exame cadavérico, observam-se feridas
+itens a seguir.                                                                  produzidas por instrumento perfurante de médio calibre. Em
+                                                                                 determinada região anatômica, situada na confluência de linhas
+I   Para a alienação de terra devoluta pelo estado do Maranhão,
+                                                                                 de força cutâneas com direções distintas, uma das feridas
+    basta a discriminação administrativa regular da área,
+                                                                                 apresenta configuração triangular, com uma de suas extremidades
+    independentemente de demarcação prévia.
+                                                                                 semelhante a uma ponta de seta.
+II O Poder Executivo estadual pode conceder, sem prévia
+    aprovação da Assembleia Legislativa, o uso de terras públicas                Com base na descrição precedente e na traumatologia forense,
+                                                                                 assinale a opção correta.
+    cuja área respeite o limite fixado na Constituição Estadual
+    para a dispensa dessa aprovação.                                             A O achado descrito pode ser explicado pela Lei de
+III Pedido de título de domínio de terra pública destinada a                       Langer, segundo a qual, em regiões de confluência de linhas
+    assentamento rural formulado por pessoa solteira pode ser                      de força diferentes, as extremidades das lesões podem
+    indeferido sob o fundamento de que a titularidade pressupõe a                  assumir aspecto de ponta de seta, triângulo ou mesmo
+    existência de vínculo conjugal.                                                quadrilátero.
+                                                                                 B A configuração triangular demonstra necessariamente que o
+Assinale a opção correta.                                                          instrumento que causou a ferida tinha três gumes.
+A Apenas o item I está certo.                                                    C O achado descrito é explicado pela primeira Lei de Filhos e
+B Apenas o item II está certo.                                                     permite determinar o número de gumes do instrumento que
+                                                                                   causou a ferida.
+C Apenas os itens I e III estão certos.
+                                                                                 D O achado descrito é explicado pela segunda Lei de Filhos,
+D Apenas os itens II e III estão certos.
+                                                                                   pois a confluência de linhas de força determina
+E Todos os itens estão certos.
+                                                                                   obrigatoriamente o paralelismo das lesões.
+                                            <PCMA_DELEGADO244001A08E2110>
+            Questão 37                                                           E A Lei de Langer somente se aplica às feridas produzidas por
+       Determinado indivíduo relata que, enquanto permaneceu                       instrumentos cortantes.
+sob custódia estatal, foi submetido a ameaças de morte, privação                           Questão 39
+                                                                                                                        <PCMA_DELEGADO244001A08E2110>
+
+
+
+de sono, isolamento prolongado e simulação de execução. Ele                             Em determinado inquérito policial, o laudo necroscópico
+não apresenta lesões corporais relevantes no momento do exame                    descreve duas lesões provocadas pelo mesmo projétil. A primeira
+médico-legal, mas resta demonstrado que desenvolveu sintomas                     apresenta bordas invertidas, orla de escoriação e halo de enxugo.
+de ansiedade, hipervigilância, pesadelos e comportamento de                      A segunda apresenta formato irregular, bordas evertidas e maior
+evitação.                                                                        sangramento. Nesta última, entretanto, foi observada pequena
+                                                                                 área escoriada junto às margens, tendo sido verificado que, no
+Considerando essa situação hipotética, assinale a opção correta
+                                                                                 momento do disparo, a região corporal correspondente se
+conforme o Protocolo de Istambul.
+                                                                                 encontrava firmemente apoiada contra uma superfície rígida.
+A Sintomas psicológicos somente possuem valor pericial
+                                                                                 Em relação à interpretação médico-legal dos achados descritos
+    quando        acompanhados      de     alterações            neurológicas
+                                                                                 nessa situação hipotética, assinale a opção correta.
+    objetivamente demonstradas.
+B A     avaliação     psicológica    tem    relevância            própria   na   A A existência de um ferimento de entrada e outro de saída
+    documentação de tortura, devendo considerar a história, os                     demonstra que o trajeto interno do projétil obrigatoriamente
+                                                                                   corresponde a uma linha reta entre ambos os ferimentos.
+    sintomas, seu curso temporal e sua consistência com os
+                                                                                 B A segunda lesão pode representar ferimento de saída, sendo a
+    acontecimentos     alegados,    não    sendo           obrigatório      um
+                                                                                   escoriação explicada pela resistência oferecida pelo anteparo,
+    diagnóstico específico de transtorno mental.
+                                                                                   fenômeno relacionado ao sinal de Romanese.
+C A avaliação psicológica deve ser realizada exclusivamente
+                                                                                 C A primeira lesão resulta necessariamente de tiro a curta
+    após a conclusão da investigação criminal, para impedir
+                                                                                   distância, pois o halo de enxugo somente ocorre quando
+    contaminação do relato da vítima.                                              resíduos da pólvora alcançam a pele.
+D A inexistência de lesões físicas impede a caracterização                       D A presença de escoriação na segunda lesão demonstra
+    médico-legal de tortura, pois sofrimento exclusivamente                        obrigatoriamente que ela corresponde a um ferimento de
+    mental constitui tratamento degradante, mas não tortura.                       entrada.
+E O diagnóstico de transtorno de estresse pós-traumático                         E A segunda lesão não pode representar saída, pois ferimentos
+    constitui     condição    necessária   para        a      documentação         de saída são obrigatoriamente desprovidos de qualquer
+    psicológica de tortura.                                                        alteração escoriativa.
+                                                                                                  CEBRASPE – PC/MA – Edital: 2026
+                                       <PCMA_DELEGADO244001A08E2110>                                            <PCMA_DELEGADO244001A08E2110>
+          Questão 40                                                             Questão 42
+        Durante a investigação de uma morte ocorrida em um                    A investigação da morte de uma pessoa durante custódia
+restaurante, constatou-se que a vítima, um homem idoso, havia          policial foi conduzida pela própria unidade onde o evento ocorreu
+apresentado perda súbita da consciência enquanto se alimentava.        e à qual pertenciam os agentes envolvidos no fato. A apuração
+Inicialmente, aventou-se a hipótese de evento cardiovascular           começou quatro meses após o óbito, não tendo sido entrevistadas
+agudo. Na necropsia, entretanto, foi identificado fragmento            testemunhas independentes. O laudo pericial foi mantido
+                                                                       integralmente em sigilo, sem justificativa relacionada à proteção
+alimentar impactado na região da glote, que obstruía
+                                                                       de direitos ou à própria investigação.
+completamente a passagem do ar, sem evidências suficientes de
+infarto agudo do miocárdio.                                            Considerando a inadequação do procedimento descrito na
+                                                                       situação hipotética apresentada, assinale a opção correta à luz do
+Considerando essa situação hipotética e conhecimentos                  Protocolo de Minnesota.
+médico-legais acerca das asfixias mecânicas, assinale a opção
+correta.                                                               A O Protocolo de Minnesota proíbe qualquer participação de
+                                                                         instituições estatais na investigação de mortes que envolvam a
+A A obstrução das vias respiratórias por alimentos é indicativa          atuação de agentes públicos.
+  de suicídio, sendo excepcional sua ocorrência de forma               B Qualquer investigação de morte sob custódia estatal deve
+  acidental.                                                             obrigatoriamente ser realizada por uma comissão
+B O caso caracteriza sufocação indireta, pois a obstrução da             internacional das Nações Unidas.
+  glote impede secundariamente a expansão da caixa torácica.           C A ausência de testemunhas independentes é a única violação
+C A situação é compatível com sufocação direta por oclusão das           aos parâmetros internacionais observada na situação.
+                                                                       D A investigação de mortes potencialmente ilícitas deve
+  vias respiratórias, podendo corresponder ao fenômeno
+                                                                         observar requisitos como prontidão, efetividade e completude,
+  denominado coronária do café (coffee coronary).
+                                                                         independência, imparcialidade e transparência.
+D Trata-se de modalidade de sufocação direta por oclusão dos
+                                                                       E A investigação criminal deve necessariamente ocorrer antes
+  orifícios respiratórios externos, equivalente à obstrução              da realização da autópsia médico-legal.
+  simultânea da boca e das fossas nasais.                                                                       <PCMA_DELEGADO244001A08E2110>
+
+E A presença de corpo estranho na glote permite a classificação                  Questão 43
+  da morte como afogamento interno, uma vez que o material                     Durante investigação médico-legal, foi encontrado o
+  aspirado substitui o ar presente nas vias respiratórias.             cadáver de um concepto em circunstâncias suspeitas, sem
+                                       <PCMA_DELEGADO244001A08E2110>
+                                                                       documentação referente ao parto. A perícia deve estabelecer,
+          Questão 41                                                   entre outros aspectos, a idade gestacional aproximada, a
+       Durante investigação de homicídio, um cadáver em                viabilidade, a ocorrência de nascimento com vida e a existência
+avançado estado de decomposição foi encontrado em área de              de vida extrauterina. Durante a necropsia, foram realizadas
+vegetação, exposto ao ambiente. A equipe pericial realizou coleta      provas destinadas à investigação de respiração e examinados
+de larvas, pupas e insetos adultos presentes no corpo e nas suas       pulmões, trato gastrointestinal, cordão umbilical e demais
+                                                                       estruturas.
+proximidades. O delegado responsável pelo inquérito questionou
+o médico-legista acerca da possibilidade de utilização desses          A partir dessa situação hipotética, assinale a opção correta acerca
+elementos na determinação da cronologia da morte.                      do estudo médico-legal do aborto e do infanticídio.
+
+A partir dessa situação hipotética, assinale a opção correta de        A A diferenciação médico-legal entre aborto e morte ocorrida
+acordo com os fundamentos da entomologia médico-legal.                   após o nascimento depende exclusivamente da idade
+                                                                         gestacional, sendo prescindível a investigação de respiração,
+A Eventuais drogas e substâncias tóxicas existentes no cadáver           circulação ou outras manifestações de vida extrauterina.
+  não interferem no desenvolvimento dos insetos e,                     B A presença de ar nos pulmões constitui prova absoluta de
+  consequentemente, não apresentam relevância para a                     nascimento com vida, pois fenômenos putrefativos e
+  interpretação entomológica.                                            manobras de reanimação não são capazes de produzir
+B A estimativa baseada no desenvolvimento dos insetos                    resultados falso-positivos nas docimásias respiratórias.
+  independe da temperatura e da umidade, pois cada espécie             C A ausência de flutuação dos pulmões na docimásia
+  tem ciclo biológico cronologicamente fixo.                             hidrostática pulmonar demonstra, de maneira inequívoca, que
+                                                                         não houve vida extrauterina e, portanto, isoladamente permite
+C Segundo Mégnin, a primeira legião dos insetos que surgem no
+                                                                         concluir a ocorrência de aborto.
+  cadáver é composta dos dípteros das espécies Musca
+                                                                       D As docimásias são empregadas principalmente para
+  domestica, Muscina stabulans e Calliphora vomitoria.
+                                                                         determinar a idade gestacional e estabelecer se o concepto
+D O comportamento noturno dos insetos não tem relevância                 possuía viabilidade fetal, não sendo destinadas à investigação
+  médico-legal, uma vez que a oviposição das moscas ocorre               de vida extrauterina.
+  exclusivamente durante o período diurno.                             E A docimásia hidrostática pulmonar de Galeno fundamenta-se
+E A análise entomológica é útil para a determinação da                   nas alterações de densidade decorrentes da aeração pulmonar;
+  cronologia da morte somente em cadáveres inumados, pois a              entretanto, seu resultado deve ser interpretado em conjunto
+  exposição ao meio externo produz excessivas variáveis                  com os demais achados periciais, considerando-se possíveis
+  ambientais.                                                            interferências, como putrefação e insuflação artificial.
+                                                                                                  CEBRASPE – PC/MA – Edital: 2026
+                                        <PCMA_DELEGADO244001A08E2110>                                          <PCMA_DELEGADO244001A09E3740>
+          Questão 44                                                              Questão 48
+       Durante investigação de possível tentativa de homicídio          No Sistema Regional Interamericano de Proteção dos Direitos
+por envenenamento, apurou-se que a vítima havia ingerido                Humanos, é competência da Corte Interamericana de Direitos
+substância de pH extremamente elevado. A avaliação médico-
+legal revelou extensa lesão do trato gastrointestinal, com              Humanos
+destruição tecidual profunda.                                           A elaborar diagnósticos públicos detalhados sobre a situação
+Considerando essa situação hipotética, assinale a opção correta           dos direitos humanos em Estados específicos.
+em relação aos mecanismos de ação das substâncias cáusticas.            B enviar para julgamento os casos de descumprimento das
+A Os ácidos provocam tipicamente necrose de liquefação por                recomendações expedidas em um relatório de mérito.
+  saponificação das gorduras, razão pela qual apresentam,               C realizar visitas in loco nos Estados-membros, mediante
+  invariavelmente, maior profundidade de penetração que os
+  álcalis.                                                                anuência prévia, a fim de apurar potenciais violações de
+B O mecanismo de lesão produzido por ácidos e álcalis é                   direitos humanos.
+  idêntico, sendo a extensão do dano determinada                        D receber petições diretamente de entidades não governamentais
+  exclusivamente pelo volume ingerido.                                    legalmente reconhecidas em um ou mais Estados-membros.
+C Substâncias ácidas somente produzem lesões locais, enquanto
+                                                                        E emitir medidas provisórias em casos de extrema gravidade e
+  as alcalinas podem produzir manifestações sistêmicas.
+D Os álcalis provocam predominantemente necrose de                        urgência, quando se fizer necessário evitar danos irreparáveis
+  liquefação, associada à saponificação das gorduras e à                  às pessoas.
+  penetração tecidual, enquanto os ácidos estão classicamente                                                  <PCMA_DELEGADO244001A09E3740>
+  associados à necrose de coagulação.                                             Questão 49
+E Os álcalis provocam predominantemente necrose de                      A Convenção n.º 169 da Organização Internacional do Trabalho
+  coagulação, formando uma barreira proteica que impede
+  completamente a progressão da lesão para os planos                    estabelece que atos administrativos ou atividades governamentais
+  profundos.                                                            capazes de impactar territórios de povos e comunidades
+                                        <PCMA_DELEGADO244001A09E3740>   tradicionais dependerão, em regra, de
+          Questão 45
+De acordo com a concepção dos direitos humanos fundamentais,            A justa compensação aos povos e comunidades atingidos.
+os direitos de segunda dimensão/geração previstos na                    B autorização do Poder Judiciário.
+Constituição Federal de 1988 incluem                                    C realocação das populações impactadas.
+A o direito à integridade física e moral dos presos.                    D consulta prévia, livre e informada aos povos e comunidades
+B o direito ao meio ambiente ecologicamente equilibrado.                  afetados.
+C o direito ao trabalho digno e o direito de greve.
+D o direito à livre manifestação de pensamento.                         E manifestação prévia do Ministério Público.
+E o direito à presunção de inocência e ao devido processo legal.                  Questão 50
+                                                                                                               <PCMA_DELEGADO244001A09E3740>
+
+
+                                        <PCMA_DELEGADO244001A09E3740>
+          Questão 46                                                    Com base nas regras da ONU sobre o uso da força e de armas de
+Para fins de incorporação e validade no ordenamento jurídico            fogo, assinale a opção que apresenta circunstância em que se
+brasileiro, os tratados e as convenções internacionais de direitos      admite o disparo de arma de fogo contra pessoas.
+humanos dos quais o Brasil seja signatário
+A assumem automaticamente o status de emenda constitucional.            A prisão de pessoas que representem grave ameaça à vida e
+B dependem da aprovação de lei específica para terem validade             resistam à autoridade dos agentes da lei
+  jurídica no Brasil.                                                   B imposição da autoridade diante do cometimento de um crime
+C adquirem status supralegal no ordenamento jurídico pátrio             C incapacitação de sujeitos para prevenir a fuga diante de
+  quando ratificados e promulgados no Brasil, segundo o
+  entendimento do STF.                                                    crimes cometidos
+D devem ser ratificados mediante aprovação, em dois turnos, em          D defesa de terceiros contra ferimentos de qualquer natureza
+  cada casa do Congresso Nacional.                                      E prevenção da perpetração de crimes em flagrante envolvendo
+E equiparam-se às leis ordinárias no ordenamento pátrio,                  ameaça à vida e ao patrimônio
+  segundo o entendimento do STF.
+                                                                                                               <PCMA_DELEGADO244001A09E3740>
+
+          Questão 47
+                                        <PCMA_DELEGADO244001A09E3740>             Questão 51
+Considerando os direitos humanos previstos no Pacto de San José         Segundo as Regras Mínimas Padrão das Nações Unidas para o
+da Costa Rica, em especial no que se refere à integridade pessoal,      Tratamento de Prisioneiros (Regras de Mandela), em nenhuma
+assinale a opção correta.                                               hipótese as restrições ou sanções disciplinares devem implicar
+A Menores de idade não poderão ser processados em nenhuma               tortura ou outra forma de tratamento ou sanções cruéis,
+  hipótese.                                                             desumanas ou degradantes. Contudo, na aplicação de sanções
+B As penas privativas de liberdade devem ter como finalidade            disciplinares conforme as Regras de Mandela, admite-se, de
+  principal a correção social, sem prejuízo da reforma e
+  readaptação social dos condenados.                                    forma excepcional e limitada,
+C Todas as pessoas, indistintamente, terão direito à preservação
+                                                                        A utilização de instrumentos de imobilização.
+  de sua integridade física, psíquica e moral, sendo vedados
+  tratos degradantes.                                                   B encarceramento em cela escura.
+D É vedado o tratamento diferenciado entre processados e                C restrição do contato familiar.
+  condenados.                                                           D confinamento solitário prolongado.
+E Pessoas privadas de liberdade devem ser tratadas de forma             E redução da dieta do preso.
+  proporcional às suas ações.
+                                                                                                        CEBRASPE – PC/MA – Edital: 2026
+                                        <PCMA_DELEGADO244001A09E3740>                                                    <PCMA_DELEGADO244001A10E3036>
+          Questão 52                                                                Questão 54
+A compreensão jurídica do significado de tortura contra a pessoa                Em 1.º de março de 2026, durante situação excepcional de
+presa, segundo   instrumentos     normativos      internacionais,       calamidade     pública,       entrou       em    vigor       lei      penal       que,
+pressupõe como característica necessária à configuração de tal
+                                                                        expressamente, determinou sua vigência até 30 de junho de 2026,
+conduta
+                                                                        tendo criminalizado determinada conduta relacionada ao desvio
+A a sua prática por agente público, com ou sem finalidade,
+                                                                        de medicamentos destinados ao atendimento emergencial da
+  mediante infligência intencional de dor ou sofrimento.
+                                                                        população.
+B a sua prática por agente policial, com ou sem finalidade.
+C a sua prática por agente público ou privado, desde que resulte                Em 20 de junho de 2026, André, brasileiro, praticou a
+  em dano físico à pessoa presa.                                        referida conduta no território brasileiro. Em 10 de julho de 2026,
+D a infligência de dor ou sofrimento severo, físico ou mental, de       quando já cessada a vigência da lei, foi descoberto o fato e
+  forma intencional, por agente público ou com sua anuência,
+                                                                        instaurada investigação contra André.
+  com finalidade específica.
+E a infligência de dano físico à pessoa presa,                                  Também em 20 de junho de 2026, Bruno, brasileiro,
+  independentemente da finalidade.                                      praticou conduta idêntica a bordo de uma embarcação privada
+                           GRUPO III                                    brasileira que se encontrava em alto-mar. E Cristiano, brasileiro,
+      DIREITO PENAL, DIREITO PROCESSUAL PENAL,                          praticou, no mesmo dia, a mesma conduta em território
+       LEGISLAÇÃO PENAL E PROCESSUAL PENAL E
+                   CRIMINOLOGIA                                         estrangeiro, tendo retornado posteriormente ao Brasil. No país
+
+          Questão 53
+                                           <SEFAZRN160CG1A04E3740>      estrangeiro, a conduta não era considerada criminosa.
+       Durante a vigência de determinada lei penal, o legislador        Em relação a essa situação hipotética, assinale a opção correta.
+criou novo crime mais gravoso, tipificado como “subtrair, para si
+ou para outrem, coisa móvel pertencente a hospital público”.            A A lei temporária será aplicável a André e a Bruno, mas não a
+Após o início da vigência dessa lei, José ingressou                        Cristiano, pois o Código Penal adota a territorialidade
+clandestinamente em um hospital público e subtraiu um
+                                                                           absoluta, admitindo extraterritorialidade somente para crimes
+equipamento pertencente a uma empresa privada que prestava
+serviços no local. Encerradas as investigações, o Ministério               praticados contra a vida e a liberdade do presidente da
+Público denunciou José, sustentando que a nova norma penal                 República.
+deveria ser aplicada, pois a finalidade da lei era proteger o           B A lei penal temporária não poderá ser aplicada a André nem a
+patrimônio destinado à atividade hospitalar, independentemente             Bruno,     ainda     que     as     embarcações          brasileiras          sejam
+de quem fosse o proprietário e o destino do bem subtraído.
+                                                                           consideradas extensão territorial do Brasil, porque sua
+Considerando essa situação hipotética, assinale a opção correta.           vigência     havia     terminado         antes      da      instauração          de
+A A vigência da norma penal impede sua interpretação restritiva            investigação.
+  ou extensiva, uma vez que, enquanto vigente, a lei deve ser           C A lei penal temporária poderá ser aplicada a André, mas não a
+  aplicada exclusivamente de acordo com seu significado
+                                                                           Bruno, pois o princípio da territorialidade somente alcança
+  literal, sendo vedada qualquer técnica interpretativa que
+  ultrapasse a redação do dispositivo.                                     fatos praticados no território brasileiro, de modo que a lei
+B A analogia é inadmissível para fundamentar a                             penal brasileira não alcança os crimes em embarcação privada
+  responsabilização penal do agente, pois a extensão da norma              brasileira em alto-mar.
+  prejudicial ao acusado viola o princípio da legalidade.
+                                                                        D A conduta de André não poderá ser punida após o término da
+C A analogia é admissível no caso, pois a finalidade protetiva
+                                                                           lei temporária, em razão do princípio da retroatividade da lei
+  da norma permite ao intérprete ampliar seu alcance para
+  abranger situações materialmente semelhantes, ainda que isso             penal benéfica, enquanto Bruno e Cristiano não estarão
+  implique a incidência de consequência penal mais gravosa                 sujeitos à lei brasileira pelo simples fato de terem praticado a
+  não expressamente prevista para a conduta.                               conduta fora do território nacional.
+D A nova lei deve ser utilizada para incriminar José, por haver
+                                                                        E A lei penal temporária poderá ser aplicada a André em razão
+  identidade entre a sua conduta e o preceito normativo penal,
+  valendo-se o julgador de interpretação lógica, que despreza o            de sua ultratividade; a conduta de Bruno, praticada em
+  uso de analogia e das fontes indiretas do direito penal.                 embarcação brasileira situada em alto-mar, submete-se, em
+E A interpretação teleológica da norma permite ao julgador                 regra, à lei penal brasileira, pelo princípio da territorialidade;
+  incluir no conceito de “hospital público” todos os bens que
+                                                                           e a responsabilização de Cristiano não será possível, por falta
+  estejam no interior do estabelecimento, ainda que
+                                                                           de       enquadramento            nas        condições             legais       de
+  pertencentes a empresa privada, pois a finalidade da lei é a
+  proteção da continuidade do serviço de saúde.                            extraterritorialidade.
+                                                                                                       CEBRASPE – PC/MA – Edital: 2026
+                                         <PCMA_DELEGADO244001A10E3036>                                            <PCMA_DELEGADO244001A10E3036>
+           Questão 55                                                                 Questão 56
+        Durante uma discussão, Magno, com animus necandi,                       Durante a madrugada de certo dia, Antônio, policial
+efetuou um disparo de arma de fogo em direção a região vital de
+Leonardo, que estava atrás de uma porta. Magno, acreditando              militar, deslocou-se até uma residência após ter recebido
+tê-lo atingido como pretendia, arrependeu-se logo após o disparo         comunicação de que um indivíduo armado ameaçava os
+e, supondo que a vítima ainda estivesse viva, acionou o serviço
+de emergência, que prestou pronto auxílio. Leonardo foi                  moradores. Ao chegar ao local, observou Lucas sair rapidamente
+socorrido e levado ao hospital. Contudo, posteriormente, foi             da casa, segurando um objeto metálico. Convencido de que Lucas
+constatado que o projétil não atingira Leonardo, pois, antes de
+alcançá-lo, fora desviado pela maçaneta da porta, circunstância          empunhava uma arma de fogo e de que estava prestes a atirar
+que Magno desconhecia. O laudo pericial concluiu que, nas                contra um dos moradores, Antônio efetuou um disparo contra
+condições concretas, a arma era apta a matar e que estava
+municiada de um único projétil.                                          Lucas, tendo-lhe causado lesões corporais.
+A partir dessa situação hipotética, assinale a opção correta.                   Posteriormente, verificou-se que Lucas era, na realidade,
+A Magno não deverá responder por tentativa de homicídio, pois            um dos moradores da residência e que o objeto metálico que
+  será beneficiado pelo arrependimento eficaz, já que, ao
+  chamar socorro, impediu o resultado morte, sendo suficiente o          segurava era uma lanterna. As investigações demonstram que
+  arrependimento posterior ao disparo, bem como a ausência do            Cleomar, vizinho de Lucas, havia informado falsamente à polícia
+  resultado morte, para afastar a responsabilidade pela tentativa.
+B Magno não deverá responder por tentativa de homicídio, pois,           militar que Lucas estava armado e ameaçava os moradores,
+  embora ele tenha iniciado atos executórios com dolo de                 embora soubesse que isso não era verdade. Antônio havia
+  matar, o meio empregado mostrou-se absolutamente ineficaz
+  para produzir o resultado nas circunstâncias concretas,                acreditado     sinceramente    na   informação         e,     diante     das
+  configurando-se crime impossível.
+                                                                         circunstâncias concretas, efetuara o disparo.
+C Magno não deverá responder penalmente pelo fato, pois a
+  ausência de resultado naturalístico impede a existência de
+  crime doloso contra a vida, independentemente da idoneidade            Diante dessa situação hipotética, assinale a opção correta.
+  do meio empregado ou da intenção do agente, em razão da
+  adoção da teoria naturalística da ação.                                A Antônio encontra-se em situação de descriminante putativa
+D Magno deverá responder por tentativa de homicídio, pois
+                                                                            inevitável decorrente de erro sobre os pressupostos fáticos da
+  iniciou a execução do crime com dolo de matar e somente não
+  produziu o resultado por circunstância alheia à sua vontade,              legítima defesa, o que, nos termos do Código Penal, isenta-o
+  cabendo ser aplicada a teoria objetiva temperada, não tendo
+  havido, portanto, arrependimento eficaz.                                  de pena.
+E Magno deverá responder por homicídio consumado                         B Antônio deverá responder necessariamente por homicídio ou
+  equiparado, pois sua conduta dolosa foi dirigida à produção
+  da morte e o resultado somente não ocorreu em razão de                    lesão corporal dolosa, pois o erro sobre os pressupostos
+  circunstância excepcional relacionada à trajetória do projétil,           fáticos de uma causa de justificação não exclui o dolo no
+  devendo prevalecer a teoria subjetiva da tentativa.
+                                                                            direito penal brasileiro, produzindo efeitos apenas sobre a
+Espaço livre
+                                                                            culpabilidade.
+                                                                         C Antônio incorreu em erro sobre a pessoa, pois pretendia
+                                                                            atingir um indivíduo que acreditava ser agressor, mas acabou
+                                                                            atingindo pessoa diversa daquela efetivamente identificada no
+                                                                            local, devendo responder como se tivesse praticado o fato
+                                                                            contra a vítima que efetivamente pretendia atingir, de modo a
+                                                                            ser excluído o crime por legítima defesa putativa.
+                                                                         D Antônio incorreu em erro de proibição indireto, pois
+                                                                            equivocou-se quanto à existência dos pressupostos jurídicos
+                                                                            da legítima defesa, podendo o erro excluir sua culpabilidade,
+                                                                            por ter sido inevitável.
+                                                                         E Antônio encontra-se em situação de descriminante putativa
+                                                                            inevitável decorrente de erro sobre os pressupostos jurídicos
+                                                                            da legítima defesa, o que exclui o dolo, mas não a culpa, já
+                                                                            que o fato é previsto como crime culposo.
+                                                                                                    CEBRASPE – PC/MA – Edital: 2026
+                                         <PCMA_DELEGADO244001A10E3036>                                            <PCMA_DELEGADO244001A10E3036>
+          Questão 57                                                                 Questão 59
+       Durante uma operação policial, o superior hierárquico                    Ricardo e Tiago, maiores de idade e capazes, praticaram,
+José Tenório, sargento da polícia militar, determinou                    em comunhão de desígnios, conjunção carnal consentida com
+expressamente ao soldado Luiz Roque que inserisse informação
+falsa em termo circunstanciado de ocorrência, afirmando que a            Júlia, de 13 anos de idade. Durante a prática, Tiago gravou a cena
+ordem decorria de autoridade superior e que a recusa do soldado          em vídeo pelo celular. Passados alguns meses, já sob
+acarretaria imediata instauração de procedimento disciplinar
+                                                                         investigação, Tiago, com o propósito de humilhar Júlia,
+contra este. Luiz, embora ciente da falsidade, cumpriu a ordem.
+                                                                         compartilhou o vídeo em um grupo de aplicativo de mensagens.
+Em relação a essa situação hipotética, assinale a opção correta.
+                                                                         Tempos depois, um pesquisador universitário, ao elaborar artigo
+A Luiz não será imputável, pois a submissão a uma ordem
+                                                                         científico sobre exploração sexual infantil na Internet, reproduziu
+  hierárquica restringe sua capacidade de autodeterminação,
+  configurando causa de exclusão da imputabilidade prevista na           na publicação acadêmica fotogramas extraídos do mesmo vídeo,
+  legislação penal.                                                      tendo aplicado recurso de borradura apenas sobre o rosto de
+B Luiz não é culpável, pois a existência de relação hierárquica é
+  suficiente para caracterizar obediência hierárquica,                   Tiago, um dos agressores, sob o argumento de que a identificação
+  independentemente da legalidade ou ilegalidade da ordem                do autor do fato já seria suficiente para resguardar direitos de
+  recebida.                                                              terceiros, tendo mantido nítidos, contudo, o rosto e outros
+C Luiz não é culpável, pois a ameaça de instauração de
+  procedimento disciplinar constitui coação moral irresistível,          elementos identificadores de Júlia.
+  hipótese em que somente o emissor da ordem deverá
+                                                                         Considerando essa situação hipotética, assinale a opção correta.
+  responder pelo delito.
+D Luiz é culpável, pois não há exclusão da culpabilidade por
+                                                                         A O pesquisador universitário está amparado pela excludente de
+  obediência hierárquica quando se trata de ordem
+  manifestamente ilegal, nos termos do Código Penal.                        ilicitude, pois a lei exclui o crime devido à adoção do recurso
+E Luiz não é culpável, por erro de proibição inevitável, pois,              de borradura da cena, ainda que parcial.
+  diante das circunstâncias fáticas, não podia agir de outra
+                                                                         B Ricardo e Tiago, por terem sido os autores da conjunção
+  maneira, em razão da ordem emanada do superior
+  hierárquico.                                                              carnal, devem responder por estupro de vulnerável, e Tiago,
+
+          Questão 58
+                                         <PCMA_DELEGADO244001A10E3036>
+                                                                            apesar de ter gravado e publicado cena do crime, não deverá
+A respeito do concurso de pessoas de acordo com as teorias                  responder pelo crime de registro não autorizado da intimidade
+adotadas pelo Código Penal, assinale a opção correta.                       sexual, em razão da consunção do delito pelo estupro de
+A Pela teoria objetivo-formal, a autoria e a participação                   vulnerável.
+  distinguem-se pelo grau de contribuição causal para o
+                                                                         C Não houve estupro coletivo, segundo a lei penal vigente,
+  resultado, de modo que será autor aquele que prestar a
+  contribuição mais relevante e partícipe aquele cuja                       então Ricardo e Tiago devem responder por estupro de
+  contribuição seja secundária, independentemente de quem                   vulnerável. Tiago, por ter divulgado cena do estupro de
+  realize o núcleo do tipo penal.
+B As elementares de natureza objetiva e subjetiva do crime                  vulnerável, deve responder, ainda, pelo respectivo crime
+  comunicam-se a todos os agentes, pois a unidade do título de              previsto no Código Penal, com pena aumentada em razão do
+  imputação impede tratamento jurídico distinto entre os
+                                                                            fim de humilhação.
+  concorrentes.
+C Pela teoria objetivo-material, a participação no delito                D A presunção de vulnerabilidade de menor de 14 anos de idade
+  pressupõe a execução direta do núcleo do tipo penal, não                  é relativa e pode ser afastada por prova de experiência sexual
+  podendo ser considerado partícipe aquele que meramente
+                                                                            anterior   ou   do    consentimento    da       vítima,         conforme
+  induza, instigue ou auxilie materialmente o autor.
+D No concurso de pessoas, as elementares de caráter pessoal                 entendimento atualmente predominante acerca da legislação
+  não se comunicam, salvo quando constituem circunstâncias                  penal.
+  do crime, exigindo-se, contudo, que a participação
+                                                                         E Ricardo e Tiago devem responder por estupro coletivo de
+  pressuponha contribuição causal e vínculo subjetivo com a
+  prática criminosa.                                                        vulnerável, devendo Tiago responder, ainda, pelo crime
+E As circunstâncias e condições de caráter pessoal não se                   previsto no Código Penal para a divulgação da cena de
+  comunicam aos demais concorrentes, ainda que constituam
+                                                                            estupro de vulnerável, com pena aumentada devido ao fim de
+  elementares do tipo penal, pois o caráter pessoal da
+  circunstância prevalece sobre sua função na estrutura típica.             humilhação.
+                                                                                                   CEBRASPE – PC/MA – Edital: 2026
+                                        <PCMA_DELEGADO244001A10E3036>                                            <PCMA_DELEGADO244001A10E3036>
+            Questão 60                                                            Questão 61
+       Em 12 de agosto de 2026, Enzo, integrante de milícia             Acerca do crime de feminicídio, assinale a opção correta.
+privada armada, adquiriu, no contexto da atuação do grupo, um
+                                                                        A Segundo entendimento proferido pelo STJ no julgamento de
+lote de cabos de cobre utilizados na transmissão de energia
+                                                                          incidente de deslocamento de competência, admite-se a
+elétrica, subtraídos da rede de uma concessionária de serviço             caracterização do chamado feminicídio político quando a
+público. Enzo sabia integralmente da origem ilícita do material e         posição de destaque conquistada pela mulher no cenário
+pretendia revendê-lo em seu ferro-velho, regularmente registrado          político ou social é o motivo decisivo para a prática do delito
+como atividade comercial.                                                 contra sua vida.
+       Na mesma época, Bruno, sem qualquer vínculo com o                B Atualmente, o STJ entende o feminicídio como qualificadora
+grupo de Enzo, comprou de um desconhecido, em plena via                   do crime de homicídio de natureza subjetiva, o que autoriza o
+pública e por preço inferior ao de mercado, um smartphone de              reconhecimento do denominado feminicídio privilegiado
+última geração recém-lançado, sem questionar a procedência do             quando o agente pratica o crime sob domínio de violenta
+aparelho.                                                                 emoção, logo em seguida a injusta provocação da vítima.
+       Caio, em situação fática independente das duas anteriores,       C Comete feminicídio em concurso formal com vicaricídio o
+adquiriu um cavalo de raça, sabendo que o animal havia sido               marido que mata a esposa com o fim específico de causar
+subtraído de propriedade rural vizinha, com o propósito                   sofrimento em descendente, ascendente, dependente, enteado
+específico de revendê-lo posteriormente a terceiros.                      ou pessoa sob guarda ou responsabilidade direta da mulher,
+                                                                          no contexto de violência doméstica e familiar.
+Acerca das situações hipotéticas narradas, assinale a opção             D A Lei n.º 14.994/2024 incluiu expressamente, entre as causas
+correta.                                                                  de aumento de pena do feminicídio, as circunstâncias
+                                                                          relativas a motivo torpe, motivo fútil e conexão teleológica ou
+A Enzo deve responder por apropriação indébita qualificada,
+                                                                          consequencial.
+   com a pena aplicada em dobro, por se tratar de bens de
+                                                                        E O feminicídio praticado em descumprimento de medida
+   concessionária de serviço público e, simultaneamente, de
+                                                                          protetiva de urgência deferida configura concurso material de
+   cabos utilizados na transmissão de energia elétrica, acrescido         crimes entre o feminicídio majorado, previsto no Código
+   ainda o aumento de pena por ele ser integrante de milícia              Penal, e o delito autônomo previsto na Lei Maria da Penha.
+   privada armada.                                                                                               <PCMA_DELEGADO244001A10E3036>
+                                                                                  Questão 62
+B Bruno não cometeu o crime de receptação, uma vez que o
+   respectivo dispositivo do Código Penal exige prova                   Assinale a opção correta acerca do delito de furto.
+   inequívoca de que o receptador efetivamente saiba, e não             A De acordo com o STJ, é admissível, no furto qualificado, a
+   apenas presuma, a origem criminosa do bem, sendo                       aplicação da majorante do roubo pelo concurso de duas ou
+   necessário dolo direto para a configuração de qualquer                 mais pessoas, para o aumento de pena prevista para o crime
+   modalidade do tipo.                                                    de furto, em razão do princípio da proporcionalidade.
+C Caio não deve responder por crime de receptação qualificada,          B Conforme tese fixada pelo STJ no julgamento de tema de
+  pois um cavalo de raça não se enquadra no conceito de                   recursos repetitivos, a causa de aumento de pena relativa ao
+   semovente domesticável de produção nem no de animal                    repouso noturno, prevista no Código Penal, não incide sobre
+   doméstico para os fins do tipo penal, sendo sua conduta                as figuras qualificadas do furto.
+   subsumida à receptação simples.                                      C Para a configuração da qualificadora da destreza, é suficiente
+                                                                          que o agente possua especial habilidade manual reconhecida,
+D Enzo deve responder pelo crime de receptação simples, com a
+                                                                          sendo prescindível que essa habilidade seja efetivamente
+   pena aplicada em dobro, por se tratar de bens de
+                                                                          empregada no caso concreto para subtrair bens que a vítima
+   concessionária de serviço público e, simultaneamente, de
+                                                                          trazia consigo sem perceber a ação criminosa.
+   cabos utilizados na transmissão de energia elétrica, sem
+                                                                        D Conforme entendimento do STJ, o reconhecimento do
+   majorante da integração de milícia privada armada, por
+                                                                          privilégio previsto no § 2.º do art. 155 do Código Penal é
+   ausência de previsão legal ao tempo do fato.                           incompatível com o furto qualificado, ainda que presentes a
+E Enzo deve responder por receptação qualificada, com a pena              primariedade do agente, o pequeno valor da coisa e a natureza
+   aplicada em dobro, sem prejuízo da majorante relativa ao fato          objetiva da qualificadora.
+   de ser integrante de milícia privada e ter praticado o crime no      E A destruição ou o rompimento de obstáculo de coisa, quando
+   contexto de atuação do grupo; Bruno deve responder por                 praticado após a consumação do furto e sem qualquer relação
+   receptação culposa; Caio deve responder por receptação                 com o meio de execução empregado para a subtração,
+   qualificada, por ter adquirido animal que sabia ser produto de         configura a qualificadora prevista no Código Penal,
+   crime, com a finalidade específica de comercializá-lo.                 absorvendo o crime de dano.
+                                                                                                 CEBRASPE – PC/MA – Edital: 2026
+                                       <PCMA_DELEGADO244001A10E3036>                                          <PCMA_DELEGADO244001A11E3370>
+          Questão 63                                                             Questão 65
+A respeito do instituto da prescrição penal, assinale a opção                  Durante a tramitação de uma ação penal, entrou em vigor
+correta.                                                               uma lei que alterou exclusivamente regras procedimentais, sem
+A Nos termos do Código Penal, a regra da interrupção da                estabelecer disposições transitórias. Antes da vigência da nova
+  prescrição da pretensão punitiva decorrente do recebimento           legislação, determinados atos processuais haviam sido
+  da denúncia produz efeitos relativamente a todos os autores          regularmente praticados, enquanto outros ainda estavam
+  do crime, e, em se tratando de crimes conexos objeto do
+  mesmo processo, a interrupção relativa a um deles estende-se         pendentes de realização.
+  aos demais.                                                          Considerando essa situação hipotética e as disposições do Código
+B Segundo o STF, o termo inicial da prescrição da pretensão
+                                                                       de Processo Penal acerca da aplicação da lei processual penal no
+  executória é a data do trânsito em julgado da sentença
+  condenatória para a acusação, não havendo mitigação desse            tempo, assinale a opção correta.
+  critério em nome do princípio da legalidade.
+C De acordo com a Constituição Federal de 1988, são                    A A nova lei somente será aplicada ao processo em andamento
+  imprescritíveis os crimes de racismo e os de ação de grupos            caso suas disposições sejam mais favoráveis ao acusado.
+  armados, civis ou militares, contra a ordem constitucional e o       B A nova lei será aplicada apenas aos processos penais
+  Estado democrático, prevalecendo na doutrina o                         iniciados após sua entrada em vigor, preservando-se
+  entendimento de que a legislação ordinária está autorizada a
+                                                                         integralmente o procedimento anterior nas ações penais em
+  criar novas hipóteses de imprescritibilidade penal, por se
+  tratar de rol meramente exemplificativo.                               andamento.
+D Nos crimes contra a dignidade sexual ou que envolvam                 C A nova lei será aplicada imediatamente aos atos processuais
+  violência contra criança e adolescente, o termo inicial da             ainda pendentes de realização, preservada a validade daqueles
+  prescrição da pretensão punitiva é a data em que a vítima              regularmente praticados sob a vigência da legislação anterior.
+  completar 18 anos de idade, regra aplicável aos demais
+                                                                       D A aplicação da nova lei ao processo em andamento dependerá
+  vulneráveis mencionados no parágrafo único do art. 217-A do
+  Código Penal, tais como pessoas com enfermidade ou                     da concordância das partes, em observância aos princípios do
+  deficiência mental sem discernimento para o ato.                       contraditório e da ampla defesa.
+E Na hipótese de concurso formal próprio (ou perfeito) e no            E A nova lei terá aplicação retroativa, sendo necessária a
+  crime continuado, o cálculo da prescrição da pretensão
+                                                                         repetição dos atos processuais anteriormente praticados, ainda
+  punitiva deve considerar a pena final resultante da
+  exasperação decorrente do concurso formal ou da                        que tenham observado a legislação então vigente.
+  continuidade delitiva, e não a pena correspondente aos crimes                                               <PCMA_DELEGADO244001A11E3370>
+                                                                                 Questão 66
+  isoladamente.
+                                       <PCMA_DELEGADO244001A10E3036>
+                                                                       No que se refere ao indiciamento e à condução do inquérito
+          Questão 64
+                                                                       policial, assinale a opção correta de acordo com a
+Em relação aos crimes contra a liberdade pessoal previstos no          Lei n.º 12.830/2013.
+Código Penal, assinale a opção correta.
+A O crime de ameaça é de ação penal pública incondicionada             A A atribuição privativa do delegado de polícia para realizar o
+  em todas as suas modalidades, inclusive na figura simples do           indiciamento afasta a possibilidade de avocação do inquérito
+  caput do artigo do Código Penal que o tipifica, por ser delito         policial por superior hierárquico, ainda que exista motivo de
+  que atinge a paz de espírito e o sentimento de segurança da            interesse público devidamente fundamentado.
+  vítima, direitos de natureza indisponível.
+                                                                       B A redistribuição do inquérito policial por superior hierárquico
+B O crime de violência psicológica contra a mulher constitui-se
+  em crime habitual, exigindo a reiteração de condutas para sua          implica a transferência da competência para o indiciamento
+  consumação, razão pela qual um único ato, ainda que                    ao Ministério Público, quando este já houver requisitado
+  gravoso, é insuficiente para a configuração do delito.                 diligências complementares à autoridade policial.
+C No crime de constrangimento ilegal, a causa de aumento de
+                                                                       C O indiciamento deve decorrer de ato fundamentado do
+  pena exige a presença mínima de três agentes nos atos
+  executórios, sendo essa majorante inaplicável quando, entre            delegado de polícia, mediante análise técnico-jurídica do fato,
+  os envolvidos, houver inimputáveis ou pessoas não                      sendo admitida a avocação do inquérito policial por superior
+  identificadas.                                                         hierárquico mediante despacho fundamentado, por motivo de
+D No crime de perseguição (stalking), por se tratar de crime             interesse público.
+  habitual, a doutrina reconhece, em caráter excepcional, a
+                                                                       D O indiciamento poderá ser realizado pelo delegado de polícia
+  possibilidade de tentativa, a exemplo da hipótese em que o
+  agente encaminha reiteradamente mensagens eletrônicas                  sem fundamentação específica desde que o inquérito policial
+  invasivas à privacidade da vítima, mas estas permanecem no             contenha laudo pericial conclusivo acerca da materialidade da
+  lixo eletrônico sem que o ofendido delas tome conhecimento.            infração penal.
+E Nos termos do Código Penal, as penas cominadas ao crime de           E A redistribuição do inquérito policial por superior
+  perseguição são aplicadas cumulativamente com as
+  correspondentes à violência e à grave ameaça empregada pelo            hierárquico, fundada em motivo de interesse público,
+  agente, ainda que esses delitos sejam meios necessários                dispensa a fundamentação do respectivo ato quando a
+  àquele.                                                                investigação ainda não tiver resultado em indiciamento.
+                                                                                                    CEBRASPE – PC/MA – Edital: 2026
+                                        <PCMA_DELEGADO244001A11E3370>                                            <PCMA_DELEGADO244001A11E3370>
+          Questão 67                                                              Questão 69
+       Concluído o inquérito policial que apurou crime de ação                 Durante a investigação de um crime de roubo, a vítima,
+penal pública incondicionada, os autos foram encaminhados ao            que não conhecia anteriormente o autor, reconheceu o suspeito
+Ministério Público, estando o investigado em liberdade. Embora          após a exibição isolada de sua fotografia, sem a observância das
+presentes os elementos informativos necessários à formação da           formalidades previstas no Código de Processo Penal.
+opinio delicti, o órgão ministerial deixou de oferecer denúncia,
+                                                                        Posteriormente, foi realizado reconhecimento presencial,
+requerer diligências complementares ou promover o
+arquivamento da investigação no prazo legal.                            observadas as formalidades legais, ocasião em que a vítima
+                                                                        confirmou a identificação. No curso da investigação, também
+Considerando essa situação hipotética e as disposições do Código        foram obtidos outros elementos probatórios independentes, sem
+de Processo Penal, assinale a opção correta.
+                                                                        relação causal com o reconhecimento feito por meio da exibição
+A O ofendido somente poderá propor ação penal privada                   isolada da fotografia do suspeito.
+  subsidiária da pública após o esgotamento das medidas
+  administrativas de controle da atuação ministerial.                   A respeito dessa situação hipotética, assinale a opção correta.
+B O ofendido poderá propor ação penal privada subsidiária da            A A natureza inquisitiva da investigação permite aproveitar o
+  pública, hipótese em que o Ministério Público conservará a
+                                                                          reconhecimento fotográfico inicial, apesar da inobservância
+  possibilidade de aditar a queixa, oferecer denúncia
+  substitutiva e retomar a ação como parte principal, em caso de          das formalidades legais, porquanto sua confirmação ocorreu
+  negligência do querelante.                                              por reconhecimento presencial regular.
+C O ofendido poderá propor ação penal privada subsidiária da            B A confirmação da identificação no reconhecimento presencial
+  pública, hipótese em que o Ministério Público perderá a                 afastou os efeitos da irregularidade inicial, desde que o
+  titularidade da ação penal, ficando impedido de intervir no             segundo procedimento tenha sido documentado e submetido
+  processo.                                                               posteriormente ao contraditório judicial.
+D O oferecimento da queixa subsidiária dependerá de                     C O reconhecimento presencial posterior não convalidou o
+  autorização judicial prévia, mediante reconhecimento da
+                                                                          reconhecimento fotográfico irregular, mas a autoria delitiva
+  inércia ministerial.
+                                                                          poderá ser demonstrada por outros elementos probatórios
+E O transcurso do prazo legal sem oferecimento de denúncia
+  implica a transferência definitiva da titularidade da ação penal        independentes, sem relação causal com o ato viciado.
+  ao ofendido, ainda que o Ministério Público posteriormente            D O reconhecimento presencial realizado posteriormente
+  manifeste interesse em promover a persecução penal.                     convalidou o reconhecimento fotográfico inicial, uma vez que
+                                        <PCMA_DELEGADO244001A11E3370>     foram observadas as formalidades legais no segundo
+          Questão 68
+                                                                          procedimento.
+Acerca da conexão e da continência no processo penal, julgue os
+                                                                        E A irregularidade do reconhecimento fotográfico inicial
+itens a seguir.
+                                                                          comprometeu a validade de todos os elementos probatórios
+I   A conexão pode decorrer da prática de uma infração penal              obtidos na investigação, inclusive daqueles produzidos de
+    destinada a facilitar ou ocultar outra, ainda que os delitos          forma independente.
+    tenham sido praticados em momentos distintos.
+II No concurso de jurisdições da mesma categoria, sendo de
+                                                                                                                 <PCMA_DELEGADO244001A11E3370>
+                                                                                  Questão 70
+    igual gravidade as penas cominadas às infrações conexas,            No que se refere à transação penal no âmbito dos juizados
+    prevalecerá a competência do lugar em que houver ocorrido o
+                                                                        especiais criminais, assinale a opção correta.
+    maior número de infrações.
+III A conexão entre infrações submetidas à jurisdição comum e à         A A proposta de transação penal poderá ser submetida à
+    jurisdição militar determina a unidade de processo e                  apreciação judicial mediante aceitação exclusiva do autor do
+    julgamento, ressalvada a possibilidade de separação                   fato, ainda que seu defensor manifeste discordância.
+    facultativa prevista no Código de Processo Penal.
+                                                                        B A concessão de transação penal impede a obtenção do mesmo
+IV A separação dos processos conexos poderá ser determinada
+     pelo juiz quando as infrações tiverem sido praticadas em             benefício pelo prazo de cinco anos, contado da data do fato
+     circunstâncias de tempo ou de lugar diferentes, desde que            que deu origem à primeira proposta.
+     reputada conveniente a medida.                                     C A existência de condenação criminal definitiva à pena de
+V No concurso de jurisdições da mesma categoria, a prevenção              multa impede o oferecimento de proposta de transação penal,
+     prevalecerá sobre o critério da gravidade da pena cominada           independentemente da natureza da infração anteriormente
+     às infrações, desde que um dos juízos tenha praticado                praticada.
+     anteriormente ato relacionado à investigação.                      D A decisão judicial que acolhe a proposta de transação penal
+Estão certos apenas os itens                                              aceita pelo autor do fato é irrecorrível, por decorrer de
+                                                                          manifestação consensual das partes.
+A I, II e IV.
+B I, II e V.                                                            E A aplicação de pena restritiva de direitos ou multa em
+C I, III e IV.                                                            decorrência da transação penal não importará em
+D II, III e V.                                                            reincidência, sendo registrada apenas para impedir a
+E III, IV e V.                                                            concessão do mesmo benefício no prazo de cinco anos.
+                                                                                                   CEBRASPE – PC/MA – Edital: 2026
+                                        <PCMA_DELEGADO244001A11E3370>                                           <PCMA_DELEGADO244001A14E3635>
+          Questão 71                                                              Questão 73
+       Uma vítima de roubo acionou policiais militares logo após        Assinale a opção correta a respeito do processo penal
+o crime e lhes informou as características do autor e a direção de      constitucional, à luz do entendimento dos tribunais superiores.
+sua fuga. Imediatamente, a equipe iniciou diligências para
+                                                                        A É inadmissível o testemunho indireto, mesmo em contexto de
+localizá-lo. Ao avistá-lo, passou a persegui-lo. Durante a
+                                                                          intimidação da prova, facções criminosas e silenciamento
+perseguição, os policiais perderam o suspeito de vista, mas
+                                                                          imposto a vítimas ou testemunhas.
+prosseguiram as buscas sem interrupção, orientados por
+                                                                        B Viola o princípio constitucional do juiz natural a designação
+informações fidedignas sobre seu trajeto. O suspeito foi
+                                                                          de magistrados para atuar em ações criminais e execuções
+localizado e preso aproximadamente duas horas após o crime,
+                                                                          penais por meio do mutirão carcerário.
+sem que fossem encontrados com ele os bens subtraídos ou
+                                                                        C É vedada a pronúncia baseada apenas nos elementos
+instrumentos utilizados na infração.
+                                                                          informativos do inquérito policial, mesmo no caso de provas
+Considerando essa situação hipotética e as disposições do Código          cautelares, não repetíveis e antecipadas, pois isso viola o
+de Processo Penal, assinale a opção correta.                              princípio do devido processo legal.
+                                                                        D O testemunho indireto ou de ouvir dizer é prova ilícita e
+A A prisão configura flagrante impróprio, pois a perseguição foi
+                                                                          inadmissível no ordenamento jurídico brasileiro, por violar o
+  iniciada logo após a infração e prosseguiu sem interrupção,
+                                                                          princípio constitucional do devido processo legal.
+  não sendo descaracterizada pela perda momentânea do
+                                                                        E O testemunho indireto qualificado poderá assumir
+  contato visual com o suspeito.
+                                                                          importância probatória em contexto de criminalidade
+B A prisão não configura flagrante impróprio, pois a perda do
+                                                                          organizada, desde que submetido ao controle judicial estrito e
+  contato visual com o suspeito interrompe juridicamente a
+                                                                          preservados o contraditório e a ampla defesa.
+  perseguição, ainda que os policiais tenham continuado as
+  diligências.                                                                    Questão 74
+                                                                                                                <PCMA_DELEGADO244001A14E3635>
+
+
+
+C A caracterização do flagrante impróprio exige que a                   Acerca das nulidades no processo penal, assinale a opção correta.
+  perseguição seja iniciada por pessoa que tenha presenciado a
+  infração penal, não sendo suficiente seu início com base nas          A O inquérito policial é indispensável ao processo penal, por
+  informações prestadas pela vítima após a consumação do                  isso eventual vício nele contaminará toda a ação penal.
+  crime.                                                                B A nulidade decorrente da inobservância da competência penal
+D A prisão configura flagrante próprio, pois a perseguição                por prevenção é absoluta.
+  policial teve início imediatamente após a prática do crime,           C A ausência de intimação pessoal da Defensoria Pública ou de
+  embora a captura tenha ocorrido posteriormente.                         defensor dativo sobre os atos do processo pode configurar
+E A prisão configura flagrante presumido, uma vez que o                   nulidade.
+  suspeito foi localizado logo depois do crime, sendo                   D No processo penal, a falta de defesa bem como a sua
+  dispensável a apreensão de objetos relacionados à infração              deficiência constituem causas de nulidade absoluta.
+  quando houver informações fidedignas sobre sua autoria.               E É válida a confissão de crime por pessoa convocada como
+                                        <PCMA_DELEGADO244001A14E3635>
+                                                                          testemunha, mesmo que a autoridade não tenha advertido
+          Questão 72                                                      previamente sobre o direito ao silêncio e à não
+Acerca da coisa julgada, do habeas corpus e do processo criminal          autoincriminação.
+de crimes comuns, assinale a opção correta.                                                                     <PCMA_DELEGADO244001A14E3635>
+                                                                                  Questão 75
+A O reconhecimento fotográfico realizado na fase do inquérito
+                                                                        Assinale a opção correta em relação aos recursos em geral.
+  policial, para fixar a autoria delitiva, deve observar as
+  formalidades do Código de Processo Penal e ser corroborado            A Mesmo se demonstrada a ausência de má-fé e de erro
+  por outras provas colhidas na fase judicial.                            grosseiro, estando presente a tempestividade do recurso, não
+B Conforme entendimento do STJ, não é possível o                          será aplicado o princípio da fungibilidade à apelação
+  conhecimento de habeas corpus contra condenação transitada              interposta quando cabível o recurso em sentido estrito.
+  em julgado, mesmo nos casos em que não tenha sido ajuizada            B O julgamento da apelação por órgão fracionário de tribunal
+  a revisão criminal e não tenha havido flagrante ilegalidade             composto majoritariamente por juízes convocados não viola o
+  demonstrada de pronto nem necessidade de dilação                        princípio constitucional do juiz natural.
+  fático/probatória.                                                    C A nulidade no julgamento da apelação ou do recurso em
+C Aos núcleos de prática jurídica das faculdades de direito não é         sentido estrito persistirá mesmo quando o voto do
+  aplicado o prazo em dobro para manifestação no processo                 desembargador impedido não interferir no resultado.
+  penal.                                                                D A renúncia ao direito de apelação, manifestada pelo réu sem a
+D Em processos por crimes sexuais, as provas obtidas com                  assistência do defensor, impede o conhecimento da apelação
+  violação aos direitos fundamentais das vítimas são legítimas            por este interposta.
+  desde que necessárias à defesa do acusado.                            E Não é causa de nulidade do julgamento da apelação a
+E Os advogados de núcleos das faculdades de direito não têm a             ausência de intimação prévia do réu para constituir outro
+  mesma prerrogativa de intimação pessoal dos atos processuais            defensor, no caso de manifestação nos autos da renúncia do
+  conferida à Defensoria Pública.                                         único defensor.
+                                                                                                  CEBRASPE – PC/MA – Edital: 2026
+                                        <PCMA_DELEGADO244001A14E3635>                                          <PCMA_DELEGADO244001A12E4473>
+          Questão 76                                                              Questão 79
+Com base no entendimento do STJ acerca dos institutos de                       Um morador da cidade de Caxias – MA mantém,
+direito processual penal e investigação criminal, assinale a opção      exclusivamente no interior de sua residência, uma arma de fogo
+correta.                                                                do tipo revólver, calibre .38, sem o devido registro. O artefato
+A É lícito o acesso direto da autoridade policial a conversa em         está desmuniciado e guardado no interior de um armário.
+  aplicativos de mensagens em aparelho celular apreendido por
+  ocasião de prisão em flagrante, independentemente de prévia           De acordo com o Estatuto do Desarmamento, a conduta descrita
+  autorização judicial ou do detentor do bem.                           na situação hipotética precedente configura
+B Admite-se a instauração de inquérito judicial pelo
+  corregedor-geral de justiça para a apuração de ilícitos               A conduta atípica, na medida em que o referido armamento
+  criminais, pois não viola o princípio acusatório.                       encontra-se guardado e desmuniciado, sem oferecer
+C A atribuição para a persecução penal é exclusiva do                     potencialidade lesiva.
+  Ministério Público e da autoridade policial, sendo vedada a           B porte ilegal de arma de fogo de uso permitido.
+  iniciativa do juiz na fase de investigação.                           C posse ou porte ilegal de arma de fogo de uso restrito, em
+D É vedada a utilização de ações encobertas ou agentes                    razão da ocultação.
+  infiltrados na investigação de crimes praticados pela via
+                                                                        D comércio ilegal de arma de fogo, por ausência de registro de
+  digital.
+E A realização de ronda virtual para localização de material              origem.
+  relacionado a pornografia infantil prescinde de autorização           E posse irregular de arma de fogo de uso permitido.
+  judicial, porquanto se confunde com o instituto da infiltração                                               <PCMA_DELEGADO244001A12E4473>
+
+  de agentes.                                                                     Questão 80
+                                        <PCMA_DELEGADO244001A12E4473>           Durante operação policial na região de Imperatriz – MA,
+          Questão 77
+                                                                        um indivíduo foi preso em flagrante e indiciado pelo porte de
+        No curso de investigação conduzida pela PC/MA sobre um          500 g de cocaína. O investigado é primário, possui bons
+crime de extorsão mediante sequestro (art. 159 do Código Penal), o
+                                                                        antecedentes, não integra organização criminosa e não se dedica
+delegado de polícia vislumbra a necessidade de custódia cautelar
+para assegurar a colheita de provas em São Luís – MA.                   a atividades criminosas.
+
+Nessa situação hipotética, de acordo com as legislações que             Diante desse caso hipotético, a autoridade policial deve
+dispõem sobre crimes hediondos e prisão temporária (Leis                considerar a aplicação da causa de diminuição de pena conhecida
+n.º 8.072/1990 e n.º 7.960/1989), a prisão temporária, se               como tráfico privilegiado, para fins de
+decretada, deverá obedecer ao prazo de
+                                                                        A substituição da prisão em flagrante por advertência sobre os
+A sessenta dias, em conformidade com o Marco Legal do
+                                                                          efeitos das drogas.
+  Combate ao Crime Organizado.
+B quinze dias, improrrogável, por se tratar de crime hediondo.          B afastamento do caráter hediondo do crime, conforme
+C trinta dias, prorrogável por igual período em caso de extrema           entendimento jurisprudencial consolidado.
+  e comprovada necessidade.                                             C redução da pena de 1/6 a 2/3, mantendo-se a natureza
+D cinco dias, prorrogável por igual período em caso de extrema            hedionda da infração em qualquer caso.
+  e comprovada necessidade.                                             D concessão de liberdade provisória com fiança em sede
+E dez dias, podendo ser convertida automaticamente em
+                                                                          policial.
+  preventiva após o indiciamento.
+                                        <PCMA_DELEGADO244001A12E4473>
+                                                                        E desclassificação imediata para o crime de posse de drogas
+          Questão 78                                                      para consumo pessoal.
+Com base no disposto na Lei n.º 7.716/1989 e em suas alterações,                                               <PCMA_DELEGADO244001A12E4473>
+                                                                                  Questão 81
+assinale a opção correta em relação à classificação e à disciplina
+jurídica aplicável aos crimes resultantes de preconceito de raça               No cumprimento de mandado de busca e apreensão
+ou de cor.                                                              domiciliar em Colinas – MA, uma equipe policial, sob
+A A conduta de obstar a promoção funcional em razão de                  determinação do delegado de polícia, ingressou no imóvel às
+  discriminação ou preconceito de raça ou cor configura delito          21 h 30 min, contra a vontade do morador, justificando a
+  de racismo, estando seu agente sujeito à pena de reclusão de          urgência na apreensão de dispositivos informáticos.
+  um a três anos.
+B A conduta de injuriar alguém, ofendendo-lhe a dignidade ou o          À luz da Lei de Abuso de Autoridade, a conduta da equipe
+  decoro, em razão de discriminação por procedência nacional            policial na situação hipotética apresentada deve ser considerada
+  configura crime cuja pena é aumentada em um terço quando
+  praticado por duas ou mais pessoas.                                   A crime, pois é vedado o cumprimento de mandado de busca e
+C O crime de injúria racial é considerado infração penal                  apreensão domiciliar no intervalo entre as 21 h de um dia e as
+  inafiançável e imprescritível.                                          5 h do dia seguinte.
+D A injúria racial, quando praticada na modalidade denominada           B lícita, pois o mandado judicial pode ser cumprido a qualquer
+  racismo recreativo, configura crime de injúria previsto no              hora do dia ou da noite.
+  Código Penal, cujo processamento é da competência do                  C crime apenas se não tiver havido apreensão de objetos ilícitos
+  juizado especial criminal.
+E A conduta de induzir ou incitar a discriminação ou o                    no local.
+  preconceito de cor, quando praticada em contexto de                   D lícita, desde que os policiais estivessem acompanhados de
+  atividades esportivas, é crime punível com pena de reclusão,            duas testemunhas presenciais.
+  sendo admitido, no entanto, arbitramento de fiança pela               E atípica, por não caracterizar crime de perigo abstrato que
+  autoridade em sede policial.                                            exige dolo específico de vingança.
+                                                                                                  CEBRASPE – PC/MA – Edital: 2026
+                                       <PCMA_DELEGADO244001A12E4473>                                            <PCMA_DELEGADO244001A12E4473>
+          Questão 82                                                             Questão 85
+Segundo o disposto no Estatuto da Criança e do Adolescente, o          Suponha que um agente público tenha sido condenado por ter
+proprietário de estabelecimento comercial que vender bebidas           submetido a sofrimento físico pessoa presa em estabelecimento
+alcoólicas a adolescente de dezesseis anos de idade cometerá           prisional, como forma de aplicar-lhe castigo pessoal. Nesse caso,
+                                                                       conforme a Lei n.º 9.455/1997, que dispõe sobre os crimes de
+A contravenção penal de servir bebidas a menor de idade,               tortura, o efeito automático da condenação por tal crime é
+  conforme o Decreto-lei n.º 3.688/1941.
+                                                                       A a demissão a bem do serviço público, sem possibilidade de
+B crime cuja pena prevista é detenção e multa.                           recurso na esfera administrativa.
+C crime de corrupção de menores, absorvido pela Lei                    B a suspensão dos direitos políticos pelo prazo de dez anos,
+  Antidrogas (Lei n.º 11.343/2006).                                      independentemente da pena privativa de liberdade.
+D infração administrativa sujeita a multa, a ser aplicada pelo         C a perda do cargo, da função ou do emprego público e a
+  juizado da infância.                                                   interdição para seu exercício pelo dobro do prazo da pena
+E crime, cuja pena será aumentada em 2/3 caso o adolescente              aplicada.
+  consuma ou utilize o produto.                                        D a interdição para o exercício do cargo pelo prazo de
+                                       <PCMA_DELEGADO244001A12E4473>
+                                                                         cinco anos após o cumprimento da pena.
+          Questão 83                                                   E a obrigação de indenizar a vítima em valor correspondente a
+       No curso de investigação sobre violência doméstica em             cem salários mínimos.
+localidade que não é sede de comarca no interior do Maranhão, o                  Questão 86
+                                                                                                                <PCMA_DELEGADO244001A12E4473>
+
+
+
+delegado da PC/MA verificou a existência de risco atual ou
+                                                                               Ciente de que determinada organização criminosa utiliza o
+iminente à vida ou à integridade física da mulher, por                 território maranhense para o escoamento de drogas sintéticas, um
+comportamento do investigado, ex-companheiro da ofendida e             delegado da PC/MA decidiu pela utilização da técnica de entrega
+pai de seus dois filhos menores de idade.                              vigiada, com base nas prerrogativas previstas no Marco Legal do
+                                                                       Combate ao Crime Organizado (Lei n.º 15.358/2026) e na Lei
+Nos termos da Lei Maria da Penha, a medida administrativa
+                                                                       Antidrogas.
+adequada a ser adotada pela autoridade policial nessa situação
+hipotética é                                                           Nessa situação hipotética, a técnica de entrega vigiada
+
+A encaminhar os autos do inquérito policial ao Ministério              A pode ser realizada mediante comunicação prévia ao juiz
+                                                                         competente, que poderá fixar limites à ação policial,
+  Público, para que este determine o afastamento do agressor do
+                                                                         mantendo-se o sigilo.
+  lar.
+                                                                       B dispensa comunicação ao Ministério Público, por ser ato
+B acionar a justiça, para que determine o afastamento do                 administrativo discricionário do delegado, vinculado à sua
+  agressor do lar, devendo aguardar 48 horas pela decisão                atividade de investigação criminal.
+  judicial para cumprir a medida.                                      C aplica-se apenas se o investigado for agente público em
+C determinar o afastamento imediato do agressor do domicílio             exercício de função de confiança.
+  ou local de convivência com a ofendida.                              D exige autorização judicial prévia e específica, sob pena de
+D efetuar a prisão do agressor, podendo-lhe conceder liberdade           nulidade absoluta das provas.
+  provisória mediante compromisso de seu comparecimento                E é permitida, desde que se trate de crime de tráfico de drogas
+  mensal perante a autoridade policial.                                  com vinculação concomitante com as hipóteses de concurso
+                                                                         de crimes com delitos contra a ordem tributária.
+E instaurar incidente de alienação parental para decidir sobre a
+                                                                                                                <PCMA_DELEGADO244001A12E4473>
+  guarda dos filhos menores de idade.                                            Questão 87
+
+          Questão 84
+                                       <PCMA_DELEGADO244001A12E4473>   Considerando a hipótese de que um condenado por crime
+                                                                       hediondo com resultado morte, reincidente genérico, cumpre
+      No âmbito de investigação de lavagem de capitais, o              pena em estabelecimento prisional no Maranhão, assinale a opção
+delegado de polícia civil representou pela alienação antecipada        correta acerca da progressão de regime nessa hipótese, com base
+de veículos de luxo apreendidos, para evitar a depreciação             nas alterações introduzidas na legislação pelo Pacote Anticrime e
+econômica.                                                             na jurisprudência firmada pelo STJ.
+Considerando-se essa situação hipotética e o disposto na               A O condenado faz jus ao benefício no percentual de 70%, caso
+Lei n.º 9.613/1998, é correto afirmar que a alienação antecipada         o crime haja tido repercussão interestadual, nos termos da
+de bens para preservação de valor deve ser determinada                   Lei n.º 10.446/2002.
+                                                                       B O condenado faz jus ao benefício no percentual de 40%, por
+A quando houver indícios de que os bens pertencem a terceiros            analogia in bonam partem ao reincidente em crime comum.
+  de boa-fé.                                                           C A natureza do crime com resultado morte implica vedação
+B pelo juiz, de ofício, a requerimento do Ministério Público ou          absoluta à progressão de regime.
+  mediante representação da autoridade policial.                       D O condenado faz jus ao benefício no percentual de 60%, por
+                                                                         ser reincidente, independentemente da natureza do crime
+C pelo delegado de polícia, mediante despacho fundamentado
+                                                                         anterior.
+  no inquérito policial.
+                                                                       E O condenado faz jus ao benefício no percentual de 50%, visto
+D somente se os bens forem de origem estrangeira ou                      que a reincidência exigida para o patamar de 60% deve ser
+  vinculados ao tráfico de entorpecentes.                                específica em crime hediondo ou equiparado com resultado
+E após o trânsito em julgado da sentença condenatória.                   morte.
+                                                                                                    CEBRASPE – PC/MA – Edital: 2026
+                                         <PCMA_DELEGADO244001A12E4473>                                           <PCMA_DELEGADO244001A13E3623>
+          Questão 88                                                               Questão 90
+       Em operação de combate à corrupção, um delegado da                Em relação aos modelos de reação ao crime no âmbito da
+PC/MA indiciou um ex-prefeito, que, após ter recebido propina            criminologia, assinale a opção correta.
+em espécie, utilizara interpostas pessoas para adquirir imóveis,         A No modelo dissuasório clássico, o problema criminal é de
+ocultando a real propriedade.                                              natureza social, enquanto, no modelo ressocializador, o
+                                                                           acontecimento delitivo é a expressão de um enfrentamento
+A partir dessa situação hipotética, assinale a opção correta acerca        formal e simbólico entre o Estado e o infrator.
+da lavagem de dinheiro e da autolavagem (self-laundering), de            B O modelo dissuasório clássico confere relevância à pretensão
+acordo com a jurisprudência dos tribunais superiores.                      punitiva do Estado e ao justo e necessário castigo do
+                                                                           delinquente como forma de prevenção eficaz da
+A Para a configuração da autolavagem, exige-se a demonstração              criminalidade.
+                                                                         C O modelo ressocializador, de base idealista que se afasta do
+  de atos autônomos de ocultação ou dissimulação que não se
+                                                                           real, do histórico e do empírico, coloca no centro do debate
+  confundam com o mero usufruto do proveito do crime.                      criminológico o sistema dos fins ideais da pena, considerando
+B A autolavagem é conduta atípica no Brasil, pois o                        o castigo uma inutilidade, uma vez que não reconhece a
+  exaurimento do crime antecedente absorve a conduta                       possibilidade de reinserção social do infrator.
+  posterior.                                                             D O modelo ressocializador, ao colocar o sistema no centro da
+                                                                           reflexão científica, interessou-se pelo delinquente abstrato e
+C A pena pelo crime de lavagem de dinheiro deve ser                        se afastou do estudo do impacto real do castigo no condenado
+  obrigatoriamente reduzida da metade se o autor for o mesmo               concreto.
+  da infração antecedente.                                               E O modelo dissuasório clássico procura dar uma resposta ao
+D O crime de lavagem de dinheiro é acessório e exige a                     delito, tendo como prioridade a reparação do dano causado à
+                                                                           vítima e a ressocialização do infrator em detrimento da
+  condenação definitiva pela infração antecedente.                         prevenção eficaz da criminalidade.
+E A conduta descrita na situação configura lavagem de dinheiro                                                   <PCMA_DELEGADO244001A13E3623>
+                                                                                   Questão 91
+  apenas se tiver havido a participação de terceira pessoa que
+  desconhecesse a origem ilícita dos valores.                            O método empregado pela criminologia moderna que permitiu o
+                                                                         reconhecimento de sua autonomia, sua consolidação e seu status
+          Questão 89
+                                         <PCMA_DELEGADO244001A13E3623>
+                                                                         de ciência é o
+Em relação ao controle social do delito como objeto da                   A método lógico-dedutivo, o que permitiu a superação da
+criminologia, assinale a opção correta.                                    opinião tradicional na análise das questões criminológicas.
+                                                                         B método dedutivo, o qual ajudou o criminólogo a verificar ou
+A O controle social deve ser compreendido como o conjunto de               refutar suas hipóteses por meio de um elevado grau de
+  estratégias e doutrinas que buscam a emancipação do                      intuição e do emprego do silogismo.
+                                                                         C método empírico, baseado na análise, na observação e na
+  indivíduo frente ao sistema penal, garantindo, por meio da               indução, por influência do positivismo.
+  atuação dos agentes formais e informais, a libertação da               D método abstrato, formal e dedutivo, de base científica, por
+  pessoa humana de condicionamentos e disciplinas sociais e                meio do qual se superou a concepção dos estudiosos
+  normativas que submetem o ser humano a modelos ou                        criminológicos clássicos.
+                                                                         E método formal e dedutivo, que aproximou a criminologia do
+  padrões de condutas comunitárias.
+                                                                           direito, qualificando-a como ciência do “dever ser”.
+B O direito penal simboliza, entre todos os subsistemas                                                          <PCMA_DELEGADO244001A13E3623>
+
+  normativos do controle social, o mais formalizado,                               Questão 92
+  racionalmente estruturado, com superior divisão do trabalho e                 No curso de um processo criminal sobre crime de estupro,
+                                                                         o advogado do réu, em sua fala, responsabilizou a vítima pela
+  especialidade funcional.
+                                                                         ocorrência do delito, argumentando que a conduta dela teria
+C A criminologia positivista, ao atribuir destaque à pessoa do           provocado e contribuído para o crime. A vítima sentiu-se muito
+  delinquente, buscou criticar o concreto funcionamento do               humilhada por tal sustentação do defensor do réu.
+  sistema, questionando as definições legais e seu quadro                Nessa situação hipotética, a conduta do advogado do réu resultou
+  normativo correspondente, conferindo grande importância e              em
+  atenção aos problemas do controle social como objeto dos               A concurso de vitimização primária e terciária, pois os danos
+  estudos criminológicos.                                                  provocados à vítima pelo crime foram relembrados
+D Os agentes formais do controle social buscam a disciplina do             intencionalmente pela estratégia de defesa do advogado do
+  indivíduo, visando condicioná-lo por meio de um processo de              réu.
+                                                                         B vitimização primária, haja vista os efeitos que causou
+  socialização que interioriza na pessoa humana as pautas de
+                                                                           diretamente à pessoa da vítima.
+  conduta transmitidas e apreendidas em núcleos que incluem a            C vitimização terciária, haja vista os custos penais e sociais que
+  família, a escola, a profissão e o trabalho.                             a ocorrência do delito provocou na vítima.
+E A polícia, a justiça e a opinião pública constituem agentes            D concurso de vitimização primária e secundária, pois a dor e a
+  formais do controle social que atuam quando as instâncias                humilhação sofridas pela vítima geraram novos e graves
+                                                                           transtornos psíquicos sobre a própria vida dela.
+  informais de controle social fracassam em alcançar a                   E vitimização secundária, haja vista o incremento do
+  conformidade ou a adaptação do indivíduo às normas                       padecimento gerado à vítima pela intervenção do sistema
+  comunitárias.                                                            legal.
+                                                                                                     CEBRASPE – PC/MA – Edital: 2026
+                                         <PCMA_DELEGADO244001A13E3623>                                              <PCMA_DELEGADO244001A13E3623>
+          Questão 93                                                               Questão 96
+A prevenção do delito, no Estado democrático de direito,                 Conforme os modelos teóricos da criminologia, a prevenção
+interessa a todos os poderes públicos, ao sistema legal e à              primária do delito
+sociedade geral. Nesse contexto, a prevenção secundária
+                                                                         A estabelece programas de prevenção policial, de controle dos
+A surge quando e onde o conflito delitivo se manifesta ou se               meios de comunicação e de ordenação do espaço urbano,
+  exterioriza, sendo orientada, de forma seletiva, a
+                                                                           procurando desenvolver essas ações em bairros de classes
+  determinados setores da sociedade, a grupos ou subgrupos
+                                                                           sociais menos favorecidas.
+  que apresentam maior risco ao surgimento do problema
+  criminal.                                                              B busca compreender os efeitos nocivos derivados do delito ou
+B opera a médio e longo prazo, dirigindo-se a todos os cidadãos            do fato traumático sobre a vítima, contribuindo, assim, para a
+  e atuando, entre outros âmbitos, em educação, socialização,              reinserção da pessoa ofendida como protagonista do conflito
+  trabalho, bem-estar social e qualidade de vida.                          penal.
+C busca evitar a reincidência, apresentando-se como uma                  C cria os pressupostos necessários e orientados para combater as
+  intervenção tardia — porque aparece somente depois do                    causas do delito, a origem do conflito criminal, procurando
+  cometimento do crime — e, portanto, de caráter                           neutralizar o problema antes de sua manifestação.
+  acentuadamente punitivo.
+                                                                         D atua junto à política legislativa e próxima à ação policial,
+D ocorre antes que o crime se manifeste, criando as condições
+                                                                           buscando combater o crime no lugar onde o delinquente
+  necessárias para uma socialização proveitosa de acordo com
+  os objetivos da sociedade, contribuindo para a formação de               executa a ação delituosa.
+  cidadãos com capacidade de superar eventuais conflitos.                E atua por meio de um conjunto de ações e programas que
+E ocorre depois da prática do crime, tendo como destinatário o             objetivam a recuperação social do delinquente, visando à
+  condenado ou recluso, buscando especificamente evitar a                  diminuição dos índices de reincidência.
+  reincidência.                                                                                                     <PCMA_DELEGADO244001A13E3623>
+                                                                                   Questão 97
+                                         <PCMA_DELEGADO244001A13E3623>
+          Questão 94                                                     Considerando os três pilares do sistema das ciências criminais,
+No âmbito das teorias sociológicas, a ideia de que a cidade              julgue os itens a seguir.
+produz delinquência, ou seja, de que há um evidente paralelismo
+entre o processo de criação ou desenvolvimento de novos centros          I   A criminologia deve reunir um conjunto de conhecimentos
+urbanos e a sua criminalidade, é objeto de estudo da                         que tenham sido submetidos a rigorosa verificação empírica
+                                                                             sobre o problema criminal.
+A teoria do processo social.
+                                                                         II A política criminal utiliza o conjunto de conhecimentos
+B teoria ecológica.
+C teoria do conflito social.                                                 empíricos reunidos pela criminologia para transformá-lo em
+D teoria do conflito cultural.                                               opções, alternativas e programas científicos que fundamentem
+E teoria da anomia.                                                          as decisões dos poderes públicos no controle da
+                                         <PCMA_DELEGADO244001A13E3623>       criminalidade.
+          Questão 95
+                                                                         III O direito penal procura concretizar a oferta da política
+A respeito das funções da criminologia e da política criminal,
+                                                                             criminal em instrumental normativo, por intermédio de
+assinale a opção correta.
+                                                                             proposições jurídicas de caráter geral e obrigatório.
+A A criminologia, na resposta científico-social ao problema do
+  crime, apresenta estratégias e alternativas que orientam a             Assinale a opção correta.
+  política criminal em proposições normativas gerais e                   A Apenas o item I está certo.
+  obrigatórias.
+                                                                         B Apenas o item II está certo.
+B A função da criminologia é reunir um conjunto de
+                                                                         C Apenas os itens I e III estão certos.
+  conhecimentos verificados empiricamente a respeito do
+  fenômeno criminal, ao passo que a função da política criminal          D Apenas os itens II e III estão certos.
+  é transformar esse conhecimento empírico em decisão                    E Todos os itens estão certos.
+  normativa ou proposição jurídica de caráter geral.                               Questão 98
+C A função da criminologia é intermediar a relação entre a
+  política criminal e o direito penal, ao passo que a função da          De acordo com a criminologia moderna, os programas que se
+  política criminal é intermediar a relação entre o direito penal e      orientam às causas do crime, isto é, à origem dos conflitos
+  as garantias individuais do Estado democrático de direito.             criminais, procurando neutralizá-los antes que eles se manifestem
+D A criminologia apresenta o saber normativo e instrumental              na sociedade, constituem a denominada
+  sobre o delito, para que seja transformado em opções,
+                                                                         A prevenção especial.
+  fórmulas e programas que orientem os poderes públicos na
+  tomada de decisões para o controle da criminalidade.                   B prevenção primária.
+E A criminologia fornece o substrato explicativo-empírico do             C prevenção secundária.
+  sistema das ciências criminais, isto é, o fundamento                   D prevenção terciária.
+  científico.                                                            E prevenção geral.
+                                                                                                            CEBRASPE – PC/MA – Edital: 2026
+                                                                            <PCMA_DELEGADO244001A13E3623>
+          Questão 99
+Os objetos da criminologia moderna incluem
+A o estudo dos delitos relacionados à psicopatologia, dos crimes violentos, dos maus-tratos a crianças e adolescentes, do abuso
+  sexual, bem como de outras formas variadas de agressões físicas, aprofundando, dessa maneira, a centralização dos estudos
+  criminológicos na pessoa do delinquente, tornando-o uma realidade biopsicopatológica.
+B o estudo das definições formais ou normativas de delito, valorando o fato delitivo abstratamente, o que permite ao Estado a
+  delimitação da intervenção punitiva e um maior controle da criminalidade.
+C a prevenção do delito por meio do estudo da pena e do delito, a fim de dar uma resposta eficaz ao problema criminal, e pela
+  melhoria da infraestrutura do sistema legal com mais policiais, melhores juízes e promotores e aumento das unidades prisionais.
+D o conceito legal e inquestionável de delito; o princípio da diversidade (patológica) do homem delinquente; as teorias etiológicas da
+  criminalidade; e os fins da pena.
+E o delito como algo real, fático; o delinquente examinado nas suas interdependências sociais, como unidade biopsicossocial, e não
+  apenas como realidade biopsicopatológica; a protagonização da vítima do conflito ou problema social; e o controle social do delito
+  como verdadeiro giro metodológico que enriquece o objeto dos estudos criminológicos.
+                                                                            <PCMA_DELEGADO244001A13E3623>
+          Questão 100
+Segundo a teoria do etiquetamento social (labelling approach),
+A a criminalidade é uma característica intrínseca do indivíduo e a função da criminologia é explicar as causas biológicas ou
+  psicológicas do delito.
+B o crime é fruto de uma decisão racional e livre do infrator, o qual se utiliza de critérios de utilidade e oportunidade para cometê-lo.
+C os processos de criminalização são discriminatórios, seletivos, sendo importante identificar os fatores ou as razões pelas quais as
+  instituições de controle social decidem impor ao indivíduo o status de delinquente.
+D o crime deve ser compreendido sob um enfoque dinâmico, de acordo com a natureza do processo de mudança e consolidação dos
+  padrões de conduta do indivíduo e a gênese da conduta criminal, os quais evoluem conforme as variadas etapas do curso da vida
+  do delinquente.
+E a cultura é um produto das mudanças sociais e os modelos culturais, por meio de suas numerosas contradições internas,
+  constituem-se no fator mais importante para criminalidade.
+Espaço livre
+
