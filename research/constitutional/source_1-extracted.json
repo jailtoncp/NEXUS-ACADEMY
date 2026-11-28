@@ -1,0 +1,317 @@
+[
+  {
+    "source_id": "source_1",
+    "board": "FGV",
+    "exam": "Delegado de Polícia – 4ª Classe (Prova Objetiva) – Polícia Civil do Estado do Amazonas (PCAM)",
+    "year": 2021,
+    "questionNumber": 1,
+    "page": 3,
+    "prompt": "Após uma revolução que culminou com a derrubada do regime anterior, o grupo político dominante do País Alfa resolveu solicitar que uma comissão de notáveis elaborasse um projeto de Constituição, submetendo-o, ato contínuo, a referendo popular. A Constituição assim elaborada buscou conciliar inúmeras correntes políticas aparentemente opostas entre si e direcionar as políticas públicas a serem adotadas para a implementação dos direitos sociais, além de ter exigido um procedimento qualificado para a reforma de parte de seus comandos, considerados materialmente constitucionais, enquanto a outra parte poderia ser alterada com observância do mesmo procedimento afeto à lei ordinária. Por fim, observa-se que essa Constituição era demasiado extensa. A Constituição assim descrita é classificada como",
+    "options": {
+      "A": "bonapartista, compromissória, de garantia, rígida e sintética.",
+      "B": "cesarista, compromissória, dirigente, semirrígida e analítica.",
+      "C": "bonapartista, ortodoxa, dirigente, semirrígida e analítica.",
+      "D": "cesarista, pragmática, dirigente, semirrígida e sintética.",
+      "E": "outorgada, eclética, de garantia, flexível e analítica."
+    },
+    "answer": "B",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Teoria da Constituição",
+    "subtopic": "Classificação das constituições",
+    "comment": "A Constituição é cesarista por ser submetida a referendo, compromissória, dirigente, semirrígida e analítica."
+  },
+  {
+    "source_id": "source_1",
+    "board": "FGV",
+    "exam": "Delegado de Polícia – 4ª Classe (Prova Objetiva) – Polícia Civil do Estado do Amazonas (PCAM)",
+    "year": 2021,
+    "questionNumber": 2,
+    "page": 3,
+    "prompt": "O Partido Político XX solicitou que sua assessoria analisasse a possibilidade de ser ajuizada ação direta de inconstitucionalidade por omissão (ADO), em razão da não edição de lei, pelo Estado Beta, para a regulamentação de norma da Constituição da República de 1988. A assessoria respondeu corretamente que a ADO",
+    "options": {
+      "A": "pode ser utilizada, mas apenas se a norma da Constituição da República, a ser regulamentada, tiver eficácia contida.",
+      "B": "pode ser ajuizada, mas apenas se a União já tiver se desincumbido da edição de normas gerais sobre a temática.",
+      "C": "somente pode ser ajuizada em razão da omissão de autoridades da União, não sendo cabível na hipótese em tela.",
+      "D": "somente pode ser utilizada, na hipótese em tela, caso a União tenha delegado, por meio de lei complementar, o exercício da competência legislativa.",
+      "E": "pode ser utilizada, desde que se esteja perante descumprimento de um comando para legislar, não perante pura opção normativa de disciplinar, ou não, certa temática."
+    },
+    "answer": "E",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Controle de constitucionalidade",
+    "subtopic": "Ação direta de inconstitucionalidade por omissão",
+    "comment": "A ADO pressupõe omissão inconstitucional diante de dever constitucional de legislar, não mera escolha política de regulamentação."
+  },
+  {
+    "source_id": "source_1",
+    "board": "FGV",
+    "exam": "Delegado de Polícia – 4ª Classe (Prova Objetiva) – Polícia Civil do Estado do Amazonas (PCAM)",
+    "year": 2021,
+    "questionNumber": 3,
+    "page": 3,
+    "prompt": "Maria, destacada estudiosa da interpretação constitucional, defendeu que a norma não apresenta uma relação de sobreposição com o texto. Em verdade, é o resultado do processo de interpretação, durante o qual o intérprete desenvolve uma atividade argumentativa e tipicamente decisória, já que deve resolver as conflitualidades intrínsecas que se apresentam durante esse processo, de modo a identificar os significados potencialmente atribuíveis ao texto interpretado e decidir qual deles deve preponderar, considerando as nuances da realidade e a situação concreta na qual a norma se projetará. A explicação de Maria está lastreada na concepção de que",
+    "options": {
+      "A": "construções originalistas, que buscam reconstruir a vontade constituinte, devem embasar o processo de interpretação.",
+      "B": "o formalismo se ajusta plenamente à atividade do intérprete, pois valoriza o papel do texto e a importância da realidade.",
+      "C": "as nuances do ambiente sociopolítico podem influir no delineamento de alterações não formais da ordem constitucional.",
+      "D": "a tópica pura, na qual o texto é tratado como um ponto de vista, sendo utilizado, ou não, conforme as peculiaridades do problema concreto, deve direcionar a interpretação.",
+      "E": "o realismo jurídico não só valoriza a força normativa do texto constitucional como explica a forma como se desenvolve a mutação constitucional, preservando a vontade constituinte."
+    },
+    "answer": "C",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Interpretação constitucional",
+    "subtopic": "Mutação constitucional",
+    "comment": "A influência das mudanças sociopolíticas sobre o sentido constitucional corresponde à ideia de alteração informal da Constituição."
+  },
+  {
+    "source_id": "source_1",
+    "board": "FGV",
+    "exam": "Delegado de Polícia – 4ª Classe (Prova Objetiva) – Polícia Civil do Estado do Amazonas (PCAM)",
+    "year": 2021,
+    "questionNumber": 4,
+    "page": 3,
+    "prompt": "Em um período no qual a região norte do País estava sendo atingida por uma calamidade de grandes proporções da natureza, um grupo de vinte Senadores subscreveu uma proposta de emenda constitucional, visando a alterar a sistemática afeta à estruturação dos órgãos de segurança pública. Acresça-se que proposta idêntica fora apresentada e rejeitada pelo Senado Federal na mesma legislatura, mais especificamente no ano anterior. À luz da sistemática constitucional, é correto afirmar que essa proposta afronta",
+    "options": {
+      "A": "os limites formais, materiais, circunstanciais e temporais de reforma constitucional.",
+      "B": "apenas os limites formais, circunstanciais e temporais de reforma constitucional.",
+      "C": "apenas os limites circunstacias e temporais de reforma constitucional.",
+      "D": "apenas os limites formais e materiais de reforma constitucional.",
+      "E": "apenas os limites formais de reforma constitucional."
+    },
+    "answer": "E",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Poder constituinte derivado",
+    "subtopic": "Limitações ao poder de reforma constitucional",
+    "comment": "A proposta viola o requisito formal de subscrição por ao menos um terço dos membros do Senado; calamidade natural não é, por si, limite circunstancial, e a vedação temporal de reapresentação refere-se à mesma sessão legislativa."
+  },
+  {
+    "source_id": "source_1",
+    "board": "FGV",
+    "exam": "Delegado de Polícia – 4ª Classe (Prova Objetiva) – Polícia Civil do Estado do Amazonas (PCAM)",
+    "year": 2021,
+    "questionNumber": 5,
+    "page": 4,
+    "prompt": "O Procurador-Geral do Município Alfa reuniu-se com o Prefeito Municipal e o Presidente da Câmara Municipal, para informar que determinada entidade de classe de âmbito nacional ingressara com arguição de descumprimento de preceito fundamental (ADPF), na qual sustenta a inconstitucionalidade da Lei municipal nº XX/1987, em razão da afronta a princípios fundamentais da Constituição da República, almejando que isto seja declarado pelo Supremo Tribunal Federal (STF). Ao responder às perguntas formuladas, o Procurador-Geral do Município informou corretamente que",
+    "options": {
+      "A": "a ADPF não seria conhecida, pois a entidade que a ajuizou não tem legitimidade para fazê-lo.",
+      "B": "a Lei municipal nº XX não poderia ser submetida, nas circunstâncias indicadas, ao controle concentrado de constitucionalidade perante o STF.",
+      "C": "a procedência do pedido somente produzirá efeitos em relação às situações concretas descritas na ADPF, não afetando a vigência da Lei municipal nº XX.",
+      "D": "ainda que o pedido seja julgado procedente, com a declaração de inconstitucionalidade da Lei municipal nº XX, o Poder Legislativo pode aprovar outra lei de idêntico teor.",
+      "E": "a procedência do pedido obstará que o Poder Executivo pratique atos administrativos com base na lei impugnada e que o Poder Legislativo edite outra lei com o mesmo teor."
+    },
+    "answer": "D",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Controle de constitucionalidade",
+    "subtopic": "ADPF e efeitos da decisão",
+    "comment": "A ADPF admite lei municipal e produz efeitos erga omnes e vinculantes, mas não vincula o Poder Legislativo em sua função de legislar."
+  },
+  {
+    "source_id": "source_1",
+    "board": "FGV",
+    "exam": "Delegado de Polícia – 4ª Classe (Prova Objetiva) – Polícia Civil do Estado do Amazonas (PCAM)",
+    "year": 2021,
+    "questionNumber": 6,
+    "page": 4,
+    "prompt": "O Município Alfa foi citado em ação civil pública ajuizada por um legitimado. Ao analisar os termos da petição inicial, o Procurador-Geral do Município identificou a existência de uma questão constitucional de fundo, que estaria sendo interpretada de modo equivocado pelo autor da ação. Acresça-se que a tese do autor veio a ser acolhida pelo juiz de Direito em sede de cognição sumária, sendo deferida a tutela de urgência requerida. O Procurador-Geral, ademais, tinha conhecimento de que inúmeras decisões semelhantes já tinham sido proferidas por juízes e tribunais do país, enquanto muitas outras rechaçavam a tese. À luz dessa narrativa, o Procurador-Geral concluiu que a melhor opção seria a imediata submissão da tese jurídica, afeta à questão constitucional, ao Supremo Tribunal Federal. Nesse caso, o instrumento a ser utilizado pelo Município é",
+    "options": {
+      "A": "a arguição de descumprimento de preceito fundamental.",
+      "B": "o requerimento de edição de súmula vinculante.",
+      "C": "o incidente de deslocamento de competência.",
+      "D": "a reclamação constitucional.",
+      "E": "o recurso extraordinário."
+    },
+    "answer": "E",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Controle de constitucionalidade",
+    "subtopic": "Recurso extraordinário",
+    "comment": "A decisão judicial em ação concreta que envolve questão constitucional deve ser impugnada perante o STF por recurso extraordinário, observados seus requisitos."
+  },
+  {
+    "source_id": "source_1",
+    "board": "FGV",
+    "exam": "Delegado de Polícia – 4ª Classe (Prova Objetiva) – Polícia Civil do Estado do Amazonas (PCAM)",
+    "year": 2021,
+    "questionNumber": 7,
+    "page": 4,
+    "prompt": "Após regular aprovação em concurso público de provas e títulos, João ingressou no serviço público, passando a ocupar um cargo de provimento efetivo de nível médio. A razão de ser da escolha do cargo decorreu do regime jurídico que o regia e da remuneração paga. Para sua surpresa, poucos anos depois, foi aprovada a Lei nº XX, que: I. suprimiu algumas garantias do cargo; II. permitiu que João ascendesse a um cargo de provimento efetivo de nível superior, caso alcançasse esse nível de instrução e tivesse boas avaliações; III. suprimiu algumas gratificações recebidas por João, acrescendo-as à sua remuneração, o que, embora não tenha acarretado redução estipendial, impediu que fossem auferidos maiores ganhos no futuro. À luz da sistemática constitucional, são medidas constitucionais:",
+    "options": {
+      "A": "I, apenas.",
+      "B": "I e II, apenas.",
+      "C": "I e III, apenas.",
+      "D": "II e III, apenas.",
+      "E": "I, II e III."
+    },
+    "answer": "C",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Administração Pública",
+    "subtopic": "Regime jurídico e provimento de cargos",
+    "comment": "Não há direito adquirido a regime jurídico; ascensão a cargo diverso sem concurso é vedada; a alteração sem redução nominal da remuneração é admissível."
+  },
+  {
+    "source_id": "source_1",
+    "board": "FGV",
+    "exam": "Delegado de Polícia – 4ª Classe (Prova Objetiva) – Polícia Civil do Estado do Amazonas (PCAM)",
+    "year": 2021,
+    "questionNumber": 8,
+    "page": 4,
+    "prompt": "Marie, cidadã francesa, empregada de um conceituado laboratório farmacêutico privado, estava trabalhando no território nacional quando conheceu John, cidadão inglês, que trabalhava na mesma empresa. Os dois se casaram e, desse relacionamento, nasceu Mathew, tendo a família deixado o território nacional logo após o nascimento, fixando residência na Alemanha. Apesar de nunca mais ter retornado ao território brasileiro, Mathew era familiarizado com a cultura e acompanhava diariamente as notícias do Brasil. Ao completar 21 anos, consultou um advogado a respeito da possibilidade de concorrer ao cargo eletivo de deputado federal na eleição que seria realizada no respectivo ano. Foi respondido corretamente que",
+    "options": {
+      "A": "somente os brasileiros natos poderiam preencher as condições de elegibilidade e Mathew era estrangeiro.",
+      "B": "Mathew era brasileiro nato, logo, preenchia uma das condições de elegibilidade exigidas para concorrer ao cargo eletivo de Deputado Federal, tendo a idade mínima exigida.",
+      "C": "Mathew era brasileiro nato, logo, preenchia uma das condições de elegibilidade exigidas para concorrer a um cargo eletivo, mas não o de Deputado Federal, por não preencher a idade mínima exigida.",
+      "D": "Mathew somente poderia concorrer ao cargo eletivo de Deputado Federal caso se naturalizasse brasileiro, pois esse cargo não exige a nacionalidade nata, acrescendo-se que ele preenchia a idade mínima exigida.",
+      "E": "Mathew somente poderia concorrer a um cargo eletivo caso se naturalizasse brasileiro, mas não ao cargo de Deputado Federal, pois esse cargo exige a nacionalidade brasileira nata, além dele não preencher a idade mínima exigida."
+    },
+    "answer": "B",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Direitos políticos e nacionalidade",
+    "subtopic": "Brasileiro nato e elegibilidade",
+    "comment": "Nascido no Brasil de pais estrangeiros que não estavam a serviço de seu país, Mathew é brasileiro nato; aos 21 anos atende à idade mínima para deputado federal."
+  },
+  {
+    "source_id": "source_1",
+    "board": "FGV",
+    "exam": "Delegado de Polícia – 4ª Classe (Prova Objetiva) – Polícia Civil do Estado do Amazonas (PCAM)",
+    "year": 2021,
+    "questionNumber": 9,
+    "page": 5,
+    "prompt": "João impetrou mandado de injunção, perante o Supremo Tribunal Federal, em razão da omissão do Congresso Nacional em regulamentar determinado direito social que fora inserido na Constituição da República por uma emenda constitucional promulgada anos antes. Para sua surpresa, poucos meses depois, o Ministério Público, por seu órgão com atribuição, impetrou mandado de injunção coletivo baseado nos mesmos fatos e com pedido idêntico, qual seja, o de que fosse determinado prazo razoável para que o impetrado promovesse a edição da norma regulamentadora. À luz da sistemática vigente, é correto afirmar que o mandado de injunção coletivo",
+    "options": {
+      "A": "não gera litispendência em relação ao individual, impetrado por João, mas este último não se beneficiará dos efeitos da coisa julgada caso não desista da impetração no prazo legal.",
+      "B": "acarreta a suspensão do individual, impetrado por João, sendo que o processo instaurado por este último será extinto caso os efeitos da coisa julgada lhe sejam favoráveis.",
+      "C": "apresenta relação de continência, para fins de instrução processual, com o individual, impetrado por João, mas os efeitos de um e outro não se comunicam.",
+      "D": "acarreta a suspensão do individual, impetrado por João, que retomará a tramitação e será alcançado pelos efeitos da coisa julgada apenas se lhe forem favoráveis.",
+      "E": "gera litispendência em relação ao individual, impetrado por João, devendo acarretar a extinção do processo instaurado por este último."
+    },
+    "answer": "A",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Remédios constitucionais",
+    "subtopic": "Mandado de injunção coletivo",
+    "comment": "A lei afasta a litispendência entre o mandado individual e o coletivo, mas exige desistência no prazo legal para aproveitamento da coisa julgada coletiva."
+  },
+  {
+    "source_id": "source_1",
+    "board": "FGV",
+    "exam": "Delegado de Polícia – 4ª Classe (Prova Objetiva) – Polícia Civil do Estado do Amazonas (PCAM)",
+    "year": 2021,
+    "questionNumber": 10,
+    "page": 5,
+    "prompt": "João, brasileiro com vinte anos de idade e que jamais solicitara o seu alistamento eleitoral, requereu, à Secretaria de Estado de Segurança Pública do Estado Alfa, informações a respeito de auditoria realizada pelo órgão competente de controle interno nas contratações realizadas pelo órgão. Acresça-se que, no bojo desse requerimento, João não indicou a finalidade em que essas informações seriam utilizadas. À luz da sistemática vigente, é correto afirmar que o requerimento de João deve ser",
+    "options": {
+      "A": "indeferido, pois as informações solicitadas são exclusivas para o uso interno.",
+      "B": "indeferido, pois somente o cidadão pode ter acesso às informações almejadas.",
+      "C": "indeferido, já que não foi declinada em que finalidade as informações seriam utilizadas.",
+      "D": "deferido, sendo irrelevante o fato de João não ser cidadão e de não indicar a finalidade das informações.",
+      "E": "deferido, desde que João, após a devida provocação, indique em que finalidade as informações serão utilizadas."
+    },
+    "answer": "D",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Direitos e garantias fundamentais",
+    "subtopic": "Direito de acesso à informação",
+    "comment": "O acesso a informações públicas é assegurado a qualquer pessoa e não depende de demonstração de finalidade ou de alistamento eleitoral."
+  },
+  {
+    "source_id": "source_1",
+    "board": "FGV",
+    "exam": "Delegado de Polícia – 4ª Classe (Prova Objetiva) – Polícia Civil do Estado do Amazonas (PCAM)",
+    "year": 2021,
+    "questionNumber": 11,
+    "page": 5,
+    "prompt": "A Lei nº XX do Estado Alfa, com o objetivo de aumentar a eficiência da atuação administrativa, disciplinou a atividade de despachante perante os órgãos públicos, tanto do Estado como dos Municípios situados em seu território. Considerando os balizamentos estabelecidos, que se estendiam dos requisitos de escolaridade e habilitação a serem preenchidos até a forma como os atos deveriam ser praticados, houve grande insatisfação de parte da categoria. Instado a se pronunciar, um advogado respondeu corretamente que a Lei nº XX é",
+    "options": {
+      "A": "inconstitucional, pois compete privativamente à União legislar sobre a matéria.",
+      "B": "inconstitucional, já que a matéria deveria ser disciplinada em lei complementar, não em lei ordinária.",
+      "C": "inconstitucional, mas apenas na parte em que estende a disciplina aos Municípios, por afrontar a sua autonomia política.",
+      "D": "constitucional, pois se trata de mera projeção da atividade administrativa, estando absorvida pela competência dos Estados.",
+      "E": "constitucional, desde que os requisitos estabelecidos não afrontem a proporcionalidade, terminando por impedir o próprio exercício profissional."
+    },
+    "answer": "A",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Organização do Estado",
+    "subtopic": "Competência legislativa sobre condições para o exercício profissional",
+    "comment": "Compete privativamente à União legislar sobre condições para o exercício de profissões, incluindo a atividade de despachante."
+  },
+  {
+    "source_id": "source_1",
+    "board": "FGV",
+    "exam": "Delegado de Polícia – 4ª Classe (Prova Objetiva) – Polícia Civil do Estado do Amazonas (PCAM)",
+    "year": 2021,
+    "questionNumber": 12,
+    "page": 5,
+    "prompt": "Determinado legitimado deflagrou o controle concentrado de constitucionalidade da lei estadual WW perante o Supremo Tribunal Federal. Argumentava-se com a inconstitucionalidade dessa lei, que dispunha sobre os cargos em comissão no âmbito do Estado, com os argumentos de que I. os cargos em comissão não podem ser utilizados para satisfazer necessidades temporárias da Administração Pública, decorrentes da vacância de cargos de provimento efetivo; II. os cargos em comissão não se prestam ao desempenho de atividades puramente técnicas, situadas na base da pirâmide hierárquica; III. o número de cargos comissionados deve guardar proporcionalidade com a necessidade que eles visam suprir e com o número de servidores ocupantes de cargos efetivos no ente federativo; IV. no mínimo 50% do quantitativo de cargos em comissão, por imposição constitucional, devem ser destinados aos servidores ocupantes de cargos de provimento efetivo. À luz da sistemática constitucional, estão corretos os argumentos",
+    "options": {
+      "A": "I, II, III e IV.",
+      "B": "II e III, apenas.",
+      "C": "I e IV, apenas.",
+      "D": "II, III e IV, apenas.",
+      "E": "I, II e III, apenas."
+    },
+    "answer": "E",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Administração Pública",
+    "subtopic": "Cargos em comissão",
+    "comment": "Cargos em comissão destinam-se a direção, chefia e assessoramento, não a necessidades temporárias ou tarefas técnicas; sua quantidade deve ser proporcional, mas não há percentual constitucional mínimo de efetivos."
+  },
+  {
+    "source_id": "source_1",
+    "board": "FGV",
+    "exam": "Delegado de Polícia – 4ª Classe (Prova Objetiva) – Polícia Civil do Estado do Amazonas (PCAM)",
+    "year": 2021,
+    "questionNumber": 13,
+    "page": 6,
+    "prompt": "A Polícia Civil do Estado Alfa, em uma operação de rotina, constatou que o Deputado Federal João estava em situação de flagrância na prática de determinada infração penal. À luz da sistemática constitucional, é correto afirmar que João",
+    "options": {
+      "A": "não pode ser preso, salvo com autorização prévia da respectiva Casa Legislativa, mas o processo penal não carece de autorização para ser iniciado.",
+      "B": "deve ser preso em flagrante, qualquer que seja a infração penal, e os autos serão remetidos à Casa Legislativa, que resolverá sobre a prisão, devendo ainda autorizar o início de eventual processo penal.",
+      "C": "deve ser preso em flagrante, apenas se a hipótese for de crime inafiançável, e os autos serão remetidos à Casa Legislativa, que resolverá sobre a prisão, devendo ainda autorizar o início de eventual processo penal.",
+      "D": "deve ser preso em flagrante, apenas se a hipótese for de crime inafiançável, e os autos serão remetidos à Casa Legislativa, que resolverá sobre a prisão, mas o processo penal não carece de autorização para ser iniciado.",
+      "E": "deve ser preso em flagrante, qualquer que seja a infração penal, e os autos serão remetidos ao Supremo Tribunal Federal, que resolverá sobre a prisão, sendo que o início do processo penal depende de autorização da Casa Legislativa."
+    },
+    "answer": "D",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Poder Legislativo",
+    "subtopic": "Imunidade parlamentar formal",
+    "comment": "Deputado federal só pode ser preso em flagrante de crime inafiançável; a Casa decide sobre a prisão, mas não precisa autorizar o início da ação penal."
+  },
+  {
+    "source_id": "source_1",
+    "board": "FGV",
+    "exam": "Delegado de Polícia – 4ª Classe (Prova Objetiva) – Polícia Civil do Estado do Amazonas (PCAM)",
+    "year": 2021,
+    "questionNumber": 14,
+    "page": 6,
+    "prompt": "Maria, Juíza de Direito, sofreu sanção disciplinar no âmbito do Tribunal de Justiça do Estado Alfa. Irresignada, requereu que o Conselho Nacional de Justiça anulasse o processo administrativo, em razão da presença de alegados vícios formais. O requerimento foi indeferido sob o argumento de que não foram detectados quaisquer vícios no processo disciplinar. À luz dessa narrativa, caso Maria decida ingressar com ação judicial para anular a condenação, é correto afirmar que",
+    "options": {
+      "A": "o foro competente será o Supremo Tribunal Federal.",
+      "B": "isto será feito perante o órgão competente da Justiça do Estado Alfa.",
+      "C": "isto dependerá de prévia autorização do próprio Conselho Nacional de Justiça.",
+      "D": "isto será feito perante o Tribunal Regional Federal da região em que está inserido o Estado Alfa.",
+      "E": "isto não será possível, já que as decisões do Conselho Nacional de Justiça não podem ser revistas."
+    },
+    "answer": "B",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Poder Judiciário",
+    "subtopic": "Controle judicial de atos disciplinares",
+    "comment": "A pretensão anulatória de sanção disciplinar de magistrada estadual deve ser submetida ao órgão competente da Justiça estadual; decisões administrativas não são imunes à revisão judicial."
+  },
+  {
+    "source_id": "source_1",
+    "board": "FGV",
+    "exam": "Delegado de Polícia – 4ª Classe (Prova Objetiva) – Polícia Civil do Estado do Amazonas (PCAM)",
+    "year": 2021,
+    "questionNumber": 15,
+    "page": 6,
+    "prompt": "A Lei XX, do Município Alfa, dispôs sobre os requisitos a serem atendidos pelos meios impressos de comunicação social para que possam ser publicados no território do Município Alfa. Entre esses requisitos estão: I. a necessidade de que obtenham licença da autoridade municipal competente; II. cada exemplar se ajuste aos padrões de moralidade sedimentados na sociedade, a ser objeto de verificação prévia à sua circulação. À luz da sistemática constitucional, é correto afirmar que",
+    "options": {
+      "A": "o requisito I somente será constitucional se a licença for concedida de forma vinculada, enquanto o requisito II é inconstitucional por importar em censura prévia.",
+      "B": "o requisito I é inconstitucional porque a publicação de veículo impresso independe de licença de autoridade, o mesmo ocorrendo com o requisito II, por importar em censura prévia.",
+      "C": "o requisito I somente será constitucional se a licença for concedida de forma vinculada, mas o requisito II somente não caracterizará censura prévia se for assegurado o contraditório e a ampla defesa.",
+      "D": "o requisito I é constitucional, porque toda atividade econômica depende de autorização do Poder Público, mas o requisito II somente será constitucional se a possível negativa estiver embasada em dados colhidos em audiência pública.",
+      "E": "o requisito I é constitucional, porque toda atividade econômica depende de autorização do Poder Público, o mesmo ocorrendo com o requisito II, que é uma forma de proteger o interesse coletivo contra os excessos individuais."
+    },
+    "answer": "B",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Direitos e garantias fundamentais",
+    "subtopic": "Liberdade de expressão e vedação à censura",
+    "comment": "A publicação de veículo impresso independe de licença, e a verificação prévia de conteúdo moral configura censura prévia."
+  }
+]

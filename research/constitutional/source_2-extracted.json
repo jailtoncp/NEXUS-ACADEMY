@@ -1,0 +1,362 @@
+[
+  {
+    "source_id": "source_2",
+    "board": "FGV",
+    "exam": "PCRN Delegado",
+    "year": 2021,
+    "questionNumber": 1,
+    "page": 3,
+    "prompt": "João, que cumpria pena em estabelecimento prisional após ser condenado pela prática de inúmeros homicídios, logrou êxito em fugir. Após alguns dias escondido na mata, invadiu uma casa e matou três dos cinco integrantes da família que ali residia, sendo preso em flagrante delito. Os sobreviventes ajuizaram ação de reparação de danos em face do Estado, argumentando com a omissão dos seus agentes na manutenção da prisão de João e na sua não captura, de modo a evitar a ocorrência dos fatídicos eventos.\n\nÀ luz da sistemática constitucional, no caso em tela, a responsabilidade extracontratual do Estado:",
+    "options": {
+      "A": "não deve ser reconhecida, já que ausente o nexo causal entre a omissão e o dano, embora a responsabilidade, nesses casos, seja objetiva, com base no risco administrativo;",
+      "B": "deve ser reconhecida com base na teoria da responsabilidade objetiva, de contornos absolutos, que não admite as excludentes do caso fortuito e da força maior;",
+      "C": "deve ser reconhecida com base na teoria da falta administrativa, tendo em vista a flagrante omissão detectada e o seu nexo causal com o dano perpetrado;",
+      "D": "não deve ser reconhecida, já que o Estado não pode ser responsabilizado pelo dano causado por João, já que com ele não mantinha vínculo funcional;",
+      "E": "deve ser reconhecida com base na teoria do risco integral, cujos elementos constitutivos estão plenamente caracterizados."
+    },
+    "answer": "C",
+    "answer_basis": "solução jurídica independente",
+    "topic": "responsabilidade civil do Estado",
+    "subtopic": "omissão estatal e teoria da falta administrativa",
+    "comment": "A omissão específica e o nexo causal com o dano justificam a responsabilidade estatal pela falta do serviço.",
+    "source": {
+      "url": "https://conhecimento.fgv.br/concursos/pcrn21"
+    }
+  },
+  {
+    "source_id": "source_2",
+    "board": "FGV",
+    "exam": "PCRN Delegado",
+    "year": 2021,
+    "questionNumber": 2,
+    "page": 3,
+    "prompt": "Maria, servidora pública estadual, durante o expediente, dirigiu-se ao setor de protocolo da repartição em que atuava e ali deixou um pacote a ser remetido ao destinatário pelo serviço de envio postal da Administração Pública. Em razão das características do pacote e do receio de que contivesse alguma substância ilícita, foi travada intensa discussão entre os servidores que ali atuam sobre a possibilidade, ou não, de procederem à sua abertura.\n\nÀ luz da sistemática constitucional, os servidores concluíram corretamente que:",
+    "options": {
+      "A": "poderiam abrir o pacote, pois o sigilo da correspondência não pode legitimar práticas ilícitas, e qualquer do povo pode impedir a sua consumação;",
+      "B": "somente poderiam abrir o pacote, contra a vontade do remetente, mediante autorização judicial, considerando o sigilo da correspondência;",
+      "C": "somente poderiam abrir o pacote, contra a vontade do remetente, mediante autorização judicial ou nas hipóteses previstas em lei;",
+      "D": "somente poderiam abrir o pacote na presença do remetente e com a prévia obtenção do seu consentimento expresso;",
+      "E": "não poderiam abrir o pacote, considerando a fundamentalidade do sigilo da correspondência."
+    },
+    "answer": "E",
+    "answer_basis": "solução jurídica independente",
+    "topic": "direitos e garantias fundamentais",
+    "subtopic": "sigilo da correspondência",
+    "comment": "A inviolabilidade da correspondência impede a abertura administrativa do pacote nas circunstâncias narradas.",
+    "source": {
+      "url": "https://conhecimento.fgv.br/concursos/pcrn21"
+    }
+  },
+  {
+    "source_id": "source_2",
+    "board": "FGV",
+    "exam": "PCRN Delegado",
+    "year": 2021,
+    "questionNumber": 3,
+    "page": 3,
+    "prompt": "Sensível à necessidade de zelar pela probidade administrativa, a Assembleia Legislativa do Estado Alfa promulgou a Emenda Constitucional nº XX/2019, de iniciativa parlamentar, dispondo sobre as infrações político-administrativas passíveis de serem praticadas pelo Governador do Estado, as quais poderiam acarretar, na hipótese de condenação, a perda do mandato eletivo e a inabilitação para o exercício de outra função pública.\n\nA Emenda Constitucional nº XX/2019 é:",
+    "options": {
+      "A": "formalmente inconstitucional, pois a matéria deve ser disciplinada em lei ordinária estadual, de iniciativa exclusiva do Chefe do Poder Executivo;",
+      "B": "formalmente inconstitucional, pois a matéria só pode ser disciplinada pela Constituição da República de 1988, não pela legislação infraconstitucional;",
+      "C": "formal e materialmente constitucional, considerando o disposto na Constituição da República de 1988 e o princípio da simetria;",
+      "D": "materialmente inconstitucional apenas em relação à sanção de inabilitação, que não pode ser cominada;",
+      "E": "formalmente inconstitucional, pois a matéria é de competência legislativa privativa da União."
+    },
+    "answer": "B",
+    "answer_basis": "solução jurídica independente",
+    "topic": "organização do Estado",
+    "subtopic": "crimes de responsabilidade de governador",
+    "comment": "A definição dos crimes de responsabilidade e das normas de processo é matéria reservada à Constituição Federal e à legislação federal competente.",
+    "source": {
+      "url": "https://conhecimento.fgv.br/concursos/pcrn21"
+    }
+  },
+  {
+    "source_id": "source_2",
+    "board": "FGV",
+    "exam": "PCRN Delegado",
+    "year": 2021,
+    "questionNumber": 4,
+    "page": 3,
+    "prompt": "Com o objetivo de atender aos anseios da população e à impostergável necessidade de se conferir maior celeridade ao processo e julgamento dos crimes de racismo, o Presidente da República, no início da sessão legislativa, editou a Medida Provisória nº XX. Apreciada por uma comissão mista de deputados e senadores, recebeu parecer desfavorável. Iniciada a sua votação no Senado Federal, foi aprovada sem modificações, o mesmo ocorrendo na Câmara dos Deputados. Ato contínuo, foi encaminhada ao Presidente da República, que a sancionou e promulgou, daí seguindo a publicação. Esse iter procedimental foi concluído em sessenta dias.\n\nA narrativa acima somente se mostra incompatível com a ordem constitucional em relação:",
+    "options": {
+      "A": "à edição da medida provisória no início da sessão legislativa, à apreciação por uma comissão mista e ao tempo de conclusão do iter procedimental;",
+      "B": "à aprovação da proposição após o parecer desfavorável da comissão e à participação final do Presidente da República;",
+      "C": "à matéria tratada na medida provisória, à Casa iniciadora da votação e à participação final do Presidente da República;",
+      "D": "à apreciação por uma comissão mista, à Casa iniciadora da votação e ao tempo de conclusão do iter procedimental;",
+      "E": "à matéria tratada na medida provisória e ao tempo de conclusão do iter procedimental."
+    },
+    "answer": "C",
+    "answer_basis": "solução jurídica independente",
+    "topic": "processo legislativo",
+    "subtopic": "medida provisória",
+    "comment": "Medida provisória não pode tratar de direito processual penal; a votação começa na Câmara e a conversão não é sancionada pelo Presidente.",
+    "source": {
+      "url": "https://conhecimento.fgv.br/concursos/pcrn21"
+    }
+  },
+  {
+    "source_id": "source_2",
+    "board": "FGV",
+    "exam": "PCRN Delegado",
+    "year": 2021,
+    "questionNumber": 5,
+    "page": 4,
+    "prompt": "Maria, advogada de João, compareceu à Delegacia de Polícia da Circunscrição XX, e requereu vista do Inquérito Policial nº 123, no qual seu cliente figurava como um dos investigados. O requerimento foi negado pelo delegado de polícia sob o argumento de que a investigação dizia respeito a uma perigosa organização criminosa, o que levou à decretação do sigilo, para que fosse assegurado o êxito das investigações.\n\nA decisão está:",
+    "options": {
+      "A": "incorreta, pois deveria ser assegurado o direito de acesso aos elementos já documentados, associados ao direito de defesa;",
+      "B": "correta, pois, no caso concreto, a ponderação dos valores envolvidos conduz à preponderância do interesse público;",
+      "C": "correta, desde que a decretação do sigilo tenha sido devidamente fundamentada;",
+      "D": "incorreta, pois o sigilo do inquérito policial é incompatível com o princípio republicano;",
+      "E": "incorreta, pois o sigilo do inquérito policial não é oponível a nenhum advogado."
+    },
+    "answer": "A",
+    "answer_basis": "solução jurídica independente",
+    "topic": "direitos e garantias fundamentais",
+    "subtopic": "acesso do advogado aos autos do inquérito",
+    "comment": "A defesa tem acesso aos elementos já documentados, sem prejuízo do sigilo das diligências em andamento.",
+    "source": {
+      "url": "https://conhecimento.fgv.br/concursos/pcrn21"
+    }
+  },
+  {
+    "source_id": "source_2",
+    "board": "FGV",
+    "exam": "PCRN Delegado",
+    "year": 2021,
+    "questionNumber": 6,
+    "page": 4,
+    "prompt": "No processo de interpretação constitucional, a pré-compreensão do intérprete não pode ocupar uma posição hegemônica e incontrastável, de modo a tornar esse processo uma encenação que busque tão somente justificar conclusões prévias, indiferentes aos limites do texto constitucional, aos aspectos circunstanciais e às exigências de ordem metódica.\n\nNa interpretação constitucional, a narrativa acima se mostra:",
+    "options": {
+      "A": "errada, pois a pré-compreensão não pode ser utilizada na interpretação constitucional, sob pena de consagrar o subjetivismo em detrimento do caráter objetivo da norma;",
+      "B": "correta, pois o conhecimento adquirido pelo intérprete é apenas condição de desenvolvimento da compreensão, que resulta na atribuição de significado ao texto;",
+      "C": "correta, pois a interpretação evidencia uma total separação entre o sujeito cognoscente e o objeto cognoscido, de modo que a compreensão é da alçada do legislador;",
+      "D": "errada, pois o intérprete, em sua atividade intelectiva, deve se limitar a conhecer o sentido imanente ao texto, não participando da construção do significado;",
+      "E": "contraditória, pois a pré-compreensão e a compreensão apresentam uma relação de sobreposição, não ocupando planos sucessivos."
+    },
+    "answer": "B",
+    "answer_basis": "solução jurídica independente",
+    "topic": "hermenêutica constitucional",
+    "subtopic": "pré-compreensão e interpretação",
+    "comment": "A pré-compreensão integra a atividade interpretativa, mas deve ser controlada pelos limites textuais e metodológicos.",
+    "source": {
+      "url": "https://conhecimento.fgv.br/concursos/pcrn21"
+    }
+  },
+  {
+    "source_id": "source_2",
+    "board": "FGV",
+    "exam": "PCRN Delegado",
+    "year": 2021,
+    "questionNumber": 7,
+    "page": 4,
+    "prompt": "As duas Casas Legislativas do Congresso Nacional aprovaram o Projeto de Lei nº XX, que dispunha sobre a oferta de determinado benefício pelo Poder Executivo. Ao recebê-lo, o Presidente da República vetou-o integralmente, sob o argumento de que era inconstitucional, já que afrontava Súmula Vinculante editada pelo Supremo Tribunal Federal. Embora fosse flagrante a inobservância da Súmula Vinculante, o veto veio a ser derrubado, daí resultando na promulgação, em 2020, da Lei nº XX.\n\nA Lei nº XX é suscetível de impugnação direta, perante o Supremo Tribunal Federal, apenas por meio de:",
+    "options": {
+      "A": "reclamação, ação direta de inconstitucionalidade ou arguição de descumprimento de preceito fundamental;",
+      "B": "ação direta de inconstitucionalidade ou arguição de descumprimento de preceito fundamental;",
+      "C": "ação direta de inconstitucionalidade ou reclamação;",
+      "D": "ação direta de inconstitucionalidade;",
+      "E": "reclamação."
+    },
+    "answer": "B",
+    "answer_basis": "solução jurídica independente",
+    "topic": "controle de constitucionalidade",
+    "subtopic": "ADI, ADPF e reclamação",
+    "comment": "A lei pode ser objeto de ADI ou ADPF; reclamação não substitui ação direta de controle abstrato.",
+    "source": {
+      "url": "https://conhecimento.fgv.br/concursos/pcrn21"
+    }
+  },
+  {
+    "source_id": "source_2",
+    "board": "FGV",
+    "exam": "PCRN Delegado",
+    "year": 2021,
+    "questionNumber": 8,
+    "page": 4,
+    "prompt": "João, vereador no Município Beta, situado na Região Sul do país, compareceu em evento político realizado em Brasília e, durante um comício, fez duras críticas à gestão de determinado Ministro de Estado, as quais foram tidas como configuradoras de crime contra a honra.\n\nNas circunstâncias indicadas, é correto afirmar que João:",
+    "options": {
+      "A": "pode praticar crime contra a honra, mas somente pode ser processado mediante autorização da Câmara Municipal;",
+      "B": "somente não pratica crime contra a honra caso o pronunciamento esteja relacionado às suas funções;",
+      "C": "pode praticar crime contra a honra, mas o processo pode vir a ser suspenso por decisão da Câmara Municipal;",
+      "D": "não pode praticar crime contra a honra, sendo alcançado pela imunidade material dos parlamentares;",
+      "E": "pode praticar crime contra a honra e ser processado sem autorização da Câmara Municipal."
+    },
+    "answer": "E",
+    "answer_basis": "solução jurídica independente",
+    "topic": "direitos e garantias parlamentares",
+    "subtopic": "imunidade material de vereador",
+    "comment": "A imunidade material do vereador é restrita ao exercício do mandato e à circunscrição municipal, ausentes no caso.",
+    "source": {
+      "url": "https://conhecimento.fgv.br/concursos/pcrn21"
+    }
+  },
+  {
+    "source_id": "source_2",
+    "board": "FGV",
+    "exam": "PCRN Delegado",
+    "year": 2021,
+    "questionNumber": 9,
+    "page": 4,
+    "prompt": "A Assembleia Legislativa do Estado Alfa aprovou e o governador sancionou e promulgou a Lei nº XX, que fixou a competência do Tribunal de Justiça para o processo e o julgamento de mandados de segurança impetrados contra atos de certas autoridades.\n\nA Lei nº XX é:",
+    "options": {
+      "A": "inconstitucional, pois as competências do Tribunal de Justiça apenas podem estar previstas na lei de organização judiciária;",
+      "B": "inconstitucional, pois as competências do Tribunal de Justiça somente podem estar previstas em seu regimento interno;",
+      "C": "inconstitucional, pois as competências do Tribunal de Justiça devem ser previstas na Constituição do Estado;",
+      "D": "constitucional, desde que seja observado o princípio da simetria em relação à Constituição da República de 1988;",
+      "E": "constitucional, desde que a iniciativa do respectivo projeto de lei tenha sido do Tribunal de Justiça."
+    },
+    "answer": "C",
+    "answer_basis": "solução jurídica independente",
+    "topic": "organização do Poder Judiciário",
+    "subtopic": "competência constitucional dos tribunais de justiça",
+    "comment": "A competência originária do Tribunal de Justiça deve estar estabelecida na Constituição estadual, por simetria constitucional.",
+    "source": {
+      "url": "https://conhecimento.fgv.br/concursos/pcrn21"
+    }
+  },
+  {
+    "source_id": "source_2",
+    "board": "FGV",
+    "exam": "PCRN Delegado",
+    "year": 2021,
+    "questionNumber": 10,
+    "page": 5,
+    "prompt": "João ajuizou ação de cobrança em face de Antônio, tendo obtido sentença favorável à sua pretensão. Após o exaurimento do prazo para a interposição do recurso de apelação, João adotou as medidas necessárias à fruição do seu direito. Nesse momento, foi surpreendido por uma petição de Antônio, informando ao juiz competente que o Supremo Tribunal Federal acabara de declarar a inconstitucionalidade da lei utilizada pelo juízo para julgar procedente o pedido.\n\nA decisão do Supremo Tribunal Federal:",
+    "options": {
+      "A": "por ter sido proferida em momento posterior ao exaurimento do prazo recursal, não pode ser levada em consideração, mesmo em sede de ação autônoma de impugnação;",
+      "B": "não produz a automática rescisão da sentença favorável a João, o que deve ser buscado com o ajuizamento de ação autônoma de impugnação;",
+      "C": "permite que o juízo prolator da sentença venha a revê-la de ofício, proferindo outra que não leve em consideração a lei declarada inconstitucional;",
+      "D": "em razão da expressa provocação de Antônio, pode ser levada em consideração pelo juízo prolator da sentença, que poderá reformar esta última;",
+      "E": "acarreta a desconstituição automática da sentença favorável a João."
+    },
+    "answer": "B",
+    "answer_basis": "solução jurídica independente",
+    "topic": "controle de constitucionalidade",
+    "subtopic": "efeitos da declaração de inconstitucionalidade sobre coisa julgada",
+    "comment": "A declaração posterior não rescinde automaticamente a sentença transitada em julgado; exige ação autônoma cabível.",
+    "source": {
+      "url": "https://conhecimento.fgv.br/concursos/pcrn21"
+    }
+  },
+  {
+    "source_id": "source_2",
+    "board": "FGV",
+    "exam": "PCRN Delegado",
+    "year": 2021,
+    "questionNumber": 11,
+    "page": 5,
+    "prompt": "Pedro, na época em que era Chefe do Poder Executivo Federal, foi condenado em um processo por crime de responsabilidade, daí decorrendo a aplicação da sanção de inabilitação para o exercício de função pública.\n\nA sanção sofrida por Pedro:",
+    "options": {
+      "A": "restringe a cidadania em suas acepções ativa e passiva;",
+      "B": "equivale à proibição de contratar com o Poder Público;",
+      "C": "acarreta restrições mais amplas que a inelegibilidade;",
+      "D": "se identifica com a perda da função pública;",
+      "E": "acarreta a suspensão dos direitos políticos."
+    },
+    "answer": "C",
+    "answer_basis": "solução jurídica independente",
+    "topic": "direitos políticos",
+    "subtopic": "inabilitação por crime de responsabilidade",
+    "comment": "A inabilitação para função pública é sanção distinta e mais ampla que a mera inelegibilidade.",
+    "source": {
+      "url": "https://conhecimento.fgv.br/concursos/pcrn21"
+    }
+  },
+  {
+    "source_id": "source_2",
+    "board": "FGV",
+    "exam": "PCRN Delegado",
+    "year": 2021,
+    "questionNumber": 12,
+    "page": 5,
+    "prompt": "A Lei nº XX, do Estado Alfa, dispôs que os estabelecimentos de ensino fundamental, médio e superior, da rede de ensino público estadual ou da rede privada, deveriam disponibilizar cadeiras adaptadas às pessoas com deficiência, o que seria fixado em harmonia com a quantidade de alunos nessa situação.\n\nA Lei nº XX é:",
+    "options": {
+      "A": "formalmente inconstitucional apenas em relação à rede privada, pois compete à União legislar sobre direito civil, e materialmente inconstitucional pelo ônus financeiro imposto;",
+      "B": "formalmente inconstitucional, pois compete privativamente à União legislar sobre pessoas com deficiência e direito civil, mas materialmente constitucional, já que de índole protetiva;",
+      "C": "formalmente constitucional, pois os Estados podem legislar sobre a matéria, mas materialmente inconstitucional em relação às escolas privadas, face a afronta à livre iniciativa;",
+      "D": "formal e materialmente constitucional, pois o Estado pode legislar sobre a proteção das pessoas com deficiência e a medida mostra-se adequada ao fim a que se destina;",
+      "E": "formal e materialmente inconstitucional, pois compete privativamente à União legislar sobre a matéria e a medida impõe ônus excessivo aos destinatários."
+    },
+    "answer": "D",
+    "answer_basis": "solução jurídica independente",
+    "topic": "competências legislativas",
+    "subtopic": "proteção das pessoas com deficiência",
+    "comment": "A proteção e integração das pessoas com deficiência é competência legislativa concorrente, e a medida é protetiva e adequada.",
+    "source": {
+      "url": "https://conhecimento.fgv.br/concursos/pcrn21"
+    }
+  },
+  {
+    "source_id": "source_2",
+    "board": "FGV",
+    "exam": "PCRN Delegado",
+    "year": 2021,
+    "questionNumber": 13,
+    "page": 5,
+    "prompt": "A Associação Alfa obteve decisão favorável, transitada em julgado, em mandado de injunção coletivo ajuizado com o objetivo de assegurar o exercício de certos direitos por seus associados, os quais se mostravam pertinentes com suas finalidades. A decisão determinou a aplicação, por analogia, de uma lei já existente. Após o trânsito em julgado, a Associação Alfa tomou conhecimento de que diversos associados, anos antes, embora tenham tomado ciência comprovada do mandado de injunção coletivo, não desistiram dos mandados de injunção individuais que tinham ajuizado. Além disso, poucos anos depois do trânsito em julgado, foi editada a norma regulamentadora, a Lei nº YY, que se mostrava mais desfavorável aos beneficiários que a decisão judicial.\n\nÀ luz desse quadro, a decisão favorável à Associação Alfa:",
+    "options": {
+      "A": "não beneficia os associados que não requereram a desistência das demandas individuais e continua a disciplinar os direitos a que se refere mesmo após a Lei nº YY;",
+      "B": "beneficia os associados que não requereram a desistência das demandas individuais e continua a disciplinar os direitos a que se refere mesmo após a Lei nº YY;",
+      "C": "não beneficia os associados que não requereram a desistência das demandas individuais e a Lei nº YY produz efeitos ex nunc;",
+      "D": "beneficia os associados que não requereram a desistência das demandas individuais e a Lei nº YY produz efeitos ex tunc;",
+      "E": "beneficia os associados que não requereram a desistência das demandas individuais e a Lei nº YY produz efeitos ex nunc."
+    },
+    "answer": "A",
+    "answer_basis": "solução jurídica independente",
+    "topic": "remédios constitucionais",
+    "subtopic": "mandado de injunção coletivo",
+    "comment": "A ciência do coletivo sem desistência impede o benefício aos titulares de ações individuais; norma posterior menos favorável não substitui a decisão.",
+    "source": {
+      "url": "https://conhecimento.fgv.br/concursos/pcrn21"
+    }
+  },
+  {
+    "source_id": "source_2",
+    "board": "FGV",
+    "exam": "PCRN Delegado",
+    "year": 2021,
+    "questionNumber": 14,
+    "page": 5,
+    "prompt": "A associação dos policiais civis do Estado Alfa iniciou um grande movimento para que fossem estabelecidos critérios diferenciados para a concessão de benefícios, aos policiais civis, pelo regime próprio de previdência social existente no referido Estado. Ao tomar conhecimento dessa pretensão, um parlamentar solicitou que sua assessoria jurídica se manifestasse sobre a possibilidade de atendê-la.\n\nA assessoria jurídica respondeu corretamente que a Constituição da República de 1988:",
+    "options": {
+      "A": "veda a adoção de requisitos ou critérios diferenciados para a concessão de benefícios em regime próprio de previdência social; logo, a pretensão não poderia ser atendida;",
+      "B": "só permite a adoção dos critérios diferenciados que ela própria estabeleceu, os quais não podem ser ampliados pela legislação infraconstitucional; logo, a pretensão não poderia ser atendida;",
+      "C": "permite que lei complementar federal estabeleça critérios diferenciados para a concessão de benefícios em regime próprio de previdência social aos policiais civis; logo, a pretensão poderia ser atendida;",
+      "D": "permite que lei complementar estadual estabeleça critérios diferenciados para a concessão de benefícios em regime próprio de previdência social aos policiais civis; logo, a pretensão poderia ser atendida;",
+      "E": "já estabelece critérios diferenciados para a concessão de benefícios, aos policiais civis, no regime próprio de previdência social; logo, a associação não tem verdadeiro interesse em sua pretensão."
+    },
+    "answer": "D",
+    "answer_basis": "solução jurídica independente",
+    "topic": "previdência social",
+    "subtopic": "regime próprio e critérios diferenciados para policiais",
+    "comment": "A Constituição admite critérios diferenciados por lei complementar do respectivo ente federativo para policiais civis.",
+    "source": {
+      "url": "https://conhecimento.fgv.br/concursos/pcrn21"
+    }
+  },
+  {
+    "source_id": "source_2",
+    "board": "FGV",
+    "exam": "PCRN Delegado",
+    "year": 2021,
+    "questionNumber": 15,
+    "page": 5,
+    "prompt": "A Organização Internacional XX, vinculada às Nações Unidas, ajuizou ação ordinária em face do Município Alfa. Para sua surpresa, o pedido foi julgado improcedente pelo juiz federal competente, em primeira instância, em uma sentença que se apresentava como manifestamente dissonante da Constituição da República Federativa do Brasil.\n\nNesse caso, o recurso a ser interposto pela Organização Internacional XX, visando à reforma da sentença do juízo de primeira instância, que lhe foi desfavorável, será endereçado ao:",
+    "options": {
+      "A": "Tribunal Regional Federal da respectiva região;",
+      "B": "Tribunal de Justiça do respectivo Estado;",
+      "C": "Superior Tribunal de Justiça;",
+      "D": "Supremo Tribunal Federal;",
+      "E": "Superior Tribunal Militar."
+    },
+    "answer": "A",
+    "answer_basis": "solução jurídica independente",
+    "topic": "organização do Poder Judiciário",
+    "subtopic": "competência recursal da Justiça Federal",
+    "comment": "Cabe ao Tribunal Regional Federal julgar, em apelação, as sentenças dos juízes federais de primeiro grau.",
+    "source": {
+      "url": "https://conhecimento.fgv.br/concursos/pcrn21"
+    }
+  }
+]

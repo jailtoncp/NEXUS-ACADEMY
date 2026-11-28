@@ -1,0 +1,296 @@
+[
+  {
+    "source_id": "source_4",
+    "board": "Cebraspe",
+    "exam": "PCPE Delegado",
+    "year": 2023,
+    "questionNumber": 1,
+    "page": 1,
+    "prompt": "No que diz respeito a poder constituinte, assinale a opção correta.",
+    "options": {
+      "A": "Não existiu poder constituinte originário nos países de constituição flexível.",
+      "B": "O titular do poder constituinte é o órgão que produz normas de natureza constitucional.",
+      "C": "O caráter inicial do poder constituinte originário consiste no fato de que ele não se fundamenta em outro, mas cria uma nova ordem jurídica.",
+      "D": "No plano jurídico doméstico, o poder constituinte originário encontra limite nos tratados e convenções internacionais.",
+      "E": "Na Constituição Federal de 1988, a principal limitação material ao poder de revisão consiste na proibição de sua reforma durante a vigência de intervenção, estado de defesa ou estado de sítio."
+    },
+    "answer": "C",
+    "answer_basis": "gabarito explícito nas justificativas",
+    "topic": "Poder constituinte",
+    "subtopic": "Poder constituinte originário e limitações à reforma constitucional",
+    "comment": "A alternativa C descreve corretamente o caráter inicial do poder constituinte originário; a alternativa E trata de limitação circunstancial, não material.",
+    "source": {
+      "url": "https://www.cebraspe.org.br/concursos/pc_pe_23"
+    }
+  },
+  {
+    "source_id": "source_4",
+    "board": "Cebraspe",
+    "exam": "PCPE Delegado",
+    "year": 2023,
+    "questionNumber": 2,
+    "page": 1,
+    "prompt": "A arguição de descumprimento de preceito fundamental (ADPF)",
+    "options": {
+      "A": "pode ser liminarmente indeferida pelo relator, se sua petição inicial for inepta.",
+      "B": "pode ser proposta por entidade voltada à defesa de direitos difusos e coletivos, desde que constituída há mais de um ano.",
+      "C": "deve ter sua petição inicial acompanhada de certidão autêntica do ato normativo impugnado.",
+      "D": "é cabível, independentemente da existência de outra via processual adequada para impugnar ato normativo, no campo do controle concentrado de constitucionalidade.",
+      "E": "dispensa intervenção do Procurador-Geral da República, se atacar norma infralegal."
+    },
+    "answer": "A",
+    "answer_basis": "gabarito explícito nas justificativas",
+    "topic": "Controle de constitucionalidade",
+    "subtopic": "Arguição de descumprimento de preceito fundamental",
+    "comment": "A petição inicial inepta pode ser liminarmente indeferida pelo relator, conforme o art. 4.º, caput, da Lei n.º 9.882/1999.",
+    "source": {
+      "url": "https://www.cebraspe.org.br/concursos/pc_pe_23"
+    }
+  },
+  {
+    "source_id": "source_4",
+    "board": "Cebraspe",
+    "exam": "PCPE Delegado",
+    "year": 2023,
+    "questionNumber": 3,
+    "page": 2,
+    "prompt": "A respeito dos direitos fundamentais, assinale a opção correta.",
+    "options": {
+      "A": "Os direitos e as garantias fundamentais estão taxativamente enumerados no art. 5.º da Constituição Federal de 1988.",
+      "B": "Os direitos fundamentais, como as garantias, possuem caráter instrumental, isto é, denotam aspecto exclusivamente acessório em relação a outros direitos.",
+      "C": "A característica da imprescritibilidade estabelece que os direitos fundamentais assistem a todas as pessoas.",
+      "D": "Os direitos fundamentais previstos na Constituição Federal de 1988 aplicam-se apenas aos brasileiros e aos residentes no país.",
+      "E": "Alguns direitos fundamentais aplicam-se não só nas relações dos indivíduos com o Estado, mas também entre pessoas privadas, no que se conhece como eficácia horizontal desses direitos."
+    },
+    "answer": "E",
+    "answer_basis": "gabarito explícito nas justificativas",
+    "topic": "Direitos e garantias fundamentais",
+    "subtopic": "Eficácia horizontal dos direitos fundamentais",
+    "comment": "A eficácia horizontal reconhece a incidência de direitos fundamentais também nas relações entre particulares.",
+    "source": {
+      "url": "https://www.cebraspe.org.br/concursos/pc_pe_23"
+    }
+  },
+  {
+    "source_id": "source_4",
+    "board": "Cebraspe",
+    "exam": "PCPE Delegado",
+    "year": 2023,
+    "questionNumber": 4,
+    "page": 3,
+    "prompt": "Em relação aos remédios processuais constitucionais, assinale a opção correta.",
+    "options": {
+      "A": "A ação de habeas corpus é cabível apenas quando alguém tenha sofrido restrição ilegal de sua liberdade de locomoção e não deve substituir recurso no processo penal.",
+      "B": "A ação de habeas corpus não é adequada para proteger o direito dos usuários de internet navegarem por sítios eletrônicos, porque a liberdade de locomoção que ela protege é a física.",
+      "C": "Com o advento da Lei Geral de Proteção de Dados Pessoais (LGPD), firmou-se o entendimento de que não mais cabe habeas data contra pessoa jurídica de direito privado.",
+      "D": "Não cabe ação de mandado de segurança contra atos praticados em sociedade de economia mista, dada a natureza delas de pessoa jurídica de direito privado.",
+      "E": "Devido à existência do controle concentrado de constitucionalidade, não cabe mandado de segurança contra ato do Poder Legislativo."
+    },
+    "answer": "B",
+    "answer_basis": "gabarito explícito nas justificativas",
+    "topic": "Remédios constitucionais",
+    "subtopic": "Habeas corpus e mandado de segurança",
+    "comment": "O habeas corpus tutela a liberdade de locomoção física, não a navegação virtual na internet.",
+    "source": {
+      "url": "https://www.cebraspe.org.br/concursos/pc_pe_23"
+    }
+  },
+  {
+    "source_id": "source_4",
+    "board": "Cebraspe",
+    "exam": "PCPE Delegado",
+    "year": 2023,
+    "questionNumber": 5,
+    "page": 4,
+    "prompt": "No que diz respeito às atribuições das polícias na Constituição Federal de 1988 (CF), julgue os seguintes itens.",
+    "options": {
+      "I": "Cabe às polícias civis a apuração de todas as infrações penais, salvo as infrações militares.",
+      "II": "É juridicamente válida a criação, por lei estadual, de órgão de polícia científica que não necessariamente componha a estrutura da Polícia Civil.",
+      "III": "As polícias de investigação criminal também exercem atividade administrativa não voltada à elucidação de infrações penais.",
+      "A": "Apenas o item I está certo.",
+      "B": "Apenas o item III está certo.",
+      "C": "Apenas os itens I e II estão certos.",
+      "D": "Apenas os itens II e III estão certos.",
+      "E": "Todos os itens estão certos."
+    },
+    "answer": "D",
+    "answer_basis": "gabarito explícito nas justificativas",
+    "topic": "Segurança pública",
+    "subtopic": "Atribuições e organização dos órgãos policiais",
+    "comment": "Os itens II e III estão certos; o item I é errado porque ressalva também a competência da União.",
+    "source": {
+      "url": "https://www.cebraspe.org.br/concursos/pc_pe_23"
+    }
+  },
+  {
+    "source_id": "source_4",
+    "board": "Cebraspe",
+    "exam": "PCPE Delegado",
+    "year": 2023,
+    "questionNumber": 6,
+    "page": 5,
+    "prompt": "A respeito da Convenção Americana sobre Direitos Humanos (CADH), também conhecida como Pacto de São José da Costa Rica, assinale a opção correta.",
+    "options": {
+      "A": "No sistema da CADH, os direitos essenciais das pessoas dependem da nacionalidade delas.",
+      "B": "Os Estados signatários da CADH têm não somente o dever de obedecer às disposições da convenção como o de aprovar medidas internas, legislativas e de outras espécies, conforme necessário, a fim de gerar plena observância dela.",
+      "C": "A CADH não veda nem estabelece restrições à aplicação da pena de morte, desde que esta esteja definida na legislação dos países e desde que estes garantam o devido processo legal aos acusados.",
+      "D": "O direito ao duplo grau de jurisdição, que é aplicado em todos os processos criminais no Brasil, decorre da CADH.",
+      "E": "A CADH protege, sem limitações, o direito de reunião pacífica e sem armas."
+    },
+    "answer": "B",
+    "answer_basis": "gabarito explícito nas justificativas",
+    "topic": "Direitos humanos com fundamento constitucional",
+    "subtopic": "Convenção Americana sobre Direitos Humanos",
+    "comment": "A CADH impõe tanto o dever de respeitar e garantir direitos quanto o de adotar medidas internas para efetivá-los.",
+    "source": {
+      "url": "https://www.cebraspe.org.br/concursos/pc_pe_23"
+    }
+  },
+  {
+    "source_id": "source_4",
+    "board": "Cebraspe",
+    "exam": "PCPE Delegado",
+    "year": 2023,
+    "questionNumber": 7,
+    "page": 6,
+    "prompt": "No que se refere aos estados federados, assinale a opção correta.",
+    "options": {
+      "A": "As competências dos estados federados são orientadas pelo princípio da exclusividade do interesse, o qual dispõe que as matérias de interesse exclusivamente regional interessam apenas aos estados.",
+      "B": "Em virtude da repartição de competências que a CF define, os estados federados encontram espaço para exercer certo grau de soberania, embora de forma limitada.",
+      "C": "O poder constituinte que os estados podem exercer na produção de suas constituições se caracteriza por ser inicial e independente, embora não seja ilimitado.",
+      "D": "Na repartição de competências não tributárias, as competências que a CF não tenha atribuído à União ou aos municípios cabem, em princípio, aos estados-membros.",
+      "E": "Em respeito às competências dos estados e à capacidade de que produzam sua própria constituição, as limitações ao poder decorrente são apenas as expressas na CF."
+    },
+    "answer": "D",
+    "answer_basis": "gabarito explícito nas justificativas",
+    "topic": "Organização político-administrativa",
+    "subtopic": "Estados-membros e repartição de competências",
+    "comment": "A competência residual não tributária pertence, em princípio, aos estados-membros, enquanto os entes subnacionais têm autonomia, não soberania.",
+    "source": {
+      "url": "https://www.cebraspe.org.br/concursos/pc_pe_23"
+    }
+  },
+  {
+    "source_id": "source_4",
+    "board": "Cebraspe",
+    "exam": "PCPE Delegado",
+    "year": 2023,
+    "questionNumber": 8,
+    "page": 7,
+    "prompt": "Com relação aos servidores públicos, assinale a opção correta.",
+    "options": {
+      "A": "Quaisquer servidores públicos eleitos para exercer mandato eletivo precisam afastar-se do exercício de suas funções anteriores.",
+      "B": "O tempo de serviço do servidor afastado para exercer mandato eletivo contará para todos os fins legais, inclusive para efeito de promoções por merecimento.",
+      "C": "Os servidores públicos em geral gozam das garantias de estabilidade e efetividade.",
+      "D": "O tempo de serviço prestado a um ente da federação deve ser computado no estágio probatório do servidor aprovado para cargo de outro ente.",
+      "E": "A legislação infraconstitucional não pode, em princípio, definir a remuneração de um cargo público como percentual da remuneração de outro cargo."
+    },
+    "answer": "E",
+    "answer_basis": "gabarito explícito nas justificativas",
+    "topic": "Administração pública",
+    "subtopic": "Servidores públicos e vinculação remuneratória",
+    "comment": "A Constituição veda a vinculação ou equiparação de espécies remuneratórias para remuneração de pessoal do serviço público.",
+    "source": {
+      "url": "https://www.cebraspe.org.br/concursos/pc_pe_23"
+    }
+  },
+  {
+    "source_id": "source_4",
+    "board": "Cebraspe",
+    "exam": "PCPE Delegado",
+    "year": 2023,
+    "questionNumber": 9,
+    "page": 8,
+    "prompt": "No que diz respeito ao Ministério Público, assinale a opção correta.",
+    "options": {
+      "A": "Como órgão essencial à função jurisdicional, o Ministério Público deve intervir em todos os processos judiciais.",
+      "B": "A defesa do regime democrático por parte do Ministério Público compreende apenas a atuação do órgão no processo eleitoral.",
+      "C": "O princípio da indivisibilidade é o que fundamenta a possibilidade de substituição de membros do Ministério Público uns pelos outros em processos.",
+      "D": "Os membros do Ministério Público são regidos pelo regime estatutário dos servidores públicos em geral.",
+      "E": "Em casos excepcionais, a fim de evitar atrasos na prestação jurisdicional, um juiz pode designar membro do Ministério Público ad hoc, para atuar em um processo."
+    },
+    "answer": "C",
+    "answer_basis": "gabarito explícito nas justificativas",
+    "topic": "Funções essenciais à justiça",
+    "subtopic": "Ministério Público e seus princípios institucionais",
+    "comment": "A indivisibilidade permite a substituição dos membros do Ministério Público, pois eles não se vinculam pessoalmente aos processos.",
+    "source": {
+      "url": "https://www.cebraspe.org.br/concursos/pc_pe_23"
+    }
+  },
+  {
+    "source_id": "source_4",
+    "board": "Cebraspe",
+    "exam": "PCPE Delegado",
+    "year": 2023,
+    "questionNumber": 10,
+    "page": 9,
+    "prompt": "No que diz respeito a impostos, julgue os seguintes itens.",
+    "options": {
+      "I": "Característica fundamental dos impostos é a de serem desvinculados de qualquer atividade específica do Estado.",
+      "II": "No caso de impostos ligados a fatos geradores específicos, como o imposto sobre a propriedade territorial urbana, sua receita é atrelada a determinados gastos do ente tributante.",
+      "III": "A União e os estados-membros, mas não os municípios, podem instituir impostos sobre fatos geradores não discriminados na CF, desde que observem as garantias dos contribuintes nela previstas.",
+      "A": "Apenas o item I está certo.",
+      "B": "Apenas o item III está certo.",
+      "C": "Apenas os itens I e II estão certos.",
+      "D": "Apenas os itens II e III estão certos.",
+      "E": "Todos os itens estão certos."
+    },
+    "answer": "A",
+    "answer_basis": "gabarito explícito nas justificativas",
+    "topic": "Tributação",
+    "subtopic": "Impostos e repartição de receitas tributárias",
+    "comment": "Somente o item I está certo: impostos não têm receita vinculada a atividade ou despesa estatal específica.",
+    "source": {
+      "url": "https://www.cebraspe.org.br/concursos/pc_pe_23"
+    }
+  },
+  {
+    "source_id": "source_4",
+    "board": "Cebraspe",
+    "exam": "PCPE Delegado",
+    "year": 2023,
+    "questionNumber": 11,
+    "page": 10,
+    "prompt": "No que se refere à política urbana, agrícola e fundiária e à reforma agrária, assinale a opção correta.",
+    "options": {
+      "A": "Na execução da política fundiária, todos os imóveis classificados como latifúndios se sujeitam, em princípio, a desapropriação para fins de reforma agrária.",
+      "B": "Aspectos ligados ao cumprimento da legislação trabalhista não são juridicamente apropriados para definição de imóveis aptos a desapropriação para fins de reforma agrária.",
+      "C": "Em respeito à autonomia municipal, a CF preconiza a adoção de plano diretor como recomendação para os municípios, sem caráter vinculante.",
+      "D": "Um imóvel pode ser produtivo e, ao mesmo tempo, não cumprir sua função social, caso em que poderá ser objeto de desapropriação para fins de reforma agrária.",
+      "E": "Devido à proteção do direito de propriedade como direito fundamental, são limitados os meios de execução da política urbana, sendo proibido ao poder público, por exemplo, exigir edificação compulsória em imóvel."
+    },
+    "answer": "D",
+    "answer_basis": "gabarito explícito nas justificativas",
+    "topic": "Ordem econômica e política urbana",
+    "subtopic": "Função social da propriedade e reforma agrária",
+    "comment": "A produtividade isolada não basta para cumprir a função social; o descumprimento de outros requisitos pode permitir a desapropriação.",
+    "source": {
+      "url": "https://www.cebraspe.org.br/concursos/pc_pe_23"
+    }
+  },
+  {
+    "source_id": "source_4",
+    "board": "Cebraspe",
+    "exam": "PCPE Delegado",
+    "year": 2023,
+    "questionNumber": 12,
+    "page": 10,
+    "prompt": "Em relação à segurança pública, assinale a opção correta de acordo com a constituição do estado de Pernambuco.",
+    "options": {
+      "A": "Os órgãos que compõem a segurança pública no estado de Pernambuco organizam-se em carreira e de forma hierarquizada.",
+      "B": "São órgãos permanentes da segurança pública do estado de Pernambuco apenas a Polícia Civil, a Polícia Militar e o Corpo de Bombeiros Militar.",
+      "C": "A única finalidade da segurança pública, no sistema da Constituição de Pernambuco, é preservar a ordem pública.",
+      "D": "O órgão de polícia científica no Estado de Pernambuco deve ser chefiado por delegado de polícia.",
+      "E": "A atividade de polícia ostensiva compete, no Estado de Pernambuco, à Polícia Militar e à Polícia Penal."
+    },
+    "answer": "A",
+    "answer_basis": "gabarito explícito nas justificativas",
+    "topic": "Segurança pública",
+    "subtopic": "Organização da segurança pública na Constituição de Pernambuco",
+    "comment": "O art. 102 da Constituição pernambucana prevê a estruturação dos órgãos em carreira, com aplicação dos princípios da hierarquia e disciplina.",
+    "source": {
+      "url": "https://www.cebraspe.org.br/concursos/pc_pe_23"
+    }
+  }
+]

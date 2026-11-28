@@ -1,0 +1,268 @@
+[
+  {
+    "source_id": "source_5",
+    "board": "CEBRASPE",
+    "exam": "Polícia Federal",
+    "year": 2025,
+    "questionNumber": 13,
+    "page": 1,
+    "prompt": "Na ADI por omissão, pode o STF, excepcionalmente, em caso de urgência e relevância da matéria, conceder medida cautelar sem a prévia audiência dos órgãos ou das autoridades responsáveis pela omissão inconstitucional.",
+    "options": {
+      "Certo": "C",
+      "Errado": "E"
+    },
+    "answer": "Certo",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Controle de constitucionalidade",
+    "subtopic": "Ação direta de inconstitucionalidade por omissão",
+    "comment": "A Lei nº 9.868/1999 admite, em caso de excepcional urgência e relevância, cautelar em ADI por omissão sem audiência prévia.",
+    "source": "https://www.cebraspe.org.br/concursos/pf_25"
+  },
+  {
+    "source_id": "source_5",
+    "board": "CEBRASPE",
+    "exam": "Polícia Federal",
+    "year": 2025,
+    "questionNumber": 14,
+    "page": 1,
+    "prompt": "Em sede de ADI, a medida cautelar será concedida por decisão da maioria absoluta dos membros do STF.",
+    "options": {
+      "Certo": "C",
+      "Errado": "E"
+    },
+    "answer": "Certo",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Controle de constitucionalidade",
+    "subtopic": "Medida cautelar em ação direta de inconstitucionalidade",
+    "comment": "A cautelar em ADI depende, como regra, do voto da maioria absoluta dos ministros do STF.",
+    "source": "https://www.cebraspe.org.br/concursos/pf_25"
+  },
+  {
+    "source_id": "source_5",
+    "board": "CEBRASPE",
+    "exam": "Polícia Federal",
+    "year": 2025,
+    "questionNumber": 15,
+    "page": 1,
+    "prompt": "O STF reconheceu a mora do Congresso Nacional na regulamentação do dispositivo que prevê a excepcional participação dos trabalhadores urbanos e rurais na gestão da empresa, tendo fixado o prazo de 24 meses, a contar da publicação da ata do julgamento, para a adoção das medidas legislativas pertinentes à omissão.",
+    "options": {
+      "Certo": "C",
+      "Errado": "E"
+    },
+    "answer": "Errado",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Direitos sociais",
+    "subtopic": "Participação dos trabalhadores na gestão da empresa",
+    "comment": "Embora exista mora legislativa relativa ao art. 7º, XI, da Constituição, o prazo indicado no item não corresponde ao prazo fixado pelo STF.",
+    "source": "https://www.cebraspe.org.br/concursos/pf_25"
+  },
+  {
+    "source_id": "source_5",
+    "board": "CEBRASPE",
+    "exam": "Polícia Federal",
+    "year": 2025,
+    "questionNumber": 16,
+    "page": 1,
+    "prompt": "Considere que uma empresa jornalística tenha publicado entrevista na qual o entrevistado tenha imputado falsamente a prática de crime a terceiro, mesmo havendo, à época da divulgação da informação, indícios concretos da falsidade da imputação, de modo que não fora observado o dever de cuidado da veracidade dos fatos. Nessa situação, em razão da proteção constitucional à liberdade de imprensa, a empresa jornalística que publicou a entrevista não será responsabilizada.",
+    "options": {
+      "Certo": "C",
+      "Errado": "E"
+    },
+    "answer": "Errado",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Direitos e garantias fundamentais",
+    "subtopic": "Liberdade de imprensa e responsabilidade civil",
+    "comment": "A liberdade de imprensa não afasta a responsabilização quando há divulgação negligente de imputação sabidamente ou concretamente falsa.",
+    "source": "https://www.cebraspe.org.br/concursos/pf_25"
+  },
+  {
+    "source_id": "source_5",
+    "board": "CEBRASPE",
+    "exam": "Polícia Federal",
+    "year": 2025,
+    "questionNumber": 17,
+    "page": 1,
+    "prompt": "É inconstitucional lei de iniciativa parlamentar que cria conselho de representantes da sociedade civil, integrante da estrutura do Poder Legislativo, com atribuição de acompanhar ações do Poder Executivo.",
+    "options": {
+      "Certo": "C",
+      "Errado": "E"
+    },
+    "answer": "Certo",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Organização dos Poderes",
+    "subtopic": "Separação de poderes e iniciativa legislativa",
+    "comment": "A criação de órgão integrante da estrutura do Legislativo por iniciativa parlamentar invade matéria reservada à organização interna da Casa legislativa.",
+    "source": "https://www.cebraspe.org.br/concursos/pf_25"
+  },
+  {
+    "source_id": "source_5",
+    "board": "CEBRASPE",
+    "exam": "Polícia Federal",
+    "year": 2025,
+    "questionNumber": 18,
+    "page": 1,
+    "prompt": "É possível a edição de medida provisória que trate de matérias relacionadas a cidadania e a direito civil, tributário, urbanístico e financeiro.",
+    "options": {
+      "Certo": "C",
+      "Errado": "E"
+    },
+    "answer": "Errado",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Processo legislativo",
+    "subtopic": "Limitações materiais às medidas provisórias",
+    "comment": "A Constituição veda medida provisória sobre cidadania; a inclusão dessa matéria torna o enunciado incorreto.",
+    "source": "https://www.cebraspe.org.br/concursos/pf_25"
+  },
+  {
+    "source_id": "source_5",
+    "board": "CEBRASPE",
+    "exam": "Polícia Federal",
+    "year": 2025,
+    "questionNumber": 19,
+    "page": 1,
+    "prompt": "Não tem direito a imunidade parlamentar o deputado ou senador que assumir o cargo de ministro de Estado, estando ele, nesse caso, sujeito à responsabilização pelos atos que praticar.",
+    "options": {
+      "Certo": "C",
+      "Errado": "E"
+    },
+    "answer": "Errado",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Organização dos Poderes",
+    "subtopic": "Imunidades parlamentares",
+    "comment": "O parlamentar licenciado para exercer o cargo de ministro de Estado conserva a imunidade material por suas opiniões, palavras e votos.",
+    "source": "https://www.cebraspe.org.br/concursos/pf_25"
+  },
+  {
+    "source_id": "source_5",
+    "board": "CEBRASPE",
+    "exam": "Polícia Federal",
+    "year": 2025,
+    "questionNumber": 20,
+    "page": 1,
+    "prompt": "É competência privativa do Senado Federal aprovar previamente a escolha dos chefes de missão diplomática de caráter permanente.",
+    "options": {
+      "Certo": "C",
+      "Errado": "E"
+    },
+    "answer": "Certo",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Organização dos Poderes",
+    "subtopic": "Competências do Senado Federal",
+    "comment": "A aprovação prévia da escolha de chefes de missão diplomática permanente é atribuição privativa do Senado Federal.",
+    "source": "https://www.cebraspe.org.br/concursos/pf_25"
+  },
+  {
+    "source_id": "source_5",
+    "board": "CEBRASPE",
+    "exam": "Polícia Federal",
+    "year": 2025,
+    "questionNumber": 21,
+    "page": 1,
+    "prompt": "A ordem social tem como fundamentos o trabalho e a justiça social e, como objetivos, o bem-estar e a distribuição de renda.",
+    "options": {
+      "Certo": "C",
+      "Errado": "E"
+    },
+    "answer": "Errado",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Ordem social",
+    "subtopic": "Fundamentos e objetivos da ordem social",
+    "comment": "O art. 193 da Constituição estabelece o primado do trabalho e, como objetivo, o bem-estar e a justiça sociais.",
+    "source": "https://www.cebraspe.org.br/concursos/pf_25"
+  },
+  {
+    "source_id": "source_5",
+    "board": "CEBRASPE",
+    "exam": "Polícia Federal",
+    "year": 2025,
+    "questionNumber": 22,
+    "page": 1,
+    "prompt": "A tradicionalidade da ocupação indígena abrange as áreas habitadas por indígenas em caráter permanente, as utilizadas para suas atividades produtivas, as imprescindíveis à preservação dos recursos ambientais necessários a seu bem-estar e as necessárias à sua reprodução física e cultural sempre segundo os usos, costumes e tradição da comunidade.",
+    "options": {
+      "Certo": "C",
+      "Errado": "E"
+    },
+    "answer": "Certo",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Direitos indígenas",
+    "subtopic": "Terras tradicionalmente ocupadas",
+    "comment": "O enunciado reproduz os elementos constitucionais das terras tradicionalmente ocupadas pelos povos indígenas.",
+    "source": "https://www.cebraspe.org.br/concursos/pf_25"
+  },
+  {
+    "source_id": "source_5",
+    "board": "CEBRASPE",
+    "exam": "Polícia Federal",
+    "year": 2025,
+    "questionNumber": 23,
+    "page": 2,
+    "prompt": "Segundo a concepção política, a Constituição é um complexo normativo estabelecido de uma só vez, em que, de maneira total, exaustiva e sistemática, são estabelecidas as funções fundamentais do Estado e regulados os órgãos, o âmbito de suas competências e as relações entre eles.",
+    "options": {
+      "Certo": "C",
+      "Errado": "E"
+    },
+    "answer": "Errado",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Teoria da Constituição",
+    "subtopic": "Concepções sociológica, política e jurídica",
+    "comment": "A descrição corresponde à concepção jurídica, associada à Constituição como sistema normativo, e não à concepção política.",
+    "source": "https://www.cebraspe.org.br/concursos/pf_25"
+  },
+  {
+    "source_id": "source_5",
+    "board": "CEBRASPE",
+    "exam": "Polícia Federal",
+    "year": 2025,
+    "questionNumber": 24,
+    "page": 2,
+    "prompt": "O sociologismo constitucional fundamenta-se em afirmações como, por exemplo, a de que a Constituição é imanência das situações e estruturas sociais do presente e a de que a Constituição não se sustenta em uma norma transcendente.",
+    "options": {
+      "Certo": "C",
+      "Errado": "E"
+    },
+    "answer": "Certo",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Teoria da Constituição",
+    "subtopic": "Sentido sociológico da Constituição",
+    "comment": "O sociologismo explica a Constituição a partir dos fatores e estruturas sociais concretos, sem fundamento normativo transcendente.",
+    "source": "https://www.cebraspe.org.br/concursos/pf_25"
+  },
+  {
+    "source_id": "source_5",
+    "board": "CEBRASPE",
+    "exam": "Polícia Federal",
+    "year": 2025,
+    "questionNumber": 41,
+    "page": 2,
+    "prompt": "Não cabe mandado de segurança individual para a proteção de interesses coletivos ou a defesa da ordem jurídica de forma abstrata.",
+    "options": {
+      "Certo": "C",
+      "Errado": "E"
+    },
+    "answer": "Certo",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Direitos e garantias fundamentais",
+    "subtopic": "Mandado de segurança individual",
+    "comment": "O mandado de segurança individual tutela direito líquido e certo do impetrante, não interesses coletivos em abstrato nem a ordem jurídica abstratamente considerada.",
+    "source": "https://www.cebraspe.org.br/concursos/pf_25"
+  },
+  {
+    "source_id": "source_5",
+    "board": "CEBRASPE",
+    "exam": "Polícia Federal",
+    "year": 2025,
+    "questionNumber": 42,
+    "page": 2,
+    "prompt": "A demonstração de prejuízo material aos cofres públicos não é condição para o cabimento da ação popular.",
+    "options": {
+      "Certo": "C",
+      "Errado": "E"
+    },
+    "answer": "Certo",
+    "answer_basis": "solução jurídica independente",
+    "topic": "Direitos e garantias fundamentais",
+    "subtopic": "Ação popular",
+    "comment": "A ação popular pode ser ajuizada para anular ato lesivo ao patrimônio público, à moralidade administrativa, ao meio ambiente ou ao patrimônio histórico-cultural, sem exigir dano material efetivo aos cofres públicos.",
+    "source": "https://www.cebraspe.org.br/concursos/pf_25"
+  }
+]

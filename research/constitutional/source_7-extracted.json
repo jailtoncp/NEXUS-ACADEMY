@@ -1,0 +1,178 @@
+[
+  {
+    "source_id": "source_7",
+    "board": "Cebraspe",
+    "exam": "PCMA Delegado",
+    "year": 2026,
+    "source": "https://cdn.cebraspe.org.br/concursos/pc_ma_26_delegado/arquivos/656D00BAE831C932D2309E85E6891E3D78938C176E115A3AFEEF23B66F3D607E.pdf",
+    "answer_basis": "solução jurídica independente",
+    "questionNumber": 29,
+    "page": 8,
+    "prompt": "Com base nas disposições da Constituição do Estado do Maranhão acerca das limitações do poder de tributar, assinale a opção correta.",
+    "options": {
+      "A": "A anistia ou remissão que envolva matéria tributária estadual pode ser formalizada por decreto do Poder Executivo, dispensada a edição de lei específica, desde que o ato normativo indique expressamente os créditos abrangidos e observe os limites fixados na lei orçamentária anual.",
+      "B": "É permitido conceder privilégio fiscal a sociedade de economia mista ou a empresa pública que não seja extensivo ao setor privado.",
+      "C": "A imunidade tributária de partidos políticos e de entidades sindicais abrange todo o seu patrimônio e a sua renda, ainda que alheios às suas finalidades essenciais.",
+      "D": "A proibição de instituir impostos sobre patrimônio, renda ou serviços de um ente federativo em relação a outro estende-se às autarquias e fundações públicas quanto ao patrimônio, à renda e aos serviços vinculados às suas finalidades essenciais, não abrangendo atividade econômica regida por normas aplicáveis a empreendimentos privados.",
+      "E": "É permitido cobrar tributo por fatos geradores ocorridos antes do início de sua vigência, desde que a cobrança somente se efetive no exercício financeiro subsequente ao da sua instituição."
+    },
+    "answer": "D",
+    "topic": "Direito Constitucional",
+    "subtopic": "limitações constitucionais ao poder de tributar",
+    "comment": "A imunidade recíproca alcança autarquias e fundações públicas quanto às finalidades essenciais, mas não protege atividade econômica submetida ao regime privado."
+  },
+  {
+    "source_id": "source_7",
+    "board": "Cebraspe",
+    "exam": "PCMA Delegado",
+    "year": 2026,
+    "source": "https://cdn.cebraspe.org.br/concursos/pc_ma_26_delegado/arquivos/656D00BAE831C932D2309E85E6891E3D78938C176E115A3AFEEF23B66F3D607E.pdf",
+    "answer_basis": "solução jurídica independente",
+    "questionNumber": 30,
+    "page": 9,
+    "prompt": "Considerando o disposto na Constituição Federal de 1988 (CF), assinale a opção correta acerca da nacionalidade brasileira.",
+    "options": {
+      "A": "Os cargos de governador de estado e de juiz de paz são privativos de brasileiro nato.",
+      "B": "Ao legislador infraconstitucional é vedado diferenciar brasileiros natos de naturalizados, salvo nas hipóteses que a própria CF expressamente contemplar.",
+      "C": "A perda da nacionalidade brasileira é consequência automática da aquisição voluntária de outra nacionalidade, independentemente da manifestação de vontade do interessado.",
+      "D": "O filho de mãe brasileira nascido no exterior adquire nacionalidade originária automaticamente, independentemente de registro consular ou de opção posterior, ainda que sua genitora não esteja a serviço do Brasil no exterior.",
+      "E": "A exigência de apenas um ano de residência ininterrupta e idoneidade moral para a naturalização aplica-se a qualquer estrangeiro, independentemente do país de origem, por ser garantia fundada em direitos humanos."
+    },
+    "answer": "B",
+    "topic": "Direito Constitucional",
+    "subtopic": "nacionalidade",
+    "comment": "A Constituição só admite distinções entre brasileiros natos e naturalizados nos casos expressamente previstos e não autoriza diferenciação infraconstitucional autônoma."
+  },
+  {
+    "source_id": "source_7",
+    "board": "Cebraspe",
+    "exam": "PCMA Delegado",
+    "year": 2026,
+    "source": "https://cdn.cebraspe.org.br/concursos/pc_ma_26_delegado/arquivos/656D00BAE831C932D2309E85E6891E3D78938C176E115A3AFEEF23B66F3D607E.pdf",
+    "answer_basis": "solução jurídica independente",
+    "questionNumber": 31,
+    "page": 9,
+    "prompt": "À luz das normas da CF sobre o processo de emenda constitucional, assinale a opção correta.",
+    "options": {
+      "A": "Rejeitada a proposta de emenda constitucional, sua matéria não poderá ser objeto de nova proposta durante a vigência do governo sob a qual foi rejeitada.",
+      "B": "A tramitação de proposta de emenda constitucional apresentada na vigência de estado de sítio regularmente decretado não pode prosseguir enquanto perdurar o estado de sítio.",
+      "C": "A aprovação de emenda constitucional exige um único turno de votação em cada casa do Congresso Nacional, sendo suficiente o voto favorável da maioria absoluta dos membros.",
+      "D": "Proposta de emenda constitucional pode ser apresentada por iniciativa de mais da metade das assembleias legislativas das unidades da Federação, exigindo-se, em cada uma delas, a manifestação pela maioria absoluta de seus membros.",
+      "E": "Proposta de emenda constitucional pode ser apresentada por iniciativa individual de qualquer deputado federal, dispensada a subscrição mínima de um terço dos membros da casa legislativa quando o parlamentar ocupa a função de líder da bancada de seu partido."
+    },
+    "answer": "nenhuma alternativa",
+    "topic": "Direito Constitucional",
+    "subtopic": "processo legislativo de emenda constitucional",
+    "comment": "A questão apresenta vício: o art. 60, III, da CF exige manifestação da maioria relativa dos membros de mais da metade das assembleias legislativas, e não maioria absoluta; as demais alternativas também contrariam o art. 60. A resposta juridicamente adequada é “nenhuma alternativa”."
+  },
+  {
+    "source_id": "source_7",
+    "board": "Cebraspe",
+    "exam": "PCMA Delegado",
+    "year": 2026,
+    "source": "https://cdn.cebraspe.org.br/concursos/pc_ma_26_delegado/arquivos/656D00BAE831C932D2309E85E6891E3D78938C176E115A3AFEEF23B66F3D607E.pdf",
+    "answer_basis": "solução jurídica independente",
+    "questionNumber": 32,
+    "page": 9,
+    "prompt": "Acerca da organização da segurança pública e das atribuições constitucionais de seus órgãos, assinale a opção correta de acordo com a CF.",
+    "options": {
+      "A": "Os municípios poderão constituir guardas municipais com atribuições de polícia judiciária para a apuração de infrações penais relacionadas à proteção de seus bens, serviços e instalações.",
+      "B": "As polícias civis têm as funções de polícia judiciária e competência para apurar infrações penais em regime de competência concorrente com a Polícia Federal, inclusive quanto às infrações de repercussão interestadual ou internacional.",
+      "C": "As polícias militares e os corpos de bombeiros militares, forças auxiliares e reserva do Exército Brasileiro, subordinam-se hierarquicamente ao Comando do Exército.",
+      "D": "A Polícia Federal tem competência constitucional para exercer as funções de polícia marítima, aeroportuária e de fronteiras, além de competência exclusiva para exercer as funções de polícia judiciária da União.",
+      "E": "A Polícia Rodoviária Federal destina-se ao patrulhamento ostensivo das rodovias federais, incumbindo-lhe também a apuração das infrações penais nelas cometidas."
+    },
+    "answer": "D",
+    "topic": "Direito Constitucional",
+    "subtopic": "segurança pública",
+    "comment": "O art. 144, §1º, atribui à Polícia Federal a polícia marítima, aeroportuária e de fronteiras e a polícia judiciária da União."
+  },
+  {
+    "source_id": "source_7",
+    "board": "Cebraspe",
+    "exam": "PCMA Delegado",
+    "year": 2026,
+    "source": "https://cdn.cebraspe.org.br/concursos/pc_ma_26_delegado/arquivos/656D00BAE831C932D2309E85E6891E3D78938C176E115A3AFEEF23B66F3D607E.pdf",
+    "answer_basis": "solução jurídica independente",
+    "questionNumber": 33,
+    "page": 9,
+    "prompt": "Assinale a opção correta a respeito dos direitos e garantias individuais previstos na CF.",
+    "options": {
+      "A": "Constatada a ilegalidade da prisão, cabe à autoridade policial responsável pela custódia deliberar sobre o relaxamento da medida, no prazo legal de 72 horas.",
+      "B": "A prisão fora de flagrante delito pode ser efetivada mediante ordem verbal de autoridade judiciária competente, dispensada a forma escrita, em situações de urgência que recomendem a medida imediata.",
+      "C": "A prisão de qualquer pessoa deve ser comunicada imediatamente à autoridade judiciária competente, e não à família do preso ou à pessoa por ele indicada, em razão do sigilo das investigações em curso.",
+      "D": "É terminantemente vedada a prisão civil por dívida, inclusive na hipótese de inadimplemento voluntário e inescusável de obrigação alimentícia, que deve ser satisfeita exclusivamente por meio de execução patrimonial do devedor.",
+      "E": "Quando a lei autorizar a liberdade provisória, com ou sem fiança, o preso não deve ser recolhido à prisão ou nela mantido."
+    },
+    "answer": "E",
+    "topic": "Direito Constitucional",
+    "subtopic": "direitos e garantias individuais",
+    "comment": "O art. 5º, LXVI, determina que ninguém será levado à prisão ou nela mantido quando a lei admitir liberdade provisória, com ou sem fiança."
+  },
+  {
+    "source_id": "source_7",
+    "board": "Cebraspe",
+    "exam": "PCMA Delegado",
+    "year": 2026,
+    "source": "https://cdn.cebraspe.org.br/concursos/pc_ma_26_delegado/arquivos/656D00BAE831C932D2309E85E6891E3D78938C176E115A3AFEEF23B66F3D607E.pdf",
+    "answer_basis": "solução jurídica independente",
+    "questionNumber": 34,
+    "page": 9,
+    "prompt": "Assinale a opção correta a respeito das comissões parlamentares de inquérito (CPI).",
+    "options": {
+      "A": "A criação de CPI depende de requerimento subscrito pela maioria absoluta dos membros da respectiva casa legislativa.",
+      "B": "As CPI têm competência para presidir inquérito policial, substituindo a atuação da polícia judiciária na apuração dos fatos objeto da investigação.",
+      "C": "As conclusões da CPI serão, quando cabível, encaminhadas ao Poder Judiciário, ao qual competirá promover eventual responsabilização civil ou criminal dos infratores.",
+      "D": "As CPI podem ser instituídas para a apuração de fatos genéricos relacionados à administração pública, cabendo à própria comissão deliberar sobre a fixação do prazo para a conclusão dos trabalhos.",
+      "E": "As CPI, criadas pela Câmara dos Deputados e pelo Senado Federal, em conjunto ou separadamente, terão poderes de investigação próprios das autoridades judiciais, além de outros previstos nos regimentos das respectivas casas legislativas."
+    },
+    "answer": "E",
+    "topic": "Direito Constitucional",
+    "subtopic": "comissões parlamentares de inquérito",
+    "comment": "A CF exige requerimento de um terço, fato determinado e prazo certo, e confere às CPI poderes investigatórios próprios das autoridades judiciais."
+  },
+  {
+    "source_id": "source_7",
+    "board": "Cebraspe",
+    "exam": "PCMA Delegado",
+    "year": 2026,
+    "source": "https://cdn.cebraspe.org.br/concursos/pc_ma_26_delegado/arquivos/656D00BAE831C932D2309E85E6891E3D78938C176E115A3AFEEF23B66F3D607E.pdf",
+    "answer_basis": "solução jurídica independente",
+    "questionNumber": 35,
+    "page": 9,
+    "prompt": "Em três situações distintas, o Congresso Nacional apreciou tratados internacionais de direitos humanos, da seguinte forma. O Tratado X foi aprovado, em sessão conjunta do Congresso Nacional, em turno único de votação, com o voto favorável de três quintos dos membros do Congresso Nacional. O Tratado Y foi aprovado, em cada casa do Congresso Nacional, em dois turnos de votação, com o voto favorável da maioria absoluta dos membros em cada turno. O Tratado Z foi aprovado, em cada casa do Congresso Nacional, em dois turnos de votação, com o voto favorável de três quintos dos membros em cada turno. Em relação a essa situação hipotética, é correto afirmar que",
+    "options": {
+      "A": "apenas o Tratado Z adquiriu hierarquia equivalente à de emenda constitucional.",
+      "B": "apenas os Tratados Y e Z adquiriram hierarquia equivalente à de emenda constitucional.",
+      "C": "apenas o Tratado X adquiriu hierarquia equivalente à de emenda constitucional.",
+      "D": "os Tratados X, Y e Z adquiriram hierarquia equivalente à de emenda constitucional.",
+      "E": "apenas os Tratados X e Y adquiriram hierarquia equivalente à de emenda constitucional."
+    },
+    "answer": "A",
+    "topic": "Direito Constitucional",
+    "subtopic": "tratados internacionais de direitos humanos",
+    "comment": "Somente o Tratado Z observou simultaneamente dois turnos em cada casa e aprovação por três quintos dos membros, requisitos do art. 5º, §3º, da CF."
+  },
+  {
+    "source_id": "source_7",
+    "board": "Cebraspe",
+    "exam": "PCMA Delegado",
+    "year": 2026,
+    "source": "https://cdn.cebraspe.org.br/concursos/pc_ma_26_delegado/arquivos/656D00BAE831C932D2309E85E6891E3D78938C176E115A3AFEEF23B66F3D607E.pdf",
+    "answer_basis": "solução jurídica independente",
+    "questionNumber": 36,
+    "page": 10,
+    "prompt": "Com base na Constituição do Estado do Maranhão, julgue os itens a seguir. I   Para a alienação de terra devoluta pelo estado do Maranhão, basta a discriminação administrativa regular da área, independentemente de demarcação prévia. II O Poder Executivo estadual pode conceder, sem prévia aprovação da Assembleia Legislativa, o uso de terras públicas cuja área respeite o limite fixado na Constituição Estadual para a dispensa dessa aprovação. III Pedido de título de domínio de terra pública destinada a assentamento rural formulado por pessoa solteira pode ser indeferido sob o fundamento de que a titularidade pressupõe a existência de vínculo conjugal. Assinale a opção correta.",
+    "options": {
+      "A": "Apenas o item I está certo.",
+      "B": "Apenas o item II está certo.",
+      "C": "Apenas os itens I e III estão certos.",
+      "D": "Apenas os itens II e III estão certos.",
+      "E": "Todos os itens estão certos."
+    },
+    "answer": "B",
+    "topic": "Direito Constitucional",
+    "subtopic": "Constituição do Estado do Maranhão; terras públicas",
+    "comment": "A dispensa constitucional de aprovação legislativa para o uso dentro do limite previsto torna o item II correto; não se exige vínculo conjugal e a alienação de terra devoluta demanda a observância das etapas legais de demarcação."
+  }
+]
